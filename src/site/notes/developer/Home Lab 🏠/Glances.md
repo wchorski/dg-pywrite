@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/glances/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Glances/","noteIcon":""}
 ---
 
 

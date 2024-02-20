@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/plex-tv/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Plex.tv/","noteIcon":""}
 ---
 
 #music #movie #tv #film #media #player

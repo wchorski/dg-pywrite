@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/nodemailer-js/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NodeJS/Nodemailer js/","noteIcon":""}
 ---
 
 how to link Gmail with Nodemailer

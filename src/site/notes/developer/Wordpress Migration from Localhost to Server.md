@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/wordpress-migration-from-localhost-to-server/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Wordpress Migration from Localhost to Server/","noteIcon":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/next-auth/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/next-auth/","noteIcon":""}
 ---
 
 #NextJS 

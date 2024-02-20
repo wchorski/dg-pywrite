@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/dolphin-emu/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/emulation 👾/Dolphin Emu/","noteIcon":""}
 ---
 
 Nintendo Gamecube & Wii emulator

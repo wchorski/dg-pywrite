@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/control-input-field-with-buttons/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Control Input Field with buttons/","noteIcon":""}
 ---
 
 #reactjs 

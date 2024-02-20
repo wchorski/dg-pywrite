@@ -5,7 +5,7 @@
 
 retro boom box
 
-![attachments/Pasted image 20221019213517.png](/img/user/attachments/Pasted%20image%2020221019213517.png)
+![attachments/getto_blaster.png](/img/user/attachments/getto_blaster.png)
 
 > [!quote]
 > **Ghetto blaster boomboxes introduced the world to a new style of listening to music. For the first time, we could take our tunes with us on the move, listen to the radio wherever we liked, and we never had to compromise on volume.**

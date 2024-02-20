@@ -65,7 +65,7 @@
     <link href="/styles/_theme.8f1d066a.css" rel="stylesheet">
 
 
-<link href="/styles/custom-style.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/pywrite.css" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -76,6 +76,8 @@
 
 
 <style></style>
+    
+      <script async src="https://soup.tawtaw.site/ramen" data-website-id="fa4f8c5b-4767-4821-b063-f62c4cb90223"></script>
     
     
   </head>
@@ -1199,7 +1201,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-02-20T18:28:37.374Z';
+        const searchIndexDate = '2024-02-20T18:47:11.702Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -1211,9 +1213,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-02-20T18:28:37.374Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-02-20T18:47:11.702Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-20T18:28:37.374Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-20T18:47:11.702Z', docs}));
             window.docs = docs
             window.index = index;
         }

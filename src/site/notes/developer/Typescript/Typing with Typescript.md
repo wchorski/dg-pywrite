@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/typescript/typing-with-typescript/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Typescript/Typing with Typescript/","noteIcon":""}
 ---
 
 

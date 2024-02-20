@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/obsidian-md/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Obsidian.md/","noteIcon":""}
 ---
 
 #notes #markdown #webdev

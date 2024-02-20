@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/backup-solutions/","tags":["linux","Thunderbird","flstudio","music"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Backup Solutions/","tags":["linux","Thunderbird","flstudio","music"],"noteIcon":""}
 ---
 
 

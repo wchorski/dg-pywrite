@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/unreal-engine/unreal-engine-and-full-stack-web-app/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/UnrealEngine/Unreal Engine and Full Stack Web app/","noteIcon":""}
 ---
 
 great article for learning how to build UI with webtools, and interface with a seperate full stack app and Unreal game

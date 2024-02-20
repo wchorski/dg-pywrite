@@ -3,14 +3,14 @@
     <title>Pywrite Garden</title>
     <link href="https://pywrite-garden.tawtaw.site//feed.xml" rel="self" >
     <link href="https://pywrite-garden.tawtaw.site/" >
-    <updated>2024-02-20T17:46:11Z</updated>
+    <updated>2024-02-20T17:46:34Z</updated>
     <id>https://pywrite-garden.tawtaw.site/</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2024-02-20T17:45:58Z</updated>
+            <updated>2024-02-20T17:46:26Z</updated>
             <id>https://pywrite-garden.tawtaw.site//</id>
             <content type="html">
                 &lt;p&gt;Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously &#39;watered&#39; over time, fixing, updating, and growing this database of notes.&lt;/p&gt;
@@ -53,7 +53,7 @@
                 Home Assistant
                 
             </title>
-            <updated>2024-02-20T17:45:58Z</updated>
+            <updated>2024-02-20T17:46:26Z</updated>
             <id>https://pywrite-garden.tawtaw.site//developer/home-lab/home-assistant/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Home Assistant (&lt;a href=&quot;http://home-assistant.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;home-assistant.io&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -159,10 +159,39 @@ sensor:
         </entry>
         <entry>
             <title>
+                CasaOS
+                
+            </title>
+            <updated>2024-02-20T17:46:26Z</updated>
+            <id>https://pywrite-garden.tawtaw.site//developer/casa-os/</id>
+            <content type="html">
+                &lt;p&gt;I tried &lt;a href=&quot;https://casaos.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CasaOS - A simple, easy-to-use, elegant open-source personal cloud system&lt;/a&gt; as a turn key solution to run a handful of self hosted apps located in a family member&#39;s network.&lt;/p&gt;
+&lt;h2 id=&quot;my-thoughts&quot; tabindex=&quot;-1&quot;&gt;My Thoughts&lt;/h2&gt;
+&lt;p&gt;Initially, it has a pretty UI and all the basic needs I&#39;d want in a n00b friendly &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;. The &lt;code&gt;App Store&lt;/code&gt; has some essential apps, but is a bit lacking. Luckily all &lt;strong&gt;CasaOS&lt;/strong&gt; is is a &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt; wrapper (similar to &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Speaking of which, it automatically creates a shortcut on the dashboard when I go spin up a container, even from the command line.&lt;/p&gt;
+&lt;p&gt;I like how it&#39;s not actually an &lt;strong&gt;Operating System&lt;/strong&gt; but an app installed onto a vanilla &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Debian&lt;/a&gt; distro. That way I can install other apps and tools in tandem.&lt;/p&gt;
+&lt;h2 id=&quot;apps&quot; tabindex=&quot;-1&quot;&gt;Apps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/PhotoPrism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Duplicati&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;SAMBA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;vaultwarden&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site//developer/casa-os/" >
+        </entry>
+        <entry>
+            <title>
                 CSS Animated Bubble Background
                 
             </title>
-            <updated>2024-02-20T17:45:58Z</updated>
+            <updated>2024-02-20T17:46:26Z</updated>
             <id>https://pywrite-garden.tawtaw.site//developer/css/css-animated-bubble-background/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&#39;canvas&#39;&amp;gt;
@@ -1701,7 +1730,7 @@ sensor:
                 CMS Page Builder
                 
             </title>
-            <updated>2024-02-20T17:45:58Z</updated>
+            <updated>2024-02-20T17:46:26Z</updated>
             <id>https://pywrite-garden.tawtaw.site//developer/cms-page-builder/</id>
             <content type="html">
                 &lt;p&gt;I&#39;m looking for a drop in page builder I can serve to customers as a benefit to the &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KYPN/KYPN Stack&lt;/a&gt; templates I&#39;m designing. &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KeystoneJS/KeystoneJS&lt;/a&gt; has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.&lt;/p&gt;
@@ -1726,7 +1755,7 @@ sensor:
                 Backup Solutions
                 
             </title>
-            <updated>2024-02-20T17:45:58Z</updated>
+            <updated>2024-02-20T17:46:26Z</updated>
             <id>https://pywrite-garden.tawtaw.site//developer/backup-solutions/</id>
             <content type="html">
                 &lt;p&gt;This is my chain of programs that help me backup and store data whether it&#39;s local clone, version controlled, and or remote sight backups&lt;/p&gt;
@@ -1799,7 +1828,7 @@ sensor:
                 Removing Samsung and Google Bloatware from Android 12
                 
             </title>
-            <updated>2024-02-20T17:45:58Z</updated>
+            <updated>2024-02-20T17:46:26Z</updated>
             <id>https://pywrite-garden.tawtaw.site//developer/android/removing-samsung-and-google-bloatware-from-android-12/</id>
             <content type="html">
                 &lt;p&gt;I tried installing &lt;a href=&quot;https://lineageos.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;LineageOS&lt;/a&gt; on my Samsung Galaxy s9 and s10 phones. Unfortunately my &lt;a href=&quot;https://wiki.lineageos.org/devices/beyond1lte/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;model wasn&#39;t supported&lt;/a&gt; (just one letter off 😑).&lt;/p&gt;

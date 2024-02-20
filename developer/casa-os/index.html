@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Removing Samsung and Google Bloatware from Android 12</title>
+    <title>CasaOS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -169,7 +169,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/android/removing-samsung-and-google-bloatware-from-android-12/">Removing Samsung and Google Bloatware from Android 12 </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/android/removing-samsung-and-google-bloatware-from-android-12/">Removing Samsung and Google Bloatware from Android 12 </a>
                 </div>
             
         </div>
@@ -265,7 +265,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/casa-os/">CasaOS </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/casa-os/">CasaOS </a>
                 </div>
             
         </div>
@@ -710,7 +710,7 @@
     <main class="content cm-s-obsidian ">
       <header>
         
-          <h1 data-note-icon="">Removing Samsung and Google Bloatware from Android 12</h1>
+          <h1 data-note-icon="">CasaOS</h1>
         
         <div class="header-meta">
           
@@ -725,74 +725,22 @@
       </header>
       
       
-      <p>I tried installing <a href="https://lineageos.org/" target="_blank" class="external-link">LineageOS</a> on my Samsung Galaxy s9 and s10 phones. Unfortunately my <a href="https://wiki.lineageos.org/devices/beyond1lte/" target="_blank" class="external-link">model wasn't supported</a> (just one letter off 😑).</p>
-<p>I still wanted to use this phone, but learn how to remove all the annoying Samsung and Google bloatware that they make impossible to remove in the phone's UI</p>
-<h2 id="list-of-apks-to-unintall" tabindex="-1">List of apks to unintall</h2>
-<p>Following this list <a href="https://www.reddit.com/r/GalaxyS9/comments/iv4p3n/adb_list_to_safely_disable_samsung_bloatware/" target="_blank" class="external-link">ADB list to safely disable Samsung Bloatware</a> and <a href="https://technastic.com/remove-samsung-bloatware-safe-to-remove-apps/" target="_blank" class="external-link">this list too</a>here is my non exhaustive list of <code>apks</code> to remove</p>
-<pre><code class="language-bash">#!/bin/bash
-
-## Remove these
-adb shell pm uninstall -k --user 0 net.supertreat.solitaire
-adb shell pm uninstall -k --user 0 com.sec.android.app.sbrowser
-adb shell pm uninstall -k --user 0 com.samsung.android.app.taskedge
-adb shell pm uninstall -k --user 0 com.samsung.android.app.clipboardedge
-adb shell pm uninstall -k --user 0 com.samsung.android.game.gametools
-adb shell pm uninstall -k --user 0 com.samsung.android.game.gamehome
-adb shell pm uninstall -k --user 0 com.samsung.android.scloud
-adb shell pm uninstall -k --user 0 com.sec.android.app.samsungapps
-adb shell pm uninstall -k --user 0 com.sec.android.widgetapp.samsungapps
-adb shell pm uninstall -k --user 0 com.samsung.android.drivelink.stub
-adb shell pm uninstall -k --user 0 com.samsung.android.service.peoplestripesamsungpassautofill
-adb shell pm uninstall -k --user 0 com.samsung.android.email.provider
-adb shell pm uninstall -k --user 0 com.samsung.andorid.fmm
-adb shell pm uninstall -k --user 0 com.samsung.android.visionarapps
-adb shell pm uninstall -k --user 0 com.mygalaxy
-adb shell pm uninstall -k --user 0 com.samsung.android.arzone
-adb shell pm uninstall -k --user 0 com.samsung.faceservice
-adb shell pm uninstall -k --user 0 com.samsung.android.calendar
-adb shell pm uninstall -k --user 0 com.samsung.android.app.reminder
-adb shell pm uninstall -k --user 0 com.samsung.android.app.simplesharing
-adb shell pm uninstall -k --user 0 com.samsung.android.app.tips
-adb shell pm uninstall -k --user 0 com.samsung.android.svoiceime
-adb shell pm uninstall -k --user 0 com.samsung.android.bixby.service
-adb shell pm uninstall -k --user 0 com.samsung.android.bixby.agent
-adb shell pm uninstall -k --user 0 com.samsung.android.bixby.wakeup
-adb shell pm uninstall -k --user 0 com.samsung.android.app.spage
-adb shell pm uninstall -k --user 0 com.samsung.android.bixby.agent.dummy
-adb shell pm uninstall -k --user 0 com.samsung.android.visionintelligence
-adb shell pm uninstall -k --user 0 flipboard.boxer.app
-adb shell pm uninstall -k --user 0 com.sec.android.app.chromecustomizations
-adb shell pm uninstall -k --user 0 com.samsung.android.mdx
-adb shell pm uninstall -k --user 0 com.microsoft.appmanager
-adb shell pm uninstall -k --user 0 com.microsoft.skydrive
-adb shell pm uninstall -k --user 0 com.google.android.apps.googleassistant
-adb shell pm uninstall -k --user 0 com.google.android.apps.docs
-adb shell pm uninstall -k --user 0 com.google.android.gm
-adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
-adb shell pm uninstall -k --user 0 com.google.android.youtube
-</code></pre>
-<h2 id="adb-commands" tabindex="-1">adb commands</h2>
-<pre><code class="language-bash">adb shell pm uninstall -k --user 0 &lt;APPFILE.apk&gt;
-adb install &lt;APPFILE.apk&gt;
-adb shell cmd package list packages
-
-**#1 Get the list of all apps**  
-`adb shell pm list packages`  
-**#2 Get the list of system apps only**  
-`adb shell pm list packages -s`  
-**#3 Get the list of all Samsung apps**  
-`adb shell pm list packages | grep 'samsung'`
-</code></pre>
-<h2 id="force-allow-apps-to-sd-card" tabindex="-1">Force allow apps to SD Card</h2>
-<p>it's a setting in the Debug menu <a class="internal-link is-unresolved" href="/404" target="">How</a> to Move Apps to SD Card on Android (How to Force Them) - YouTube</p>
-<hr>
-<h2 id="credits" tabindex="-1">Credits</h2>
+      <p>I tried <a href="https://casaos.io/" target="_blank" class="external-link">CasaOS - A simple, easy-to-use, elegant open-source personal cloud system</a> as a turn key solution to run a handful of self hosted apps located in a family member's network.</p>
+<h2 id="my-thoughts" tabindex="-1">My Thoughts</h2>
+<p>Initially, it has a pretty UI and all the basic needs I'd want in a n00b friendly <a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/Home Lab 🏠</a>. The <code>App Store</code> has some essential apps, but is a bit lacking. Luckily all <strong>CasaOS</strong> is is a <a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/Docker</a> wrapper (similar to <a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/portainer</a>).</p>
+<p>Speaking of which, it automatically creates a shortcut on the dashboard when I go spin up a container, even from the command line.</p>
+<p>I like how it's not actually an <strong>Operating System</strong> but an app installed onto a vanilla <a class="internal-link is-unresolved" href="/404" target="">Debian</a> distro. That way I can install other apps and tools in tandem.</p>
+<h2 id="apps" tabindex="-1">Apps</h2>
 <ul>
-<li></li>
-</ul>
-<h2 id="index" tabindex="-1">index</h2>
-<ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/_developer_box📦</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/home-lab/home-assistant/">developer/Home Lab 🏠/Home Assistant</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/Plex.tv</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/PhotoPrism</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">Duplicati</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/Pi-hole</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/vaultwarden</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/SAMBA</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">SAMBA</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">vaultwarden</a></li>
 </ul>
 
       
@@ -1034,19 +982,10 @@ adb shell cmd package list packages
                                           <nav class="toc">
                 <ol>
                     
-                    <li><a href="#list-of-apks-to-unintall">List of apks to unintall</a>
+                    <li><a href="#my-thoughts">My Thoughts</a>
             		</li>
 
-                    <li><a href="#adb-commands">adb commands</a>
-            		</li>
-
-                    <li><a href="#force-allow-apps-to-sd-card">Force allow apps to SD Card</a>
-            		</li>
-
-                    <li><a href="#credits">Credits</a>
-            		</li>
-
-                    <li><a href="#index">index</a>
+                    <li><a href="#apps">Apps</a>
             		</li>
                 </ol>
             </nav>

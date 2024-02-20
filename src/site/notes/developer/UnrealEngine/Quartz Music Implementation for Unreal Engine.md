@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/unreal-engine/quartz-music-implementation-for-unreal-engine/","tags":["unreal","game","gamedev","music","audio"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/UnrealEngine/Quartz Music Implementation for Unreal Engine/","tags":["unreal","game","gamedev","music","audio"],"noteIcon":""}
 ---
 
 #todo 

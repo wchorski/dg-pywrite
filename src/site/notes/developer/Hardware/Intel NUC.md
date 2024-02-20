@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/intel-nuc/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Intel NUC/","noteIcon":""}
 ---
 
 

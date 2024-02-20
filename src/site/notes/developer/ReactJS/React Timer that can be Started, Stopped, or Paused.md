@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-timer-that-can-be-started-stopped-or-paused/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Timer that can be Started, Stopped, or Paused/","noteIcon":""}
 ---
 
 #reactjs #javascript 

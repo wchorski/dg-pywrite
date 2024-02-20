@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/q-bittorrent/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/qBittorrent/","noteIcon":""}
 ---
 
 

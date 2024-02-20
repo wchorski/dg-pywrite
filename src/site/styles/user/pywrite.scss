@@ -27,6 +27,11 @@ body {
   --text-title-h6: white;
 }
 
+body, html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
+}
+
 .graph .graph-title {
   display: none;
 }
@@ -38,6 +43,25 @@ body {
   font-size: 30px;
   border-bottom: solid 1px var(--background-modifier-border-focus);
   padding-bottom: 1rem;
+}
+
+.markdown-preview-view h2, .markdown-preview-view h3 {
+  margin-top: 3rem;
+}
+// table of contents
+.toc-container {
+  max-height: fit-content;
+}
+
+.toc ol {
+  display: grid;
+  gap: .3rem;
+  padding-left: .2rem;
+  margin: 0;
+
+  a {
+    color: white !important;
+  }
 }
 
 // ::before icon of h1 title

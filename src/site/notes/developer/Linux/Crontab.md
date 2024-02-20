@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/crontab/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Crontab/","noteIcon":""}
 ---
 
 run scripts on a regular schedule

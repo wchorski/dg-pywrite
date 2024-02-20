@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/ryzen-5-5600x-custom-pc/","tags":["hardware"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Ryzen 5 5600x Custom PC/","tags":["hardware"],"noteIcon":""}
 ---
 
 

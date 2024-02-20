@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-state-machine-with-enum/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React State Machine with Enum/","noteIcon":""}
 ---
 
 #reactjs #javascript 

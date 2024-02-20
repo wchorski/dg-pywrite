@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/ssh-server-and-key-login/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Windows 10/SSH Server and Key Login/","noteIcon":""}
 ---
 
 I wanted to send commands from other computers to my **Windows 10** machine. Upon initial install of Windows, I logged in with my Microsoft account and was met with `Permission denied, please try again.` when trying passwords

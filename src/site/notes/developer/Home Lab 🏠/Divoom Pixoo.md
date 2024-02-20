@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/divoom-pixoo/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Divoom Pixoo/","noteIcon":""}
 ---
 
 ## [[divoom.com)](divoom.com\|Divoom Pixoo (divoom.com)]])

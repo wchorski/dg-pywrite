@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/rpcs-3/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/emulation 👾/RPCS3/","noteIcon":""}
 ---
 
 Playstation 3 emulator

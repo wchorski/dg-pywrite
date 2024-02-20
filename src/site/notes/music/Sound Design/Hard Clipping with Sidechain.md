@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/sound-design/hard-clipping-with-sidechain/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/Sound Design/Hard Clipping with Sidechain/","noteIcon":""}
 ---
 
 [video tut](https://www.instagram.com/reel/Cj4BXbztLOG/?utm_source=ig_web_copy_link) via [[@pedestriantactics) • Instagram photos and videos](https://www.instagram.com/pedestriantactics/\|Pedestrian Tactics (@pedestriantactics) • Instagram photos and videos]]

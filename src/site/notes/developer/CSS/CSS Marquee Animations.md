@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-marquee-animations/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Marquee Animations/","noteIcon":""}
 ---
 
 

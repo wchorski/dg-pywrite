@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/find-and-remove-multiple-objects-from-an-array/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/Find and Remove Multiple Objects from an Array/","noteIcon":""}
 ---
 
 putting a `Array.splice()` function inside of a loop can make things pretty confusing. Here is the steps of logic that got me to this function below

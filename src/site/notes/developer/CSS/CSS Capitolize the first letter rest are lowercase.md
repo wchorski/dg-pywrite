@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-capitolize-the-first-letter-rest-are-lowercase/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Capitolize the first letter rest are lowercase/","noteIcon":""}
 ---
 
 I has a string like so`WUMBO` and needed to just have the fist letter capitol. Easy (or so I thought).

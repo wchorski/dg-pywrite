@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/bash-script-status-animation/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash Script Status Animation/","noteIcon":""}
 ---
 
 ```bash

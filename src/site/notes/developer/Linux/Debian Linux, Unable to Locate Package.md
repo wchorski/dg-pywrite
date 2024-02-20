@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/debian-linux-unable-to-locate-package/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Debian Linux, Unable to Locate Package/","noteIcon":""}
 ---
 
 ## fix sources.list

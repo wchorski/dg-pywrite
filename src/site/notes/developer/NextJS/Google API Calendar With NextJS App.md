@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/google-api-calendar-with-next-js-app/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/Google API Calendar With NextJS App/","noteIcon":""}
 ---
 
 Most tutorials dealing with the [Google Calendar API](https://developers.google.com/calendar/api/quickstart/nodejs) deal with your users loggin in to add the created event to their personal calendars. In my case I have employees that I want to create/ update calendars events for a single *main* calendar, without having any login. Authorization is already set up and calendar is pointed during development

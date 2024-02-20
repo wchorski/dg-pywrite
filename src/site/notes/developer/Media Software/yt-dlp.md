@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/yt-dlp/","tags":["linux"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/yt-dlp/","tags":["linux"],"noteIcon":""}
 ---
 
 This is a nice library for all my 🏴‍☠️black flag waving friends

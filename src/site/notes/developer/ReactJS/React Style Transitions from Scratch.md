@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-style-transitions-from-scratch/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Style Transitions from Scratch/","noteIcon":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/serving-static-files-back-to-client/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/Serving Static Files back to Client/","noteIcon":""}
 ---
 
 After I [[developer/NextJS/Upload Files with next-connect and Multer\|developer/NextJS/Upload Files with next-connect and Multer]] I wanted to serve those same files back to the client. Ahh but not so fast says [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]]. 

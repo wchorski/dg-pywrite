@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/history/ghetto-blaster/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/History/Ghetto Blaster/","noteIcon":""}
 ---
 
 

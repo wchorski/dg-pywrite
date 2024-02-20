@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/hardened-ssh-server/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Hardened SSH Server/","noteIcon":""}
 ---
 
 describe_the_problem

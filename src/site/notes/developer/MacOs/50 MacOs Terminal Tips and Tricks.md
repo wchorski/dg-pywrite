@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/mac-os/50-mac-os-terminal-tips-and-tricks/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/MacOs/50 MacOs Terminal Tips and Tricks/","noteIcon":""}
 ---
 
 describe_the_problem

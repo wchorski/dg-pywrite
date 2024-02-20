@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/digital-gardening/digital-gardening/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Digital Gardening/Digital Gardening/","noteIcon":""}
 ---
 
 

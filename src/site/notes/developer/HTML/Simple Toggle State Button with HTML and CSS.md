@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/simple-toggle-state-button-with-html-and-css/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/Simple Toggle State Button with HTML and CSS/","noteIcon":""}
 ---
 
 I found a little trick using an `input checkbox` as a sort of page specific state machine. I know the title says button, but figured you're here because you had 'button' in your search query

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/local-file-as-sensor/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Local File as Sensor/","noteIcon":""}
 ---
 
 use a local file or [[developer/Home Lab 🏠/SAMBA\|developer/Home Lab 🏠/SAMBA]] share hooked into [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]] to read as a sensor

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/mac-os/testfile/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/MacOs/testfile/","noteIcon":""}
 ---
 
 just testing sink

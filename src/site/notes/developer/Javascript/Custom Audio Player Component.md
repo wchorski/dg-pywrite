@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/custom-audio-player-component/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/Custom Audio Player Component/","noteIcon":""}
 ---
 
 #javascript 

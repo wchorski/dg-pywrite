@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/send-ssh-commands-via-script/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Send SSH commands via script/","noteIcon":""}
 ---
 
 #homeassistant #linux 

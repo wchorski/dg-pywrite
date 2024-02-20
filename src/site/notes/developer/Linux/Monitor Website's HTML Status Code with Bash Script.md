@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/monitor-website-s-html-status-code-with-bash-script/","tags":["linux","bash","automation","webdev"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Monitor Website's HTML Status Code with Bash Script/","tags":["linux","bash","automation","webdev"],"noteIcon":""}
 ---
 
 Monitor your websites in bulk by using `curl` on the page and returning the status code 

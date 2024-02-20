@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-canvas-blurry-lines-images-drawn/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML Canvas Blurry Lines Images Drawn/","noteIcon":""}
 ---
 
 describe_the_problem

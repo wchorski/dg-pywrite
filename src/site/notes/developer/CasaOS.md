@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/casa-os/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CasaOS/","noteIcon":""}
 ---
 
 

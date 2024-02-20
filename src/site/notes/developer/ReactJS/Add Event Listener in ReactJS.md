@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/add-event-listener-in-react-js/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Add Event Listener in ReactJS/","noteIcon":""}
 ---
 
 I was having trouble with the `onLoadedMetadata` not firing when linked inside the `<audio>` tag. So hooking up an event listener 'the old fashion way' seemed to do the trick.

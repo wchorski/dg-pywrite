@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-animated-bubble-background/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Animated Bubble Background/","noteIcon":""}
 ---
 
 ```html

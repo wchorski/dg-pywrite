@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-underused-tags/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML underused Tags/","noteIcon":""}
 ---
 
 ```html

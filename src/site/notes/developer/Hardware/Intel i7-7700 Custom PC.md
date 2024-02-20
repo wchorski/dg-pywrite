@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/intel-i7-7700-custom-pc/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Intel i7-7700 Custom PC/","noteIcon":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/home-assistant-outlook-imap-with-subject-sensor/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Home Assistant Outlook IMAP with Subject Sensor/","noteIcon":""}
 ---
 
 

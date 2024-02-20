@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/handling-errors-in-an-api/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NodeJS/Handling Errors in an API/","noteIcon":""}
 ---
 
 Making an API that that returns logical responses can be a bit confusing. So I'm gonna write out an example lifted from one of my projects using [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]] and [[developer/Home Lab 🏠/CouchDB\|developer/Home Lab 🏠/CouchDB]] 

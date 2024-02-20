@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/file-preview-with-file-reader-api/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/File Preview with FileReader API/","noteIcon":""}
 ---
 
 #reactjs 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/ryzen-9-3900x-custom-pc/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Ryzen 9 3900x Custom PC/","noteIcon":""}
 ---
 
 My media rig that runs [[developer/Home Lab 🏠/Plex.tv\|developer/Home Lab 🏠/Plex.tv]], [[developer/Home Lab 🏠/Jellyfin\|developer/Home Lab 🏠/Jellyfin]], & my constant consumption of Youtube. 

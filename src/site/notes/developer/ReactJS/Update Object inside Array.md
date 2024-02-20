@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/update-object-inside-array/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Update Object inside Array/","noteIcon":""}
 ---
 
 #reactjs #javascript 

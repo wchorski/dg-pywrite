@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/photo-prism/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/PhotoPrism/","noteIcon":""}
 ---
 
 #pictures #selfhosted

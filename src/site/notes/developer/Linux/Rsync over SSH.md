@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/rsync-over-ssh/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Rsync over SSH/","noteIcon":""}
 ---
 
 

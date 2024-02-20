@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/motion-eye-camera/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Motion Eye Camera/","noteIcon":""}
 ---
 
 integration with [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]] as plug and play CCTV instillation. 

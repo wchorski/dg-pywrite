@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/js-switch-statement/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/JS Switch Statement/","noteIcon":""}
 ---
 
 ## Switch Statment

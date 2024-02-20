@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/linux-system-service/","tags":["linux"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Linux System Service/","tags":["linux"],"noteIcon":""}
 ---
 
 

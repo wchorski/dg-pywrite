@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/tiptap/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NodeJS/tiptap/","noteIcon":""}
 ---
 
 > [!info] [Headless WYSIWYG Text Editor – Tiptap Editor](https://tiptap.dev/) 

@@ -1,0 +1,1878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://pywrite-garden.tawtaw.site/">
+    <title>Pywrite Garden</title>
+    <link href="https://pywrite-garden.tawtaw.site//feed.xml" rel="self" >
+    <link href="https://pywrite-garden.tawtaw.site/" >
+    <updated>2024-02-20T17:41:55Z</updated>
+    <id>https://pywrite-garden.tawtaw.site/</id>
+        <entry>
+            <title>
+                notes
+                
+            </title>
+            <updated>2024-02-20T17:41:47Z</updated>
+            <id>https://pywrite-garden.tawtaw.site//</id>
+            <content type="html">
+                &lt;p&gt;Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously &#39;watered&#39; over time, fixing, updating, and growing this database of notes.&lt;/p&gt;
+&lt;h2 id=&quot;recent-notes&quot; tabindex=&quot;-1&quot;&gt;Recent Notes&lt;/h2&gt;
+&lt;table class=&quot;block-language-dataview&quot;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;File&lt;/th&gt;
+&lt;th&gt;Last modified&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/&quot;&gt;index&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;20.02.2024 - 11:36&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Glances&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;20.02.2024 - 10:17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;http://obsidian.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian.md&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;20.02.2024 - 10:17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Obsidian-Livesync&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;20.02.2024 - 10:17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Home page&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Cascading Style Sheet Tips &amp;amp; Tricks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;trying out wiki links instead... prob not a good idea but oh well&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site//" >
+        </entry>
+        <entry>
+            <title>
+                Home Assistant
+                
+            </title>
+            <updated>2024-02-20T17:41:47Z</updated>
+            <id>https://pywrite-garden.tawtaw.site//developer/home-lab/home-assistant/</id>
+            <content type="html">
+                &lt;h2 id=&quot;a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Home Assistant (&lt;a href=&quot;http://home-assistant.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;home-assistant.io&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;installed on &lt;a href=&quot;https://www.raspberrypi.com/products/raspberry-pi-4-model-b/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Raspberry Pi 4 Model B  4GB&lt;/a&gt; with Debian 11 64bit&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;securely accessed via &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/PiVPN&lt;/a&gt; (I don&#39;t forward face any apps that I solo use)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Hyperion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/WLED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Divoom Pixoo (&lt;a href=&quot;http://divoom.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;divoom.com&lt;/a&gt;)&lt;/a&gt;) digital sign (via bluetooth)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Glances&lt;/a&gt; - via Grafana &amp;amp; InfluxDB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h3&gt;
+&lt;p&gt;While I would first recommend installation via &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://www.home-assistant.io/installation/linux#install-home-assistant-supervised&lt;/a&gt;, I&#39;m also trying out the containered version for it&#39;s flexibility and portability&lt;/p&gt;
+&lt;h3 id=&quot;compose-yml&quot; tabindex=&quot;-1&quot;&gt;compose.yml&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;version: &#39;3&#39;
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: &amp;quot;ghcr.io/home-assistant/home-assistant:stable&amp;quot;
+    volumes:
+      - ./config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;plugins&quot; tabindex=&quot;-1&quot;&gt;plugins&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;ESPHome&lt;/li&gt;
+&lt;li&gt;Grafana&lt;/li&gt;
+&lt;li&gt;InfluxDB&lt;/li&gt;
+&lt;li&gt;motionEye&lt;/li&gt;
+&lt;li&gt;Node-RED&lt;/li&gt;
+&lt;li&gt;Rhasspy Assistant&lt;/li&gt;
+&lt;li&gt;Samba Backup&lt;/li&gt;
+&lt;li&gt;Samba Share&lt;/li&gt;
+&lt;li&gt;VSCode&lt;/li&gt;
+&lt;li&gt;HACS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;Edit&lt;/em&gt; - I end up going with &lt;strong&gt;&lt;a href=&quot;http://hass.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Hass.io&lt;/a&gt;&lt;/strong&gt; install instead, but leaving the &lt;strong&gt;Supervised&lt;/strong&gt; notes here for reference&lt;/p&gt;
+&lt;h2 id=&quot;troubleshooting&quot; tabindex=&quot;-1&quot;&gt;troubleshooting&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!warning]&lt;br /&gt;
+I&#39;m running the &lt;a href=&quot;https://github.com/home-assistant/supervised-installer&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;home-assistant/supervised&lt;/a&gt; installation because I want to utilize my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Hardware/Pi4&lt;/a&gt; for multiple apps.&lt;/p&gt;
+&lt;p&gt;I encountered a boot loop error from one of the Home Assistant services, effectively freezing any other service running on my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Hardware/Pi4&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;... entered blocking state
+... entered forwarding state
+... entered disabled state
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I don&#39;t update my Home Assistant very often so I thought why not reinstall it. The &lt;a href=&quot;https://github.com/home-assistant/supervised-installer&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;reinstall&lt;/a&gt;  brought my &lt;strong&gt;Home Assistant&lt;/strong&gt; back to life 😅.&lt;/p&gt;
+&lt;h3 id=&quot;poe-hat&quot; tabindex=&quot;-1&quot;&gt;POE+ Hat&lt;/h3&gt;
+&lt;p&gt;the fan gave off a nasty whine, and I knew I could remedy it by tweaking the temp thresholds. But &amp;quot;Home Assistant OS&amp;quot; doesn&#39;t have a simple &lt;code&gt;/boot/config.txt&lt;/code&gt; path. So I took out the SD card and popped it into my &lt;strong&gt;Windows 10 Machine&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There was a file right in the root called &lt;code&gt;config.txt&lt;/code&gt; and I put these lines right at the bottom&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# PoE+ FAN TEMPERATURE CONTROL  
+dtoverlay=rpi-poe-plus  
+dtparam=poe_fan_temp0=45000,dtparam=poe_fan_temp0_hyst=3000  
+dtparam=poe_fan_temp1=50000,dtparam=poe_fan_temp1_hyst=3000  
+dtparam=poe_fan_temp2=62000,dtparam=poe_fan_temp2_hyst=4000  
+dtparam=poe_fan_temp3=70000,dtparam=poe_fan_temp3_hyst=5000_
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;finally-moving-to-hassio-os&quot; tabindex=&quot;-1&quot;&gt;finally moving to Hassio.os&lt;/h2&gt;
+&lt;p&gt;I got a warning that looked this this&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!warning] Unsupported system - CGroup version&lt;br /&gt;
+System is unsupported because the wrong version of Docker CGroup is in use. Use the link to learn the correct version and how to fix this.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;after a lot of effort went into fixing and updating that I&#39;ve finally got a dedicated Raspberry Pi 4b 4gb to serve as my baked in &amp;quot;hassio.os&amp;quot;&lt;/p&gt;
+&lt;h2 id=&quot;press-start-on-plugin-does-nothing&quot; tabindex=&quot;-1&quot;&gt;Press Start on Plugin does nothing&lt;/h2&gt;
+&lt;p&gt;I migrated my Home Assistant config onto a new machine, when I viewed my plugins I saw everything was there, yet when I hit the &lt;code&gt;start&lt;/code&gt; button, it would spin for a bit and then... nothing.&lt;/p&gt;
+&lt;p&gt;All I had to do was restart my whole Home Assistant&lt;/p&gt;
+&lt;h2 id=&quot;system-monitor&quot; tabindex=&quot;-1&quot;&gt;system monitor&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;# Example configuration.yaml entry with all entry types (delete/comment out as necessary)
+sensor:
+  - platform: systemmonitor
+    resources:
+      - type: disk_use_percent
+        arg: /
+      - type: memory_use_percent
+      - type: processor_use
+      - type: processor_temperature
+      - type: last_boot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;xamoi-temp-humidity-sensor&quot; tabindex=&quot;-1&quot;&gt;Xamoi Temp / Humidity Sensor&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Telink&lt;/a&gt; Flasher (&lt;a href=&quot;http://atc1441.github.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;atc1441.github.io&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://community.home-assistant.io/t/pi-poe-hat-fan-control/149115/20?u=billsky&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://community.home-assistant.io/t/pi-poe-hat-fan-control/149115/20?u=billsky&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site//developer/home-lab/home-assistant/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Animated Bubble Background
+                
+            </title>
+            <updated>2024-02-20T17:41:47Z</updated>
+            <id>https://pywrite-garden.tawtaw.site//developer/css/css-animated-bubble-background/</id>
+            <content type="html">
+                &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&#39;canvas&#39;&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;.canvas {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#edfffa&quot;&gt;#edfffa&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#31c5d6&quot;&gt;#31c5d6&lt;/a&gt; 100%);
+  position: relative;
+  overflow: hidden;
+}
+.bubble {
+  display: block;
+  border-radius: 100%;
+  opacity: 0.8;
+  position: absolute;
+}
+.bubble:nth-child(1) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 97px;
+  height: 97px;
+  left: 21vw;
+  bottom: 6vh;
+  -webkit-animation: move1 infinite 13s;
+          animation: move1 infinite 13s;
+}
+@-webkit-keyframes move1 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 11vh;
+    transform: translate(2px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move1 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 11vh;
+    transform: translate(2px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(2) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 100px;
+  height: 100px;
+  left: 75vw;
+  bottom: 98vh;
+  -webkit-animation: move2 infinite 14s;
+          animation: move2 infinite 14s;
+}
+@-webkit-keyframes move2 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 59vh;
+    transform: translate(-49px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move2 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 59vh;
+    transform: translate(-49px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(3) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 79px;
+  height: 79px;
+  left: 33vw;
+  bottom: 84vh;
+  -webkit-animation: move3 infinite 5s;
+          animation: move3 infinite 5s;
+}
+@-webkit-keyframes move3 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 59vh;
+    transform: translate(116px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move3 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 59vh;
+    transform: translate(116px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(4) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 84px;
+  height: 84px;
+  left: 39vw;
+  bottom: 23vh;
+  -webkit-animation: move4 infinite 8s;
+          animation: move4 infinite 8s;
+}
+@-webkit-keyframes move4 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 53vh;
+    transform: translate(106px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move4 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 53vh;
+    transform: translate(106px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(5) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 42px;
+  height: 42px;
+  left: 45vw;
+  bottom: 82vh;
+  -webkit-animation: move5 infinite 5s;
+          animation: move5 infinite 5s;
+}
+@-webkit-keyframes move5 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 26vh;
+    transform: translate(60px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move5 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 26vh;
+    transform: translate(60px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(6) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 7px;
+  height: 7px;
+  left: 8vw;
+  bottom: 27vh;
+  -webkit-animation: move6 infinite 11s;
+          animation: move6 infinite 11s;
+}
+@-webkit-keyframes move6 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 66vh;
+    transform: translate(143px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move6 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 66vh;
+    transform: translate(143px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(7) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 86px;
+  height: 86px;
+  left: 43vw;
+  bottom: 62vh;
+  -webkit-animation: move7 infinite 9s;
+          animation: move7 infinite 9s;
+}
+@-webkit-keyframes move7 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 45vh;
+    transform: translate(86px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move7 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 45vh;
+    transform: translate(86px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(8) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 86px;
+  height: 86px;
+  left: 93vw;
+  bottom: 66vh;
+  -webkit-animation: move8 infinite 7s;
+          animation: move8 infinite 7s;
+}
+@-webkit-keyframes move8 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 75vh;
+    transform: translate(-16px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move8 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 75vh;
+    transform: translate(-16px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(9) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 48px;
+  height: 48px;
+  left: 47vw;
+  bottom: 93vh;
+  -webkit-animation: move9 infinite 4s;
+          animation: move9 infinite 4s;
+}
+@-webkit-keyframes move9 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 74vh;
+    transform: translate(30px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move9 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 74vh;
+    transform: translate(30px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(10) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 72px;
+  height: 72px;
+  left: 75vw;
+  bottom: 2vh;
+  -webkit-animation: move10 infinite 9s;
+          animation: move10 infinite 9s;
+}
+@-webkit-keyframes move10 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 55vh;
+    transform: translate(189px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move10 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 55vh;
+    transform: translate(189px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(11) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 46px;
+  height: 46px;
+  left: 78vw;
+  bottom: 62vh;
+  -webkit-animation: move11 infinite 5s;
+          animation: move11 infinite 5s;
+}
+@-webkit-keyframes move11 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 73vh;
+    transform: translate(-42px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move11 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 73vh;
+    transform: translate(-42px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(12) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 38px;
+  height: 38px;
+  left: 39vw;
+  bottom: 22vh;
+  -webkit-animation: move12 infinite 11s;
+          animation: move12 infinite 11s;
+}
+@-webkit-keyframes move12 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 5vh;
+    transform: translate(-97px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move12 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 5vh;
+    transform: translate(-97px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(13) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 32px;
+  height: 32px;
+  left: 65vw;
+  bottom: 19vh;
+  -webkit-animation: move13 infinite 13s;
+          animation: move13 infinite 13s;
+}
+@-webkit-keyframes move13 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 1vh;
+    transform: translate(16px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move13 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 1vh;
+    transform: translate(16px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(14) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 6px;
+  height: 6px;
+  left: 40vw;
+  bottom: 42vh;
+  -webkit-animation: move14 infinite 11s;
+          animation: move14 infinite 11s;
+}
+@-webkit-keyframes move14 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 74vh;
+    transform: translate(-96px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move14 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 74vh;
+    transform: translate(-96px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(15) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 96px;
+  height: 96px;
+  left: 80vw;
+  bottom: 69vh;
+  -webkit-animation: move15 infinite 12s;
+          animation: move15 infinite 12s;
+}
+@-webkit-keyframes move15 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 76vh;
+    transform: translate(-66px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move15 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 76vh;
+    transform: translate(-66px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(16) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 86px;
+  height: 86px;
+  left: 22vw;
+  bottom: 80vh;
+  -webkit-animation: move16 infinite 3s;
+          animation: move16 infinite 3s;
+}
+@-webkit-keyframes move16 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 77vh;
+    transform: translate(7px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move16 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 77vh;
+    transform: translate(7px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(17) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 72px;
+  height: 72px;
+  left: 40vw;
+  bottom: 38vh;
+  -webkit-animation: move17 infinite 14s;
+          animation: move17 infinite 14s;
+}
+@-webkit-keyframes move17 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 63vh;
+    transform: translate(199px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move17 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 63vh;
+    transform: translate(199px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(18) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 65px;
+  height: 65px;
+  left: 99vw;
+  bottom: 40vh;
+  -webkit-animation: move18 infinite 15s;
+          animation: move18 infinite 15s;
+}
+@-webkit-keyframes move18 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 63vh;
+    transform: translate(-4px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move18 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 63vh;
+    transform: translate(-4px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(19) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 31px;
+  height: 31px;
+  left: 82vw;
+  bottom: 74vh;
+  -webkit-animation: move19 infinite 6s;
+          animation: move19 infinite 6s;
+}
+@-webkit-keyframes move19 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 9vh;
+    transform: translate(-97px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move19 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 9vh;
+    transform: translate(-97px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(20) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 85px;
+  height: 85px;
+  left: 83vw;
+  bottom: 33vh;
+  -webkit-animation: move20 infinite 4s;
+          animation: move20 infinite 4s;
+}
+@-webkit-keyframes move20 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 72vh;
+    transform: translate(16px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move20 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 72vh;
+    transform: translate(16px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(21) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 45px;
+  height: 45px;
+  left: 15vw;
+  bottom: 71vh;
+  -webkit-animation: move21 infinite 5s;
+          animation: move21 infinite 5s;
+}
+@-webkit-keyframes move21 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 51vh;
+    transform: translate(104px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move21 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 51vh;
+    transform: translate(104px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(22) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 6px;
+  height: 6px;
+  left: 14vw;
+  bottom: 58vh;
+  -webkit-animation: move22 infinite 9s;
+          animation: move22 infinite 9s;
+}
+@-webkit-keyframes move22 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 26vh;
+    transform: translate(-91px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move22 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 26vh;
+    transform: translate(-91px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(23) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 83px;
+  height: 83px;
+  left: 56vw;
+  bottom: 72vh;
+  -webkit-animation: move23 infinite 13s;
+          animation: move23 infinite 13s;
+}
+@-webkit-keyframes move23 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 45vh;
+    transform: translate(77px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move23 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 45vh;
+    transform: translate(77px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(24) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 54px;
+  height: 54px;
+  left: 16vw;
+  bottom: 85vh;
+  -webkit-animation: move24 infinite 9s;
+          animation: move24 infinite 9s;
+}
+@-webkit-keyframes move24 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 76vh;
+    transform: translate(137px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move24 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 76vh;
+    transform: translate(137px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(25) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 100px;
+  height: 100px;
+  left: 10vw;
+  bottom: 81vh;
+  -webkit-animation: move25 infinite 3s;
+          animation: move25 infinite 3s;
+}
+@-webkit-keyframes move25 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 40vh;
+    transform: translate(-1px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move25 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 40vh;
+    transform: translate(-1px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(26) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 24px;
+  height: 24px;
+  left: 6vw;
+  bottom: 45vh;
+  -webkit-animation: move26 infinite 8s;
+          animation: move26 infinite 8s;
+}
+@-webkit-keyframes move26 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 61vh;
+    transform: translate(88px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move26 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 61vh;
+    transform: translate(88px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(27) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 11px;
+  height: 11px;
+  left: 22vw;
+  bottom: 78vh;
+  -webkit-animation: move27 infinite 9s;
+          animation: move27 infinite 9s;
+}
+@-webkit-keyframes move27 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 52vh;
+    transform: translate(-95px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move27 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 52vh;
+    transform: translate(-95px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(28) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 24px;
+  height: 24px;
+  left: 92vw;
+  bottom: 95vh;
+  -webkit-animation: move28 infinite 9s;
+          animation: move28 infinite 9s;
+}
+@-webkit-keyframes move28 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 65vh;
+    transform: translate(-47px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move28 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 65vh;
+    transform: translate(-47px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(29) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 64px;
+  height: 64px;
+  left: 77vw;
+  bottom: 78vh;
+  -webkit-animation: move29 infinite 4s;
+          animation: move29 infinite 4s;
+}
+@-webkit-keyframes move29 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 75vh;
+    transform: translate(151px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move29 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 75vh;
+    transform: translate(151px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(30) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 98px;
+  height: 98px;
+  left: 97vw;
+  bottom: 60vh;
+  -webkit-animation: move30 infinite 4s;
+          animation: move30 infinite 4s;
+}
+@-webkit-keyframes move30 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 35vh;
+    transform: translate(-52px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move30 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 35vh;
+    transform: translate(-52px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(31) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 45px;
+  height: 45px;
+  left: 25vw;
+  bottom: 41vh;
+  -webkit-animation: move31 infinite 11s;
+          animation: move31 infinite 11s;
+}
+@-webkit-keyframes move31 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 88vh;
+    transform: translate(-62px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move31 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 88vh;
+    transform: translate(-62px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(32) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 64px;
+  height: 64px;
+  left: 39vw;
+  bottom: 32vh;
+  -webkit-animation: move32 infinite 15s;
+          animation: move32 infinite 15s;
+}
+@-webkit-keyframes move32 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 48vh;
+    transform: translate(116px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move32 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 48vh;
+    transform: translate(116px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(33) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 44px;
+  height: 44px;
+  left: 71vw;
+  bottom: 36vh;
+  -webkit-animation: move33 infinite 8s;
+          animation: move33 infinite 8s;
+}
+@-webkit-keyframes move33 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 100vh;
+    transform: translate(26px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move33 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 100vh;
+    transform: translate(26px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(34) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 78px;
+  height: 78px;
+  left: 95vw;
+  bottom: 25vh;
+  -webkit-animation: move34 infinite 5s;
+          animation: move34 infinite 5s;
+}
+@-webkit-keyframes move34 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 63vh;
+    transform: translate(192px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move34 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 63vh;
+    transform: translate(192px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(35) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 8px;
+  height: 8px;
+  left: 59vw;
+  bottom: 45vh;
+  -webkit-animation: move35 infinite 15s;
+          animation: move35 infinite 15s;
+}
+@-webkit-keyframes move35 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 3vh;
+    transform: translate(172px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move35 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 3vh;
+    transform: translate(172px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(36) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 80px;
+  height: 80px;
+  left: 96vw;
+  bottom: 95vh;
+  -webkit-animation: move36 infinite 5s;
+          animation: move36 infinite 5s;
+}
+@-webkit-keyframes move36 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 41vh;
+    transform: translate(176px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move36 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 41vh;
+    transform: translate(176px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(37) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 64px;
+  height: 64px;
+  left: 12vw;
+  bottom: 9vh;
+  -webkit-animation: move37 infinite 8s;
+          animation: move37 infinite 8s;
+}
+@-webkit-keyframes move37 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 9vh;
+    transform: translate(101px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move37 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 9vh;
+    transform: translate(101px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(38) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 31px;
+  height: 31px;
+  left: 72vw;
+  bottom: 62vh;
+  -webkit-animation: move38 infinite 10s;
+          animation: move38 infinite 10s;
+}
+@-webkit-keyframes move38 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 14vh;
+    transform: translate(4px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move38 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 14vh;
+    transform: translate(4px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(39) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 70px;
+  height: 70px;
+  left: 91vw;
+  bottom: 3vh;
+  -webkit-animation: move39 infinite 13s;
+          animation: move39 infinite 13s;
+}
+@-webkit-keyframes move39 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 48vh;
+    transform: translate(69px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move39 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 48vh;
+    transform: translate(69px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(40) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 13px;
+  height: 13px;
+  left: 21vw;
+  bottom: 22vh;
+  -webkit-animation: move40 infinite 5s;
+          animation: move40 infinite 5s;
+}
+@-webkit-keyframes move40 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 59vh;
+    transform: translate(1px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move40 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 59vh;
+    transform: translate(1px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(41) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 76px;
+  height: 76px;
+  left: 37vw;
+  bottom: 1vh;
+  -webkit-animation: move41 infinite 15s;
+          animation: move41 infinite 15s;
+}
+@-webkit-keyframes move41 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 68vh;
+    transform: translate(2px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move41 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 68vh;
+    transform: translate(2px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(42) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 46px;
+  height: 46px;
+  left: 99vw;
+  bottom: 27vh;
+  -webkit-animation: move42 infinite 4s;
+          animation: move42 infinite 4s;
+}
+@-webkit-keyframes move42 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 10vh;
+    transform: translate(74px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move42 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 10vh;
+    transform: translate(74px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(43) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 34px;
+  height: 34px;
+  left: 44vw;
+  bottom: 11vh;
+  -webkit-animation: move43 infinite 3s;
+          animation: move43 infinite 3s;
+}
+@-webkit-keyframes move43 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 40vh;
+    transform: translate(158px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move43 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 40vh;
+    transform: translate(158px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(44) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 87px;
+  height: 87px;
+  left: 37vw;
+  bottom: 63vh;
+  -webkit-animation: move44 infinite 5s;
+          animation: move44 infinite 5s;
+}
+@-webkit-keyframes move44 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 79vh;
+    transform: translate(123px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move44 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 79vh;
+    transform: translate(123px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(45) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 6px;
+  height: 6px;
+  left: 9vw;
+  bottom: 2vh;
+  -webkit-animation: move45 infinite 4s;
+          animation: move45 infinite 4s;
+}
+@-webkit-keyframes move45 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 90vh;
+    transform: translate(149px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move45 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 90vh;
+    transform: translate(149px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(46) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 78px;
+  height: 78px;
+  left: 15vw;
+  bottom: 31vh;
+  -webkit-animation: move46 infinite 3s;
+          animation: move46 infinite 3s;
+}
+@-webkit-keyframes move46 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 82vh;
+    transform: translate(158px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move46 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 82vh;
+    transform: translate(158px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(47) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 60px;
+  height: 60px;
+  left: 80vw;
+  bottom: 88vh;
+  -webkit-animation: move47 infinite 14s;
+          animation: move47 infinite 14s;
+}
+@-webkit-keyframes move47 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 27vh;
+    transform: translate(136px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move47 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 27vh;
+    transform: translate(136px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(48) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 51px;
+  height: 51px;
+  left: 8vw;
+  bottom: 89vh;
+  -webkit-animation: move48 infinite 15s;
+          animation: move48 infinite 15s;
+}
+@-webkit-keyframes move48 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 34vh;
+    transform: translate(106px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move48 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 34vh;
+    transform: translate(106px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(49) {
+  background: radial-gradient(ellipse at center, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 93px;
+  height: 93px;
+  left: 11vw;
+  bottom: 32vh;
+  -webkit-animation: move49 infinite 14s;
+          animation: move49 infinite 14s;
+}
+@-webkit-keyframes move49 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 82vh;
+    transform: translate(107px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move49 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 82vh;
+    transform: translate(107px, 0);
+    opacity: 0;
+  }
+}
+.bubble:nth-child(50) {
+  background: radial-gradient(ellipse at top right, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b8c6c6&quot;&gt;#b8c6c6&lt;/a&gt; 0%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#30b3d3&quot;&gt;#30b3d3&lt;/a&gt; 46%, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#20628c&quot;&gt;#20628c&lt;/a&gt; 100%);
+  width: 76px;
+  height: 76px;
+  left: 80vw;
+  bottom: 42vh;
+  -webkit-animation: move50 infinite 8s;
+          animation: move50 infinite 8s;
+}
+@-webkit-keyframes move50 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 26vh;
+    transform: translate(168px, 0);
+    opacity: 0;
+  }
+}
+@keyframes move50 {
+  0% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: 26vh;
+    transform: translate(168px, 0);
+    opacity: 0;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Random&lt;/a&gt; moving bubbles (&lt;a href=&quot;http://codepen.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;codepen.io&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site//developer/css/css-animated-bubble-background/" >
+        </entry>
+        <entry>
+            <title>
+                CMS Page Builder
+                
+            </title>
+            <updated>2024-02-20T17:41:47Z</updated>
+            <id>https://pywrite-garden.tawtaw.site//developer/cms-page-builder/</id>
+            <content type="html">
+                &lt;p&gt;I&#39;m looking for a drop in page builder I can serve to customers as a benefit to the &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KYPN/KYPN Stack&lt;/a&gt; templates I&#39;m designing. &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KeystoneJS/KeystoneJS&lt;/a&gt; has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.&lt;/p&gt;
+&lt;h2 id=&quot;options&quot; tabindex=&quot;-1&quot;&gt;Options&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://grapesjs.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;GrapesJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://craft.js.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Build any page editor | craft.js&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;MIT&lt;/li&gt;
+&lt;li&gt;inspired by &lt;a href=&quot;https://github.com/GrapesJS/grapesjs&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;GrapesJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pagedraw.io/tutorials/basics&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;demo — Pagedraw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Blocks&lt;/a&gt; UI (&lt;a href=&quot;http://blocks-ui.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;blocks-ui.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site//developer/cms-page-builder/" >
+        </entry>
+        <entry>
+            <title>
+                Backup Solutions
+                
+            </title>
+            <updated>2024-02-20T17:41:47Z</updated>
+            <id>https://pywrite-garden.tawtaw.site//developer/backup-solutions/</id>
+            <content type="html">
+                &lt;p&gt;This is my chain of programs that help me backup and store data whether it&#39;s local clone, version controlled, and or remote sight backups&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/FreeFileSync&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;user friendly GUI&lt;/li&gt;
+&lt;li&gt;clones files 1 to 1. Great for parodying data onto a duplicate machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Duplicati&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;version control&lt;/li&gt;
+&lt;li&gt;auto deletion of older data&lt;/li&gt;
+&lt;li&gt;user friendly GUI&lt;/li&gt;
+&lt;li&gt;automated backups via the app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Linux/rsync&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;command line&lt;/li&gt;
+&lt;li&gt;automated backups over SSH&lt;/li&gt;
+&lt;li&gt;great for remote site backups&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;free-file-sync&quot; tabindex=&quot;-1&quot;&gt;FreeFileSync&lt;/h2&gt;
+&lt;h2 id=&quot;duplicati&quot; tabindex=&quot;-1&quot;&gt;Duplicati&lt;/h2&gt;
+&lt;h2 id=&quot;rsync-over-ssh&quot; tabindex=&quot;-1&quot;&gt;Rsync over SSH&lt;/h2&gt;
+&lt;p&gt;This technique askes the most of your IT knowledge, and I&#39;m sure there are other solutions that are simpler or have a pretty UI, but going with this route makes for a sleek and light system. To get this set up, follow these 2 articles&lt;/p&gt;
+&lt;h3 id=&quot;linux-disk-image-with-dd-command-and-compress&quot; tabindex=&quot;-1&quot;&gt;Linux Disk Image with DD Command and Compress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;tutorial&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;pi4&quot; tabindex=&quot;-1&quot;&gt;pi4&lt;/h2&gt;
+&lt;h2 id=&quot;icicle&quot; tabindex=&quot;-1&quot;&gt;icicle&lt;/h2&gt;
+&lt;h2 id=&quot;spearmint&quot; tabindex=&quot;-1&quot;&gt;spearmint&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;app-specific&quot; tabindex=&quot;-1&quot;&gt;App Specific&lt;/h2&gt;
+&lt;h3 id=&quot;thunderbird-email-client&quot; tabindex=&quot;-1&quot;&gt;Thunderbird Email client&lt;/h3&gt;
+&lt;h4 id=&quot;backup&quot; tabindex=&quot;-1&quot;&gt;backup&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;find hamburger menu top right&lt;/li&gt;
+&lt;li&gt;help &amp;gt; more troubleshooting information &amp;gt; Profile Folder &amp;gt; &lt;button&gt;Open Folder&lt;/button&gt; (Local Drive)&lt;/li&gt;
+&lt;li&gt;close Tunderbird app&lt;/li&gt;
+&lt;li&gt;Go 3 directory levels up to &amp;quot;Roaming&amp;quot; folder&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;restore&quot; tabindex=&quot;-1&quot;&gt;restore&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;install &amp;amp; run Thunderbird&lt;/li&gt;
+&lt;li&gt;skip setting up accounts&lt;/li&gt;
+&lt;li&gt;menu &amp;gt; help &amp;gt; troubleshooting info &amp;gt; Profile &amp;gt; &lt;button&gt;Open Folder&lt;/button&gt; (Local Drive)&lt;/li&gt;
+&lt;li&gt;just like backup, Go 3 directory levels up to &amp;quot;Roaming&amp;quot; folder&lt;/li&gt;
+&lt;li&gt;paste in backup &lt;code&gt;Thunderbird&lt;/code&gt; over itself
+&lt;ol&gt;
+&lt;li&gt;agree to merge, replace directories&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#todo&quot;&gt;#todo&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; finish &amp;quot;Linux Disk Image with DD Command and Compress&amp;quot;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site//developer/backup-solutions/" >
+        </entry>
+        <entry>
+            <title>
+                Removing Samsung and Google Bloatware from Android 12
+                
+            </title>
+            <updated>2024-02-20T17:41:47Z</updated>
+            <id>https://pywrite-garden.tawtaw.site//developer/android/removing-samsung-and-google-bloatware-from-android-12/</id>
+            <content type="html">
+                &lt;p&gt;I tried installing &lt;a href=&quot;https://lineageos.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;LineageOS&lt;/a&gt; on my Samsung Galaxy s9 and s10 phones. Unfortunately my &lt;a href=&quot;https://wiki.lineageos.org/devices/beyond1lte/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;model wasn&#39;t supported&lt;/a&gt; (just one letter off 😑).&lt;/p&gt;
+&lt;p&gt;I still wanted to use this phone, but learn how to remove all the annoying Samsung and Google bloatware that they make impossible to remove in the phone&#39;s UI&lt;/p&gt;
+&lt;h2 id=&quot;list-of-apks-to-unintall&quot; tabindex=&quot;-1&quot;&gt;List of apks to unintall&lt;/h2&gt;
+&lt;p&gt;Following this list &lt;a href=&quot;https://www.reddit.com/r/GalaxyS9/comments/iv4p3n/adb_list_to_safely_disable_samsung_bloatware/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ADB list to safely disable Samsung Bloatware&lt;/a&gt; and &lt;a href=&quot;https://technastic.com/remove-samsung-bloatware-safe-to-remove-apps/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this list too&lt;/a&gt;here is my non exhaustive list of &lt;code&gt;apks&lt;/code&gt; to remove&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;#!/bin/bash
+
+## Remove these
+adb shell pm uninstall -k --user 0 net.supertreat.solitaire
+adb shell pm uninstall -k --user 0 com.sec.android.app.sbrowser
+adb shell pm uninstall -k --user 0 com.samsung.android.app.taskedge
+adb shell pm uninstall -k --user 0 com.samsung.android.app.clipboardedge
+adb shell pm uninstall -k --user 0 com.samsung.android.game.gametools
+adb shell pm uninstall -k --user 0 com.samsung.android.game.gamehome
+adb shell pm uninstall -k --user 0 com.samsung.android.scloud
+adb shell pm uninstall -k --user 0 com.sec.android.app.samsungapps
+adb shell pm uninstall -k --user 0 com.sec.android.widgetapp.samsungapps
+adb shell pm uninstall -k --user 0 com.samsung.android.drivelink.stub
+adb shell pm uninstall -k --user 0 com.samsung.android.service.peoplestripesamsungpassautofill
+adb shell pm uninstall -k --user 0 com.samsung.android.email.provider
+adb shell pm uninstall -k --user 0 com.samsung.andorid.fmm
+adb shell pm uninstall -k --user 0 com.samsung.android.visionarapps
+adb shell pm uninstall -k --user 0 com.mygalaxy
+adb shell pm uninstall -k --user 0 com.samsung.android.arzone
+adb shell pm uninstall -k --user 0 com.samsung.faceservice
+adb shell pm uninstall -k --user 0 com.samsung.android.calendar
+adb shell pm uninstall -k --user 0 com.samsung.android.app.reminder
+adb shell pm uninstall -k --user 0 com.samsung.android.app.simplesharing
+adb shell pm uninstall -k --user 0 com.samsung.android.app.tips
+adb shell pm uninstall -k --user 0 com.samsung.android.svoiceime
+adb shell pm uninstall -k --user 0 com.samsung.android.bixby.service
+adb shell pm uninstall -k --user 0 com.samsung.android.bixby.agent
+adb shell pm uninstall -k --user 0 com.samsung.android.bixby.wakeup
+adb shell pm uninstall -k --user 0 com.samsung.android.app.spage
+adb shell pm uninstall -k --user 0 com.samsung.android.bixby.agent.dummy
+adb shell pm uninstall -k --user 0 com.samsung.android.visionintelligence
+adb shell pm uninstall -k --user 0 flipboard.boxer.app
+adb shell pm uninstall -k --user 0 com.sec.android.app.chromecustomizations
+adb shell pm uninstall -k --user 0 com.samsung.android.mdx
+adb shell pm uninstall -k --user 0 com.microsoft.appmanager
+adb shell pm uninstall -k --user 0 com.microsoft.skydrive
+adb shell pm uninstall -k --user 0 com.google.android.apps.googleassistant
+adb shell pm uninstall -k --user 0 com.google.android.apps.docs
+adb shell pm uninstall -k --user 0 com.google.android.gm
+adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
+adb shell pm uninstall -k --user 0 com.google.android.youtube
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;adb-commands&quot; tabindex=&quot;-1&quot;&gt;adb commands&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;adb shell pm uninstall -k --user 0 &amp;lt;APPFILE.apk&amp;gt;
+adb install &amp;lt;APPFILE.apk&amp;gt;
+adb shell cmd package list packages
+
+**#1 Get the list of all apps**  
+`adb shell pm list packages`  
+**#2 Get the list of system apps only**  
+`adb shell pm list packages -s`  
+**#3 Get the list of all Samsung apps**  
+`adb shell pm list packages | grep &#39;samsung&#39;`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;force-allow-apps-to-sd-card&quot; tabindex=&quot;-1&quot;&gt;Force allow apps to SD Card&lt;/h2&gt;
+&lt;p&gt;it&#39;s a setting in the Debug menu &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;How&lt;/a&gt; to Move Apps to SD Card on Android (How to Force Them) - YouTube&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;index&quot; tabindex=&quot;-1&quot;&gt;index&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site//developer/android/removing-samsung-and-google-bloatware-from-android-12/" >
+        </entry>
+</feed>

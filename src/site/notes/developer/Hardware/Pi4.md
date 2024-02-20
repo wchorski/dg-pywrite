@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/pi4/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Pi4/","noteIcon":""}
 ---
 
 

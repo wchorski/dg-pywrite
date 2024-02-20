@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/bash-batch-find-and-remove-files/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash, batch find and remove files/","noteIcon":""}
 ---
 
 

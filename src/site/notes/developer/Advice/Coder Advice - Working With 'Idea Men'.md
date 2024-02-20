@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/advice/coder-advice-working-with-idea-men/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Advice/Coder Advice - Working With 'Idea Men'/","noteIcon":""}
 ---
 
 Comment inspired by ThePrimeagen video [[youtube.com)](https://www.youtube.com/watch?v=tIgIF5lve8U\|I Just Need A Programmer ]]

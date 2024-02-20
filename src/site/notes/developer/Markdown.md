@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/markdown/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Markdown/","noteIcon":""}
 ---
 
 

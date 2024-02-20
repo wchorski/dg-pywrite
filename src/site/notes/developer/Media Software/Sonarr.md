@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/sonarr/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/Sonarr/","noteIcon":""}
 ---
 
 

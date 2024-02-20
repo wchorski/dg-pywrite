@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/ssh-bad-owner-fix/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Windows 10/SSH Bad Owner Fix/","noteIcon":""}
 ---
 
 `Bad owner or permissions on C:\\Users\\$USERNAME/.ssh/config`

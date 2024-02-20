@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/ladarr/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/Ladarr/","noteIcon":""}
 ---
 
 

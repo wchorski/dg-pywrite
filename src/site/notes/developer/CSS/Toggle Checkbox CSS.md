@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/toggle-checkbox-css/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Toggle Checkbox CSS/","noteIcon":""}
 ---
 
 ```scss

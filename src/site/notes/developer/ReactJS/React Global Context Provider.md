@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-global-context-provider/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Global Context Provider/","noteIcon":""}
 ---
 
 

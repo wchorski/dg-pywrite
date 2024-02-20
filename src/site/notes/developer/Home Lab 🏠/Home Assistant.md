@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/home-assistant/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Home Assistant/","noteIcon":""}
 ---
 
 ## [[home-assistant.io)](home-assistant.io\|Home Assistant (home-assistant.io)]])

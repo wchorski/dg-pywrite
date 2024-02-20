@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/rsync/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/rsync/","noteIcon":""}
 ---
 
 ## sync directories with external ignore file

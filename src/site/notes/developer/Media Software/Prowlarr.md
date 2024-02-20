@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/prowlarr/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/Prowlarr/","noteIcon":""}
 ---
 
 ## Troubleshoot CloudFlare Protection

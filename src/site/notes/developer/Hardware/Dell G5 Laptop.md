@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/dell-g5-laptop/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Dell G5 Laptop/","noteIcon":""}
 ---
 
 

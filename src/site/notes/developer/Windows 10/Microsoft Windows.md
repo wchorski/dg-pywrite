@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/microsoft-windows/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Windows 10/Microsoft Windows/","noteIcon":""}
 ---
 
 Here lies everything about the Windows Operating System 🪦

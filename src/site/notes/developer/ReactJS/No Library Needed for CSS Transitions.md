@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/no-library-needed-for-css-transitions/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/No Library Needed for CSS Transitions/","noteIcon":""}
 ---
 
 

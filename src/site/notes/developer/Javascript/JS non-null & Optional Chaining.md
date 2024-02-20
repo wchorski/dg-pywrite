@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/js-non-null-and-optional-chaining/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/JS non-null & Optional Chaining/","noteIcon":""}
 ---
 
 

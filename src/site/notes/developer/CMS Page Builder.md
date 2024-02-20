@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/cms-page-builder/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CMS Page Builder/","noteIcon":""}
 ---
 
 

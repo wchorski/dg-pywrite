@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/sort-array-by-date/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/Sort Array By Date/","noteIcon":""}
 ---
 
 Wanted to sort and display the most future dates in a list / table (using [[developer/Home Lab 🏠/CouchDB\|developer/Home Lab 🏠/CouchDB]] , so don't forget the info is in the `doc` object)

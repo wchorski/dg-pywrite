@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home Assistant</title>
+    <title>CSS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -366,7 +366,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/css/css/">CSS </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/css/css/">CSS </a>
                 </div>
             
         </div>
@@ -486,7 +486,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/home-lab/home-assistant/">Home Assistant </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/home-lab/home-assistant/">Home Assistant </a>
                 </div>
             
         </div>
@@ -963,7 +963,7 @@
     <main class="content cm-s-obsidian ">
       <header>
         
-          <h1 data-note-icon="">Home Assistant</h1>
+          <h1 data-note-icon="">CSS</h1>
         
         <div class="header-meta">
           
@@ -978,105 +978,152 @@
       </header>
       
       
-      <h2 id="a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">Home Assistant (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</a>)</h2>
-<blockquote>
-<p>Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts.</p>
-</blockquote>
-<p>installed on <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank" class="external-link">Raspberry Pi 4 Model B  4GB</a> with Debian 11 64bit</p>
-<hr>
-<h3 id="connections" tabindex="-1">connections</h3>
-<ul>
-<li>securely accessed via <a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/PiVPN</a> (I don't forward face any apps that I solo use)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/Hyperion</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/WLED</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Divoom Pixoo (<a href="http://divoom.com" target="_blank" class="external-link">divoom.com</a>)</a>) digital sign (via bluetooth)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/Glances</a> - via Grafana &amp; InfluxDB</li>
-</ul>
-<h3 id="installation" tabindex="-1">installation</h3>
-<p>While I would first recommend installation via <a class="internal-link is-unresolved" href="/404" target="">https://www.home-assistant.io/installation/linux#install-home-assistant-supervised</a>, I'm also trying out the containered version for it's flexibility and portability</p>
-<h3 id="compose-yml" tabindex="-1">compose.yml</h3>
-<pre><code class="language-yml">version: '3'
-services:
-  homeassistant:
-    container_name: homeassistant
-    image: &quot;ghcr.io/home-assistant/home-assistant:stable&quot;
-    volumes:
-      - ./config:/config
-      - /etc/localtime:/etc/localtime:ro
-    restart: unless-stopped
-    privileged: true
-    network_mode: host
+      <h3 id="if-parent-has-input-that-is-checked" tabindex="-1">if parent has input that is checked</h3>
+<p>in a todo list, I wanted to cross out or strikethrough all children if the input was checked</p>
+<pre><code class="language-html">&lt;li class=&quot;task-list-item&quot;&gt;
+	&lt;input type=&quot;checkbox&quot; disabled checked&gt;
+	front page with growing sprout garden. flowers are clickable graph view?
+&lt;/li&gt;
+</code></pre>
+<pre><code class="language-css">li.task-list-item:has(input:checked){
 
+  opacity: .6;
+  text-decoration:line-through;
+}
 </code></pre>
-<h3 id="plugins" tabindex="-1">plugins</h3>
-<ol>
-<li>ESPHome</li>
-<li>Grafana</li>
-<li>InfluxDB</li>
-<li>motionEye</li>
-<li>Node-RED</li>
-<li>Rhasspy Assistant</li>
-<li>Samba Backup</li>
-<li>Samba Share</li>
-<li>VSCode</li>
-<li>HACS</li>
-</ol>
-<hr>
-<p><em>Edit</em> - I end up going with <strong><a href="http://Hass.io" target="_blank" class="external-link">Hass.io</a></strong> install instead, but leaving the <strong>Supervised</strong> notes here for reference</p>
-<h2 id="troubleshooting" tabindex="-1">troubleshooting</h2>
-<div class="callout " data-callout="warning"><div class="callout-title"><div class="callout-title-inner">Warning</div></div>
-<div class="callout-content">
-<p>
-I'm running the <a href="https://github.com/home-assistant/supervised-installer" target="_blank" class="external-link">home-assistant/supervised</a> installation because I want to utilize my <a class="internal-link is-unresolved" href="/404" target="">developer/Hardware/Pi4</a> for multiple apps.</p>
-<p>I encountered a boot loop error from one of the Home Assistant services, effectively freezing any other service running on my <a class="internal-link is-unresolved" href="/404" target="">developer/Hardware/Pi4</a></p>
-</div></div>
-<pre><code class="language-shell">... entered blocking state
-... entered forwarding state
-... entered disabled state
+<h3 id="centered-header-label-with-horizontal-line-on-sides" tabindex="-1">Centered header label with horizontal line on sides</h3>
+<p><a class="internal-link is-unresolved" href="/404" target=""><a href="https://iqcode.com/code/css/css-technique-for-a-horizontal-line-with-icons-in-the-middle#:~:text=CSS" target="_blank" class="external-link">https://iqcode.com/code/css/css-technique-for-a-horizontal-line-with-icons-in-the-middle#:~:text=CSS</a> technique for a horizontal line with icons,line-through%3B } View another examples Add Own solution</a><br>
+check out the <code>graph </code> and  <code>Table of Contents</code> labels in this screenshot</p>
+<p><picture src="/img/user/attachments/Pasted%20image%2020221109140342%201.png" alt="attachments/Pasted image 20221109140342 1.png|sections with headers   |     500" width="     500px"><source       media="(max-width:480px)"
+      srcset="/img/optimized/I3PeS1dnfG-333.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/I3PeS1dnfG-333.jpeg"
+      >
+      <img       class=""
+      src="/img/user/attachments/Pasted%20image%2020221109140342%201.png"
+      alt="attachments/Pasted image 20221109140342 1.png|sections with headers   |     500"
+      width="     500px"
+      ></picture><br>
+with the power of <code>:before</code> &amp; <code>:after</code> you too can make this stylish &quot;strike through&quot; effect</p>
+<pre><code class="language-scss">p.icon-label{
+    color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#5e5e5e">#5e5e5e</a>;
+    font-size: 1rem;
+    overflow: hidden;
+    text-align: center;
+
+    &amp;:before,
+    &amp;:after {
+      background-color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#5e5e5e">#5e5e5e</a>;
+      content: &quot;-&quot;;
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 50%;
+    }  
+
+    &amp;:before {
+      right: 0.5em;
+      margin-left: -50%;
+    }
+
+    &amp;:after {
+      left: 0.5em;
+      margin-right: -50%;
+    }
+  }
 </code></pre>
-<p>I don't update my Home Assistant very often so I thought why not reinstall it. The <a href="https://github.com/home-assistant/supervised-installer" target="_blank" class="external-link">reinstall</a>  brought my <strong>Home Assistant</strong> back to life 😅.</p>
-<h3 id="poe-hat" tabindex="-1">POE+ Hat</h3>
-<p>the fan gave off a nasty whine, and I knew I could remedy it by tweaking the temp thresholds. But &quot;Home Assistant OS&quot; doesn't have a simple <code>/boot/config.txt</code> path. So I took out the SD card and popped it into my <strong>Windows 10 Machine</strong></p>
-<p>There was a file right in the root called <code>config.txt</code> and I put these lines right at the bottom</p>
-<pre><code># PoE+ FAN TEMPERATURE CONTROL  
-dtoverlay=rpi-poe-plus  
-dtparam=poe_fan_temp0=45000,dtparam=poe_fan_temp0_hyst=3000  
-dtparam=poe_fan_temp1=50000,dtparam=poe_fan_temp1_hyst=3000  
-dtparam=poe_fan_temp2=62000,dtparam=poe_fan_temp2_hyst=4000  
-dtparam=poe_fan_temp3=70000,dtparam=poe_fan_temp3_hyst=5000_
+<h3 id="disable-interaction-and-or-click-through-element" tabindex="-1">disable interaction and or click through element</h3>
+<p>very useful when hiding a top layer UI element with opacity = 0</p>
+<pre><code class="language-css">pointer-events: none;
 </code></pre>
-<h2 id="finally-moving-to-hassio-os" tabindex="-1">finally moving to Hassio.os</h2>
-<p>I got a warning that looked this this</p>
-<div class="callout " data-callout="warning"><div class="callout-title"><div class="callout-title-inner"> Unsupported system - CGroup version<br></div></div>
-<div class="callout-content">
-<p>
-System is unsupported because the wrong version of Docker CGroup is in use. Use the link to learn the correct version and how to fix this.</p>
-</div></div>
-<p>after a lot of effort went into fixing and updating that I've finally got a dedicated Raspberry Pi 4b 4gb to serve as my baked in &quot;hassio.os&quot;</p>
-<h2 id="press-start-on-plugin-does-nothing" tabindex="-1">Press Start on Plugin does nothing</h2>
-<p>I migrated my Home Assistant config onto a new machine, when I viewed my plugins I saw everything was there, yet when I hit the <code>start</code> button, it would spin for a bit and then... nothing.</p>
-<p>All I had to do was restart my whole Home Assistant</p>
-<h2 id="system-monitor" tabindex="-1">system monitor</h2>
-<pre><code class="language-yml"># Example configuration.yaml entry with all entry types (delete/comment out as necessary)
-sensor:
-  - platform: systemmonitor
-    resources:
-      - type: disk_use_percent
-        arg: /
-      - type: memory_use_percent
-      - type: processor_use
-      - type: processor_temperature
-      - type: last_boot
+<h3 id="hide-scrollbar-on-hover" tabindex="-1">hide scrollbar on hover</h3>
+<p><a class="internal-link is-unresolved" href="/404" target=""><a href="https://iqcode.com/code/css/hover-show-scrollbar-css#:~:text=hover" target="_blank" class="external-link">https://iqcode.com/code/css/hover-show-scrollbar-css#:~:text=hover</a> show scrollbar css CPP div { height%3A,overflow%3A hidden%3B } div%3Ahover { overflow-y%3A scroll%3B }</a></p>
+<pre><code class="language-css">div {
+  height: 100px;
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+div:hover {
+  overflow-y: scroll;
+}
 </code></pre>
-<h2 id="xamoi-temp-humidity-sensor" tabindex="-1">Xamoi Temp / Humidity Sensor</h2>
+<h3 id="fix-word-wrap-indentation-in-list-elements" tabindex="-1">Fix word wrap indentation in list elements</h3>
+<p><a class="internal-link is-unresolved" href="/404" target="">CSS</a> - Indenting the second line of LI (List Items) - Silva Web Designs</p>
+<pre><code class="language-css">ul { 
+	list-style: none; 
+	width: 200px; 
+	text-indent: -20px; /* MATCH key property */ 
+	margin-left: 20px; /* MATCH key property */ 
+} 
+
+li { margin-bottom: 10px; }
+</code></pre>
+<h3 id="custom-scrollbar" tabindex="-1">Custom Scrollbar</h3>
+<p><a class="internal-link is-unresolved" href="/404" target="">How</a> To Create a Custom Scrollbar (<a href="http://w3schools.com" target="_blank" class="external-link">w3schools.com</a>)</p>
+<pre><code class="language-css">/* width */  
+::-webkit-scrollbar {  width: 20px; }  
+  
+/* Track */  
+::-webkit-scrollbar-track {  
+	box-shadow: inset 0 0 5px grey;  
+	border-radius: 10px;
+}  
+  
+/* Handle */  
+::-webkit-scrollbar-thumb {  
+	background: red;  
+	border-radius: 10px;
+}
+</code></pre>
+<h2 id="code-pen-insporation" tabindex="-1">Code Pen Insporation</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Telink</a> Flasher (<a href="http://atc1441.github.io" target="_blank" class="external-link">atc1441.github.io</a>)</li>
+<li><a class="internal-link is-unresolved" href="/404" target="">https://codepen.io/b1tn3r/embed/YjOzRv?height=300&amp;default-tab=css%2Cresult&amp;slug-hash=YjOzRv&amp;editable=true&amp;user=b1tn3r&amp;name=cp_embed_40#result-box</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">https://codepen.io/avstorm/embed/rNBZby?default-tab=css%2Cresult&amp;editable=true&amp;height=300&amp;name=cp_embed_26&amp;slug-hash=peCbd&amp;user=avstorm#result-box</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">https://codepen.io/lbebber/embed/LELBEo?height=300&amp;default-tab=css%2Cresult&amp;slug-hash=LELBEo&amp;editable=true&amp;user=lbebber&amp;name=cp_embed_6#result-box</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">https://codepen.io/Grsmto/embed/RPQPPB?height=300&amp;default-tab=css%2Cresult&amp;slug-hash=RPQPPB&amp;editable=true&amp;user=Grsmto&amp;name=cp_embed_5#result-box</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">https://codepen.io/andrewmillen/embed/MoKLob?height=300&amp;default-tab=css%2Cresult&amp;slug-hash=MoKLob&amp;editable=true&amp;user=andrewmillen&amp;name=cp_embed_1#result-box</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">Pure CSS 3D Synthesizer (mousedown for rotation) (<a href="http://codepen.io" target="_blank" class="external-link">codepen.io</a>)</a>%20(<a href="http://codepen.io" target="_blank" class="external-link">codepen.io</a>))</li>
 </ul>
-<hr>
-<h2 id="credits" tabindex="-1">Credits</h2>
+<h3 id="web-tools" tabindex="-1">Web Tools</h3>
 <ul>
-<li><a href="https://community.home-assistant.io/t/pi-poe-hat-fan-control/149115/20?u=billsky" target="_blank" class="external-link">https://community.home-assistant.io/t/pi-poe-hat-fan-control/149115/20?u=billsky</a></li>
+<li><a href="https://colorgradient.dev/gradient-generator" target="_blank" class="external-link">Gradient Generator - CSS gradients made easy - ColorGradient</a></li>
 </ul>
+<h3 id="how-to-really-mask" tabindex="-1">how to really mask</h3>
+<p><a href="https://css-tricks.com/using-css-masks-to-create-jagged-edges/" target="_blank" class="external-link">Using CSS Masks to Create Jagged Edges | CSS-Tricks - CSS-Tricks</a></p>
+<pre><code class="language-html">&lt;div class=&quot;container&quot;&gt;
+	&lt;img src=&quot;...&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+<pre><code class="language-css">.container{
+	background-color: blue;
+}
+
+img {
+    mask-image: linear-gradient(
+      to bottom right,
+      white,
+      white 50%,
+      transparent 50%,
+      transparent),
+    linear-gradient(
+      to top,
+      transparent 30px,
+      black 30px,
+      white);
+      
+    mask-size: 30px 30px, 100% 100%;
+    mask-repeat: repeat-x;
+    mask-position: left bottom;
+    display: block;
+    margin-bottom: 0.5em;
+}
+</code></pre>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/css/cascading-style-sheet-tips-and-tricks/">developer/CSS/Cascading Style Sheet Tips &amp; Tricks</a></p>
 
       
       
@@ -1317,46 +1364,34 @@ sensor:
                                           <nav class="toc">
                 <ol>
                     
-                    <li><a href="#a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a">[[home-assistant.io)](home-assistant.io|Home Assistant (home-assistant.io)]])</a>
+                    <li><a href="#if-parent-has-input-that-is-checked">if parent has input that is checked</a>
+            		</li>
+
+                    <li><a href="#centered-header-label-with-horizontal-line-on-sides">Centered header label with horizontal line on sides</a>
+            		</li>
+
+                    <li><a href="#disable-interaction-and-or-click-through-element">disable interaction and or click through element</a>
+            		</li>
+
+                    <li><a href="#hide-scrollbar-on-hover">hide scrollbar on hover</a>
+            		</li>
+
+                    <li><a href="#fix-word-wrap-indentation-in-list-elements">Fix word wrap indentation in list elements</a>
+            		</li>
+
+                    <li><a href="#custom-scrollbar">Custom Scrollbar</a>
+            		</li>
+
+                    <li><a href="#code-pen-insporation">Code Pen Insporation</a>
             
                 <ol>
                     
-                    <li><a href="#connections">connections</a>
+                    <li><a href="#web-tools">Web Tools</a>
             		</li>
 
-                    <li><a href="#installation">installation</a>
-            		</li>
-
-                    <li><a href="#compose-yml">compose.yml</a>
-            		</li>
-
-                    <li><a href="#plugins">plugins</a>
+                    <li><a href="#how-to-really-mask">how to really mask</a>
             		</li>
                 </ol>
-            		</li>
-
-                    <li><a href="#troubleshooting">troubleshooting</a>
-            
-                <ol>
-                    
-                    <li><a href="#poe-hat">POE+ Hat</a>
-            		</li>
-                </ol>
-            		</li>
-
-                    <li><a href="#finally-moving-to-hassio-os">finally moving to Hassio.os</a>
-            		</li>
-
-                    <li><a href="#press-start-on-plugin-does-nothing">Press Start on Plugin does nothing</a>
-            		</li>
-
-                    <li><a href="#system-monitor">system monitor</a>
-            		</li>
-
-                    <li><a href="#xamoi-temp-humidity-sensor">Xamoi Temp / Humidity Sensor</a>
-            		</li>
-
-                    <li><a href="#credits">Credits</a>
             		</li>
                 </ol>
             </nav>
@@ -1370,7 +1405,13 @@ sensor:
                               
                               <div class="backlinks">
                                     <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/casa-os/" data-note-icon="" class="backlink">CasaOS</a>
+                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/css/css-animated-bubble-background/" data-note-icon="" class="backlink">CSS Animated Bubble Background</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/css/css-capitolize-the-first-letter-rest-are-lowercase/" data-note-icon="" class="backlink">CSS Capitolize the first letter rest are lowercase</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/css/css-color-mixing/" data-note-icon="" class="backlink">CSS Color Mixing</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/css/css-marquee-animations/" data-note-icon="" class="backlink">CSS Marquee Animations</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/css/css-nested-border-radius/" data-note-icon="" class="backlink">CSS Nested border-radius</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/css/responsive-padding/" data-note-icon="" class="backlink">Responsive Padding</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/css/sass/" data-note-icon="" class="backlink">Sass</a>
                                                 </div></div>
                               </div>
                         

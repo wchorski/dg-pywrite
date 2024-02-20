@@ -3,14 +3,14 @@
     <title>Pywrite Garden</title>
     <link href="https://pywrite-garden.tawtaw.site/feed.xml" rel="self" >
     <link href="https://pywrite-garden.tawtaw.site" >
-    <updated>2024-02-20T18:18:51Z</updated>
+    <updated>2024-02-20T18:20:49Z</updated>
     <id>https://pywrite-garden.tawtaw.site</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2024-02-20T18:18:43Z</updated>
+            <updated>2024-02-20T18:20:39Z</updated>
             <id>https://pywrite-garden.tawtaw.site/</id>
             <content type="html">
                 &lt;p&gt;Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously &#39;watered&#39; over time, fixing, updating, and growing this database of notes.&lt;/p&gt;
@@ -24,6 +24,10 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/casa-os/&quot;&gt;CasaOS&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;20.02.2024 - 11:46&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/&quot;&gt;index&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;20.02.2024 - 11:36&lt;/td&gt;
 &lt;/tr&gt;
@@ -35,14 +39,10 @@
 &lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;http://obsidian.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian.md&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;20.02.2024 - 10:17&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Obsidian-Livesync&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;20.02.2024 - 10:17&lt;/td&gt;
-&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Home page&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Cascading Style Sheet Tips &amp;amp; Tricks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/&quot;&gt;Cascading Style Sheet Tips &amp;amp; Tricks&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;trying out wiki links instead... prob not a good idea but oh well&lt;/p&gt;
 
             </content>
@@ -53,7 +53,7 @@
                 Home Assistant
                 
             </title>
-            <updated>2024-02-20T18:18:43Z</updated>
+            <updated>2024-02-20T18:20:39Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Home Assistant (&lt;a href=&quot;http://home-assistant.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;home-assistant.io&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -162,7 +162,7 @@ sensor:
                 CasaOS
                 
             </title>
-            <updated>2024-02-20T18:18:43Z</updated>
+            <updated>2024-02-20T18:20:39Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/casa-os/</id>
             <content type="html">
                 &lt;p&gt;I tried &lt;a href=&quot;https://casaos.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CasaOS - A simple, easy-to-use, elegant open-source personal cloud system&lt;/a&gt; as a turn key solution to run a handful of self hosted apps located in a family member&#39;s network.&lt;/p&gt;
@@ -188,10 +188,1355 @@ sensor:
         </entry>
         <entry>
             <title>
+                has Selector
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/has-selector/</id>
+            <content type="html">
+                &lt;p&gt;I see a lot of potential in the &lt;code&gt;:has()&lt;/code&gt; selector, expecially when it comes to input fields&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-jsx&quot;&gt;&amp;lt;label htmlFor=&amp;quot;nav_checkbox&amp;quot; id=&#39;navdrawer-cont&#39; className=&#39;toggle-menu-btn&#39;&amp;gt;
+	
+	&amp;lt;input type=&#39;checkbox&#39; id=&#39;nav_checkbox&#39; /&amp;gt;
+
+	
+	&amp;lt;i /&amp;gt;
+&amp;lt;/label&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#checkbox-container&quot;&gt;#checkbox-container&lt;/a&gt;{
+
+	input[type=checkbox]{
+		display: hidden;
+	}
+	
+	&amp;amp; :has(input[type=checkbox]:checked){
+		svg{
+			background-color: var(--c-1);
+			color: var(--c-txt-rev);
+		}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/has-selector/" >
+        </entry>
+        <entry>
+            <title>
+                Sass
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/sass/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;!note&lt;/a&gt;&lt;br /&gt;
+Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/css/&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/sass/" >
+        </entry>
+        <entry>
+            <title>
+                Responsive Padding
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/responsive-padding/</id>
+            <content type="html">
+                &lt;h2 id=&quot;magic-formula&quot; tabindex=&quot;-1&quot;&gt;Magic Formula&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;padding: 0 calc(8px + 1.5625vw);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://matthewjamestaylor.com/responsive-padding#magic-formula&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/css/&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/responsive-padding/" >
+        </entry>
+        <entry>
+            <title>
+                React JSX Dynamic Overlay Color
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/react-jsx-dynamic-overlay-color/</id>
+            <content type="html">
+                &lt;h3 id=&quot;tutorials&quot; tabindex=&quot;-1&quot;&gt;tutorials&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;index&quot; tabindex=&quot;-1&quot;&gt;index&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/react-jsx-dynamic-overlay-color/" >
+        </entry>
+        <entry>
+            <title>
+                Preserve Line Breaks in textarea tag
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/preserve-line-breaks-in-textarea-tag/</id>
+            <content type="html">
+                &lt;p&gt;[&amp;quot;BHdiVZ88rU75/T13g2x4Czrr7k6qelahRqmq7mbEpIPxzI0SQjaD0+HWgekbLVWgdmw5zY8KIm6iLuGCSCg49m5DJJrFEaJ4ZzIMZDkjoKdkjA03RLlCjd93fdo3yqqAjQnDnURh+PH2OCwiNy2C+S6t6ssVpQgf/uvvg3m6kF7IxYqWFkZWmVZkx7LBfV9jYAY3eHvWMNKX3PgsN8w5kxefmuRBN8AOXtfY8B3KgFqtSogLALUpGmTyQG8cmAOZ3EfC0op0LSLg9QamfPvhBJlMbpOab5LtbxQq+kAvQElvo5sPdX35APwxD3nye2zGu8WwanJxFHQZqKaye2/4beXclMAezu4wDC6F6MnPT0ilyGeNR7AEnstb9ItGDpMY0UaxwlhzYGVEZ1DVXPWmdZOXHI/5s5KhpQTGFv/lYlmW5ZlDvSOlvPPcBIoDo8Z5AAlRD00h3Lj2oBlA/1V5DHyuA4U6zPeaIewNyevk3AzWqUfzsa+4PGlMKPvcy+Ekrh+w3k2SIVnPCJ/deOCzwDIYMw0wbkl3wvh3xvpk0V1gMLYRNd501nXePCmCtMmbUzMXtyIXjt7tvXDCmPWnZf7qCnDR5nKD0KGlLyGnerLoJT1N2NA6QUlr9NGBTXHUtZMdd8xTx0TF73HrC2t0T/RaJU/eu6kwhTAQrIYthKTH3LFGe3x0/iEMOJjrB26dELz5ZxZAMbq3n4LgiN5dRt/N9TlDOUMrpUtK1uxeLIAcEYkn7wlzRi524O12e25QdsW5+AieHQ==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f04000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/preserve-line-breaks-in-textarea-tag/" >
+        </entry>
+        <entry>
+            <title>
+                Modern Image Caption
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/modern-image-caption/</id>
+            <content type="html">
+                &lt;p&gt;Having a subtle caption that floats / aligns to the right with some hover effects seems simple right? Well, it was a bit confusing until I found out about &lt;code&gt;display: inline-flex;&lt;/code&gt; and  &lt;code&gt;display: inline-table;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;example&quot; tabindex=&quot;-1&quot;&gt;Example&lt;/h2&gt;
+&lt;html&gt; &lt;head&gt; &lt;style&gt;.imgWrapper:hover &gt; span {outline:dotted &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#9a9a9a&quot;&gt;#9a9a9a&lt;/a&gt; 1px;box-shadow:#000 a8 2px 2px 11px 5px} .imgWrapper:hover small.caption span {background-color:#303a00;color:#ccc}&lt;/style&gt; &lt;/head&gt; &lt;body&gt; &lt;div class=&quot;imgWrapper&quot; style=&quot;cursor:zoom-in; display:inline-flex; flex-direction:column; transition:1s&quot;&gt; &lt;span style=&quot;box-shadow:#000 1px 1px 4px 2px; outline:solid #505050 1px; transition:inherit&quot;&gt; &lt;img alt=&quot;cute Lapphund Finnish pupper &quot; srcset=&quot;https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg&quot; width=&quot;150&quot; height=&quot;200&quot; /&gt; &lt;/span&gt; &lt;small class=&quot;caption&quot; aria-label=&quot;also a custom tooltip &quot; style=&quot;color:grey; display:inline-table; padding:1em 0.5em; text-align:end; transition:inherit&quot; align=&quot;end&quot;&gt; &lt;span style=&quot;padding:1em 0.5em&quot;&gt; → cute Lapphund Finnish pupper &lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;source-code&quot; tabindex=&quot;-1&quot;&gt;Source Code&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&amp;quot;imgWrapper&amp;quot;&amp;gt;
+	&amp;lt;span&amp;gt;
+		&amp;lt;img alt=&amp;quot;helpme &amp;quot; srcset=&amp;quot;https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg&amp;quot; &amp;gt;
+	&amp;lt;/span&amp;gt;
+
+	&amp;lt;small class=&amp;quot;caption&amp;quot; aria-label=&amp;quot;helpme &amp;quot;&amp;gt;
+		&amp;lt;span&amp;gt; → helpme &amp;lt;/span&amp;gt;
+	&amp;lt;/small&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.imgWrapper{
+
+  transition: 1s;
+  display: inline-flex;
+  flex-direction: column;
+  cursor: zoom-in;
+
+  // img cont
+  &amp;gt; span{
+    outline: solid rgb(80, 80, 80) 1px;
+    box-shadow: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#000000&quot;&gt;#000000&lt;/a&gt; 1px 1px 4px 2px;
+    transition: inherit;
+  }
+
+  small.caption{
+    color: grey;
+    display: inline-table;
+    text-align: end;
+    padding: 1em .5em;
+    transition: inherit;
+    
+    span{
+      padding: 1em .5em;
+    }
+  }
+
+  &amp;amp;:hover{
+    &amp;gt; span{
+      outline: dotted rgb(154, 154, 154) 1px;
+      box-shadow: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#000000a8&quot;&gt;#000000a8&lt;/a&gt; 2px 2px 11px 5px;
+    }
+
+    small.caption{
+      span{
+        background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#303a00&quot;&gt;#303a00&lt;/a&gt;;
+        color: rgb(204, 204, 204);
+      }
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/&quot;&gt;developer/CSS/Cascading Style Sheet Tips &amp;amp; Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/modern-image-caption/" >
+        </entry>
+        <entry>
+            <title>
+                Hide Reveal Error Message
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/hide-reveal-error-message/</id>
+            <content type="html">
+                &lt;p&gt;clever way to animate an error message in and out. The error element is hidden when there is no inner text or html present, but once filled with content it will be revealed to the UI&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.error{
+    background-color: red;
+    color: white;
+    padding: .3em;
+    margin-bottom: 1em;
+    transition: .7s;
+    
+    &amp;amp;:empty{
+      background-color: green;
+      z-index: -500;
+      height: 0;
+      padding: 0;
+
+    }
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/&quot;&gt;developer/CSS/Cascading Style Sheet Tips &amp;amp; Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/hide-reveal-error-message/" >
+        </entry>
+        <entry>
+            <title>
+                Header Text overlap
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/header-text-overlap/</id>
+            <content type="html">
+                &lt;p&gt;[&amp;quot;eowIygzv3Vx2QITmHRDaP3WTWS0eltLNMrXUSRulae0x12etME8F75NJl9HQWmR3lnESs+wtyBWNcSOQI9lGBjV95zVT0xBomIOFFZ8+G5guFzm5WOJFnU3DLlZJTXAg+JlXUdmmrMKSIOI33mb1qTdt1Bf2YWKXygN1re/DkVAIFNxcGYbudSUxaGmIFEWukCdN4juYo098og5h8oMI7XlQ4V+OuAE6UiFI++5hVkJyfgj4OQZDePKtF/bzL2k63soTD0E01NkfElTLBG/eUme85futIB6YWjfi8dqClORGRYYDMibenSkiQcnqY8cVdiR05urFJu8ugMdz6rNmIe/7LAz8pLSEwYt46tdqXJBYtJMGyf3bOC0jsjoUVHSOertI7ThNPOV+nENLHejS1qOQB6r72hYrQFHVmV6lNnn7LVJ1SwRfrMsMdrhAO9CYVA/dfFKiBGwwlnn5R7iTtGgKUyFEtZKLUR7+QojZm/49Taqjdg83NS8WpuUP8MM3IlE4zXo0epjwwjd+vDRzO0FeBjBifoKTYGTJVixRhMKLSHP3xUGmGhn6iNzJBgtwSx7O6gEwleygDyWKOHUOqqpI2XRyxcbTC8DddIdomK5MsdvKK70U6H5cUrfFZIEBhunhrn45CotsKOQ1Fwfm6sBhhCffJx0lLtSFEXcES+K+tNkI6hmjWkN+BWCCxU7kaR8gELjDL95vI1YWuwiEh6HMTYyxsjESGcVAq4MPsHR/nzjkAIUQrIc1R49CfD4Qb0i4YVWuZOttggdet/N4bgy73nVAdTynbShSGOeVnOHxyqUmSUNWf1t3cgJZCvsx7Jd3CcY0R6d2HzkGzON3amLzbpbYLb4jvdRMBbpo6+eQvsCAWPFppRMTesVr3YNXvVxZIf4QC0R543U2wixS3xb8URI29tOAU3Va3QhUZrvk9x0xPuwAFHOPikjziMDbhR3XKbK3yhUR2uaxHA6edUgPlr+97846GEC2zhxl1n1qVAWUE08XHo/RW29NfslDllZgTnTV21siEczC5YSpG/RCil9sOCi6yfEWOq/iVXAVIbv+802cpBgWj4qpMXkOf0iymuzdRrkLLviayg3b3WWT9b8IpNBmTsKYfL8nBDkfhiZAiToOwzGn2+yz0Vn6cPk1Ub2Nwdvhmq7MA8K3mkfTeXYC/T6jY5y4NeAJ7OoHflnvKGE9qgOQJZH5Hxgy99vlLpT/4tEKsDaQ3uBrsJwnlOxp0wRziKPMZ0hUEp39KA==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f03000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/header-text-overlap/" >
+        </entry>
+        <entry>
+            <title>
+                Center and Fit Image the Right Way
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/center-and-fit-image-the-right-way/</id>
+            <content type="html">
+                &lt;p&gt;I wanted a defacto way to center an image. Looks like I found a decent way&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;picture {
+  overflow: auto;
+  display: grid;
+  grid-template-rows: minmax(0,1fr) auto;
+  resize: both;
+  border: 2px solid red;
+}
+
+picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 50% 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;picture style=&amp;quot;width:100px;height:170px;&amp;quot;&amp;gt;
+  &amp;lt;img src=&amp;quot;https://www.williamusic.com/wp-content/uploads/2021/07/WM_Logo4.png&amp;quot;&amp;gt;
+  
+  &amp;lt;figcaption&amp;gt;myText caption&amp;lt;/figcaption&amp;gt;
+&amp;lt;/picture&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/72429105/align-everything-to-the-top-when-used-object-fit-contain&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;css - Align everything to the top when used object-fit: contain; - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/center-and-fit-image-the-right-way/" >
+        </entry>
+        <entry>
+            <title>
+                Cascading Style Sheet Tips &amp; Tricks
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/</id>
+            <content type="html">
+                
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/" >
+        </entry>
+        <entry>
+            <title>
+                CSS
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css/</id>
+            <content type="html">
+                &lt;h3 id=&quot;if-parent-has-input-that-is-checked&quot; tabindex=&quot;-1&quot;&gt;if parent has input that is checked&lt;/h3&gt;
+&lt;p&gt;in a todo list, I wanted to cross out or strikethrough all children if the input was checked&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;li class=&amp;quot;task-list-item&amp;quot;&amp;gt;
+	&amp;lt;input type=&amp;quot;checkbox&amp;quot; disabled checked&amp;gt;
+	front page with growing sprout garden. flowers are clickable graph view?
+&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;li.task-list-item:has(input:checked){
+
+  opacity: .6;
+  text-decoration:line-through;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;centered-header-label-with-horizontal-line-on-sides&quot; tabindex=&quot;-1&quot;&gt;Centered header label with horizontal line on sides&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://iqcode.com/code/css/css-technique-for-a-horizontal-line-with-icons-in-the-middle#:~:text=CSS&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://iqcode.com/code/css/css-technique-for-a-horizontal-line-with-icons-in-the-middle#:~:text=CSS&lt;/a&gt; technique for a horizontal line with icons,line-through%3B } View another examples Add Own solution&lt;/a&gt;&lt;br /&gt;
+check out the &lt;code&gt;graph &lt;/code&gt; and  &lt;code&gt;Table of Contents&lt;/code&gt; labels in this screenshot&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pywrite-garden.tawtaw.site/img/user/attachments/Pasted%20image%2020221109140342%201.png&quot; alt=&quot;attachments/Pasted image 20221109140342 1.png|sections with headers   |     500&quot; width=&quot;     500px&quot; /&gt;&lt;br /&gt;
+with the power of &lt;code&gt;:before&lt;/code&gt; &amp;amp; &lt;code&gt;:after&lt;/code&gt; you too can make this stylish &amp;quot;strike through&amp;quot; effect&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;p.icon-label{
+    color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#5e5e5e&quot;&gt;#5e5e5e&lt;/a&gt;;
+    font-size: 1rem;
+    overflow: hidden;
+    text-align: center;
+
+    &amp;amp;:before,
+    &amp;amp;:after {
+      background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#5e5e5e&quot;&gt;#5e5e5e&lt;/a&gt;;
+      content: &amp;quot;-&amp;quot;;
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 50%;
+    }  
+
+    &amp;amp;:before {
+      right: 0.5em;
+      margin-left: -50%;
+    }
+
+    &amp;amp;:after {
+      left: 0.5em;
+      margin-right: -50%;
+    }
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;disable-interaction-and-or-click-through-element&quot; tabindex=&quot;-1&quot;&gt;disable interaction and or click through element&lt;/h3&gt;
+&lt;p&gt;very useful when hiding a top layer UI element with opacity = 0&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;pointer-events: none;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;hide-scrollbar-on-hover&quot; tabindex=&quot;-1&quot;&gt;hide scrollbar on hover&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://iqcode.com/code/css/hover-show-scrollbar-css#:~:text=hover&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://iqcode.com/code/css/hover-show-scrollbar-css#:~:text=hover&lt;/a&gt; show scrollbar css CPP div { height%3A,overflow%3A hidden%3B } div%3Ahover { overflow-y%3A scroll%3B }&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;div {
+  height: 100px;
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+div:hover {
+  overflow-y: scroll;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;fix-word-wrap-indentation-in-list-elements&quot; tabindex=&quot;-1&quot;&gt;Fix word wrap indentation in list elements&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;CSS&lt;/a&gt; - Indenting the second line of LI (List Items) - Silva Web Designs&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;ul { 
+	list-style: none; 
+	width: 200px; 
+	text-indent: -20px; /* MATCH key property */ 
+	margin-left: 20px; /* MATCH key property */ 
+} 
+
+li { margin-bottom: 10px; }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;custom-scrollbar&quot; tabindex=&quot;-1&quot;&gt;Custom Scrollbar&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;How&lt;/a&gt; To Create a Custom Scrollbar (&lt;a href=&quot;http://w3schools.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;w3schools.com&lt;/a&gt;)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;/* width */  
+::-webkit-scrollbar {  width: 20px; }  
+  
+/* Track */  
+::-webkit-scrollbar-track {  
+	box-shadow: inset 0 0 5px grey;  
+	border-radius: 10px;
+}  
+  
+/* Handle */  
+::-webkit-scrollbar-thumb {  
+	background: red;  
+	border-radius: 10px;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;code-pen-insporation&quot; tabindex=&quot;-1&quot;&gt;Code Pen Insporation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://codepen.io/b1tn3r/embed/YjOzRv?height=300&amp;amp;default-tab=css%2Cresult&amp;amp;slug-hash=YjOzRv&amp;amp;editable=true&amp;amp;user=b1tn3r&amp;amp;name=cp_embed_40#result-box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://codepen.io/avstorm/embed/rNBZby?default-tab=css%2Cresult&amp;amp;editable=true&amp;amp;height=300&amp;amp;name=cp_embed_26&amp;amp;slug-hash=peCbd&amp;amp;user=avstorm#result-box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://codepen.io/lbebber/embed/LELBEo?height=300&amp;amp;default-tab=css%2Cresult&amp;amp;slug-hash=LELBEo&amp;amp;editable=true&amp;amp;user=lbebber&amp;amp;name=cp_embed_6#result-box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://codepen.io/Grsmto/embed/RPQPPB?height=300&amp;amp;default-tab=css%2Cresult&amp;amp;slug-hash=RPQPPB&amp;amp;editable=true&amp;amp;user=Grsmto&amp;amp;name=cp_embed_5#result-box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://codepen.io/andrewmillen/embed/MoKLob?height=300&amp;amp;default-tab=css%2Cresult&amp;amp;slug-hash=MoKLob&amp;amp;editable=true&amp;amp;user=andrewmillen&amp;amp;name=cp_embed_1#result-box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Pure CSS 3D Synthesizer (mousedown for rotation) (&lt;a href=&quot;http://codepen.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;codepen.io&lt;/a&gt;)&lt;/a&gt;%20(&lt;a href=&quot;http://codepen.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;codepen.io&lt;/a&gt;))&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;web-tools&quot; tabindex=&quot;-1&quot;&gt;Web Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://colorgradient.dev/gradient-generator&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Gradient Generator - CSS gradients made easy - ColorGradient&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;how-to-really-mask&quot; tabindex=&quot;-1&quot;&gt;how to really mask&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/using-css-masks-to-create-jagged-edges/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Using CSS Masks to Create Jagged Edges | CSS-Tricks - CSS-Tricks&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+	&amp;lt;img src=&amp;quot;...&amp;quot;&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;.container{
+	background-color: blue;
+}
+
+img {
+    mask-image: linear-gradient(
+      to bottom right,
+      white,
+      white 50%,
+      transparent 50%,
+      transparent),
+    linear-gradient(
+      to top,
+      transparent 30px,
+      black 30px,
+      white);
+      
+    mask-size: 30px 30px, 100% 100%;
+    mask-repeat: repeat-x;
+    mask-position: left bottom;
+    display: block;
+    margin-bottom: 0.5em;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/&quot;&gt;developer/CSS/Cascading Style Sheet Tips &amp;amp; Tricks&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Rotation Axis
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-rotation-axis/</id>
+            <content type="html">
+                &lt;p&gt;rotate an element not just around the center axis&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;transform: rotate(-25deg);
+transform-origin: 0% 0%;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/6652476/how-can-i-set-a-rotation-point-for-an-element-in-css&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;css transforms - How can I set a rotation point for an element in CSS? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/&quot;&gt;developer/CSS/Cascading Style Sheet Tips &amp;amp; Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-rotation-axis/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Nested border-radius
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-nested-border-radius/</id>
+            <content type="html">
+                &lt;p&gt;You&#39;ve probably set the parent and child element &lt;code&gt;border-radius&lt;/code&gt; to the same value expecting them to line up, but it&#39;s the padding that throws the angle of the curve off&lt;/p&gt;
+&lt;p&gt;The inner radius needs to equal the outer radius - padding&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.parent{
+	padding: 1.25rem;
+	border-radius: 3rem;
+}
+
+.child{
+	border-radius: 1.75rem;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/shorts/D0lIR1qVJOk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Do you make this mistake with border-radius? &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#css&quot;&gt;#css&lt;/a&gt; - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/css/&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-nested-border-radius/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Masonry Layout With Grid
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-masonry-layout-with-grid/</id>
+            <content type="html">
+                &lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.masonry {
+	--gap: clamp(1rem, 5vmin, 2rem);
+	columns: 150px;
+	gap: var(--gap);
+	width: 96%;
+	max-width: 960px;
+	margin: 5rem auto;
+}
+
+.masonry &amp;gt; article {
+	break-inside: avoid;
+	marigin-bottom: var(--gap);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;A&lt;/a&gt; simple way to make a masonry layout (&lt;a href=&quot;http://youtube.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;youtube.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;index&quot; tabindex=&quot;-1&quot;&gt;index&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-masonry-layout-with-grid/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Marquee Animations
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-marquee-animations/</id>
+            <content type="html">
+                &lt;h2 id=&quot;scroll-horizontal-ticker&quot; tabindex=&quot;-1&quot;&gt;Scroll horizontal ticker&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;
+&amp;lt;!-- Styles --&amp;gt;	
+&amp;lt;style&amp;gt;
+.example1 {
+	 height: 50px;	
+	 overflow: hidden;
+	 position: relative;
+}
+
+.example1 h3 {
+	 font-size: 3em;
+	 color: limegreen;
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 margin: 0;
+	 line-height: 50px;
+	 text-align: center;
+	
+	 transform:translateX(100%);
+	
+	 animation: example1 15s linear infinite;
+}
+
+@keyframes example1 {
+	 0%   { 
+	
+		 transform: translateX(100%); 		
+	 }
+	 100% { 
+	
+		 transform: translateX(-100%); 
+	 }
+}
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!-- HTML --&amp;gt;	
+&amp;lt;div class=&amp;quot;example1&amp;quot;&amp;gt;
+&amp;lt;h3&amp;gt;Scrolling text... &amp;lt;/h3&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;scroll-down&quot; tabindex=&quot;-1&quot;&gt;Scroll Down&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;style&amp;gt;
+.example3 {
+	 height: 200px;	
+	 overflow: hidden;
+	 position: relative;
+}
+
+.example3 h3 {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 margin: 0;
+	 line-height: 50px;
+	 text-align: center;
+	
+	 transform:translateY(-100%);
+	
+	 animation: example3 15s linear infinite;
+}
+
+
+
+@keyframes example3 {
+	 0%   { 
+		 transform: translateY(-100%); 		
+	 }
+	 
+	 100% { 
+		 transform: translateY(100%); 
+	 }
+}
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!-- HTML --&amp;gt;
+&amp;lt;div class=&amp;quot;example3&amp;quot;&amp;gt;
+	&amp;lt;h3&amp;gt;Scrolling down... &amp;lt;/h3&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://www.quackit.com/css/codes/marquees/#:~:text=CSS&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.quackit.com/css/codes/marquees/#:~:text=CSS&lt;/a&gt; marquees are replacing HTML marquees as the,creating scrolling%2C bouncing%2C or slide-in text and images.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/css/&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-marquee-animations/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Input Range Slider With Box Shadow Animation
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-input-range-slider-with-box-shadow-animation/</id>
+            <content type="html">
+                &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;label htmlFor=&amp;quot;slider&amp;quot; className=&amp;quot;slider-cont&amp;quot;&amp;gt;
+
+		&amp;lt;span&amp;gt; Range Input &amp;lt;/span&amp;gt;
+		
+		&amp;lt;input
+			type=&amp;quot;range&amp;quot;
+			name=&amp;quot;slider&amp;quot;
+			list=&amp;quot;slider-marks&amp;quot;
+			min=&amp;quot;0&amp;quot;
+			max=&amp;quot;100&amp;quot;
+			step=&amp;quot;10&amp;quot;
+			onChange={(e) =&amp;gt; setSliderVal(e.target.value)}
+		/&amp;gt;
+	
+			&amp;lt;output id=&amp;quot;value&amp;quot; className=&amp;quot;tooltip&amp;quot;&amp;gt;
+				50% 
+			&amp;lt;/output&amp;gt;
+	 
+	&amp;lt;/label&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;for the &lt;code&gt;&amp;lt;output&amp;gt;&lt;/code&gt; tag I use &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/ReactJS/ReactJS&lt;/a&gt; to handle state, so you&#39;re on your own if you want to use vanilla &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#javascript&quot;&gt;#javascript&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;label.slider-cont{
+  max-width: 30em;
+  margin: 1em auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+
+  &amp;amp;:hover input[type=&#39;range&#39;]::-webkit-slider-thumb{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.774), inset 1px 1px 20px &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#25ecd1&quot;&gt;#25ecd1&lt;/a&gt;;
+  }
+
+  input[type=&#39;range&#39;]{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 0.7em;
+    outline: none;
+    border-radius: 99px;
+    background: rgb(99, 99, 99);
+    box-shadow: inset 3px 3px 2px rgb(87, 87, 87);
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+
+    &amp;amp;::-webkit-slider-thumb{
+      -webkit-appearance: none;
+      position: relative;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgb(66,66,66);
+      border: 1px solid &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#664AFF&quot;&gt;#664AFF&lt;/a&gt;;
+      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.774), inset 1px 1px 1px &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#25ecd1&quot;&gt;#25ecd1&lt;/a&gt;;
+      transition: all ease-in-out .5s;
+      cursor:ew-resize;
+
+      &amp;amp;::before{
+        position: absolute;
+        content: &#39;xxxxxxx&#39;;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(
+          to bottom,
+          hsl(344, 100%, 50%),
+          hsl(31, 100%, 40%)
+        );
+        z-index: -1;
+        transition: opacity 0.5s linear;
+        
+      }
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-input-range-slider-with-box-shadow-animation/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Height Transition Animation
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-height-transition-animation/</id>
+            <content type="html">
+                &lt;p&gt;smooth transition height trick&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#menu&quot;&gt;#menu&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#list&quot;&gt;#list&lt;/a&gt; {
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+    background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#d5d5d5&quot;&gt;#d5d5d5&lt;/a&gt;;
+}
+
+&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#menu&quot;&gt;#menu&lt;/a&gt;:hover &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#list&quot;&gt;#list&lt;/a&gt; {
+    max-height: 500px;
+    transition: max-height 0.25s ease-in;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/3508605/how-can-i-transition-height-0-to-height-auto-using-css&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How can I transition height: 0; to height: auto; using CSS? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/&quot;&gt;developer/CSS/Cascading Style Sheet Tips &amp;amp; Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-height-transition-animation/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Gradient Background Image Transition
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-gradient-background-image-transition/</id>
+            <content type="html">
+                &lt;p&gt;Transiitioning a background image isn&#39;t a built in feature, but is a trick using pseudo elements&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div className=&amp;quot;grad-trans&amp;quot;&amp;gt; gradient &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.grad-trans{
+  position: relative;
+  background: rgb(66,66,66);
+  height: 10em;
+  background-image: linear-gradient(
+    to right,
+    hsl(211, 100%, 50%),
+    hsl(179, 100%, 30%)
+  );
+  
+  z-index: 1;
+  transition: all 1s;
+
+  &amp;amp;::before {
+    position: absolute;
+    content: &#39;&#39;;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(344, 100%, 50%),
+      hsl(31, 100%, 40%)
+    );
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+  }
+  
+  &amp;amp;:hover::before {
+    opacity: 1;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;try using other CSS like &lt;code&gt;background-position: right&lt;/code&gt; to also animate a single gradient&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credit&quot; tabindex=&quot;-1&quot;&gt;Credit&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Transitioning&lt;/a&gt; Gradients (&lt;a href=&quot;http://keithjgrant.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;keithjgrant.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=f3mwKLXpOLk&amp;amp;t=619s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Fun ways to animate CSS gradients - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-gradient-background-image-transition/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Disco Floor Animation
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-disco-floor-animation/</id>
+            <content type="html">
+                &lt;p&gt;I wanted to create a eye candy dance floor that looks like it&#39;s lighting up&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/LWdTbBPO4TQcPstFi0/giphy.gif&quot; alt=&quot;discofloor | 400&quot; width=&quot; 400px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I was also inspired by Music beat pads that look like this&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/haKq2CT9XuQSqW5OpO/giphy.gif&quot; alt=&quot;beat pad | 400&quot; width=&quot; 400px&quot; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-tsx&quot;&gt;import styled from &amp;quot;styled-components&amp;quot;
+
+type Squares = {
+  color:string,
+}[]
+
+export function DiscoFloor() {
+
+  const squares:Squares = [
+    {
+      color: &#39;pink&#39;,
+    },
+    {
+      color: &#39;purple&#39;,
+    },
+    {
+      color: &#39;orange&#39;,
+    },
+    {
+      color: &#39;cyan&#39;,
+    },
+    {
+      color: &#39;red&#39;,
+    },
+    {
+      color: &#39;limegreen&#39;,
+    },
+    {
+      color: &#39;coral&#39;,
+    },
+    {
+      color: &#39;limegreen&#39;,
+    },
+    {
+      color: &#39;purple&#39;,
+    },
+    {
+      color: &#39;red&#39;,
+    },
+  ]
+
+  return (
+    &amp;lt;StyledDiscoFloor&amp;gt;
+      {squares.map((sqr,i) =&amp;gt; (
+        &amp;lt;div 
+        className=&amp;quot;grid-item&amp;quot;
+        style={{
+          backgroundColor: sqr.color,
+          animationDelay: `${String(i)}s`,
+
+        }}&amp;gt;
+
+        &amp;lt;/div&amp;gt;
+      ))}
+    &amp;lt;/StyledDiscoFloor&amp;gt;
+  )
+}
+
+const StyledDiscoFloor = styled.div`
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+
+  .grid-item {
+    aspect-ratio: 1/ 1;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#1E1E1E&quot;&gt;#1E1E1E&lt;/a&gt;;
+    color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fff&quot;&gt;#fff&lt;/a&gt;;
+    animation-duration: 10.3s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    
+  }
+
+  .red { background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#ff0000&quot;&gt;#ff0000&lt;/a&gt;; }
+  .blue { background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#0000ff&quot;&gt;#0000ff&lt;/a&gt;; }
+  .green { background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#00ff00&quot;&gt;#00ff00&lt;/a&gt;; }
+  .yellow { background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#ffff00&quot;&gt;#ffff00&lt;/a&gt;; }
+
+  @keyframes pulse {
+    0%{
+      opacity: 0;
+      filter: blur(20px);
+    }
+    60%{
+      opacity: 0;
+      filter: blur(20px);
+    }
+    90%{
+      opacity: 0;
+      filter: blur(10px);
+    }
+    95%{
+      opacity: .5;
+      filter: blur(10px);
+    }
+    100%{
+      opacity: 0;
+      filter: blur(50px);
+    }
+  }
+`
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-disco-floor-animation/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Color Mixing
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-color-mixing/</id>
+            <content type="html">
+                &lt;p&gt;mixing colors in &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#css&quot;&gt;#css&lt;/a&gt; is now a breeze. Create quick color pallet themes that can easily be tweaked.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&amp;quot;wrapper&amp;quot;&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;1&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;2&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;3&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;4&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;5&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;6&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;7&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;8 color 3 light&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;9 color 3 dark &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;	--color-1: red;
+  --color-2: blue;
+  --color-3: green;
+  --color-3-light: color-mix(
+      in srgb, white 70%, var(--color-3)
+    );
+  --color-3-dark: color-mix(
+      in srgb, black 50%, var(--color-3)
+    );
+ 
+  display: flex;
+  width: 100%;
+
+  .box{
+    /* width: 30px; */
+    flex: 1;
+    height: 100px;
+  }
+
+  .box:nth-child(1){
+    background: var(--color-1)
+  }
+  .box:nth-child(2){
+    background: color-mix(
+      in srgb, var(--color-1) 80%, var(--color-2)
+    );
+  }
+  .box:nth-child(3){
+    background: color-mix(
+      in srgb, var(--color-1) 40%, var(--color-2)
+    );
+  }
+
+  .box:nth-child(4){
+    background: var(--color-2)
+  }
+  .box:nth-child(5){
+    background: color-mix(
+      in srgb, var(--color-2) 80%, var(--color-3)
+    );
+  }
+  .box:nth-child(6){
+    background: color-mix(
+      in srgb, var(--color-2) 40%, var(--color-3)
+    );
+  }
+
+  .box:nth-child(7){
+    background: var(--color-3)
+  }
+  .box:nth-child(8){
+    background: var(--color-3-light)
+  }
+  .box:nth-child(9){
+    background: var(--color-3-dark)
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/shorts/CZ_LaL5DZk0&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;This new CSS function makes color schemes a breeze - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/css/&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-color-mixing/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Capitolize the first letter rest are lowercase
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-capitolize-the-first-letter-rest-are-lowercase/</id>
+            <content type="html">
+                &lt;p&gt;I has a string like so&lt;code&gt;WUMBO&lt;/code&gt; and needed to just have the fist letter capitol. Easy (or so I thought).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;span class=&amp;quot;capitalize&amp;quot;&amp;gt; WUMBO &amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.capitalize {
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+.capitalize:first-letter {
+  text-transform: uppercase
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!info] The selected element must be in it&#39;s own &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; tag&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kevin Jantzer &lt;a href=&quot;https://stackoverflow.com/questions/42013720/css-capitalize-first-letter-in-all-caps-word&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;html - CSS Capitalize First Letter In All Caps Word - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/css/&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-capitolize-the-first-letter-rest-are-lowercase/" >
+        </entry>
+        <entry>
+            <title>
+                CSS Animation snips
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-animation-snips/</id>
+            <content type="html">
+                &lt;p&gt;cred - &lt;a href=&quot;https://thisdevbrain.com/css-floating-hearts-animation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CSS Floating hearts animation | This Dev Brain by Michal Tynior&lt;/a&gt;&lt;/p&gt;
+&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;p&gt;&lt;link rel=&quot;apple-touch-icon&quot; type=&quot;image/png&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;CodePen&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;link rel=&quot;mask-icon&quot; type=&quot;image/x-icon&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg&quot; color=&quot;#111&quot; /&gt;&lt;/p&gt;
+  &lt;title&gt;CodePen - Animated Hearts Step &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#4&quot;&gt;#4&lt;/a&gt; - Final scene &lt;/title&gt;
+&lt;style&gt;
+:root {
+  --color-sky-top: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#3e365d&quot;&gt;#3e365d&lt;/a&gt;;
+  --color-sky-bottom: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#df9a91&quot;&gt;#df9a91&lt;/a&gt;;
+  --color-main: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#403149&quot;&gt;#403149&lt;/a&gt;;
+  --color-heart: red;
+  --size-viewport: 85%;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background: var(--color-sky-bottom);
+  background: linear-gradient(to bottom, var(--color-sky-top), var(--color-sky-bottom));
+  width: 100vw;
+  height: 100vh;
+}
+
+&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#hearts-alpaca&quot;&gt;#hearts-alpaca&lt;/a&gt; {
+  bottom: 33%;
+  left: 40%;
+}
+
+.hearts {
+  width: 5%;
+  min-width: 100px;
+  height: 25%;
+  min-height: 300px;
+  position: absolute;
+  z-index: 10;
+}
+
+.heart {
+  background-color: var(--color-heart);
+  position: absolute;
+  height: 20%;
+  min-height: 15px;
+  width: 20%;
+  min-width: 15px;
+  opacity: 0;
+  -webkit-mask-image: url(&#39;data:image/svg+xml;charset=UTF-8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&#39;);
+          mask-image: url(&#39;data:image/svg+xml;charset=UTF-8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&#39;);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: bottom;
+          mask-position: bottom;
+  animation: floating-heart 10s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+}
+
+.heart:nth-child(1) {  
+  animation-delay: 1s;
+}
+
+.heart:nth-child(2) {
+  animation-delay: 2.5s;
+}
+
+.heart:nth-child(3) {
+  animation-delay: 3.5s;
+}
+
+.heart:nth-child(4) {
+  animation-delay: 4.5s;
+}
+
+@keyframes floating-heart {
+  0% {
+    opacity: 0;
+    bottom: 0%;
+    left: 0%;
+  }
+  10% {
+    opacity: 1;
+    bottom: 20%;
+    left: 70%;
+  }
+  20% {
+    bottom: 40%;
+    left: 10%;
+  }
+  30% {
+    bottom: 60%;
+    left: 50%;
+  }
+  40% {
+    opacity: 1;
+    bottom: 80%;
+    left: 5%;
+  }
+  48% {
+    opacity: 0;
+    bottom: 100%;
+    left: 60%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 100%;
+    left: 90%;
+  }
+}
+
+&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#alpaca&quot;&gt;#alpaca&lt;/a&gt; {
+  height: 25%;
+  position: absolute;
+  bottom: 8%;
+  left: 40%;
+  fill: var(--color-main);
+}
+
+&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#landscape&quot;&gt;#landscape&lt;/a&gt; {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-main);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: 1;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body translate=&quot;no&quot;&gt;
+  &lt;!-- Hearts --&gt;
+  &lt;div id=&quot;hearts-alpaca&quot; class=&quot;hearts&quot;&gt;
+    &lt;div class=&quot;heart&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;heart&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;heart&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;heart&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Alpaca --&gt;
+  &lt;svg id=&quot;alpaca&quot; viewBox=&quot;0 0 174 190&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+    &lt;g&gt;
+        &lt;path d=&quot;M158.998354,124.57 C158.548354,140.4 174.478354,150.45 171.888354,169.43 C171.748354,169.23 172.218354,170.97 171.608354,170.52 C169.268354,169.76 174.608354,174.12 173.238354,174.05 C171.898354,175.26 167.638354,172.73 171.008354,175.39 C171.938354,175.89 170.008354,175.54 169.418354,175.15 C168.628354,175.05 172.688354,178.85 172.538354,179.62 C170.908354,179.86 168.288354,177.81 168.908354,181.41 C162.998354,190.41 163.498354,190.27 152.148354,188.27 C148.578354,186.71 157.798354,185.54 155.778354,183.45 C153.198354,180.21 153.778354,163.55 151.218354,165.8 C153.658354,158.18 150.218354,164.8 151.218354,161.92 C153.218354,154.47 146.698354,173.22 149.698354,169.31 C148.448354,169.31 148.388354,175.89 147.078354,173.38 C145.218354,171.59 148.348354,174.6 145.658354,176.79 C143.908354,179.79 141.748354,179.03 138.328354,180.72 C132.328354,180.64 124.038354,181.79 130.458354,176.44 C132.558354,175.1 128.198354,174.85 129.858354,173.44 C129.858354,173.44 128.618354,173.91 128.478354,174.18 C128.058354,173.77 131.728354,169.77 130.478354,169.68 C129.938354,169.98 130.078354,170 130.288354,169.41 C134.208354,166.41 130.018354,161.17 131.178354,157.41 C132.028354,154.75 131.878354,155.73 129.778354,156.41 C127.718354,147.1 123.868354,140.41 120.328354,132 C120.258354,128.22 121.488354,128.13 118.658354,126.18 C120.208354,124.04 121.178354,124.77 118.998354,122.6 C122.348354,116.7 110.558354,128.73 107.898354,130.45 C107.898354,130.45 108.898354,129.36 108.708354,128.53 C109.018354,132.37 96.1383535,132.32 95.1183535,133.4 C95.3741592,133.048716 95.7194849,132.772455 96.1183535,132.6 C90.8183535,136.32 86.6583535,132.52 82.9283535,131.94 C85.0983535,133.53 83.2183535,137.25 85.4183535,139.18 C84.9890862,139.211063 84.5575884,139.177352 84.1383535,139.08 C84.0083535,139.38 85.5983535,140.38 84.1383535,140.08 C84.2983535,140.4 85.1383535,140.89 84.1383535,140.9 C84.9083535,141.73 82.1383535,142.9 84.4183535,143.9 C81.7583535,145.82 85.4883535,143.54 82.9683535,147.21 C83.5283535,148.59 84.5683535,154.94 83.1583535,153.61 C83.1583535,156.15 84.2283535,159.83 84.0283535,162.61 C81.1683535,157.78 84.3083535,168.5 82.8483535,170.61 C82.9883535,171.9 84.1283535,172.19 82.0683535,172.03 C81.7083535,173.85 81.0683535,176.22 80.7983535,178.56 C80.2883535,176.73 80.6683535,178.51 80.1783535,179.92 C79.1283535,181.65 78.9183535,181.24 78.1783535,183.92 C80.7683535,188.23 67.7583535,188.46 67.9683535,187.36 C69.2483535,185.75 70.7083535,181.44 68.7383535,179.8 C68.6051726,180.479695 68.5216187,181.168179 68.4883535,181.86 C68.2083535,182.33 67.7683535,178.21 67.8583535,179.31 C68.8583535,181.4 60.9883535,183.04 61.6783535,181.16 C61.6530595,179.986867 62.5149362,178.98278 63.6783535,178.83 C64.0983535,178.2 64.0783535,175.89 65.2383535,175.47 C61.6583535,176.3 65.9683535,171.67 62.3083535,175.07 C64.5283535,170.54 59.9783535,164.44 62.5983535,159.02 C63.0983535,154.62 61.3083535,153.14 60.1083535,149.5 C58.1883535,142.92 59.1083535,137.67 58.9983535,132.96 C58.2683535,133.96 57.1683535,129.27 56.3283535,130.58 C54.4583535,131.12 54.4483535,126.37 51.9483535,129.22 C35.7083535,115.68 19.6583535,79.42 21.3283535,47.6 C21.1783535,47.23 15.8783535,42.07 19.5083535,40.78 C17.5083535,37.62 14.5083535,39.25 11.3583535,39.25 C10.6283535,36.96 3.07835351,40.62 3.11835351,35.71 C-2.53164649,36.87 0.438353509,25.51 4.59835351,23.9 C4.53835351,21.9 4.23835351,22.75 2.07835351,20.65 C2.71835351,20.11 4.07835351,19.47 2.20835351,18.65 C2.48835351,18.65 4.20835351,17.9 2.63835351,17.65 C3.19835351,17.78 5.86835351,16.44 3.91835351,15.65 C5.53835351,15.9 5.21835351,14.65 8.69835351,13.39 C8.41864369,13.3719721 8.13806333,13.3719721 7.85835351,13.39 C9.85835351,11.46 17.7383535,11.28 18.2183535,8.09 C18.3383535,8.09 20.2183535,7.66 20.6983535,8.55 C19.9783535,7.8 15.2883535,0.33 19.6483535,0 C22.7783535,1.58 24.3483535,5.53 26.5683535,7.49 C27.7883535,7.58 30.7583535,7.43 30.5083535,9.08 C32.5083535,6.27 31.6383535,9.19 35.7883535,9.45 C33.0883535,13.11 38.3683535,9.45 36.4983535,13.03 C40.1383535,13.78 34.7483535,18.3 39.9083535,17.97 C38.4383535,20.1 39.6283535,20.15 40.9083535,18.85 C40.2983535,20.45 41.1883535,19.49 42.6583535,19.94 C40.5283535,20.94 40.9183535,22.24 43.0783535,23.94 C38.9983535,21.94 43.2883535,24.27 44.4383535,25.7 C41.9783535,24.76 44.8483535,27.7 45.3083535,28.92 C44.4442227,28.630878 43.6432223,28.1794668 42.9483535,27.59 C42.6883535,27.74 48.8383535,32.54 44.5683535,30.71 C45.3474883,32.3149855 46.4708008,33.7285156 47.8583535,34.85 C47.0388409,34.4564061 46.2754513,33.9553266 45.5883535,33.36 C46.1724399,34.527762 47.0385839,35.5313892 48.1083535,36.28 C47.1213945,35.7434762 46.2376511,35.0358043 45.4983535,34.19 C46.1996399,36.0268629 47.3393985,37.6644075 48.8183535,38.96 C48.1194513,38.9709431 47.4298822,38.7985508 46.8183535,38.46 C51.6783535,43.29 49.0383535,62.12 57.7183535,67.79 C92.3183535,73.21 144.528354,47.5 169.288354,92.4 C168.779597,91.4691183 168.101275,90.6415663 167.288354,89.96 C167.288354,89.96 170.498354,93.55 171.148354,101.3 C171.148354,101.3 170.148354,96.3 169.338354,95.48 C171.168354,95.91 171.518354,110.48 166.168354,118.81 C166.345712,117.819144 166.362594,116.806216 166.218354,115.81 C166.218354,115.81 165.848354,120.24 164.588354,122.53 C165.151472,120.951494 165.356421,119.267494 165.188354,117.6 C165.188354,117.6 165.468354,122.33 161.938354,124.91 C161.938354,124.91 164.678354,122.18 164.308354,119.54 C162.218354,128.72 155.748354,118.5 158.998354,124.57 Z&quot; id=&quot;Shape&quot;&gt;&lt;/path&gt;
+    &lt;/g&gt;
+  &lt;/svg&gt;
+  &lt;!-- Landscape --&gt;
+  &lt;div id=&quot;landscape&quot;&gt;&lt;/div&gt;
+  &lt;script src=&quot;https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div id=&amp;quot;hearts-alpaca&amp;quot; class=&amp;quot;hearts&amp;quot;&amp;gt;
+	&amp;lt;div class=&amp;quot;heart&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;heart&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;heart&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class=&amp;quot;heart&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;:root {
+  --color-sky-top: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#3e365d&quot;&gt;#3e365d&lt;/a&gt;;
+  --color-sky-bottom: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#df9a91&quot;&gt;#df9a91&lt;/a&gt;;
+  --color-main: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#403149&quot;&gt;#403149&lt;/a&gt;;
+  --color-heart: red;
+  --size-viewport: 85%;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background: var(--color-sky-bottom);
+  background: linear-gradient(to bottom, var(--color-sky-top), var(--color-sky-bottom));
+  width: 100vw;
+  height: 100vh;
+}
+
+&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#hearts-alpaca&quot;&gt;#hearts-alpaca&lt;/a&gt; {
+  bottom: 33%;
+  left: 40%;
+}
+
+.hearts {
+  width: 5%;
+  min-width: 100px;
+  height: 25%;
+  min-height: 300px;
+  position: absolute;
+  z-index: 10;
+}
+
+.heart {
+  background-color: var(--color-heart);
+  position: absolute;
+  height: 20%;
+  min-height: 15px;
+  width: 20%;
+  min-width: 15px;
+  opacity: 0;
+  -webkit-mask-image: url(&#39;data:image/svg+xml;charset=UTF-8,&amp;lt;svg xmlns=&amp;quot;http://www.w3.org/2000/svg&amp;quot; viewBox=&amp;quot;0 0 512 512&amp;quot;&amp;gt;&amp;lt;path fill=&amp;quot;currentColor&amp;quot; d=&amp;quot;M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z&amp;quot;&amp;gt;&amp;lt;/path&amp;gt;&amp;lt;/svg&amp;gt;&#39;);
+          mask-image: url(&#39;data:image/svg+xml;charset=UTF-8,&amp;lt;svg xmlns=&amp;quot;http://www.w3.org/2000/svg&amp;quot; viewBox=&amp;quot;0 0 512 512&amp;quot;&amp;gt;&amp;lt;path fill=&amp;quot;currentColor&amp;quot; d=&amp;quot;M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z&amp;quot;&amp;gt;&amp;lt;/path&amp;gt;&amp;lt;/svg&amp;gt;&#39;);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: bottom;
+          mask-position: bottom;
+  animation: floating-heart 10s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+}
+
+.heart:nth-child(1) {  
+  animation-delay: 1s;
+}
+
+.heart:nth-child(2) {
+  animation-delay: 2.5s;
+}
+
+.heart:nth-child(3) {
+  animation-delay: 3.5s;
+}
+
+.heart:nth-child(4) {
+  animation-delay: 4.5s;
+}
+
+@keyframes floating-heart {
+  0% {
+    opacity: 0;
+    bottom: 0%;
+    left: 0%;
+  }
+  10% {
+    opacity: 1;
+    bottom: 20%;
+    left: 70%;
+  }
+  20% {
+    bottom: 40%;
+    left: 10%;
+  }
+  30% {
+    bottom: 60%;
+    left: 50%;
+  }
+  40% {
+    opacity: 1;
+    bottom: 80%;
+    left: 5%;
+  }
+  48% {
+    opacity: 0;
+    bottom: 100%;
+    left: 60%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 100%;
+    left: 90%;
+  }
+}
+
+&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#alpaca&quot;&gt;#alpaca&lt;/a&gt; {
+  height: 25%;
+  position: absolute;
+  bottom: 8%;
+  left: 40%;
+  fill: var(--color-main);
+}
+
+&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#landscape&quot;&gt;#landscape&lt;/a&gt; {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-main);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: 1;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-animation-snips/" >
+        </entry>
+        <entry>
+            <title>
                 CSS Animated Bubble Background
                 
             </title>
-            <updated>2024-02-20T18:18:43Z</updated>
+            <updated>2024-02-20T18:20:39Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-animated-bubble-background/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&#39;canvas&#39;&amp;gt;
@@ -1719,7 +3064,7 @@ sensor:
 &lt;/ul&gt;
 &lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/css/css/&quot;&gt;developer/CSS/CSS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -1727,10 +3072,26 @@ sensor:
         </entry>
         <entry>
             <title>
+                CSS  practical use for before and after pseudo elements
+                
+            </title>
+            <updated>2024-02-20T18:20:39Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-practical-use-for-before-and-after-pseudo-elements/</id>
+            <content type="html">
+                &lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://css-tricks.com/7-practical-uses-for-the-before-and-after-pseudo-elements-in-css/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;7 Practical Uses for the ::before and ::after Pseudo-Elements in CSS | CSS-Tricks - CSS-Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-practical-use-for-before-and-after-pseudo-elements/" >
+        </entry>
+        <entry>
+            <title>
                 CMS Page Builder
                 
             </title>
-            <updated>2024-02-20T18:18:43Z</updated>
+            <updated>2024-02-20T18:20:39Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/cms-page-builder/</id>
             <content type="html">
                 &lt;p&gt;I&#39;m looking for a drop in page builder I can serve to customers as a benefit to the &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KYPN/KYPN Stack&lt;/a&gt; templates I&#39;m designing. &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KeystoneJS/KeystoneJS&lt;/a&gt; has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.&lt;/p&gt;
@@ -1755,7 +3116,7 @@ sensor:
                 Backup Solutions
                 
             </title>
-            <updated>2024-02-20T18:18:43Z</updated>
+            <updated>2024-02-20T18:20:39Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/backup-solutions/</id>
             <content type="html">
                 &lt;p&gt;This is my chain of programs that help me backup and store data whether it&#39;s local clone, version controlled, and or remote sight backups&lt;/p&gt;
@@ -1828,7 +3189,7 @@ sensor:
                 Removing Samsung and Google Bloatware from Android 12
                 
             </title>
-            <updated>2024-02-20T18:18:43Z</updated>
+            <updated>2024-02-20T18:20:39Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/android/removing-samsung-and-google-bloatware-from-android-12/</id>
             <content type="html">
                 &lt;p&gt;I tried installing &lt;a href=&quot;https://lineageos.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;LineageOS&lt;/a&gt; on my Samsung Galaxy s9 and s10 phones. Unfortunately my &lt;a href=&quot;https://wiki.lineageos.org/devices/beyond1lte/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;model wasn&#39;t supported&lt;/a&gt; (just one letter off 😑).&lt;/p&gt;

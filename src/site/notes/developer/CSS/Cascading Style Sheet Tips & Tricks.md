@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/cascading-style-sheet-tips-and-tricks/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Cascading Style Sheet Tips & Tricks/","noteIcon":""}
 ---
 

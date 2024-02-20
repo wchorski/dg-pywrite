@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/mixing-style-objects-inline/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Mixing Style Objects Inline/","noteIcon":""}
 ---
 
 

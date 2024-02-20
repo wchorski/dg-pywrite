@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/game-dev/flame-warrior/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/GameDev 🕹/Flame Warrior/","noteIcon":""}
 ---
 
 

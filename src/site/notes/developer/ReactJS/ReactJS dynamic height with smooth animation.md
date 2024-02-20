@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-js-dynamic-height-with-smooth-animation/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS dynamic height with smooth animation/","noteIcon":""}
 ---
 
 If you've tried the `max-height` css trick to make smooth height animations, you'll realize that this isn't a one size fits all solution (literally)

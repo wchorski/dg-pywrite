@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/styling-to-print/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Styling to Print/","noteIcon":""}
 ---
 
 ## Hide or Show When Printing

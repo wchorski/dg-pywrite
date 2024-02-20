@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/frigate-nvr/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Frigate NVR/","noteIcon":""}
 ---
 
 A complete CCTV system that is integrated into [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]], This was impart inspired by the lack luster results from [[motion eye\|motion eye]] with it's integrated Object Detection

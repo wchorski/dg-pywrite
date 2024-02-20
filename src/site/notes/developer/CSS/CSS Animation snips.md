@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-animation-snips/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Animation snips/","noteIcon":""}
 ---
 
 cred - [CSS Floating hearts animation | This Dev Brain by Michal Tynior](https://thisdevbrain.com/css-floating-hearts-animation/)

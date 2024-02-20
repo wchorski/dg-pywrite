@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-dynamic-table/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Dynamic Table/","noteIcon":""}
 ---
 
 This is a [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]] expansion to my [[developer/HTML/Responsive HTML Tables\|developer/HTML/Responsive HTML Tables]]. 

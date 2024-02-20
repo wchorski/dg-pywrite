@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-back-to-basics/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML, Back to Basics/","noteIcon":""}
 ---
 
 here lies my html basics

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/typescript/typescript-paths/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Typescript/Typescript Paths/","noteIcon":""}
 ---
 
 with typescript paths, you're able to set custom paths to make imports much easier to remember and type

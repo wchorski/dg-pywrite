@@ -3,14 +3,14 @@
     <title>Pywrite Garden</title>
     <link href="https://pywrite-garden.tawtaw.site/feed.xml" rel="self" >
     <link href="https://pywrite-garden.tawtaw.site" >
-    <updated>2024-02-20T19:20:50Z</updated>
+    <updated>2024-02-20T19:25:59Z</updated>
     <id>https://pywrite-garden.tawtaw.site</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/</id>
             <content type="html">
                 &lt;p&gt;Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously &#39;watered&#39; over time, fixing, updating, and growing this database of notes.&lt;/p&gt;
@@ -50,10 +50,279 @@
         </entry>
         <entry>
             <title>
+                RPCS3
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/rpcs-3/</id>
+            <content type="html">
+                &lt;p&gt;Playstation 3 emulator&lt;/p&gt;
+&lt;h2 id=&quot;manage-transfer-save-data&quot; tabindex=&quot;-1&quot;&gt;Manage / transfer save data&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://rpcs3.net/quickstart#&lt;/a&gt; Manage Save Data](&lt;a href=&quot;https://rpcs3.net/quickstart#manage_saves&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://rpcs3.net/quickstart#manage_saves&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For Windows users, save data files can be managed in &lt;code&gt;&#92;dev_hdd0&#92;home&#92;00000001&#92;savedata&#92;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For Linux users, save data files can be managed in &lt;code&gt;~/.config/rpcs3/dev_hdd0/&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For macOS users, save data files can be managed in &lt;code&gt;~/Library/Application Support/rpcs3/dev_hdd0/home/00000001/savedata/&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For FreeBSD users, save data files can be managed in &lt;code&gt;~/.config/rpcs3/dev_hdd0/&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/rpcs-3/" >
+        </entry>
+        <entry>
+            <title>
+                Pokémon Genning; Create a Mew from start to finish
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/pokemon-genning-create-a-mew-from-start-to-finish/</id>
+            <content type="html">
+                &lt;p&gt;This is a derivative of my all encompassing guide to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/emulation/pokemon-genning/&quot;&gt;developer/emulation 👾/Pokemon Genning&lt;/a&gt;. Here I&#39;ll go from start to finish on how to generate a &lt;em&gt;Legal&lt;/em&gt; Mew into a Pokémon game. There are few tutorials out there that are either to vague or assume a lot from the reader. This guide will be completely &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#n00b&quot;&gt;#n00b&lt;/a&gt; friendly&lt;/p&gt;
+&lt;p&gt;Here is a table of software and what we will be using it for. You can go ahead and download these tools right now, or download them as needed through this guide.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Software&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;Resources&lt;/h2&gt;
+&lt;h2 id=&quot;step-1&quot; tabindex=&quot;-1&quot;&gt;Step 1:&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/pokemon-genning-create-a-mew-from-start-to-finish/" >
+        </entry>
+        <entry>
+            <title>
+                Pokemon Genning
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/pokemon-genning/</id>
+            <content type="html">
+                &lt;p&gt;genning a legal, proper Pokémon includes knowledge of what moves a Pokémon can get and when, knowing proper EV and IV spreads (Hidden Powers are a thing), and giving them the correct abilities.&lt;/p&gt;
+&lt;p&gt;I like playing Pokémon, but I&#39;m not a fan of grinding my Pokémon to perfection to have some chance in PvP Online&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;kwsch/PKHeX:&lt;/a&gt; Pokémon Save File Editor (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;I built the app from source as that was the version compatible for Pokémon Ranch&lt;br /&gt;
+&lt;a href=&quot;https://projectpokemon.org/home/tutorials/save-editing/using-pkhex/how-to-compile-the-latest-version-of-pkhex-r79/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to Compile The Latest Version of PKHeX - Using PKHeX - Project Pokemon Forums&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;pokemon-ranch&quot; tabindex=&quot;-1&quot;&gt;Pokémon Ranch&lt;/h2&gt;
+&lt;p&gt;The reason why I got into genning Pokémon. I was inspired to save and edit the save file of My Pokémon Ranch game (Played with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/emulation/dolphin-emu/&quot;&gt;developer/emulation 👾/Dolphin Emu&lt;/a&gt;). I wanted to be able to add whatever Pokémon with whatever nickname, without having to pain stakingly catching and transferring from a Dimond or Pearl game&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#todo&quot;&gt;#todo&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; Video tutorial &lt;a href=&quot;https://www.youtube.com/watch?v=_MPwWPsou6I&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;My Pokemon Ranch&#39;s Fatal Softlock - YouTube&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; how to get &lt;code&gt;savedata.bin&lt;/code&gt; from dolphin emulator Right Click Pokémon Ranch game and hit &lt;code&gt;Open Wii Save Folder&lt;/code&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://aminoapps.com/c/pokemon/page/blog/genning-vs-hacking-why-genning-isnt-illegal/ZzhB_ug7QW8JMQwMYjgD36gDjolJ7k#:~:text=Genning&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://aminoapps.com/c/pokemon/page/blog/genning-vs-hacking-why-genning-isnt-illegal/ZzhB_ug7QW8JMQwMYjgD36gDjolJ7k#:~:text=Genning&lt;/a&gt; a legal%2C proper Pokémon includes knowledge of,powers%2C is illegal and cheating and therefore hacking.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;index&quot; tabindex=&quot;-1&quot;&gt;index&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/pokemon-genning/" >
+        </entry>
+        <entry>
+            <title>
+                PCX2 Qt
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/pcx-2-qt/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;[!note] press f9 to toggle &amp;quot;software mode&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/pcx-2-qt/" >
+        </entry>
+        <entry>
+            <title>
+                Game Emulation
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/game-emulation/</id>
+            <content type="html">
+                &lt;p&gt;Here is the hub of all things game emulation&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/game-emulation/" >
+        </entry>
+        <entry>
+            <title>
+                Emulation Tools
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/emulation-tools/</id>
+            <content type="html">
+                &lt;p&gt;[&amp;quot;veEOkeffz7nUZ1zg+4zQ7rJe9pA8giQs6YbSVzXjmZUzLphJ/up8mgT2ZeMA6Yyjvp4QIwioZKbUsvH9uVMdkgQNKqSKObr9x32ihf1blffRMmk33wIcNerhroUDw35QEt5qYojZJNlNMu+7z4r9vuBLGsha+8/r9Y6/aFM=&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f0c000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/emulation-tools/" >
+        </entry>
+        <entry>
+            <title>
+                Dolphin Emu
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/dolphin-emu/</id>
+            <content type="html">
+                &lt;p&gt;Nintendo Gamecube &amp;amp; Wii emulator&lt;/p&gt;
+&lt;h2 id=&quot;mayflash-gamecube-controller-adapter-on-linux&quot; tabindex=&quot;-1&quot;&gt;Mayflash gamecube controller adapter on Linux&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Mayflash&lt;/a&gt; Gamecube controller adapter + Linux + Dolphin/Steam (&lt;a href=&quot;http://seanyeh.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;seanyeh.com&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Paste the following into &lt;code&gt;/etc/udev/rules.d/51-gcadapter.rules&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;SUBSYSTEM==&amp;quot;usb&amp;quot;, ENV{DEVTYPE}==&amp;quot;usb_device&amp;quot;, ATTRS{idVendor}==&amp;quot;057e&amp;quot;, ATTRS{idProduct}==&amp;quot;0337&amp;quot;, MODE=&amp;quot;0666&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then, install &lt;a href=&quot;https://github.com/ToadKing/wii-u-gc-adapter&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;wii-u-gc-adapter&lt;/a&gt;. (There is a package in the AUR)&lt;/p&gt;
+&lt;p&gt;After installing, run &lt;code&gt;sudo modprobe uinput&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Now, you can run the adapter with &lt;code&gt;wii-u-gc-adapter&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;dolphin&quot; tabindex=&quot;-1&quot;&gt;Dolphin&lt;/h3&gt;
+&lt;p&gt;Make sure the Mayflash adapter is set to &lt;strong&gt;&amp;quot;Wii U / Switch&amp;quot;&lt;/strong&gt; setting. In Dolphin, go to &lt;code&gt;Controller Setings&lt;/code&gt;, set the controller to &amp;quot;GameCube Adapter for Wii U&amp;quot;. Your controller should now work in Dolphin.&lt;/p&gt;
+&lt;h2 id=&quot;mayflash-dolphinbar-wireless-sensor&quot; tabindex=&quot;-1&quot;&gt;Mayflash Dolphinbar Wireless Sensor&lt;/h2&gt;
+&lt;p&gt;I have a &lt;a href=&quot;https://www.mayflash.com/product/6.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;USB sensor bar&lt;/a&gt; that connects Wii-motes via bluetooth and senses position with IR. I was having trouble with Wii-motes only connecting when running &lt;strong&gt;Dolphin Emu&lt;/strong&gt; with &lt;code&gt;root&lt;/code&gt; access, which ain&#39;t right. Here are the steps to allow your normal user permissions to use the sensor bar&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;make a file like &lt;code&gt;/etc/udev/rules.d/52-dolphinbar.rules&lt;/code&gt; (&#39;52-dolphinbar is an abritrary name&#39;)&lt;/li&gt;
+&lt;li&gt;paste &lt;code&gt;SUBSYSTEM==&amp;quot;hidraw&amp;quot;, ATTRS{idVendor}==&amp;quot;057e&amp;quot;, ATTRS{idProduct}==&amp;quot;0306&amp;quot;, MODE=&amp;quot;0666&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;reload rules → &lt;code&gt;sudo udevadm control --reload-rules&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;recover-backup&quot; tabindex=&quot;-1&quot;&gt;Recover backup&lt;/h2&gt;
+&lt;p&gt;If you don&#39;t have any new game saves on your new computer you can do this. Go to new computer and rename the folder called &amp;quot;Dolphin Emulator&amp;quot; to something like &amp;quot;Dolphin Emulator BAK&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;C:/Users/YOUR USERNAME/Documents/Dolphin Emulator/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then go to old computer and again find the folder&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;C:/Users/YOUR USERNAME/Documents/Dolphin Emulator/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And copy this folder into your new computer. Should be same location. That will bring all your settings and saves&lt;/p&gt;
+&lt;h3 id=&quot;steam&quot; tabindex=&quot;-1&quot;&gt;Steam&lt;/h3&gt;
+&lt;p&gt;Make sure the Mayflash adapter is set to &amp;quot;PC&amp;quot; setting. If you haven&#39;t already, run &lt;code&gt;wii-u-gc-adapter&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Mayflash&lt;/a&gt; DolphinBar on Linux (&lt;a href=&quot;http://dolphin-emu.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;dolphin-emu.org&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Help&lt;/a&gt; me get Dolphinbar working on Arch Linux? : emulation (&lt;a href=&quot;http://reddit.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;reddit.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Any&lt;/a&gt; way to get all game save data + miis from one computer running dolphin to another? : r/DolphinEmulator (&lt;a href=&quot;http://reddit.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;reddit.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wiibrew.org/wiki//shared2/menu/FaceLib/RFL_DB.dat&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;/shared2/menu/FaceLib/RFL_DB.dat - WiiBrew&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/dolphin-emu/" >
+        </entry>
+        <entry>
+            <title>
+                Citra
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/citra/</id>
+            <content type="html">
+                &lt;p&gt;3DS emulator&lt;/p&gt;
+&lt;p&gt;I recommend getting a &lt;strong&gt;New 3DS XL / LL&lt;/strong&gt; and loading Luma3ds to run native 3ds, DS, &amp;amp; Gameboy games.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://3ds.hacks.guide/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;3DS Hacks Guide - 3DS Hacks Guide&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-ds-as-samba-share&quot; tabindex=&quot;-1&quot;&gt;3DS as SAMBA share&lt;/h2&gt;
+&lt;p&gt;just like setting up a PC with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/samba/&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt;, you can also wirelessly transfer data to and from PC as if the 3DS&#39;s SD card was any other mounted drive.&lt;/p&gt;
+&lt;h3 id=&quot;non-hacked-3ds&quot; tabindex=&quot;-1&quot;&gt;non hacked 3ds&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete&lt;/a&gt; these steps 1 From the HOME menu%2C,accessing the system via a PC. More items&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2IQtcY9mEbI&amp;amp;t=274s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to utilize the 3DS MICROSD MANAGEMENT to transfer files wirelessly - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!info] Windows 10 Users&lt;br /&gt;
+turn on &lt;code&gt;SMB1&lt;/code&gt; in &lt;strong&gt;Windows Features&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;my 3ds did not automatically show up in my networks tab, so I just mounted the drive manually with &lt;code&gt;&#92;&#92;3DLIME&#92;microSD&#92;&lt;/code&gt; and it worked&lt;/p&gt;
+&lt;h3 id=&quot;hacked-3ds&quot; tabindex=&quot;-1&quot;&gt;hacked 3ds&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gamebrew.org/wiki/FTPDB_3DS&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;FTPDB 3DS - GameBrew&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ftp://192.168.0.66:5000` in &lt;strong&gt;Windows Explorer&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;transfer-manage-save-data&quot; tabindex=&quot;-1&quot;&gt;transfer / manage save data&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring&lt;/a&gt; Save Data 1 Open Checkpoint. ... 2,in Step 4] to the computer. More items&lt;/a&gt;&lt;br /&gt;
+important thing to note is that whatever tool used to get the save data off of the 3DS supports exporting &lt;em&gt;expanded&lt;/em&gt; save data. Save data lives in Citra’s emulated SD card directories (&lt;code&gt;user/sdmc/Nintendo 3DS/000...0/000...0/title/[game-TID-high]/[game-TID-low]/data/00000001/&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&quot;https://www.gamebrew.org/wiki/Checkpoint_3DS&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Checkpoint 3DS - GameBrew&lt;/a&gt; because it&#39;s the most simple. and also compatible with the Switch&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;navigate &lt;strong&gt;Checkpoint&lt;/strong&gt; 3ds rom to backup game&#39;s save data&lt;/li&gt;
+&lt;li&gt;on 3ds SD card - &lt;code&gt;/3ds/Checkpoint/saves/&amp;lt;Game Name&amp;gt;/&amp;lt;checkpoint folder&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;in &lt;strong&gt;Citra&lt;/strong&gt; open the save directory by right-clicking on a game in and clicking “Open Save Data Directory”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&quot;example-diagram-showing-the-correct-location-of-new-super-mario-bros-2-save-data-in-citra-s-a-href-https-citra-emu-org-wiki-user-directory-target-blank-class-external-link-user-directory-a&quot; tabindex=&quot;-1&quot;&gt;Example diagram showing the correct location of New Super Mario Bros. 2 save data in Citra’s &lt;a href=&quot;https://citra-emu.org/wiki/user-directory&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;User Directory&lt;/a&gt;.&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;User directory&amp;quot;
+└── sdmc
+    └── Nintendo 3DS
+        └── 00000000000000000000000000000000
+            └── 00000000000000000000000000000000
+                └── title
+                    └── 00040000
+                        └── 0007ae00
+                            └── data
+                                └── 00000001
+                                    └── BigRedSave.dat
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;inject-gameboy-advance-games-as-virtual-console-titles&quot; tabindex=&quot;-1&quot;&gt;inject gameboy advance games as virtual console titles&lt;/h2&gt;
+&lt;p&gt;I recommend this over emulation in &lt;strong&gt;Twilight&lt;/strong&gt; as you get native support and menu icon&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gamebrew.org/wiki/Ultimate_GBA_VC_Injector_3DS&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Ultimate GBA VC Injector 3DS - GameBrew&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/citra/" >
+        </entry>
+        <entry>
+            <title>
+                Cemu
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/emulation/cemu/</id>
+            <content type="html">
+                &lt;p&gt;Nintendo Wii U emulator&lt;/p&gt;
+&lt;h2 id=&quot;ipad-as-a-gamepad&quot; tabindex=&quot;-1&quot;&gt;ipad as a gamepad&lt;/h2&gt;
+&lt;p&gt;emulate the gamepads touch, gyro, and second display&lt;/p&gt;
+&lt;h2 id=&quot;switch-pro-or-joycon-controller-support&quot; tabindex=&quot;-1&quot;&gt;Switch Pro or Joycon Controller support&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;joaorb64/joycond-cemuhook:&lt;/a&gt; Support for cemuhook&#39;s UDP protocol for joycond devices (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;game-library&quot; tabindex=&quot;-1&quot;&gt;game library&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.techspot.com/downloads/7049-wii-u-usb-helper.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Wii U USB Helper 0.6.1.655 Download | TechSpot&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/redirect?redir_token=QUFFLUhqbEZhQU5ZcWxwZnpSS3JyLXBsZGxMM0FJMU42Z3xBQ3Jtc0ttbmtjTHV3aWRleDdFRkpOdmVJR0pna3pTM1llVUN4QzBJTC0wMkNudTJWb3R2RGRoQjlFY2hVQnQ2NFFpZ0txMWt6c1JRRUxvRnQyZ0xrNmlXcHJCeDJlekRvdVNJX21KQkUyOXZuLU0tNENwZUhzQQ%3D%3D&amp;amp;event=video_description&amp;amp;v=_-WV_TT1ZA0&amp;amp;q=http%3A%2F%2Fvault.titlekeys.ovh%2F&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;http://vault.titlekeys.ovh/&lt;/a&gt; - &lt;a href=&quot;https://www.reddit.com/r/CemuPiracy/comments/hr834n/i_was_trying_to_install_wiiu_usbhelper_but/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;credit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/emulation/game-emulation/&quot;&gt;developer/emulation 👾/Game Emulation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/emulation/cemu/" >
+        </entry>
+        <entry>
+            <title>
                 vaultwarden
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;dani-garcia/vaultwarden:&lt;/a&gt; Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/p&gt;
@@ -67,7 +336,7 @@
                 umami
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/umami/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://umami.is/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Umami&lt;/a&gt;&lt;/p&gt;
@@ -85,7 +354,7 @@ It&#39;s a good idea to have a domain name to reflect the app that lives at that
                 portainer
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/portainer/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#docker&quot;&gt;#docker&lt;/a&gt;&lt;/p&gt;
@@ -160,7 +429,7 @@ sudo docker-compose up -d
                 nicolargo.github.io
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nicolargo-github-io/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;nHbzUj1GWRpmVlUW7kvXgBui&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f02000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -173,7 +442,7 @@ sudo docker-compose up -d
                 XMRig
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/xm-rig/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -197,7 +466,7 @@ High performance, open source, cross platform RandomX, KawPow, CryptoNight and G
                 Wordpress
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/wordpress/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;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&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f08000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -210,7 +479,7 @@ High performance, open source, cross platform RandomX, KawPow, CryptoNight and G
                 WLED
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/wled/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-github-com-target-blank-class-external-link-github-com-a-a-href-http-github-com-target-blank-class-external-link-github-com-a-aircoookie-wled-a-href-http-github-com-target-blank-class-external-link-github-com-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Aircoookie/WLED (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -248,7 +517,7 @@ A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control 
                 Thunderbird
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/thunderbird/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;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&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f07000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -261,7 +530,7 @@ A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control 
                 SFTP
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/sftp/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;LjAgy6pFTIBUizMdhVStOU8Y3uqq3U3w8++Y/7oBLMEMlVtldQjD9n3Rd7TEk3YMAGXLe52VdFpX0UYNsXj77sPXoNwH9EemuTJRmeP++UgP/tV7sB2MYM1FzUjBYUqgM/ecGbHEGAhZIh5O9lhgn/87q1uZDLcqtmyv8kPQFxkScwrxiNe9nQhhK+wFs4yqZ+fykFIyTjcp68WbcB+nFjaKYmrMHqhrAPVlZMszUrWdUjpnsJpZa9aYbqG8TAqeow/hicVMhuAY/nMXl0p+1jZSXJWcW5A915ysay14VQEuTdLIqwTlKXDyZk8zSIN8r6DYCRkYlWo1nL7ojTd3TqSJFUvkPLrDot8pagNqdqlHF4VBOlwKN1arh7nvu1Qfym3LuT0WleZIuKM3SWRaejHmgnI9B9POFIsG5yo6owtoS0r3KrZ2WBmYIvjQyCHScDA8lLekfIKfgcX2k+wzbq6G+QSK75QfHk1825Lkyt4/5zs0HF2mMCsec9sgxle/COfvZLsTV+BltwiTjRIZ0q7UWh/Kz7gvBIAXAb8TKOn9VI4mR7/2IK8ycC1W7U13Sl6Hu+R7sp74ktrg1sCBRh+zJBkmEybo2OQIK/RXgkMivePOWMNfDKnSaz9CgwDTBK2smOqZ1kVHz0vHYC3S5l22Yqs47R/jE9gL4bceRU+BdyJDCAD9+SUd9JoItKBzsWJfKBiTpsnV0lWwM7lL/x7LT1YD8olu8vYfd9rQlZjswbigrAusm+C+IyKzzkEHlClzlDm0Apoytl2eIWcfdY52gvT49rwDZjSNTzEXU1bXSHnTgwfNabCvO2fIXelAkjzLnq3qftFRvDNqlRYXgYs9sEoCReG18qEZPldSb6ba/JGnLRC4eMsMu9cvRXBuWdGQORek9KbBN6XPja/Zvjk7M7flYDKWJrwjh/KF/XCwZsXI33xjTgnh6YKQGVJ7RBpp20ycxiBw4O+I/o0f+jkTSalDSzLIz81M/Si2g8QhPUpp3JNP6x4IweBXR66hHI5ZxwpUY/0KReVF+3ZV1qvAtaWFagU3fkbwecy3TO5hhv88hPi+xSYWDiNjSFo5B9CyKO7lUrH9w1syAKQq2PUdvrQHRDXDGVi/lYwQ5MUuVbLHtPKbLqZXjy8m/AMG2/yiE2gCUV4vClJsxTkfuuT9uQ==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f06000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -274,7 +543,7 @@ A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control 
                 SAMBA
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/samba/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -297,7 +566,7 @@ Since &lt;a href=&quot;https://www.samba.org/samba/docs/10years.html&quot; targ
                 Pretty URLs for Your Internal Network
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pretty-ur-ls-for-your-internal-network/</id>
             <content type="html">
                 &lt;h2 id=&quot;tools&quot; tabindex=&quot;-1&quot;&gt;Tools&lt;/h2&gt;
@@ -319,7 +588,7 @@ Since &lt;a href=&quot;https://www.samba.org/samba/docs/10years.html&quot; targ
                 Plex.tv
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#music&quot;&gt;#music&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#movie&quot;&gt;#movie&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tv&quot;&gt;#tv&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#film&quot;&gt;#film&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#media&quot;&gt;#media&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#player&quot;&gt;#player&lt;/a&gt;&lt;/p&gt;
@@ -374,7 +643,7 @@ services:
                 PiVPN
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pi-vpn/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -471,7 +740,7 @@ Done
                 Pi-hole
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -554,7 +823,7 @@ fi
                 PhotoPrism
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/photo-prism/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#pictures&quot;&gt;#pictures&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhosted&quot;&gt;#selfhosted&lt;/a&gt;&lt;/p&gt;
@@ -697,7 +966,7 @@ networks:
                 OpenRGB
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/open-rgb/</id>
             <content type="html">
                 &lt;h2 id=&quot;install&quot; tabindex=&quot;-1&quot;&gt;Install&lt;/h2&gt;
@@ -728,7 +997,7 @@ sudo add-apt-repository --remove ppa:thopiekar/openrgb
                 OnlyOffice
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/only-office/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#FOSS&quot;&gt;#FOSS&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#office&quot;&gt;#office&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#edit&quot;&gt;#edit&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#powerpoint&quot;&gt;#powerpoint&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#word&quot;&gt;#word&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#excel&quot;&gt;#excel&lt;/a&gt;&lt;/p&gt;
@@ -760,7 +1029,7 @@ but wasn&#39;t satisfied. &lt;strong&gt;OnlyOffice&lt;/strong&gt; has some great
                 Obsidian.md
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-md/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#notes&quot;&gt;#notes&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#markdown&quot;&gt;#markdown&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt;&lt;/p&gt;
@@ -867,7 +1136,7 @@ To utilize storage on an SD card you have to save it in a specific spot &lt;code
                 Obsidian-Livesync
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-livesync/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#github&quot;&gt;#github&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#netlify&quot;&gt;#netlify&lt;/a&gt;&lt;/p&gt;
@@ -1084,7 +1353,7 @@ services:
                 Nginx Proxy Manager
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -1255,7 +1524,7 @@ Password: changeme
                 Nextcloud
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cloud&quot;&gt;#cloud&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gmail&quot;&gt;#gmail&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#opensource&quot;&gt;#opensource&lt;/a&gt;&lt;/p&gt;
@@ -1385,7 +1654,7 @@ From there I could then pull the v20 docker image and run the upgrade to v20 usi
                 NextJS
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/next-js/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#javascript&quot;&gt;#javascript&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reactjs&quot;&gt;#reactjs&lt;/a&gt;&lt;/p&gt;
@@ -1720,7 +1989,7 @@ export async function getStaticPaths() {
                 Motion Eye Camera
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/motion-eye-camera/</id>
             <content type="html">
                 &lt;p&gt;integration with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt; as plug and play CCTV instillation.&lt;/p&gt;
@@ -1734,7 +2003,7 @@ export async function getStaticPaths() {
                 Mosquitto MQTT Broker
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/mosquitto-mqtt-broker/</id>
             <content type="html">
                 &lt;p&gt;Frigate with Home Assistant requires an MQTT broker. Here is how to set it up&lt;/p&gt;
@@ -1794,7 +2063,7 @@ password_file /mosquitto/config/password.txt
                 MQTT Mosquitto
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/mqtt-mosquitto/</id>
             <content type="html">
                 &lt;p&gt;hero_image&lt;/p&gt;
@@ -1950,7 +2219,7 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m &#39;hello MQTT&#39
                 Jellyfin
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#music&quot;&gt;#music&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#media&quot;&gt;#media&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#player&quot;&gt;#player&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#itunes&quot;&gt;#itunes&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#bash&quot;&gt;#bash&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#powershell&quot;&gt;#powershell&lt;/a&gt;&lt;/p&gt;
@@ -1998,7 +2267,7 @@ services:
 &lt;p&gt;Gotta be honest, the native &lt;a href=&quot;https://f-droid.org/en/packages/org.jellyfin.mobile/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Jellyfin | F-Droid&lt;/a&gt; app is very lack luster. 🫰that this will improve in the future. Here is 2 alternatives&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.symfonium.app/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Symfonium&lt;/a&gt;: It cost &lt;strong&gt;$5&lt;/strong&gt;, and that&#39;s fine because it is very feature rich (Android Auto, auto sync, Offline downloads, etc).&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/jmshrv/finamp&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;FinAmp&lt;/a&gt;If you&#39;re looking for something light weight (and &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/FOSS&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jmshrv/finamp&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;FinAmp&lt;/a&gt;If you&#39;re looking for something light weight (and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/foss/&quot;&gt;developer/FOSS&lt;/a&gt;)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;i-tunes-playlist-sync&quot; tabindex=&quot;-1&quot;&gt;iTunes playlist Sync&lt;/h2&gt;
 &lt;ul&gt;
@@ -2020,7 +2289,7 @@ services:
                 InfluxDB
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/influx-db/</id>
             <content type="html">
                 &lt;h2 id=&quot;install&quot; tabindex=&quot;-1&quot;&gt;Install&lt;/h2&gt;
@@ -2071,7 +2340,7 @@ INFLUX_BUCKET=YOUR_BUCKET
                 Hyperion
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/hyperion/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-hyperion-project-org-target-blank-class-external-link-hyperion-project-org-a-a-href-http-hyperion-project-org-target-blank-class-external-link-hyperion-project-org-a-install-hyperion&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Install Hyperion &lt;/a&gt;)&lt;/h2&gt;
@@ -2167,7 +2436,7 @@ INFLUX_BUCKET=YOUR_BUCKET
                 Home Lab 🏠
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/</id>
             <content type="html">
                 &lt;h2 id=&quot;network-routing&quot; tabindex=&quot;-1&quot;&gt;Network Routing&lt;/h2&gt;
@@ -2322,7 +2591,7 @@ router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debia
                 Home Assistant
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Home Assistant (&lt;a href=&quot;http://home-assistant.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;home-assistant.io&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -2431,7 +2700,7 @@ sensor:
                 Grafana &amp; InfluxDB
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/grafana-and-influx-db/</id>
             <content type="html">
                 &lt;p&gt;I use the Grafana and InfluxDB &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt; integrations to better track and monitor all sorts of sensors and services.&lt;/p&gt;
@@ -2452,7 +2721,7 @@ sensor:
                 Glances
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/glances/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -2516,7 +2785,7 @@ run &lt;code&gt;pip install glances&lt;/code&gt; &amp;amp; &lt;code&gt;pip insta
                 Frigate NVR
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/frigate-nvr/</id>
             <content type="html">
                 &lt;p&gt;A complete CCTV system that is integrated into &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt;, This was impart inspired by the lack luster results from &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;motion eye&lt;/a&gt; with it&#39;s integrated Object Detection&lt;/p&gt;
@@ -2636,7 +2905,7 @@ services:
                 FreeFileSync
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/free-file-sync/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#backup&quot;&gt;#backup&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cross_platform&quot;&gt;#cross_platform&lt;/a&gt;&lt;/p&gt;
@@ -2672,7 +2941,7 @@ Open Source, Cross Platform File Synchronization &amp;amp; Backup Software&lt;/p
                 Dynamic DNS Choices
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/dynamic-dns-choices/</id>
             <content type="html">
                 &lt;p&gt;You got your shiny self hosted app and you about to open it up to the world. No problem, just have people type in your public IP address. i.e. &lt;code&gt;98.143.344.321&lt;/code&gt; in the address bar to get to you&#39;re site.&lt;/p&gt;
@@ -2734,7 +3003,7 @@ Without a &lt;strong&gt;Static IP&lt;/strong&gt; your service provider can and w
                 Duplicati
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-www-duplicati-com-target-blank-class-external-link-duplicati-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://www.duplicati.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Duplicati&lt;/a&gt;&lt;/h2&gt;
@@ -2813,7 +3082,7 @@ sudo systemctl enable duplicati
                 DuckDNS
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/duck-dns/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Duck&lt;/a&gt; DNS (&lt;a href=&quot;http://www.duckdns.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;www.duckdns.org&lt;/a&gt;)&lt;/p&gt;
@@ -2856,7 +3125,7 @@ sudo service cron start
                 Docker
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/docker/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-www-docker-com-target-blank-class-external-link-home-docker-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Home - Docker&lt;/a&gt;&lt;/h2&gt;
@@ -2955,7 +3224,7 @@ docker compose -f /mnt/uasis5/node/filesystem-livesync-pywriter4/compose.yml res
                 Divoom Pixoo
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/divoom-pixoo/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a-a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a-divoom-pixoo-a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Divoom Pixoo (&lt;a href=&quot;http://divoom.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;divoom.com&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -3053,7 +3322,7 @@ script:
                 CouchDB
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/couch-db/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-couchdb-apache-org-target-blank-class-external-link-apache-couch-db-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://couchdb.apache.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Apache CouchDB&lt;/a&gt;&lt;/h2&gt;
@@ -3146,10 +3415,894 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
         </entry>
         <entry>
             <title>
+                Flame Warrior
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/game-dev/flame-warrior/</id>
+            <content type="html">
+                &lt;p&gt;use the Unity build as inspo but make it in &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/ReactJS/ReactJS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;change gameplay from emoticon reaction to a typing game. (like typing of the dead)&lt;/p&gt;
+&lt;p&gt;have an autoplay mode to just run the comments.&lt;/p&gt;
+&lt;p&gt;randomize profile icons (custom icons could be risky)&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/game-dev/flame-warrior/" >
+        </entry>
+        <entry>
+            <title>
+                Dark Room White Tunnel
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/game-dev/dark-room-white-tunnel/</id>
+            <content type="html">
+                &lt;p&gt;[&amp;quot;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&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f05000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/game-dev/dark-room-white-tunnel/" >
+        </entry>
+        <entry>
+            <title>
+                Free Developer Tools
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/free-developer-tools/</id>
+            <content type="html">
+                &lt;h2 id=&quot;hosting&quot; tabindex=&quot;-1&quot;&gt;Hosting&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://fly.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Fly.io&lt;/a&gt; - Full Stack app hosting&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/free-developer-tools/" >
+        </entry>
+        <entry>
+            <title>
+                FOSS
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/foss/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Free_and_open-source_software&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Free and open-source software - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Free and open-source software&lt;/strong&gt; (&lt;strong&gt;FOSS&lt;/strong&gt;) is a term used to refer to groups of software consisting of both &lt;a href=&quot;https://en.wikipedia.org/wiki/Free_software&quot; title=&quot;Free software&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;free software&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Open-source_software&quot; title=&quot;Open-source software&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;open-source software&lt;/a&gt;,&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://en.wikipedia.org/wiki/Free_and_open-source_software#cite_note-3&lt;/a&gt; where anyone is &lt;a href=&quot;https://en.wikipedia.org/wiki/Open-source_license&quot; title=&quot;Open-source license&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;freely licensed&lt;/a&gt; to use, copy, study, and change the software in any way, and the &lt;a href=&quot;https://en.wikipedia.org/wiki/Source_code&quot; title=&quot;Source code&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;source code&lt;/a&gt; is publicly available so that people are encouraged to improve the design of the software.&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://en.wikipedia.org/wiki/Free_and_open-source_software#cite_note-:1-4&lt;/a&gt; This is in contrast to &lt;a href=&quot;https://en.wikipedia.org/wiki/Proprietary_software&quot; title=&quot;Proprietary software&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;proprietary software&lt;/a&gt;, where the software is under restrictive &lt;a href=&quot;https://en.wikipedia.org/wiki/Copyright&quot; title=&quot;Copyright&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;copyright&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_license&quot; title=&quot;Software license&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;licensing&lt;/a&gt; and the source code is hidden from the users.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/foss/" >
+        </entry>
+        <entry>
+            <title>
+                Dual Boot macOS Ventura &amp; macOs Monterey
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/dual-boot-mac-os-ventura-and-mac-os-monterey/</id>
+            <content type="html">
+                &lt;h2 id=&quot;download-without-app-store&quot; tabindex=&quot;-1&quot;&gt;Download without App Store&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;macOS&lt;/a&gt; 12 Monterey Full Installer Database. Download Directly from Apple! (&lt;a href=&quot;http://mrmacintosh.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;mrmacintosh.com&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&quot;instructions&quot; tabindex=&quot;-1&quot;&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://support.apple.com/en-us/HT201372&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Create a bootable installer for macOS - Apple Support&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://support.apple.com/en-us/HT201372&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Create a bootable installer for macOS - Apple Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/dual-boot-mac-os-ventura-and-mac-os-monterey/" >
+        </entry>
+        <entry>
+            <title>
+                Transfer Docker image to other server without remote repository
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/docker/transfer-docker-image-to-other-server-without-remote-repository/</id>
+            <content type="html">
+                &lt;p&gt;I build my websites with &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/NodeJS&lt;/a&gt; and create production ready apps with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;. These images are usually unique the client and contain sensitive information.&lt;/p&gt;
+&lt;p&gt;My production server is an &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Hardware/Intel NUC&lt;/a&gt;. Enough power to drive a few websites, but chugs along when I try to build an image. Why not build the image on my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Hardware/MacBook Pro M1 Laptop&lt;/a&gt; or &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Hardware/Ryzen 5 5600x Custom PC&lt;/a&gt; with ease, then transfer the image over?&lt;/p&gt;
+&lt;h2 id=&quot;tutorial&quot; tabindex=&quot;-1&quot;&gt;tutorial&lt;/h2&gt;
+&lt;p&gt;In order to transfer a Docker image from one server to another, what you need to do is first export the image to a file, then copy that file over from your current server to the new one using &lt;code&gt;scp&lt;/code&gt; or &lt;code&gt;rsync&lt;/code&gt; and finally load the image to your new server. Here’s how to do that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First SSH to your server where you’ve got your Docker image currently stored at and then run the following command to generate the tar file:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;sudo docker save -o /home/sammy/your_image.tar your_image_name
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Copy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This will create a &lt;code&gt;tar&lt;/code&gt; file of your image and store it at the &lt;code&gt;/home/==sammy==/==your_image==.tar&lt;/code&gt; folder. You can check the size of the file with the &lt;code&gt;ls&lt;/code&gt; command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;ls -lah /home/sammy/your_image.tar
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Copy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Once you have your Docker image ready, you need to copy it over using &lt;code&gt;rsync&lt;/code&gt;, &lt;code&gt;scp&lt;/code&gt;, or &lt;a href=&quot;https://www.digitalocean.com/docs/droplets/how-to/transfer-files/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;SFTP using Filezilla&lt;/a&gt; for example. My personal favorite is &lt;code&gt;rsync&lt;/code&gt;. If you are not familiar with &lt;code&gt;rsync&lt;/code&gt;, I strongly suggest going through this tutorial here on how to use &lt;code&gt;rsync&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In case that you decide to use &lt;code&gt;rsync&lt;/code&gt; as well, to copy the file over run the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rsync -avz /home/sammy/your_image.tar username@remote_server_ip_address:destination_directory
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!note]&lt;br /&gt;
+make sure to change the &lt;code&gt;destination_directory&lt;/code&gt;, the &lt;code&gt;username&lt;/code&gt; and the &lt;code&gt;remote_server_ip_address&lt;/code&gt; with your actual details&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Once you have your &lt;code&gt;.tar&lt;/code&gt; file copied over to your new server, SSH to the new server and load the Docker image:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;sudo docker load -i your_image.tar 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Copy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Then, in order to check if this was successful, you can run &lt;code&gt;docker images&lt;/code&gt; to see the list of the available images:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;sudo docker images
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;How&lt;/a&gt; to copy a Docker image from one server to another without pushing it to a repository first? (&lt;a href=&quot;http://youtube.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;youtube.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/questions/how-to-copy-a-docker-image-from-one-server-to-another-without-pushing-it-to-a-repository-first&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to copy a Docker image from one server to another without pushing it to a repository first? | DigitalOcean&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/docker/transfer-docker-image-to-other-server-without-remote-repository/" >
+        </entry>
+        <entry>
+            <title>
+                PostGres Docker Compose yml config
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/docker/post-gres-docker-compose-yml-config/</id>
+            <content type="html">
+                &lt;h2 id=&quot;compose-yml&quot; tabindex=&quot;-1&quot;&gt;compose.yml&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;version: &#39;3.5&#39;
+
+services:
+  postgres:
+    container_name: postgres_container
+    image: postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      PGDATA: /data/postgres
+    volumes:
+       - ./postgres:/data/postgres
+    ports:
+      - &amp;quot;5432:5432&amp;quot;
+    networks:
+      - postgres
+    restart: unless-stopped
+  
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin4@pgadmin.org}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
+      PGADMIN_CONFIG_SERVER_MODE: &#39;False&#39;
+    volumes:
+       - ./pgadmin:/var/lib/pgadmin
+
+    ports:
+      - &amp;quot;${PGADMIN_PORT:-5050}:80&amp;quot;
+    networks:
+      - postgres
+    restart: unless-stopped
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+    postgres:
+    pgadmin:
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;env&quot; tabindex=&quot;-1&quot;&gt;.env&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-env&quot;&gt;POSTGRES_USER=admin
+POSTGRES_PASSWORD=admin
+PGADMIN_DEFAULT_EMAIL=admin@m.lan
+PGADMIN_DEFAULT_PASSWORD=admin
+PGADMIN_PORT=5050
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/docker/post-gres-docker-compose-yml-config/" >
+        </entry>
+        <entry>
+            <title>
+                Force Rebuild New Image
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/docker/force-rebuild-new-image/</id>
+            <content type="html">
+                &lt;p&gt;Instead of just building your images, and then trying to up them, consider this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker-compose down
+$ docker-compose build
+$ docker-compose up
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which can be shortened to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker-compose build
+$ docker-compose up --force-recreate
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will make sure that even ‘unchanged’ containers are stopped and recreated in any case.&lt;/p&gt;
+&lt;p&gt;Maybe your issues are happening during the image build. If there’s a caching issue with your Dockerfile, you can rebuild it from scratch every single time, and then recreate all containers with the following two commands:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker-compose build --no-cache
+$ docker-compose up --force-recreate
+$ docker compose up --build # this does it all
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will rebuild all images from scratch. If you want to be more selective, you could use:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ docker build --no-cache -t imagename .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And recreate the containers with docker-compose afterwards.&lt;/p&gt;
+&lt;p&gt;All of those are meant to be &lt;strong&gt;temporary&lt;/strong&gt; fixes! You should not have to rely on them in the long term.&lt;/p&gt;
+&lt;h2 id=&quot;the-way-forward&quot; tabindex=&quot;-1&quot;&gt;The Way Forward&lt;/h2&gt;
+&lt;p&gt;You should dig into your Dockerfile and setup, to find out why you are having these issues! If you don’t your workflows will be unnecessarily slow and otherwise not reliable.&lt;/p&gt;
+&lt;p&gt;If you are experiencing similar issues with your deployments, you should switch towards more meaningful tags than &lt;a href=&quot;https://vsupalov.com/docker-latest-tag/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;:latest&lt;/a&gt;, and rethink the way you’re pushing out new versions of your applications.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;citations&quot; tabindex=&quot;-1&quot;&gt;Citations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://vsupalov.com/docker-compose-runs-old-containers/#:~:text=The&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://vsupalov.com/docker-compose-runs-old-containers/#:~:text=The&lt;/a&gt; most probable explanation is%2C that you are,container or your build used old cached layers.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/docker/force-rebuild-new-image/" >
+        </entry>
+        <entry>
+            <title>
+                Docker_DNS_Networking
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/docker/docker-dns-networking/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#docker&quot;&gt;#docker&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#docker-compose&quot;&gt;#docker-compose&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#DNS&quot;&gt;#DNS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2Fg2NfDZhmE&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Docker Networks  DNS and How Containers Find Each Other&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;using docker-compose, a container automatically gets a &lt;strong&gt;DNS name&lt;/strong&gt; matching it&#39;s &lt;strong&gt;container name&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;join containers together with a common network i.e.&lt;br /&gt;
+&lt;code&gt;compose.yml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;version: &amp;quot;3.7&amp;quot;
+
+services:
+
+  obsidianDB_dnd:
+    image: couchdb:3.1.2
+    restart: always
+    ports:
+      - &amp;quot;5984:5984&amp;quot;
+    networks:
+      - nginx-prox-mgmt-3_default
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=pass
+    volumes:
+      - /mnt/uasis5/obsidian-livesync-data/dnd:/opt/couchdb/data
+      - ./local.ini:/opt/couchdb/etc/local.ini
+
+networks:
+  nginx-prox-mgmt-3_default:
+    external: true
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/docker/docker-dns-networking/" >
+        </entry>
+        <entry>
+            <title>
+                Docker, Limit Storage Space
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/docker/docker-limit-storage-space/</id>
+            <content type="html">
+                &lt;p&gt;You can use the &lt;code&gt;storage_opt&lt;/code&gt; key in the Docker Compose file to set storage size limits for containers.&lt;/p&gt;
+&lt;p&gt;Here&#39;s an example &lt;code&gt;docker-compose.yml&lt;/code&gt; file that sets a storage size limit of 10GB for a container:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;version: &#39;3&#39;
+
+services:
+  myservice:
+    image: myimage
+    storage_opt:
+      size: 10G
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, &lt;code&gt;myservice&lt;/code&gt; is the name of the service you want to create, &lt;code&gt;myimage&lt;/code&gt; is the name of the Docker image you want to use for the service, and &lt;code&gt;storage_opt&lt;/code&gt; is the key that specifies the storage options for the container.&lt;/p&gt;
+&lt;p&gt;You can also set other storage options in the &lt;code&gt;storage_opt&lt;/code&gt; key, such as the &lt;code&gt;dm.basesize&lt;/code&gt; option to set the base size of the container&#39;s thin pool volume. Here&#39;s an example that sets both the size and base size options:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;version: &#39;3&#39;
+
+services:
+  myservice:
+    image: myimage
+    storage_opt:
+      size: 10G
+      dm.basesize: 5G
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, the container will have a storage size limit of 10GB and a base size of 5GB for the thin pool volume.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Using&lt;/a&gt; Docker-Compose with storage options (size) - Stack Overflow&lt;/li&gt;
+&lt;li&gt;Chat GPT&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/docker/docker-limit-storage-space/" >
+        </entry>
+        <entry>
+            <title>
+                Docker Compose Use Environment Variables Like a Pro
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/docker/docker-compose-use-environment-variables-like-a-pro/</id>
+            <content type="html">
+                &lt;p&gt;Finding yourself building, rebuilding, and deploying &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt; containers? My stack of &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/NodeJS&lt;/a&gt; projects have started to unruly, and I need a better way to deploy my apps with little fuss.&lt;/p&gt;
+&lt;h2 id=&quot;env-vars&quot; tabindex=&quot;-1&quot;&gt;Env Vars&lt;/h2&gt;
+&lt;p&gt;Keep your environment variables in one place. You&#39;ll start pulling your hair out if they&#39;re split between &lt;code&gt;.env&lt;/code&gt;, &lt;code&gt;compose.yml&lt;/code&gt;, &lt;code&gt;envs.ts&lt;/code&gt;, etc.  I recommend keeping them all in &lt;code&gt;.env&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;.env&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;NODE_ENV=&amp;quot;production&amp;quot;
+
+IMAGE_FRONTEND_NAME=&amp;quot;cutefruit-kypn-frontend&amp;quot;
+IMAGE_BACKEND_NAME=&amp;quot;cutefruit-kypn-backend&amp;quot;
+
+SITE_TITLE=&amp;quot;MY COOL SITE&amp;quot;
+SITE_DESC=&amp;quot;Learn how to use env like a pro&amp;quot;
+ADMIN_EMAIL_ADDRESS=&amp;quot;Enviroment@Variables.lan&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;import-in-compose-yml&quot; tabindex=&quot;-1&quot;&gt;import in compose.yml&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;version: &#39;3&#39;
+
+services:
+
+  backend:
+    container_name: ${IMAGE_BACKEND_NAME}
+    image: ${IMAGE_BACKEND_NAME}:latest 
+    restart: unless-stopped
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile.backend
+    # ports: # expose this if you&#39;re not using a proxy
+    #   - 3001:3001
+    networks:
+      - this
+
+  frontend:
+    container_name: ${IMAGE_FRONTEND_NAME}
+    image: ${IMAGE_FRONTEND_NAME}:latest # rename ALL &#39;cutefruit-kypn&#39; to a unique name 
+    restart: unless-stopped
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile.frontend
+    # ports: # expose this if you&#39;re not using a proxy
+    #   - 3000:3000
+    networks:
+      - this
+
+networks:    
+  this:
+    name: cutefruit-kypn-network
+    driver: bridge  
+    external: true 
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If all you tweaked was the &lt;code&gt;.env&lt;/code&gt; file, then just hit the container with the &lt;code&gt;docker compose up -d&lt;/code&gt; and it should replace the new values&lt;/p&gt;
+&lt;h3 id=&quot;import-in-bash-scripts&quot; tabindex=&quot;-1&quot;&gt;Import in Bash Scripts&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;#!/bin/bash
+
+source .env
+
+# if you&#39;re having stale configuration/environment issues, 
+# add the --no-cache argument
+# docker compose build --no-cache
+docker compose build 
+
+docker save -o &amp;quot;./images/$IMAGE_FRONTEND_NAME.tar&amp;quot; $IMAGE_FRONTEND_NAME
+docker save -o &amp;quot;./images/$IMAGE_BACKEND_NAME.tar&amp;quot; $IMAGE_BACKEND_NAME
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Excellent for bash scripting. In the above example I&#39;m setting the file name to match the container and image name &lt;code&gt;${IMAGE_FRONTEND_NAME}&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;import-in-javascript-typescript&quot; tabindex=&quot;-1&quot;&gt;Import in Javascript, Typescript&lt;/h2&gt;
+&lt;p&gt;Wrap your env variables in a &lt;code&gt;envs.ts&lt;/code&gt; has benefits&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;autocomplete intellesense&lt;/li&gt;
+&lt;li&gt;import into other &lt;code&gt;.js&lt;/code&gt; &lt;code&gt;.ts&lt;/code&gt; files with ease&lt;/li&gt;
+&lt;li&gt;set default values&lt;/li&gt;
+&lt;li&gt;check if value is non-null &lt;code&gt;!&lt;/code&gt;. Like a &lt;em&gt;required&lt;/em&gt; attribute&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-ts&quot;&gt;// FRONTEND      
+const SITE_TITLE          = process.env.NEXT_PUBLIC_SITE_TITLE! 
+const SITE_DESC          = process.env.NEXT_PUBLIC_SITE_DESC! 
+const ADMIN_EMAIL_ADDRESS = process.env.NEXT_PUBLIC_ADMIN_EMAIL_ADDRESS!
+
+export const envs = {
+  SITE_TITLE,
+  SITE_DESC,
+  ADMIN_EMAIL_ADDRESS,
+} 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;import&quot; tabindex=&quot;-1&quot;&gt;Import&lt;/h2&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/42149529/how-to-reload-environment-variables-in-docker-compose-container-with-minimum-dow&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to reload environment variables in docker-compose container with minimum downtime? - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/NodeJS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/docker/docker-compose-use-environment-variables-like-a-pro/" >
+        </entry>
+        <entry>
+            <title>
+                Build small docker image sizes
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/docker/build-small-docker-image-sizes/</id>
+            <content type="html">
+                &lt;p&gt;I was building a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/next-js/&quot;&gt;developer/Home Lab 🏠/NextJS&lt;/a&gt; image with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt; and ended up with over &lt;strong&gt;6gb&lt;/strong&gt; file sizes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yikes&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;bad&quot; tabindex=&quot;-1&quot;&gt;Bad&lt;/h2&gt;
+&lt;p&gt;my initial,  bloated &lt;code&gt;Dockerfile&lt;/code&gt; looked like this&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Dockerfile&quot;&gt;FROM node:18
+WORKDIR /app
+
+COPY . .
+
+RUN yarn install
+
+ENV NODE_ENV production
+ENV PORT 3000
+
+CMD [&amp;quot;yarn&amp;quot;, &amp;quot;start&amp;quot;]
+EXPOSE 3000
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;better&quot; tabindex=&quot;-1&quot;&gt;Better&lt;/h3&gt;
+&lt;p&gt;use &lt;code&gt;alpine&lt;/code&gt; versions&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Dockerfile&quot;&gt;FROM node:18-alpine
+WORKDIR /app
+
+COPY . .
+
+RUN yarn install
+
+ENV NODE_ENV production
+ENV PORT 3000
+
+EXPOSE 3000
+
+CMD [&amp;quot;yarn&amp;quot;, &amp;quot;start&amp;quot;]
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;multi-stage-build&quot; tabindex=&quot;-1&quot;&gt;Multi Stage Build&lt;/h3&gt;
+&lt;p&gt;multi stage builds can share files and reduce duplication during build process&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Dockerfile&quot;&gt;FROM node:18-alpine as builder
+WORKDIR /app
+
+COPY yarn.lock .
+COPY package.json .
+RUN yarn
+COPY . .
+RUN yarn build
+
+FROM node:18-alpine as runner
+WORKDIR /app
+
+COPY --from=builder /app/package.json .
+COPY --from=builder /app/yarn.lock .
+
+RUN yarn --production
+COPY --from=builder /app/next.config.js .
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
+
+EXPOSE 3000
+
+CMD [&amp;quot;yarn&amp;quot;, &amp;quot;start&amp;quot;]
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;best&quot; tabindex=&quot;-1&quot;&gt;BEST&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Dockerfile&quot;&gt;FROM node:18-alpine as builder
+WORKDIR /app
+
+COPY yarn.lock .
+COPY package.json .
+RUN yarn install --frozen-lockfile
+COPY . .
+RUN yarn build
+
+FROM node:18-alpine as runner
+WORKDIR /app
+
+COPY --from=builder /app/package.json .
+COPY --from=builder /app/yarn.lock .
+
+COPY --from=builder /app/next.config.js .
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/.next ./.next
+
+EXPOSE 3000
+
+CMD [&amp;quot;yarn&amp;quot;, &amp;quot;start&amp;quot;]
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;standalone&quot; tabindex=&quot;-1&quot;&gt;Standalone&lt;/h3&gt;
+&lt;p&gt;In your &lt;code&gt;next.config.js&lt;/code&gt; file, enable the standalone output&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;experimental: {  
+	outputStandalone: true,  
+},
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Dockerfile&quot;&gt;FROM node:18-alpine as builder
+WORKDIR /app
+
+COPY yarn.lock .
+COPY package.json .
+RUN yarn install --frozen-lockfile
+COPY . .
+RUN yarn build
+
+FROM node:18-alpine as runner
+WORKDIR /app
+
+COPY --from=builder /app/package.json .
+COPY --from=builder /app/yarn.lock .
+
+COPY --from=builder /app/next.config.js .
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+
+EXPOSE 3000
+
+CMD [&amp;quot;node&amp;quot;, &amp;quot;server.js&amp;quot;]
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://javascript.plainenglish.io/reduce-docker-image-size-for-your-next-js-app-bcb65d322222&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Reduce Docker Image size for your Next.js App | by Kyle Le | JavaScript in Plain English&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/docker/build-small-docker-image-sizes/" >
+        </entry>
+        <entry>
+            <title>
+                Discord Bot How To
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/discord/discord-bot-how-to/</id>
+            <content type="html">
+                &lt;p&gt;follow this guide &lt;a href=&quot;https://sabe.io/tutorials/how-to-build-discord-bot-typescript&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to build a Discord bot using TypeScript | Sabe&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/discord/discord-bot-how-to/" >
+        </entry>
+        <entry>
+            <title>
+                Obisidan Digital Garden
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/digital-gardening/obisidan-digital-garden/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Digital&lt;/a&gt; Garden - Publish Obsidian Notes For Free (ole.dev) is an app that builds a static site with the help of your Obsidian markdown files, and styles. This tool has great support for popular plugins like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mermaidjs&lt;/li&gt;
+&lt;li&gt;excalidraw&lt;/li&gt;
+&lt;li&gt;dataview&lt;/li&gt;
+&lt;li&gt;graphview&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So far this tool has everything I need in a &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#SSG&quot;&gt;#SSG&lt;/a&gt; builder.&lt;/p&gt;
+&lt;h2 id=&quot;how-i-host&quot; tabindex=&quot;-1&quot;&gt;How I Host&lt;/h2&gt;
+&lt;p&gt;Usually I always opt for a &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhosted&quot;&gt;#selfhosted&lt;/a&gt; solution, and there is a good &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://github.com/oleeskild/obsidian-digital-garden/discussions/160#discussioncomment-7153146&lt;/a&gt;on house. to do it. Maybe I will try out building the site with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt; and connecting it with my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;self-hosted&quot; tabindex=&quot;-1&quot;&gt;Self Hosted&lt;/h2&gt;
+&lt;p&gt;Putting the self hosted solution here just in case I want to do it later. This is assuming you have a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;Nginx Proxy Manager&lt;/a&gt; set up to point to the &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#SSG&quot;&gt;#SSG&lt;/a&gt; files.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dockerfile&quot;&gt;FROM node:18 as base
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
+
+FROM base as builder
+WORKDIR /usr/src/app
+RUN npm run build
+
+FROM scratch AS export
+COPY --from=builder /usr/src/app/dist /
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;docker build -f Dockerfile.export --output dist .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For now I&#39;m using &lt;strong&gt;GitHub Pages&lt;/strong&gt;, as it&#39;s very similar to a self hosted build, while taking the burden off of my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;git-hub-pages&quot; tabindex=&quot;-1&quot;&gt;GitHub Pages&lt;/h3&gt;
+&lt;p&gt;For anyone who initially built this project with &lt;strong&gt;Vercel&lt;/strong&gt; like me, I added this to &lt;code&gt;vercel.json&lt;/code&gt; to stop it from building to their platform&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+  &amp;quot;outputDirectory&amp;quot;: &amp;quot;dist&amp;quot;,
+  &amp;quot;installCommand&amp;quot;: &amp;quot;npm install&amp;quot;,
+  &amp;quot;buildCommand&amp;quot;: &amp;quot;npm run build&amp;quot;,
+  &amp;quot;devCommand&amp;quot;: &amp;quot;npm run start&amp;quot;,
+  &amp;quot;routes&amp;quot;: [
+      { &amp;quot;handle&amp;quot;: &amp;quot;filesystem&amp;quot; },
+      { &amp;quot;src&amp;quot;: &amp;quot;/(.*)&amp;quot;, &amp;quot;status&amp;quot;: 404, &amp;quot;dest&amp;quot;: &amp;quot;/404&amp;quot; }
+    ],
+    &amp;quot;git&amp;quot;: {
+      &amp;quot;deploymentEnabled&amp;quot;: {
+        &amp;quot;main&amp;quot;: false,
+        &amp;quot;gh-pages&amp;quot;: false
+      }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you&#39;d like a more indepth tutorial, check out &lt;a href=&quot;https://maarten.be/blog/20220730/how-to-deploy-your-eleventy-website-to-github-pages-with-github-actions/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to deploy your Eleventy website to GitHub Pages with GitHub Actions - Maarten Tibau&lt;/a&gt;. This is more the short version.&lt;/p&gt;
+&lt;p&gt;.Clone your digital garden repo and open up your fav text editor and make a few files in the root of the repo&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;.github
+├── dependabot.yml
+└── workflows
+    ├── build-and-deploy.yml
+    └── build.yml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;build.yml&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;name: Build on PR
+
+on:
+  pull_request:
+    branches: [&#39;main&#39;]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [&#39;18&#39;]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: &#39;npm&#39;
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run npm build
+        run: npm run build
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;build-and-deploy.yml&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;name: Build &amp;amp; Deploy Digital Garden
+
+on:
+  push:
+    branches: [&#39;main&#39;]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [&#39;18&#39;]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: &#39;npm&#39;
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run npm build
+        run: npm run build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./dist
+          # omit if not using a custom domain
+          cname: pywrite-garden.tawtaw.site
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;git-hub-keys&quot; tabindex=&quot;-1&quot;&gt;GitHub Keys&lt;/h4&gt;
+&lt;p&gt;You&#39;ll need to create some keys to authenticate your local machine with the GitHub repo. If you like pictures, check out this &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://github.com/peaceiris/actions-gh-pages#️-create-ssh-deploy-key&lt;/a&gt;. But I&#39;ll copy the good bits here&lt;/p&gt;
+&lt;p&gt;Assuming your still in the digital garden repo on your local machine run this&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;ssh-keygen -t rsa -b 4096 -C &amp;quot;$(git config user.email)&amp;quot; -f gh-pages -N &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You will get 2 files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;gh-pages.pub&lt;/code&gt; is a public key&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gh-pages&lt;/code&gt; is a private key&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;copy &lt;code&gt;gh-pages.pub&lt;/code&gt; to &lt;code&gt;https://github.com/YOURUSERNAME/GARDENREPO/settings/keys&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;copy &lt;code&gt;gh-pages&lt;/code&gt; to &lt;code&gt;https://github.com/YOURUSERNAME/GARDENREPO/settings/secrets/actions#repository-secrets&lt;/code&gt; with the Title = &lt;code&gt;ACTIONS_DEPLOY_KEY&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git add .
+git commit -m &#39;digital garden initial build&#39;
+git push
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;custom-domain&quot; tabindex=&quot;-1&quot;&gt;Custom Domain&lt;/h4&gt;
+&lt;p&gt;Go to your domain host&#39;s DNS edit page.&lt;/p&gt;
+&lt;p&gt;create a CNAME record that points to &lt;code&gt;YOURUSERNAME.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Go to &lt;code&gt;https://github.com/YOURUSERNAME/GARDENREPO/settings/pages&lt;/code&gt; and add a custom domain that you created&lt;/p&gt;
+&lt;h2 id=&quot;analytics&quot; tabindex=&quot;-1&quot;&gt;Analytics&lt;/h2&gt;
+&lt;p&gt;I&#39;ll be using &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/umami/&quot;&gt;developer/Home Lab 🏠/umami&lt;/a&gt; as my &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhosted&quot;&gt;#selfhosted&lt;/a&gt; choice&lt;/p&gt;
+&lt;p&gt;create an &lt;code&gt;analytics.njk&lt;/code&gt; file&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;_includes
+├── components
+│   ├── calloutScript.njk
+│   ├── filetree.njk
+...
+│   ├── timestamps.njk
+│   └── user
+│       └── common
+│           └── head
+│               └── analytics.njk
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;analytics.njk&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;script async src=&amp;quot;https://animals.YOURDOMAIN.site/dogs&amp;quot; data-website-id=&amp;quot;fa4f8c5b-***&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Essentially, your injecting a new &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; into the head of every page in your published garden. You&#39;ll also notice the strange choice of domain name, this explained in my setup of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/umami/&quot;&gt;developer/Home Lab 🏠/umami&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;custom-styles&quot; tabindex=&quot;-1&quot;&gt;Custom Styles&lt;/h2&gt;
+&lt;p&gt;edit &lt;code&gt;src/site/styles/custom-style.scss&lt;/code&gt; for any custom style needs&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Local&lt;/a&gt; deployment · oleeskild/obsidian-digital-garden · Discussion &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#160&quot;&gt;#160&lt;/a&gt; (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Google&lt;/a&gt; Analytics · oleeskild/obsidian-digital-garden · Discussion &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#195&quot;&gt;#195&lt;/a&gt; (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/digital-gardening/obisidan-digital-garden/" >
+        </entry>
+        <entry>
+            <title>
+                Digital Gardening
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/digital-gardening/digital-gardening/</id>
+            <content type="html">
+                &lt;p&gt;Digital gardening is my preferred way of &#39;blogging&#39;. Writing, maintaining, and updating markdown files locally and having an automated app update and publish the collection of documents is &lt;em&gt;the&lt;/em&gt; painless way to construct an online site of posts.&lt;/p&gt;
+&lt;h4 id=&quot;including-but-not-limited-to&quot; tabindex=&quot;-1&quot;&gt;Including but not limited to&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Documentation&lt;/li&gt;
+&lt;li&gt;Tutorials&lt;/li&gt;
+&lt;li&gt;Journal&lt;/li&gt;
+&lt;li&gt;Step by Step&lt;/li&gt;
+&lt;li&gt;Recipes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;growing-the-garden&quot; tabindex=&quot;-1&quot;&gt;Growing the Garden&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Obsidian.md&lt;/a&gt; is my way of maintating my &lt;em&gt;vault&lt;/em&gt; of markdown files&lt;/p&gt;
+&lt;h2 id=&quot;prepping-vault-for-publishing&quot; tabindex=&quot;-1&quot;&gt;Prepping vault for publishing&lt;/h2&gt;
+&lt;p&gt;I like to keep one large vault that hosts all my notes. Anything from music, web development, video game emulation, etc.&lt;/p&gt;
+&lt;p&gt;When it comes to publishing my vault, I&#39;d like a to split my notes and dedicate each group to it&#39;s own site i.e. &lt;strong&gt;Developers&lt;/strong&gt;: Coding, videogames, home lab.&lt;/p&gt;
+&lt;p&gt;I assume you&#39;ve already grouped these in a sensible file structure in your notes already. We&#39;ll use that structure to create a ignore file that takes this into account.&lt;/p&gt;
+&lt;h3 id=&quot;gitignore&quot; tabindex=&quot;-1&quot;&gt;.gitignore&lt;/h3&gt;
+&lt;p&gt;Assuming you&#39;re pushing this to a github repo, you&#39;ll want to ensure your &lt;code&gt;.gitignore&lt;/code&gt; ignores any files you do not want the world to see. Here is an example for a common files / obsidian vaults&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;.DS_Store
+.gitignore
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;symbolic-linking&quot; tabindex=&quot;-1&quot;&gt;Symbolic Linking&lt;/h3&gt;
+&lt;p&gt;You could just copy and paste the desired vault over to the &lt;code&gt;/content&lt;/code&gt; directory, but I think we can do this in a more elegant way. These &lt;strong&gt;Soft Links&lt;/strong&gt; will do the same job, without taking up double the hard disk space.&lt;/p&gt;
+&lt;h2 id=&quot;static-site-generation&quot; tabindex=&quot;-1&quot;&gt;Static Site Generation&lt;/h2&gt;
+&lt;p&gt;Now to share this garden with the world. I&#39;ve tried my hand at a few publishing apps, even tried to write my own&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;oleeskild/obsidian-digital-garden&lt;/a&gt; (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)
+&lt;ol&gt;
+&lt;li&gt;The most feature rich&lt;/li&gt;
+&lt;li&gt;a bit more to configure on your part&lt;/li&gt;
+&lt;li&gt;built with &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Eleventy&lt;/a&gt;, a simpler static site generator (11ty.dev)&lt;/li&gt;
+&lt;li&gt;Publication is &lt;strong&gt;Opt In&lt;/strong&gt; per note&lt;/li&gt;
+&lt;li&gt;a bit more customizable&lt;/li&gt;
+&lt;li&gt;match theme from your Obsidian Editor&lt;/li&gt;
+&lt;li&gt;uses a dedicated Obsidian plugin to publish notes&lt;/li&gt;
+&lt;li&gt;does not like comments &lt;code&gt;%%&lt;/code&gt; in mermaidjs codeblocks&lt;/li&gt;
+&lt;li&gt;how to deploy on github pages instead of vercel
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://maarten.be/blog/20220730/how-to-deploy-your-eleventy-website-to-github-pages-with-github-actions/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to deploy your Eleventy website to GitHub Pages with GitHub Actions - Maarten Tibau&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Welcome&lt;/a&gt; to Quartz 4 (jzhao.xyz)
+&lt;ol&gt;
+&lt;li&gt;This is the most mature, fully featured publishing app&lt;/li&gt;
+&lt;li&gt;DO NOT FORGET &lt;code&gt;index.md&lt;/code&gt; page at the root of your vault!!!!!&lt;/li&gt;
+&lt;li&gt;has the best out of the box styling&lt;/li&gt;
+&lt;li&gt;simple git push to repo and GitHub Pages&lt;/li&gt;
+&lt;li&gt;Custom Node builder&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;DIY &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Projects📐/Obsidian Publish with NextJS&lt;/a&gt; aka Pywriter Publisher
+&lt;ol&gt;
+&lt;li&gt;Generating static sites with markdown files is a good first project for any &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt;, but like me you&#39;ll quickly find an ever growing ceiling of features that you&#39;ll want to add.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://flowershow.app/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Flowershow&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;The new kid on the block. I&#39;m really digging the integrated plugin right inside of &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Obsidian.md&lt;/a&gt;. Still has a bit to go, but could be the most useful if you&#39;re willing to give it a try.&lt;/li&gt;
+&lt;li&gt;NextJS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;publishing-platforms&quot; tabindex=&quot;-1&quot;&gt;Publishing Platforms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Self host - &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Projects📐/Obsidian Publish with NextJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github Pages
+&lt;ul&gt;
+&lt;li&gt;custom domain tip --&amp;gt; &lt;a href=&quot;https://stackoverflow.com/a/67028408/15579591&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;WAIT A DAY, ENJOY OUTDOOR WALK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;inspiration&quot; tabindex=&quot;-1&quot;&gt;Inspiration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;The&lt;/a&gt; Threshold (&lt;a href=&quot;http://utsob.me/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;utsob.me&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://askubuntu.com/questions/438883/how-to-create-symbolic-link-to-a-directory-excluding-certain-files&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;filesystem - How to create symbolic link to a directory excluding certain files? - Ask Ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/digital-gardening/digital-gardening/" >
+        </entry>
+        <entry>
+            <title>
                 CasaOS
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/casa-os/</id>
             <content type="html">
                 &lt;p&gt;I tried &lt;a href=&quot;https://casaos.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CasaOS - A simple, easy-to-use, elegant open-source personal cloud system&lt;/a&gt; as a turn key solution to run a handful of self hosted apps located in a family member&#39;s network.&lt;/p&gt;
@@ -3178,7 +4331,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 has Selector
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/has-selector/</id>
             <content type="html">
                 &lt;p&gt;I see a lot of potential in the &lt;code&gt;:has()&lt;/code&gt; selector, expecially when it comes to input fields&lt;/p&gt;
@@ -3213,7 +4366,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 Working With Inconsistent Logos
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/working-with-inconsistent-logos/</id>
             <content type="html">
                 &lt;p&gt;There are a few common problems when working with not so stellar logos sent in by the client&lt;/p&gt;
@@ -3248,7 +4401,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 Toggle Checkbox CSS
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/toggle-checkbox-css/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;input[type=&amp;quot;checkbox&amp;quot;].toggle {
@@ -3329,7 +4482,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Styling to Print
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/styling-to-print/</id>
             <content type="html">
                 &lt;h2 id=&quot;hide-or-show-when-printing&quot; tabindex=&quot;-1&quot;&gt;Hide or Show When Printing&lt;/h2&gt;
@@ -3383,7 +4536,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Style Containers on top of Eachother
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/style-containers-on-top-of-eachother/</id>
             <content type="html">
                 &lt;h2 id=&quot;credit&quot; tabindex=&quot;-1&quot;&gt;Credit&lt;/h2&gt;
@@ -3403,7 +4556,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Smooth Scroll On Everything
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/smooth-scroll-on-everything/</id>
             <content type="html">
                 &lt;p&gt;Smooth scrolling when moving to a different element on the same page gives any app that modern feel.&lt;/p&gt;
@@ -3429,7 +4582,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Sass
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/sass/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -3446,7 +4599,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Responsive Padding
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/responsive-padding/</id>
             <content type="html">
                 &lt;h2 id=&quot;magic-formula&quot; tabindex=&quot;-1&quot;&gt;Magic Formula&lt;/h2&gt;
@@ -3470,7 +4623,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 React JSX Dynamic Overlay Color
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/react-jsx-dynamic-overlay-color/</id>
             <content type="html">
                 &lt;h3 id=&quot;tutorials&quot; tabindex=&quot;-1&quot;&gt;tutorials&lt;/h3&gt;
@@ -3492,7 +4645,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Preserve Line Breaks in textarea tag
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/preserve-line-breaks-in-textarea-tag/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;BHdiVZ88rU75/T13g2x4Czrr7k6qelahRqmq7mbEpIPxzI0SQjaD0+HWgekbLVWgdmw5zY8KIm6iLuGCSCg49m5DJJrFEaJ4ZzIMZDkjoKdkjA03RLlCjd93fdo3yqqAjQnDnURh+PH2OCwiNy2C+S6t6ssVpQgf/uvvg3m6kF7IxYqWFkZWmVZkx7LBfV9jYAY3eHvWMNKX3PgsN8w5kxefmuRBN8AOXtfY8B3KgFqtSogLALUpGmTyQG8cmAOZ3EfC0op0LSLg9QamfPvhBJlMbpOab5LtbxQq+kAvQElvo5sPdX35APwxD3nye2zGu8WwanJxFHQZqKaye2/4beXclMAezu4wDC6F6MnPT0ilyGeNR7AEnstb9ItGDpMY0UaxwlhzYGVEZ1DVXPWmdZOXHI/5s5KhpQTGFv/lYlmW5ZlDvSOlvPPcBIoDo8Z5AAlRD00h3Lj2oBlA/1V5DHyuA4U6zPeaIewNyevk3AzWqUfzsa+4PGlMKPvcy+Ekrh+w3k2SIVnPCJ/deOCzwDIYMw0wbkl3wvh3xvpk0V1gMLYRNd501nXePCmCtMmbUzMXtyIXjt7tvXDCmPWnZf7qCnDR5nKD0KGlLyGnerLoJT1N2NA6QUlr9NGBTXHUtZMdd8xTx0TF73HrC2t0T/RaJU/eu6kwhTAQrIYthKTH3LFGe3x0/iEMOJjrB26dELz5ZxZAMbq3n4LgiN5dRt/N9TlDOUMrpUtK1uxeLIAcEYkn7wlzRi524O12e25QdsW5+AieHQ==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f04000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -3505,7 +4658,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Modern Image Caption
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/modern-image-caption/</id>
             <content type="html">
                 &lt;p&gt;Having a subtle caption that floats / aligns to the right with some hover effects seems simple right? Well, it was a bit confusing until I found out about &lt;code&gt;display: inline-flex;&lt;/code&gt; and  &lt;code&gt;display: inline-table;&lt;/code&gt;&lt;/p&gt;
@@ -3578,7 +4731,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Hide Reveal Error Message
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/hide-reveal-error-message/</id>
             <content type="html">
                 &lt;p&gt;clever way to animate an error message in and out. The error element is hidden when there is no inner text or html present, but once filled with content it will be revealed to the UI&lt;/p&gt;
@@ -3612,7 +4765,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Header Text overlap
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/header-text-overlap/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;eowIygzv3Vx2QITmHRDaP3WTWS0eltLNMrXUSRulae0x12etME8F75NJl9HQWmR3lnESs+wtyBWNcSOQI9lGBjV95zVT0xBomIOFFZ8+G5guFzm5WOJFnU3DLlZJTXAg+JlXUdmmrMKSIOI33mb1qTdt1Bf2YWKXygN1re/DkVAIFNxcGYbudSUxaGmIFEWukCdN4juYo098og5h8oMI7XlQ4V+OuAE6UiFI++5hVkJyfgj4OQZDePKtF/bzL2k63soTD0E01NkfElTLBG/eUme85futIB6YWjfi8dqClORGRYYDMibenSkiQcnqY8cVdiR05urFJu8ugMdz6rNmIe/7LAz8pLSEwYt46tdqXJBYtJMGyf3bOC0jsjoUVHSOertI7ThNPOV+nENLHejS1qOQB6r72hYrQFHVmV6lNnn7LVJ1SwRfrMsMdrhAO9CYVA/dfFKiBGwwlnn5R7iTtGgKUyFEtZKLUR7+QojZm/49Taqjdg83NS8WpuUP8MM3IlE4zXo0epjwwjd+vDRzO0FeBjBifoKTYGTJVixRhMKLSHP3xUGmGhn6iNzJBgtwSx7O6gEwleygDyWKOHUOqqpI2XRyxcbTC8DddIdomK5MsdvKK70U6H5cUrfFZIEBhunhrn45CotsKOQ1Fwfm6sBhhCffJx0lLtSFEXcES+K+tNkI6hmjWkN+BWCCxU7kaR8gELjDL95vI1YWuwiEh6HMTYyxsjESGcVAq4MPsHR/nzjkAIUQrIc1R49CfD4Qb0i4YVWuZOttggdet/N4bgy73nVAdTynbShSGOeVnOHxyqUmSUNWf1t3cgJZCvsx7Jd3CcY0R6d2HzkGzON3amLzbpbYLb4jvdRMBbpo6+eQvsCAWPFppRMTesVr3YNXvVxZIf4QC0R543U2wixS3xb8URI29tOAU3Va3QhUZrvk9x0xPuwAFHOPikjziMDbhR3XKbK3yhUR2uaxHA6edUgPlr+97846GEC2zhxl1n1qVAWUE08XHo/RW29NfslDllZgTnTV21siEczC5YSpG/RCil9sOCi6yfEWOq/iVXAVIbv+802cpBgWj4qpMXkOf0iymuzdRrkLLviayg3b3WWT9b8IpNBmTsKYfL8nBDkfhiZAiToOwzGn2+yz0Vn6cPk1Ub2Nwdvhmq7MA8K3mkfTeXYC/T6jY5y4NeAJ7OoHflnvKGE9qgOQJZH5Hxgy99vlLpT/4tEKsDaQ3uBrsJwnlOxp0wRziKPMZ0hUEp39KA==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f03000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -3625,7 +4778,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Center and Fit Image the Right Way
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/center-and-fit-image-the-right-way/</id>
             <content type="html">
                 &lt;p&gt;I wanted a defacto way to center an image. Looks like I found a decent way&lt;/p&gt;
@@ -3664,7 +4817,7 @@ picture img {
                 Cascading Style Sheet Tips &amp; Tricks
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/</id>
             <content type="html">
                 
@@ -3676,7 +4829,7 @@ picture img {
                 CSS
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css/</id>
             <content type="html">
                 &lt;h3 id=&quot;if-parent-has-input-that-is-checked&quot; tabindex=&quot;-1&quot;&gt;if parent has input that is checked&lt;/h3&gt;
@@ -3823,7 +4976,7 @@ img {
                 CSS Rotation Axis
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-rotation-axis/</id>
             <content type="html">
                 &lt;p&gt;rotate an element not just around the center axis&lt;/p&gt;
@@ -3848,7 +5001,7 @@ transform-origin: 0% 0%;
                 CSS Nested border-radius
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-nested-border-radius/</id>
             <content type="html">
                 &lt;p&gt;You&#39;ve probably set the parent and child element &lt;code&gt;border-radius&lt;/code&gt; to the same value expecting them to line up, but it&#39;s the padding that throws the angle of the curve off&lt;/p&gt;
@@ -3880,7 +5033,7 @@ transform-origin: 0% 0%;
                 CSS Masonry Layout With Grid
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-masonry-layout-with-grid/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.masonry {
@@ -3915,7 +5068,7 @@ transform-origin: 0% 0%;
                 CSS Marquee Animations
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-marquee-animations/</id>
             <content type="html">
                 &lt;h2 id=&quot;scroll-horizontal-ticker&quot; tabindex=&quot;-1&quot;&gt;Scroll horizontal ticker&lt;/h2&gt;
@@ -4015,7 +5168,7 @@ transform-origin: 0% 0%;
                 CSS Input Range Slider With Box Shadow Animation
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-input-range-slider-with-box-shadow-animation/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;label htmlFor=&amp;quot;slider&amp;quot; className=&amp;quot;slider-cont&amp;quot;&amp;gt;
@@ -4104,7 +5257,7 @@ transform-origin: 0% 0%;
                 CSS Height Transition Animation
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-height-transition-animation/</id>
             <content type="html">
                 &lt;p&gt;smooth transition height trick&lt;/p&gt;
@@ -4138,7 +5291,7 @@ transform-origin: 0% 0%;
                 CSS Gradient Background Image Transition
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-gradient-background-image-transition/</id>
             <content type="html">
                 &lt;p&gt;Transiitioning a background image isn&#39;t a built in feature, but is a trick using pseudo elements&lt;/p&gt;
@@ -4195,7 +5348,7 @@ transform-origin: 0% 0%;
                 CSS Disco Floor Animation
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-disco-floor-animation/</id>
             <content type="html">
                 &lt;p&gt;I wanted to create a eye candy dance floor that looks like it&#39;s lighting up&lt;/p&gt;
@@ -4317,7 +5470,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Color Mixing
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-color-mixing/</id>
             <content type="html">
                 &lt;p&gt;mixing colors in &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#css&quot;&gt;#css&lt;/a&gt; is now a breeze. Create quick color pallet themes that can easily be tweaked.&lt;/p&gt;
@@ -4408,7 +5561,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Capitolize the first letter rest are lowercase
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-capitolize-the-first-letter-rest-are-lowercase/</id>
             <content type="html">
                 &lt;p&gt;I has a string like so&lt;code&gt;WUMBO&lt;/code&gt; and needed to just have the fist letter capitol. Easy (or so I thought).&lt;/p&gt;
@@ -4444,7 +5597,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Animation snips
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-animation-snips/</id>
             <content type="html">
                 &lt;p&gt;cred - &lt;a href=&quot;https://thisdevbrain.com/css-floating-hearts-animation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CSS Floating hearts animation | This Dev Brain by Michal Tynior&lt;/a&gt;&lt;/p&gt;
@@ -4739,7 +5892,7 @@ body {
                 CSS Animated Bubble Background
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-animated-bubble-background/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&#39;canvas&#39;&amp;gt;
@@ -6278,7 +7431,7 @@ body {
                 CSS  practical use for before and after pseudo elements
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-practical-use-for-before-and-after-pseudo-elements/</id>
             <content type="html">
                 &lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
@@ -6294,7 +7447,7 @@ body {
                 CMS Page Builder
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/cms-page-builder/</id>
             <content type="html">
                 &lt;p&gt;I&#39;m looking for a drop in page builder I can serve to customers as a benefit to the &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KYPN/KYPN Stack&lt;/a&gt; templates I&#39;m designing. &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KeystoneJS/KeystoneJS&lt;/a&gt; has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.&lt;/p&gt;
@@ -6319,7 +7472,7 @@ body {
                 Backup Solutions
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/backup-solutions/</id>
             <content type="html">
                 &lt;p&gt;This is my chain of programs that help me backup and store data whether it&#39;s local clone, version controlled, and or remote sight backups&lt;/p&gt;
@@ -6392,7 +7545,7 @@ body {
                 Removing Samsung and Google Bloatware from Android 12
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/android/removing-samsung-and-google-bloatware-from-android-12/</id>
             <content type="html">
                 &lt;p&gt;I tried installing &lt;a href=&quot;https://lineageos.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;LineageOS&lt;/a&gt; on my Samsung Galaxy s9 and s10 phones. Unfortunately my &lt;a href=&quot;https://wiki.lineageos.org/devices/beyond1lte/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;model wasn&#39;t supported&lt;/a&gt; (just one letter off 😑).&lt;/p&gt;
@@ -6470,14 +7623,37 @@ adb shell cmd package list packages
         </entry>
         <entry>
             <title>
+                Coder Advice - Working With &#39;Idea Men&#39;
+                
+            </title>
+            <updated>2024-02-20T19:25:49Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/advice/coder-advice-working-with-idea-men/</id>
+            <content type="html">
+                &lt;p&gt;Comment inspired by ThePrimeagen video &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;I&lt;/a&gt; Just Need A Programmer &lt;/p&gt;
+&lt;p&gt;If in the case you do decide to pick up a project from people like this, give them what they&#39;re asking for: A splash page click funnel contact form website. Make it glossy and stamped with their Logo. That immediately peaks interest without having to burn hours of software building.&lt;/p&gt;
+&lt;h2 id=&quot;stage-2&quot; tabindex=&quot;-1&quot;&gt;Stage &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#2&quot;&gt;#2&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Get them to &#39;build out&#39; their data structure and features in some sort of flow chart or spreadsheet. If they can&#39;t even manage this step, they aren&#39;t really business minded people, just some kids that likes to hear themselves talk.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/_developer_box📦&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;idk what this is going to help but hope it does to someone&lt;/li&gt;
+&lt;li&gt;how about this?&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/advice/coder-advice-working-with-idea-men/" >
+        </entry>
+        <entry>
+            <title>
                 Publish Test
                 
             </title>
-            <updated>2024-02-20T19:20:37Z</updated>
+            <updated>2024-02-20T19:25:49Z</updated>
             <id>https://pywrite-garden.tawtaw.site/publish-test/</id>
             <content type="html">
                 &lt;p&gt;trying out wiki links instead&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Obisidan Digital Garden&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/digital-gardening/obisidan-digital-garden/&quot;&gt;Obisidan Digital Garden&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Test from milkywsve&lt;/p&gt;
 &lt;p&gt;A collection of all modules to see if they make it to a published sight&lt;/p&gt;
 &lt;blockquote&gt;

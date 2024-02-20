@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/discord/discord-bot-how-to-tut/","tags":["nodejs","typescript","javascript"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/discord/discord-bot-how-to-tut/","title":"Make a Discord Bot with Javascript","tags":["nodejs","typescript","javascript"],"noteIcon":""}
 ---
 
 

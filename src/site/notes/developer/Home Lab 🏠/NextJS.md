@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/next-js/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/NextJS/","noteIcon":""}
 ---
 
 #javascript #reactjs

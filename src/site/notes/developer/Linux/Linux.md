@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/linux/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Linux/","noteIcon":""}
 ---
 
 ## Debian

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/typescript/react-ts-optional-prop/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Typescript/React ts optional prop/","noteIcon":""}
 ---
 
 ```tsx

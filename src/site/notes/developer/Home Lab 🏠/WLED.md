@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/wled/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/WLED/","noteIcon":""}
 ---
 
 ## [[github.com)](github.com\|Aircoookie/WLED (github.com)]])

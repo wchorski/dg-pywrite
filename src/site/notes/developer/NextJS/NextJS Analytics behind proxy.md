@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/next-js-analytics-behind-proxy/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Analytics behind proxy/","noteIcon":""}
 ---
 
 Add blockers track for common external endpoints that track data. We can get around this by setting up a proxy in [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]] to funel the external script to an enpoint that is from our domain

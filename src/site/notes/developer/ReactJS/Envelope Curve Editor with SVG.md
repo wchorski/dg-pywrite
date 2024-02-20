@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/envelope-curve-editor-with-svg/","tags":["reactjs","nodejs"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Envelope Curve Editor with SVG/","tags":["reactjs","nodejs"],"noteIcon":""}
 ---
 
 

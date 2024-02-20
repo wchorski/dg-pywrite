@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/nextcloud/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Nextcloud/","noteIcon":""}
 ---
 
 #cloud #gmail #opensource 

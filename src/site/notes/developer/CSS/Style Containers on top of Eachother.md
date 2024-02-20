@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/style-containers-on-top-of-eachother/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Style Containers on top of Eachother/","noteIcon":""}
 ---
 
 

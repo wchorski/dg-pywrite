@@ -3,14 +3,14 @@
     <title>Pywrite Garden</title>
     <link href="https://pywrite-garden.tawtaw.site/feed.xml" rel="self" >
     <link href="https://pywrite-garden.tawtaw.site" >
-    <updated>2024-02-20T18:22:03Z</updated>
+    <updated>2024-02-20T18:23:04Z</updated>
     <id>https://pywrite-garden.tawtaw.site</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/</id>
             <content type="html">
                 &lt;p&gt;Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously &#39;watered&#39; over time, fixing, updating, and growing this database of notes.&lt;/p&gt;
@@ -50,10 +50,1677 @@
         </entry>
         <entry>
             <title>
+                vaultwarden
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;dani-garcia/vaultwarden:&lt;/a&gt; Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/dani-garcia/vaultwarden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;dani-garcia/vaultwarden: Unofficial Bitwarden&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/" >
+        </entry>
+        <entry>
+            <title>
+                umami
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/umami/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a href=&quot;https://umami.is/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Umami&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A dead simple way for self hosted analytics for all your websites&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!tip] DNS Tips&lt;br /&gt;
+It&#39;s a good idea to have a domain name to reflect the app that lives at that endpoint, But in the world of Analytics you want to avoid being block by some wildcard like &lt;code&gt;analytics*&lt;/code&gt; or &lt;code&gt;telmentary*.MYDOMAIN.site&lt;/code&gt;. So It may be wise to think of something unassuming for your domain name where &lt;strong&gt;Umami&lt;/strong&gt; will resolve too.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/umami/" >
+        </entry>
+        <entry>
+            <title>
+                portainer
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/portainer/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#docker&quot;&gt;#docker&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;a-href-https-www-portainer-io-target-blank-class-external-link-portainer-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://www.portainer.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Portainer&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Docker and Kubernetes Management. A no-code solution for spinning up containers. I usually use it to start / stop / log / shell into containers easily&lt;/p&gt;
+&lt;h2 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h2&gt;
+&lt;h3 id=&quot;developer-home-lab-docker-developer-home-lab-docker&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;./compose.yml&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;version: &amp;quot;3.2&amp;quot;
+
+services:
+  portainer:
+    image: portainer/portainer-ce:2.11.1
+    container_name: portainer
+    restart: always
+    ports:
+      - 8000:8000
+      - 9000:9000
+      - 9443:9443
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./portainer_data:/data
+
+# networks:
+#   default:
+#     external:
+#       name: nginx-prox-mgmt-3_default
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;code&gt;./upgrade.sh&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;#! /bin/bash
+echo &amp;quot;[[ upgrading portainer ]]&amp;quot;
+
+echo &amp;quot;[[ stop portainer docker ]]&amp;quot;
+sudo docker stop portainer
+
+echo &amp;quot;[[ remove old portainer docker ]]&amp;quot;
+sudo docker rm portainer
+
+echo &amp;quot;[[ sudo docker-compose u -d ]]&amp;quot;
+cd /home/&amp;lt;username&amp;gt;/docker/portainer
+
+sudo docker-compose up -d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;upgrade-a-container&quot; tabindex=&quot;-1&quot;&gt;upgrade a container&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.wundertech.net/how-to-update-a-docker-container-using-portainer/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to Update a Docker Container using Portainer - WunderTech&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=CK9blZF1lFo&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;video tutorial - WunderTech&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select &lt;strong&gt;Containers&lt;/strong&gt; http://YOUR_DOMAIN.lan:9000/#!/2/docker/containers, then press &lt;button&gt;⬜Stop&lt;/button&gt;  the container that you’d like to update.&lt;/li&gt;
+&lt;li&gt;Select into the individual container,(you&#39;ll see &lt;code&gt;Container details&lt;/code&gt; at the top of the page) and you’ll see a button named &lt;button&gt;🔄Recreate&lt;/button&gt; By selecting this button,&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!error] make sure your critical data is mapped to a volume. That means bye bye to any data only living on RAM&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Select &lt;strong&gt;Pull latest image&lt;/strong&gt; toggle, then &lt;strong&gt;Recreate&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;When this process is finished, the container will be recreated with the latest image. Select the container and &lt;strong&gt;Start&lt;/strong&gt; it. The status will change to &lt;strong&gt;running&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/portainer/" >
+        </entry>
+        <entry>
+            <title>
+                nicolargo.github.io
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nicolargo-github-io/</id>
+            <content type="html">
+                &lt;p&gt;[&amp;quot;nHbzUj1GWRpmVlUW7kvXgBui&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f02000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/nicolargo-github-io/" >
+        </entry>
+        <entry>
+            <title>
+                XMRig
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/xm-rig/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;[!info] &lt;a href=&quot;https://xmrig.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;XMRig&lt;/a&gt;&lt;br /&gt;
+High performance, open source, cross platform RandomX, KawPow, CryptoNight and GhostRider CPU/GPU miner&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I use it to mine &lt;a href=&quot;https://www.getmonero.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Monero&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;install-and-gt-build-from-source&quot; tabindex=&quot;-1&quot;&gt;install -&amp;gt; build from source&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://xmrig.com/docs/miner/build/ubuntu&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Ubuntu build - XMRig&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h2&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/xm-rig/" >
+        </entry>
+        <entry>
+            <title>
+                Wordpress
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/wordpress/</id>
+            <content type="html">
+                &lt;p&gt;[&amp;quot;i1nl1EsyT1fmDH902JGNEZXqAA09oD0bGy4gZy3mpgYR5Rvqa7faDkcd9mG6NXL7yAuD+A0MjelY5k/9yj+aI/IdeugZNwEwWIPEvWyDz0gHDsgb/wqZa5DUtUl7MxDXWKAk5V3j33sqqR9Hj+ZaEqpjbs0W7sBYypz+yC/hzDRtKtLMbt8l6oRgxePWsubovC+FAhOZBc9pnOd6tU2OzXsA9nl9Hl8gtQ2Q6od8AuLqvh7bBu3DoCUJnADD1WzHZ7dkPwgYKRON/Fj2969x3w+EGx5Dj8o+xefG7YmeT/R61CszbE8Zyh0xbixcsYFGNiits7UP7sySAulM0Uvl9aBgErlt/UOKChj7/Ycg1ogpSiuxMUiPeBrC+aKJEMVeuO5b9OvVNdBj2jByopa1MVVflzndwja89CihHoBI3rO5/99NAtrDTNhnb6uiWLXAY0S5e0gRGU4dvUDD+0TESxnYn9llXSpy7OsEBF4jn/Y0dwZDPkcw+BWUNt3Y07XFlcxeR1nsXiloSA2Zx/n+iVof3uTLGzhU5gq4M0fLYRbhm8k5rJvptHAZgUCD4prjQ1VA0NyDEW7bPUfd5m4uFhWZITSeJPtt0YJVSlwdninjkP2mKERW07z64JqCggCQzx14rK12O+1pJdmdyX8WNn0gvKGGk1q5wfXzWtg2gHqOD/P3D31o1O6W+3Tb8XJbMs55e75HNkAt3d4V8567OapohvVuZuWRsgWnWJVt9ytLH+manWVvNIBGlWw6xjdbzy0lq/9LcHOm4HyWLfSyEUNuUCs3YdhcZ9EX/GGg0sCRvzJgCWFRUDhXU0GFpE+op0gWL3AeD7yRquFL5qoqFvmQZBUaqIHIvhkpZREjPeCiYia4d1mOJnh4swHCc3kEls7VE3QP7NiIDjVT/5T8r3i9YcBxSSH8YuVcAguVQsm49+wdYaZu3i4E25SrG5zy5ocnhAz9NnFnJxwbhnDBFfwWh0tEJHZjuVMXpHIb5ZfjptfayrLRtrWnyrhQb85kvGYKtPvPUWbQulqFaXE1CpW697sWNxkTeLbSVbFme6FNdafRyNz3zlUharHYaxsP3sfye3AWRhEqKVotF156Mi75kpxZrCSqGl0qwcvfhgw9JgBAsjTg3RPAOfSF5W1EDRnmqenUMVmx6QxfWpO44lE66EQiq3KHq4HN53P9abYylMP70RGPbQTNQhhlLtw3XXyhd7d2wsXeH8Wi55v5ep/JgL2UGNwma86IUIYzas2rr9QC0Ugri5ruCsbktT0MunEfPyoEJzGnAt9xJYCYnJvSWOk+IFqvRqUm0/2FlsBQPiF7JNHgEuTk3FdTYIDKrlsOIqosKkMtr6Q4i4D4iDH57C8ZMQBExhg4V/Xh69ERYHg7X/wnNCKAfQZjSlXTdM24/Mgxk6tqIX4+3dEO2awWHUI6Fn5Wj6pxf9DctEwI0nEM3315B+IyKJQWO6vq/Xn3siFtZlU0WDgX0kmlE2bIRpjazmW2dQySX6HxKz0sjFgXEkR8Z0o1NCyOM8yK2DX3dSBDtwzFd12on+/32nPmyHG6/VLsIIiZ2vDanj4F0UxT4G9J3pXA0cW7rWR0K3lRO550T/za+LkrlE8Bgej5qUez/oh+4p9CN9BNx7fOMI47oDHJt2EY3ECmKD6pBzZBjYXcl9Bz65Z6qzZMfJi/rCHd9R/gBuhOyDiwiCZBkuII0bHBDDGQJgmcThzb1GKWBbcn72ma/uy8VTM/FQ8fgR5uVs2vmmx50cGWdLCrj+C6uIokaUx8og+P/ZJQURVagsOHCu9H/1f9Mya+hShvojiDNU7ThbolaOtTEX6DtbB3Fr7HX4YQanIyDDpI9o1OFGZwG5HCDDaTVM+qhWFErCjnD+Z5WXrSColzEZqs7cg8ib0tvrEK1BZtcZAFEFN1pHEOr48mpWmqaLbYrlxzmsBb7Wre72mcQ1NVCH+avt466jLKDao/Nqj45XhZDRm1V+78kdZjn12oKs9Q/ftNF1Wis9QnLwPLZq0OtI1yBtTLsc3sK7RpVEkp8L8jioFQJ54qzuaQI7fjQk74Jlz3NceK35awERB7g5jmKixdB8XQryIAVYb1+LMTzd4rEzaOc2elQK9BJB85kt/WZB5dUHmfVpwTZLPvQ5H5Qg+8z3I306gg6gCtcngPSIHqjf1GKZOND/bmvPWFjYvvlCxDpt4SCo2hwFHXhq8z9V1hZtklibeidv6RpzxMH1ijHsWeqn87qwvOrEVgN7S6WPDO8VC/ieIHl8OJK5o8UXjOvBOoerAXBWSPnDaroP+is/VbT09Kke6kqpRK3tKfcmWQT8bMh5eJToiDBXqeiUDfkJtY69MqOWagdHoaphsOm7Kvs782mbcIq/q9YXYZ5EhU+MfkUSgSzs18DDp4IplKSzxJUv5ETwyX3PFNFfq/LL9OAK65N14wUlQcwgb3lsJZzftozz3jvaZijVmDIer2kZkD2vAtO1V22z+aBke6vfErqTr/3dwtg9lgNj7oBJ8jPdXXUuTd41nX7tW4YmZm6lWSD6VS3GZNfct4Ifo6hmAGH6bqnQY9trpDJfMP+Y1R/Djyf3ZZ5Edae6LL+mKxoEUgx3alKB3GUpS5jkqaj+JP0Y/phB5mEA2ZjLek3owNRft8Yu1i/njYjSFXCCCENOYBXB0EhBL61dj3de7kdsJX0LQb0+wPr2j5EvvIGg9XrDH4oRVJJOYWDHjIzQuNkfWTKIgktPTM78Y8g0LowpLeYqEawOh7BNR2IaJbwthiQbU+gOr/c2jP43gmueSGPJBBlDD5GsNSnWCDx2uZLWDGgoXmykw78MjsQmtEYKfxUB1HZC5xNKQcVECheOB2Aok9TlSzu4MPy5o65D8zBRadREYmQPl31MsUIodLZYYmZZMfHaTXPvd4Te+98fX2UqPiDQyjd4hmHl/pZGpJ5HnDFCRLrrjus74WIDleizYN4TCRQ6mQ2kaKcvHhGxJkhShZBZj+sCwSBZ0qyDC7A5tjbTY=&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f08000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/wordpress/" >
+        </entry>
+        <entry>
+            <title>
+                WLED
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/wled/</id>
+            <content type="html">
+                &lt;h2 id=&quot;a-href-http-github-com-target-blank-class-external-link-github-com-a-a-href-http-github-com-target-blank-class-external-link-github-com-a-aircoookie-wled-a-href-http-github-com-target-blank-class-external-link-github-com-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Aircoookie/WLED (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;!info&lt;/a&gt;&lt;br /&gt;
+A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://install.wled.me/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Install WLED&lt;/a&gt; for wireless control of LEDs over wifi.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!warn] I had trouble during install. Something about &amp;quot;hold reset button try again&amp;quot;. I just ended up using a different windows machine and then things worked out... maybe I could have tried a different browser? Idk.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;edit-endpoint&quot; tabindex=&quot;-1&quot;&gt;Edit Endpoint&lt;/h2&gt;
+&lt;p&gt;to easily offload and load in configuration files&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;http://&amp;lt;IPADDRESS&amp;gt;/edit&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;control-over-dmx-with-jinx&quot; tabindex=&quot;-1&quot;&gt;Control over DMX with Jinx&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=K3qnVgu3Txc&amp;amp;t=10s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;DMX to WLED using jinx! - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.live-leds.de/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Jinx Install |Live-LEDs.de | LED Matrix Software &amp;amp; More&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;mac addr of new 104&lt;/strong&gt; -  7C:9E:BD:48:27:94&lt;/p&gt;
+&lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/hyperion/&quot;&gt;developer/Home Lab 🏠/Hyperion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/wled/" >
+        </entry>
+        <entry>
+            <title>
+                Thunderbird
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/thunderbird/</id>
+            <content type="html">
+                &lt;p&gt;[&amp;quot;lMAPTXiHompEXCm6XbCdgNiy3QyQvZO3HJap8ZXin90i/RGAJRFp1dm4V7Zd/spoc8vf/9p5vYsVSpuvjaah3qeLyhYVUwUHWyaCwaV0s+itfxZ4vUK4GyLMWIBBslqhgiPCpgHpOMeaJP+/PLUgYZha954qZVkrDGizBmbjmb8phOU4oKL1i6qHvnFv3Y26rg7c1J55ujqTRr8ClMSTQ2CB/qT/Jbl0HM9nJy6bacMhvAFhJ09eh0yymOHPXMaXesqjR3RX3Ikd14tAuluqiuICMAxx5jpE9ZYu6c961QAvMhp+oG36ZnEY9WilqmGB5RiCwaU4SGmPNPa0Dh7hSQIEQQRAYWGgt3/3eswRUJmPsBpoSw9M4Exa3ktEXMQ2BPxROgpYz9pnWzyWRfNOwGbSAm6tt6c4JY68bcKCnzl5r/v9mxDG72liVj7qoGASE8vow/OYe6i6Cj+e/P2T+TPlG7cposIDKE9QCacjZFB6w8RSFrwfBJ6hzyoGY3r6vEMVxfZQX0whsWhzHCoMkwOuiKIuXdmY7hHX6rX2Ef/86kS+rem4Pk2gtLWl8Mv3u5A3qMdqZkl3cNfcKYz9pfAuVso2x4PYWmIXQVXM6hxcEfjrCEaTOZZ2zEZNvrKlvtfTHKimRxOVX/7Bgwf4s+iGYNgtjPkmNrawiJZHpdq6fIBSGPMnW89jP8pIFfQUJAlF+ZevfFwDelxaRN5gXMI087rcSMAUXyM37UYMt0wrx1gTs9oKDOjxh1SD+zZUCbYRilf3zbbopbRQYaWjGbcVFfjZLsXCG87s/8oMyC/Lt5ro7jvmWiH+7aVp6+XOUdGW95/d5e9VPia9kbFX1eHB48UHlyZpEU8D0AzgCuFyb/asZ+Uxa7Qssk3UH80lhdAHPesANji1GhY+x9MiunqQZS6boyuWNmVeGLAyo4LCk5NHWNCbA4ClnDNaqb6Mb+a+62bJw6vtxlnc5pRrkAvSwjStT/BgB+gz82McjJF4/g13zqIHxaPLOvHpwWEiGVqi/lMEI4qvAwlI2mqql03hz1rNrKiu0KS8mHDhTp4f8T4fzD59j+clEKKazmsprzWzZ+Pjfj539K1Z1pwQsy0GcrALpuNnDInb4lNQuYcGYx4hTq7acfkmIl1lkD8q6gCq5KBDB8SFdqEAlhR6drSXRrRgtBXdNYaScK/JhHhnUPHJJceHu/jRS0NOpx9XIqBW3UmKJ7YdWiKRbCAKhrxa91wc+KhKVZBsnHh8jPuyPn6otCldqaGrtqFmkzmo8bYe08PgjcHy61Pjr/I2ax3q6u20Y3RPHDBOPnhxC9DLjfroi+3UAy0thVe27jt84aR3vbnTXBq7d9ghX3691Rhmwu8KmovtFiEeS8Nne/qeKjjo2BAWsGRPxcFPYQZSEb8/WiPezg8vu1Tm9wYnEWiFmDLayKUg5XSQ8r6Y7PxdM8cxQiCWjtqwiRr38yR5NXn1oaB9AsbA/es1sh3/yHoHgf9lmWPNxUBsbM9UDKMOwYtF6noXlge23OFMH2GEWlJo9Pc3aL1YH2yHGqbrSgq7mC7QGWTpv8YxdSqk4TBFR/0ydv+tG/RrQWIWi96oPdJB6sw8HLR9WYWhxI6lFbnd9r8xZuHqb6HZmEGX0GXN8A5Wskzq5suHj7SONIMcWC0hEfO574SufArUM62fsaGQUdVWowEH1rr7TWj/YKOzOI5D1PuA1ojTAvOq9dae5oBWhXFRFSQsiAOp0lJf6MhqxFyAJQZ7q223HqtPIV9oPPvpOH6FBdJmPUgTPHmYa2+iuLyGiAEY/SpazOaVDjiIO9szFg/CqaRvpvubb5/PqfKfzMHev+my77hMjOIKhhdQc8Rg1MI2KSP7iGn1eIZiZp9vkIw2g+tb7MaWzTRX8RHUfkSmJAETVeLNvN+RggvKQJGPvvPYgUUY2OsrbElopqkNgE13D7WzOPtlH9TBwVpW6ZzTV/mtwk/ofi3AxEhRZj6GHSPVmkeTRh+Uteu1379r7vIRt2Igt+bz3qv4MST+au2p2CPf+fbRrgXih85mlalsXcWVHJ1gktkZtAV4Ls8jig51X0lpCczQTYOZZ2WcaTF5ipnwlTaJFSuJq7E2NVgcSocgxnwecu4H+5vz8F5nbboW/+6HS8LjqfR18gcxgdWMHx0tpyFwDLuI5sva5HRgxGk2XzZkxzm+zBs7unZP7AmSjOpuTnElj/iwyz4CaZEe1w5hmdOFDcuue91M9r9+/CEAIlh+CIMzuqrkuvW1FHnAoav0yr6QH2mAb+CXGf2IJB1Dlv7pvYfw+vwKgSSJQ+uMsyQrpCvCT0iGBEwyoKLC6ji30WZv3LI/PEqo5Fy4Q1odx6kVacO5HAvcvz6V8ECERvGeF+CWkt59yPPnOeUS0XVcMVOEHuhy99lBrEJaAIcY3L19ZWqyY6vcoq8WHE36HX2GI3qaDDvxYAOFFgrKotxHI/KC1exfftMgCFLPGIZiq5W7YwksjAVNR3vXDPM/2VFg1qx9X4iUivavsRTkxY3WDfzQJfUdPvGtg+Br2Gy6DDg5eiaFxXHIJF/UmraM0qyrUt/cldLZkOyPQEYPoAfW/RmKapzYcQ/x6FN1Ty+9UxFMQ+DcDu4ArnqIGDJYbPALq3bsqmZN/w/y3nAOOcZdMQ17DyA+z7Rd7jm0MVs+YErWhRMIF8M0Fpwz7TwUsKQxX+oOylmHSD9Pih9RXPmUB8LH8Fy029kGqYdwzWSdcImcGwZSgaLhR1stJWTG1MtNVkRJ/BqEynSM9FXJA8MSSdXgP7tMDHcfBOpmfeiV1I7sMdtQWTl7woPkApPVIJAXU9Ut9T15aCW1xARESGsc+gmhfArNtvSwcZqLFJnpesebEdyb8NAFY9VQYRjSMrvwznej5yWGfQLE+vJvr3pLAO/ECTwnhFrAaRxsWuEhfOlFMcGuubzkVMA9EYKzybrXGByw4OANavzt8em/cX9h+TLuBnD/RvWdPRQcE68+3y6mldoWBBt4Q8bPyRRqRFil6XlJ5vvly3GyDGrpJJ0nMemnvUXHKPB20Xu0JSIC6i1ljxX8fpDmvvOlcdMcz1EzGaBPmUpbyfWYXG9NZ8AXCUB5CmOZ&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f07000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/thunderbird/" >
+        </entry>
+        <entry>
+            <title>
+                SFTP
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/sftp/</id>
+            <content type="html">
+                &lt;p&gt;[&amp;quot;LjAgy6pFTIBUizMdhVStOU8Y3uqq3U3w8++Y/7oBLMEMlVtldQjD9n3Rd7TEk3YMAGXLe52VdFpX0UYNsXj77sPXoNwH9EemuTJRmeP++UgP/tV7sB2MYM1FzUjBYUqgM/ecGbHEGAhZIh5O9lhgn/87q1uZDLcqtmyv8kPQFxkScwrxiNe9nQhhK+wFs4yqZ+fykFIyTjcp68WbcB+nFjaKYmrMHqhrAPVlZMszUrWdUjpnsJpZa9aYbqG8TAqeow/hicVMhuAY/nMXl0p+1jZSXJWcW5A915ysay14VQEuTdLIqwTlKXDyZk8zSIN8r6DYCRkYlWo1nL7ojTd3TqSJFUvkPLrDot8pagNqdqlHF4VBOlwKN1arh7nvu1Qfym3LuT0WleZIuKM3SWRaejHmgnI9B9POFIsG5yo6owtoS0r3KrZ2WBmYIvjQyCHScDA8lLekfIKfgcX2k+wzbq6G+QSK75QfHk1825Lkyt4/5zs0HF2mMCsec9sgxle/COfvZLsTV+BltwiTjRIZ0q7UWh/Kz7gvBIAXAb8TKOn9VI4mR7/2IK8ycC1W7U13Sl6Hu+R7sp74ktrg1sCBRh+zJBkmEybo2OQIK/RXgkMivePOWMNfDKnSaz9CgwDTBK2smOqZ1kVHz0vHYC3S5l22Yqs47R/jE9gL4bceRU+BdyJDCAD9+SUd9JoItKBzsWJfKBiTpsnV0lWwM7lL/x7LT1YD8olu8vYfd9rQlZjswbigrAusm+C+IyKzzkEHlClzlDm0Apoytl2eIWcfdY52gvT49rwDZjSNTzEXU1bXSHnTgwfNabCvO2fIXelAkjzLnq3qftFRvDNqlRYXgYs9sEoCReG18qEZPldSb6ba/JGnLRC4eMsMu9cvRXBuWdGQORek9KbBN6XPja/Zvjk7M7flYDKWJrwjh/KF/XCwZsXI33xjTgnh6YKQGVJ7RBpp20ycxiBw4O+I/o0f+jkTSalDSzLIz81M/Si2g8QhPUpp3JNP6x4IweBXR66hHI5ZxwpUY/0KReVF+3ZV1qvAtaWFagU3fkbwecy3TO5hhv88hPi+xSYWDiNjSFo5B9CyKO7lUrH9w1syAKQq2PUdvrQHRDXDGVi/lYwQ5MUuVbLHtPKbLqZXjy8m/AMG2/yiE2gCUV4vClJsxTkfuuT9uQ==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f06000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/sftp/" >
+        </entry>
+        <entry>
+            <title>
+                SAMBA
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/samba/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;[!info] [Samba - opening windows to a wider world](&lt;a href=&quot;https://www.samba.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.samba.org&lt;/a&gt;&lt;br /&gt;
+Since &lt;a href=&quot;https://www.samba.org/samba/docs/10years.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;1992&lt;/a&gt;, Samba has provided secure, stable and fast file and print services for all clients using the SMB/CIFS protocol, such as all versions of DOS and Windows, OS/2, Linux and many others.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;commands&quot; tabindex=&quot;-1&quot;&gt;Commands&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/samba/smb.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect&lt;/a&gt; to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/samba/" >
+        </entry>
+        <entry>
+            <title>
+                Pretty URLs for Your Internal Network
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pretty-ur-ls-for-your-internal-network/</id>
+            <content type="html">
+                &lt;h2 id=&quot;tools&quot; tabindex=&quot;-1&quot;&gt;Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;How&lt;/a&gt; to Create Custom Domains with PiHole and NGINX Proxy Manager – LTM Tech (&lt;a href=&quot;http://ltm56.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ltm56.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/pretty-ur-ls-for-your-internal-network/" >
+        </entry>
+        <entry>
+            <title>
+                Plex.tv
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#music&quot;&gt;#music&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#movie&quot;&gt;#movie&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tv&quot;&gt;#tv&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#film&quot;&gt;#film&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#media&quot;&gt;#media&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#player&quot;&gt;#player&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!info] &lt;a href=&quot;https://www.plex.tv/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Plex&lt;/a&gt;&lt;br /&gt;
+Stream Movies &amp;amp; TV Shows.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Why do I use this for movies when I have &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/&quot;&gt;developer/Home Lab 🏠/Jellyfin&lt;/a&gt;? Because movie playback seems more stable, it&#39;s easy to share libraries, and I don&#39;t watch movies on mobile&lt;/p&gt;
+&lt;h2 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;the repo we&#39;ll be using -&amp;gt; &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;plexinc/pms-docker: Plex Media Server Docker repo, for all your PMS docker needs. (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;get token from &lt;a href=&quot;https://www.plex.tv/claim/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Claim | Plex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./compose.yml&lt;/code&gt; via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;version: &#39;2&#39;
+services:
+  plex:
+    container_name: plex-pms
+    image: plexinc/pms-docker
+    restart: unless-stopped
+    ports:
+      - 32400:32400/tcp
+      - 3005:3005/tcp
+      - 8324:8324/tcp
+      - 32469:32469/tcp
+      - 1900:1900/udp
+      - 32410:32410/udp
+      - 32412:32412/udp
+      - 32413:32413/udp
+      - 32414:32414/udp
+    environment:
+      - TZ=America/Chicago
+      - PLEX_CLAIM=claim-&amp;lt;claim_Token&amp;gt;
+      - ADVERTISE_IP=http://&amp;lt;yourDomain_or_IP&amp;gt;:32400/
+    hostname: FireMedia
+
+    volumes:
+      - ./config:/config
+      - ./transcodes:/transcode
+      - /mnt/&amp;lt;externalDrive&amp;gt;/plex/media:/firemedia &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#unique&quot;&gt;#unique&lt;/a&gt; name for inside the container
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/" >
+        </entry>
+        <entry>
+            <title>
+                PiVPN
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pi-vpn/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;[!info] &lt;a href=&quot;https://pivpn.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PIVPN: Simplest way to setup a VPN&lt;/a&gt;&lt;br /&gt;
+The simplest way to setup and manage a VPN,&lt;br /&gt;
+designed for Raspberry Pi™.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;install&quot; tabindex=&quot;-1&quot;&gt;install&lt;/h2&gt;
+&lt;p&gt;It is recommended to install &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt; first as it automates &lt;strong&gt;DNS&lt;/strong&gt; routing upon installing &lt;strong&gt;PiVPN&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!important ]&lt;br /&gt;
+don&#39;t forget to set boot option to wait for network (i.e. &lt;code&gt;raspi-config&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;updating&quot; tabindex=&quot;-1&quot;&gt;updating&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://docs.pivpn.io/install/#update&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;run pivpn update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;VPN protocols are updated via system package manager&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!Note]&lt;br /&gt;
+Read &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://docs.pivpn.io/openvpn/#updating-openvpn&lt;/a&gt; or &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://docs.pivpn.io/wireguard/#updating-wireguard&lt;/a&gt; for information on how to update the VPN protocol.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;backup&quot; tabindex=&quot;-1&quot;&gt;backup&lt;/h2&gt;
+&lt;p&gt;also a backup of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;#! /bin/bash
+
+DATE=`date +%Y-%m-%d`
+
+echo &#39;======================&#39; &amp;gt; backup.log
+echo $DATE &amp;gt;&amp;gt; backup.log
+
+
+if pihole -a -t&#92;
+&amp;amp;&amp;amp; mv /home/pi4/scripts/backup/pi-hole-rpi-teleporter* /home/pi4/scripts/backup/pihole&#92;
+; then
+        echo &#39;pihole SUCCESS&#39; &amp;gt;&amp;gt; backup.log
+else
+        echo &#39;pihole failed&#39; &amp;gt;&amp;gt; backup.log
+fi
+
+
+if pivpn -bk&#92;
+&amp;amp;&amp;amp; sudo mv /home/pi4/pivpnbackup/* /home/pi4/scripts/backup/pivpn&#92;
+; then
+        echo &#39;pivpn SUCCESS&#39; &amp;gt;&amp;gt; backup.log
+else
+        echo &#39;pivpn failed&#39; &amp;gt;&amp;gt; backup.log
+fi
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;migrating-pi-vpn-and-amp-wireguard&quot; tabindex=&quot;-1&quot;&gt;Migrating PiVPN &amp;amp; Wireguard&lt;/h2&gt;
+&lt;p&gt;Backup your server with &lt;code&gt;pivpn -bk&lt;/code&gt; copy the tar archive to your computer. example using scp on Linux:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;scp &amp;lt;user&amp;gt;@&amp;lt;server&amp;gt;:~/pivpnbackup/&amp;lt;archivename&amp;gt; &amp;lt;path/on/local&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Backup the current (new instance) install: &lt;code&gt;sudo cp -r /etc/wireguard /etc/new_wireguard_backup&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Extract the backup archive: &lt;code&gt;tar xzpfv &amp;lt;archive name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy the extracted content: &lt;code&gt;sudo cp -r etc/wireguard /etc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Restart the wireguard service: &lt;code&gt;sudo systemctl restart wg-quick@wg0&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;tunnels-connecting-but-no-internet-after-reinstall&quot; tabindex=&quot;-1&quot;&gt;tunnels connecting but no internet after reinstall&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo cat /etc/wireguard/wg0.conf&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;sudo iptables -t nat -A POSTROUTING -s &amp;lt;FIRST_IP_IN_CONF&amp;gt;/&amp;lt;#&amp;gt; -o eth0 -j MASQUERADE&lt;/code&gt;&lt;br /&gt;
+then turn off and on the tunnel&lt;/p&gt;
+&lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Running on &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Hardware/Pi4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;paired with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt; for ad blocking on the go&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;no-internet-browsing-when-connected&quot; tabindex=&quot;-1&quot;&gt;No internet browsing when connected&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;# debug help
+pivpn -d 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;::::		Self check		 ::::
+:: [OK] IP forwarding is enabled
+:: [OK] Ufw is enabled
+:: [ERR] Iptables MASQUERADE rule is not set, attempt fix now? [Y/n] Y
+Firewall reloaded
+Done
+:: [OK] Ufw input rule set
+:: [ERR] Ufw forwarding rule is not set, attempt fix now? [Y/n] Y
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;citations&quot; tabindex=&quot;-1&quot;&gt;Citations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.pivpn.io/wireguard/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Wireguard - docs.pivpn.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;PiVPN&lt;/a&gt; not working properly : raspberry_pi (&lt;a href=&quot;http://reddit.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;reddit.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.pi-hole.net/guides/vpn/wireguard/internal/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Make local devices accessible - Pi-hole documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/pi-vpn/" >
+        </entry>
+        <entry>
+            <title>
+                Pi-hole
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;[!info] &lt;a href=&quot;https://pi-hole.net/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Pi-hole – Network-wide protection&lt;/a&gt;&lt;br /&gt;
+Network-wide Ad Blocking&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;install&quot; tabindex=&quot;-1&quot;&gt;install&lt;/h2&gt;
+&lt;p&gt;thanks to &lt;a href=&quot;https://www.patreon.com/CraftComputing&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Craft Computing&lt;/a&gt; for putting together a easy to follow tutorial for setting up Pi-hole with Unbound DNS for extra privacy&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=FnFtWsZ8IP0&amp;amp;t=551s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;You&#39;re running Pi-Hole wrong! Setting up your own Recursive DNS Server! - YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!important ]&lt;br /&gt;
+don&#39;t forget to set boot option to wait for network (i.e. &lt;code&gt;raspi-config&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;update-script-with-logging&quot; tabindex=&quot;-1&quot;&gt;Update script with Logging&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;#! /bin/bash
+
+DATE=`date +%Y-%m-%d`
+LOG=&amp;quot;./update.log&amp;quot;
+echo $DATE &amp;gt; $LOG
+
+echo &amp;quot;[ pihole -up ]&amp;quot; &amp;gt;&amp;gt; $LOG
+pihole -up         &amp;gt;&amp;gt; $LOG
+echo &amp;quot;=============&amp;quot; &amp;gt;&amp;gt; $LOG
+
+echo &amp;quot;[ apt update ]&amp;quot; &amp;gt;&amp;gt; $LOG
+apt-get update      &amp;gt;&amp;gt; $LOG
+echo &amp;quot;============&amp;quot; &amp;gt;&amp;gt; $LOG
+
+echo &amp;quot;[ apt upgrade ]&amp;quot; &amp;gt;&amp;gt; $LOG
+apt-get upgrade -y  &amp;gt;&amp;gt; $LOG
+echo &amp;quot;============&amp;quot; &amp;gt;&amp;gt; $LOG
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;backup&quot; tabindex=&quot;-1&quot;&gt;backup&lt;/h2&gt;
+&lt;p&gt;also a backup of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-vpn/&quot;&gt;developer/Home Lab 🏠/PiVPN&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;#! /bin/bash
+
+DATE=`date +%Y-%m-%d`
+
+echo &#39;======================&#39; &amp;gt; backup.log
+echo $DATE &amp;gt;&amp;gt; backup.log
+
+
+if pihole -a -t&#92;
+&amp;amp;&amp;amp; mv /home/pi4/scripts/backup/pi-hole-rpi-teleporter* /home/pi4/scripts/backup/pihole&#92;
+; then
+        echo &#39;pihole SUCCESS&#39; &amp;gt;&amp;gt; backup.log
+else
+        echo &#39;pihole failed&#39; &amp;gt;&amp;gt; backup.log
+fi
+
+
+if pivpn -bk&#92;
+&amp;amp;&amp;amp; sudo mv /home/pi4/pivpnbackup/* /home/pi4/scripts/backup/pivpn&#92;
+; then
+        echo &#39;pivpn SUCCESS&#39; &amp;gt;&amp;gt; backup.log
+else
+        echo &#39;pivpn failed&#39; &amp;gt;&amp;gt; backup.log
+fi
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;resolve-dns-for-the-raspberry-pi&quot; tabindex=&quot;-1&quot;&gt;Resolve DNS for the Raspberry PI&lt;/h2&gt;
+&lt;p&gt;Try to ssh into Raspberry Pi (or whatever you host &lt;strong&gt;Pi-Hole&lt;/strong&gt; on) and try to ping any local DNS entries (that you would have set up in &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;PiVPN&lt;/a&gt;). These are not reachable because the Pi itself is not resolving to the local domain name service because it is higher up the stream. We can manually tell the pi to resolve itself (assuming Pi-hole and PiVPN are running on the same machine).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo nano /etc/dhcpcd.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;find the line and add &lt;code&gt;127.0.0.1&lt;/code&gt; and save.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;static domain_name_servers=127.0.0.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo service dhcpcd restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pimylifeup.com/raspberry-pi-dns-settings/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Raspberry Pi DNS Settings: How to Change the DNS - Pi My Life Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discourse.pi-hole.net/t/pi-holes-host-machine-cant-resolve-local-domains/48008&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Pi-hole&#39;s host machine can&#39;t resolve local domains - Help / Community Help - Pi-hole Userspace&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/" >
+        </entry>
+        <entry>
+            <title>
+                PhotoPrism
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/photo-prism/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#pictures&quot;&gt;#pictures&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhosted&quot;&gt;#selfhosted&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!quote] &lt;a href=&quot;https://photoprism.app/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PhotoPrism&lt;/a&gt;&lt;br /&gt;
+Browse Your Life in Pictures&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;An open source, self hosted solution for services like &lt;a href=&quot;https://www.icloud.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;iCloud&lt;/a&gt; | &lt;a href=&quot;https://photos.google.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Google Photos&lt;/a&gt;. don&#39;t be afraid of the &lt;code&gt;compose.yml&lt;/code&gt;. You&#39;ll only need to change&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;passwordForAppLogin&amp;gt;&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;strongpassword&amp;gt;&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PHOTOPRISM_SITE_URL&lt;/code&gt;  -&amp;gt; the local IP will be fine, as I use a reverse proxy to point app outward&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;localStorage&amp;gt;&lt;/code&gt; -&amp;gt; I grab photos from Nextcloud, but you can point the volume to whatever local storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h2&gt;
+&lt;h2 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;compose.yml&lt;/code&gt; via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;version: &#39;3.5&#39;
+
+
+  photoprism:
+    ## Use photoprism/photoprism:preview for testing preview builds:
+    image: photoprism/photoprism:latest
+    restart: unless-stopped
+    depends_on:
+      - mariadb
+    ## Only enable automatic restarts once your installation is properly
+    ## configured as it otherwise may get stuck in a restart loop,
+    ## see https://docs.photoprism.org/getting-started/faq/#why-is-photoprism-getting-stuck-in-a-restart-loop
+    # restart: unless-stopped
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+    ## Run as a specific, non-root user (see https://docs.docker.com/engine/reference/run/#user):
+    # user: &amp;quot;1000:1000&amp;quot;
+    ports:
+      - &amp;quot;2343:2343&amp;quot; # HTTP port (host:container)
+    environment:
+      PHOTOPRISM_ADMIN_PASSWORD: &amp;lt;passwordForAppLogin&amp;gt;          # PLEASE CHANGE: Your initial admin password (min 4 characters)
+      PHOTOPRISM_SITE_URL: &amp;quot;http://192.168.0.100&amp;quot;  # Public server URL incl http:// or https:// and /path, :port is optional
+      PHOTOPRISM_ORIGINALS_LIMIT: 5000               # File size limit for originals in MB (increase for high-res video)
+      PHOTOPRISM_HTTP_COMPRESSION: &amp;quot;gzip&amp;quot;            # Improves transfer speed and bandwidth utilization (none or gzip)
+      PHOTOPRISM_HTTP_PORT: &amp;quot;2343&amp;quot;
+      PHOTOPRISM_DEBUG: &amp;quot;false&amp;quot;                      # Run in debug mode (shows additional log messages)
+      PHOTOPRISM_PUBLIC: &amp;quot;false&amp;quot;                     # No authentication required (disables password protection)
+      PHOTOPRISM_READONLY: &amp;quot;false&amp;quot;                   # Don&#39;t modify originals directory (reduced functionality)
+      PHOTOPRISM_EXPERIMENTAL: &amp;quot;false&amp;quot;               # Enables experimental features
+      PHOTOPRISM_DISABLE_CHOWN: &amp;quot;false&amp;quot;              # Disables storage permission updates on startup
+      PHOTOPRISM_DISABLE_WEBDAV: &amp;quot;false&amp;quot;             # Disables built-in WebDAV server
+      PHOTOPRISM_DISABLE_SETTINGS: &amp;quot;false&amp;quot;           # Disables Settings in Web UI
+      PHOTOPRISM_DISABLE_TENSORFLOW: &amp;quot;false&amp;quot;         # Disables all features depending on TensorFlow
+      PHOTOPRISM_DISABLE_FACES: &amp;quot;false&amp;quot;              # Disables facial recognition
+      PHOTOPRISM_DISABLE_CLASSIFICATION: &amp;quot;false&amp;quot;     # Disables image classification
+      PHOTOPRISM_DARKTABLE_PRESETS: &amp;quot;false&amp;quot;          # Enables Darktable presets and disables concurrent RAW conversion
+      PHOTOPRISM_DETECT_NSFW: &amp;quot;false&amp;quot;                # Flag photos as private that MAY be offensive (requires TensorFlow)
+      PHOTOPRISM_UPLOAD_NSFW: &amp;quot;true&amp;quot;                 # Allow uploads that MAY be offensive
+      # PHOTOPRISM_DATABASE_DRIVER: &amp;quot;sqlite&amp;quot;         # SQLite is an embedded database that doesn&#39;t require a server
+      PHOTOPRISM_DATABASE_DRIVER: &amp;quot;mysql&amp;quot;            # Use MariaDB 10.5+ or MySQL 8+ instead of SQLite for improved performance
+      PHOTOPRISM_DATABASE_SERVER: &amp;quot;mariadb:3306&amp;quot;     # MariaDB or MySQL database server (hostname:port)
+      PHOTOPRISM_DATABASE_NAME: &amp;quot;photoprism&amp;quot;         # MariaDB or MySQL database schema name
+      PHOTOPRISM_DATABASE_USER: &amp;quot;photoprism&amp;quot;         # MariaDB or MySQL database user name
+      PHOTOPRISM_DATABASE_PASSWORD: &amp;quot;&amp;lt;strongpassword&amp;gt;&amp;quot;       # MariaDB or MySQL database user password
+      PHOTOPRISM_SITE_TITLE: &amp;quot;PhotoPrism | &amp;lt;username&amp;gt;&amp;quot;
+      PHOTOPRISM_SITE_CAPTION: &amp;quot;Finally Getting Around to all those pictures&amp;quot;
+      PHOTOPRISM_SITE_DESCRIPTION: &amp;quot;&amp;quot;
+      PHOTOPRISM_SITE_AUTHOR: &amp;quot;&amp;lt;username&amp;gt;&amp;quot;
+      ## Set a non-root user, group, or custom umask if your Docker environment doesn&#39;t support this natively:
+      # PHOTOPRISM_UID: 1000
+      # PHOTOPRISM_GID: 1000
+      # PHOTOPRISM_UMASK: 0000
+      ## Enable TensorFlow AVX2 support for modern Intel CPUs (requires starting the container as root):
+      # PHOTOPRISM_INIT: &amp;quot;tensorflow-amd64-avx2&amp;quot;
+      ## Hardware video transcoding config (optional):
+      # PHOTOPRISM_FFMPEG_BUFFERS: &amp;quot;64&amp;quot;              # FFmpeg capture buffers (default: 32)
+      # PHOTOPRISM_FFMPEG_BITRATE: &amp;quot;32&amp;quot;              # FFmpeg encoding bitrate limit in Mbit/s (default: 50)
+      # PHOTOPRISM_FFMPEG_ENCODER: &amp;quot;h264_v4l2m2m&amp;quot;    # Use Video4Linux for AVC transcoding (default: libx264)
+      # PHOTOPRISM_FFMPEG_ENCODER: &amp;quot;h264_qsv&amp;quot;        # Use Intel Quick Sync Video for AVC transcoding (default: libx264)
+      # PHOTOPRISM_INIT: &amp;quot;intel-graphics tensorflow-amd64-avx2&amp;quot; # Enable TensorFlow AVX2 &amp;amp; Intel Graphics support
+      HOME: &amp;quot;/photoprism&amp;quot;
+    ## Hardware devices for video transcoding and machine learning (optional):
+    # devices:
+    #  - &amp;quot;/dev/video11:/dev/video11&amp;quot; # Video4Linux (h264_v4l2m2m)
+    #  - &amp;quot;/dev/dri/renderD128:/dev/dri/renderD128&amp;quot; # Intel GPU
+    #  - &amp;quot;/dev/dri/card0:/dev/dri/card0&amp;quot;
+    working_dir: &amp;quot;/photoprism&amp;quot;
+    volumes:
+      ## The *originals* folder contains your original photo and video files (- &amp;quot;[host folder]:/photoprism/originals&amp;quot;):
+      - &amp;quot;/mnt/uasis5/nextcloud/data/&amp;lt;localStorage&amp;gt;/files/pictures:/photoprism/originals&amp;quot;
+      ## Multiple folders can be made accessible by mounting them as subfolders of /photoprism/originals:
+      # - &amp;quot;/mnt/Family:/photoprism/originals/Family&amp;quot;    # [folder 1]:/photoprism/originals/[folder 1]
+      # - &amp;quot;/mnt/Friends:/photoprism/originals/Friends&amp;quot;  # [folder 2]:/photoprism/originals/[folder 2]
+      ## You may mount an *import* folder from which files can be transferred to *originals* (optional):
+      # - &amp;quot;~/Import:/photoprism/import&amp;quot;
+      ## Cache, session, thumbnail, and sidecar files will be created in the *storage* folder (never remove):
+      - &amp;quot;/mnt/uasis5/nextcloud/data/&amp;lt;localStorage&amp;gt;/files/.photoprism/storage:/photoprism/storage&amp;quot;
+## Database Server (recommended)
+  ## see https://docs.photoprism.org/getting-started/faq/#should-i-use-sqlite-mariadb-or-mysql
+  mariadb:
+    restart: unless-stopped
+    image: mariadb:10.6
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+    command: mysqld --transaction-isolation=READ-COMMITTED --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --max-connections=512 --innodb-rollback-on-timeout=OFF --innodb-lock-wait-timeout=120
+    volumes:
+      - &amp;quot;/home/icicle/docker/photoprism/iMomma/db:/database&amp;quot; # Never remove
+    environment:
+      MYSQL_ROOT_PASSWORD: &amp;lt;strongpassword&amp;gt;
+      MYSQL_DATABASE: photoprism
+      MYSQL_USER: photoprism
+      MYSQL_PASSWORD: &amp;lt;passwordExtrastrenth&amp;gt;
+      
+## Watchtower upgrades services automatically (optional)
+  ## see https://docs.photoprism.org/getting-started/updates/#watchtower
+  #
+  # watchtower:
+  #   restart: unless-stopped
+  #   image: containrrr/watchtower
+  #   environment:
+  #     WATCHTOWER_CLEANUP: &amp;quot;true&amp;quot;
+  #     WATCHTOWER_POLL_INTERVAL: 7200 # Checks for updates every two hours
+  #   volumes:
+  #     - &amp;quot;/var/run/docker.sock:/var/run/docker.sock&amp;quot;
+  #     - &amp;quot;~/.docker/config.json:/config.json&amp;quot; # Optional, for authentication if you have a Docker Hub account
+networks:
+  default:
+    external:
+      name: nginx-prox-mgmt-3_default
+
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/photo-prism/" >
+        </entry>
+        <entry>
+            <title>
+                OpenRGB
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/open-rgb/</id>
+            <content type="html">
+                &lt;h2 id=&quot;install&quot; tabindex=&quot;-1&quot;&gt;Install&lt;/h2&gt;
+&lt;p&gt;I run Mint 21 Venessa (aka Ubuntu Jammy). So installing &lt;strong&gt;OpenRGB&lt;/strong&gt; wasn&#39;t as strait forward as &lt;code&gt;sudo apt install openrgb&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://itsubuntu.com/install-openrgb-on-ubuntu-22-04-20-04-lts/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How To Install OpenRGB On Ubuntu 22.04 | 20.04 LTS | Itsubuntu.com&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;
+sudo add-apt-repository ppa:thopiekar/openrgb
+
+sudo apt update -y
+
+sudo apt install openrgb -y
+
+openrgb --version
+
+sudo apt autoremove openrgb --purge
+sudo add-apt-repository --remove ppa:thopiekar/openrgb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;Backlinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/open-rgb/" >
+        </entry>
+        <entry>
+            <title>
+                OnlyOffice
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/only-office/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#FOSS&quot;&gt;#FOSS&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#office&quot;&gt;#office&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#edit&quot;&gt;#edit&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#powerpoint&quot;&gt;#powerpoint&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#word&quot;&gt;#word&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#excel&quot;&gt;#excel&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;a-href-https-www-onlyoffice-com-target-blank-class-external-link-onlyoffice-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://www.onlyoffice.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ONLYOFFICE&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Run your private office with the ONLYOFFICE&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I needed a simple doc, spreadsheet, and slides. I&#39;ve tried &lt;a href=&quot;https://www.openoffice.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Apache OpenOffice&lt;/a&gt; and &lt;a href=&quot;https://www.libreoffice.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;LibreOffice&lt;/a&gt;&lt;br /&gt;
+but wasn&#39;t satisfied. &lt;strong&gt;OnlyOffice&lt;/strong&gt; has some great features and compatibility right out of the box. Also it&#39;s one of the sexiest lookinzg free office suits.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I keep all docs in my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt; instance to have them always accessible and synced between devices&lt;/li&gt;
+&lt;li&gt;might later look into hosting a server and hook into &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt; for cloud side editing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;extras&quot; tabindex=&quot;-1&quot;&gt;extras&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;backlinks&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/only-office/" >
+        </entry>
+        <entry>
+            <title>
+                Obsidian.md
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-md/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#notes&quot;&gt;#notes&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#markdown&quot;&gt;#markdown&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;a-href-https-obsidian-md-target-blank-class-external-link-https-obsidian-md-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://obsidian.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://obsidian.md/&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;a note taking app for people who are obsessed with Markdown&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&#39;ve dabbled in blogging / tutorial making, but was always bogged down with the speed of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/wordpress/&quot;&gt;developer/Home Lab 🏠/Wordpress&lt;/a&gt;. with &lt;strong&gt;Obsidian&lt;/strong&gt; I get&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the speed of a local text editor,&lt;/li&gt;
+&lt;li&gt;extensibility of an &lt;a href=&quot;https://social.technet.microsoft.com/wiki/contents/articles/29057.the-small-basic-environment-ide.aspx&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;IDE&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;simplicity that &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Markdown&lt;/a&gt; offers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Plus I can use it for client tracking, tutorial making, and idea generation. I&#39;d recommend anybody that knows more than 5 keyboard shortcuts to ditch whatever blogging tool they currently use &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;🚿 shower thoughts/In Flavor&lt;/a&gt; of &lt;strong&gt;Obsidian&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;easily convert and publish with &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/tutorials/Obsidian-Zola&lt;/a&gt; or &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/tutorials/Quartz-w_Boswell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Live Sync instances with &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Obsidian-Livesync&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://obsidian.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://obsidian.md/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux Users&lt;/strong&gt; - I got it off &lt;a href=&quot;https://www.flatpak.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Flatpak&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!warning] Android 10 Users&lt;br /&gt;
+&lt;a href=&quot;https://forum.obsidian.md/t/bug-cant-write-to-sd-card-external-storage/20694/11?u=wchorski&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Android Can&#39;t write to SD Card Fix&lt;/a&gt;&lt;br /&gt;
+To utilize storage on an SD card you have to save it in a specific spot &lt;code&gt;/SD_CARD/Android/data/md.obsidian/VAULT_HERE&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;plugins-i-use&quot; tabindex=&quot;-1&quot;&gt;Plugins I use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;vrtmrz/obsidian-livesync (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;explained in detail &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Obsidian-Livesync&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pjeby/quick-explorer&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;pjeby/quick-explorer&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Perform file explorer operations (and see your current file path) from the &lt;a href=&quot;http://obsidian.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian.md&lt;/a&gt; title bar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/deathau/cm-editor-syntax-highlight-obsidian&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;deathau/cm-editor-syntax-highlight-obsidian&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;allows syntax highlighting for code blocks in the editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/timhor/obsidian-editor-shortcuts&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;timhor/obsidian-editor-shortcuts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;keyboard shortcuts commonly found in code editors such as Visual Studio Code (vscode) or Sublime Text&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/delashum/obsidian-checklist-plugin&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;delashum/obsidian-checklist-plugin&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;create checklists from tags, organize inside any file, and display master list in a side panel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/blacksmithgu/obsidian-dataview&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;blacksmithgu/obsidian-dataview&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Make dynamically filtered tables &amp;amp; graphs for dashboards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tgrosinger/advanced-tables-obsidian&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;tgrosinger/advanced-tables-obsidian&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved table navigation, formatting, and manipulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;custom-css-via-snippets&quot; tabindex=&quot;-1&quot;&gt;Custom CSS via Snippets&lt;/h2&gt;
+&lt;h2 id=&quot;graph-view-customization&quot; tabindex=&quot;-1&quot;&gt;Graph View Customization&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;group colors&lt;/li&gt;
+&lt;li&gt;exclude directories / files&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;how-i-keep-up-on-clients&quot; tabindex=&quot;-1&quot;&gt;How I Keep up on Clients&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;metadata&lt;/li&gt;
+&lt;li&gt;tut on dataviews and tables&lt;/li&gt;
+&lt;li&gt;how I organize via directories&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;publish-vault&quot; tabindex=&quot;-1&quot;&gt;Publish Vault&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;I&#39;ve use &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/tutorials/Obsidian-Zola&lt;/a&gt; because it&#39;s dead simple and has nice out of the box features. Publish to &lt;strong&gt;Netlify&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I have experimented with &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/tutorials/Quartz-w_Boswell&lt;/a&gt;. I like the ability to compile locally but looking into how to add more features. Publish to &lt;strong&gt;Github Pages&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Currently I use &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Projects📐/Obsidian Publish with NextJS&lt;/a&gt; to show off my digital garden.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;backlinks&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#todo&quot;&gt;#todo&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; finish &amp;quot;custom CSS ...&amp;quot;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; finish &amp;quot;Graph View ...&amp;quot;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; finish &amp;quot;How I Keep up on Clients&amp;quot;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-md/" >
+        </entry>
+        <entry>
+            <title>
+                Obsidian-Livesync
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-livesync/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#github&quot;&gt;#github&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#netlify&quot;&gt;#netlify&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;a-href-http-github-com-target-blank-class-external-link-github-com-a-a-href-http-github-com-target-blank-class-external-link-github-com-a-vrtmrz-obsidian-livesync-a-href-http-github-com-target-blank-class-external-link-github-com-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;vrtmrz/obsidian-livesync (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Self-hosted LiveSync is a community implemented  synchronization plugin.&lt;br /&gt;
+A self-hosted or purchased CouchDB acts as the intermediate server.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is how I keep my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;pywriter&lt;/a&gt; vault in sync between my &lt;strong&gt;phone&lt;/strong&gt; and other devices. I also use it to sync up with my &lt;strong&gt;Dungeon&#39;s &amp;amp; Dragons&lt;/strong&gt; vault.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
+&lt;h2 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h2&gt;
+&lt;h3 id=&quot;backend&quot; tabindex=&quot;-1&quot;&gt;backend&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;spin up a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/couch-db/&quot;&gt;developer/Home Lab 🏠/CouchDB&lt;/a&gt; server and make it public facing via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;. &lt;strong&gt;vrtmrz&lt;/strong&gt; also has an &lt;a href=&quot;https://github.com/vrtmrz/self-hosted-livesync-server&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;all in one solution&lt;/a&gt; if your are not currently using a &lt;strong&gt;Reverse Proxy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./compose.yml&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;version: &amp;quot;3.7&amp;quot;
+
+services:
+
+  obsidianDB_dnd:
+    image: couchdb:3.1.2
+    restart: always
+    ports:
+      - &amp;quot;5984:5984&amp;quot;
+    networks:
+      - nginx-prox-mgmt-3_default
+    environment:
+      - COUCHDB_USER=&amp;lt;ADMIN_USER&amp;gt;
+      - COUCHDB_PASSWORD=&amp;lt;STRONG_PASSWORD&amp;gt;
+    volumes:
+      - /mnt/&amp;lt;EXTERNAL_DRIVE&amp;gt;/obsidian-livesync-data/vault1:/opt/couchdb/data
+      - ./local.ini:/opt/couchdb/etc/local.ini
+
+networks:
+  nginx-prox-mgmt-3_default:
+    external: true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;code&gt;./local.ini&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-ini&quot;&gt;[couchdb]
+single_node=true
+
+[chttpd]
+require_valid_user = true
+
+[chttpd_auth]
+require_valid_user = true
+authentication_redirect = /e=_/_utils/session.html
+
+[httpd]
+WWW-Authenticate = Basic realm=&amp;quot;couchdb&amp;quot;
+enable_cors = true
+
+[cors]
+origins = app://obsidian.md,capacitor://localhost,http://localhost
+credentials = true
+headers = accept, authorization, content-type, origin, referer
+methods = GET, PUT, POST, HEAD, DELETE
+max_age = 3600
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!note] I prefer a central server&lt;br /&gt;
+&lt;strong&gt;Obsidian-livesync&lt;/strong&gt; only syncs when 2 client instances of Obsidian are open &lt;em&gt;(i.e. the mobile app and desktop app)&lt;/em&gt;. I like to think of &lt;a href=&quot;https://github.com/vrtmrz/filesystem-livesync&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;vrtmrz/filesystem-livesync&lt;/a&gt; as the &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#headless&quot;&gt;#headless&lt;/a&gt; version of &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Obsidian.md&lt;/a&gt; that makes sure all the other are up-to-date&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;&lt;code&gt;git clone --recursive https://github.com/vrtmrz/filesystem-livesync &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cp dat/config.sample.json dat/config.json&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;./dat/config.json&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+  &amp;quot;config_1&amp;quot;: {
+    &amp;quot;server&amp;quot;: {
+      &amp;quot;uri&amp;quot;: &amp;quot;https://&amp;lt;URL&amp;gt;/&amp;lt;DATABASE_NAME&amp;gt;&amp;quot;,
+      &amp;quot;auth&amp;quot;: {
+          &amp;quot;username&amp;quot;: &amp;quot;&amp;lt;COUCH_ADMIN&amp;gt;&amp;quot;,
+          &amp;quot;password&amp;quot;: &amp;quot;&amp;lt;STRONGPASSWORD&amp;gt;&amp;quot;
+      },
+      &amp;quot;initialScan&amp;quot;: false,
+      &amp;quot;customChunkSize&amp;quot;: 100
+    },
+    &amp;quot;local&amp;quot;: {
+        &amp;quot;path&amp;quot;: &amp;quot;./dat/vault&amp;quot;,
+        &amp;quot;initialScan&amp;quot;: true
+    },
+    &amp;quot;auto_reconnect&amp;quot;: true,
+    &amp;quot;sync_on_connect&amp;quot;: true
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;place your vault inside &lt;code&gt;./dat/vault&lt;/code&gt;&lt;br /&gt;
+your directory should look like&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;.
+├─ etc, etc, etc
+├─ package.json
+├─ src
+├─ docker
+└─ __dat__
+   ├─ config.json
+   ├─ __vault__
+   └─ ├─ first_note.md
+	  └─ second_note.md
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice I don&#39;t have a &lt;code&gt;.obsidian&lt;/code&gt; folder in here. The &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Obsidian-Livesync&lt;/a&gt; plugin handles syncing other plugins. Then I copy over Themes and settings.&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;This is an add from me to the &lt;a href=&quot;https://github.com/vrtmrz/filesystem-livesync&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;vrtmrz/filesystem-livesync&lt;/a&gt; repo. If I can &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt; &lt;strong&gt;Compose&lt;/strong&gt; it, I will.&lt;br /&gt;
+&lt;code&gt;compose.yml&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;version: &amp;quot;3.7&amp;quot;
+
+services:
+
+  server:
+    image: filesystem-livesync:latest
+    build: ./docker/Dockerfile
+    restart: always
+    environment:
+      - CHOKIDAR_USEPOLLING=1
+    volumes:
+      - ./dat:/data
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;docker compose up -d --remove-orphans&lt;/code&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;setup-new-client-mobile-laptop-friend&quot; tabindex=&quot;-1&quot;&gt;Setup new client (mobile, laptop, friend)&lt;/h2&gt;
+&lt;h3 id=&quot;regex-to-ignore-files&quot; tabindex=&quot;-1&quot;&gt;Regex to ignore files&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;follow the plugin &lt;a href=&quot;https://github.com/vrtmrz/obsidian-livesync&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;obsidian-livesync&lt;/a&gt;&#39;s instructions
+&lt;ul&gt;
+&lt;li&gt;add URL of hosted &lt;strong&gt;CouchDB&lt;/strong&gt; server&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;🚿 shower thoughts/creds&lt;/a&gt; should match &amp;quot;auth&amp;quot; in &lt;code&gt;config.json&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;check the setting under the &amp;quot;🔁 &lt;strong&gt;Sync Settings&lt;/strong&gt;&amp;quot; tab &lt;strong&gt;Regular expression to ignore files&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;I wanted to ignore 2 things: any &lt;code&gt;Untitled.md&lt;/code&gt; files and anything in a &lt;code&gt;private&lt;/code&gt; directory&lt;/li&gt;
+&lt;li&gt;regex copy pasta: &lt;code&gt;Untitled.*&#92;.md$|private&lt;/code&gt;&lt;br /&gt;
+``&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;setup-my-dn-d-live-vault&quot; tabindex=&quot;-1&quot;&gt;Setup my DnD-Live vault&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;start a new vault folder &lt;code&gt;dnd-live&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Core Options
+&lt;ol&gt;
+&lt;li&gt;&amp;quot;Editor&amp;quot;
+&lt;ul&gt;
+&lt;li&gt;Spellcheck - on&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;quot;File &amp;amp; Links&amp;quot;
+&lt;ul&gt;
+&lt;li&gt;Default location for new notes - &lt;code&gt;same folder as current file&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;New link format - &lt;code&gt;Absolute path in vault&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Default location for new attachments - &lt;code&gt;In subfolder under current folder&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Subfolder name - &lt;code&gt;_attachments&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;quot;Appearance&amp;quot;
+&lt;ul&gt;
+&lt;li&gt;CSS snippets - turn on first one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;copy / replace files from &lt;code&gt;.obsidian&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;appearance.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;core-plugins.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;graph.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hotkeys.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;templates.json&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;download &lt;code&gt;obsidian-livesync&lt;/code&gt; from &lt;strong&gt;Community Plugins&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;follow &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-livesync/#regex-to-ignore-files&quot;&gt;Regex to ignore files&lt;/a&gt; to ignore correct files / folders also &lt;code&gt;|📁 Dungeon Master&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🛰 Remote Database&lt;/strong&gt; tab
+&lt;ol&gt;
+&lt;li&gt;URI &lt;code&gt;https://dungeon-db.williamusic.com/dnd-live&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Username: &lt;code&gt;admin_dnd&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Password: &lt;code&gt;***&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Database name: &lt;code&gt;dnd-live&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Test Database Connection&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🔧 Miscellaneous&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;Presets - Livesync - click &lt;button&gt;Apply&lt;/button&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;.obsidian&lt;/code&gt; plugins and configurations
+&lt;ol&gt;
+&lt;li&gt;copy from &lt;code&gt;cloutdrive&lt;/code&gt; link&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;backlinks&quot; tabindex=&quot;-1&quot;&gt;backlinks&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#todo&quot;&gt;#todo&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; add code here&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-livesync/" >
+        </entry>
+        <entry>
+            <title>
+                Nginx Proxy Manager
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;Expose your services easily and securely &lt;a href=&quot;https://nginxproxymanager.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://nginxproxymanager.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Gotta be honest, writing Nginx code was always a headache, but once I found this I never want to go back. This makes &lt;strong&gt;routing&lt;/strong&gt;  &lt;strong&gt;SSL&lt;/strong&gt; certificates, and &lt;strong&gt;websockets&lt;/strong&gt; a breeze.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;app-network-routing&quot; tabindex=&quot;-1&quot;&gt;App Network Routing&lt;/h2&gt;
+&lt;pre class=&quot;mermaid&quot;&gt;flowchart TB
+
+%% Hardware
+%% rpi(&quot;Raspberry Pi 🍓&quot;) 
+%% ice(&quot;Micro services Server&quot;)
+%% mint(&quot;Media Server 💻&quot;)
+router(&quot;Router ↔&quot;)
+internet(&quot;ISP 🌐&quot;)
+
+%% Apps
+pihole(&quot;Pi-Hole 🕳&quot;)
+vpn(&quot;PiVPN 🔐&quot;)
+ha(&quot;Home Assistant 🤖&quot;)
+
+nginx(&quot;Nginx Proxy Manager&quot;)
+nextcloud(&quot;NextCloud ☁&quot;)
+vaultwarden(&quot;Vaultwarden 🛡&quot;)
+wordp(&quot;Wordpress 🕸&quot;)
+
+plex(&quot;Plex.tv 📺&quot;)
+jelly(&quot;Jellyfin 🐙&quot;)
+
+
+subgraph Router
+	router
+end
+
+subgraph &quot;Raspberry Pi 4 🍓&quot;
+
+	pihole &lt;-.-&gt; router
+	vpn -.-&gt; pihole
+	ha -.-&gt; vpn
+end
+
+subgraph Intel NUC
+
+	nginx -.-&gt; pihole
+	nextcloud -.-&gt; nginx
+	vaultwarden -.-&gt; nginx
+	wordp -.-&gt; nginx
+end
+
+subgraph Ryzen 9 
+
+	plex -.-&gt; nginx
+	jelly -.-&gt; nginx
+end
+
+
+router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt; for local DNS. Make pretty URLs for local or public services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;compose.yml&lt;/code&gt; via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;version: &#39;3&#39;
+services:
+  app:
+    image: &#39;jc21/nginx-proxy-manager:latest&#39;
+    restart: unless-stopped
+    ports:
+      - &#39;80:80&#39;
+      - &#39;81:81&#39;
+      - &#39;443:443&#39;
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+      - ./css:/app/frontend/css # if you want to tweak the css for dark mode B-)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Default Admin User:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Email:    admin@example.com
+Password: changeme
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;publicly-facing-apps&quot; tabindex=&quot;-1&quot;&gt;Publicly Facing Apps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Projects📐/WilliaMusic.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Projects📐/heart-chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/photo-prism/&quot;&gt;developer/Home Lab 🏠/PhotoPrism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/&quot;&gt;developer/Home Lab 🏠/Jellyfin&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;pretty-ur-ls-for-local-apps&quot; tabindex=&quot;-1&quot;&gt;Pretty URLs for Local Apps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt; DNS setup&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nginx&lt;/strong&gt; to link Port number&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;leveraging-docker-s-internal-dns-routing&quot; tabindex=&quot;-1&quot;&gt;Leveraging Docker&#39;s Internal DNS routing&lt;/h2&gt;
+&lt;p&gt;for example &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt; I do &lt;em&gt;not&lt;/em&gt; specify a &lt;code&gt;port&lt;/code&gt; number. instead I use the &lt;code&gt;container_name: vaultwarden&lt;/code&gt; as a DNS entry I can use in &lt;strong&gt;Nginx Proxy Manager&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;dark-mode&quot; tabindex=&quot;-1&quot;&gt;Dark Mode&lt;/h2&gt;
+&lt;p&gt;There isn&#39;t an official dark mode, but with a bit of file digging, you too can override the &lt;code&gt;main.css&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;check the &lt;code&gt;compose.yml&lt;/code&gt; to map the &lt;code&gt;app/frontend/css/main.css&lt;/code&gt; to a persistent volume&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;add this to the bottom of  &lt;code&gt;main.css&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;body, .modal-content{
+  background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#635366&quot;&gt;#635366&lt;/a&gt;;
+  color: white;
+ }
+
+ .modal-content{
+  box-shadow: black 2px 2px 8px;
+ }
+
+ .custom-switch-description{
+    color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#c3c3c3&quot;&gt;#c3c3c3&lt;/a&gt;;
+  }
+
+ &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#header&quot;&gt;#header&lt;/a&gt;{
+  background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#323232&quot;&gt;#323232&lt;/a&gt;;
+ }
+ .navbar-light .navbar-brand{
+  color: white;
+ }
+ &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#menu&quot;&gt;#menu&lt;/a&gt;{
+  background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#000&quot;&gt;#000&lt;/a&gt;;
+ }
+
+ .text-default {
+    color: white !important;
+  }
+
+  .tag{
+    background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#545454&quot;&gt;#545454&lt;/a&gt;;
+    color: white;
+  }
+
+ .card{
+    background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#29292a&quot;&gt;#29292a&lt;/a&gt;;
+    box-shadow: black 2px 2px 8px;
+  }
+
+  .table thead {
+    border-bottom: solid black 3px;
+  }
+  .table th, .text-wrap table th, .table td, .text-wrap table td{
+    border-top: 1px solid &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#000000&quot;&gt;#000000&lt;/a&gt;;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(0, 0, 0);
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#todo&quot;&gt;#todo&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; explain how you set up router to forward port 80 &amp;amp; 443&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; explain using domain name and IP address&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; show how to connect pi-hole to give any service a pretty URL&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; finish &amp;quot;publicly facing app&amp;quot;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; finish &amp;quot;pretty urls for ...&amp;quot;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/" >
+        </entry>
+        <entry>
+            <title>
+                Nextcloud
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cloud&quot;&gt;#cloud&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gmail&quot;&gt;#gmail&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#opensource&quot;&gt;#opensource&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;a-href-https-nextcloud-com-target-blank-class-external-link-homepage-nextcloud-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://nextcloud.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Homepage - Nextcloud&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Regain control over your data. Remote collaboration made easy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On-premises or cloud&lt;/li&gt;
+&lt;li&gt;Customizable and scaleable&lt;/li&gt;
+&lt;li&gt;No data leaks to third parties&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I dropped &lt;strong&gt;Google Drive&lt;/strong&gt; harder than a DJ with a fresh new crate of tracks. I even brought on some friends and family&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;me&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;publicly face app with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/#publicly-facing-app&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager#Publicly Facing App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;syncs pictures for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/photo-prism/&quot;&gt;developer/Home Lab 🏠/PhotoPrism&lt;/a&gt; to read my every growing photo gallery&lt;/li&gt;
+&lt;li&gt;used as my calendar server&lt;/li&gt;
+&lt;li&gt;backup phone contacts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;note that I use an external drive. You must set up your other drive first.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt; &lt;code&gt;compose.yml&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;version: &#39;2&#39;
+
+volumes:
+  nextcloud:
+  db:
+
+services:
+  db:
+    image: mariadb
+    restart: always
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW --innodb-read-only-compressed=OFF
+    volumes:
+      - /home/&amp;lt;username&amp;gt;/docker/nextcloud/db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=&amp;lt;password09&amp;gt;
+      - MYSQL_PASSWORD=&amp;lt;password09&amp;gt;
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+
+  app:
+    image: nextcloud:25 # USE current version number, increment by one when upgrading
+    restart: always
+    ports:
+      - 8080:80
+    links:
+      - db
+    volumes:
+      - /home/&amp;lt;username&amp;gt;/docker/nextcloud/html:/var/www/html
+      - /home/&amp;lt;username&amp;gt;/docker/nextcloud/html/apps:/var/www/html/custom_apps 
+      - /home/&amp;lt;username&amp;gt;/docker/nextcloud/html/config:/var/www/html/config 
+      - /mnt/&amp;lt;externalDrive&amp;gt;/nextcloud/data:/var/www/html/data
+    environment:
+      - MYSQL_PASSWORD=&amp;lt;password09&amp;gt;
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_HOST=db
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;how-to-update&quot; tabindex=&quot;-1&quot;&gt;How to Update&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!error]&lt;br /&gt;
+Don&#39;t use &lt;code&gt;nextcloud:latest&lt;/code&gt; as the image.&lt;br /&gt;
+UPDATE ONE MAJOR VERSION AT A TIME&lt;br /&gt;
+23 =&amp;gt; 24 👍&lt;br /&gt;
+23 =/&amp;gt; 25 🚫&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;gmail-smtp-server&quot; tabindex=&quot;-1&quot;&gt;Gmail SMTP server&lt;/h2&gt;
+&lt;p&gt;Nextcloud needs a way to send password resets / notifications / alerts. So I&#39;ve hooked it up with gmail&#39;s SMTP server using an google app password.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;troubleshooting&quot; tabindex=&quot;-1&quot;&gt;Troubleshooting&lt;/h2&gt;
+&lt;h3 id=&quot;upgraded-2-versions-up-on-accident&quot; tabindex=&quot;-1&quot;&gt;Upgraded 2 versions up on accident&lt;/h3&gt;
+&lt;p&gt;Turn off Maintenance mode&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;via &lt;code&gt;config/config.php&lt;/code&gt; &lt;a href=&quot;https://help.nextcloud.com/t/cant-start-nextcloud-because-the-version-of-the-data-is-higher-than-the-docker-image-version-and-downgrading-is-not-supported/109438/4&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;go to your nextcloud folder and then open config/config.php&lt;/li&gt;
+&lt;li&gt;search for &lt;code&gt;&#39;maintenance&#39; =&amp;gt; true,&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;change &lt;code&gt;true&lt;/code&gt; to &lt;code&gt;false&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;save your changes&lt;/li&gt;
+&lt;li&gt;reload your web page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;recover old ./version.php&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;restore /version.php from backup into the container&lt;/li&gt;
+&lt;li&gt;run a manual update via&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker-compose exec --user www-data nextcloud php occ -vvv upgrade&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker-compose exec --user www-data nextcloud php occ maintenance:mode --off&lt;/code&gt;.  (or with method above)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That got me back to a running v19.&lt;br /&gt;
+From there I could then pull the v20 docker image and run the upgrade to v20 using the same two commands.&lt;br /&gt;
+&lt;a href=&quot;https://help.nextcloud.com/t/cant-start-nextcloud-because-the-version-of-the-data-is-higher-than-the-docker-image-version-and-downgrading-is-not-supported/109438/4?u=wchorski&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you don&#39;t make backups then you could possibly edit the container&#39;s &lt;code&gt;html/version.php&lt;/code&gt;. Gotta thank &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/&quot;&gt;developer/Home Lab 🏠/Duplicati&lt;/a&gt; for saving my behind&lt;/p&gt;
+&lt;h2 id=&quot;upgrading-to-aio&quot; tabindex=&quot;-1&quot;&gt;Upgrading to AIO&lt;/h2&gt;
+&lt;p&gt;Will get to this eventually, but for now I&#39;m sticking with the regular &lt;code&gt;nextcloud:latest&lt;/code&gt; docker container deployment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;all-in-one/migration.md&lt;/a&gt; at main · nextcloud/all-in-one (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;https://github.com/nextcloud/all-in-one/blob/main/reverse-proxy.md#4-open-the-aio-interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;all-in-one/compose.yaml&lt;/a&gt; at main · nextcloud/all-in-one (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#todo&quot;&gt;#todo&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; man description&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; my desc&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; working on contact syncing&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; try out nextcloud-aio&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/" >
+        </entry>
+        <entry>
+            <title>
+                NextJS
+                
+            </title>
+            <updated>2024-02-20T18:22:54Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/next-js/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#javascript&quot;&gt;#javascript&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reactjs&quot;&gt;#reactjs&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[&lt;a href=&quot;https://pywrite-garden.tawtaw.site/nextjs.org%7C!info%5D%5D&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;nextjs.org)&lt;/a&gt;&lt;br /&gt;
+The React Framework. hybrid static &amp;amp; server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt; for home routing&lt;/li&gt;
+&lt;li&gt;example app: &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;wchorski/heart-chart: cute app to make affection competitive (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;./compose.yml&lt;/code&gt; via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;quot;app&amp;quot; - NextJS App&lt;/li&gt;
+&lt;li&gt;&amp;quot;mongo&amp;quot; - MongoDB database&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yml&quot;&gt;version: &#39;3&#39;
+
+services:
+  mongo:
+    restart: unless-stopped
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=&amp;lt;username&amp;gt;
+      - MONGO_INITDB_ROOT_PASSWORD=&amp;lt;strongpassword&amp;gt;
+      - MONGO_INITDB_DATABASE=auth
+    volumes:
+      - ./database/mongo-db:/data/db
+    networks:
+      - nexthearts-network
+
+  # nginx built inside
+  app:
+    image: nextjs-&amp;lt;appname&amp;gt;
+    restart: unless-stopped
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 4050:3000
+    environment:
+      - MONGO_URI=mongo
+      - MONGO_PORT=27017
+      - MONGO_COLLECTION=&amp;lt;appname&amp;gt;
+      - MONGO_USER=&amp;lt;username&amp;gt;
+      - MONGO_PASSWORD=&amp;lt;strongpassword&amp;gt;
+
+      # PROVIDERS
+      - GITHUB_ID=
+      - GITHUB_SECRET=
+      - FACEBOOK_ID=
+      - FACEBOOK_SECRET=
+      - NEXTAUTH_URL=https://&amp;lt;yourDomain&amp;gt;
+    depends_on:
+      - mongo
+    networks:
+      - nexthearts-network
+      - nginx-prox-mgmt-3_default # add to ngnix-prox-mgmt network for Docker DNS
+
+networks:
+  nexthearts-network:
+    driver: bridge
+  nginx-prox-mgmt-3_default: # so we can call service by DNS
+    driver: bridge
+
+volumes:
+  mongo-db:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;server-side-rendered-dockerfile&quot; tabindex=&quot;-1&quot;&gt;Server Side Rendered Dockerfile&lt;/h3&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;code&gt;./Dockerfile&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-dockerfile&quot;&gt;FROM node:16
+
+RUN mkdir /app
+WORKDIR /app
+COPY package*.json ./
+
+RUN npm install
+COPY . ./
+RUN npm run build
+
+CMD [&amp;quot;npm&amp;quot;, &amp;quot;start&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;static-site-dockerfile&quot; tabindex=&quot;-1&quot;&gt;Static Site Dockerfile&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Dockerfile&quot;&gt;FROM node:16-alpine AS deps
+
+# Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
+RUN apk add --no-cache libc6-compat
+
+WORKDIR /app
+COPY package.json package-lock.json* ./
+RUN &#92;
+
+if [ -f yarn.lock ]; then yarn --frozen-lockfile; &#92;
+elif [ -f package-lock.json ]; then npm ci; &#92;
+elif [ -f pnpm-lock.yaml ]; then yarn global add pnpm &amp;amp;&amp;amp; pnpm i --frozen-lockfile; &#92;
+else echo &amp;quot;Lockfile not found.&amp;quot; &amp;amp;&amp;amp; exit 1; &#92;
+fi
+
+FROM node:16-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+# Next.js collects completely anonymous telemetry data about general usage.
+# Learn more here: https://nextjs.org/telemetry
+# Uncomment the following line in case you want to disable telemetry during the build.
+ENV NEXT_TELEMETRY_DISABLED 1
+
+RUN npm run build
+
+
+FROM node:16-alpine AS runner
+
+WORKDIR /app
+ENV NODE_ENV production
+# Uncomment the following line in case you want to disable telemetry during runtime.
+ENV NEXT_TELEMETRY_DISABLED 1
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+
+COPY --from=builder /app/public ./public
+# Automatically leverage output traces to reduce image size
+# https://nextjs.org/docs/advanced-features/output-file-tracing
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+USER nextjs
+EXPOSE 3000
+ENV PORT 3000
+
+CMD [&amp;quot;node&amp;quot;, &amp;quot;server.js&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;code&gt;./.dockerignore&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;Dockerfile
+**/Dockerfile
+Dockerfile.dev
+.dockerignore
+**/node_modules
+node_modules
+.git
+.gitignore
+npm-debug.log
+.next
+.env.dev
+.env.prod
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;tips-and-amp-tricks&quot; tabindex=&quot;-1&quot;&gt;Tips &amp;amp; Tricks&lt;/h2&gt;
+&lt;h3 id=&quot;multi-nexted-dynamic-routes&quot; tabindex=&quot;-1&quot;&gt;multi nexted dynamic routes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/willholmes/multi-nested-dynamic-routes-in-nextjs-30f7&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Multi Nested Dynamic Routes in NextJs - DEV Community 👩‍💻👨‍💻&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;absolute-imports&quot; tabindex=&quot;-1&quot;&gt;absolute imports&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;absolute paths instead of relative paths. Especially helpful when doing more automation / generation of links - &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;&lt;a href=&quot;https://ahmadawais.com/next-js-absolute-imports-aliases/#:~:text=Next.js&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://ahmadawais.com/next-js-absolute-imports-aliases/#:~:text=Next.js&lt;/a&gt; Absolute Imports %23 Basically you only need,via jsconfig.json (JS projects&lt;/a&gt;%20or%20tsconfig.json%20(TS%20projects).)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;// Your jsconfig.json or tsconfig.json 
+{ 
+	&amp;quot;compilerOptions&amp;quot;: { 
+		&amp;quot;baseUrl&amp;quot;: &amp;quot;.&amp;quot; 
+	} 
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;multiple-nested-routes-with-get-static-paths-a-href-https-stackoverflow-com-questions-61732511-how-to-use-multiple-nested-dynamic-routes-with-getstaticpaths-target-blank-class-external-link-source-a&quot; tabindex=&quot;-1&quot;&gt;multiple nested routes with getStaticPaths - &lt;a href=&quot;https://stackoverflow.com/questions/61732511/how-to-use-multiple-nested-dynamic-routes-with-getstaticpaths&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;folder structure&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;├── _app.jsx
+├── _document.jsx
+├── index.jsx
+└── [type]
+    └── [slug].jsx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;./pages/[type]/[slug].jsx&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;const Test = (props) =&amp;gt; {
+    return (
+       &amp;lt;&amp;gt;
+           {props.slug}
+       &amp;lt;/&amp;gt;
+    );
+};
+
+export async function getStaticProps({params}) {
+    return {
+        props: params
+    }
+}
+
+export async function getStaticPaths() {
+    const posts = [
+        {
+            mainTag: &#39;programming&#39;,
+            slug: &#39;hello-world&#39;
+        },
+        {
+            mainTag: &#39;programming&#39;,
+            slug: &#39;nextjs-101&#39;
+        },
+    ];
+
+    return {
+        paths: posts.map((posts) =&amp;gt; {
+            return {
+                params: {
+                    type: posts.mainTag,
+                    slug: posts.slug,
+                },
+            };
+        }),
+        fallback: false,
+    };
+}
+
+export default Test;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;markdown-image-with-nextjs-image&quot; tabindex=&quot;-1&quot;&gt;markdown image with nextjs/image&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://amirardalan.com/blog/use-next-image-with-react-markdown&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Use Next/Image with React Markdown – Amir Ardalan&lt;/a&gt; &lt;em&gt;tweaked code to fit with &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Obsidian.md&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;a href=&quot;https://forum.obsidian.md/t/how-can-i-change-the-size-of-images/2869/7?u=wchorski&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://forum.obsidian.md/t/how-can-i-change-the-size-of-images/2869/7?u=wchorski&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-tsx&quot;&gt;// Markdown.tsx 
+import Image from &#39;next/image&#39; 
+import ReactMarkdown from &#39;react-markdown&#39;
+
+export const Markdown = () =&amp;gt; {
+	const MarkdownComponents: object = { 
+		p: (paragraph: { children?: boolean; node?: any}) =&amp;gt; {
+		  const { node } = paragraph
+		
+		  if (node.children[0].tagName === &amp;quot;img&amp;quot;) {
+		    const image = node.children[0]
+		    const metastring = image.properties.alt
+		    const alt = metastring?.replace(/ *&#92;{[^)]*&#92;} */g, &amp;quot;&amp;quot;)
+		    const metaWidth = metastring.match(/{([^}]+)x/)
+		    const metaHeight = metastring.match(/x([^}]+)}/)
+		    const width = metaWidth ? metaWidth[1] : &amp;quot;768&amp;quot;
+		    const height = metaHeight ? metaHeight[1] : &amp;quot;432&amp;quot;
+		    const isPriority = metastring?.toLowerCase().match(&#39;{priority}&#39;)
+		    const hasCaption = metastring?.toLowerCase().includes(&#39;{caption:&#39;)
+		    const caption = metastring?.match(/{caption: (.*?)}/)?.pop()
+		
+		    return (
+		      &amp;lt;div className=&amp;quot;postImgWrapper&amp;quot;&amp;gt;
+		        &amp;lt;Image
+		          src={image.properties.src}
+			        width={width}
+			        height={height}
+			        className=&amp;quot;postImg&amp;quot;
+			        alt={alt}
+			        priority={isPriority}
+			      /&amp;gt;
+			        {hasCaption ? &amp;lt;div className=&amp;quot;caption&amp;quot; aria-label={caption}&amp;gt;{caption}&amp;lt;/div&amp;gt; : null}
+		      &amp;lt;/div&amp;gt;
+		    )
+		  }
+		  return &amp;lt;p&amp;gt;{paragraph.children}&amp;lt;/p&amp;gt;
+		},
+	}
+	
+	
+	return ( 
+		&amp;lt;ReactMarkdown children={your.content.here} components={MarkdownComponents} /&amp;gt; 
+	)
+}
+
+
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;keep-aspect-ratio-of-sized-nextjs-image&quot; tabindex=&quot;-1&quot;&gt;keep aspect ratio of sized nextjs/image&lt;/h3&gt;
+&lt;p&gt;I wanted to easily size images with one metric, the width, but keep the original aspect ratio intact.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/71074979/15579591&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-jsx&quot;&gt;const NaturalImage = (props: ImageProps) =&amp;gt; {
+  const [ratio, setRatio] = useState(16/9) // default to 16:9
+
+  return (
+    &amp;lt;NextImage
+      {...props}
+      // set the dimension (affected by layout)
+      width={200}
+      height={200 / ratio}
+      layout=&amp;quot;fixed&amp;quot; // you can use &amp;quot;responsive&amp;quot;, &amp;quot;fill&amp;quot; or the default &amp;quot;intrinsic&amp;quot;
+      onLoadingComplete={({ naturalWidth, naturalHeight }) =&amp;gt; 
+        setRatio(naturalWidth / naturalHeight)
+      }
+    /&amp;gt;
+  )
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;trials-and-amp-tribulations&quot; tabindex=&quot;-1&quot;&gt;Trials &amp;amp; Tribulations&lt;/h2&gt;
+&lt;h3 id=&quot;es-lint-error&quot; tabindex=&quot;-1&quot;&gt;ESLint Error&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!error] error - ESLint: Error while loading rule &#39;@next/next/no-html-link-for-pages&#39;: Invalid regular expression: /^/testingchar/(/$/: Unterminated group Occurred while linting /vercel/path0/pages/_app.tsx&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/64664131/15579591&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;source&lt;/a&gt;&lt;br /&gt;
+add to &lt;code&gt;.eslint.json&lt;/code&gt;. Assuming &lt;code&gt;tsconfig.json&lt;/code&gt; is also in the root directory&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+    &amp;quot;parserOptions&amp;quot;: {
+        &amp;quot;project&amp;quot;: [&amp;quot;tsconfig.json&amp;quot;]
+    },
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;modual-not-found&quot; tabindex=&quot;-1&quot;&gt;modual not found&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!error] Module Not Found Can’t Resolve ‘fs’ in Next.js&lt;br /&gt;
+you&#39;ll find yourself commenting / uncommenting lines while troubleshooting.&lt;/p&gt;
+&lt;p&gt;if you&#39;re loading a server side script from &lt;code&gt;getStaticPaths&lt;/code&gt; or &lt;code&gt;getStaticProps&lt;/code&gt; and decide to comment out the function, remember to comment out the &lt;strong&gt;import&lt;/strong&gt; of said script at the top of the &lt;code&gt;./pages/file.jsx&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;./pages/file.jsx&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;import { serverFunc } from &amp;quot;libs/serverScript&amp;quot;; 
+// this will throw the *import* error unless you comment out above line too
+
+export async function getStaticPaths() {
+
+	// serverFunc() 
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!warning] Catch alls can only be at end of structure&lt;br /&gt;
+&lt;code&gt;./pages/[...folder]/[...slug]&lt;/code&gt;? - No sir&lt;/p&gt;
+&lt;/blockquote&gt;
+
+            </content>
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/next-js/" >
+        </entry>
+        <entry>
+            <title>
                 Motion Eye Camera
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/motion-eye-camera/</id>
             <content type="html">
                 &lt;p&gt;integration with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt; as plug and play CCTV instillation.&lt;/p&gt;
@@ -67,7 +1734,7 @@
                 Mosquitto MQTT Broker
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/mosquitto-mqtt-broker/</id>
             <content type="html">
                 &lt;p&gt;Frigate with Home Assistant requires an MQTT broker. Here is how to set it up&lt;/p&gt;
@@ -127,7 +1794,7 @@ password_file /mosquitto/config/password.txt
                 MQTT Mosquitto
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/mqtt-mosquitto/</id>
             <content type="html">
                 &lt;p&gt;hero_image&lt;/p&gt;
@@ -283,7 +1950,7 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m &#39;hello MQTT&#39
                 Jellyfin
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#music&quot;&gt;#music&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#media&quot;&gt;#media&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#player&quot;&gt;#player&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#itunes&quot;&gt;#itunes&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#bash&quot;&gt;#bash&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#powershell&quot;&gt;#powershell&lt;/a&gt;&lt;/p&gt;
@@ -292,7 +1959,7 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m &#39;hello MQTT&#39
 &lt;p&gt;[!info] &lt;a href=&quot;https://jellyfin.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Jellyfin&lt;/a&gt; The Free Software Media System.&lt;br /&gt;
 Jellyfin is the volunteer-built media solution that puts &lt;em&gt;you&lt;/em&gt; in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;I use this exclusively for music hosting because &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt; has more restrictions on client music playback. Plus, with a little shell magic -&amp;gt; &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/#i-tunes-playlist-sync&quot;&gt;iTunes playlist Sync&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I use this exclusively for music hosting because &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt; has more restrictions on client music playback. Plus, with a little shell magic -&amp;gt; &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/#i-tunes-playlist-sync&quot;&gt;iTunes playlist Sync&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;Connections&lt;/h3&gt;
 &lt;ul&gt;
@@ -353,7 +2020,7 @@ services:
                 InfluxDB
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/influx-db/</id>
             <content type="html">
                 &lt;h2 id=&quot;install&quot; tabindex=&quot;-1&quot;&gt;Install&lt;/h2&gt;
@@ -404,13 +2071,13 @@ INFLUX_BUCKET=YOUR_BUCKET
                 Hyperion
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/hyperion/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-hyperion-project-org-target-blank-class-external-link-hyperion-project-org-a-a-href-http-hyperion-project-org-target-blank-class-external-link-hyperion-project-org-a-install-hyperion&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Install Hyperion &lt;/a&gt;)&lt;/h2&gt;
 &lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/WLED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/wled/&quot;&gt;developer/Home Lab 🏠/WLED&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;hardware&quot; tabindex=&quot;-1&quot;&gt;Hardware&lt;/h2&gt;
@@ -500,7 +2167,7 @@ INFLUX_BUCKET=YOUR_BUCKET
                 Home Lab 🏠
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/</id>
             <content type="html">
                 &lt;h2 id=&quot;network-routing&quot; tabindex=&quot;-1&quot;&gt;Network Routing&lt;/h2&gt;
@@ -555,13 +2222,13 @@ end
 router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debian-11-bullseye-64bit&quot; tabindex=&quot;-1&quot;&gt;Pi4 (Debian 11 Bullseye 64bit)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/glances/&quot;&gt;developer/Home Lab 🏠/Glances&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;Unbound DNS&lt;/li&gt;
 &lt;li&gt;DHCP list&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/PiVPN&lt;/a&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-vpn/&quot;&gt;developer/Home Lab 🏠/PiVPN&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;.config files for each client&lt;/li&gt;
 &lt;/ul&gt;
@@ -575,17 +2242,17 @@ router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debia
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/glances/&quot;&gt;developer/Home Lab 🏠/Glances&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/&quot;&gt;developer/Home Lab 🏠/Duplicati&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/SFTP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/sftp/&quot;&gt;developer/Home Lab 🏠/SFTP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Wordpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/wordpress/&quot;&gt;developer/Home Lab 🏠/Wordpress&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/ReactJS/ReactJS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/NextJS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/next-js/&quot;&gt;developer/Home Lab 🏠/NextJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/portainer/&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -596,13 +2263,13 @@ router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debia
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/&quot;&gt;developer/Home Lab 🏠/Duplicati&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/&quot;&gt;developer/Home Lab 🏠/Jellyfin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/portainer/&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/XMRig&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/xm-rig/&quot;&gt;developer/Home Lab 🏠/XMRig&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/samba/&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;frostbyte&quot; tabindex=&quot;-1&quot;&gt;Frostbyte&lt;/h2&gt;
@@ -625,8 +2292,8 @@ router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debia
 &lt;hr /&gt;
 &lt;h2 id=&quot;milkywave&quot; tabindex=&quot;-1&quot;&gt;Milkywave&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/samba/&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;K-9 Mail (k9mail.app)&lt;/a&gt;))&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
@@ -639,10 +2306,10 @@ router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debia
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; tryout jellyfin in home assistant integration&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Projects📐/Obsidian Publish with NextJS&lt;/a&gt;&lt;br /&gt;
-&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;br /&gt;
+&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;br /&gt;
 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;music/Split Skream/Melt &amp;amp; Murder&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;wiki-links&quot; tabindex=&quot;-1&quot;&gt;wiki links&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/NextJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/next-js/&quot;&gt;developer/Home Lab 🏠/NextJS&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Projects📐/Obsidian Publish with NextJS&lt;/a&gt;&lt;br /&gt;
 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;In Flavor&lt;/a&gt;&lt;br /&gt;
 &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;&lt;/p&gt;
@@ -655,7 +2322,7 @@ router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debia
                 Home Assistant
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Home Assistant (&lt;a href=&quot;http://home-assistant.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;home-assistant.io&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -666,9 +2333,9 @@ router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debia
 &lt;hr /&gt;
 &lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;securely accessed via &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/PiVPN&lt;/a&gt; (I don&#39;t forward face any apps that I solo use)&lt;/li&gt;
+&lt;li&gt;securely accessed via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-vpn/&quot;&gt;developer/Home Lab 🏠/PiVPN&lt;/a&gt; (I don&#39;t forward face any apps that I solo use)&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/hyperion/&quot;&gt;developer/Home Lab 🏠/Hyperion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/WLED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/wled/&quot;&gt;developer/Home Lab 🏠/WLED&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Divoom Pixoo (&lt;a href=&quot;http://divoom.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;divoom.com&lt;/a&gt;)&lt;/a&gt;) digital sign (via bluetooth)&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/glances/&quot;&gt;developer/Home Lab 🏠/Glances&lt;/a&gt; - via Grafana &amp;amp; InfluxDB&lt;/li&gt;
 &lt;/ul&gt;
@@ -764,7 +2431,7 @@ sensor:
                 Grafana &amp; InfluxDB
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/grafana-and-influx-db/</id>
             <content type="html">
                 &lt;p&gt;I use the Grafana and InfluxDB &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt; integrations to better track and monitor all sorts of sensors and services.&lt;/p&gt;
@@ -785,7 +2452,7 @@ sensor:
                 Glances
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/glances/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -849,7 +2516,7 @@ run &lt;code&gt;pip install glances&lt;/code&gt; &amp;amp; &lt;code&gt;pip insta
                 Frigate NVR
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/frigate-nvr/</id>
             <content type="html">
                 &lt;p&gt;A complete CCTV system that is integrated into &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt;, This was impart inspired by the lack luster results from &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;motion eye&lt;/a&gt; with it&#39;s integrated Object Detection&lt;/p&gt;
@@ -969,7 +2636,7 @@ services:
                 FreeFileSync
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/free-file-sync/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#backup&quot;&gt;#backup&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cross_platform&quot;&gt;#cross_platform&lt;/a&gt;&lt;/p&gt;
@@ -977,7 +2644,7 @@ services:
 &lt;p&gt;[!info] &lt;a href=&quot;https://freefilesync.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;FreeFileSync&lt;/a&gt;&lt;br /&gt;
 Open Source, Cross Platform File Synchronization &amp;amp; Backup Software&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;when I need to make a &lt;strong&gt;One to One&lt;/strong&gt; copy of a directory, internally or to another machine via a &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt; share. I originally used this exclusively until I found &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/&quot;&gt;developer/Home Lab 🏠/Duplicati&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;when I need to make a &lt;strong&gt;One to One&lt;/strong&gt; copy of a directory, internally or to another machine via a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/samba/&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt; share. I originally used this exclusively until I found &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/&quot;&gt;developer/Home Lab 🏠/Duplicati&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;check out how I sync my iTunes playlists with my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/&quot;&gt;developer/Home Lab 🏠/Jellyfin&lt;/a&gt; server&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1005,7 +2672,7 @@ Open Source, Cross Platform File Synchronization &amp;amp; Backup Software&lt;/p
                 Dynamic DNS Choices
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/dynamic-dns-choices/</id>
             <content type="html">
                 &lt;p&gt;You got your shiny self hosted app and you about to open it up to the world. No problem, just have people type in your public IP address. i.e. &lt;code&gt;98.143.344.321&lt;/code&gt; in the address bar to get to you&#39;re site.&lt;/p&gt;
@@ -1067,7 +2734,7 @@ Without a &lt;strong&gt;Static IP&lt;/strong&gt; your service provider can and w
                 Duplicati
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-www-duplicati-com-target-blank-class-external-link-duplicati-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://www.duplicati.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Duplicati&lt;/a&gt;&lt;/h2&gt;
@@ -1146,7 +2813,7 @@ sudo systemctl enable duplicati
                 DuckDNS
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/duck-dns/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Duck&lt;/a&gt; DNS (&lt;a href=&quot;http://www.duckdns.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;www.duckdns.org&lt;/a&gt;)&lt;/p&gt;
@@ -1189,7 +2856,7 @@ sudo service cron start
                 Docker
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/docker/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-www-docker-com-target-blank-class-external-link-home-docker-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Home - Docker&lt;/a&gt;&lt;/h2&gt;
@@ -1198,16 +2865,16 @@ sudo service cron start
 &lt;hr /&gt;
 &lt;h3 id=&quot;connections&quot; tabindex=&quot;-1&quot;&gt;connections&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/PhotoPrism&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Wordpress&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/NextJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/portainer/&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/&quot;&gt;developer/Home Lab 🏠/Nginx Proxy Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/&quot;&gt;developer/Home Lab 🏠/Nextcloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/photo-prism/&quot;&gt;developer/Home Lab 🏠/PhotoPrism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/wordpress/&quot;&gt;developer/Home Lab 🏠/Wordpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/next-js/&quot;&gt;developer/Home Lab 🏠/NextJS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/ReactJS/ReactJS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/&quot;&gt;developer/Home Lab 🏠/Jellyfin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;pretty much any of my microservices. Especially if it&#39;s public facing&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;installation&quot; tabindex=&quot;-1&quot;&gt;installation&lt;/h3&gt;
@@ -1288,7 +2955,7 @@ docker compose -f /mnt/uasis5/node/filesystem-livesync-pywriter4/compose.yml res
                 Divoom Pixoo
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/divoom-pixoo/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a-a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a-divoom-pixoo-a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Divoom Pixoo (&lt;a href=&quot;http://divoom.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;divoom.com&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -1386,7 +3053,7 @@ script:
                 CouchDB
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/couch-db/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-couchdb-apache-org-target-blank-class-external-link-apache-couch-db-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://couchdb.apache.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Apache CouchDB&lt;/a&gt;&lt;/h2&gt;
@@ -1482,25 +3149,25 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 CasaOS
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/casa-os/</id>
             <content type="html">
                 &lt;p&gt;I tried &lt;a href=&quot;https://casaos.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CasaOS - A simple, easy-to-use, elegant open-source personal cloud system&lt;/a&gt; as a turn key solution to run a handful of self hosted apps located in a family member&#39;s network.&lt;/p&gt;
 &lt;h2 id=&quot;my-thoughts&quot; tabindex=&quot;-1&quot;&gt;My Thoughts&lt;/h2&gt;
-&lt;p&gt;Initially, it has a pretty UI and all the basic needs I&#39;d want in a n00b friendly &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;. The &lt;code&gt;App Store&lt;/code&gt; has some essential apps, but is a bit lacking. Luckily all &lt;strong&gt;CasaOS&lt;/strong&gt; is is a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt; wrapper (similar to &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Initially, it has a pretty UI and all the basic needs I&#39;d want in a n00b friendly &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/&quot;&gt;developer/Home Lab 🏠/Home Lab 🏠&lt;/a&gt;. The &lt;code&gt;App Store&lt;/code&gt; has some essential apps, but is a bit lacking. Luckily all &lt;strong&gt;CasaOS&lt;/strong&gt; is is a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/docker/&quot;&gt;developer/Home Lab 🏠/Docker&lt;/a&gt; wrapper (similar to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/portainer/&quot;&gt;developer/Home Lab 🏠/portainer&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Speaking of which, it automatically creates a shortcut on the dashboard when I go spin up a container, even from the command line.&lt;/p&gt;
 &lt;p&gt;I like how it&#39;s not actually an &lt;strong&gt;Operating System&lt;/strong&gt; but an app installed onto a vanilla &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Debian&lt;/a&gt; distro. That way I can install other apps and tools in tandem.&lt;/p&gt;
 &lt;h2 id=&quot;apps&quot; tabindex=&quot;-1&quot;&gt;Apps&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/PhotoPrism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/&quot;&gt;developer/Home Lab 🏠/Plex.tv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/photo-prism/&quot;&gt;developer/Home Lab 🏠/PhotoPrism&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/&quot;&gt;Duplicati&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;SAMBA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;vaultwarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/&quot;&gt;developer/Home Lab 🏠/Pi-hole&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/&quot;&gt;developer/Home Lab 🏠/vaultwarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/samba/&quot;&gt;developer/Home Lab 🏠/SAMBA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/samba/&quot;&gt;SAMBA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/&quot;&gt;vaultwarden&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -1511,7 +3178,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 has Selector
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/has-selector/</id>
             <content type="html">
                 &lt;p&gt;I see a lot of potential in the &lt;code&gt;:has()&lt;/code&gt; selector, expecially when it comes to input fields&lt;/p&gt;
@@ -1546,7 +3213,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 Working With Inconsistent Logos
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/working-with-inconsistent-logos/</id>
             <content type="html">
                 &lt;p&gt;There are a few common problems when working with not so stellar logos sent in by the client&lt;/p&gt;
@@ -1581,7 +3248,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 Toggle Checkbox CSS
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/toggle-checkbox-css/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;input[type=&amp;quot;checkbox&amp;quot;].toggle {
@@ -1662,7 +3329,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Styling to Print
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/styling-to-print/</id>
             <content type="html">
                 &lt;h2 id=&quot;hide-or-show-when-printing&quot; tabindex=&quot;-1&quot;&gt;Hide or Show When Printing&lt;/h2&gt;
@@ -1716,7 +3383,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Style Containers on top of Eachother
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/style-containers-on-top-of-eachother/</id>
             <content type="html">
                 &lt;h2 id=&quot;credit&quot; tabindex=&quot;-1&quot;&gt;Credit&lt;/h2&gt;
@@ -1736,7 +3403,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Smooth Scroll On Everything
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/smooth-scroll-on-everything/</id>
             <content type="html">
                 &lt;p&gt;Smooth scrolling when moving to a different element on the same page gives any app that modern feel.&lt;/p&gt;
@@ -1762,7 +3429,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Sass
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/sass/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -1779,7 +3446,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Responsive Padding
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/responsive-padding/</id>
             <content type="html">
                 &lt;h2 id=&quot;magic-formula&quot; tabindex=&quot;-1&quot;&gt;Magic Formula&lt;/h2&gt;
@@ -1803,7 +3470,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 React JSX Dynamic Overlay Color
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/react-jsx-dynamic-overlay-color/</id>
             <content type="html">
                 &lt;h3 id=&quot;tutorials&quot; tabindex=&quot;-1&quot;&gt;tutorials&lt;/h3&gt;
@@ -1825,7 +3492,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Preserve Line Breaks in textarea tag
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/preserve-line-breaks-in-textarea-tag/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;BHdiVZ88rU75/T13g2x4Czrr7k6qelahRqmq7mbEpIPxzI0SQjaD0+HWgekbLVWgdmw5zY8KIm6iLuGCSCg49m5DJJrFEaJ4ZzIMZDkjoKdkjA03RLlCjd93fdo3yqqAjQnDnURh+PH2OCwiNy2C+S6t6ssVpQgf/uvvg3m6kF7IxYqWFkZWmVZkx7LBfV9jYAY3eHvWMNKX3PgsN8w5kxefmuRBN8AOXtfY8B3KgFqtSogLALUpGmTyQG8cmAOZ3EfC0op0LSLg9QamfPvhBJlMbpOab5LtbxQq+kAvQElvo5sPdX35APwxD3nye2zGu8WwanJxFHQZqKaye2/4beXclMAezu4wDC6F6MnPT0ilyGeNR7AEnstb9ItGDpMY0UaxwlhzYGVEZ1DVXPWmdZOXHI/5s5KhpQTGFv/lYlmW5ZlDvSOlvPPcBIoDo8Z5AAlRD00h3Lj2oBlA/1V5DHyuA4U6zPeaIewNyevk3AzWqUfzsa+4PGlMKPvcy+Ekrh+w3k2SIVnPCJ/deOCzwDIYMw0wbkl3wvh3xvpk0V1gMLYRNd501nXePCmCtMmbUzMXtyIXjt7tvXDCmPWnZf7qCnDR5nKD0KGlLyGnerLoJT1N2NA6QUlr9NGBTXHUtZMdd8xTx0TF73HrC2t0T/RaJU/eu6kwhTAQrIYthKTH3LFGe3x0/iEMOJjrB26dELz5ZxZAMbq3n4LgiN5dRt/N9TlDOUMrpUtK1uxeLIAcEYkn7wlzRi524O12e25QdsW5+AieHQ==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f04000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -1838,7 +3505,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Modern Image Caption
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/modern-image-caption/</id>
             <content type="html">
                 &lt;p&gt;Having a subtle caption that floats / aligns to the right with some hover effects seems simple right? Well, it was a bit confusing until I found out about &lt;code&gt;display: inline-flex;&lt;/code&gt; and  &lt;code&gt;display: inline-table;&lt;/code&gt;&lt;/p&gt;
@@ -1911,7 +3578,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Hide Reveal Error Message
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/hide-reveal-error-message/</id>
             <content type="html">
                 &lt;p&gt;clever way to animate an error message in and out. The error element is hidden when there is no inner text or html present, but once filled with content it will be revealed to the UI&lt;/p&gt;
@@ -1945,7 +3612,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Header Text overlap
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/header-text-overlap/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;eowIygzv3Vx2QITmHRDaP3WTWS0eltLNMrXUSRulae0x12etME8F75NJl9HQWmR3lnESs+wtyBWNcSOQI9lGBjV95zVT0xBomIOFFZ8+G5guFzm5WOJFnU3DLlZJTXAg+JlXUdmmrMKSIOI33mb1qTdt1Bf2YWKXygN1re/DkVAIFNxcGYbudSUxaGmIFEWukCdN4juYo098og5h8oMI7XlQ4V+OuAE6UiFI++5hVkJyfgj4OQZDePKtF/bzL2k63soTD0E01NkfElTLBG/eUme85futIB6YWjfi8dqClORGRYYDMibenSkiQcnqY8cVdiR05urFJu8ugMdz6rNmIe/7LAz8pLSEwYt46tdqXJBYtJMGyf3bOC0jsjoUVHSOertI7ThNPOV+nENLHejS1qOQB6r72hYrQFHVmV6lNnn7LVJ1SwRfrMsMdrhAO9CYVA/dfFKiBGwwlnn5R7iTtGgKUyFEtZKLUR7+QojZm/49Taqjdg83NS8WpuUP8MM3IlE4zXo0epjwwjd+vDRzO0FeBjBifoKTYGTJVixRhMKLSHP3xUGmGhn6iNzJBgtwSx7O6gEwleygDyWKOHUOqqpI2XRyxcbTC8DddIdomK5MsdvKK70U6H5cUrfFZIEBhunhrn45CotsKOQ1Fwfm6sBhhCffJx0lLtSFEXcES+K+tNkI6hmjWkN+BWCCxU7kaR8gELjDL95vI1YWuwiEh6HMTYyxsjESGcVAq4MPsHR/nzjkAIUQrIc1R49CfD4Qb0i4YVWuZOttggdet/N4bgy73nVAdTynbShSGOeVnOHxyqUmSUNWf1t3cgJZCvsx7Jd3CcY0R6d2HzkGzON3amLzbpbYLb4jvdRMBbpo6+eQvsCAWPFppRMTesVr3YNXvVxZIf4QC0R543U2wixS3xb8URI29tOAU3Va3QhUZrvk9x0xPuwAFHOPikjziMDbhR3XKbK3yhUR2uaxHA6edUgPlr+97846GEC2zhxl1n1qVAWUE08XHo/RW29NfslDllZgTnTV21siEczC5YSpG/RCil9sOCi6yfEWOq/iVXAVIbv+802cpBgWj4qpMXkOf0iymuzdRrkLLviayg3b3WWT9b8IpNBmTsKYfL8nBDkfhiZAiToOwzGn2+yz0Vn6cPk1Ub2Nwdvhmq7MA8K3mkfTeXYC/T6jY5y4NeAJ7OoHflnvKGE9qgOQJZH5Hxgy99vlLpT/4tEKsDaQ3uBrsJwnlOxp0wRziKPMZ0hUEp39KA==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f03000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -1958,7 +3625,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Center and Fit Image the Right Way
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/center-and-fit-image-the-right-way/</id>
             <content type="html">
                 &lt;p&gt;I wanted a defacto way to center an image. Looks like I found a decent way&lt;/p&gt;
@@ -1997,7 +3664,7 @@ picture img {
                 Cascading Style Sheet Tips &amp; Tricks
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/</id>
             <content type="html">
                 
@@ -2009,7 +3676,7 @@ picture img {
                 CSS
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css/</id>
             <content type="html">
                 &lt;h3 id=&quot;if-parent-has-input-that-is-checked&quot; tabindex=&quot;-1&quot;&gt;if parent has input that is checked&lt;/h3&gt;
@@ -2156,7 +3823,7 @@ img {
                 CSS Rotation Axis
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-rotation-axis/</id>
             <content type="html">
                 &lt;p&gt;rotate an element not just around the center axis&lt;/p&gt;
@@ -2181,7 +3848,7 @@ transform-origin: 0% 0%;
                 CSS Nested border-radius
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-nested-border-radius/</id>
             <content type="html">
                 &lt;p&gt;You&#39;ve probably set the parent and child element &lt;code&gt;border-radius&lt;/code&gt; to the same value expecting them to line up, but it&#39;s the padding that throws the angle of the curve off&lt;/p&gt;
@@ -2213,7 +3880,7 @@ transform-origin: 0% 0%;
                 CSS Masonry Layout With Grid
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-masonry-layout-with-grid/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.masonry {
@@ -2248,7 +3915,7 @@ transform-origin: 0% 0%;
                 CSS Marquee Animations
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-marquee-animations/</id>
             <content type="html">
                 &lt;h2 id=&quot;scroll-horizontal-ticker&quot; tabindex=&quot;-1&quot;&gt;Scroll horizontal ticker&lt;/h2&gt;
@@ -2348,7 +4015,7 @@ transform-origin: 0% 0%;
                 CSS Input Range Slider With Box Shadow Animation
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-input-range-slider-with-box-shadow-animation/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;label htmlFor=&amp;quot;slider&amp;quot; className=&amp;quot;slider-cont&amp;quot;&amp;gt;
@@ -2437,7 +4104,7 @@ transform-origin: 0% 0%;
                 CSS Height Transition Animation
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-height-transition-animation/</id>
             <content type="html">
                 &lt;p&gt;smooth transition height trick&lt;/p&gt;
@@ -2471,7 +4138,7 @@ transform-origin: 0% 0%;
                 CSS Gradient Background Image Transition
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-gradient-background-image-transition/</id>
             <content type="html">
                 &lt;p&gt;Transiitioning a background image isn&#39;t a built in feature, but is a trick using pseudo elements&lt;/p&gt;
@@ -2528,7 +4195,7 @@ transform-origin: 0% 0%;
                 CSS Disco Floor Animation
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-disco-floor-animation/</id>
             <content type="html">
                 &lt;p&gt;I wanted to create a eye candy dance floor that looks like it&#39;s lighting up&lt;/p&gt;
@@ -2650,7 +4317,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Color Mixing
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-color-mixing/</id>
             <content type="html">
                 &lt;p&gt;mixing colors in &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#css&quot;&gt;#css&lt;/a&gt; is now a breeze. Create quick color pallet themes that can easily be tweaked.&lt;/p&gt;
@@ -2741,7 +4408,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Capitolize the first letter rest are lowercase
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-capitolize-the-first-letter-rest-are-lowercase/</id>
             <content type="html">
                 &lt;p&gt;I has a string like so&lt;code&gt;WUMBO&lt;/code&gt; and needed to just have the fist letter capitol. Easy (or so I thought).&lt;/p&gt;
@@ -2777,7 +4444,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Animation snips
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-animation-snips/</id>
             <content type="html">
                 &lt;p&gt;cred - &lt;a href=&quot;https://thisdevbrain.com/css-floating-hearts-animation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CSS Floating hearts animation | This Dev Brain by Michal Tynior&lt;/a&gt;&lt;/p&gt;
@@ -3072,7 +4739,7 @@ body {
                 CSS Animated Bubble Background
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-animated-bubble-background/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&#39;canvas&#39;&amp;gt;
@@ -4611,7 +6278,7 @@ body {
                 CSS  practical use for before and after pseudo elements
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-practical-use-for-before-and-after-pseudo-elements/</id>
             <content type="html">
                 &lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
@@ -4627,7 +6294,7 @@ body {
                 CMS Page Builder
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/cms-page-builder/</id>
             <content type="html">
                 &lt;p&gt;I&#39;m looking for a drop in page builder I can serve to customers as a benefit to the &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KYPN/KYPN Stack&lt;/a&gt; templates I&#39;m designing. &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KeystoneJS/KeystoneJS&lt;/a&gt; has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.&lt;/p&gt;
@@ -4652,7 +6319,7 @@ body {
                 Backup Solutions
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/backup-solutions/</id>
             <content type="html">
                 &lt;p&gt;This is my chain of programs that help me backup and store data whether it&#39;s local clone, version controlled, and or remote sight backups&lt;/p&gt;
@@ -4725,7 +6392,7 @@ body {
                 Removing Samsung and Google Bloatware from Android 12
                 
             </title>
-            <updated>2024-02-20T18:21:52Z</updated>
+            <updated>2024-02-20T18:22:54Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/android/removing-samsung-and-google-bloatware-from-android-12/</id>
             <content type="html">
                 &lt;p&gt;I tried installing &lt;a href=&quot;https://lineageos.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;LineageOS&lt;/a&gt; on my Samsung Galaxy s9 and s10 phones. Unfortunately my &lt;a href=&quot;https://wiki.lineageos.org/devices/beyond1lte/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;model wasn&#39;t supported&lt;/a&gt; (just one letter off 😑).&lt;/p&gt;

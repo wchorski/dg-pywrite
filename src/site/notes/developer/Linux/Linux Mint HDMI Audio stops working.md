@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/linux-mint-hdmi-audio-stops-working/","tags":["linux","troubleshooting","audio"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Linux Mint HDMI Audio stops working/","tags":["linux","troubleshooting","audio"],"noteIcon":""}
 ---
 
 Every other day the audio seemed to stop passing through the HDMI chord to the Display for my media rig [[developer/Hardware/Ryzen 9 3900x Custom PC\|developer/Hardware/Ryzen 9 3900x Custom PC]]. Audio seemed to usually stop as I paused a Youtube video, or switch apps every so often

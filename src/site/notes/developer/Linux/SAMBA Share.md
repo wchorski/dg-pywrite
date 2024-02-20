@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/samba-share/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/SAMBA Share/","noteIcon":""}
 ---
 
 [[https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.\|https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.]]

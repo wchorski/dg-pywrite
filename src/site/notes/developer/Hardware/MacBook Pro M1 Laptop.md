@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/mac-book-pro-m1-laptop/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/MacBook Pro M1 Laptop/","noteIcon":""}
 ---
 
 

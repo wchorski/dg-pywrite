@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/url-link-with-query-and-id-anchor/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/URL Link with Query and ID Anchor/","noteIcon":""}
 ---
 
 #html 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-one-shot-animation-with-css-trick/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React One Shot Animation with CSS Trick/","noteIcon":""}
 ---
 
 

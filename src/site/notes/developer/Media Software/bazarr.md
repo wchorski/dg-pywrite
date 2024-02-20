@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/bazarr/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/bazarr/","noteIcon":""}
 ---
 
 

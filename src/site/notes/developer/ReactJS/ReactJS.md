@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-js/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS/","noteIcon":""}
 ---
 
 #javascript #reactjs 

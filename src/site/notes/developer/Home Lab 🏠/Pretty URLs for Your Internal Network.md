@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/pretty-ur-ls-for-your-internal-network/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Pretty URLs for Your Internal Network/","noteIcon":""}
 ---
 
 ## Tools

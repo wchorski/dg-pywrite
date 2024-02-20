@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/game-dev/game-ideas/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/GameDev 🕹/Game Ideas/","noteIcon":""}
 ---
 
 ## Peer Pressure

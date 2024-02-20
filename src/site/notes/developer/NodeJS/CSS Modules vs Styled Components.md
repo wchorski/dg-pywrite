@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/css-modules-vs-styled-components/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NodeJS/CSS Modules vs Styled Components/","noteIcon":""}
 ---
 
 At first I was 100% all in on [[developer/NodeJS/styled-components\|developer/NodeJS/styled-components]]. I thought I wouldn't need anything else when it came to styling my markdown. As my projects grew in complexity and asked for more modularity I began to rethink the way I structure my code base. 

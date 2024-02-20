@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/wsl/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/WSL/","noteIcon":""}
 ---
 
 

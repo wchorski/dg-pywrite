@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/upload-file-without-a-library/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NodeJS/upload file without a library/","noteIcon":""}
 ---
 
 I like to remove any package dependancies where I can. Hopefully this solution can help remove another

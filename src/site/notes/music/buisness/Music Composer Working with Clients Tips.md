@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/buisness/music-composer-working-with-clients-tips/","tags":["gamedev","music","producer"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/music/buisness/Music Composer Working with Clients Tips/","tags":["gamedev","music","producer"],"noteIcon":""}
 ---
 
 

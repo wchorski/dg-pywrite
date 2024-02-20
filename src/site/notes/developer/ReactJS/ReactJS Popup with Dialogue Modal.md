@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-js-popup-with-dialogue-modal/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS Popup with Dialogue Modal/","noteIcon":""}
 ---
 
 Watching a [Web Dev Simplified Tutorial](https://www.youtube.com/@WebDevSimplified) I wanted to port this idea of using `<dialogue>` as a symantically correct popup component. Here is my port to #reactjs 

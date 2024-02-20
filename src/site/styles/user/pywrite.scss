@@ -49,7 +49,7 @@ body, html {
   margin-top: 3rem;
 }
 // table of contents
-.toc-container {
+.toc-container, .backlink-list {
   max-height: fit-content;
 }
 
@@ -63,6 +63,7 @@ body, html {
     color: white !important;
   }
 }
+
 
 // ::before icon of h1 title
 body.title-note-icon .cm-s-obsidian>header>h1[data-note-icon]::before, body.filetree-note-icon .filename[data-note-icon]::before, body.links-note-icon .internal-link[data-note-icon]::before, body.backlinks-note-icon .backlink[data-note-icon]::before {

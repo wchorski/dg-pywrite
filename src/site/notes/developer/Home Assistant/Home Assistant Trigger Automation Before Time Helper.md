@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/home-assistant-trigger-automation-before-time-helper/","tags":["homeassistant","automation","yaml"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Home Assistant Trigger Automation Before Time Helper/","tags":["homeassistant","automation","yaml"],"noteIcon":""}
 ---
 
 

@@ -54,11 +54,11 @@ subgraph Your DB
 end
 ```
 
-| File                                          | Last modified      |
-| --------------------------------------------- | ------------------ |
-| [[developer/CasaOS\|CasaOS]]               | 20.02.2024 - 11:46 |
-| [[index\|index]]                           | 20.02.2024 - 11:36 |
-| [[developer/Home Lab 🏠/Glances\|Glances]] | 20.02.2024 - 10:17 |
+| File                                                             | Last modified      |
+| ---------------------------------------------------------------- | ------------------ |
+| [[music/History/Ghetto Blaster\|Ghetto Blaster]]              | 20.02.2024 - 14:01 |
+| [[templates/_shower_thought\|_shower_thought]]                | 20.02.2024 - 13:59 |
+| [[music/Lighting/Custom DMX Enclosure\|Custom DMX Enclosure]] | 20.02.2024 - 13:58 |
 
 { .block-language-dataview}
 

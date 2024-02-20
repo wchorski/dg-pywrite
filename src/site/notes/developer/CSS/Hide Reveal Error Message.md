@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/hide-reveal-error-message/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Hide Reveal Error Message/","noteIcon":""}
 ---
 
 clever way to animate an error message in and out. The error element is hidden when there is no inner text or html present, but once filled with content it will be revealed to the UI

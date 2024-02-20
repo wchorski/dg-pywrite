@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/fl-studio-tips/keep-it-strait/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/FL Studio Tips/Keep It Strait/","noteIcon":""}
 ---
 
 - Hold down `ctrl` + `click-drag` to move anything perfectly vertical

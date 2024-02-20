@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/jinja-code-snippet/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Jinja Code Snippet/","noteIcon":""}
 ---
 
 Create and reuse snippets of logic with the [Jinja](https://palletsprojects.com/p/jinja/)syntax for all sorts of use cases in [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]]. 

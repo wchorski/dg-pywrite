@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/bash-scripting/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash Scripting/","noteIcon":""}
 ---
 
 

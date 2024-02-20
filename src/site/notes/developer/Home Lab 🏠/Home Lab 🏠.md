@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/home-lab/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Home Lab 🏠/","noteIcon":""}
 ---
 
 ## Network Routing

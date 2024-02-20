@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/remove-duplicates-in-array/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/remove duplicates in Array/","noteIcon":""}
 ---
 
 I want to filter out any duplicates and return a single array of unique categories

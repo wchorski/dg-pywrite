@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/sass/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Sass/","noteIcon":""}
 ---
 
 > [[sass-lang.com)](https://sass-lang.com/\|!note]]

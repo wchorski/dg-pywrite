@@ -60,7 +60,7 @@ you'll want to edit 2 things on this file
 
 Your iTunes folder will look like this
 
-![attachments/iTunes-Directory-Tree 1.png|iTunes-Directory-Tree](/img/user/attachments/iTunes-Directory-Tree%201.png)
+![attachments/iTunes-Directory-Tree.png|iTunes-Directory-Tree](/img/user/attachments/iTunes-Directory-Tree.png)
 
 I created another folder `playlists` that will house all my new `.m3u` files. And that relative path `../` will start looking for songs one directory above the `playlists` folder
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/portainer/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/portainer/","noteIcon":""}
 ---
 
 #docker 

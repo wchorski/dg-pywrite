@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/nginx-proxy-manager/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Nginx Proxy Manager/","noteIcon":""}
 ---
 
 

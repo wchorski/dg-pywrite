@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/duck-dns/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/DuckDNS/","noteIcon":""}
 ---
 
 [[www.duckdns.org)](http://www.duckdns.org/\|Duck DNS (www.duckdns.org)]]

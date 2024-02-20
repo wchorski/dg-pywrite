@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/upload-files-with-next-connect-and-multer/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/Upload Files with next-connect and Multer/","noteIcon":""}
 ---
 
 I've created a file uploader with the more basic [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]] + Express.js stack, but venturing into the [[developer/Home Lab 🏠/NextJS\|NextJS]] there was a few more tricks. 

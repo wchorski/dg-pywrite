@@ -4092,7 +4092,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-02-20T23:00:11.150Z';
+        const searchIndexDate = '2024-02-20T23:25:31.983Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4104,9 +4104,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-02-20T23:00:11.150Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-02-20T23:25:31.983Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-20T23:00:11.150Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-20T23:25:31.983Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4727,6 +4727,7 @@ In Node 18, <code>localhost</code> ===&gt; <code>::1</code>, which is an IPv6
                                           <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Obsidian-Livesync/" data-note-icon="" class="backlink">Obsidian-Livesync</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Javascript/Sort Array By Date/" data-note-icon="" class="backlink">Sort Array By Date</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/NodeJS/Handling Errors in an API/" data-note-icon="" class="backlink">Handling Errors in an API</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/" data-note-icon="" class="backlink">Welcome to Pywrite Garden</a>
                                                 </div></div>
                               </div>
                         

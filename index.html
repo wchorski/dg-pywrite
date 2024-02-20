@@ -4090,7 +4090,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-02-20T23:00:11.150Z';
+        const searchIndexDate = '2024-02-20T23:25:31.983Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4102,9 +4102,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-02-20T23:00:11.150Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-02-20T23:25:31.983Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-20T23:00:11.150Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-20T23:25:31.983Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4356,7 +4356,129 @@
       
       <p>Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously 'watered' over time, fixing, updating, and growing this database of notes.</p>
 <h2 id="recent-notes" tabindex="-1">Recent Notes</h2>
-<p><em>dataview debug</em></p>
+<div class="block-language-dataview table-wrapper"><table class="dataview table-view-table">
+<thead class="table-view-thead">
+<tr class="table-view-tr-header">
+<th class="table-view-th">File</th>
+<th class="table-view-th">Last modified</th>
+</tr>
+</thead>
+<tbody class="table-view-tbody">
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/">index</a></td>
+<td>20.02.2024 - 17:25</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="2" href="/developer/UnrealEngine/Unreal Engine and Full Stack Web app/">Unreal Engine and Full Stack Web app</a></td>
+<td>20.02.2024 - 16:59</td>
+</tr>
+<tr>
+<td><a class="internal-link is-unresolved" href="/404" target="">Next-Planner</a></td>
+<td>20.02.2024 - 16:29</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Media Tools/Make MKV Ripper/">Make MKV Ripper</a></td>
+<td>20.02.2024 - 15:50</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="collections" tabindex="-1">Collections</h2>
+<div class="block-language-dataview table-wrapper"><table class="dataview table-view-table">
+<thead class="table-view-thead">
+<tr class="table-view-tr-header">
+<th class="table-view-th">File</th>
+<th class="table-view-th">Last modified</th>
+</tr>
+</thead>
+<tbody class="table-view-tbody">
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/CouchDB/">CouchDB</a></td>
+<td>20.02.2024 - 10:04</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Divoom Pixoo/">Divoom Pixoo</a></td>
+<td>20.02.2024 - 10:04</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a></td>
+<td>20.02.2024 - 10:04</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/DuckDNS/">DuckDNS</a></td>
+<td>20.02.2024 - 10:04</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a></td>
+<td>20.02.2024 - 10:04</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Dynamic DNS Choices/">Dynamic DNS Choices</a></td>
+<td>20.02.2024 - 10:04</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="pc-hardware" tabindex="-1">PC Hardware</h3>
+<div class="block-language-dataview table-wrapper"><table class="dataview table-view-table">
+<thead class="table-view-thead">
+<tr class="table-view-tr-header">
+<th class="table-view-th">File</th>
+<th class="table-view-th">codename</th>
+<th class="table-view-th">cost</th>
+</tr>
+</thead>
+<tbody class="table-view-tbody">
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Dell G5 Laptop/">Dell G5 Laptop</a></td>
+<td>sn0flake</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">Homelab Hardware PC Builds</a></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Intel NUC</a></td>
+<td>icicle</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel i7-7700 Custom PC/">Intel i7-7700 Custom PC</a></td>
+<td>nicOS</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/MacBook Pro M1 Laptop/">MacBook Pro M1 Laptop</a></td>
+<td>splitDrive</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/My GPU Journey/">My GPU Journey</a></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Phenom II X6 1045T Custom PC/">Phenom II X6 1045T Custom PC</a></td>
+<td>Kevin the Ripper</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Pi4</a></td>
+<td>rpi4</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Ryzen 5 5600x Custom PC/">Ryzen 5 5600x Custom PC</a></td>
+<td>FrostByte</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Ryzen 9 3900x Custom PC/">Ryzen 9 3900x Custom PC</a></td>
+<td>spearmint</td>
+<td>-</td>
+</tr>
+</tbody>
+</table></div>
 
       
       
@@ -4598,6 +4720,15 @@
                 <ol>
                     
                     <li><a href="#recent-notes">Recent Notes</a>
+            		</li>
+
+                    <li><a href="#collections">Collections</a>
+            
+                <ol>
+                    
+                    <li><a href="#pc-hardware">PC Hardware</a>
+            		</li>
+                </ol>
             		</li>
                 </ol>
             </nav>

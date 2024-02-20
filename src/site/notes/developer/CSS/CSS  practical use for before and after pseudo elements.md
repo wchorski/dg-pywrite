@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-practical-use-for-before-and-after-pseudo-elements/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS  practical use for before and after pseudo elements/","noteIcon":""}
 ---
 
 ## Credits

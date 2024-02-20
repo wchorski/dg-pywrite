@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/sound-design/reese-bass/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/Sound Design/Reese Bass/","noteIcon":""}
 ---
 
 > [!quote]

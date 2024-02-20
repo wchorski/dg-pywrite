@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/custom-audio-player-component-react-js-port/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Custom Audio Player Component - ReactJS Port/","noteIcon":""}
 ---
 
 describe_the_problem

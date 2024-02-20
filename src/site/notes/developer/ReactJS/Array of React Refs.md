@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/array-of-react-refs/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Array of React Refs/","noteIcon":""}
 ---
 
 Need to make an array of refs with the `useRef` hook. So how do I do add them programmatically inside `map` or `foreach`

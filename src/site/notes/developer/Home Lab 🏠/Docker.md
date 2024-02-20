@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/docker/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Docker/","noteIcon":""}
 ---
 
 ## [Home - Docker](https://www.docker.com/)

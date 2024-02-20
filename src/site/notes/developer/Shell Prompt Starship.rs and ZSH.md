@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/shell-prompt-starship-rs-and-zsh/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Shell Prompt Starship.rs and ZSH/","noteIcon":""}
 ---
 
 

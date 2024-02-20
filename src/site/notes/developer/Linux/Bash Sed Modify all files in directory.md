@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/bash-sed-modify-all-files-in-directory/","tags":["bash","linux","automation","batch"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash Sed Modify all files in directory/","tags":["bash","linux","automation","batch"],"noteIcon":""}
 ---
 
 Needed to batch edit the #frontmatter of my markdown files for my [[developer/Home Lab 🏠/Obsidian.md\|developer/Home Lab 🏠/Obsidian.md]] vault. 

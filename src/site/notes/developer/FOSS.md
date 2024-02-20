@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/foss/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/FOSS/","noteIcon":""}
 ---
 
 

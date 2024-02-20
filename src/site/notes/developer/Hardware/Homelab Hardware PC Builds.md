@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/homelab-hardware-pc-builds/","tags":["hardware","pc","mac","windows","linux","intel","amd"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Homelab Hardware PC Builds/","tags":["hardware","pc","mac","windows","linux","intel","amd"],"noteIcon":""}
 ---
 
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://pywrite-garden.tawtaw.site/">
-    <title>Pywrite Garden</title>
-    <link href="https://pywrite-garden.tawtaw.site//feed.xml" rel="self" >
-    <link href="https://pywrite-garden.tawtaw.site/" >
-    <updated>2024-02-20T18:15:40Z</updated>
-    <id>https://pywrite-garden.tawtaw.site/</id>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://pywrite-garden.tawtaw.site">
+    <title>Digital Garden</title>
+    <link href="https://pywrite-garden.tawtaw.site/feed.xml" rel="self" >
+    <link href="https://pywrite-garden.tawtaw.site" >
+    <updated>2024-02-20T18:18:14Z</updated>
+    <id>https://pywrite-garden.tawtaw.site</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2024-02-20T18:15:23Z</updated>
-            <id>https://pywrite-garden.tawtaw.site//</id>
+            <updated>2024-02-20T18:18:05Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/</id>
             <content type="html">
                 &lt;p&gt;Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously &#39;watered&#39; over time, fixing, updating, and growing this database of notes.&lt;/p&gt;
 &lt;h2 id=&quot;recent-notes&quot; tabindex=&quot;-1&quot;&gt;Recent Notes&lt;/h2&gt;
@@ -46,15 +46,15 @@
 &lt;p&gt;trying out wiki links instead... prob not a good idea but oh well&lt;/p&gt;
 
             </content>
-            <link href="https://pywrite-garden.tawtaw.site//" >
+            <link href="https://pywrite-garden.tawtaw.site/" >
         </entry>
         <entry>
             <title>
                 Home Assistant
                 
             </title>
-            <updated>2024-02-20T18:15:23Z</updated>
-            <id>https://pywrite-garden.tawtaw.site//developer/home-lab/home-assistant/</id>
+            <updated>2024-02-20T18:18:05Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Home Assistant (&lt;a href=&quot;http://home-assistant.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;home-assistant.io&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -155,15 +155,15 @@ sensor:
 &lt;/ul&gt;
 
             </content>
-            <link href="https://pywrite-garden.tawtaw.site//developer/home-lab/home-assistant/" >
+            <link href="https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/" >
         </entry>
         <entry>
             <title>
                 CasaOS
                 
             </title>
-            <updated>2024-02-20T18:15:23Z</updated>
-            <id>https://pywrite-garden.tawtaw.site//developer/casa-os/</id>
+            <updated>2024-02-20T18:18:05Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/casa-os/</id>
             <content type="html">
                 &lt;p&gt;I tried &lt;a href=&quot;https://casaos.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CasaOS - A simple, easy-to-use, elegant open-source personal cloud system&lt;/a&gt; as a turn key solution to run a handful of self hosted apps located in a family member&#39;s network.&lt;/p&gt;
 &lt;h2 id=&quot;my-thoughts&quot; tabindex=&quot;-1&quot;&gt;My Thoughts&lt;/h2&gt;
@@ -184,15 +184,15 @@ sensor:
 &lt;/ul&gt;
 
             </content>
-            <link href="https://pywrite-garden.tawtaw.site//developer/casa-os/" >
+            <link href="https://pywrite-garden.tawtaw.site/developer/casa-os/" >
         </entry>
         <entry>
             <title>
                 CSS Animated Bubble Background
                 
             </title>
-            <updated>2024-02-20T18:15:23Z</updated>
-            <id>https://pywrite-garden.tawtaw.site//developer/css/css-animated-bubble-background/</id>
+            <updated>2024-02-20T18:18:05Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/css/css-animated-bubble-background/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&#39;canvas&#39;&amp;gt;
   &amp;lt;div class=&#39;bubble&#39;&amp;gt;&amp;lt;/div&amp;gt;
@@ -1723,15 +1723,15 @@ sensor:
 &lt;/ul&gt;
 
             </content>
-            <link href="https://pywrite-garden.tawtaw.site//developer/css/css-animated-bubble-background/" >
+            <link href="https://pywrite-garden.tawtaw.site/developer/css/css-animated-bubble-background/" >
         </entry>
         <entry>
             <title>
                 CMS Page Builder
                 
             </title>
-            <updated>2024-02-20T18:15:23Z</updated>
-            <id>https://pywrite-garden.tawtaw.site//developer/cms-page-builder/</id>
+            <updated>2024-02-20T18:18:05Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/cms-page-builder/</id>
             <content type="html">
                 &lt;p&gt;I&#39;m looking for a drop in page builder I can serve to customers as a benefit to the &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KYPN/KYPN Stack&lt;/a&gt; templates I&#39;m designing. &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KeystoneJS/KeystoneJS&lt;/a&gt; has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.&lt;/p&gt;
 &lt;h2 id=&quot;options&quot; tabindex=&quot;-1&quot;&gt;Options&lt;/h2&gt;
@@ -1748,15 +1748,15 @@ sensor:
 &lt;/ul&gt;
 
             </content>
-            <link href="https://pywrite-garden.tawtaw.site//developer/cms-page-builder/" >
+            <link href="https://pywrite-garden.tawtaw.site/developer/cms-page-builder/" >
         </entry>
         <entry>
             <title>
                 Backup Solutions
                 
             </title>
-            <updated>2024-02-20T18:15:23Z</updated>
-            <id>https://pywrite-garden.tawtaw.site//developer/backup-solutions/</id>
+            <updated>2024-02-20T18:18:05Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/backup-solutions/</id>
             <content type="html">
                 &lt;p&gt;This is my chain of programs that help me backup and store data whether it&#39;s local clone, version controlled, and or remote sight backups&lt;/p&gt;
 &lt;ul&gt;
@@ -1821,15 +1821,15 @@ sensor:
 &lt;/ul&gt;
 
             </content>
-            <link href="https://pywrite-garden.tawtaw.site//developer/backup-solutions/" >
+            <link href="https://pywrite-garden.tawtaw.site/developer/backup-solutions/" >
         </entry>
         <entry>
             <title>
                 Removing Samsung and Google Bloatware from Android 12
                 
             </title>
-            <updated>2024-02-20T18:15:23Z</updated>
-            <id>https://pywrite-garden.tawtaw.site//developer/android/removing-samsung-and-google-bloatware-from-android-12/</id>
+            <updated>2024-02-20T18:18:05Z</updated>
+            <id>https://pywrite-garden.tawtaw.site/developer/android/removing-samsung-and-google-bloatware-from-android-12/</id>
             <content type="html">
                 &lt;p&gt;I tried installing &lt;a href=&quot;https://lineageos.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;LineageOS&lt;/a&gt; on my Samsung Galaxy s9 and s10 phones. Unfortunately my &lt;a href=&quot;https://wiki.lineageos.org/devices/beyond1lte/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;model wasn&#39;t supported&lt;/a&gt; (just one letter off 😑).&lt;/p&gt;
 &lt;p&gt;I still wanted to use this phone, but learn how to remove all the annoying Samsung and Google bloatware that they make impossible to remove in the phone&#39;s UI&lt;/p&gt;
@@ -1902,6 +1902,6 @@ adb shell cmd package list packages
 &lt;/ul&gt;
 
             </content>
-            <link href="https://pywrite-garden.tawtaw.site//developer/android/removing-samsung-and-google-bloatware-from-android-12/" >
+            <link href="https://pywrite-garden.tawtaw.site/developer/android/removing-samsung-and-google-bloatware-from-android-12/" >
         </entry>
 </feed>

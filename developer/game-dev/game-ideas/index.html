@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Modern Image Caption</title>
+    <title>Game Ideas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -444,7 +444,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/css/modern-image-caption/">Modern Image Caption </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/css/modern-image-caption/">Modern Image Caption </a>
                 </div>
             
         </div>
@@ -890,7 +890,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/game-dev/game-ideas/">Game Ideas </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/game-dev/game-ideas/">Game Ideas </a>
                 </div>
             
         </div>
@@ -1881,7 +1881,7 @@
     <main class="content cm-s-obsidian ">
       <header>
         
-          <h1 data-note-icon="">Modern Image Caption</h1>
+          <h1 data-note-icon="">Game Ideas</h1>
         
         <div class="header-meta">
           
@@ -1896,67 +1896,67 @@
       </header>
       
       
-      <p>Having a subtle caption that floats / aligns to the right with some hover effects seems simple right? Well, it was a bit confusing until I found out about <code>display: inline-flex;</code> and  <code>display: inline-table;</code></p>
-<h2 id="example" tabindex="-1">Example</h2>
-<html> <head> <style>.imgWrapper:hover > span {outline:dotted <a class="tag" onclick="toggleTagSearch(this)" data-content="#9a9a9a">#9a9a9a</a> 1px;box-shadow:#000 a8 2px 2px 11px 5px} .imgWrapper:hover small.caption span {background-color:#303a00;color:#ccc}</style> </head> <body> <div class="imgWrapper" style="cursor:zoom-in; display:inline-flex; flex-direction:column; transition:1s"> <span style="box-shadow:#000 1px 1px 4px 2px; outline:solid #505050 1px; transition:inherit"> <img alt="cute Lapphund Finnish pupper " srcset="https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg" width=150 height=200> </span> <small class="caption" aria-label="also a custom tooltip " style="color:grey; display:inline-table; padding:1em 0.5em; text-align:end; transition:inherit" align="end"> <span style="padding:1em 0.5em"> → cute Lapphund Finnish pupper </span> </small> </div> </body> </html>
-<hr>
-<h2 id="source-code" tabindex="-1">Source Code</h2>
-<pre><code class="language-html">&lt;div class=&quot;imgWrapper&quot;&gt;
-	&lt;span&gt;
-		&lt;img alt=&quot;helpme &quot; srcset=&quot;https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg&quot; &gt;
-	&lt;/span&gt;
-
-	&lt;small class=&quot;caption&quot; aria-label=&quot;helpme &quot;&gt;
-		&lt;span&gt; → helpme &lt;/span&gt;
-	&lt;/small&gt;
-&lt;/div&gt;
-</code></pre>
-<pre><code class="language-scss">.imgWrapper{
-
-  transition: 1s;
-  display: inline-flex;
-  flex-direction: column;
-  cursor: zoom-in;
-
-  // img cont
-  &gt; span{
-    outline: solid rgb(80, 80, 80) 1px;
-    box-shadow: <a class="tag" onclick="toggleTagSearch(this)" data-content="#000000">#000000</a> 1px 1px 4px 2px;
-    transition: inherit;
-  }
-
-  small.caption{
-    color: grey;
-    display: inline-table;
-    text-align: end;
-    padding: 1em .5em;
-    transition: inherit;
-    
-    span{
-      padding: 1em .5em;
-    }
-  }
-
-  &amp;:hover{
-    &gt; span{
-      outline: dotted rgb(154, 154, 154) 1px;
-      box-shadow: <a class="tag" onclick="toggleTagSearch(this)" data-content="#000000a8">#000000a8</a> 2px 2px 11px 5px;
-    }
-
-    small.caption{
-      span{
-        background-color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#303a00">#303a00</a>;
-        color: rgb(204, 204, 204);
-      }
-    }
-  }
-}
-</code></pre>
-<hr>
-<h2 id="backlinks" tabindex="-1">Backlinks</h2>
+      <h2 id="peer-pressure" tabindex="-1">Peer Pressure</h2>
+<p>going of the static script of <a class="internal-link" target="" data-note-icon="" href="/developer/game-dev/dark-room-white-tunnel/">developer/GameDev 🕹/Dark Room White Tunnel</a>. use <a href="https://twinery.org/" target="_blank" class="external-link">Twine</a> to construct the branching storylines and mechanics of the game</p>
+<p>start off as 1 of 4 player<br>
+First branch is declining the drug. leave un scathed</p>
+<p>If you take the drug you are then propelled into a series of quick time events</p>
+<p>If you mess up you black out</p>
+<p>The scene starts again with the door opening but now you're a different character. You are presented the same choices with subtle changes in quick time events that throw off the player.</p>
+<p>After 2 failed attempts the game clock speed gets faster.</p>
+<p>after multiple failed attempts the game loop becomes so fast it's unplayable. Hopefully causing the player to mash or hold buttons to quit the game.</p>
+<p>Quick time events</p>
+<p>Your character comes incredibly small and you try not to get stepped on by others</p>
+<h3 id="endings" tabindex="-1">ENDINGS</h3>
+<ol>
+<li>intended loss of psyche and end up in Utopia (turns into a FPS)</li>
+<li>fall into personal scary hell</li>
+<li>Make one really good linear story and branch from there.</li>
+<li>Make 2 NPCs have a love interested that you can break or make</li>
+<li>Give each character a love language</li>
+</ol>
+<h3 id="game-mechanic-stats" tabindex="-1">Game mechanic stats</h3>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/css/cascading-style-sheet-tips-and-tricks/">developer/CSS/Cascading Style Sheet Tips &amp; Tricks</a></li>
+<li>Intoxication: more (or less) drinks trigger events</li>
+<li>Evil &amp; good: decisions tip other characters karma scales. (Get on their good or bad side)</li>
+<li>Sight and hearing: certain decisions can heighten or destroy sight or hearing</li>
+<li>Different types of currency.</li>
+<li>Upgrade to see stats and inventory after certain play through</li>
 </ul>
+<hr>
+<h2 id="monster-park" tabindex="-1">Monster Park</h2>
+<h3 id="inspiration" tabindex="-1">Inspiration</h3>
+<ul>
+<li>Sonic AB2 - Chao garden</li>
+<li>Pokemon farm</li>
+<li>Guppies</li>
+</ul>
+<h3 id="feature-list" tabindex="-1">Feature list</h3>
+<p>Breed</p>
+<ul>
+<li>Cross bread (interchangeable head, body, horns/ears, face</li>
+<li>trade, or show off via mobile?</li>
+<li>Stats: strength, speed, health, ect</li>
+<li>Contests: race, fight, beauty.</li>
+<li>Pray vs preditor. Notice and react to animal on animal</li>
+</ul>
+<hr>
+<h2 id="progress-bar" tabindex="-1">Progress Bar</h2>
+<p>Pop ups with multiple &quot;install&quot; like wizards that pop up that need some interaction.</p>
+<p>perfect to write in a JS framework</p>
+<ul>
+<li>Some pop ups are bad and need to be canceled.</li>
+<li>Some installs error out and need to be restarted again.</li>
+<li>Make with JS to flex web development</li>
+</ul>
+<hr>
+<h2 id="simon-says-game" tabindex="-1">Simon Says Game</h2>
+<p>Simon pattern game with dubstep wobbles as the sounds. Use as a cool promo idea for Split Skream</p>
+<hr>
+<h2 id="lights-out" tabindex="-1">Lights Out</h2>
+<p>Instead of health you have torches of light<br>
+Creatures drop from ceiling and extinguish lights<br>
+Gotta dodge creatures while also keeping torches lit</p>
 
       
       
@@ -2197,13 +2197,37 @@
                                           <nav class="toc">
                 <ol>
                     
-                    <li><a href="#example">Example</a>
+                    <li><a href="#peer-pressure">Peer Pressure</a>
+            
+                <ol>
+                    
+                    <li><a href="#endings">ENDINGS</a>
             		</li>
 
-                    <li><a href="#source-code">Source Code</a>
+                    <li><a href="#game-mechanic-stats">Game mechanic stats</a>
+            		</li>
+                </ol>
             		</li>
 
-                    <li><a href="#backlinks">Backlinks</a>
+                    <li><a href="#monster-park">Monster Park</a>
+            
+                <ol>
+                    
+                    <li><a href="#inspiration">Inspiration</a>
+            		</li>
+
+                    <li><a href="#feature-list">Feature list</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#progress-bar">Progress Bar</a>
+            		</li>
+
+                    <li><a href="#simon-says-game">Simon Says Game</a>
+            		</li>
+
+                    <li><a href="#lights-out">Lights Out</a>
             		</li>
                 </ol>
             </nav>

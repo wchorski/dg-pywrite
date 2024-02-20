@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/js-get-timezone-of-client/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/JS Get timezone of client/","noteIcon":""}
 ---
 
 ```javascript

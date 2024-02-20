@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/open-rgb/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/OpenRGB/","noteIcon":""}
 ---
 
 ## Install

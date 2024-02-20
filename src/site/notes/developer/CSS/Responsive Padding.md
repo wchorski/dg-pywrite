@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/responsive-padding/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Responsive Padding/","noteIcon":""}
 ---
 
 

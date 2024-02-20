@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/only-office/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/OnlyOffice/","noteIcon":""}
 ---
 
 #FOSS #office #edit #powerpoint #word #excel 

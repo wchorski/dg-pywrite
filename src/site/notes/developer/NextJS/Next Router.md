@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/next-router/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/Next Router/","noteIcon":""}
 ---
 
 ## use isReady if query is empty 

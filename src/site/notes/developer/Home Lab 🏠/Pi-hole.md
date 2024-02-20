@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/pi-hole/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Pi-hole/","noteIcon":""}
 ---
 
 > [!info] [Pi-hole – Network-wide protection](https://pi-hole.net/)

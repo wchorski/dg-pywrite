@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/git/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/GIT/","noteIcon":""}
 ---
 
 

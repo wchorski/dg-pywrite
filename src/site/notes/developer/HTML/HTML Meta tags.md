@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-meta-tags/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML Meta tags/","noteIcon":""}
 ---
 
 describe_the_problem

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/sound-design/dusty-percussion/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/Sound Design/Dusty Percussion/","noteIcon":""}
 ---
 
 1. send the drum bus to a convolution reverb return channel

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/mount-a-drive/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Mount a Drive/","noteIcon":""}
 ---
 
 #linux #terminal #commandline

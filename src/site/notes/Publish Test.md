@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/publish-test/","title":"Markdown Testing Ground for Published Notes","noteIcon":""}
+{"dg-publish":true,"permalink":"/Publish Test/","title":"Markdown Testing Ground for Published Notes","noteIcon":""}
 ---
 
 trying out wiki links instead 

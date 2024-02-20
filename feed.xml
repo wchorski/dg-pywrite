@@ -3,14 +3,14 @@
     <title>Pywrite Garden</title>
     <link href="https://pywrite-garden.tawtaw.site/feed.xml" rel="self" >
     <link href="https://pywrite-garden.tawtaw.site" >
-    <updated>2024-02-20T18:51:43Z</updated>
+    <updated>2024-02-20T19:07:35Z</updated>
     <id>https://pywrite-garden.tawtaw.site</id>
         <entry>
             <title>
                 notes
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/</id>
             <content type="html">
                 &lt;p&gt;Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously &#39;watered&#39; over time, fixing, updating, and growing this database of notes.&lt;/p&gt;
@@ -53,7 +53,7 @@
                 vaultwarden
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/vaultwarden/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;dani-garcia/vaultwarden:&lt;/a&gt; Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/p&gt;
@@ -67,7 +67,7 @@
                 umami
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/umami/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://umami.is/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Umami&lt;/a&gt;&lt;/p&gt;
@@ -85,7 +85,7 @@ It&#39;s a good idea to have a domain name to reflect the app that lives at that
                 portainer
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/portainer/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#docker&quot;&gt;#docker&lt;/a&gt;&lt;/p&gt;
@@ -160,7 +160,7 @@ sudo docker-compose up -d
                 nicolargo.github.io
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nicolargo-github-io/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;nHbzUj1GWRpmVlUW7kvXgBui&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f02000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -173,7 +173,7 @@ sudo docker-compose up -d
                 XMRig
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/xm-rig/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -197,7 +197,7 @@ High performance, open source, cross platform RandomX, KawPow, CryptoNight and G
                 Wordpress
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/wordpress/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;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&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f08000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -210,7 +210,7 @@ High performance, open source, cross platform RandomX, KawPow, CryptoNight and G
                 WLED
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/wled/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-github-com-target-blank-class-external-link-github-com-a-a-href-http-github-com-target-blank-class-external-link-github-com-a-aircoookie-wled-a-href-http-github-com-target-blank-class-external-link-github-com-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Aircoookie/WLED (&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github.com&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -248,7 +248,7 @@ A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control 
                 Thunderbird
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/thunderbird/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;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&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f07000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -261,7 +261,7 @@ A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control 
                 SFTP
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/sftp/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;LjAgy6pFTIBUizMdhVStOU8Y3uqq3U3w8++Y/7oBLMEMlVtldQjD9n3Rd7TEk3YMAGXLe52VdFpX0UYNsXj77sPXoNwH9EemuTJRmeP++UgP/tV7sB2MYM1FzUjBYUqgM/ecGbHEGAhZIh5O9lhgn/87q1uZDLcqtmyv8kPQFxkScwrxiNe9nQhhK+wFs4yqZ+fykFIyTjcp68WbcB+nFjaKYmrMHqhrAPVlZMszUrWdUjpnsJpZa9aYbqG8TAqeow/hicVMhuAY/nMXl0p+1jZSXJWcW5A915ysay14VQEuTdLIqwTlKXDyZk8zSIN8r6DYCRkYlWo1nL7ojTd3TqSJFUvkPLrDot8pagNqdqlHF4VBOlwKN1arh7nvu1Qfym3LuT0WleZIuKM3SWRaejHmgnI9B9POFIsG5yo6owtoS0r3KrZ2WBmYIvjQyCHScDA8lLekfIKfgcX2k+wzbq6G+QSK75QfHk1825Lkyt4/5zs0HF2mMCsec9sgxle/COfvZLsTV+BltwiTjRIZ0q7UWh/Kz7gvBIAXAb8TKOn9VI4mR7/2IK8ycC1W7U13Sl6Hu+R7sp74ktrg1sCBRh+zJBkmEybo2OQIK/RXgkMivePOWMNfDKnSaz9CgwDTBK2smOqZ1kVHz0vHYC3S5l22Yqs47R/jE9gL4bceRU+BdyJDCAD9+SUd9JoItKBzsWJfKBiTpsnV0lWwM7lL/x7LT1YD8olu8vYfd9rQlZjswbigrAusm+C+IyKzzkEHlClzlDm0Apoytl2eIWcfdY52gvT49rwDZjSNTzEXU1bXSHnTgwfNabCvO2fIXelAkjzLnq3qftFRvDNqlRYXgYs9sEoCReG18qEZPldSb6ba/JGnLRC4eMsMu9cvRXBuWdGQORek9KbBN6XPja/Zvjk7M7flYDKWJrwjh/KF/XCwZsXI33xjTgnh6YKQGVJ7RBpp20ycxiBw4O+I/o0f+jkTSalDSzLIz81M/Si2g8QhPUpp3JNP6x4IweBXR66hHI5ZxwpUY/0KReVF+3ZV1qvAtaWFagU3fkbwecy3TO5hhv88hPi+xSYWDiNjSFo5B9CyKO7lUrH9w1syAKQq2PUdvrQHRDXDGVi/lYwQ5MUuVbLHtPKbLqZXjy8m/AMG2/yiE2gCUV4vClJsxTkfuuT9uQ==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f06000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -274,7 +274,7 @@ A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control 
                 SAMBA
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/samba/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -297,7 +297,7 @@ Since &lt;a href=&quot;https://www.samba.org/samba/docs/10years.html&quot; targ
                 Pretty URLs for Your Internal Network
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pretty-ur-ls-for-your-internal-network/</id>
             <content type="html">
                 &lt;h2 id=&quot;tools&quot; tabindex=&quot;-1&quot;&gt;Tools&lt;/h2&gt;
@@ -319,7 +319,7 @@ Since &lt;a href=&quot;https://www.samba.org/samba/docs/10years.html&quot; targ
                 Plex.tv
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/plex-tv/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#music&quot;&gt;#music&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#movie&quot;&gt;#movie&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tv&quot;&gt;#tv&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#film&quot;&gt;#film&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#media&quot;&gt;#media&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#player&quot;&gt;#player&lt;/a&gt;&lt;/p&gt;
@@ -374,7 +374,7 @@ services:
                 PiVPN
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pi-vpn/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -471,7 +471,7 @@ Done
                 Pi-hole
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/pi-hole/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -554,7 +554,7 @@ fi
                 PhotoPrism
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/photo-prism/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#pictures&quot;&gt;#pictures&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhosted&quot;&gt;#selfhosted&lt;/a&gt;&lt;/p&gt;
@@ -697,7 +697,7 @@ networks:
                 OpenRGB
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/open-rgb/</id>
             <content type="html">
                 &lt;h2 id=&quot;install&quot; tabindex=&quot;-1&quot;&gt;Install&lt;/h2&gt;
@@ -728,7 +728,7 @@ sudo add-apt-repository --remove ppa:thopiekar/openrgb
                 OnlyOffice
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/only-office/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#FOSS&quot;&gt;#FOSS&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#office&quot;&gt;#office&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#edit&quot;&gt;#edit&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#powerpoint&quot;&gt;#powerpoint&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#word&quot;&gt;#word&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#excel&quot;&gt;#excel&lt;/a&gt;&lt;/p&gt;
@@ -760,7 +760,7 @@ but wasn&#39;t satisfied. &lt;strong&gt;OnlyOffice&lt;/strong&gt; has some great
                 Obsidian.md
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-md/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#notes&quot;&gt;#notes&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#markdown&quot;&gt;#markdown&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt;&lt;/p&gt;
@@ -867,7 +867,7 @@ To utilize storage on an SD card you have to save it in a specific spot &lt;code
                 Obsidian-Livesync
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/obsidian-livesync/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#github&quot;&gt;#github&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#netlify&quot;&gt;#netlify&lt;/a&gt;&lt;/p&gt;
@@ -1084,7 +1084,7 @@ services:
                 Nginx Proxy Manager
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nginx-proxy-manager/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -1255,7 +1255,7 @@ Password: changeme
                 Nextcloud
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/nextcloud/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cloud&quot;&gt;#cloud&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gmail&quot;&gt;#gmail&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#opensource&quot;&gt;#opensource&lt;/a&gt;&lt;/p&gt;
@@ -1385,7 +1385,7 @@ From there I could then pull the v20 docker image and run the upgrade to v20 usi
                 NextJS
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/next-js/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#javascript&quot;&gt;#javascript&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reactjs&quot;&gt;#reactjs&lt;/a&gt;&lt;/p&gt;
@@ -1720,7 +1720,7 @@ export async function getStaticPaths() {
                 Motion Eye Camera
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/motion-eye-camera/</id>
             <content type="html">
                 &lt;p&gt;integration with &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt; as plug and play CCTV instillation.&lt;/p&gt;
@@ -1734,7 +1734,7 @@ export async function getStaticPaths() {
                 Mosquitto MQTT Broker
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/mosquitto-mqtt-broker/</id>
             <content type="html">
                 &lt;p&gt;Frigate with Home Assistant requires an MQTT broker. Here is how to set it up&lt;/p&gt;
@@ -1794,7 +1794,7 @@ password_file /mosquitto/config/password.txt
                 MQTT Mosquitto
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/mqtt-mosquitto/</id>
             <content type="html">
                 &lt;p&gt;hero_image&lt;/p&gt;
@@ -1950,7 +1950,7 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m &#39;hello MQTT&#39
                 Jellyfin
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/jellyfin/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#music&quot;&gt;#music&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#media&quot;&gt;#media&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#player&quot;&gt;#player&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#itunes&quot;&gt;#itunes&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#bash&quot;&gt;#bash&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#powershell&quot;&gt;#powershell&lt;/a&gt;&lt;/p&gt;
@@ -2020,7 +2020,7 @@ services:
                 InfluxDB
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/influx-db/</id>
             <content type="html">
                 &lt;h2 id=&quot;install&quot; tabindex=&quot;-1&quot;&gt;Install&lt;/h2&gt;
@@ -2071,7 +2071,7 @@ INFLUX_BUCKET=YOUR_BUCKET
                 Hyperion
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/hyperion/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-hyperion-project-org-target-blank-class-external-link-hyperion-project-org-a-a-href-http-hyperion-project-org-target-blank-class-external-link-hyperion-project-org-a-install-hyperion&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Install Hyperion &lt;/a&gt;)&lt;/h2&gt;
@@ -2167,7 +2167,7 @@ INFLUX_BUCKET=YOUR_BUCKET
                 Home Lab 🏠
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/home-lab/</id>
             <content type="html">
                 &lt;h2 id=&quot;network-routing&quot; tabindex=&quot;-1&quot;&gt;Network Routing&lt;/h2&gt;
@@ -2322,7 +2322,7 @@ router &lt;-- fiber 400mbps --&gt; internet&lt;/pre&gt;&lt;h2 id=&quot;pi4-debia
                 Home Assistant
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Home Assistant (&lt;a href=&quot;http://home-assistant.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;home-assistant.io&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -2431,7 +2431,7 @@ sensor:
                 Grafana &amp; InfluxDB
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/grafana-and-influx-db/</id>
             <content type="html">
                 &lt;p&gt;I use the Grafana and InfluxDB &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt; integrations to better track and monitor all sorts of sensors and services.&lt;/p&gt;
@@ -2452,7 +2452,7 @@ sensor:
                 Glances
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/glances/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -2516,7 +2516,7 @@ run &lt;code&gt;pip install glances&lt;/code&gt; &amp;amp; &lt;code&gt;pip insta
                 Frigate NVR
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/frigate-nvr/</id>
             <content type="html">
                 &lt;p&gt;A complete CCTV system that is integrated into &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://pywrite-garden.tawtaw.site/developer/home-lab/home-assistant/&quot;&gt;developer/Home Lab 🏠/Home Assistant&lt;/a&gt;, This was impart inspired by the lack luster results from &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;motion eye&lt;/a&gt; with it&#39;s integrated Object Detection&lt;/p&gt;
@@ -2636,7 +2636,7 @@ services:
                 FreeFileSync
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/free-file-sync/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#backup&quot;&gt;#backup&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cross_platform&quot;&gt;#cross_platform&lt;/a&gt;&lt;/p&gt;
@@ -2672,7 +2672,7 @@ Open Source, Cross Platform File Synchronization &amp;amp; Backup Software&lt;/p
                 Dynamic DNS Choices
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/dynamic-dns-choices/</id>
             <content type="html">
                 &lt;p&gt;You got your shiny self hosted app and you about to open it up to the world. No problem, just have people type in your public IP address. i.e. &lt;code&gt;98.143.344.321&lt;/code&gt; in the address bar to get to you&#39;re site.&lt;/p&gt;
@@ -2734,7 +2734,7 @@ Without a &lt;strong&gt;Static IP&lt;/strong&gt; your service provider can and w
                 Duplicati
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/duplicati/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-www-duplicati-com-target-blank-class-external-link-duplicati-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://www.duplicati.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Duplicati&lt;/a&gt;&lt;/h2&gt;
@@ -2813,7 +2813,7 @@ sudo systemctl enable duplicati
                 DuckDNS
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/duck-dns/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Duck&lt;/a&gt; DNS (&lt;a href=&quot;http://www.duckdns.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;www.duckdns.org&lt;/a&gt;)&lt;/p&gt;
@@ -2856,7 +2856,7 @@ sudo service cron start
                 Docker
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/docker/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-www-docker-com-target-blank-class-external-link-home-docker-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Home - Docker&lt;/a&gt;&lt;/h2&gt;
@@ -2955,7 +2955,7 @@ docker compose -f /mnt/uasis5/node/filesystem-livesync-pywriter4/compose.yml res
                 Divoom Pixoo
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/divoom-pixoo/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a-a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a-divoom-pixoo-a-href-http-divoom-com-target-blank-class-external-link-divoom-com-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;Divoom Pixoo (&lt;a href=&quot;http://divoom.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;divoom.com&lt;/a&gt;)&lt;/a&gt;)&lt;/h2&gt;
@@ -3053,7 +3053,7 @@ script:
                 CouchDB
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/home-lab/couch-db/</id>
             <content type="html">
                 &lt;h2 id=&quot;a-href-https-couchdb-apache-org-target-blank-class-external-link-apache-couch-db-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://couchdb.apache.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Apache CouchDB&lt;/a&gt;&lt;/h2&gt;
@@ -3149,7 +3149,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 CasaOS
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/casa-os/</id>
             <content type="html">
                 &lt;p&gt;I tried &lt;a href=&quot;https://casaos.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CasaOS - A simple, easy-to-use, elegant open-source personal cloud system&lt;/a&gt; as a turn key solution to run a handful of self hosted apps located in a family member&#39;s network.&lt;/p&gt;
@@ -3178,7 +3178,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 has Selector
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/has-selector/</id>
             <content type="html">
                 &lt;p&gt;I see a lot of potential in the &lt;code&gt;:has()&lt;/code&gt; selector, expecially when it comes to input fields&lt;/p&gt;
@@ -3213,7 +3213,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 Working With Inconsistent Logos
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/working-with-inconsistent-logos/</id>
             <content type="html">
                 &lt;p&gt;There are a few common problems when working with not so stellar logos sent in by the client&lt;/p&gt;
@@ -3248,7 +3248,7 @@ In Node 18, &lt;code&gt;localhost&lt;/code&gt; ===&amp;gt; &lt;code&gt;::1&lt
                 Toggle Checkbox CSS
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/toggle-checkbox-css/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;input[type=&amp;quot;checkbox&amp;quot;].toggle {
@@ -3329,7 +3329,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Styling to Print
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/styling-to-print/</id>
             <content type="html">
                 &lt;h2 id=&quot;hide-or-show-when-printing&quot; tabindex=&quot;-1&quot;&gt;Hide or Show When Printing&lt;/h2&gt;
@@ -3383,7 +3383,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Style Containers on top of Eachother
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/style-containers-on-top-of-eachother/</id>
             <content type="html">
                 &lt;h2 id=&quot;credit&quot; tabindex=&quot;-1&quot;&gt;Credit&lt;/h2&gt;
@@ -3403,7 +3403,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Smooth Scroll On Everything
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/smooth-scroll-on-everything/</id>
             <content type="html">
                 &lt;p&gt;Smooth scrolling when moving to a different element on the same page gives any app that modern feel.&lt;/p&gt;
@@ -3429,7 +3429,7 @@ input[type=&amp;quot;checkbox&amp;quot;].toggle:checked + label {
                 Sass
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/sass/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -3446,7 +3446,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Responsive Padding
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/responsive-padding/</id>
             <content type="html">
                 &lt;h2 id=&quot;magic-formula&quot; tabindex=&quot;-1&quot;&gt;Magic Formula&lt;/h2&gt;
@@ -3470,7 +3470,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 React JSX Dynamic Overlay Color
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/react-jsx-dynamic-overlay-color/</id>
             <content type="html">
                 &lt;h3 id=&quot;tutorials&quot; tabindex=&quot;-1&quot;&gt;tutorials&lt;/h3&gt;
@@ -3492,7 +3492,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Preserve Line Breaks in textarea tag
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/preserve-line-breaks-in-textarea-tag/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;BHdiVZ88rU75/T13g2x4Czrr7k6qelahRqmq7mbEpIPxzI0SQjaD0+HWgekbLVWgdmw5zY8KIm6iLuGCSCg49m5DJJrFEaJ4ZzIMZDkjoKdkjA03RLlCjd93fdo3yqqAjQnDnURh+PH2OCwiNy2C+S6t6ssVpQgf/uvvg3m6kF7IxYqWFkZWmVZkx7LBfV9jYAY3eHvWMNKX3PgsN8w5kxefmuRBN8AOXtfY8B3KgFqtSogLALUpGmTyQG8cmAOZ3EfC0op0LSLg9QamfPvhBJlMbpOab5LtbxQq+kAvQElvo5sPdX35APwxD3nye2zGu8WwanJxFHQZqKaye2/4beXclMAezu4wDC6F6MnPT0ilyGeNR7AEnstb9ItGDpMY0UaxwlhzYGVEZ1DVXPWmdZOXHI/5s5KhpQTGFv/lYlmW5ZlDvSOlvPPcBIoDo8Z5AAlRD00h3Lj2oBlA/1V5DHyuA4U6zPeaIewNyevk3AzWqUfzsa+4PGlMKPvcy+Ekrh+w3k2SIVnPCJ/deOCzwDIYMw0wbkl3wvh3xvpk0V1gMLYRNd501nXePCmCtMmbUzMXtyIXjt7tvXDCmPWnZf7qCnDR5nKD0KGlLyGnerLoJT1N2NA6QUlr9NGBTXHUtZMdd8xTx0TF73HrC2t0T/RaJU/eu6kwhTAQrIYthKTH3LFGe3x0/iEMOJjrB26dELz5ZxZAMbq3n4LgiN5dRt/N9TlDOUMrpUtK1uxeLIAcEYkn7wlzRi524O12e25QdsW5+AieHQ==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f04000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -3505,7 +3505,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Modern Image Caption
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/modern-image-caption/</id>
             <content type="html">
                 &lt;p&gt;Having a subtle caption that floats / aligns to the right with some hover effects seems simple right? Well, it was a bit confusing until I found out about &lt;code&gt;display: inline-flex;&lt;/code&gt; and  &lt;code&gt;display: inline-table;&lt;/code&gt;&lt;/p&gt;
@@ -3578,7 +3578,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Hide Reveal Error Message
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/hide-reveal-error-message/</id>
             <content type="html">
                 &lt;p&gt;clever way to animate an error message in and out. The error element is hidden when there is no inner text or html present, but once filled with content it will be revealed to the UI&lt;/p&gt;
@@ -3612,7 +3612,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Header Text overlap
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/header-text-overlap/</id>
             <content type="html">
                 &lt;p&gt;[&amp;quot;eowIygzv3Vx2QITmHRDaP3WTWS0eltLNMrXUSRulae0x12etME8F75NJl9HQWmR3lnESs+wtyBWNcSOQI9lGBjV95zVT0xBomIOFFZ8+G5guFzm5WOJFnU3DLlZJTXAg+JlXUdmmrMKSIOI33mb1qTdt1Bf2YWKXygN1re/DkVAIFNxcGYbudSUxaGmIFEWukCdN4juYo098og5h8oMI7XlQ4V+OuAE6UiFI++5hVkJyfgj4OQZDePKtF/bzL2k63soTD0E01NkfElTLBG/eUme85futIB6YWjfi8dqClORGRYYDMibenSkiQcnqY8cVdiR05urFJu8ugMdz6rNmIe/7LAz8pLSEwYt46tdqXJBYtJMGyf3bOC0jsjoUVHSOertI7ThNPOV+nENLHejS1qOQB6r72hYrQFHVmV6lNnn7LVJ1SwRfrMsMdrhAO9CYVA/dfFKiBGwwlnn5R7iTtGgKUyFEtZKLUR7+QojZm/49Taqjdg83NS8WpuUP8MM3IlE4zXo0epjwwjd+vDRzO0FeBjBifoKTYGTJVixRhMKLSHP3xUGmGhn6iNzJBgtwSx7O6gEwleygDyWKOHUOqqpI2XRyxcbTC8DddIdomK5MsdvKK70U6H5cUrfFZIEBhunhrn45CotsKOQ1Fwfm6sBhhCffJx0lLtSFEXcES+K+tNkI6hmjWkN+BWCCxU7kaR8gELjDL95vI1YWuwiEh6HMTYyxsjESGcVAq4MPsHR/nzjkAIUQrIc1R49CfD4Qb0i4YVWuZOttggdet/N4bgy73nVAdTynbShSGOeVnOHxyqUmSUNWf1t3cgJZCvsx7Jd3CcY0R6d2HzkGzON3amLzbpbYLb4jvdRMBbpo6+eQvsCAWPFppRMTesVr3YNXvVxZIf4QC0R543U2wixS3xb8URI29tOAU3Va3QhUZrvk9x0xPuwAFHOPikjziMDbhR3XKbK3yhUR2uaxHA6edUgPlr+97846GEC2zhxl1n1qVAWUE08XHo/RW29NfslDllZgTnTV21siEczC5YSpG/RCil9sOCi6yfEWOq/iVXAVIbv+802cpBgWj4qpMXkOf0iymuzdRrkLLviayg3b3WWT9b8IpNBmTsKYfL8nBDkfhiZAiToOwzGn2+yz0Vn6cPk1Ub2Nwdvhmq7MA8K3mkfTeXYC/T6jY5y4NeAJ7OoHflnvKGE9qgOQJZH5Hxgy99vlLpT/4tEKsDaQ3uBrsJwnlOxp0wRziKPMZ0hUEp39KA==&amp;quot;,&amp;quot;b16ddda25e8fe7fe29028f1f03000000&amp;quot;,&amp;quot;2cbeffc2b648a743e96afe83f914215a&amp;quot;]&lt;/p&gt;
@@ -3625,7 +3625,7 @@ Sass is the most mature, stable, and powerful professional grade CSS extension
                 Center and Fit Image the Right Way
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/center-and-fit-image-the-right-way/</id>
             <content type="html">
                 &lt;p&gt;I wanted a defacto way to center an image. Looks like I found a decent way&lt;/p&gt;
@@ -3664,7 +3664,7 @@ picture img {
                 Cascading Style Sheet Tips &amp; Tricks
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/cascading-style-sheet-tips-and-tricks/</id>
             <content type="html">
                 
@@ -3676,7 +3676,7 @@ picture img {
                 CSS
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css/</id>
             <content type="html">
                 &lt;h3 id=&quot;if-parent-has-input-that-is-checked&quot; tabindex=&quot;-1&quot;&gt;if parent has input that is checked&lt;/h3&gt;
@@ -3823,7 +3823,7 @@ img {
                 CSS Rotation Axis
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-rotation-axis/</id>
             <content type="html">
                 &lt;p&gt;rotate an element not just around the center axis&lt;/p&gt;
@@ -3848,7 +3848,7 @@ transform-origin: 0% 0%;
                 CSS Nested border-radius
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-nested-border-radius/</id>
             <content type="html">
                 &lt;p&gt;You&#39;ve probably set the parent and child element &lt;code&gt;border-radius&lt;/code&gt; to the same value expecting them to line up, but it&#39;s the padding that throws the angle of the curve off&lt;/p&gt;
@@ -3880,7 +3880,7 @@ transform-origin: 0% 0%;
                 CSS Masonry Layout With Grid
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-masonry-layout-with-grid/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-scss&quot;&gt;.masonry {
@@ -3915,7 +3915,7 @@ transform-origin: 0% 0%;
                 CSS Marquee Animations
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-marquee-animations/</id>
             <content type="html">
                 &lt;h2 id=&quot;scroll-horizontal-ticker&quot; tabindex=&quot;-1&quot;&gt;Scroll horizontal ticker&lt;/h2&gt;
@@ -4015,7 +4015,7 @@ transform-origin: 0% 0%;
                 CSS Input Range Slider With Box Shadow Animation
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-input-range-slider-with-box-shadow-animation/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;label htmlFor=&amp;quot;slider&amp;quot; className=&amp;quot;slider-cont&amp;quot;&amp;gt;
@@ -4104,7 +4104,7 @@ transform-origin: 0% 0%;
                 CSS Height Transition Animation
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-height-transition-animation/</id>
             <content type="html">
                 &lt;p&gt;smooth transition height trick&lt;/p&gt;
@@ -4138,7 +4138,7 @@ transform-origin: 0% 0%;
                 CSS Gradient Background Image Transition
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-gradient-background-image-transition/</id>
             <content type="html">
                 &lt;p&gt;Transiitioning a background image isn&#39;t a built in feature, but is a trick using pseudo elements&lt;/p&gt;
@@ -4195,7 +4195,7 @@ transform-origin: 0% 0%;
                 CSS Disco Floor Animation
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-disco-floor-animation/</id>
             <content type="html">
                 &lt;p&gt;I wanted to create a eye candy dance floor that looks like it&#39;s lighting up&lt;/p&gt;
@@ -4317,7 +4317,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Color Mixing
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-color-mixing/</id>
             <content type="html">
                 &lt;p&gt;mixing colors in &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#css&quot;&gt;#css&lt;/a&gt; is now a breeze. Create quick color pallet themes that can easily be tweaked.&lt;/p&gt;
@@ -4408,7 +4408,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Capitolize the first letter rest are lowercase
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-capitolize-the-first-letter-rest-are-lowercase/</id>
             <content type="html">
                 &lt;p&gt;I has a string like so&lt;code&gt;WUMBO&lt;/code&gt; and needed to just have the fist letter capitol. Easy (or so I thought).&lt;/p&gt;
@@ -4444,7 +4444,7 @@ const StyledDiscoFloor = styled.div`
                 CSS Animation snips
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-animation-snips/</id>
             <content type="html">
                 &lt;p&gt;cred - &lt;a href=&quot;https://thisdevbrain.com/css-floating-hearts-animation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CSS Floating hearts animation | This Dev Brain by Michal Tynior&lt;/a&gt;&lt;/p&gt;
@@ -4739,7 +4739,7 @@ body {
                 CSS Animated Bubble Background
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-animated-bubble-background/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&#39;canvas&#39;&amp;gt;
@@ -6278,7 +6278,7 @@ body {
                 CSS  practical use for before and after pseudo elements
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/css/css-practical-use-for-before-and-after-pseudo-elements/</id>
             <content type="html">
                 &lt;h2 id=&quot;credits&quot; tabindex=&quot;-1&quot;&gt;Credits&lt;/h2&gt;
@@ -6294,7 +6294,7 @@ body {
                 CMS Page Builder
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/cms-page-builder/</id>
             <content type="html">
                 &lt;p&gt;I&#39;m looking for a drop in page builder I can serve to customers as a benefit to the &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KYPN/KYPN Stack&lt;/a&gt; templates I&#39;m designing. &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://pywrite-garden.tawtaw.site/404&quot; target=&quot;&quot;&gt;developer/KeystoneJS/KeystoneJS&lt;/a&gt; has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.&lt;/p&gt;
@@ -6319,7 +6319,7 @@ body {
                 Backup Solutions
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/backup-solutions/</id>
             <content type="html">
                 &lt;p&gt;This is my chain of programs that help me backup and store data whether it&#39;s local clone, version controlled, and or remote sight backups&lt;/p&gt;
@@ -6392,7 +6392,7 @@ body {
                 Removing Samsung and Google Bloatware from Android 12
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/developer/android/removing-samsung-and-google-bloatware-from-android-12/</id>
             <content type="html">
                 &lt;p&gt;I tried installing &lt;a href=&quot;https://lineageos.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;LineageOS&lt;/a&gt; on my Samsung Galaxy s9 and s10 phones. Unfortunately my &lt;a href=&quot;https://wiki.lineageos.org/devices/beyond1lte/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;model wasn&#39;t supported&lt;/a&gt; (just one letter off 😑).&lt;/p&gt;
@@ -6473,7 +6473,7 @@ adb shell cmd package list packages
                 Publish Test
                 
             </title>
-            <updated>2024-02-20T18:51:30Z</updated>
+            <updated>2024-02-20T19:07:25Z</updated>
             <id>https://pywrite-garden.tawtaw.site/publish-test/</id>
             <content type="html">
                 &lt;p&gt;trying out wiki links instead&lt;/p&gt;

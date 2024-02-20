@@ -1035,6 +1035,15 @@
             
         </div>
         
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/publish-test/">Markdown Testing Ground for Published Notes </a>
+                </div>
+            
+        </div>
+        
     </div>
       </nav>
     </div>
@@ -1203,7 +1212,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-02-20T18:47:11.702Z';
+        const searchIndexDate = '2024-02-20T18:51:42.761Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -1215,9 +1224,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-02-20T18:47:11.702Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-02-20T18:51:42.761Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-20T18:47:11.702Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-20T18:51:42.761Z', docs}));
             window.docs = docs
             window.index = index;
         }

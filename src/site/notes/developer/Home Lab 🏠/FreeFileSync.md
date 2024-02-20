@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/free-file-sync/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/FreeFileSync/","noteIcon":""}
 ---
 
 #backup #cross_platform

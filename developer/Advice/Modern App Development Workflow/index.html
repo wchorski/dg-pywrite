@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Modern App Development Workflow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>
+    // Create callout icons
+    window.addEventListener("load", () => {
+        document.querySelectorAll(".callout").forEach((elem) => {
+            const icon = getComputedStyle(elem).getPropertyValue('--callout-icon');
+            const iconName = icon && icon.trim().replace(/^lucide-/, "");
+
+            if (iconName) {
+                const calloutTitle = elem.querySelector(".callout-title");
+
+                if (calloutTitle) {
+                    const calloutIconContainer = document.createElement("div");
+                    const calloutIcon = document.createElement("i");
+
+                    calloutIconContainer.appendChild(calloutIcon);
+                    calloutIcon.setAttribute("icon-name", iconName);
+                    calloutIconContainer.setAttribute("class", "callout-icon");
+                    calloutTitle.insertBefore(calloutIconContainer, calloutTitle.firstChild);
+                }
+            }
+        });
+
+        lucide.createIcons();
+
+        // Collapse callouts
+        Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((elem) => {
+            elem.querySelector('.callout-title').addEventListener("click", (event) => {
+                if (elem.classList.contains("is-collapsed")) {
+                    elem.classList.remove("is-collapsed");
+                } else {
+                    elem.classList.add("is-collapsed");
+                }
+            });
+        });
+    });
+</script>
+
+
+<script src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+
+<script defer src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" defer></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+    <link href="/styles/obsidian-base.css" rel="stylesheet">
+    <link href="/styles/_theme.8f1d066a.css" rel="stylesheet">
+
+
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/pywrite.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+
+
+
+<style></style>
+    
+      <script async src="https://soup.tawtaw.site/ramen" data-website-id="fa4f8c5b-4767-4821-b063-f62c4cb90223"></script>
+    
+    
+  </head>
+  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section ">
+    
+    
+    
+      
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="/" style="text-decoration: none;">
+                <h1 style="margin: 15px !important;">Digital Garden</h1>
+            </a>
+        </div>
+        
+    </nav>
+    
+    
+
+    
+
+    <main class="content cm-s-obsidian ">
+      <header>
+        
+        <div class="header-meta">
+          </div>
+      
+      
+      </header>
+      
+      
+      <p>This is advice for anyone developing source code and want an efficient way of splitting projects but retaining a lot of the benefits of your <a class="tag" onclick="toggleTagSearch(this)" data-content="#templates">#templates</a>.</p>
+<p>You could apply this to any digital assets but I'll be focusing on benefits of people developing source code for things like</p>
+<ul>
+<li><a class="internal-link is-unresolved" href="/404" target="">NodeJS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">ReactJS</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">NextJS</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">github.com</a></li>
+</ul>
+<h2 id="cloud-storage" tabindex="-1">Cloud Storage</h2>
+<p>This is going to be your main driver for keeping your local development in sync. I switch between laptop and desktop with similar developer environments. I want that transition between machines to be seamless. PLUS I also have a <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Production Server</a> That deploys these projects.</p>
+<p>You could use any sorts of cloud providers, but here I'm using <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a>.</p>
+<h2 id="desktop-and-amp-laptop" tabindex="-1">Desktop &amp; Laptop</h2>
+<p>Here I'll explain the setup for your development machines. I assume you have <a class="internal-link is-unresolved" href="/404" target="">NodeJS</a> and <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> installed already.</p>
+<h3 id="ignore-files" tabindex="-1">Ignore files</h3>
+<p>an <code>.env</code> file should be unique to the environment that it lives. <em>duh</em>. And we'll follow the same process as each machine is it's own environment.</p>
+<p>On your development machines you should be able to edit an <code>ignore</code> file for your cloud sync (<a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a> has this feature)</p>
+<p>!<a class="internal-link is-unresolved" href="/404" target="">nextcloud-ignore.PNG</a></p>
+<pre><code class="language-txt"># .ignore
+.env
+.node_modules
+.next
+.keystone
+.react-mail
+.DS_Store
+</code></pre>
+<p>This keeps your configurations flexible enough without having too much fuss. I use <code>.env.prod</code> and <code>.env.dev</code> files synced to the cloud. That helps me keep a reminder of what I use between folders wile ignoring them to the public repo</p>
+<h2 id="server" tabindex="-1">Server</h2>
+<p>my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Production Server</a> is the same machine that runs <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a>. So in this instance, I'm able to dive right into the filesystem and run <code>docker compose build</code> / <code>docker compose up -d</code> at the root of whatever project I want to update / deploy</p>
+<h2 id="git-repo" tabindex="-1">Git Repo</h2>
+<p>I assume you also want to share some of these revolutionary apps to the world as well? With this set up you can stop using <a class="internal-link is-unresolved" href="/404" target="">github.com</a> as a backup solution (like firing off <code>git push</code> every time a file is edited).</p>
+<p>The cloud is doing it's thing to keep all files up to date, so now you can more methodically <code>git commit -m ''</code> when a new feature makes progress.</p>
+<hr>
+<h2 id="credits" tabindex="-1">Credits</h2>
+<ul>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></li>
+<li></li>
+</ul>
+
+      
+      
+    </main>
+
+    
+
+    
+        <script>
+      if (window.location.hash) {
+        document.getElementById(window.location.hash.slice(1)).classList.add('referred');
+      }
+      window.addEventListener('hashchange', (evt) => {
+        const oldParts = evt.oldURL.split("#");
+        if (oldParts[1]) {
+          document.getElementById(oldParts[1]).classList.remove('referred');
+        }
+        const newParts = evt.newURL.split("#");
+        if (newParts[1]) {
+          document.getElementById(newParts[1]).classList.add('referred');
+        }
+      }, false);
+      const url_parts = window.location.href.split("#")
+      const url = url_parts[0];
+      const referrence = url_parts[1];
+      document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function (el) {
+        el.ondblclick = function(evt) {
+          const ref_url = url + '#' + evt.target.id
+          navigator.clipboard.writeText(ref_url);
+      }
+      });
+
+      
+    </script>
+    <script src=" https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js "></script>
+<script defer>
+    TIMESTAMP_FORMAT = "MMM dd, yyyy h:mm a";
+    document.querySelectorAll('.human-date').forEach(function (el) {
+        el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
+      });
+</script>
+    
+    
+    <script>
+lucide.createIcons({
+            attrs: {
+                class: ["svg-icon"]
+            }
+        });
+</script>
+  </body>
+</html>

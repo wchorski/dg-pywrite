@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Docker🐳/Force Rebuild New Image/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Docker🐳/Force Rebuild New Image/"}
 ---
 
 Instead of just building your images, and then trying to up them, consider this:
@@ -45,4 +45,4 @@ If you are experiencing similar issues with your deployments, you should switch 
 
 ---
 ## Citations
-- [[https://vsupalov.com/docker-compose-runs-old-containers/#:~:text=The most probable explanation is%2C that you are,container or your build used old cached layers.\|https://vsupalov.com/docker-compose-runs-old-containers/#:~:text=The most probable explanation is%2C that you are,container or your build used old cached layers.]]
+- [link](https://vsupalov.com/docker-compose-runs-old-containers/#:~:text=The most probable explanation is%2C that you are,container or your build used old cached layers.)

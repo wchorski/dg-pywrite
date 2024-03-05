@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/UnrealEngine/Quartz Music Implementation for Unreal Engine/","tags":["unreal","game","gamedev","music","audio"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/UnrealEngine/Quartz Music Implementation for Unreal Engine/","tags":["unreal","game","gamedev","music","audio"]}
 ---
 
 #todo 
@@ -26,6 +26,6 @@
 
 ---
 ## Credits
-- [[epicgames.com)](https://dev.epicgames.com/community/learning/courses/XAw/unreal-engine-quartz-music-system/EbdY/unreal-engine-quartz-music-system-introduction\|Quartz Music System: Introduction - Quartz Music System (epicgames.com)]]
+- [Quartz Music System: Introduction - Quartz Music System (epicgames.com) ](https://dev.epicgames.com/community/learning/courses/XAw/unreal-engine-quartz-music-system/EbdY/unreal-engine-quartz-music-system-introduction)
 ## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

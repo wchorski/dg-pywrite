@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS Date Time Range Overlap Checker/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS Date Time Range Overlap Checker/"}
 ---
 
 making this, because wrapping your head around dates is mind boggling

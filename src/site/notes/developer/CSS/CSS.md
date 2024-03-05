@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS/"}
 ---
 
 
@@ -21,7 +21,7 @@ li.task-list-item:has(input:checked){
 ```
 
 ### Centered header label with horizontal line on sides
-[[https://iqcode.com/code/css/css-technique-for-a-horizontal-line-with-icons-in-the-middle#:~:text=CSS technique for a horizontal line with icons,line-through%3B } View another examples Add Own solution\|https://iqcode.com/code/css/css-technique-for-a-horizontal-line-with-icons-in-the-middle#:~:text=CSS technique for a horizontal line with icons,line-through%3B } View another examples Add Own solution]]
+[link](https://iqcode.com/code/css/css-technique-for-a-horizontal-line-with-icons-in-the-middle#:~:text=CSS technique for a horizontal line with icons,line-through%3B } View another examples Add Own solution)
 check out the `graph ` and  `Table of Contents` labels in this screenshot 
 
 ![attachments/Pasted image 20221109140342 1.png|sections with headers   |     500](/img/user/attachments/Pasted%20image%2020221109140342%201.png)
@@ -65,7 +65,7 @@ pointer-events: none;
 ```
 
 ### hide scrollbar on hover
-[[https://iqcode.com/code/css/hover-show-scrollbar-css#:~:text=hover show scrollbar css CPP div { height%3A,overflow%3A hidden%3B } div%3Ahover { overflow-y%3A scroll%3B }\|https://iqcode.com/code/css/hover-show-scrollbar-css#:~:text=hover show scrollbar css CPP div { height%3A,overflow%3A hidden%3B } div%3Ahover { overflow-y%3A scroll%3B }]]
+[link](https://iqcode.com/code/css/hover-show-scrollbar-css#:~:text=hover show scrollbar css CPP div { height%3A,overflow%3A hidden%3B } div%3Ahover { overflow-y%3A scroll%3B })
 ```css
 div {
   height: 100px;
@@ -80,7 +80,7 @@ div:hover {
 ```
 
 ### Fix word wrap indentation in list elements
-[[List Items) - Silva Web Designs](https://silvawebdesigns.com/css-indenting-second-line-li-list-items/\|CSS - Indenting the second line of LI (List Items) - Silva Web Designs]]
+[CSS - Indenting the second line of LI (List Items) - Silva Web Designs](https://silvawebdesigns.com/css-indenting-second-line-li-list-items/)
 ```css
 ul { 
 	list-style: none; 
@@ -93,7 +93,7 @@ li { margin-bottom: 10px; }
 ```
 
 ### Custom Scrollbar 
-[[w3schools.com)](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp\|How To Create a Custom Scrollbar (w3schools.com)]]
+[How To Create a Custom Scrollbar (w3schools.com)](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
 ```css
 /* width */  
 ::-webkit-scrollbar {  width: 20px; }  
@@ -111,12 +111,12 @@ li { margin-bottom: 10px; }
 }
 ```
 
-## Code Pen Insporation
-- [[https://codepen.io/b1tn3r/embed/YjOzRv?height=300&default-tab=css%2Cresult&slug-hash=YjOzRv&editable=true&user=b1tn3r&name=cp_embed_40#result-box\|https://codepen.io/b1tn3r/embed/YjOzRv?height=300&default-tab=css%2Cresult&slug-hash=YjOzRv&editable=true&user=b1tn3r&name=cp_embed_40#result-box]]
-- [[https://codepen.io/avstorm/embed/rNBZby?default-tab=css%2Cresult&editable=true&height=300&name=cp_embed_26&slug-hash=peCbd&user=avstorm#result-box\|https://codepen.io/avstorm/embed/rNBZby?default-tab=css%2Cresult&editable=true&height=300&name=cp_embed_26&slug-hash=peCbd&user=avstorm#result-box]]
-- [[https://codepen.io/lbebber/embed/LELBEo?height=300&default-tab=css%2Cresult&slug-hash=LELBEo&editable=true&user=lbebber&name=cp_embed_6#result-box\|https://codepen.io/lbebber/embed/LELBEo?height=300&default-tab=css%2Cresult&slug-hash=LELBEo&editable=true&user=lbebber&name=cp_embed_6#result-box]]
-- [[https://codepen.io/Grsmto/embed/RPQPPB?height=300&default-tab=css%2Cresult&slug-hash=RPQPPB&editable=true&user=Grsmto&name=cp_embed_5#result-box\|https://codepen.io/Grsmto/embed/RPQPPB?height=300&default-tab=css%2Cresult&slug-hash=RPQPPB&editable=true&user=Grsmto&name=cp_embed_5#result-box]]
-- [[https://codepen.io/andrewmillen/embed/MoKLob?height=300&default-tab=css%2Cresult&slug-hash=MoKLob&editable=true&user=andrewmillen&name=cp_embed_1#result-box\|https://codepen.io/andrewmillen/embed/MoKLob?height=300&default-tab=css%2Cresult&slug-hash=MoKLob&editable=true&user=andrewmillen&name=cp_embed_1#result-box]]
+## Code Pen Inspiration
+- [link](https://codepen.io/b1tn3r/embed/YjOzRv?height=300&default-tab=css%2Cresult&slug-hash=YjOzRv&editable=true&user=b1tn3r&name=cp_embed_40#result-box)
+- [link](https://codepen.io/avstorm/embed/rNBZby?default-tab=css%2Cresult&editable=true&height=300&name=cp_embed_26&slug-hash=peCbd&user=avstorm#result-box)
+- [link](https://codepen.io/lbebber/embed/LELBEo?height=300&default-tab=css%2Cresult&slug-hash=LELBEo&editable=true&user=lbebber&name=cp_embed_6#result-box)
+- [link](https://codepen.io/Grsmto/embed/RPQPPB?height=300&default-tab=css%2Cresult&slug-hash=RPQPPB&editable=true&user=Grsmto&name=cp_embed_5#result-box)
+- [link](https://codepen.io/andrewmillen/embed/MoKLob?height=300&default-tab=css%2Cresult&slug-hash=MoKLob&editable=true&user=andrewmillen&name=cp_embed_1#result-box)
 - [[mousedown for rotation) (codepen.io)](mousedown for rotation\|Pure CSS 3D Synthesizer (mousedown for rotation) (codepen.io)]]%20(codepen.io))
 
 ### Web Tools
@@ -156,4 +156,4 @@ img {
 }
 ```
 
-[[developer/CSS/Cascading Style Sheet Tips & Tricks\|developer/CSS/Cascading Style Sheet Tips & Tricks]]
+[[developer/CSS/Cascading Style Sheet Tips & Tricks\|Cascading Style Sheet Tips & Tricks]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Plex.tv/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Plex.tv/"}
 ---
 
 #music #movie #tv #film #media #player
@@ -7,15 +7,15 @@
 > [!info] [Plex](https://www.plex.tv/)
 > Stream Movies & TV Shows.
 
-Why do I use this for movies when I have [[developer/Home Lab 🏠/Jellyfin\|developer/Home Lab 🏠/Jellyfin]]? Because movie playback seems more stable, it's easy to share libraries, and I don't watch movies on mobile 
+Why do I use this for movies when I have [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]]? Because movie playback seems more stable, it's easy to share libraries, and I don't watch movies on mobile 
 
 ## connections
 - one
 
 ## installation
-1. the repo we'll be using -> [[github.com)](github.com\|plexinc/pms-docker: Plex Media Server Docker repo, for all your PMS docker needs. (github.com)]])
+1. the repo we'll be using -> [plexinc/pms-docker: Plex Media Server Docker repo, for all your PMS docker needs. (github.com)](https://github.com/plexinc/pms-docker)
 2. get token from [Claim | Plex](https://www.plex.tv/claim/)
-3. `./compose.yml` via [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]]
+3. `./compose.yml` via [[developer/Home Lab 🏠/Docker\|Docker]]
 ```yml
 version: '2'
 services:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/has Selector/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/has Selector/"}
 ---
 
 I see a lot of potential in the `:has()` selector, expecially when it comes to input fields

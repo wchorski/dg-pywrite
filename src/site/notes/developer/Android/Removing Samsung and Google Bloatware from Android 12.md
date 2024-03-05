@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Android/Removing Samsung and Google Bloatware from Android 12/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Android/Removing Samsung and Google Bloatware from Android 12/"}
 ---
 
 
@@ -72,11 +72,11 @@ adb shell cmd package list packages
 
 ## Force allow apps to SD Card
 
-it's a setting in the Debug menu [[How to Force Them) - YouTube](https://www.youtube.com/watch?v=znKGIHRa2SQ&t=246s\|How to Move Apps to SD Card on Android (How to Force Them) - YouTube]]
+it's a setting in the Debug menu [How to Move Apps to SD Card on Android (How to Force Them) - YouTube](https://www.youtube.com/watch?v=znKGIHRa2SQ&t=246s)
 
 ---
 
 ## Credits
 - 
 ## index
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

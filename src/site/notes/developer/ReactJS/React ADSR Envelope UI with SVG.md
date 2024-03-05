@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React ADSR Envelope UI with SVG/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React ADSR Envelope UI with SVG/"}
 ---
 
-There's probably a better way to build this with `html <canvas>` but I'm opting to build this out with `<intput type="range"` and `<svg>` and [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]. 
+There's probably a better way to build this with `html <canvas>` but I'm opting to build this out with `<intput type="range"` and `<svg>` and [[developer/ReactJS/ReactJS\|ReactJS]]. 
 
 > [!warning] This is a draft
 > What you see here is an unfinished component. This post will be updated as I build out this component more.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/WSL/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/WSL/"}
 ---
 
 
@@ -19,4 +19,4 @@ I mainly use **WLS** to tinker with new packages or use software temporarily. Fo
 
 ---
 ## backlinks
-[[developer/_developer_box📦\|developer/_developer_box📦]]
+[[developer/developer_box📦\|developer_box📦]]

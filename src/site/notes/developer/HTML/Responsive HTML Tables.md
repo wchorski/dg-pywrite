@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/Responsive HTML Tables/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/Responsive HTML Tables/"}
 ---
 
 Create a responsive table without libraries or frameworks.
@@ -145,4 +145,4 @@ table{
 - Kevin Powel - https://www.youtube.com/watch?v=czZ1PvNW5hk
 
 ## Backlinks
-- [[developer/HTML/HTML, Back to Basics\|developer/HTML/HTML, Back to Basics]]
+- [[developer/HTML/HTML, Back to Basics\|HTML, Back to Basics]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/XMRig/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/XMRig/"}
 ---
 
 > [!info] [XMRig](https://xmrig.com/)

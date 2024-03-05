@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/WLED/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/WLED/"}
 ---
 
-## [[github.com)](github.com\|Aircoookie/WLED (github.com)]])
+[Aircoookie/WLED: Control WS2812B and many more types of digital RGB LEDs with an ESP8266 or ESP32 over WiFi! (github.com)](https://github.com/Aircoookie/WLED)
 
-> [[github.com)](https://github.com/Aircoookie/WLED\|!info]]
+> [!info](https://github.com/Aircoookie/WLED)
 > A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102!
 
 [Install WLED](https://install.wled.me/) for wireless control of LEDs over wifi. 
@@ -22,6 +22,6 @@ to easily offload and load in configuration files
 **mac addr of new 104** -  7C:9E:BD:48:27:94
 
 ### connections
-- [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]]
-- [[developer/Home Lab 🏠/Hyperion\|developer/Home Lab 🏠/Hyperion]]
+- [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]]
+- [[developer/Home Lab 🏠/Hyperion\|Hyperion]]
 - 

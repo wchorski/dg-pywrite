@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Docker🐳/Docker, Limit Storage Space/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Docker🐳/Docker, Limit Storage Space/"}
 ---
 
 You can use the `storage_opt` key in the Docker Compose file to set storage size limits for containers.
@@ -35,5 +35,5 @@ In this example, the container will have a storage size limit of 10GB and a base
 
 ---
 ## Credits
-- [[size) - Stack Overflow](https://stackoverflow.com/questions/41521832/using-docker-compose-with-storage-options-size\|Using Docker-Compose with storage options (size) - Stack Overflow]]
+- [Using Docker-Compose with storage options (size) - Stack Overflow ](https://stackoverflow.com/questions/41521832/using-docker-compose-with-storage-options-size)
 - Chat GPT

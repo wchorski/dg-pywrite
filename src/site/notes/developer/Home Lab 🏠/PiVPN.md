@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/PiVPN/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/PiVPN/"}
 ---
 
 >[!info] [PIVPN: Simplest way to setup a VPN](https://pivpn.io/)
@@ -8,13 +8,13 @@ designed for Raspberry Pi™.
 >
 
 ## install
-It is recommended to install [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]] first as it automates **DNS** routing upon installing **PiVPN**
+It is recommended to install [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]] first as it automates **DNS** routing upon installing **PiVPN**
 
 >[!important ]
 >don't forget to set boot option to wait for network (i.e. `raspi-config`)
 
 ## updating
-[[https://docs.pivpn.io/install/#update\|https://docs.pivpn.io/install/#update]]
+[link](https://docs.pivpn.io/install/#update)
 
 ```shell
 run pivpn update
@@ -23,10 +23,10 @@ run pivpn update
 VPN protocols are updated via system package manager
 
 > [!Note] 
-> Read [[https://docs.pivpn.io/openvpn/#updating-openvpn\|https://docs.pivpn.io/openvpn/#updating-openvpn]] or [[https://docs.pivpn.io/wireguard/#updating-wireguard\|https://docs.pivpn.io/wireguard/#updating-wireguard]] for information on how to update the VPN protocol.
+> Read [link](https://docs.pivpn.io/openvpn/#updating-openvpn) or [link](https://docs.pivpn.io/wireguard/#updating-wireguard) for information on how to update the VPN protocol.
 
 ## backup
-also a backup of [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]]
+also a backup of [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]]
 
 ```bash
 #! /bin/bash
@@ -72,8 +72,8 @@ Backup your server with `pivpn -bk` copy the tar archive to your computer. exa
 then turn off and on the tunnel
 
 ### connections 
-- Running on [[developer/Hardware/Pi4\|developer/Hardware/Pi4]]
-- paired with [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]] for ad blocking on the go
+- Running on [[developer/Hardware/Pi4\|Pi4]]
+- paired with [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]] for ad blocking on the go
 
 ## No internet browsing when connected
 ```bash
@@ -95,5 +95,5 @@ Done
 ---
 ## Citations 
 - [Wireguard - docs.pivpn.io](https://docs.pivpn.io/wireguard/)
-- [[reddit.com)](https://www.reddit.com/r/raspberry_pi/comments/9i6rmm/pivpn_not_working_properly/\|PiVPN not working properly : raspberry_pi (reddit.com)]]
+- [PiVPN not working properly : raspberry_pi (reddit.com)](https://www.reddit.com/r/raspberry_pi/comments/9i6rmm/pivpn_not_working_properly/)
 - [Make local devices accessible - Pi-hole documentation](https://docs.pi-hole.net/guides/vpn/wireguard/internal/)

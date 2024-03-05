@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/Quartz-w_Boswell/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/tutorials/Quartz-w_Boswell/"}
 ---
 
 [[brandonkboswell.com)](brandonkboswell.com\|Publishing your Obsidian Vault Online with Quartz (brandonkboswell.com)]])
 
-- also try [[developer/tutorials/Obsidian-Zola\|developer/tutorials/Obsidian-Zola]] for a more plug n play way to publish Obsidian Vaults
+- also try [[developer/tutorials/Obsidian-Zola\|Obsidian-Zola]] for a more plug n play way to publish Obsidian Vaults
 
 1. clone [jackyzha0/quartz: 🌱](https://github.com/jackyzha0/quartz)
 2. create repo for your **Public Garden**

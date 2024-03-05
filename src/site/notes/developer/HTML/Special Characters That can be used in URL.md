@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/Special Characters That can be used in URL/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/Special Characters That can be used in URL/"}
 ---
 
 According to the URL encoding standard (RFC 3986), the following characters are generally safe and do not need to be encoded:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Hide Reveal Error Message/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Hide Reveal Error Message/"}
 ---
 
 clever way to animate an error message in and out. The error element is hidden when there is no inner text or html present, but once filled with content it will be revealed to the UI
@@ -26,4 +26,4 @@ clever way to animate an error message in and out. The error element is hidden w
 ---
 
 ## Backlinks
-- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|developer/CSS/Cascading Style Sheet Tips & Tricks]]
+- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|Cascading Style Sheet Tips & Tricks]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS dynamic height with smooth animation/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS dynamic height with smooth animation/"}
 ---
 
 If you've tried the `max-height` css trick to make smooth height animations, you'll realize that this isn't a one size fits all solution (literally)
@@ -135,4 +135,4 @@ You can see I use `answers` (in this case punchlines from jokes) with varying le
 ## Credits
 - [javascript - How do you put a line break in a React string? - Stack Overflow](https://stackoverflow.com/questions/55541031/how-do-you-put-a-line-break-in-a-react-string)
 - [reactjs - React - styled-components, props, and TypeScript - Stack Overflow](https://stackoverflow.com/questions/60992002/react-styled-components-props-and-typescript)
-- [[https://www.webmound.com/get-scrollable-height-javascript/#:~:text=These are the two JavaScript properties that can,may be added by its border or margin.\|https://www.webmound.com/get-scrollable-height-javascript/#:~:text=These are the two JavaScript properties that can,may be added by its border or margin.]]
+- [link](https://www.webmound.com/get-scrollable-height-javascript/#:~:text=These are the two JavaScript properties that can,may be added by its border or margin.)

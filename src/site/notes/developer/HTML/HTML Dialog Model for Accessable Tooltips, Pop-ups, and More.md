@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML Dialog Model for Accessable Tooltips, Pop-ups, and More/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML Dialog Model for Accessable Tooltips, Pop-ups, and More/"}
 ---
 
 
@@ -60,8 +60,8 @@ dialog.addEventListener("click", e => {
 ```
 
 ## Credits
-- [[webdevsimplified.com)](https://blog.webdevsimplified.com/2023-04/html-dialog/\|Modals Will Never Be The Same - HTML dialog Element (webdevsimplified.com)]]
+- [Modals Will Never Be The Same - HTML dialog Element (webdevsimplified.com)](https://blog.webdevsimplified.com/2023-04/html-dialog/)
 - [The New dialog HTML Element Changes Modals Forever - YouTube](https://www.youtube.com/watch?v=ywtkJkxJsdg)
 
 ## Backlinks
-- [[developer/HTML/HTML, Back to Basics\|developer/HTML/HTML, Back to Basics]]
+- [[developer/HTML/HTML, Back to Basics\|HTML, Back to Basics]]

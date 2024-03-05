@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Google Email Trick/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Google Email Trick/"}
 ---
 
 

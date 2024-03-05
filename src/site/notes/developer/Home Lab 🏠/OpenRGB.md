@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/OpenRGB/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/OpenRGB/"}
 ---
 
 ## Install
@@ -23,4 +23,4 @@ sudo add-apt-repository --remove ppa:thopiekar/openrgb
 ```
 
 ## Backlinks
-- [[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
+- [[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]

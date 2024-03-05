@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Docker🐳/Docker Compose Use Environment Variables Like a Pro/","tags":["nodejs","yaml","docker","docker-compose"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Docker🐳/Docker Compose Use Environment Variables Like a Pro/","tags":["nodejs","yaml","docker","docker-compose"]}
 ---
 
-Finding yourself building, rebuilding, and deploying [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]] containers? My stack of [[developer/NodeJS\|developer/NodeJS]] projects have started to unruly, and I need a better way to deploy my apps with little fuss. 
+Finding yourself building, rebuilding, and deploying [[developer/Home Lab 🏠/Docker\|Docker]] containers? My stack of [[developer/NodeJS\|NodeJS]] projects have started to unruly, and I need a better way to deploy my apps with little fuss. 
 
 ## Env Vars
 
@@ -101,6 +101,6 @@ export const envs = {
 ## Credits
 - [How to reload environment variables in docker-compose container with minimum downtime? - Stack Overflow](https://stackoverflow.com/questions/42149529/how-to-reload-environment-variables-in-docker-compose-container-with-minimum-dow)
 
-- [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]]
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
-- [[developer/NodeJS\|developer/NodeJS]]
+- [[developer/Home Lab 🏠/Docker\|Docker]]
+- [[developer/developer_box📦\|developer_box📦]]
+- [[developer/NodeJS\|NodeJS]]

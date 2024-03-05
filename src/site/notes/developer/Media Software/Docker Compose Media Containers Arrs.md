@@ -1,21 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Media Software/Docker Compose Media Containers Arrs/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/Docker Compose Media Containers Arrs/"}
 ---
 
-- [[developer/Media Software/Prowlarr\|developer/Media Software/Prowlarr]]
-- [[developer/Media Software/Flaresolverr\|developer/Media Software/Flaresolverr]]
+- [[developer/Media Software/Prowlarr\|Prowlarr]]
+- [[developer/Media Software/Flaresolverr\|Flaresolverr]]
 - [[developer/Media Software/Radarr\|Radarr]]
 - [[developer/Media Software/Sonarr\|Sonarr]]
-- [[developer/Media Software/Prowlarr\|developer/Media Software/Prowlarr]]
+- [[developer/Media Software/Prowlarr\|Prowlarr]]
 - [[developer/Media Software/Ladarr\|Ladarr]]
 - [[developer/Media Software/qBittorrent\|qBittorrent]]
-- [[developer/Home Lab 🏠/Plex.tv\|developer/Home Lab 🏠/Plex.tv]]
+- [[developer/Home Lab 🏠/Plex.tv\|Plex.tv]]
 - [[developer/Media Software/bazarr\|bazarr]]
 - [[developer/Media Software/ProtonVPN\|ProtonVPN]]
 - [[tore\|tore]]
 
 ## Configuration
-Other tutorials I found left out a torrent downloader in the container stack. This stack includes everything but a media server (which I assume most have an already running server of i.e. [[developer/Home Lab 🏠/Plex.tv\|developer/Home Lab 🏠/Plex.tv]], [[developer/Home Lab 🏠/Jellyfin\|developer/Home Lab 🏠/Jellyfin]], etc.)
+Other tutorials I found left out a torrent downloader in the container stack. This stack includes everything but a media server (which I assume most have an already running server of i.e. [[developer/Home Lab 🏠/Plex.tv\|Plex.tv]], [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]], etc.)
 
 ### Directory File Structure
 
@@ -33,7 +33,7 @@ My naming and structure might be confusing because I use `media` as the all cont
     └── tv-sonarr
 ```
 
-`libary` is the directory a media player reads, and `trnts` is assentially [[developer/Media Software/qBittorrent\|developer/Media Software/qBittorrent]]'s "download" folder. Other tutorials have a matching set of `movies, music, tv` folders, but in my case the torrent downloader automatically created these `radarr, tv-sonarr` apps and the hardlinks continued to work sooo... 🤷‍♀️
+`libary` is the directory a media player reads, and `trnts` is assentially [[developer/Media Software/qBittorrent\|qBittorrent]]'s "download" folder. Other tutorials have a matching set of `movies, music, tv` folders, but in my case the torrent downloader automatically created these `radarr, tv-sonarr` apps and the hardlinks continued to work sooo... 🤷‍♀️
 ### compose.yml
 ```yml
 services:
@@ -153,12 +153,12 @@ TZ=America/Chicago #change to your timezone location
 MEDIADIR=/mnt/VOLUME1/media
 ```
 
-> [[trash-guides.info)](https://trash-guides.info/Hardlinks/Hardlinks-and-Instant-Moves/\|!info]]**
+> [!info](https://trash-guides.info/Hardlinks/Hardlinks-and-Instant-Moves/)**
 
 `VOLUME1` should be replaced by your path needs.
 
 ## Local DNS
-before you go and link the containers up via each web UI. Check out my [[developer/Pretty URLS for Local DNS Records\|developer/Pretty URLS for Local DNS Records]], especially if you're a [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]] user.
+before you go and link the containers up via each web UI. Check out my [[developer/Pretty URLS for Local DNS Records\|Pretty URLS for Local DNS Records]], especially if you're a [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]] user.
 ## VPN
 - [How to torrent safely with a VPN - Proton VPN Support](https://protonvpn.com/support/bittorrent-vpn/)
 
@@ -175,10 +175,10 @@ I'd prefer to have an English dub of an Anime if one exists. Looks like there is
 ## Credits
 - [Make Automated Torrent Media Server with Emby, Sonarr, Radarr, Prowlarr, and qBittorrent on Windows! - YouTube](https://www.youtube.com/watch?v=LD8-Qr3B2-o)
 - [How to torrent safely with a VPN - Proton VPN Support](https://protonvpn.com/support/bittorrent-vpn/)
-- [[pointtosource.com)](https://academy.pointtosource.com/containers/sonarr-radarr-prowlarr/\|Configuring Prowlarr for Sonarr and Radarr in docker (pointtosource.com)]]
+- [Configuring Prowlarr for Sonarr and Radarr in docker (pointtosource.com)](https://academy.pointtosource.com/containers/sonarr-radarr-prowlarr/)
 - [Docker Guide | Servarr Wiki](https://wiki.servarr.com/docker-guide)
-- [[trash-guides.info)](https://trash-guides.info/Hardlinks/Hardlinks-and-Instant-Moves/\|Hardlinks - Atomic Moves - TRaSH Guides (trash-guides.info)]]
-- [[trash-guides.info)](https://trash-guides.info/Downloaders/qBittorrent/Basic-Setup/\|qBittorrent Basic-Setup - TRaSH Guides (trash-guides.info)]]
+- [Hardlinks - Atomic Moves - TRaSH Guides (trash-guides.info)](https://trash-guides.info/Hardlinks/Hardlinks-and-Instant-Moves/)
+- [qBittorrent Basic-Setup - TRaSH Guides (trash-guides.info)](https://trash-guides.info/Downloaders/qBittorrent/Basic-Setup/)
 
 ## Backlinks
-- [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]]
+- [[developer/Home Lab 🏠/Docker\|Docker]]

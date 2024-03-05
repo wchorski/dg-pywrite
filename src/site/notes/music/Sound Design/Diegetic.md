@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/Sound Design/Diegetic/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/Sound Design/Diegetic/"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Center and Fit Image the Right Way/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Center and Fit Image the Right Way/"}
 ---
 
 

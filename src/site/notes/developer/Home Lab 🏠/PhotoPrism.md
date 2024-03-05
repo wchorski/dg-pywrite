@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/PhotoPrism/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/PhotoPrism/"}
 ---
 
 #pictures #selfhosted
@@ -18,7 +18,7 @@ An open source, self hosted solution for services like [iCloud](https://www.iclo
 
 
 ## installation 
-1. `compose.yml` via [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]]
+1. `compose.yml` via [[developer/Home Lab 🏠/Docker\|Docker]]
 ```yml
 version: '3.5'
 

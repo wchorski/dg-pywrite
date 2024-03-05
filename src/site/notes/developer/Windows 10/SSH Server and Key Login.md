@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Windows 10/SSH Server and Key Login/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Windows 10/SSH Server and Key Login/"}
 ---
 
 I wanted to send commands from other computers to my **Windows 10** machine. Upon initial install of Windows, I logged in with my Microsoft account and was met with `Permission denied, please try again.` when trying passwords
@@ -44,4 +44,4 @@ Now I'm able to turn off my windows machine with an authorized remote computer v
 
 
 ## Backlinks
-- [[developer/Windows 10/Microsoft Windows\|developer/Windows 10/Microsoft Windows]]
+- [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]]

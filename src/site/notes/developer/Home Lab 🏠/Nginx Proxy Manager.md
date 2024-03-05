@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Nginx Proxy Manager/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Nginx Proxy Manager/"}
 ---
 
 
@@ -66,10 +66,10 @@ router <-- fiber 400mbps --> internet
 ```
 
 ### connections
-- [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]] for local DNS. Make pretty URLs for local or public services
+- [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]] for local DNS. Make pretty URLs for local or public services
 
 ### installation
-1. `compose.yml` via [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]] 
+1. `compose.yml` via [[developer/Home Lab 🏠/Docker\|Docker]] 
 ```yaml
 version: '3'
 services:
@@ -94,26 +94,45 @@ Password: changeme
 
 ---
 ## Publicly Facing Apps
-1. [[developer/Projects📐/WilliaMusic.com\|developer/Projects📐/WilliaMusic.com]]
-2. [[developer/Home Lab 🏠/Nextcloud\|developer/Home Lab 🏠/Nextcloud]]
-3. [[developer/Projects📐/heart-chart\|developer/Projects📐/heart-chart]]
-4. [[developer/Home Lab 🏠/vaultwarden\|developer/Home Lab 🏠/vaultwarden]]
-5. [[developer/Home Lab 🏠/PhotoPrism\|developer/Home Lab 🏠/PhotoPrism]]
-6. [[developer/Home Lab 🏠/Plex.tv\|developer/Home Lab 🏠/Plex.tv]]
-7. [[developer/Home Lab 🏠/Jellyfin\|developer/Home Lab 🏠/Jellyfin]]
+1. [[developer/Projects📐/WilliaMusic.com\|WilliaMusic.com]]
+2. [[developer/Home Lab 🏠/Nextcloud\|Nextcloud]]
+3. [[developer/Projects📐/heart-chart\|heart-chart]]
+4. [[developer/Home Lab 🏠/vaultwarden\|vaultwarden]]
+5. [[developer/Home Lab 🏠/PhotoPrism\|PhotoPrism]]
+6. [[developer/Home Lab 🏠/Plex.tv\|Plex.tv]]
+7. [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]]
 
 ## Pretty URLs for Local Apps
-1. [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]] DNS setup
+1. [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]] DNS setup
 2. **Nginx** to link Port number 
 
 ## Leveraging Docker's Internal DNS routing
-for example [[developer/Home Lab 🏠/vaultwarden\|developer/Home Lab 🏠/vaultwarden]] I do *not* specify a `port` number. instead I use the `container_name: vaultwarden` as a DNS entry I can use in **Nginx Proxy Manager** 
+for example [[developer/Home Lab 🏠/vaultwarden\|vaultwarden]] I do *not* specify a `port` number. instead I use the `container_name: vaultwarden` as a DNS entry I can use in **Nginx Proxy Manager** 
 
 ## Dark Mode
 There isn't an official dark mode, but with a bit of file digging, you too can override the `main.css` 
 
-*check the `compose.yml` to map the `app/frontend/css/main.css` to a persistent volume*
+1. Spin up the container first and let the app pull down.
+2. *check the `compose.yml` to map the `app/frontend/css/main.css` to a persistent volume*
 
+```yml
+version: '3.8'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+      - ./css/main.css:/app/frontend/css/main.css ## <----- here
+```
+
+3. spin up the container again and go to edit that new `./css/main.css` file
+### CSS
 add this to the bottom of  `main.css`
 ```css
 body, .modal-content{

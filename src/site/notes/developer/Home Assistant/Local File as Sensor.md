@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Assistant/Local File as Sensor/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Local File as Sensor/"}
 ---
 
-use a local file or [[developer/Home Lab 🏠/SAMBA\|developer/Home Lab 🏠/SAMBA]] share hooked into [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]] to read as a sensor
+use a local file or [[developer/Home Lab 🏠/SAMBA\|SAMBA]] share hooked into [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] to read as a sensor
 
 
 ## Allow external directory 
@@ -21,5 +21,5 @@ To load the new config either
 2. Developer Tools > SERVICES > `homeassistant.reload_core_config` Service
 3. Neither of those worked for me. I just restarted the whole damn thing
 ## Credits
-- [[home-assistant.io)](https://www.home-assistant.io/docs/configuration/basic/\|Setup basic information - Home Assistant (home-assistant.io)]]
-- [[https://www.home-assistant.io/integrations/file/#sensor\|https://www.home-assistant.io/integrations/file/#sensor]]
+- [Setup basic information - Home Assistant (home-assistant.io)](https://www.home-assistant.io/docs/configuration/basic/)
+- [link](https://www.home-assistant.io/integrations/file/#sensor)

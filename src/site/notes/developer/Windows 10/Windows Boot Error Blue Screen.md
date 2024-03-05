@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Windows 10/Windows Boot Error Blue Screen/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Windows 10/Windows Boot Error Blue Screen/"}
 ---
 
-Nothing like getting home from a full day of work to boot up your home [[developer/Windows 10/Microsoft Windows\|developer/Windows 10/Microsoft Windows]] 10 PC and see the blue screen of death.
+Nothing like getting home from a full day of work to boot up your home [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]] 10 PC and see the blue screen of death.
 
 
 ![attachments/Recovery-Blue-Screen-Error-0x0000185-1 2.jpg|Recovery-Blue-Screen-Error-0x0000185-1](/img/user/attachments/Recovery-Blue-Screen-Error-0x0000185-1%202.jpg)

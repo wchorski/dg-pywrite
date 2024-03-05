@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML underused Tags/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML underused Tags/"}
 ---
 
 ```html
@@ -50,7 +50,6 @@ accessable pop ups with overlay (a little bit of ReacJS sorry)
 ---
 ## Credit
 - [The New dialog HTML Element Changes Modals Forever - YouTube](https://www.youtube.com/watch?v=ywtkJkxJsdg)
-
-
+- [[developer/HTML/HTML, Back to Basics\|HTML, Back to Basics]]
 
 #html #javascript #css 

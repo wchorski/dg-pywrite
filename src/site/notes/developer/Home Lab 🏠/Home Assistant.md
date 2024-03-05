@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Home Assistant/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Home Assistant/"}
 ---
 
-## [[home-assistant.io)](home-assistant.io\|Home Assistant (home-assistant.io)]])
+[Home Assistant (home-assistant.io)](https://www.home-assistant.io/)
 
 > Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts.
 
@@ -11,15 +11,15 @@ installed on [Raspberry Pi 4 Model B  4GB](https://www.raspberrypi.com/products/
 ---
 
 ### connections
-- securely accessed via [[developer/Home Lab 🏠/PiVPN\|developer/Home Lab 🏠/PiVPN]] (I don't forward face any apps that I solo use)
-- [[developer/Home Lab 🏠/Hyperion\|developer/Home Lab 🏠/Hyperion]]
-- [[developer/Home Lab 🏠/WLED\|developer/Home Lab 🏠/WLED]]
-- [[divoom.com)](divoom.com\|Divoom Pixoo (divoom.com)]]) digital sign (via bluetooth)
-- [[developer/Home Lab 🏠/Glances\|developer/Home Lab 🏠/Glances]] - via Grafana & InfluxDB
+- securely accessed via [[developer/Home Lab 🏠/PiVPN\|PiVPN]] (I don't forward face any apps that I solo use)
+- [[developer/Home Lab 🏠/Hyperion\|Hyperion]]
+- [[developer/Home Lab 🏠/WLED\|WLED]]
+- [[developer/Home Lab 🏠/Divoom Pixoo\|Divoom Pixoo]] digital sign (via bluetooth)
+- [[developer/Home Lab 🏠/Glances\|Glances]] - via Grafana & InfluxDB
 
 ### installation 
 
-While I would first recommend installation via [[https://www.home-assistant.io/installation/linux#install-home-assistant-supervised\|https://www.home-assistant.io/installation/linux#install-home-assistant-supervised]], I'm also trying out the containered version for it's flexibility and portability
+While I would first recommend installation via [ Linux - Home Assistant ](https://www.home-assistant.io/installation/linux#install-home-assistant-supervised), I'm also trying out the containered version for it's flexibility and portability
 ### compose.yml
 ```yml
 version: '3'
@@ -54,9 +54,9 @@ services:
 *Edit* - I end up going with **Hass.io** install instead, but leaving the **Supervised** notes here for reference
 ## troubleshooting 
 > [!warning]
-> I'm running the [home-assistant/supervised](https://github.com/home-assistant/supervised-installer) installation because I want to utilize my [[developer/Hardware/Pi4\|developer/Hardware/Pi4]] for multiple apps.
+> I'm running the [home-assistant/supervised](https://github.com/home-assistant/supervised-installer) installation because I want to utilize my [[developer/Hardware/Pi4\|Pi4]] for multiple apps.
 > 
-> I encountered a boot loop error from one of the Home Assistant services, effectively freezing any other service running on my [[developer/Hardware/Pi4\|developer/Hardware/Pi4]]
+> I encountered a boot loop error from one of the Home Assistant services, effectively freezing any other service running on my [[developer/Hardware/Pi4\|Pi4]]
 > 
 
 ```shell
@@ -109,7 +109,7 @@ sensor:
 ```
 
 ## Xamoi Temp / Humidity Sensor
-- [[atc1441.github.io)](https://atc1441.github.io/TelinkFlasher.html\|Telink Flasher (atc1441.github.io)]]
+- [Telink Flasher (atc1441.github.io) ](https://atc1441.github.io/TelinkFlasher.html)
 
 
 ---

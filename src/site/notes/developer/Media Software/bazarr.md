@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Media Software/bazarr/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/bazarr/"}
 ---
 
 
 part of the [Servarr](https://wiki.servarr.com/) family
-[[developer/Media Software/Docker Compose Media Containers Arrs\|developer/Media Software/Docker Compose Media Containers Arrs]]
+[[developer/Media Software/Docker Compose Media Containers Arrs\|Docker Compose Media Containers Arrs]]

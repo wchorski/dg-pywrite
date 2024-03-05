@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Docker🐳/PostGres Docker Compose yml config/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Docker🐳/PostGres Docker Compose yml config/"}
 ---
 
 ## compose.yml

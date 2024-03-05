@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Mount a Drive/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Mount a Drive/"}
 ---
 
 #linux #terminal #commandline
 
-[[https://www.simplified.guide/linux/disk-mount#:~:text=Steps to mount disk or partition in Linux%3A,using your preferred text editor. ... More items\|https://www.simplified.guide/linux/disk-mount#:~:text=Steps to mount disk or partition in Linux%3A,using your preferred text editor. ... More items]]
+[link](https://www.simplified.guide/linux/disk-mount#:~:text=Steps to mount disk or partition in Linux%3A,using your preferred text editor. ... More items)
 
 1. list what's hooked up `lsblk`
 ```shell
@@ -94,7 +94,7 @@ mount single drive `sudo mount.cifs -v //SPEARMINT/media /ntwmnt/media  --verbos
 ---
 ## Credits
 - [How To Mount A Network Drive In Linux – Systran Box](https://www.systranbox.com/how-to-mount-a-network-drive-in-linux/)
-- [[phoenixnap.com)](https://phoenixnap.com/kb/linux-mount-command\|Linux mount Command with Examples {+How to Unmount a File System} (phoenixnap.com)]]
+- [Linux mount Command with Examples {+How to Unmount a File System} (phoenixnap.com)](https://phoenixnap.com/kb/linux-mount-command)
 
 ## Backlinks
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
+- [[developer/Linux/Linux\|Linux]]

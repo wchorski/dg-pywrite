@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/GameDev 🕹/Flame Warrior/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/GameDev 🕹/Flame Warrior/"}
 ---
 
 
-use the Unity build as inspo but make it in [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]. 
+use the Unity build as inspo but make it in [[developer/ReactJS/ReactJS\|ReactJS]] . 
 
 change gameplay from emoticon reaction to a typing game. (like typing of the dead) 
 

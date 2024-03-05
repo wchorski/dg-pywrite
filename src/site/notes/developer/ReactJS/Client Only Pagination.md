@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Client Only Pagination/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Client Only Pagination/"}
 ---
 
 Looking for a quick way to paginate a large list of items. For now I'll retrieve all data and paginate all the data on the client side
@@ -10,4 +10,4 @@ put code here
 
 ---
 ## Credits
-- [[github.com)](https://github.com/CodeBlessYou/React-Pagination\|CodeBlessYou/React-Pagination: How to apply pagination in React application (github.com)]]
+- [CodeBlessYou/React-Pagination: How to apply pagination in React application (github.com)](https://github.com/CodeBlessYou/React-Pagination)

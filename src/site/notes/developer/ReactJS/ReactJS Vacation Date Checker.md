@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS Vacation Date Checker/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS Vacation Date Checker/"}
 ---
 
 I wanted to build a date picker that checks against an array of vacation days. The logic is vanilla #javascript and even uses the built in API `.toLocalDateString` for pretty formatting.

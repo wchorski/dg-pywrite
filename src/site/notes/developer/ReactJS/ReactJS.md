@@ -1,18 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS/"}
 ---
 
 #javascript #reactjs 
-> [[reactjs.org)](reactjs.org\|!info]])
+> [React](https://react.dev/)
 A JavaScript library for building user interfaces. "client"
 
 ## connections
-- [[developer/Home Lab 🏠/Nginx Proxy Manager\|developer/Home Lab 🏠/Nginx Proxy Manager]] for home routing
-- [[nodejs.org)](nodejs.org\|Node.js (nodejs.org)]])
-- example full stack app: [[github.com)](github.com\|wchorski/node-signage: Digital Signage on a MERN stack (github.com)]])
+- [[developer/Home Lab 🏠/Nginx Proxy Manager\|Nginx Proxy Manager]] for home routing
+- [Node.js (nodejs.org)](https://nodejs.org/en)
 
 ## installation
-### [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]] - full stack app
+### [[developer/Home Lab 🏠/Docker\|Docker]] - full stack app
 1. `./compose.yml`
 	1. "client" - React App
 	2. "server" - [Express](http://expressjs.com/) as the API
@@ -169,10 +168,10 @@ npm-debug.log
 ## Tutorials
 
 ### Dynamic table of contents - sticky navigation
-[[https://www.emgoto.com/react-table-of-contents/#:~:text=How to build a table of contents in,Creating a table of contents with Gatsby \|https://www.emgoto.com/react-table-of-contents/#:~:text=How to build a table of contents in,Creating a table of contents with Gatsby ]]
+[link](https://www.emgoto.com/react-table-of-contents/#:~:text=How to build a table of contents in,Creating a table of contents with Gatsby )
 
 ### Change Class on click
-[[https://bobbyhadz.com/blog/react-add-remove-class-on-click#:~:text=To add or remove a class on click,Use the classList.add () or classList.remove () methods.\|https://bobbyhadz.com/blog/react-add-remove-class-on-click#:~:text=To add or remove a class on click,Use the classList.add () or classList.remove () methods.]]
+[link](https://bobbyhadz.com/blog/react-add-remove-class-on-click#:~:text=To add or remove a class on click,Use the classList.add () or classList.remove () methods.)
 
 ```jsx
 import {useState} from 'react';
@@ -282,5 +281,5 @@ Child {
 
 ---
 ## Credits
-- [[https://reactgo.com/react-multiple-inline-styles/#:~:text=In React%2C we can add a inline styles,a single style object using the spread operator.\|https://reactgo.com/react-multiple-inline-styles/#:~:text=In React%2C we can add a inline styles,a single style object using the spread operator.]]
+- [link](https://reactgo.com/react-multiple-inline-styles/#:~:text=In React%2C we can add a inline styles,a single style object using the spread operator.)
 - [How to Get Selected Value from a Mapped Select Input in React | Pluralsight](https://www.pluralsight.com/guides/how-to-get-selected-value-from-a-mapped-select-input-in-react)

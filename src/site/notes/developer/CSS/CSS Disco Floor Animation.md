@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Disco Floor Animation/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Disco Floor Animation/"}
 ---
 
 

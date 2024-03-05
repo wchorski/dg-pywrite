@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4432,11 +4432,11 @@ end
 
 router <-- fiber 400mbps --> internet</pre><h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a> for local DNS. Make pretty URLs for local or public services</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a> for local DNS. Make pretty URLs for local or public services</li>
 </ul>
 <h3 id="installation" tabindex="-1">installation</h3>
 <ol>
-<li><code>compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a></li>
+<li><code>compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a></li>
 </ol>
 <pre><code class="language-yaml">version: '3'
 services:
@@ -4459,24 +4459,45 @@ Password: changeme
 <hr>
 <h2 id="publicly-facing-apps" tabindex="-1">Publicly Facing Apps</h2>
 <ol>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/Projects📐/WilliaMusic.com</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">developer/Home Lab 🏠/Nextcloud</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/Projects📐/heart-chart</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">developer/Home Lab 🏠/vaultwarden</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">developer/Home Lab 🏠/PhotoPrism</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">developer/Home Lab 🏠/Plex.tv</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">developer/Home Lab 🏠/Jellyfin</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">WilliaMusic.com</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">heart-chart</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">vaultwarden</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">PhotoPrism</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">Plex.tv</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">Jellyfin</a></li>
 </ol>
 <h2 id="pretty-ur-ls-for-local-apps" tabindex="-1">Pretty URLs for Local Apps</h2>
 <ol>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a> DNS setup</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a> DNS setup</li>
 <li><strong>Nginx</strong> to link Port number</li>
 </ol>
 <h2 id="leveraging-docker-s-internal-dns-routing" tabindex="-1">Leveraging Docker's Internal DNS routing</h2>
-<p>for example <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">developer/Home Lab 🏠/vaultwarden</a> I do <em>not</em> specify a <code>port</code> number. instead I use the <code>container_name: vaultwarden</code> as a DNS entry I can use in <strong>Nginx Proxy Manager</strong></p>
+<p>for example <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">vaultwarden</a> I do <em>not</em> specify a <code>port</code> number. instead I use the <code>container_name: vaultwarden</code> as a DNS entry I can use in <strong>Nginx Proxy Manager</strong></p>
 <h2 id="dark-mode" tabindex="-1">Dark Mode</h2>
 <p>There isn't an official dark mode, but with a bit of file digging, you too can override the <code>main.css</code></p>
-<p><em>check the <code>compose.yml</code> to map the <code>app/frontend/css/main.css</code> to a persistent volume</em></p>
+<ol>
+<li>Spin up the container first and let the app pull down.</li>
+<li><em>check the <code>compose.yml</code> to map the <code>app/frontend/css/main.css</code> to a persistent volume</em></li>
+</ol>
+<pre><code class="language-yml">version: '3.8'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+      - ./css/main.css:/app/frontend/css/main.css ## &lt;----- here
+</code></pre>
+<ol start="3">
+<li>spin up the container again and go to edit that new <code>./css/main.css</code> file</li>
+</ol>
+<h3 id="css" tabindex="-1">CSS</h3>
 <p>add this to the bottom of  <code>main.css</code></p>
 <pre><code class="language-css">body, .modal-content{
   background-color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#635366">#635366</a>;
@@ -4796,6 +4817,12 @@ Password: changeme
             		</li>
 
                     <li><a href="#dark-mode">Dark Mode</a>
+            
+                <ol>
+                    
+                    <li><a href="#css">CSS</a>
+            		</li>
+                </ol>
             		</li>
                 </ol>
             </nav>

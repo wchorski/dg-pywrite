@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4394,15 +4394,15 @@
 <hr>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li>publicly face app with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/#publicly-facing-app">developer/Home Lab 🏠/Nginx Proxy Manager#Publicly Facing App</a></li>
-<li>syncs pictures for <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">developer/Home Lab 🏠/PhotoPrism</a> to read my every growing photo gallery</li>
+<li>publicly face app with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/#publicly-facing-app">Nginx Proxy Manager#Publicly Facing App</a></li>
+<li>syncs pictures for <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">PhotoPrism</a> to read my every growing photo gallery</li>
 <li>used as my calendar server</li>
 <li>backup phone contacts</li>
 </ul>
 <h3 id="installation" tabindex="-1">installation</h3>
 <ol>
 <li>note that I use an external drive. You must set up your other drive first.</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a> <code>compose.yml</code></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> <code>compose.yml</code></li>
 </ol>
 <pre><code class="language-yaml">version: '2'
 
@@ -4479,13 +4479,13 @@ UPDATE ONE MAJOR VERSION AT A TIME<br>
 From there I could then pull the v20 docker image and run the upgrade to v20 using the same two commands.<br>
 <a href="https://help.nextcloud.com/t/cant-start-nextcloud-because-the-version-of-the-data-is-higher-than-the-docker-image-version-and-downgrading-is-not-supported/109438/4?u=wchorski" target="_blank" class="external-link">source</a></p>
 </blockquote>
-<p>If you don't make backups then you could possibly edit the container's <code>html/version.php</code>. Gotta thank <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">developer/Home Lab 🏠/Duplicati</a> for saving my behind</p>
+<p>If you don't make backups then you could possibly edit the container's <code>html/version.php</code>. Gotta thank <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a> for saving my behind</p>
 <h2 id="upgrading-to-aio" tabindex="-1">Upgrading to AIO</h2>
 <p>Will get to this eventually, but for now I'm sticking with the regular <code>nextcloud:latest</code> docker container deployment</p>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">all-in-one/migration.md</a> at main · nextcloud/all-in-one (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">https://github.com/nextcloud/all-in-one/blob/main/reverse-proxy.md#4-open-the-aio-interface</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">all-in-one/compose.yaml</a> at main · nextcloud/all-in-one (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
+<li><a href="https://github.com/nextcloud/all-in-one/blob/main/migration.md" target="_blank" class="external-link">all-in-one/migration.md at main · nextcloud/all-in-one (github.com)</a></li>
+<li><a href="https://github.com/nextcloud/all-in-one/blob/main/reverse-proxy.md#4-open-the-aio-interface" target="_blank" class="external-link">link</a></li>
+<li><a href="https://github.com/nextcloud/all-in-one/blob/main/compose.yaml" target="_blank" class="external-link">all-in-one/compose.yaml at main · nextcloud/all-in-one (github.com)</a></li>
 </ul>
 <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#todo">#todo</a></p>
 <ul class="task-list">

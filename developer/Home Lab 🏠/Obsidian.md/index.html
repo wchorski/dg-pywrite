@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4376,21 +4376,21 @@
       
       
       <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#notes">#notes</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#markdown">#markdown</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#webdev">#webdev</a></p>
-<h2 id="a-href-https-obsidian-md-target-blank-class-external-link-https-obsidian-md-a" tabindex="-1"><a href="https://obsidian.md/" target="_blank" class="external-link">https://obsidian.md/</a></h2>
+<p><a href="https://obsidian.md/" target="_blank" class="external-link">https://obsidian.md/</a></p>
 <blockquote>
 <p>a note taking app for people who are obsessed with Markdown</p>
 </blockquote>
-<p>I've dabbled in blogging / tutorial making, but was always bogged down with the speed of <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Wordpress/">developer/Home Lab 🏠/Wordpress</a>. with <strong>Obsidian</strong> I get</p>
+<p>I've dabbled in blogging / tutorial making, but was always bogged down with the speed of <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Wordpress/">Wordpress</a>. with <strong>Obsidian</strong> I get</p>
 <ul>
 <li>the speed of a local text editor,</li>
 <li>extensibility of an <a href="https://social.technet.microsoft.com/wiki/contents/articles/29057.the-small-basic-environment-ide.aspx" target="_blank" class="external-link">IDE</a>,</li>
 <li>simplicity that <a href="https://daringfireball.net/projects/markdown/" target="_blank" class="external-link">Markdown</a> offers.</li>
 </ul>
-<p>Plus I can use it for client tracking, tutorial making, and idea generation. I'd recommend anybody that knows more than 5 keyboard shortcuts to ditch whatever blogging tool they currently use <a class="internal-link is-unresolved" href="/404" target="">🚿 shower thoughts/In Flavor</a> of <strong>Obsidian</strong></p>
+<p>Plus I can use it for client tracking, tutorial making, and idea generation. I'd recommend anybody that knows more than 5 keyboard shortcuts to ditch whatever blogging tool they currently use <a class="internal-link is-unresolved" href="/404" target="">In Flavor</a> of <strong>Obsidian</strong></p>
 <hr>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li>easily convert and publish with <a class="internal-link" target="" data-note-icon="" href="/developer/tutorials/Obsidian-Zola/">developer/tutorials/Obsidian-Zola</a> or <a class="internal-link" target="" data-note-icon="" href="/developer/tutorials/Quartz-w_Boswell/">developer/tutorials/Quartz-w_Boswell</a></li>
+<li>easily convert and publish with <a class="internal-link" target="" data-note-icon="" href="/developer/tutorials/Obsidian-Zola/">Obsidian-Zola</a> or <a class="internal-link" target="" data-note-icon="" href="/developer/tutorials/Quartz-w_Boswell/">Quartz-w_Boswell</a></li>
 <li>Live Sync instances with <a class="internal-link is-unresolved" href="/404" target="">Obsidian-Livesync</a></li>
 </ul>
 <h3 id="installation" tabindex="-1">installation</h3>
@@ -4407,11 +4407,7 @@ To utilize storage on an SD card you have to save it in a specific spot <code>/S
 <hr>
 <h2 id="plugins-i-use" tabindex="-1">Plugins I use</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">vrtmrz/obsidian-livesync (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</a>)
-<ul>
-<li>explained in detail <a class="internal-link is-unresolved" href="/404" target="">Obsidian-Livesync</a></li>
-</ul>
-</li>
+<li><a href="https://github.com/vrtmrz/livesync-bridge" target="_blank" class="external-link">vrtmrz/livesync-bridge (github.com)</a></li>
 <li><a href="https://github.com/pjeby/quick-explorer" target="_blank" class="external-link">pjeby/quick-explorer</a>
 <ul>
 <li>Perform file explorer operations (and see your current file path) from the <a href="http://Obsidian.md" target="_blank" class="external-link">Obsidian.md</a> title bar</li>
@@ -4457,13 +4453,13 @@ To utilize storage on an SD card you have to save it in a specific spot <code>/S
 </ol>
 <h2 id="publish-vault" tabindex="-1">Publish Vault</h2>
 <ol>
-<li>I've use <a class="internal-link" target="" data-note-icon="" href="/developer/tutorials/Obsidian-Zola/">developer/tutorials/Obsidian-Zola</a> because it's dead simple and has nice out of the box features. Publish to <strong>Netlify</strong></li>
-<li>I have experimented with <a class="internal-link" target="" data-note-icon="" href="/developer/tutorials/Quartz-w_Boswell/">developer/tutorials/Quartz-w_Boswell</a>. I like the ability to compile locally but looking into how to add more features. Publish to <strong>Github Pages</strong></li>
-<li>Currently I use <a class="internal-link is-unresolved" href="/404" target="">developer/Projects📐/Obsidian Publish with NextJS</a> to show off my digital garden.</li>
+<li>I've use <a class="internal-link" target="" data-note-icon="" href="/developer/tutorials/Obsidian-Zola/">Obsidian-Zola</a> because it's dead simple and has nice out of the box features. Publish to <strong>Netlify</strong></li>
+<li>I have experimented with <a class="internal-link" target="" data-note-icon="" href="/developer/tutorials/Quartz-w_Boswell/">Quartz-w_Boswell</a>. I like the ability to compile locally but looking into how to add more features. Publish to <strong>Github Pages</strong></li>
+<li>Currently I use <a class="internal-link is-unresolved" href="/404" target="">Obsidian Publish with NextJS</a> to show off my digital garden.</li>
 </ol>
 <hr>
 <h2 id="backlinks" tabindex="-1">backlinks</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></p>
 <hr>
 <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#todo">#todo</a></p>
 <ul class="task-list">
@@ -4711,16 +4707,10 @@ To utilize storage on an SD card you have to save it in a specific spot <code>/S
                                           <nav class="toc">
                 <ol>
                     
-                    <li><a href="#a-href-https-obsidian-md-target-blank-class-external-link-https-obsidian-md-a">https://obsidian.md/</a>
-            
-                <ol>
-                    
                     <li><a href="#connections">connections</a>
             		</li>
 
                     <li><a href="#installation">installation</a>
-            		</li>
-                </ol>
             		</li>
 
                     <li><a href="#plugins-i-use">Plugins I use</a>

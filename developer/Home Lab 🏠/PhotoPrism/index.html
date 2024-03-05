@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4392,7 +4392,7 @@ Browse Your Life in Pictures</p>
 <h2 id="connections" tabindex="-1">connections</h2>
 <h2 id="installation" tabindex="-1">installation</h2>
 <ol>
-<li><code>compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a></li>
+<li><code>compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a></li>
 </ol>
 <pre><code class="language-yml">version: '3.5'
 

@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,9 +4375,9 @@
       </header>
       
       
-      <h2 id="a-href-http-github-com-target-blank-class-external-link-github-com-a-a-href-http-github-com-target-blank-class-external-link-github-com-a-aircoookie-wled-a-href-http-github-com-target-blank-class-external-link-github-com-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">Aircoookie/WLED (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</a>)</h2>
+      <p><a href="https://github.com/Aircoookie/WLED" target="_blank" class="external-link">Aircoookie/WLED: Control WS2812B and many more types of digital RGB LEDs with an ESP8266 or ESP32 over WiFi! (github.com)</a></p>
 <blockquote>
-<p><a class="internal-link is-unresolved" href="/404" target="">!info</a><br>
+<p><a href="https://github.com/Aircoookie/WLED" target="_blank" class="external-link">!info</a><br>
 A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102!</p>
 </blockquote>
 <p><a href="https://install.wled.me/" target="_blank" class="external-link">Install WLED</a> for wireless control of LEDs over wifi.</p>
@@ -4398,8 +4398,8 @@ A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control 
 <p><strong>mac addr of new 104</strong> -  7C:9E:BD:48:27:94</p>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">developer/Home Lab 🏠/Hyperion</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">Hyperion</a></li>
 <li></li>
 </ul>
 
@@ -4642,9 +4642,6 @@ A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control 
                                           <nav class="toc">
                 <ol>
                     
-                    <li><a href="#a-href-http-github-com-target-blank-class-external-link-github-com-a-a-href-http-github-com-target-blank-class-external-link-github-com-a-aircoookie-wled-a-href-http-github-com-target-blank-class-external-link-github-com-a">[[github.com)](github.com|Aircoookie/WLED (github.com)]])</a>
-            		</li>
-
                     <li><a href="#edit-endpoint">Edit Endpoint</a>
             		</li>
 

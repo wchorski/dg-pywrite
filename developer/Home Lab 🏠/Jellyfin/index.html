@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4376,22 +4376,22 @@
       
       
       <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#music">#music</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#media">#media</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#player">#player</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#itunes">#itunes</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#bash">#bash</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#powershell">#powershell</a></p>
-<p>!<a class="internal-link is-unresolved" href="/404" target="">banner-dark</a> (<a href="http://jellyfin.org" target="_blank" class="external-link">jellyfin.org</a>)</p>
+<p><img src="https://jellyfin.org/images/logo.svg" alt="banner-dark (jellyfin.org)"></p>
 <div class="callout " data-callout="info"><div class="callout-title"><div class="callout-title-inner"> <a href="https://jellyfin.org/" target="_blank" class="external-link">Jellyfin</a> The Free Software Media System.<br></div></div>
 <div class="callout-content">
 <p>
 Jellyfin is the volunteer-built media solution that puts <em>you</em> in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.</p>
 </div></div>
-<p>I use this exclusively for music hosting because <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">developer/Home Lab 🏠/Plex.tv</a> has more restrictions on client music playback. Plus, with a little shell magic -&gt; <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/#i-tunes-playlist-sync">iTunes playlist Sync</a></p>
+<p>I use this exclusively for music hosting because <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">Plex.tv</a> has more restrictions on client music playback. Plus, with a little shell magic -&gt; <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/#i-tunes-playlist-sync">iTunes playlist Sync</a></p>
 <hr>
 <h3 id="connections" tabindex="-1">Connections</h3>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a></li>
 <li>Android Phone (Galaxy s9)</li>
 </ul>
 <h2 id="installation" tabindex="-1">installation</h2>
 <ol>
-<li><code>./compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a></li>
+<li><code>./compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a></li>
 </ol>
 <pre><code class="language-yaml">version: &quot;3.7&quot;
 
@@ -4421,18 +4421,18 @@ services:
 <p>Gotta be honest, the native <a href="https://f-droid.org/en/packages/org.jellyfin.mobile/" target="_blank" class="external-link">Jellyfin | F-Droid</a> app is very lack luster. 🫰that this will improve in the future. Here is 2 alternatives</p>
 <ol>
 <li><a href="https://www.symfonium.app/" target="_blank" class="external-link">Symfonium</a>: It cost <strong>$5</strong>, and that's fine because it is very feature rich (Android Auto, auto sync, Offline downloads, etc).</li>
-<li><a href="https://github.com/jmshrv/finamp" target="_blank" class="external-link">FinAmp</a>If you're looking for something light weight (and <a class="internal-link" target="" data-note-icon="" href="/developer/FOSS/">developer/FOSS</a>)</li>
+<li><a href="https://github.com/jmshrv/finamp" target="_blank" class="external-link">FinAmp</a>If you're looking for something light weight (and <a class="internal-link" target="" data-note-icon="" href="/developer/FOSS/">FOSS</a>)</li>
 </ol>
 <h2 id="i-tunes-playlist-sync" tabindex="-1">iTunes playlist Sync</h2>
 <ul>
-<li>copy files to server: <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/FreeFileSync/">developer/Home Lab 🏠/FreeFileSync</a> or <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/rsync/">developer/Linux/rsync</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Media Software/iTunes XML Playlist to m3u Converter/">developer/Media Software/iTunes XML Playlist to m3u Converter</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/MacOs/Apple Music Batch Playlist Export/">developer/MacOs/Apple Music Batch Playlist Export</a></li>
+<li>copy files to server: <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/FreeFileSync/">FreeFileSync</a> or <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/rsync/">rsync</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Media Software/iTunes XML Playlist to m3u Converter/">iTunes XML Playlist to m3u Converter</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/MacOs/Apple Music Batch Playlist Export/">Apple Music Batch Playlist Export</a></li>
 </ul>
 <hr>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">music/music box</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">music box</a></li>
 </ul>
 
       

@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4382,24 +4382,24 @@ The simplest way to setup and manage a VPN,<br>
 designed for Raspberry Pi™.</p>
 </div></div>
 <h2 id="install" tabindex="-1">install</h2>
-<p>It is recommended to install <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a> first as it automates <strong>DNS</strong> routing upon installing <strong>PiVPN</strong></p>
+<p>It is recommended to install <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a> first as it automates <strong>DNS</strong> routing upon installing <strong>PiVPN</strong></p>
 <div class="callout " data-callout="important" data-callout-metadata=" "><div class="callout-title"><div class="callout-title-inner">Important</div></div>
 <div class="callout-content">
 <p>
 don't forget to set boot option to wait for network (i.e. <code>raspi-config</code>)</p>
 </div></div>
 <h2 id="updating" tabindex="-1">updating</h2>
-<p><a class="internal-link is-unresolved" href="/404" target="">https://docs.pivpn.io/install/#update</a></p>
+<p><a href="https://docs.pivpn.io/install/#update" target="_blank" class="external-link">link</a></p>
 <pre><code class="language-shell">run pivpn update
 </code></pre>
 <p>VPN protocols are updated via system package manager</p>
 <div class="callout " data-callout="note"><div class="callout-title"><div class="callout-title-inner">Note</div></div>
 <div class="callout-content">
 <p>
-Read <a class="internal-link is-unresolved" href="/404" target="">https://docs.pivpn.io/openvpn/#updating-openvpn</a> or <a class="internal-link is-unresolved" href="/404" target="">https://docs.pivpn.io/wireguard/#updating-wireguard</a> for information on how to update the VPN protocol.</p>
+Read <a href="https://docs.pivpn.io/openvpn/#updating-openvpn" target="_blank" class="external-link">link</a> or <a href="https://docs.pivpn.io/wireguard/#updating-wireguard" target="_blank" class="external-link">link</a> for information on how to update the VPN protocol.</p>
 </div></div>
 <h2 id="backup" tabindex="-1">backup</h2>
-<p>also a backup of <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a></p>
+<p>also a backup of <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a></p>
 <pre><code class="language-bash">#! /bin/bash
 
 DATE=`date +%Y-%m-%d`
@@ -4440,8 +4440,8 @@ fi
 then turn off and on the tunnel</p>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li>Running on <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">developer/Hardware/Pi4</a></li>
-<li>paired with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a> for ad blocking on the go</li>
+<li>Running on <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Pi4</a></li>
+<li>paired with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a> for ad blocking on the go</li>
 </ul>
 <h2 id="no-internet-browsing-when-connected" tabindex="-1">No internet browsing when connected</h2>
 <pre><code class="language-bash"># debug help
@@ -4460,7 +4460,7 @@ Done
 <h2 id="citations" tabindex="-1">Citations</h2>
 <ul>
 <li><a href="https://docs.pivpn.io/wireguard/" target="_blank" class="external-link">Wireguard - docs.pivpn.io</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">PiVPN</a> not working properly : raspberry_pi (<a href="http://reddit.com" target="_blank" class="external-link">reddit.com</a>)</li>
+<li><a href="https://www.reddit.com/r/raspberry_pi/comments/9i6rmm/pivpn_not_working_properly/" target="_blank" class="external-link">PiVPN not working properly : raspberry_pi (reddit.com)</a></li>
 <li><a href="https://docs.pi-hole.net/guides/vpn/wireguard/internal/" target="_blank" class="external-link">Make local devices accessible - Pi-hole documentation</a></li>
 </ul>
 

@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4385,7 +4385,7 @@ Since <a href="https://www.samba.org/samba/docs/10years.html" target="_blank" c
 </code></pre>
 <h2 id="installation" tabindex="-1">installation</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect" target="_blank" class="external-link">https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect</a> to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.</a></li>
+<li>[link](<a href="https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect" target="_blank" class="external-link">https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect</a> to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.)</li>
 </ul>
 
       

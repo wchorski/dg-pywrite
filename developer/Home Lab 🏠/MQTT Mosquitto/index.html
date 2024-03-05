@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4389,7 +4389,7 @@ cd mqtt5
 mkdir config
 
 </code></pre>
-<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-https-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#3-create-mosquitto-config-file---mosquittoconf</a></h2>
+<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#3-create-mosquitto-config-file---mosquittoconf" target="_blank" class="external-link">link</a></h2>
 <h2 id="3-create-mosquitto-config-file-mosquitto-conf" tabindex="-1">3. Create Mosquitto config file - mosquitto.conf</h2>
 <pre><code class="language-shell">nano config/mosquitto.conf
 </code></pre>
@@ -4403,11 +4403,11 @@ password_file /mosquitto/config/pwfile
 persistence_file mosquitto.db
 persistence_location /mosquitto/data/
 </code></pre>
-<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-https-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#4-create-mosquitto-password-file---pwfile</a></h2>
+<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#4-create-mosquitto-password-file---pwfile" target="_blank" class="external-link">link</a></h2>
 <h2 id="4-create-mosquitto-password-file-pwfile" tabindex="-1">4. Create Mosquitto password file - pwfile</h2>
 <pre><code class="language-shell">touch config/pwfile
 </code></pre>
-<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-https-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#5-create-docker-compose-file-called-docker-composeyml</a></h2>
+<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#5-create-docker-compose-file-called-docker-composeyml" target="_blank" class="external-link">link</a></h2>
 <h2 id="5-create-docker-compose-file-called-docker-compose-yml" tabindex="-1">5. Create docker-compose file called 'docker-compose.yml'</h2>
 <pre><code class="language-yaml">version: &quot;3.7&quot;
 services:
@@ -4434,7 +4434,7 @@ networks:
     name: mqtt5-network
 
 </code></pre>
-<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-https-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#6-create-and-run-docker-container-for-mqtt</a></h2>
+<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#6-create-and-run-docker-container-for-mqtt" target="_blank" class="external-link">link</a></h2>
 <h2 id="6-create-and-run-docker-container-for-mqtt" tabindex="-1">6. Create and run docker container for MQTT</h2>
 <pre><code class="language-shell"># In case you don't have docker-compose you can install it
 sudo apt install docker-compose
@@ -4443,12 +4443,12 @@ sudo apt install docker-compose
 sudo docker-compose -p mqtt5 up -d
 
 </code></pre>
-<h3 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-https-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#check-if-the-container-is-up-and-working-note-down-container-id</a></h3>
+<h3 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#check-if-the-container-is-up-and-working-note-down-container-id" target="_blank" class="external-link">link</a></h3>
 <h3 id="check-if-the-container-is-up-and-working-note-down-container-id" tabindex="-1">Check if the container is up and working (note down container-id)</h3>
 <pre><code class="language-shell">sudo docker ps
 
 </code></pre>
-<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-https-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#7-create-a-userpassword-in-the-pwfile</a></h2>
+<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#7-create-a-userpassword-in-the-pwfile" target="_blank" class="external-link">link</a></h2>
 <h2 id="7-create-a-user-password-in-the-pwfile" tabindex="-1">7. Create a user/password in the pwfile</h2>
 <pre><code class="language-shell"># login interactively into the mqtt container
 sudo docker exec -it &lt;container-id&gt; sh
@@ -4465,14 +4465,14 @@ mosquitto_passwd -D /mosquitto/config/pwfile &lt;user-name-to-delete&gt;
 <p>Then restart the container</p>
 <pre><code class="language-shell">sudo docker restart &lt;container-id&gt;
 </code></pre>
-<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-https-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#8-time-to-test-</a></h2>
+<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#8-time-to-test-" target="_blank" class="external-link">link</a></h2>
 <h2 id="8-time-to-test" tabindex="-1">8. Time to test !!!</h2>
-<h3 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-https-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#install-mosquitto-client-tools-for-testing</a></h3>
+<h3 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#install-mosquitto-client-tools-for-testing" target="_blank" class="external-link">link</a></h3>
 <h3 id="install-mosquitto-client-tools-for-testing" tabindex="-1">Install mosquitto client tools for testing</h3>
 <pre><code class="language-shell">sudo apt install mosquitto-clients
 
 </code></pre>
-<h3 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-subscriber-now---topic-name--hellotopic</a></h3>
+<h3 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-subscriber-now---topic-name--hellotopic" target="_blank" class="external-link">link</a></h3>
 <h3 id="let-us-start-subscriber-now-topic-name-and-gt-hello-topic" tabindex="-1">Let us start Subscriber now - topic name =&gt; 'hello/topic'</h3>
 <pre><code class="language-shell"># Without authentication
 mosquitto_sub -v -t 'hello/topic'
@@ -4485,7 +4485,7 @@ mosquitto_sub -v -t 'hello/topic' -u user1 -P &lt;password&gt;
 mosquitto_sub -v -L mqtt://user1:abc123@localhost/test/topic
 
 </code></pre>
-<h3 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-publising-to-that-topic</a></h3>
+<h3 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-publising-to-that-topic" target="_blank" class="external-link">link</a></h3>
 <h3 id="let-us-start-publising-to-that-topic" tabindex="-1">Let us start Publising to that topic</h3>
 <pre><code class="language-shell"># Without authentication
 mosquitto_pub -t 'hello/topic' -m 'hello MQTT'
@@ -4498,12 +4498,12 @@ mosquitto_pub -t 'hello/topic' -m 'hello MQTT' -u user1 -P &lt;password&gt;
 mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m 'hello MQTT'
 
 </code></pre>
-<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-https-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#you-can-also-install-a-nice-mqtt-web-client</a></h2>
+<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#you-can-also-install-a-nice-mqtt-web-client" target="_blank" class="external-link">link</a></h2>
 <h2 id="you-can-also-install-a-nice-mqtt-web-client" tabindex="-1">You can also install a nice MQTT Web Client</h2>
 <p>Read more about it here =&gt; <a href="https://mqttx.app/" target="_blank" class="external-link">https://mqttx.app/</a></p>
 <pre><code class="language-shell">sudo docker run -d --name mqttx-web -p 80:80 emqx/mqttx-web
 </code></pre>
-<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-https-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">https://github.com/sukesh-ak/setup-mosquitto-with-docker#sourcereference-for-mosquitto</a></h2>
+<h2 id="a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-target-blank-class-external-link-link-a" tabindex="-1"><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker#sourcereference-for-mosquitto" target="_blank" class="external-link">link</a></h2>
 <h2 id="source-reference-for-mosquitto" tabindex="-1">Source/Reference for Mosquitto</h2>
 <p>Github =&gt; <a href="https://github.com/eclipse/mosquitto" target="_blank" class="external-link">https://github.com/eclipse/mosquitto</a></p>
 <div class="callout " data-callout="warning"><div class="callout-title"><div class="callout-title-inner"> don't use <code>localhost</code>. Use IP address assigend by router i.e. <code>192.168.0.111</code></div></div>
@@ -4517,7 +4517,7 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m 'hello MQTT'
 <h2 id="extras" tabindex="-1">extras</h2>
 <hr>
 <h2 id="backlinks" tabindex="-1">backlinks</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></p>
 <ul>
 <li><a href="https://github.com/sukesh-ak/setup-mosquitto-with-docker" target="_blank" class="external-link">https://github.com/sukesh-ak/setup-mosquitto-with-docker</a></li>
 </ul>
@@ -4764,32 +4764,32 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m 'hello MQTT'
                     <li><a href="#2-create-base-folder-for-mqtt-configuration">2. Create base folder for mqtt configuration</a>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-https-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#3-create-mosquitto-config-file---mosquittoconf\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#3-create-mosquitto-config-file---mosquittoconf]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-3-create-mosquitto-config-file-mosquittoconf-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#3-create-mosquitto-config-file-mosquitto-conf">3. Create Mosquitto config file - mosquitto.conf</a>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-https-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#4-create-mosquitto-password-file---pwfile\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#4-create-mosquitto-password-file---pwfile]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-4-create-mosquitto-password-file-pwfile-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#4-create-mosquitto-password-file-pwfile">4. Create Mosquitto password file - pwfile</a>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-https-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#5-create-docker-compose-file-called-docker-composeyml\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#5-create-docker-compose-file-called-docker-composeyml]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-5-create-docker-compose-file-called-docker-composeyml-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#5-create-docker-compose-file-called-docker-compose-yml">5. Create docker-compose file called 'docker-compose.yml'</a>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-https-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#6-create-and-run-docker-container-for-mqtt\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#6-create-and-run-docker-container-for-mqtt]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-6-create-and-run-docker-container-for-mqtt-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#6-create-and-run-docker-container-for-mqtt">6. Create and run docker container for MQTT</a>
             
                 <ol>
                     
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-https-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#check-if-the-container-is-up-and-working-note-down-container-id\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#check-if-the-container-is-up-and-working-note-down-container-id]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-check-if-the-container-is-up-and-working-note-down-container-id-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#check-if-the-container-is-up-and-working-note-down-container-id">Check if the container is up and working (note down container-id)</a>
@@ -4797,32 +4797,32 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m 'hello MQTT'
                 </ol>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-https-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#7-create-a-userpassword-in-the-pwfile\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#7-create-a-userpassword-in-the-pwfile]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-7-create-a-userpassword-in-the-pwfile-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#7-create-a-user-password-in-the-pwfile">7. Create a user/password in the pwfile</a>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-https-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#8-time-to-test-\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#8-time-to-test-]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-8-time-to-test-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#8-time-to-test">8. Time to test !!!</a>
             
                 <ol>
                     
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-https-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#install-mosquitto-client-tools-for-testing\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#install-mosquitto-client-tools-for-testing]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-install-mosquitto-client-tools-for-testing-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#install-mosquitto-client-tools-for-testing">Install mosquitto client tools for testing</a>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-subscriber-now---topic-name--hellotopic\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-subscriber-now---topic-name--hellotopic]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-subscriber-now-topic-name-hellotopic-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#let-us-start-subscriber-now-topic-name-and-gt-hello-topic">Let us start Subscriber now - topic name => 'hello/topic'</a>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-publising-to-that-topic\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-publising-to-that-topic]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-let-us-start-publising-to-that-topic-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#let-us-start-publising-to-that-topic">Let us start Publising to that topic</a>
@@ -4830,13 +4830,13 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m 'hello MQTT'
                 </ol>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-https-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#you-can-also-install-a-nice-mqtt-web-client\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#you-can-also-install-a-nice-mqtt-web-client]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-you-can-also-install-a-nice-mqtt-web-client-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#you-can-also-install-a-nice-mqtt-web-client">You can also install a nice MQTT Web Client</a>
             		</li>
 
-                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-5-c-7-chttps-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-target-blank-class-external-link-https-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-https-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-a">[[https://github.com/sukesh-ak/setup-mosquitto-with-docker#sourcereference-for-mosquitto\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#sourcereference-for-mosquitto]]</a>
+                    <li><a href="#a-href-https-github-com-sukesh-ak-setup-mosquitto-with-docker-sourcereference-for-mosquitto-target-blank-class-external-link-link-a">link</a>
             		</li>
 
                     <li><a href="#source-reference-for-mosquitto">Source/Reference for Mosquitto</a>

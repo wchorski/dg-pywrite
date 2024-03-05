@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4383,7 +4383,7 @@
 <li>one</li>
 </ul>
 <h2 id="installation" tabindex="-1">installation</h2>
-<h3 id="developer-home-lab-docker-developer-home-lab-docker" tabindex="-1"><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a></h3>
+<h3 id="developer-home-lab-docker-docker" tabindex="-1"><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a></h3>
 <ol>
 <li><code>./compose.yml</code></li>
 </ol>
@@ -4411,15 +4411,15 @@ services:
 <li><code>./upgrade.sh</code></li>
 </ol>
 <pre><code>#! /bin/bash
-echo &quot;[[ upgrading portainer ]]&quot;
+echo &quot;<a class="internal-link is-unresolved" href="/404" target=""> upgrading portainer </a>&quot;
 
-echo &quot;[[ stop portainer docker ]]&quot;
+echo &quot;<a class="internal-link is-unresolved" href="/404" target=""> stop portainer docker </a>&quot;
 sudo docker stop portainer
 
-echo &quot;[[ remove old portainer docker ]]&quot;
+echo &quot;<a class="internal-link is-unresolved" href="/404" target=""> remove old portainer docker </a>&quot;
 sudo docker rm portainer
 
-echo &quot;[[ sudo docker-compose u -d ]]&quot;
+echo &quot;<a class="internal-link is-unresolved" href="/404" target=""> sudo docker-compose u -d </a>&quot;
 cd /home/&lt;username&gt;/docker/portainer
 
 sudo docker-compose up -d
@@ -4690,7 +4690,7 @@ sudo docker-compose up -d
             
                 <ol>
                     
-                    <li><a href="#developer-home-lab-docker-developer-home-lab-docker">[[developer/Home Lab 🏠/Docker|developer/Home Lab 🏠/Docker]]</a>
+                    <li><a href="#developer-home-lab-docker-docker">[[developer/Home Lab 🏠/Docker|Docker]]</a>
             		</li>
 
                     <li><a href="#upgrade-a-container">upgrade a container</a>

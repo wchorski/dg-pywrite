@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,7 +4375,7 @@
       </header>
       
       
-      <p><a class="internal-link is-unresolved" href="/404" target="">dani-garcia/vaultwarden:</a> Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</p>
+      <p><a href="https://github.com/dani-garcia/vaultwarden" target="_blank" class="external-link">dani-garcia/vaultwarden: Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs (github.com)</a></p>
 <p><a href="https://github.com/dani-garcia/vaultwarden" target="_blank" class="external-link">dani-garcia/vaultwarden: Unofficial Bitwarden</a></p>
 
       

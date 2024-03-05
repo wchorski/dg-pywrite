@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:59:09.713Z';
+        const searchIndexDate = '2024-03-05T03:00:09.515Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4381,16 +4381,16 @@
 <p>
 Stream Movies &amp; TV Shows.</p>
 </div></div>
-<p>Why do I use this for movies when I have <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">developer/Home Lab 🏠/Jellyfin</a>? Because movie playback seems more stable, it's easy to share libraries, and I don't watch movies on mobile</p>
+<p>Why do I use this for movies when I have <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">Jellyfin</a>? Because movie playback seems more stable, it's easy to share libraries, and I don't watch movies on mobile</p>
 <h2 id="connections" tabindex="-1">connections</h2>
 <ul>
 <li>one</li>
 </ul>
 <h2 id="installation" tabindex="-1">installation</h2>
 <ol>
-<li>the repo we'll be using -&gt; <a class="internal-link is-unresolved" href="/404" target="">plexinc/pms-docker: Plex Media Server Docker repo, for all your PMS docker needs. (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</a>)</li>
+<li>the repo we'll be using -&gt; <a href="https://github.com/plexinc/pms-docker" target="_blank" class="external-link">plexinc/pms-docker: Plex Media Server Docker repo, for all your PMS docker needs. (github.com)</a></li>
 <li>get token from <a href="https://www.plex.tv/claim/" target="_blank" class="external-link">Claim | Plex</a></li>
-<li><code>./compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a></li>
+<li><code>./compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a></li>
 </ol>
 <pre><code class="language-yml">version: '2'
 services:

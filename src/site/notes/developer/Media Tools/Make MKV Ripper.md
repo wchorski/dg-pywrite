@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Media Tools/Make MKV Ripper/","title":"MakeMKV App","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Tools/Make MKV Ripper/","title":"MakeMKV App"}
 ---
 
 
@@ -14,4 +14,4 @@ put code here
 - 
 
 ## Backlinks
-- [[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
+- [[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Dynamic DNS Choices/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Dynamic DNS Choices/"}
 ---
 
 You got your shiny self hosted app and you about to open it up to the world. No problem, just have people type in your public IP address. i.e. `98.143.344.321` in the address bar to get to you're site. 
@@ -22,7 +22,7 @@ Here is how I set it up in [PorkBun](https://porkbun.com/)'s Dashboard
 ![attachments/dynamic-dns-a-record 1.png|dynamic-dns-a-record](/img/user/attachments/dynamic-dns-a-record%201.png)**********
 
 > [!tip] Your ISP can change your Public IP at any time
-> Without a **Static IP** your service provider can and will change your public IP address. Although I've gone years without it changing, it still can happen without notice. For the extra paranoid you could monitor your IP with [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]])
+> Without a **Static IP** your service provider can and will change your public IP address. Although I've gone years without it changing, it still can happen without notice. For the extra paranoid you could monitor your IP with [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]])
 
 So... Let's get a static IP. Well, [maybe not](https://blog.noip.com/cost-of-a-static-ip-address-2). Here are some estimates of what a static IP could run you. 
 
@@ -52,13 +52,13 @@ Last thing to do is go back to your domain name provider and point your domain (
 
 This is for the more technically inclined.
 
-I've written a separate guide for [[developer/Home Lab 🏠/DuckDNS\|developer/Home Lab 🏠/DuckDNS]] that shows you how to setup the scripts with a raspberry pi (or any Debian distro)
+I've written a separate guide for [[developer/Home Lab 🏠/DuckDNS\|DuckDNS]] that shows you how to setup the scripts with a raspberry pi (or any Debian distro)
 ### Your Domain Name Provider
 
 Skip the middle man and have the DNS record update automatically. Provided that your DNS provider offers an API. I've yet to experiment with this, but it makes sense to remove an unneeded service and automate the record change strait to the provider. 
 
-Here is a tool for porkbun users [[github.com)](https://github.com/mietzen/porkbun-ddns\|mietzen/porkbun-ddns: porkbun-ddns is an unoffical DDNS-Client for Porkbun Domains. (github.com)]]
+Here is a tool for porkbun users [mietzen/porkbun-ddns: porkbun-ddns is an unoffical DDNS-Client for Porkbun Domains. (github.com)](https://github.com/mietzen/porkbun-ddns)
 
 ---
 ## backlinks
-- [[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
+- [[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]

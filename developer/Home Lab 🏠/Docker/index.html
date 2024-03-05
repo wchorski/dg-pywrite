@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4377,20 +4377,20 @@
       
       <h2 id="a-href-https-www-docker-com-target-blank-class-external-link-home-docker-a" tabindex="-1"><a href="https://www.docker.com/" target="_blank" class="external-link">Home - Docker</a></h2>
 <p>fast, easy and portable application development through containerization</p>
-<p>If I haven't figured out a way to [[<a href="https://www.docker.com/resources/what-container/%7Ccontainerize%5D%5D" target="_blank" class="external-link">What is a Container? - Docker</a> an app, I will find a way. Pretty much the backbone of how I deploy and maintain many services.</p>
+<p>If I haven't figured out a way to <a href="https://www.docker.com/resources/what-container/" target="_blank" class="external-link">containerize</a>) an app, I will find a way. Pretty much the backbone of how I deploy and maintain many services.</p>
 <hr>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/portainer/">developer/Home Lab 🏠/portainer</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">developer/Home Lab 🏠/Nginx Proxy Manager</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">developer/Home Lab 🏠/Nextcloud</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">developer/Home Lab 🏠/PhotoPrism</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Wordpress/">developer/Home Lab 🏠/Wordpress</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/NextJS/">developer/Home Lab 🏠/NextJS</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">developer/ReactJS/ReactJS</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">developer/Home Lab 🏠/vaultwarden</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">developer/Home Lab 🏠/Jellyfin</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">developer/Home Lab 🏠/Plex.tv</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/portainer/">portainer</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">Nginx Proxy Manager</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">PhotoPrism</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Wordpress/">Wordpress</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">NextJS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">ReactJS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">vaultwarden</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">Jellyfin</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">Plex.tv</a></li>
 <li>pretty much any of my microservices. Especially if it's public facing</li>
 </ul>
 <h3 id="installation" tabindex="-1">installation</h3>
@@ -4409,7 +4409,7 @@ sudo docker exec -it dev-garden-app-1 /bin/bash # 'heard you like shell inside y
 </code></pre>
 <h3 id="map-volume-on-windows-10" tabindex="-1">Map Volume on Windows 10</h3>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://stackoverflow.com/questions/50959475/docker-compose-on-windows-volume-not-working#:~:text=To" target="_blank" class="external-link">https://stackoverflow.com/questions/50959475/docker-compose-on-windows-volume-not-working#:~:text=To</a> do so%3A 1 Run the command &quot;set,container rm -f ) 5 Re-run the containers</a></li>
+<li>[link](<a href="https://stackoverflow.com/questions/50959475/docker-compose-on-windows-volume-not-working#:~:text=To" target="_blank" class="external-link">https://stackoverflow.com/questions/50959475/docker-compose-on-windows-volume-not-working#:~:text=To</a> do so%3A 1 Run the command &quot;set,container rm -f ) 5 Re-run the containers)</li>
 </ul>
 <pre><code class="language-shell">1.  Launch Docker from your windows taskbar
 2.  Click on Settings icon on top
@@ -4455,7 +4455,7 @@ docker compose -f /mnt/uasis5/node/filesystem-livesync-pywriter4/compose.yml res
 </code></pre>
 <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#todo">#todo</a></p>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://www.jamescoyle.net/how-to/docker-compose-files/3323-docker-compose-file-for-watchtower#:~:text=Create" target="_blank" class="external-link">https://www.jamescoyle.net/how-to/docker-compose-files/3323-docker-compose-file-for-watchtower#:~:text=Create</a> a new directory and save the above,from the moment you start the Watchtower container.</a></li>
+<li>[link](<a href="https://www.jamescoyle.net/how-to/docker-compose-files/3323-docker-compose-file-for-watchtower#:~:text=Create" target="_blank" class="external-link">https://www.jamescoyle.net/how-to/docker-compose-files/3323-docker-compose-file-for-watchtower#:~:text=Create</a> a new directory and save the above,from the moment you start the Watchtower container.)</li>
 </ul>
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>

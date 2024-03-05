@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4382,8 +4382,8 @@
 </ul>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></li>
-<li>links to my <a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/SFTP Server</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></li>
+<li>links to my <a class="internal-link is-unresolved" href="/404" target="">SFTP Server</a></li>
 </ul>
 <ol>
 <li><code>compose.yml</code></li>
@@ -4392,9 +4392,9 @@
 
 </code></pre>
 <h2 id="install-on-raspberry-pi" tabindex="-1">Install on Raspberry Pi</h2>
-<p>I didn't want to run a whole <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a> instance on my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">developer/Hardware/Pi4</a> just to run one container. So I've opted to install Duplicati on bare metal, as with all the other apps on this machine.</p>
+<p>I didn't want to run a whole <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> instance on my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Pi4</a> just to run one container. So I've opted to install Duplicati on bare metal, as with all the other apps on this machine.</p>
 <h3 id="step-1-install-mono" tabindex="-1">Step 1: Install Mono</h3>
-<p>Technically my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">developer/Hardware/Pi4</a> runs <a class="internal-link is-unresolved" href="/404" target="">Debian</a>, so I followed the <strong>Debian</strong> tab, but pick <a class="internal-link is-unresolved" href="/404" target="">https://www.mono-project.com/download/stable/#download-lin-debian</a>.</p>
+<p>Technically my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Pi4</a> runs <a class="internal-link is-unresolved" href="/404" target="">Debian</a>, so I followed the <strong>Debian</strong> tab, but pick <a href="https://www.mono-project.com/download/stable/#download-lin-debian" target="_blank" class="external-link">link</a>.</p>
 <p><strong>Debian 10</strong></p>
 <pre><code class="language-shell">sudo apt install dirmngr ca-certificates gnupg
 sudo gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/mono-official-archive-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
@@ -4416,7 +4416,7 @@ duplicati-server --webservice-port=8200 --webservice-interface=any
 </code></pre>
 <p>check your machine's IP and port to see if the webpage is up. i.e. <code>http://192.168.0.222:8200</code>. If you use local DNS, go to <code>http://192.168.0.222:8200/ngax/index.html#/settings</code> and punch in the allowed domains in the <code>Hostname</code> i.e. <code>raspberry.lan</code>.</p>
 <h3 id="run-as-system-service" tabindex="-1">Run as System Service</h3>
-<p>Here is the configuration for a system service. Check out <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/Linux System Service/">developer/Linux/Linux System Service</a> if you want more of a break down</p>
+<p>Here is the configuration for a system service. Check out <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/Linux System Service/">Linux System Service</a> if you want more of a break down</p>
 <p><code> sudo nano /etc/systemd/system/duplicati.service</code></p>
 <pre><code class="language-shell">[Unit]
 Description=Duplicati Backup service
@@ -4438,9 +4438,9 @@ sudo systemctl enable duplicati
 </code></pre>
 <h2 id="credit" tabindex="-1">Credit</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">https://www.mono-project.com/download/stable/#download-lin-debian</a></li>
+<li><a href="https://www.mono-project.com/download/stable/#download-lin-debian" target="_blank" class="external-link">link</a></li>
 <li><a href="https://forum.duplicati.com/t/install-duplicati-on-raspi-raspberry-pi/5309/2" target="_blank" class="external-link">Install Duplicati on Raspi / Raspberry Pi - Installation - Duplicati</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">https://www.mono-project.com/download/stable/#download-lin-debian</a></li>
+<li><a href="https://www.mono-project.com/download/stable/#download-lin-debian" target="_blank" class="external-link">link</a></li>
 </ul>
 
       

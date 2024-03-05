@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,8 +4375,8 @@
       </header>
       
       
-      <p>My media rig that runs <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">developer/Home Lab 🏠/Plex.tv</a>, <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">developer/Home Lab 🏠/Jellyfin</a>, &amp; my constant consumption of Youtube.</p>
-<p>DNS  - <strong>mint.lan</strong> <em>-via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a></em></p>
+      <p>My media rig that runs <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">Plex.tv</a>, <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">Jellyfin</a>, &amp; my constant consumption of Youtube.</p>
+<p>DNS  - <strong>mint.lan</strong> <em>-via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a></em></p>
 <pre><code class="language-bash">             ...-:::::-...                 spearmint@spearmint
           .-MMMMMMMMMMMMMMM-.              -------------------
       .-MMMM`..-:::::::-..`MMMM-.          OS: Linux Mint 21 x86_64
@@ -4523,15 +4523,15 @@ I tried the default <code>xserver-xorg-video-nouveau (open-source)</code> driver
 <h3 id="gaming-emulation" tabindex="-1">Gaming Emulation</h3>
 <p>I also use this as my emulation gaming rig</p>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Dolphin</a> Emulator - GameCube/Wii games on PC (<a href="http://dolphin-emu.org" target="_blank" class="external-link">dolphin-emu.org</a>)</li>
+<li><a href="https://dolphin-emu.org/" target="_blank" class="external-link">Dolphin Emulator - GameCube/Wii games on PC (dolphin-emu.org)</a></li>
 <li><a href="https://rpcs3.net/" target="_blank" class="external-link">RPCS3 - The PlayStation 3 Emulator</a></li>
 <li>Playstation 2 &amp; 1</li>
 <li><a href="https://redream.io/" target="_blank" class="external-link">redream - Dreamcast Emulator</a></li>
-<li>Wii U <a class="internal-link is-unresolved" href="/404" target="">Releases</a> · cemu-project/Cemu (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
+<li>Wii U <a href="https://github.com/cemu-project/Cemu/releases/" target="_blank" class="external-link">Releases · cemu-project/Cemu (github.com)</a></li>
 </ul>
 <h3 id="crypto-mining" tabindex="-1">Crypto Mining</h3>
-<p>I also mine <a href="https://www.getmonero.org/" target="_blank" class="external-link">Monero</a> on this machine with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/XMRig/">developer/Home Lab 🏠/XMRig</a></p>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">developer/Hardware/Homelab Hardware PC Builds</a></p>
+<p>I also mine <a href="https://www.getmonero.org/" target="_blank" class="external-link">Monero</a> on this machine with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/XMRig/">XMRig</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">Homelab Hardware PC Builds</a></p>
 
       
       

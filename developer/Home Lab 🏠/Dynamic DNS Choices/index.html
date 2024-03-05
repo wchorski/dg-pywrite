@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4410,7 +4410,7 @@ Sharing out your Public IP is just like copy and pasting your personal phone num
 <div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Your ISP can change your Public IP at any time<br></div></div>
 <div class="callout-content">
 <p>
-Without a <strong>Static IP</strong> your service provider can and will change your public IP address. Although I've gone years without it changing, it still can happen without notice. For the extra paranoid you could monitor your IP with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a>)</p>
+Without a <strong>Static IP</strong> your service provider can and will change your public IP address. Although I've gone years without it changing, it still can happen without notice. For the extra paranoid you could monitor your IP with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a>)</p>
 </div></div>
 <p>So... Let's get a static IP. Well, <a href="https://blog.noip.com/cost-of-a-static-ip-address-2" target="_blank" class="external-link">maybe not</a>. Here are some estimates of what a static IP could run you.</p>
 <blockquote>
@@ -4451,14 +4451,14 @@ Without a <strong>Static IP</strong> your service provider can and will change y
 <p>Last thing to do is go back to your domain name provider and point your domain (or any subdomain) to your created <code>mydomain.tplink.com</code> address as a <strong>CNAME</strong> record. I recommend this option for as the easiest way to get up and running as there is very little configuration.</p>
 <h3 id="duck-dns" tabindex="-1">DuckDNS</h3>
 <p>This is for the more technically inclined.</p>
-<p>I've written a separate guide for <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/DuckDNS/">developer/Home Lab 🏠/DuckDNS</a> that shows you how to setup the scripts with a raspberry pi (or any Debian distro)</p>
+<p>I've written a separate guide for <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/DuckDNS/">DuckDNS</a> that shows you how to setup the scripts with a raspberry pi (or any Debian distro)</p>
 <h3 id="your-domain-name-provider" tabindex="-1">Your Domain Name Provider</h3>
 <p>Skip the middle man and have the DNS record update automatically. Provided that your DNS provider offers an API. I've yet to experiment with this, but it makes sense to remove an unneeded service and automate the record change strait to the provider.</p>
-<p>Here is a tool for porkbun users <a class="internal-link is-unresolved" href="/404" target="">mietzen/porkbun-ddns:</a> porkbun-ddns is an unoffical DDNS-Client for Porkbun Domains. (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</p>
+<p>Here is a tool for porkbun users <a href="https://github.com/mietzen/porkbun-ddns" target="_blank" class="external-link">mietzen/porkbun-ddns: porkbun-ddns is an unoffical DDNS-Client for Porkbun Domains. (github.com)</a></p>
 <hr>
 <h2 id="backlinks" tabindex="-1">backlinks</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></li>
 </ul>
 
       

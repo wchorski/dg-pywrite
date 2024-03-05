@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4494,7 +4494,7 @@
 </ul>
 <hr>
 <h2 id="programs-and-amp-apps" tabindex="-1">Programs &amp; Apps</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">developer/Hardware/Homelab Hardware PC Builds</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">Homelab Hardware PC Builds</a></p>
 
       
       

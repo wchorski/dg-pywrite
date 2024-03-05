@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4387,7 +4387,7 @@
 </ul>
 <h3 id="installation" tabindex="-1">installation</h3>
 <ol>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a> <code>compose.yml</code></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> <code>compose.yml</code></li>
 </ol>
 <pre><code class="language-yaml">version: '3'
 services:
@@ -4444,16 +4444,16 @@ In Node 18, <code>localhost</code> ===&gt; <code>::1</code>, which is an IPv6
 </ul>
 <hr>
 <h2 id="backlinks" tabindex="-1">backlinks</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></p>
 <hr>
 <h2 id="citations" tabindex="-1">citations</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://docs.couchbase.com/server/current/install/startup-shutdown.html#:~:text=Windows" target="_blank" class="external-link">https://docs.couchbase.com/server/current/install/startup-shutdown.html#:~:text=Windows</a> 1 Open the Services app. You can,as whether it starts at system boot. </a></li>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://mircozeiss.com/couchdb-security-and-pouchdb-authentication#:~:text=Make" target="_blank" class="external-link">https://mircozeiss.com/couchdb-security-and-pouchdb-authentication#:~:text=Make</a> CouchDB accessible from client Use nano to,{ %2F%2F you'll need the headers object })%3B</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">couchdb-cookie-auth/app.js</a> at master · zemirco/couchdb-cookie-auth (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
+<li>[link](<a href="https://docs.couchbase.com/server/current/install/startup-shutdown.html#:~:text=Windows" target="_blank" class="external-link">https://docs.couchbase.com/server/current/install/startup-shutdown.html#:~:text=Windows</a> 1 Open the Services app. You can,as whether it starts at system boot. )</li>
+<li>[link](<a href="https://mircozeiss.com/couchdb-security-and-pouchdb-authentication#:~:text=Make" target="_blank" class="external-link">https://mircozeiss.com/couchdb-security-and-pouchdb-authentication#:~:text=Make</a> CouchDB accessible from client Use nano to,{ %2F%2F you'll need the headers object })%3B)</li>
+<li><a href="https://github.com/zemirco/couchdb-cookie-auth/blob/master/app.js" target="_blank" class="external-link">couchdb-cookie-auth/app.js at master · zemirco/couchdb-cookie-auth (github.com)</a></li>
 <li><a href="https://stackoverflow.com/questions/3684749/creating-regular-users-in-couchdb" target="_blank" class="external-link">Creating regular users in CouchDB - Stack Overflow</a></li>
 <li><a href="https://github.com/apache/couchdb-nano/issues/313#issuecomment-1321691678" target="_blank" class="external-link">https://github.com/apache/couchdb-nano/issues/313#issuecomment-1321691678</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">https://github.com/apache/couchdb-nano#nanodbinfocallback</a></li>
+<li><a href="https://github.com/apache/couchdb-nano#nanodbinfocallback" target="_blank" class="external-link">link</a></li>
 </ul>
 <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#todo">#todo</a></p>
 <ul class="task-list">

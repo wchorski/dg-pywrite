@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,7 +4375,7 @@
       </header>
       
       
-      <p>Integrating a Outlook IMAP sensor with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a> was a bit convoluted. So here is a step by step of my setup.</p>
+      <p>Integrating a Outlook IMAP sensor with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a> was a bit convoluted. So here is a step by step of my setup.</p>
 <h2 id="add-the-integration" tabindex="-1">Add the integration</h2>
 <p>I assume you know how to add a new Integration already. Search for &quot;IMAP&quot;. fill in the details as such</p>
 <ul>
@@ -4427,15 +4427,15 @@ card:
 <p><img src="https://clipground.com/images/parcel-png-9.png" alt="parcel|400" width="400px"><br>
 Just for fun, I've even added a header image to make it super obvious</p>
 <h2 id="3rd-party-alternatives" tabindex="-1">3rd party alternatives</h2>
-<p>check out <a class="internal-link is-unresolved" href="/404" target="">RogerSelwyn/O365-HomeAssistant:</a> Office 365 integration for Home Assistant (<a href="http://github.com" target="_blank" class="external-link">github.com</a>) if you want a more integrated Outlook API</p>
+<p>check out <a href="https://github.com/RogerSelwyn/O365-HomeAssistant" target="_blank" class="external-link">RogerSelwyn/O365-HomeAssistant: Office 365 integration for Home Assistant (github.com)</a> if you want a more integrated Outlook API</p>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">IMAP</a> - Home Assistant (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Template</a> - Home Assistant (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</li>
+<li><a href="https://www.home-assistant.io/integrations/imap" target="_blank" class="external-link">IMAP - Home Assistant (home-assistant.io)</a></li>
+<li><a href="https://www.home-assistant.io/integrations/template/" target="_blank" class="external-link">Template - Home Assistant (home-assistant.io)</a></li>
 <li><a href="https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040" target="_blank" class="external-link">POP, IMAP, and SMTP settings for Outlook.com - Microsoft Support</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Headers</a> &amp; Footers for dashboard cards - Home Assistant (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</li>
+<li><a href="https://www.home-assistant.io/dashboards/header-footer/" target="_blank" class="external-link">Headers &amp; Footers for dashboard cards - Home Assistant (home-assistant.io)</a></li>
 </ul>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></p>
 
       
       

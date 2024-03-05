@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,7 +4375,7 @@
       </header>
       
       
-      <h2 id="a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target="">Home Assistant (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</a>)</h2>
+      <p><a href="https://www.home-assistant.io/" target="_blank" class="external-link">Home Assistant (home-assistant.io)</a></p>
 <blockquote>
 <p>Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts.</p>
 </blockquote>
@@ -4383,14 +4383,14 @@
 <hr>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li>securely accessed via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PiVPN/">developer/Home Lab 🏠/PiVPN</a> (I don't forward face any apps that I solo use)</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">developer/Home Lab 🏠/Hyperion</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/WLED/">developer/Home Lab 🏠/WLED</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Divoom Pixoo (<a href="http://divoom.com" target="_blank" class="external-link">divoom.com</a>)</a>) digital sign (via bluetooth)</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Glances/">developer/Home Lab 🏠/Glances</a> - via Grafana &amp; InfluxDB</li>
+<li>securely accessed via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PiVPN/">PiVPN</a> (I don't forward face any apps that I solo use)</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">Hyperion</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/WLED/">WLED</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Divoom Pixoo/">Divoom Pixoo</a> digital sign (via bluetooth)</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Glances/">Glances</a> - via Grafana &amp; InfluxDB</li>
 </ul>
 <h3 id="installation" tabindex="-1">installation</h3>
-<p>While I would first recommend installation via <a class="internal-link is-unresolved" href="/404" target="">https://www.home-assistant.io/installation/linux#install-home-assistant-supervised</a>, I'm also trying out the containered version for it's flexibility and portability</p>
+<p>While I would first recommend installation via <a href="https://www.home-assistant.io/installation/linux#install-home-assistant-supervised" target="_blank" class="external-link"> Linux - Home Assistant </a>, I'm also trying out the containered version for it's flexibility and portability</p>
 <h3 id="compose-yml" tabindex="-1">compose.yml</h3>
 <pre><code class="language-yml">version: '3'
 services:
@@ -4424,8 +4424,8 @@ services:
 <div class="callout " data-callout="warning"><div class="callout-title"><div class="callout-title-inner">Warning</div></div>
 <div class="callout-content">
 <p>
-I'm running the <a href="https://github.com/home-assistant/supervised-installer" target="_blank" class="external-link">home-assistant/supervised</a> installation because I want to utilize my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">developer/Hardware/Pi4</a> for multiple apps.</p>
-<p>I encountered a boot loop error from one of the Home Assistant services, effectively freezing any other service running on my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">developer/Hardware/Pi4</a></p>
+I'm running the <a href="https://github.com/home-assistant/supervised-installer" target="_blank" class="external-link">home-assistant/supervised</a> installation because I want to utilize my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Pi4</a> for multiple apps.</p>
+<p>I encountered a boot loop error from one of the Home Assistant services, effectively freezing any other service running on my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Pi4</a></p>
 </div></div>
 <pre><code class="language-shell">... entered blocking state
 ... entered forwarding state
@@ -4467,7 +4467,7 @@ sensor:
 </code></pre>
 <h2 id="xamoi-temp-humidity-sensor" tabindex="-1">Xamoi Temp / Humidity Sensor</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Telink</a> Flasher (<a href="http://atc1441.github.io" target="_blank" class="external-link">atc1441.github.io</a>)</li>
+<li><a href="https://atc1441.github.io/TelinkFlasher.html" target="_blank" class="external-link">Telink Flasher (atc1441.github.io) </a></li>
 </ul>
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
@@ -4714,10 +4714,6 @@ sensor:
                                           <nav class="toc">
                 <ol>
                     
-                    <li><a href="#a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a-home-assistant-a-href-http-home-assistant-io-target-blank-class-external-link-home-assistant-io-a">[[home-assistant.io)](home-assistant.io|Home Assistant (home-assistant.io)]])</a>
-            
-                <ol>
-                    
                     <li><a href="#connections">connections</a>
             		</li>
 
@@ -4728,8 +4724,6 @@ sensor:
             		</li>
 
                     <li><a href="#plugins">plugins</a>
-            		</li>
-                </ol>
             		</li>
 
                     <li><a href="#troubleshooting">troubleshooting</a>
@@ -4779,6 +4773,7 @@ sensor:
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Divoom Pixoo/" data-note-icon="" class="backlink">Divoom Pixoo</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Dynamic DNS Choices/" data-note-icon="" class="backlink">Dynamic DNS Choices</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Frigate NVR/" data-note-icon="" class="backlink">Frigate NVR</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Glances/" data-note-icon="" class="backlink">Glances</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Grafana &amp; InfluxDB/" data-note-icon="" class="backlink">Grafana &amp; InfluxDB</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Home Lab 🏠/" data-note-icon="" class="backlink">Home Lab 🏠</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Hyperion/" data-note-icon="" class="backlink">Hyperion</a>

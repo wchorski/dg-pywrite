@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4426,60 +4426,60 @@ end
 
 router <-- fiber 400mbps --> internet</pre><h2 id="pi4-debian-11-bullseye-64bit" tabindex="-1">Pi4 (Debian 11 Bullseye 64bit)</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Glances/">developer/Home Lab 🏠/Glances</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Glances/">Glances</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a>
 <ul>
 <li>Unbound DNS</li>
 <li>DHCP list</li>
 </ul>
 </li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PiVPN/">developer/Home Lab 🏠/PiVPN</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PiVPN/">PiVPN</a>
 <ul>
 <li>.config files for each client</li>
 </ul>
 </li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/DuckDNS/">developer/Home Lab 🏠/DuckDNS</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">developer/Home Lab 🏠/Hyperion</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/DuckDNS/">DuckDNS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">Hyperion</a></li>
 </ul>
 <hr>
 <h2 id="icicle-intel-nuc-debian-11-bullseye-64bit" tabindex="-1">Icicle - Intel NUC (Debian 11 Bullseye 64bit)</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Glances/">developer/Home Lab 🏠/Glances</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">developer/Home Lab 🏠/Duplicati</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SFTP/">developer/Home Lab 🏠/SFTP</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Glances/">Glances</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SFTP/">SFTP</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">developer/Home Lab 🏠/Nextcloud</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">developer/Home Lab 🏠/Nginx Proxy Manager</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">developer/Home Lab 🏠/Nginx Proxy Manager</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">developer/Home Lab 🏠/vaultwarden</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Wordpress/">developer/Home Lab 🏠/Wordpress</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">developer/ReactJS/ReactJS</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/NextJS/">developer/Home Lab 🏠/NextJS</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/portainer/">developer/Home Lab 🏠/portainer</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">Nginx Proxy Manager</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">Nginx Proxy Manager</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">vaultwarden</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Wordpress/">Wordpress</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">ReactJS</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">NextJS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/portainer/">portainer</a></li>
 </ul>
 </li>
 </ul>
 <hr>
 <h2 id="spearmint-custom-pc-linux-mint" tabindex="-1">Spearmint - (custom PC) (Linux Mint)</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Glances/">developer/Home Lab 🏠/Glances</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">developer/Home Lab 🏠/Duplicati</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Glances/">Glances</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">developer/Home Lab 🏠/Plex.tv</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">developer/Home Lab 🏠/Jellyfin</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/portainer/">developer/Home Lab 🏠/portainer</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">Plex.tv</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">Jellyfin</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/portainer/">portainer</a></li>
 </ul>
 </li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/XMRig/">developer/Home Lab 🏠/XMRig</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">developer/Home Lab 🏠/SAMBA</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/XMRig/">XMRig</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">SAMBA</a></li>
 </ul>
 <hr>
 <h2 id="frostbyte" tabindex="-1">Frostbyte</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">developer/Home Lab 🏠/Duplicati</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a></li>
 <li>FL Studio</li>
 <li>Davinci Resolve</li>
 <li>Unity3D</li>
@@ -4489,16 +4489,16 @@ router <-- fiber 400mbps --> internet</pre><h2 id="pi4-debian-11-bullseye-64bit"
 <hr>
 <h2 id="sn0flake" tabindex="-1">Sn0flake</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">developer/Home Lab 🏠/Duplicati</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a></li>
 <li>Serato</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">developer/Home Lab 🏠/Hyperion</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">Hyperion</a></li>
 <li>Unity3D</li>
 </ul>
 <hr>
 <h2 id="milkywave" tabindex="-1">Milkywave</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">developer/Home Lab 🏠/Nextcloud</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">developer/Home Lab 🏠/SAMBA</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">SAMBA</a></li>
 <li><a class="internal-link is-unresolved" href="/404" target="">K-9 Mail (k9mail.app)</a>))</li>
 </ul>
 <hr>
@@ -4510,14 +4510,14 @@ router <-- fiber 400mbps --> internet</pre><h2 id="pi4-debian-11-bullseye-64bit"
 <li class="task-list-item"><input type="checkbox" id="cbx_3" disabled="true"><label for="cbx_3"> Add hyperion into the mix</label></li>
 <li class="task-list-item"><input type="checkbox" id="cbx_4" disabled="true"><label for="cbx_4"> tryout jellyfin in home assistant integration</label></li>
 </ul>
-<p><a class="internal-link is-unresolved" href="/404" target="">developer/Projects📐/Obsidian Publish with NextJS</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">developer/Home Lab 🏠/Nginx Proxy Manager</a><br>
-<a class="internal-link is-unresolved" href="/404" target="">music/Split Skream/Melt &amp; Murder</a></p>
+<p><a class="internal-link is-unresolved" href="/404" target="">Obsidian Publish with NextJS</a><br>
+<a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">Nginx Proxy Manager</a><br>
+<a class="internal-link is-unresolved" href="/404" target="">Melt &amp; Murder</a></p>
 <h2 id="wiki-links" tabindex="-1">wiki links</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/NextJS/">developer/Home Lab 🏠/NextJS</a></p>
-<p><a class="internal-link is-unresolved" href="/404" target="">developer/Projects📐/Obsidian Publish with NextJS</a><br>
+<p><a class="internal-link is-unresolved" href="/404" target="">NextJS</a></p>
+<p><a class="internal-link is-unresolved" href="/404" target="">Obsidian Publish with NextJS</a><br>
 <a class="internal-link is-unresolved" href="/404" target="">In Flavor</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></p>
+<a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></p>
 
       
       

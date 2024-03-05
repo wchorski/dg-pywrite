@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4381,7 +4381,7 @@
 </ul>
 <h3 id="fix-author-on-previous-commits" tabindex="-1">Fix author on previous commits</h3>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://waylonwalker.com/fix-git-commit-author/#:~:text=Fix" target="_blank" class="external-link">https://waylonwalker.com/fix-git-commit-author/#:~:text=Fix</a> git commit author 1 Change the email,... 8 A note on changing history... </a></li>
+<li>[link](<a href="https://waylonwalker.com/fix-git-commit-author/#:~:text=Fix" target="_blank" class="external-link">https://waylonwalker.com/fix-git-commit-author/#:~:text=Fix</a> git commit author 1 Change the email,... 8 A note on changing history... )</li>
 <li><a href="https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-a-single-commit" target="_blank" class="external-link">git - How to change the commit author for a single commit? - Stack Overflow</a></li>
 </ul>
 <h3 id="usual-grind" tabindex="-1">usual grind</h3>
@@ -4434,9 +4434,9 @@ git push origin master
 <h3 id="fix-commit-author" tabindex="-1">fix commit author</h3>
 <h2 id="global-login-via-terminal" tabindex="-1">global login via terminal</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">login</a> to github from terminal Code Example (<a href="http://iqcode.com" target="_blank" class="external-link">iqcode.com</a>)</li>
+<li><a href="https://iqcode.com/code/shell/login-to-github-from-terminal" target="_blank" class="external-link">login to github from terminal Code Example (iqcode.com)</a></li>
 <li><a href="https://www.geeksforgeeks.org/how-to-set-git-username-and-password-in-gitbash/" target="_blank" class="external-link">How to Set Git Username and Password in GitBash? - GeeksforGeeks</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">https://git-scm.com/docs/git-credential-store#_storage_format</a></li>
+<li><a href="https://git-scm.com/docs/git-credential-store#_storage_format" target="_blank" class="external-link">link</a></li>
 </ul>
 <pre><code class="language-shell">git config --global user.name &quot;John Doe&quot;
 git config --global user.email johndoe@example.com

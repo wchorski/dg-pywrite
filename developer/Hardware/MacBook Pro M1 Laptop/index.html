@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4377,7 +4377,7 @@
       
       <h2 id="productivity-apps" tabindex="-1">Productivity Apps</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Amethyst</a> 0.16.1 · ianyh/Amethyst (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
+<li><a href="https://github.com/ianyh/Amethyst/releases/tag/v0.16.1" target="_blank" class="external-link">Amethyst 0.16.1 · ianyh/Amethyst (github.com) </a></li>
 </ul>
 <h2 id="settings" tabindex="-1">Settings</h2>
 <ul>

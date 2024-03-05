@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4376,39 +4376,40 @@
       
       
       <h2 id="intel-nuc-i3-5010-u" tabindex="-1">Intel NUC i3-5010U</h2>
-<pre><code class="language-shell">       _,met$$$$$gg.          icicle@icicle
-    ,g$$$$$$$$$$$$$$$P.       -------------
-  ,g$$P&quot;     &quot;&quot;&quot;Y$$.&quot;.        OS: Debian GNU/Linux 11 (bullseye) x86_64
- ,$$P'              `$$$.     Kernel: 5.10.0-13-amd64
-',$$P       ,ggs.     `$$b:   Uptime: 121 days, 40 mins
-`d$$'     ,$P&quot;'   .    $$$    Packages: 490 (dpkg)
- $$P      d$'     ,    $$P    Shell: zsh 5.8
- $$:      $$.   -    ,d$$'    Terminal: /dev/pts/0
- $$;      Y$b._   _,d$P'      CPU: Intel i3-5010U (4) @ 2.000GHz
- Y$$.    `.`&quot;Y$$$$P&quot;'         GPU: Intel HD Graphics 5500
- `$$b      &quot;-.__              Memory: 6931MiB / 15894MiB
+<pre><code class="language-shell">       _,met$$$$$gg.          icicle@icicle 
+    ,g$$$$$$$$$$$$$$$P.       ------------- 
+  ,g$$P&quot;     &quot;&quot;&quot;Y$$.&quot;.        OS: Debian GNU/Linux 11 (bullseye) x86_64 
+ ,$$P'              `$$$.     Kernel: 5.10.0-20-amd64 
+',$$P       ,ggs.     `$$b:   Uptime: 169 days, 9 hours 
+`d$$'     ,$P&quot;'   .    $$$    Packages: 541 (dpkg) 
+ $$P      d$'     ,    $$P    Shell: zsh 5.8 
+ $$:      $$.   -    ,d$$'    Terminal: /dev/pts/0 
+ $$;      Y$b._   _,d$P'      CPU: Intel i3-5010U (4) @ 2.000GHz 
+ Y$$.    `.`&quot;Y$$$$P&quot;'         GPU: Intel HD Graphics 5500 
+ `$$b      &quot;-.__              Memory: 10271MiB / 15894MiB 
   `Y$$
-   `Y$$.
-     `$$b.
+   `Y$$.                                              
+     `$$b.                                            
        `Y$$b.
           `&quot;Y$b._
               `&quot;&quot;&quot;
+
 </code></pre>
 <h2 id="what-do-i-run-on-it" tabindex="-1">What Do I Run on it?</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a> containers such as</p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> containers such as</p>
 <ol>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">developer/Home Lab 🏠/Nginx Proxy Manager</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">developer/Home Lab 🏠/vaultwarden</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">developer/Home Lab 🏠/Nextcloud</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Obsidian-Livesync/">developer/Home Lab 🏠/Obsidian-Livesync</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">developer/Home Lab 🏠/PhotoPrism</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/SFTP Server</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SFTP/">developer/Home Lab 🏠/SFTP</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">Nginx Proxy Manager</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">vaultwarden</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">Livesync-Bridge</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">PhotoPrism</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">SFTP Server</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SFTP/">SFTP</a></li>
 <li></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Wordpress/">developer/Home Lab 🏠/Wordpress</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/NextJS/">developer/Home Lab 🏠/NextJS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Wordpress/">Wordpress</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">NextJS</a></li>
 </ol>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">developer/Hardware/Homelab Hardware PC Builds</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">Homelab Hardware PC Builds</a></p>
 
       
       

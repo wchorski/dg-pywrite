@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4381,9 +4381,9 @@
 <p>
 Open Source, Cross Platform File Synchronization &amp; Backup Software</p>
 </div></div>
-<p>when I need to make a <strong>One to One</strong> copy of a directory, internally or to another machine via a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">developer/Home Lab 🏠/SAMBA</a> share. I originally used this exclusively until I found <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">developer/Home Lab 🏠/Duplicati</a></p>
+<p>when I need to make a <strong>One to One</strong> copy of a directory, internally or to another machine via a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">SAMBA</a> share. I originally used this exclusively until I found <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a></p>
 <blockquote>
-<p>check out how I sync my iTunes playlists with my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">developer/Home Lab 🏠/Jellyfin</a> server</p>
+<p>check out how I sync my iTunes playlists with my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">Jellyfin</a> server</p>
 </blockquote>
 <h2 id="setup" tabindex="-1">setup</h2>
 <ul>
@@ -4394,12 +4394,12 @@ Open Source, Cross Platform File Synchronization &amp; Backup Software</p>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
 <li>iTunes</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">developer/Home Lab 🏠/Jellyfin</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Jellyfin/">Jellyfin</a></li>
 </ul>
 <h3 id="installation" tabindex="-1">installation</h3>
 <hr>
 <h2 id="backlinks" tabindex="-1">backlinks</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></p>
 
       
       

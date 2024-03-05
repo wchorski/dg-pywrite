@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4386,7 +4386,7 @@
 <li>find out case radiator compatibility</li>
 </ul>
 <p>my computer for gaming, music making, &amp; video editing</p>
-<p>DNS  - <strong>frost.lan</strong> <em>-via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a></em></p>
+<p>DNS  - <strong>frost.lan</strong> <em>-via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a></em></p>
 <h2 id="build" tabindex="-1">Build</h2>
 <div class="table-wrapper"><table>
 <thead>
@@ -4489,7 +4489,7 @@ new: corsair hx1000</p>
 <p>Bought as a prebuilt of Facebook Marketplace <strong>$1,600</strong> with a AMD Ryzen 9 3900x. I swapped out the CPU with the Ryzen 5 5600x because of the better single core performance.</p>
 <h2 id="programs-and-amp-apps" tabindex="-1">Programs &amp; Apps</h2>
 <ul>
-<li>Music writing &amp; arrangement - <a class="internal-link is-unresolved" href="/404" target="">FL</a> Studio (<a href="http://image-line.com" target="_blank" class="external-link">image-line.com</a>)</li>
+<li>Music writing &amp; arrangement - <a href="https://www.image-line.com/fl-studio/" target="_blank" class="external-link">FL Studio (image-line.com)</a></li>
 <li>Cutting music to picture -  <a href="https://www.ableton.com/en/blog/live-9-7-available-now/" target="_blank" class="external-link">Ableton Live 9 </a></li>
 <li>Video editing - <a href="https://www.blackmagicdesign.com/products/davinciresolve/" target="_blank" class="external-link">DaVinci Resolve 18 | Blackmagic Design</a></li>
 <li>control onboard RGB - <a href="https://openrgb.org/" target="_blank" class="external-link">OpenRGB</a></li>
@@ -4545,14 +4545,14 @@ new: corsair hx1000</p>
 </table></div>
 <h2 id="enable-ssh" tabindex="-1">Enable SSH</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://winaero.com/enable-openssh-server-windows-10/#:~:text=Windows" target="_blank" class="external-link">https://winaero.com/enable-openssh-server-windows-10/#:~:text=Windows</a> 10 Enable OpenSSH Server 1 Open the,Install button. 5 Restart Windows 10. See More.</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">https://adamtheautomator.com/openssh-windows/#Adding_a_Windows_Firewall_Rule_to_Allow_SSH_Traffic</a></li>
+<li>[link](<a href="https://winaero.com/enable-openssh-server-windows-10/#:~:text=Windows" target="_blank" class="external-link">https://winaero.com/enable-openssh-server-windows-10/#:~:text=Windows</a> 10 Enable OpenSSH Server 1 Open the,Install button. 5 Restart Windows 10. See More.)</li>
+<li><a href="https://adamtheautomator.com/openssh-windows/#Adding_a_Windows_Firewall_Rule_to_Allow_SSH_Traffic" target="_blank" class="external-link">link</a></li>
 <li><code>Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'</code></li>
 </ul>
 <h2 id="future-silent-build" tabindex="-1">future silent build</h2>
 <p><a href="https://www.youtube.com/channel/UCu8jiWN4yBjYw5W9Jgn0YHQ" target="_blank" class="external-link">De Fausti</a><br>
 I use open headphones and am also super sensible to loud PCs. My latest build has full PWM 140mm SilentWings 3 and a DarkRock 4 cooler, the loudest part is now the GPU and backup HDD. But the best part IMO is my Seasonic fanless titanium PSU, that thing is a fucking beast. The pump noise on AIO was exactly what I was worried about and it seems like I made the right choice in the end. Thanks for this!</p>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">developer/Hardware/Homelab Hardware PC Builds</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">Homelab Hardware PC Builds</a></p>
 <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#todo">#todo</a></p>
 <ul class="task-list">
 <li class="task-list-item"><input type="checkbox" id="cbx_0" disabled="true"><label for="cbx_0"> finish this page</label></li>

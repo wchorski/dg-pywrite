@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4376,12 +4376,12 @@
       
       
       <blockquote>
-<p><a class="internal-link is-unresolved" href="/404" target="">!info</a><br>
+<p><a href="https://nicolargo.github.io/glances/" target="_blank" class="external-link">!info</a><br>
 Glances is a cross-platform system monitoring tool written in Python.</p>
 </blockquote>
 <h3 id="connections" tabindex="-1">connections</h3>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Home Assistant</a>.md)</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a></li>
 </ul>
 <h3 id="installation-on-linux" tabindex="-1">installation on Linux</h3>
 <pre><code class="language-shell">sudo apt-get install glances
@@ -4425,8 +4425,8 @@ run <code>pip install glances</code> &amp; <code>pip install bottle</code></p>
 <li><a href="https://www.youtube.com/watch?v=m9qIqq104as&amp;t=2s" target="_blank" class="external-link">InfluxDB, Grafana, Glances &amp; IDE in Home Assistant within 15 minutes! - YouTube</a></li>
 </ul>
 <h2 id="helpful-links" tabindex="-1">helpful links</h2>
-<p><a class="internal-link is-unresolved" href="/404" target="">How</a> to Use Glances to Monitor System On Ubuntu (<a href="http://maketecheasier.com" target="_blank" class="external-link">maketecheasier.com</a>)<br>
-<a class="internal-link is-unresolved" href="/404" target=""><a href="https://www.tecmint.com/glances-monitor-remote-linux-in-web-server-mode/#:~:text=Run" target="_blank" class="external-link">https://www.tecmint.com/glances-monitor-remote-linux-in-web-server-mode/#:~:text=Run</a> Glances in Web Server Mode as a,start and view its status as follows. </a></p>
+<p><a href="https://www.maketecheasier.com/glances-monitor-system-ubuntu/" target="_blank" class="external-link">How to Use Glances to Monitor System On Ubuntu (maketecheasier.com)</a><br>
+[link](<a href="https://www.tecmint.com/glances-monitor-remote-linux-in-web-server-mode/#:~:text=Run" target="_blank" class="external-link">https://www.tecmint.com/glances-monitor-remote-linux-in-web-server-mode/#:~:text=Run</a> Glances in Web Server Mode as a,start and view its status as follows. )</p>
 
       
       

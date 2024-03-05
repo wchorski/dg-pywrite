@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4405,13 +4405,13 @@ INFLUX_BUCKET=YOUR_BUCKET
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Add</a> new time operators in addition to Now() · Issue <a class="tag" onclick="toggleTagSearch(this)" data-content="#1549">#1549</a> · influxdata/flux · GitHub</li>
+<li><a href="https://github.com/influxdata/flux/issues/1549" target="_blank" class="external-link">Add new time operators in addition to Now() · Issue <a class="tag" onclick="toggleTagSearch(this)" data-content="#1549">#1549</a> · influxdata/flux · GitHub</a></li>
 </ul>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">developer/Home Lab 🏠/Duplicati</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/_developer_box📦</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></li>
 <li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">duplicati</a></li>
 </ul>
 

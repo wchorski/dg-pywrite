@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,7 +4375,7 @@
       </header>
       
       
-      <p>This is a derivative of my all encompassing guide to <a class="internal-link" target="" data-note-icon="" href="/developer/emulation 👾/Pokemon Genning/">developer/emulation 👾/Pokemon Genning</a>. Here I'll go from start to finish on how to generate a <em>Legal</em> Mew into a Pokémon game. There are few tutorials out there that are either to vague or assume a lot from the reader. This guide will be completely <a class="tag" onclick="toggleTagSearch(this)" data-content="#n00b">#n00b</a> friendly</p>
+      <p>This is a derivative of my all encompassing guide to <a class="internal-link" target="" data-note-icon="" href="/developer/emulation 👾/Pokemon Genning/">Pokemon Genning</a>. Here I'll go from start to finish on how to generate a <em>Legal</em> Mew into a Pokémon game. There are few tutorials out there that are either to vague or assume a lot from the reader. This guide will be completely <a class="tag" onclick="toggleTagSearch(this)" data-content="#n00b">#n00b</a> friendly</p>
 <p>Here is a table of software and what we will be using it for. You can go ahead and download these tools right now, or download them as needed through this guide.</p>
 <div class="table-wrapper"><table>
 <thead>

@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4377,7 +4377,7 @@
       
       <p>Playstation 3 emulator</p>
 <h2 id="manage-transfer-save-data" tabindex="-1">Manage / transfer save data</h2>
-<p><a class="internal-link is-unresolved" href="/404" target="">https://rpcs3.net/quickstart#</a> Manage Save Data](<a href="https://rpcs3.net/quickstart#manage_saves" target="_blank" class="external-link">https://rpcs3.net/quickstart#manage_saves</a></p>
+<p>[link](<a href="https://rpcs3.net/quickstart#" target="_blank" class="external-link">https://rpcs3.net/quickstart#</a> Manage Save Data](<a href="https://rpcs3.net/quickstart#manage_saves" target="_blank" class="external-link">https://rpcs3.net/quickstart#manage_saves</a>)</p>
 <ul>
 <li>
 <p>For Windows users, save data files can be managed in <code>\dev_hdd0\home\00000001\savedata\</code></p>

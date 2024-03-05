@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,9 +4375,9 @@
       </header>
       
       
-      <p>A complete CCTV system that is integrated into <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a>, This was impart inspired by the lack luster results from <a class="internal-link is-unresolved" href="/404" target="">motion eye</a> with it's integrated Object Detection</p>
+      <p>A complete CCTV system that is integrated into <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a>, This was impart inspired by the lack luster results from <a class="internal-link is-unresolved" href="/404" target="">motion eye</a> with it's integrated Object Detection</p>
 <h2 id="installation" tabindex="-1">installation</h2>
-<p>I run <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a> on a <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Raspberry Pi 4 4gb</a>. Looking at it's current resource usage,</p>
+<p>I run <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a> on a <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Raspberry Pi 4 4gb</a>. Looking at it's current resource usage,</p>
 <ul>
 <li>20% CPU</li>
 <li>42% (2 / 4 gb) RAM</li>
@@ -4432,16 +4432,16 @@ database:
 <p>setting up my cheap <a href="https://www.tp-link.com/us/home-networking/cloud-camera/tapo-c200/" target="_blank" class="external-link">Tapo C200</a> camera via RTSP, and USB <a href="https://en.wikipedia.org/wiki/PlayStation_Eye" target="_blank" class="external-link">PlayStation Eye</a> camera was fairly strait forward</p>
 <h2 id="recommended-cameras" tabindex="-1">Recommended Cameras</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Amazon.com:</a> Customer reviews: Amcrest 5MP Turret POE Camera, UltraHD Outdoor IP Camera POE with Mic/Audio, 5-Megapixel Security Surveillance Cameras, 98ft NightVision, 103° FOV, MicroSD (256GB), (IP5M-T1179EW-28MM)</li>
+<li><a href="https://www.amazon.com/Amcrest-5-Megapixel-NightVision-Weatherproof-IP5M-T1179EW-28MM/product-reviews/B083G9KT4C/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&amp;reviewerType=all_reviews" target="_blank" class="external-link">Amazon.com: Customer reviews: Amcrest 5MP Turret POE Camera, UltraHD Outdoor IP Camera POE with Mic/Audio, 5-Megapixel Security Surveillance Cameras, 98ft NightVision, 103° FOV, MicroSD (256GB), (IP5M-T1179EW-28MM)</a></li>
 </ul>
 <h2 id="home-assistant-notifications" tabindex="-1">Home Assistant Notifications</h2>
-<p>Here is a premade automation blueprint  by <a href="https://gist.github.com/hunterjm" target="_blank" class="external-link">hunterjm)</a>- <a class="internal-link is-unresolved" href="/404" target="">Frigate</a> Notification Blueprint (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</p>
+<p>Here is a premade automation blueprint  by <a href="https://gist.github.com/hunterjm" target="_blank" class="external-link">hunterjm)</a>- <a href="https://gist.github.com/hunterjm/23c1588a9f2b8b9c2a62ffc364e17f8c" target="_blank" class="external-link">Frigate Notification Blueprint (github.com)</a></p>
 <h2 id="troubleshooting" tabindex="-1">Troubleshooting</h2>
 <pre><code class="language-shell">frigate.comms.mqtt             ERROR   : Unable to publish to stats: client is not connected
 </code></pre>
 <p>I never set up a MQTT server so I just installed the <a href="https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md" target="_blank" class="external-link">mosquitto)</a> addon available inside of Home Assistant.</p>
 <h2 id="docker-container" tabindex="-1">Docker Container</h2>
-<p>For those who installed <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a> Containered version, <strong>Frigate</strong> must be installed like so</p>
+<p>For those who installed <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a> Containered version, <strong>Frigate</strong> must be installed like so</p>
 <h3 id="compose-yml" tabindex="-1">compose.yml</h3>
 <pre><code class="language-yml">version: &quot;3.9&quot;
 services:
@@ -4472,12 +4472,12 @@ services:
       FRIGATE_RTSP_PASSWORD: &quot;password&quot;
 </code></pre>
 <h3 id="mqtt-broker" tabindex="-1">MQTT Broker</h3>
-<p>follow the <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Mosquitto MQTT Broker/">developer/Home Lab 🏠/Mosquitto MQTT Broker</a> article if you need to setup a stand alone MQTT broker</p>
+<p>follow the <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Mosquitto MQTT Broker/">Mosquitto MQTT Broker</a> article if you need to setup a stand alone MQTT broker</p>
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=gQdtGLRzKRI" target="_blank" class="external-link">Frigate and Home Assistant -Home Automation Guy</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Try</a> to use a webcam · Issue <a class="tag" onclick="toggleTagSearch(this)" data-content="#1184">#1184</a> · blakeblackshear/frigate (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
+<li><a href="https://github.com/blakeblackshear/frigate/issues/1184" target="_blank" class="external-link">Try to use a webcam · Issue <a class="tag" onclick="toggleTagSearch(this)" data-content="#1184">#1184</a> · blakeblackshear/frigate (github.com)</a></li>
 <li><a href="https://www.youtube.com/watch?v=Q2UT78lFQpo" target="_blank" class="external-link">Home Assistant Frigate integration for local image recognition - YouTube</a></li>
 <li><a href="https://www.youtube.com/watch?v=RWsT-x7yYXI" target="_blank" class="external-link">FRIGATE NVR Part 3 - Actionable Notifications and Dashboard Cards - YouTube</a></li>
 <li><a href="https://docs.frigate.video/frigate/installation" target="_blank" class="external-link">Installation | Frigate</a></li>

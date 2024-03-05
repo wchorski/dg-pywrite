@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,7 +4375,7 @@
       </header>
       
       
-      <p>Scrape a website and return it's status code to a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a> sensor. This builds off of my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Assistant/TV Power and Switch Template/">developer/Home Assistant/TV Power and Switch Template</a>.</p>
+      <p>Scrape a website and return it's status code to a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a> sensor. This builds off of my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Assistant/TV Power and Switch Template/">TV Power and Switch Template</a>.</p>
 <h2 id="dashboard-screenshot" tabindex="-1">Dashboard Screenshot</h2>
 <p><picture src="/img/user/attachments/HA-html-status-code%201.png" alt="attachments/HA-html-status-code 1.png|HA-html-status-code"><source       media="(max-width:480px)"
       srcset="/img/optimized/PKmQUN2_CS-500.webp"
@@ -4395,9 +4395,9 @@
       width=""
       ></picture></p>
 <h2 id="local-file-template-sensor" tabindex="-1">Local File  + Template Sensor</h2>
-<p>Later I explain a <strong>Command Line Method</strong> to do this only within Home Assistant, but I had a lot of false positives (or in this case, true negatives). This method assumes you have a separate machine (using my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">developer/Hardware/Pi4</a>) to run the <code>curl</code> commands, share files via <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/SAMBA Share/">developer/Linux/SAMBA Share</a>, and set up a <strong>Local File Sensor</strong> in Home Assistant</p>
+<p>Later I explain a <strong>Command Line Method</strong> to do this only within Home Assistant, but I had a lot of false positives (or in this case, true negatives). This method assumes you have a separate machine (using my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Pi4</a>) to run the <code>curl</code> commands, share files via <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/SAMBA Share/">SAMBA Share</a>, and set up a <strong>Local File Sensor</strong> in Home Assistant</p>
 <h3 id="curl-hmtl-status-from-website" tabindex="-1">Curl HMTL Status from Website</h3>
-<p>I go more in depth with my <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/Monitor Website's HTML Status Code with Bash Script/">developer/Linux/Monitor Website's HTML Status Code with Bash Script</a>, but here is the gist</p>
+<p>I go more in depth with my <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/Monitor Website's HTML Status Code with Bash Script/">Monitor Website's HTML Status Code with Bash Script</a>, but here is the gist</p>
 <pre><code class="language-bash">#!/bin/bash
 
 cd ~/html-status-codes
@@ -4416,7 +4416,7 @@ do
   curl -o /dev/null -s -w &quot;%{http_code}&quot; $website &gt; &quot;./logs/$FILENAME.log&quot;
 done
 </code></pre>
-<p>Set this script to run in a <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/Crontab/">developer/Linux/Crontab</a> and setup a <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/SAMBA Share/">developer/Linux/SAMBA Share</a>. In my case my directory will be <code>~/html-status-codes/logs</code></p>
+<p>Set this script to run in a <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/Crontab/">Crontab</a> and setup a <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/SAMBA Share/">SAMBA Share</a>. In my case my directory will be <code>~/html-status-codes/logs</code></p>
 <h3 id="add-network-storage" tabindex="-1">Add Network Storage</h3>
 <p>Home Assistant now supports mounting network storage via the UI (you may have to update you HA to get this feature) <code>http://HOMEASSISTANT_HOSTNAME:8123/config/storage</code></p>
 <p>On this page <button>Add Network Storage</button>  with the username, password, and folder</p>
@@ -4465,8 +4465,8 @@ sensors:
 			{% from 'html-status-icon.jinja' import html_status_icon %}
 			{{ html_status_icon('sensor.html_code_makeagram_file') }}
 </code></pre>
-<p>You could just add the <code>platform: file</code> block and be done with it, but the <code>platform: template</code> adds a reactive icon as well as defaults the sensor to <code>0</code> if the file is <code>unkown</code> which makes readings in <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Grafana & InfluxDB/">developer/Home Lab 🏠/Grafana &amp; InfluxDB</a> much more simple.</p>
-<p>Notice how I'm importing a reusable snippet for the <code>icon_template:</code> field, learn how with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Assistant/Jinja Code Snippet/">developer/Home Assistant/Jinja Code Snippet</a></p>
+<p>You could just add the <code>platform: file</code> block and be done with it, but the <code>platform: template</code> adds a reactive icon as well as defaults the sensor to <code>0</code> if the file is <code>unkown</code> which makes readings in <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Grafana & InfluxDB/">Grafana &amp; InfluxDB</a> much more simple.</p>
+<p>Notice how I'm importing a reusable snippet for the <code>icon_template:</code> field, learn how with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Assistant/Jinja Code Snippet/">Jinja Code Snippet</a></p>
 <div class="callout " data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Restart Home Assistant<br></div></div>
 <div class="callout-content">
 <p>
@@ -4535,8 +4535,8 @@ Lets say your <code>curl</code>ing a admin dashboard that that redirects to a lo
 </code></pre>
 <p>Don't let the syntax scare you here is the documentation</p>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Template</a> Designer Documentation — Jinja Documentation (3.2.x) (<a href="http://palletsprojects.com" target="_blank" class="external-link">palletsprojects.com</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Templating</a> - Home Assistant (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</li>
+<li><a href="https://jinja.palletsprojects.com/en/latest/templates/" target="_blank" class="external-link">Template Designer Documentation — Jinja Documentation (3.2.x) (palletsprojects.com)</a></li>
+<li><a href="https://www.home-assistant.io/docs/configuration/templating/" target="_blank" class="external-link">Templating - Home Assistant (home-assistant.io)</a></li>
 </ul>
 <p>I'll also break down what's happening line by line</p>
 <pre><code class="language-yml">icon: &gt;-
@@ -4558,7 +4558,7 @@ Lets say your <code>curl</code>ing a admin dashboard that that redirects to a lo
 		mdi:help-rhombus-outline
 	{% endif %}
 </code></pre>
-<p>Code split and reuse this icon code in a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Assistant/Jinja Code Snippet/">developer/Home Assistant/Jinja Code Snippet</a></p>
+<p>Code split and reuse this icon code in a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Assistant/Jinja Code Snippet/">Jinja Code Snippet</a></p>
 <h2 id="alert-automations" tabindex="-1">Alert Automations</h2>
 <p>Later I'll add some automation templates that alert my phone when a webpage goes down. Also would like to add a bit of color to these icons too in the future</p>
 <h2 id="remove-old-stale-entities" tabindex="-1">Remove Old Stale Entities</h2>
@@ -4570,14 +4570,14 @@ Lets say your <code>curl</code>ing a admin dashboard that that redirects to a lo
 </p></div></div>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Template</a> sensors are still there after they are being removed - Configuration - Home Assistant Community (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</li>
+<li><a href="https://community.home-assistant.io/t/template-sensors-are-still-there-after-they-are-being-removed/431510/3" target="_blank" class="external-link">Template sensors are still there after they are being removed - Configuration - Home Assistant Community (home-assistant.io)</a></li>
 <li><a href="https://stackoverflow.com/questions/38906626/curl-to-return-http-status-code-along-with-the-response" target="_blank" class="external-link">shell - Curl to return http status code along with the response - Stack Overflow</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Command</a> Line - Home Assistant (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">icon_template</a> is an invalid option for [command_line</li>
+<li><a href="https://www.home-assistant.io/integrations/command_line/" target="_blank" class="external-link">Command Line - Home Assistant (home-assistant.io)</a></li>
+<li>[icon_template is an invalid option for <a href="https://github.com/home-assistant/core/issues/94190" target="_blank" class="external-link">command_line</a></li>
 <li><a href="https://community.home-assistant.io/u/BrendanMoran" target="_blank" class="external-link">BrendanMoran</a> - <a href="https://community.home-assistant.io/t/website-down-or-up/53919/8" target="_blank" class="external-link">template example</a></li>
 <li><a href="https://community.home-assistant.io/u/sebdoan" target="_blank" class="external-link">sebdoan</a>- <a href="https://community.home-assistant.io/t/website-down-or-up/53919/9?u=billsky" target="_blank" class="external-link">template example</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a class="tag" onclick="toggleTagSearch(this)" data-content="#57">#57</a></a> Command Line Yaml Configuration has moved error FIXED </li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Change</a> icon color based on sensor value - Configuration - Home Assistant Community (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</li>
+<li><a href="https://www.youtube.com/watch?v=MKZ6B7tAXu0" target="_blank" class="external-link"><a class="tag" onclick="toggleTagSearch(this)" data-content="#57">#57</a> Command Line Yaml Configuration has moved error FIXED | Home Assistant 2023.6.0 | vccground (youtube.com)</a></li>
+<li><a href="https://community.home-assistant.io/t/change-icon-color-based-on-sensor-value/493637/4" target="_blank" class="external-link">Change icon color based on sensor value - Configuration - Home Assistant Community (home-assistant.io)</a></li>
 </ul>
 
       

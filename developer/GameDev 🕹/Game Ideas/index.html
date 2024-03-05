@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4376,7 +4376,7 @@
       
       
       <h2 id="peer-pressure" tabindex="-1">Peer Pressure</h2>
-<p>going of the static script of <a class="internal-link" target="" data-note-icon="" href="/developer/GameDev 🕹/Dark Room White Tunnel/">developer/GameDev 🕹/Dark Room White Tunnel</a>. use <a href="https://twinery.org/" target="_blank" class="external-link">Twine</a> to construct the branching storylines and mechanics of the game</p>
+<p>going of the static script of <a class="internal-link" target="" data-note-icon="" href="/developer/GameDev 🕹/Dark Room White Tunnel/">Dark Room White Tunnel</a>. use <a href="https://twinery.org/" target="_blank" class="external-link">Twine</a> to construct the branching storylines and mechanics of the game</p>
 <p>start off as 1 of 4 player<br>
 First branch is declining the drug. leave un scathed</p>
 <p>If you take the drug you are then propelled into a series of quick time events</p>

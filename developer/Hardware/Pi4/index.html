@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4396,7 +4396,7 @@
           `&quot;Y$b._
               `&quot;&quot;&quot;
 </code></pre>
-<p>Surprised that it isn't <strong>Raspberry Pi OS</strong>? Instead I run the Debian 64 bit version as recommended by <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a> <strong>Supervised</strong> install. I'm a little bummed I don't get the cool Raspberry ascii art from <code>neofetch</code>, but honestly, the developer experience is pretty much identical</p>
+<p>Surprised that it isn't <strong>Raspberry Pi OS</strong>? Instead I run the Debian 64 bit version as recommended by <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a> <strong>Supervised</strong> install. I'm a little bummed I don't get the cool Raspberry ascii art from <code>neofetch</code>, but honestly, the developer experience is pretty much identical</p>
 <h2 id="system-wide-backup" tabindex="-1">system wide backup</h2>
 <p><code>full-img-backup.sh</code></p>
 <pre><code class="language-shell">#!/bin/bash
@@ -4407,7 +4407,7 @@ FILE_NAME=&quot;pi4--$(date +%y_%B_%d).img&quot;
 DEST=&quot;/ntwmnt/octo8/backups/pi4/img&quot;
 LOG=&quot;./backup-status.log&quot;
 
-echo &quot;[[ creating system wide backup ]]&quot;
+echo &quot;<a class="internal-link is-unresolved" href="/404" target=""> creating system wide backup </a>&quot;
 echo $FILE_NAME
 
 <a class="tag" onclick="toggleTagSearch(this)" data-content="#backup">#backup</a> img of SD card
@@ -4424,13 +4424,13 @@ fi
 <hr>
 <h2 id="programs-and-amp-apps" tabindex="-1">Programs &amp; Apps</h2>
 <ol>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PiVPN/">developer/Home Lab 🏠/PiVPN</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/DuckDNS/">developer/Home Lab 🏠/DuckDNS</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">developer/Home Lab 🏠/Hyperion</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PiVPN/">PiVPN</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/DuckDNS/">DuckDNS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Hyperion/">Hyperion</a></li>
 </ol>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">developer/Hardware/Homelab Hardware PC Builds</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Homelab Hardware PC Builds/">Homelab Hardware PC Builds</a></p>
 
       
       

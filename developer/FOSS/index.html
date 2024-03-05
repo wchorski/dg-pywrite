@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4377,12 +4377,12 @@
       
       <p><a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank" class="external-link">Free and open-source software - Wikipedia</a></p>
 <blockquote>
-<p><strong>Free and open-source software</strong> (<strong>FOSS</strong>) is a term used to refer to groups of software consisting of both <a href="https://en.wikipedia.org/wiki/Free_software" title="Free software" target="_blank" class="external-link">free software</a> and <a href="https://en.wikipedia.org/wiki/Open-source_software" title="Open-source software" target="_blank" class="external-link">open-source software</a>,<a class="internal-link is-unresolved" href="/404" target="">https://en.wikipedia.org/wiki/Free_and_open-source_software#cite_note-3</a> where anyone is <a href="https://en.wikipedia.org/wiki/Open-source_license" title="Open-source license" target="_blank" class="external-link">freely licensed</a> to use, copy, study, and change the software in any way, and the <a href="https://en.wikipedia.org/wiki/Source_code" title="Source code" target="_blank" class="external-link">source code</a> is publicly available so that people are encouraged to improve the design of the software.<a class="internal-link is-unresolved" href="/404" target="">https://en.wikipedia.org/wiki/Free_and_open-source_software#cite_note-:1-4</a> This is in contrast to <a href="https://en.wikipedia.org/wiki/Proprietary_software" title="Proprietary software" target="_blank" class="external-link">proprietary software</a>, where the software is under restrictive <a href="https://en.wikipedia.org/wiki/Copyright" title="Copyright" target="_blank" class="external-link">copyright</a> or <a href="https://en.wikipedia.org/wiki/Software_license" title="Software license" target="_blank" class="external-link">licensing</a> and the source code is hidden from the users.</p>
+<p><strong>Free and open-source software</strong> (<strong>FOSS</strong>) is a term used to refer to groups of software consisting of both <a href="https://en.wikipedia.org/wiki/Free_software" title="Free software" target="_blank" class="external-link">free software</a> and <a href="https://en.wikipedia.org/wiki/Open-source_software" title="Open-source software" target="_blank" class="external-link">open-source software</a>,<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software#cite_note-3" target="_blank" class="external-link">link</a> where anyone is <a href="https://en.wikipedia.org/wiki/Open-source_license" title="Open-source license" target="_blank" class="external-link">freely licensed</a> to use, copy, study, and change the software in any way, and the <a href="https://en.wikipedia.org/wiki/Source_code" title="Source code" target="_blank" class="external-link">source code</a> is publicly available so that people are encouraged to improve the design of the software.<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software#cite_note-:1-4" target="_blank" class="external-link">link</a> This is in contrast to <a href="https://en.wikipedia.org/wiki/Proprietary_software" title="Proprietary software" target="_blank" class="external-link">proprietary software</a>, where the software is under restrictive <a href="https://en.wikipedia.org/wiki/Copyright" title="Copyright" target="_blank" class="external-link">copyright</a> or <a href="https://en.wikipedia.org/wiki/Software_license" title="Software license" target="_blank" class="external-link">licensing</a> and the source code is hidden from the users.</p>
 </blockquote>
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/_developer_box📦</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></li>
 </ul>
 
       

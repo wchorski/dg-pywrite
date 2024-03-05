@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,7 +4375,7 @@
       </header>
       
       
-      <p>use a local file or <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">developer/Home Lab 🏠/SAMBA</a> share hooked into <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a> to read as a sensor</p>
+      <p>use a local file or <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">SAMBA</a> share hooked into <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a> to read as a sensor</p>
 <h2 id="allow-external-directory" tabindex="-1">Allow external directory</h2>
 <p>Although this share file is connected into HA's filesystem, it still needs to be allowed through configuration. I've allowed the whole <code>/share</code> folder, but you may piece meal the allowed nested directories</p>
 <p><code>configuration.yaml</code></p>
@@ -4391,8 +4391,8 @@
 </ol>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Setup</a> basic information - Home Assistant (<a href="http://home-assistant.io" target="_blank" class="external-link">home-assistant.io</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">https://www.home-assistant.io/integrations/file/#sensor</a></li>
+<li><a href="https://www.home-assistant.io/docs/configuration/basic/" target="_blank" class="external-link">Setup basic information - Home Assistant (home-assistant.io)</a></li>
+<li><a href="https://www.home-assistant.io/integrations/file/#sensor" target="_blank" class="external-link">link</a></li>
 </ul>
 
       

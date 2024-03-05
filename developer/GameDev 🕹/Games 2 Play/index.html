@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T02:57:04.436Z';
+        const searchIndexDate = '2024-03-05T02:59:09.713Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:59:09.713Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:59:09.713Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4376,11 +4376,11 @@
       
       
       <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Download</a> Mega Man Soccer for the SNES (<a href="http://vimm.net" target="_blank" class="external-link">vimm.net</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Download</a> Dead Rising 2 for the PS3 (<a href="http://vimm.net" target="_blank" class="external-link">vimm.net</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Download</a> Dead Space 2 for the PS3 (<a href="http://vimm.net" target="_blank" class="external-link">vimm.net</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Download</a> Red Dead Redemption: Undead Nightmare for the PS3 (<a href="http://vimm.net" target="_blank" class="external-link">vimm.net</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Download</a> BioShock for the PS3 (<a href="http://vimm.net" target="_blank" class="external-link">vimm.net</a>)
+<li><a href="https://vimm.net/vault/1385" target="_blank" class="external-link">Download Mega Man Soccer for the SNES (vimm.net)</a></li>
+<li><a href="https://vimm.net/vault/24817" target="_blank" class="external-link">Download Dead Rising 2 for the PS3 (vimm.net)</a></li>
+<li><a href="https://vimm.net/vault/24820" target="_blank" class="external-link">Download Dead Space 2 for the PS3 (vimm.net)</a></li>
+<li><a href="https://vimm.net/vault/25437" target="_blank" class="external-link">Download Red Dead Redemption: Undead Nightmare for the PS3 (vimm.net)</a></li>
+<li><a href="https://vimm.net/vault/24705" target="_blank" class="external-link">Download BioShock for the PS3 (vimm.net)</a>
 <ul>
 <li>and 2</li>
 </ul>

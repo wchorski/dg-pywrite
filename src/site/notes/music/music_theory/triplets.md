@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music_theory/triplets/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/music_theory/triplets/"}
 ---
 
 

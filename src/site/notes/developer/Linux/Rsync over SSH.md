@@ -1,17 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Rsync over SSH/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Rsync over SSH/"}
 ---
 
 
-Here is a simple backup solution for a client to remote server. Assuming you've already set up a [[developer/Linux/Hardened SSH Server\|developer/Linux/Hardened SSH Server]] with key login
+Here is a simple backup solution for a client to remote server. Assuming you've already set up a [[developer/Linux/Hardened SSH Server\|Hardened SSH Server]] with key login
 
-In this example I'm backing up my [[developer/Home Lab 🏠/Nextcloud\|developer/Home Lab 🏠/Nextcloud]] data (pictures, documents, etc.) to a remote server for my 'offsite backup'
+In this example I'm backing up my [[developer/Home Lab 🏠/Nextcloud\|Nextcloud]] data (pictures, documents, etc.) to a remote server for my 'offsite backup'
 
 - `LOCALDRIVE` === assuming you mounted your external drive with lots of space here
 - `REMOTESERVER.lan` === could be an offsite domain or you could just backup to a local IP on the same network
 - `LOG_DIR` === this is where the `status.log` & `sync.log` will be created and updated
 	- `status.log` is a simple 'OK' or 'ERROR' with date synced. Great to print to dashboards for a quick glance
-	- `sync.log` is the full details of the last [[developer/Linux/rsync\|developer/Linux/rsync]] run. Useful if the script ERRORs out and you have to see what went wrong.
+	- `sync.log` is the full details of the last [[developer/Linux/rsync\|rsync]] run. Useful if the script ERRORs out and you have to see what went wrong.
 
 ```bash
 #!/bin/bash
@@ -58,4 +58,4 @@ I'm getting 2 different errors when trying to sync my nextcloud data files
 
 ---
 ## Backlinks
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
+- [[developer/Linux/Linux\|Linux]]

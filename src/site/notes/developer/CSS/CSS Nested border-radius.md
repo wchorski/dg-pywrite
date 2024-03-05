@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Nested border-radius/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Nested border-radius/"}
 ---
 
 You've probably set the parent and child element `border-radius` to the same value expecting them to line up, but it's the padding that throws the angle of the curve off
@@ -22,4 +22,4 @@ The inner radius needs to equal the outer radius - padding
 - [Do you make this mistake with border-radius? #css - YouTube](https://www.youtube.com/shorts/D0lIR1qVJOk)
 
 ## Backlinks
-- [[developer/CSS/CSS\|developer/CSS/CSS]]
+- [[developer/CSS/CSS\|CSS]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS/"}
 ---
 
 > [KeystoneJS: The superpowered Node.js Headless CMS for developers - Keystone 6](https://keystonejs.com/)

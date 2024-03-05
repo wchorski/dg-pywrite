@@ -1,6 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/Publish Test/","title":"Markdown Testing Ground for Published Notes","noteIcon":""}
+{"dg-publish":true,"permalink":"/Publish Test/","title":"Markdown Testing Ground for Published Notes"}
 ---
+
+
+| tables            | are        | cool   | how about that |                 |
+| ----------------- | ---------- | ------ | -------------- | --------------- |
+|                   | how        | cool   | are            | check this out  |
+|                   |            |        |                | can we get this |
+|                   |            | tables | working go     |                 |
+| like what is this | the talbes |        |                |                 |
+|                   |            |        |                |                 |
+
 
 trying out wiki links instead 
 
@@ -54,11 +64,11 @@ subgraph Your DB
 end
 ```
 
-| File                                                                                                       | Last modified      |
-| ---------------------------------------------------------------------------------------------------------- | ------------------ |
-| [[developer/Media Tools/Make MKV Ripper\|Make MKV Ripper]]                                              | 20.02.2024 - 15:50 |
-| [[developer/Discord/Discord Bot How To Tut\|Discord Bot How To Tut]]                                    | 20.02.2024 - 15:50 |
-| [[developer/Media Software/iTunes XML Playlist to m3u Converter\|iTunes XML Playlist to m3u Converter]] | 20.02.2024 - 15:22 |
+| File                                                                                            | Last modified      |
+| ----------------------------------------------------------------------------------------------- | ------------------ |
+| [[developer/Projects📐/pvo-PP\|pvo-PP]]                                                      | 04.03.2024 - 18:24 |
+| [[developer/Projects📐/Party-Planner\|Party-Planner]]                                        | 04.03.2024 - 16:47 |
+| [[developer/Artificial intelligence/Ollama with Docker Compose\|Ollama with Docker Compose]] | 04.03.2024 - 15:53 |
 
 { .block-language-dataview}
 

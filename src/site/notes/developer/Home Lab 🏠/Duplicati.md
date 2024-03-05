@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Duplicati/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Duplicati/"}
 ---
 
 ## [Duplicati](https://www.duplicati.com/)
@@ -7,8 +7,8 @@
 - cross platform 
 
 ### connections
-- [[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
-- links to my [[developer/Home Lab 🏠/SFTP Server\|developer/Home Lab 🏠/SFTP Server]] 
+- [[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
+- links to my [[developer/Home Lab 🏠/SFTP Server\|SFTP Server]] 
 
 1. `compose.yml`
 ```yaml
@@ -18,11 +18,11 @@ service 3.1
 
 ## Install on Raspberry Pi
 
-I didn't want to run a whole [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]] instance on my [[developer/Hardware/Pi4\|developer/Hardware/Pi4]] just to run one container. So I've opted to install Duplicati on bare metal, as with all the other apps on this machine.
+I didn't want to run a whole [[developer/Home Lab 🏠/Docker\|Docker]] instance on my [[developer/Hardware/Pi4\|Pi4]] just to run one container. So I've opted to install Duplicati on bare metal, as with all the other apps on this machine.
 
 ### Step 1: Install Mono
 
-Technically my [[developer/Hardware/Pi4\|developer/Hardware/Pi4]] runs [[Debian\|Debian]], so I followed the **Debian** tab, but pick [[https://www.mono-project.com/download/stable/#download-lin-debian\|https://www.mono-project.com/download/stable/#download-lin-debian]].
+Technically my [[developer/Hardware/Pi4\|Pi4]] runs [[Debian\|Debian]], so I followed the **Debian** tab, but pick [link](https://www.mono-project.com/download/stable/#download-lin-debian).
 
 **Debian 10**
 ```shell
@@ -53,7 +53,7 @@ check your machine's IP and port to see if the webpage is up. i.e. `http://192.1
 
 ### Run as System Service
 
-Here is the configuration for a system service. Check out [[developer/Linux/Linux System Service\|developer/Linux/Linux System Service]] if you want more of a break down
+Here is the configuration for a system service. Check out [[developer/Linux/Linux System Service\|Linux System Service]] if you want more of a break down
 
 ` sudo nano /etc/systemd/system/duplicati.service`
 ```shell
@@ -78,6 +78,6 @@ sudo systemctl start duplicati
 sudo systemctl enable duplicati
 ```
 ## Credit 
-- [[https://www.mono-project.com/download/stable/#download-lin-debian\|https://www.mono-project.com/download/stable/#download-lin-debian]]
+- [link](https://www.mono-project.com/download/stable/#download-lin-debian)
 - [Install Duplicati on Raspi / Raspberry Pi - Installation - Duplicati](https://forum.duplicati.com/t/install-duplicati-on-raspi-raspberry-pi/5309/2)
-- [[https://www.mono-project.com/download/stable/#download-lin-debian\|https://www.mono-project.com/download/stable/#download-lin-debian]]
+- [link](https://www.mono-project.com/download/stable/#download-lin-debian)

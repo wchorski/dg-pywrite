@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Frigate NVR/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Frigate NVR/"}
 ---
 
-A complete CCTV system that is integrated into [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]], This was impart inspired by the lack luster results from [[motion eye\|motion eye]] with it's integrated Object Detection
+A complete CCTV system that is integrated into [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]], This was impart inspired by the lack luster results from [[motion eye\|motion eye]] with it's integrated Object Detection
 
 ## installation
-I run [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]] on a [[developer/Hardware/Pi4\|Raspberry Pi 4 4gb]]. Looking at it's current resource usage,
+I run [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] on a [[developer/Hardware/Pi4\|Raspberry Pi 4 4gb]]. Looking at it's current resource usage,
 
 - 20% CPU
 - 42% (2 / 4 gb) RAM
@@ -66,10 +66,10 @@ database:
 setting up my cheap [Tapo C200](https://www.tp-link.com/us/home-networking/cloud-camera/tapo-c200/) camera via RTSP, and USB [PlayStation Eye](https://en.wikipedia.org/wiki/PlayStation_Eye) camera was fairly strait forward
 
 ## Recommended Cameras
-- [[256GB), (IP5M-T1179EW-28MM)](https://www.amazon.com/Amcrest-5-Megapixel-NightVision-Weatherproof-IP5M-T1179EW-28MM/product-reviews/B083G9KT4C/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews\|Amazon.com: Customer reviews: Amcrest 5MP Turret POE Camera, UltraHD Outdoor IP Camera POE with Mic/Audio, 5-Megapixel Security Surveillance Cameras, 98ft NightVision, 103° FOV, MicroSD (256GB), (IP5M-T1179EW-28MM)]]
+- [Amazon.com: Customer reviews: Amcrest 5MP Turret POE Camera, UltraHD Outdoor IP Camera POE with Mic/Audio, 5-Megapixel Security Surveillance Cameras, 98ft NightVision, 103° FOV, MicroSD (256GB), (IP5M-T1179EW-28MM)](https://www.amazon.com/Amcrest-5-Megapixel-NightVision-Weatherproof-IP5M-T1179EW-28MM/product-reviews/B083G9KT4C/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews)
 
 ## Home Assistant Notifications
-Here is a premade automation blueprint  by [hunterjm)](https://gist.github.com/hunterjm)- [[github.com)](https://gist.github.com/hunterjm/23c1588a9f2b8b9c2a62ffc364e17f8c\|Frigate Notification Blueprint (github.com)]]
+Here is a premade automation blueprint  by [hunterjm)](https://gist.github.com/hunterjm)- [Frigate Notification Blueprint (github.com)](https://gist.github.com/hunterjm/23c1588a9f2b8b9c2a62ffc364e17f8c)
 
 ## Troubleshooting 
 
@@ -81,7 +81,7 @@ I never set up a MQTT server so I just installed the [mosquitto)](https://github
 
 ## Docker Container
 
-For those who installed [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]] Containered version, **Frigate** must be installed like so
+For those who installed [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] Containered version, **Frigate** must be installed like so
 
 ### compose.yml
 ```yml
@@ -116,12 +116,12 @@ services:
 
 ### MQTT Broker
 
-follow the [[developer/Home Lab 🏠/Mosquitto MQTT Broker\|developer/Home Lab 🏠/Mosquitto MQTT Broker]] article if you need to setup a stand alone MQTT broker
+follow the [[developer/Home Lab 🏠/Mosquitto MQTT Broker\|Mosquitto MQTT Broker]] article if you need to setup a stand alone MQTT broker
 
 ---
 ## Credits
 - [Frigate and Home Assistant -Home Automation Guy](https://www.youtube.com/watch?v=gQdtGLRzKRI)
-- [[github.com)](https://github.com/blakeblackshear/frigate/issues/1184\|Try to use a webcam · Issue #1184 · blakeblackshear/frigate (github.com)]]
+- [Try to use a webcam · Issue #1184 · blakeblackshear/frigate (github.com)](https://github.com/blakeblackshear/frigate/issues/1184)
 - [Home Assistant Frigate integration for local image recognition - YouTube](https://www.youtube.com/watch?v=Q2UT78lFQpo)
 - [FRIGATE NVR Part 3 - Actionable Notifications and Dashboard Cards - YouTube](https://www.youtube.com/watch?v=RWsT-x7yYXI)
 - [Installation | Frigate](https://docs.frigate.video/frigate/installation)

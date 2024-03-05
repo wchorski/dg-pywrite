@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Hyperion/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Hyperion/"}
 ---
 
 ## [[hyperion-project.org)](hyperion-project.org\|Install Hyperion ]])
 
 ### connections
-- [[developer/Home Lab 🏠/WLED\|developer/Home Lab 🏠/WLED]]
-- [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]]
+- [[developer/Home Lab 🏠/WLED\|WLED]]
+- [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]]
 
 ## Hardware
 | device                              | link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | price |

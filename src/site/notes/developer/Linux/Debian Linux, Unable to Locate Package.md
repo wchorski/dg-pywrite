@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Debian Linux, Unable to Locate Package/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Debian Linux, Unable to Locate Package/"}
 ---
 
 ## fix sources.list
@@ -23,7 +23,7 @@ sudo apt update
 
 ---
 ## Credits
-- [[tecmint.com)](https://www.tecmint.com/fix-unable-to-locate-package-error-in-debian-9/\|How to Fix “E: unable to locate package” Error in Debian 9 (tecmint.com)]]
+- [How to Fix “E: unable to locate package” Error in Debian 9 (tecmint.com)](https://www.tecmint.com/fix-unable-to-locate-package-error-in-debian-9/)
 
 ## Backlinks
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
+- [[developer/Linux/Linux\|Linux]]

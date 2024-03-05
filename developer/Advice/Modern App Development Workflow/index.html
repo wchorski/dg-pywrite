@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4405,7 +4405,7 @@
 <li><a class="internal-link is-unresolved" href="/404" target="">NodeJS</a></li>
 <li><a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">ReactJS</a></li>
 <li><a class="internal-link is-unresolved" href="/404" target="">NextJS</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">github.com</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">GitHub</a></li>
 </ul>
 <h2 id="cloud-storage" tabindex="-1">Cloud Storage</h2>
 <p>This is going to be your main driver for keeping your local development in sync. I switch between laptop and desktop with similar developer environments. I want that transition between machines to be seamless. PLUS I also have a <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Production Server</a> That deploys these projects.</p>
@@ -4428,7 +4428,7 @@
 <h2 id="server" tabindex="-1">Server</h2>
 <p>my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Production Server</a> is the same machine that runs <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nextcloud/">Nextcloud</a>. So in this instance, I'm able to dive right into the filesystem and run <code>docker compose build</code> / <code>docker compose up -d</code> at the root of whatever project I want to update / deploy</p>
 <h2 id="git-repo" tabindex="-1">Git Repo</h2>
-<p>I assume you also want to share some of these revolutionary apps to the world as well? With this set up you can stop using <a class="internal-link is-unresolved" href="/404" target="">github.com</a> as a backup solution (like firing off <code>git push</code> every time a file is edited).</p>
+<p>I assume you also want to share some of these revolutionary apps to the world as well? With this set up you can stop using <a class="internal-link is-unresolved" href="/404" target="">GitHub</a> as a backup solution (like firing off <code>git push</code> every time a file is edited).</p>
 <p>The cloud is doing it's thing to keep all files up to date, so now you can more methodically <code>git commit -m ''</code> when a new feature makes progress.</p>
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>

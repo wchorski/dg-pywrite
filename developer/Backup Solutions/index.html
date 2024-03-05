@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4401,13 +4401,13 @@
       
       <p>This is my chain of programs that help me backup and store data whether it's local clone, version controlled, and or remote sight backups</p>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/FreeFileSync/">developer/Home Lab 🏠/FreeFileSync</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/FreeFileSync/">FreeFileSync</a>
 <ul>
 <li>user friendly GUI</li>
 <li>clones files 1 to 1. Great for parodying data onto a duplicate machine</li>
 </ul>
 </li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">developer/Home Lab 🏠/Duplicati</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a>
 <ul>
 <li>version control</li>
 <li>auto deletion of older data</li>
@@ -4415,7 +4415,7 @@
 <li>automated backups via the app</li>
 </ul>
 </li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Linux/rsync/">developer/Linux/rsync</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Linux/rsync/">rsync</a>
 <ul>
 <li>command line</li>
 <li>automated backups over SSH</li>

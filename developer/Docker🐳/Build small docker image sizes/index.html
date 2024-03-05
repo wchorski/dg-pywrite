@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,7 +4375,7 @@
       </header>
       
       
-      <p>I was building a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/NextJS/">developer/Home Lab 🏠/NextJS</a> image with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a> and ended up with over <strong>6gb</strong> file sizes.</p>
+      <p>I was building a <a class="internal-link is-unresolved" href="/404" target="">NextJS</a> image with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> and ended up with over <strong>6gb</strong> file sizes.</p>
 <blockquote>
 <p>Yikes</p>
 </blockquote>
@@ -4502,7 +4502,7 @@ CMD [&quot;node&quot;, &quot;server.js&quot;]
 </ul>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/_developer_box📦</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></li>
 </ul>
 
       

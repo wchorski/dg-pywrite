@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4379,10 +4379,10 @@
 <p>I recommend getting a <strong>New 3DS XL / LL</strong> and loading Luma3ds to run native 3ds, DS, &amp; Gameboy games.</p>
 <p><a href="https://3ds.hacks.guide/" target="_blank" class="external-link">3DS Hacks Guide - 3DS Hacks Guide</a></p>
 <h2 id="3-ds-as-samba-share" tabindex="-1">3DS as SAMBA share</h2>
-<p>just like setting up a PC with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">developer/Home Lab 🏠/SAMBA</a>, you can also wirelessly transfer data to and from PC as if the 3DS's SD card was any other mounted drive.</p>
+<p>just like setting up a PC with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">SAMBA</a>, you can also wirelessly transfer data to and from PC as if the 3DS's SD card was any other mounted drive.</p>
 <h3 id="non-hacked-3ds" tabindex="-1">non hacked 3ds</h3>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete" target="_blank" class="external-link">https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete</a> these steps 1 From the HOME menu%2C,accessing the system via a PC. More items</a></li>
+<li>[link](<a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete" target="_blank" class="external-link">https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete</a> these steps 1 From the HOME menu%2C,accessing the system via a PC. More items)</li>
 <li><a href="https://www.youtube.com/watch?v=2IQtcY9mEbI&amp;t=274s" target="_blank" class="external-link">How to utilize the 3DS MICROSD MANAGEMENT to transfer files wirelessly - YouTube</a></li>
 </ul>
 <div class="callout " data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Windows 10 Users<br></div></div>
@@ -4397,7 +4397,7 @@ turn on <code>SMB1</code> in <strong>Windows Features</strong></p>
 <li>ftp://192.168.0.66:5000` in <strong>Windows Explorer</strong></li>
 </ul>
 <h2 id="transfer-manage-save-data" tabindex="-1">transfer / manage save data</h2>
-<p><a class="internal-link is-unresolved" href="/404" target=""><a href="https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring" target="_blank" class="external-link">https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring</a> Save Data 1 Open Checkpoint. ... 2,in Step 4] to the computer. More items</a><br>
+<p>[link](<a href="https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring" target="_blank" class="external-link">https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring</a> Save Data 1 Open Checkpoint. ... 2,in Step 4] to the computer. More items)<br>
 important thing to note is that whatever tool used to get the save data off of the 3DS supports exporting <em>expanded</em> save data. Save data lives in Citra’s emulated SD card directories (<code>user/sdmc/Nintendo 3DS/000...0/000...0/title/[game-TID-high]/[game-TID-low]/data/00000001/</code>).</p>
 <p>I use <a href="https://www.gamebrew.org/wiki/Checkpoint_3DS" target="_blank" class="external-link">Checkpoint 3DS - GameBrew</a> because it's the most simple. and also compatible with the Switch</p>
 <ol>

@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5000,8 +5000,7 @@ export async function getStaticPaths() {
                               
                               <div class="backlinks">
                                     <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Docker🐳/Build small docker image sizes/" data-note-icon="" class="backlink">Build small docker image sizes</a>
-                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Hardware/Intel NUC/" data-note-icon="" class="backlink">Intel NUC</a>
+                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Hardware/Intel NUC/" data-note-icon="" class="backlink">Intel NUC</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Docker/" data-note-icon="" class="backlink">Docker</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Home Lab 🏠/Home Lab 🏠/" data-note-icon="" class="backlink">Home Lab 🏠</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/NextJS/Next Router/" data-note-icon="" class="backlink">Next Router</a>

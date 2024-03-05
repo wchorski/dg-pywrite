@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4399,7 +4399,7 @@
       </header>
       
       
-      <p>Finding yourself building, rebuilding, and deploying <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a> containers? My stack of <a class="internal-link is-unresolved" href="/404" target="">developer/NodeJS</a> projects have started to unruly, and I need a better way to deploy my apps with little fuss.</p>
+      <p>Finding yourself building, rebuilding, and deploying <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> containers? My stack of <a class="internal-link is-unresolved" href="/404" target="">NodeJS</a> projects have started to unruly, and I need a better way to deploy my apps with little fuss.</p>
 <h2 id="env-vars" tabindex="-1">Env Vars</h2>
 <p>Keep your environment variables in one place. You'll start pulling your hair out if they're split between <code>.env</code>, <code>compose.yml</code>, <code>envs.ts</code>, etc.  I recommend keeping them all in <code>.env</code></p>
 <p><code>.env</code></p>
@@ -4489,13 +4489,13 @@ export const envs = {
 <p><a href="https://stackoverflow.com/questions/42149529/how-to-reload-environment-variables-in-docker-compose-container-with-minimum-dow" target="_blank" class="external-link">How to reload environment variables in docker-compose container with minimum downtime? - Stack Overflow</a></p>
 </li>
 <li>
-<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a></p>
 </li>
 <li>
-<p><a class="internal-link is-unresolved" href="/404" target="">developer/_developer_box📦</a></p>
+<p><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></p>
 </li>
 <li>
-<p><a class="internal-link is-unresolved" href="/404" target="">developer/NodeJS</a></p>
+<p><a class="internal-link is-unresolved" href="/404" target="">NodeJS</a></p>
 </li>
 </ul>
 

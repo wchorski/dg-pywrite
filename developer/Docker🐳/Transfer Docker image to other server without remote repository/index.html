@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4405,8 +4405,8 @@
       </header>
       
       
-      <p>I build my websites with <a class="internal-link is-unresolved" href="/404" target="">developer/NodeJS</a> and create production ready apps with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a>. These images are usually unique the client and contain sensitive information.</p>
-<p>My production server is an <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">developer/Hardware/Intel NUC</a>. Enough power to drive a few websites, but chugs along when I try to build an image. Why not build the image on my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/MacBook Pro M1 Laptop/">developer/Hardware/MacBook Pro M1 Laptop</a> or <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Ryzen 5 5600x Custom PC/">developer/Hardware/Ryzen 5 5600x Custom PC</a> with ease, then transfer the image over?</p>
+      <p>I build my websites with <a class="internal-link is-unresolved" href="/404" target="">NodeJS</a> and create production ready apps with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a>. These images are usually unique the client and contain sensitive information.</p>
+<p>My production server is an <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Intel NUC</a>. Enough power to drive a few websites, but chugs along when I try to build an image. Why not build the image on my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/MacBook Pro M1 Laptop/">MacBook Pro M1 Laptop</a> or <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Ryzen 5 5600x Custom PC/">Ryzen 5 5600x Custom PC</a> with ease, then transfer the image over?</p>
 <h2 id="tutorial" tabindex="-1">tutorial</h2>
 <p>In order to transfer a Docker image from one server to another, what you need to do is first export the image to a file, then copy that file over from your current server to the new one using <code>scp</code> or <code>rsync</code> and finally load the image to your new server. Here’s how to do that:</p>
 <ul>
@@ -4447,12 +4447,12 @@ make sure to change the <code>destination_directory</code>, the <code>username</
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">How</a> to copy a Docker image from one server to another without pushing it to a repository first? (<a href="http://youtube.com" target="_blank" class="external-link">youtube.com</a>)</li>
+<li><a href="https://www.youtube.com/watch?v=6jVGWHYs0B0" target="_blank" class="external-link">How to copy a Docker image from one server to another without pushing it to a repository first? (youtube.com) </a></li>
 <li><a href="https://www.digitalocean.com/community/questions/how-to-copy-a-docker-image-from-one-server-to-another-without-pushing-it-to-a-repository-first" target="_blank" class="external-link">How to copy a Docker image from one server to another without pushing it to a repository first? | DigitalOcean</a></li>
 </ul>
 <h2 id="backlinks" tabindex="-1">backlinks</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/_developer_box📦</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></li>
 </ul>
 
       

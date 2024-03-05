@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4380,7 +4380,7 @@
 <p>emulate the gamepads touch, gyro, and second display</p>
 <h2 id="switch-pro-or-joycon-controller-support" tabindex="-1">Switch Pro or Joycon Controller support</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">joaorb64/joycond-cemuhook:</a> Support for cemuhook's UDP protocol for joycond devices (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
+<li><a href="https://github.com/joaorb64/joycond-cemuhook" target="_blank" class="external-link">joaorb64/joycond-cemuhook: Support for cemuhook's UDP protocol for joycond devices (github.com)</a></li>
 </ul>
 <h2 id="game-library" tabindex="-1">game library</h2>
 <p><a href="https://www.techspot.com/downloads/7049-wii-u-usb-helper.html" target="_blank" class="external-link">Wii U USB Helper 0.6.1.655 Download | TechSpot</a></p>
@@ -4389,7 +4389,7 @@
 </ul>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation 👾/Game Emulation/">developer/emulation 👾/Game Emulation</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation 👾/Game Emulation/">Game Emulation</a></li>
 </ul>
 
       

@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4375,7 +4375,7 @@
       </header>
       
       
-      <p>I'm looking for a drop in page builder I can serve to customers as a benefit to the <a class="internal-link is-unresolved" href="/404" target="">developer/KYPN/KYPN Stack</a> templates I'm designing. <a class="internal-link" target="" data-note-icon="" href="/developer/KeystoneJS/KeystoneJS/">developer/KeystoneJS/KeystoneJS</a> has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.</p>
+      <p>I'm looking for a drop in page builder I can serve to customers as a benefit to the <a class="internal-link is-unresolved" href="/404" target="">KYPN Stack</a> templates I'm designing. <a class="internal-link" target="" data-note-icon="" href="/developer/KeystoneJS/KeystoneJS/">KeystoneJS</a> has something that kinda works, but the rich text editor is geared towards article / blog post writing as apposed to Web Page design.</p>
 <h2 id="options" tabindex="-1">Options</h2>
 <ul>
 <li><a href="https://grapesjs.com/" target="_blank" class="external-link">GrapesJS</a></li>
@@ -4386,7 +4386,7 @@
 </ul>
 </li>
 <li><a href="https://pagedraw.io/tutorials/basics" target="_blank" class="external-link">demo — Pagedraw</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Blocks</a> UI (<a href="http://blocks-ui.com" target="_blank" class="external-link">blocks-ui.com</a>)</li>
+<li><a href="https://blocks-ui.com/" target="_blank" class="external-link">Blocks UI (blocks-ui.com)</a></li>
 </ul>
 
       

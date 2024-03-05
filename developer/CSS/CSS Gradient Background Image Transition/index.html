@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4417,7 +4417,7 @@
 <hr>
 <h2 id="credit" tabindex="-1">Credit</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Transitioning</a> Gradients (<a href="http://keithjgrant.com" target="_blank" class="external-link">keithjgrant.com</a>)</li>
+<li><a href="https://keithjgrant.com/posts/2017/07/transitioning-gradients/" target="_blank" class="external-link">Transitioning Gradients (keithjgrant.com)</a></li>
 <li><a href="https://www.youtube.com/watch?v=f3mwKLXpOLk&amp;t=619s" target="_blank" class="external-link">Fun ways to animate CSS gradients - YouTube</a></li>
 </ul>
 

@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4400,7 +4400,7 @@ services:
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Using</a> Docker-Compose with storage options (size) - Stack Overflow</li>
+<li><a href="https://stackoverflow.com/questions/41521832/using-docker-compose-with-storage-options-size" target="_blank" class="external-link">Using Docker-Compose with storage options (size) - Stack Overflow </a></li>
 <li>Chat GPT</li>
 </ul>
 

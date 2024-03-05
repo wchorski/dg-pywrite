@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4377,7 +4377,7 @@
       
       <p>Nintendo Gamecube &amp; Wii emulator</p>
 <h2 id="mayflash-gamecube-controller-adapter-on-linux" tabindex="-1">Mayflash gamecube controller adapter on Linux</h2>
-<p><a class="internal-link is-unresolved" href="/404" target="">Mayflash</a> Gamecube controller adapter + Linux + Dolphin/Steam (<a href="http://seanyeh.com" target="_blank" class="external-link">seanyeh.com</a>)</p>
+<p><a href="https://www.seanyeh.com/pages/mayflash_gamecube_adapter_linux_dolphin_steam/" target="_blank" class="external-link">Mayflash Gamecube controller adapter + Linux + Dolphin/Steam (seanyeh.com)</a></p>
 <p>Paste the following into <code>/etc/udev/rules.d/51-gcadapter.rules</code>:</p>
 <pre><code>SUBSYSTEM==&quot;usb&quot;, ENV{DEVTYPE}==&quot;usb_device&quot;, ATTRS{idVendor}==&quot;057e&quot;, ATTRS{idProduct}==&quot;0337&quot;, MODE=&quot;0666&quot;
 </code></pre>
@@ -4403,9 +4403,9 @@
 <p>Make sure the Mayflash adapter is set to &quot;PC&quot; setting. If you haven't already, run <code>wii-u-gc-adapter</code></p>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Mayflash</a> DolphinBar on Linux (<a href="http://dolphin-emu.org" target="_blank" class="external-link">dolphin-emu.org</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Help</a> me get Dolphinbar working on Arch Linux? : emulation (<a href="http://reddit.com" target="_blank" class="external-link">reddit.com</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Any</a> way to get all game save data + miis from one computer running dolphin to another? : r/DolphinEmulator (<a href="http://reddit.com" target="_blank" class="external-link">reddit.com</a>)</li>
+<li><a href="https://forums.dolphin-emu.org/Thread-mayflash-dolphinbar-on-linux" target="_blank" class="external-link">Mayflash DolphinBar on Linux (dolphin-emu.org)</a></li>
+<li><a href="https://www.reddit.com/r/emulation/comments/3gjmy2/comment/ctyz26e/" target="_blank" class="external-link">Help me get Dolphinbar working on Arch Linux? : emulation (reddit.com)</a></li>
+<li><a href="https://www.reddit.com/r/DolphinEmulator/comments/sa3ypn/any_way_to_get_all_game_save_data_miis_from_one/" target="_blank" class="external-link">Any way to get all game save data + miis from one computer running dolphin to another? : r/DolphinEmulator (reddit.com)</a></li>
 <li><a href="https://wiibrew.org/wiki//shared2/menu/FaceLib/RFL_DB.dat" target="_blank" class="external-link">/shared2/menu/FaceLib/RFL_DB.dat - WiiBrew</a></li>
 </ul>
 

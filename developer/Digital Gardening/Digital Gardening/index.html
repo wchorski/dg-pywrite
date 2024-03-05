@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4385,7 +4385,7 @@
 <li>Recipes</li>
 </ul>
 <h2 id="growing-the-garden" tabindex="-1">Growing the Garden</h2>
-<p><a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/Obsidian.md</a> is my way of maintating my <em>vault</em> of markdown files</p>
+<p><a class="internal-link is-unresolved" href="/404" target="">Obsidian.md</a> is my way of maintating my <em>vault</em> of markdown files</p>
 <h2 id="prepping-vault-for-publishing" tabindex="-1">Prepping vault for publishing</h2>
 <p>I like to keep one large vault that hosts all my notes. Anything from music, web development, video game emulation, etc.</p>
 <p>When it comes to publishing my vault, I'd like a to split my notes and dedicate each group to it's own site i.e. <strong>Developers</strong>: Coding, videogames, home lab.</p>
@@ -4409,11 +4409,11 @@ replit.nix
 <h2 id="static-site-generation" tabindex="-1">Static Site Generation</h2>
 <p>Now to share this garden with the world. I've tried my hand at a few publishing apps, even tried to write my own</p>
 <ol>
-<li><a class="internal-link is-unresolved" href="/404" target="">oleeskild/obsidian-digital-garden</a> (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)
+<li><a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank" class="external-link">oleeskild/obsidian-digital-garden (github.com)</a>
 <ol>
 <li>The most feature rich</li>
 <li>a bit more to configure on your part</li>
-<li>built with <a class="internal-link is-unresolved" href="/404" target="">Eleventy</a>, a simpler static site generator (11ty.dev)</li>
+<li>built with <a href="https://www.11ty.dev/" target="_blank" class="external-link">Eleventy, a simpler static site generator (11ty.dev) </a></li>
 <li>Publication is <strong>Opt In</strong> per note</li>
 <li>a bit more customizable</li>
 <li>match theme from your Obsidian Editor</li>
@@ -4427,7 +4427,7 @@ replit.nix
 </li>
 </ol>
 </li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Welcome</a> to Quartz 4 (jzhao.xyz)
+<li><a href="https://quartz.jzhao.xyz/" target="_blank" class="external-link">Welcome to Quartz 4 (jzhao.xyz)</a>
 <ol>
 <li>This is the most mature, fully featured publishing app</li>
 <li>DO NOT FORGET <code>index.md</code> page at the root of your vault!!!!!</li>
@@ -4436,21 +4436,21 @@ replit.nix
 <li>Custom Node builder</li>
 </ol>
 </li>
-<li>DIY <a class="internal-link is-unresolved" href="/404" target="">developer/Projects📐/Obsidian Publish with NextJS</a> aka Pywriter Publisher
+<li>DIY <a class="internal-link is-unresolved" href="/404" target="">Obsidian Publish with NextJS</a> aka Pywriter Publisher
 <ol>
 <li>Generating static sites with markdown files is a good first project for any <a class="tag" onclick="toggleTagSearch(this)" data-content="#webdev">#webdev</a>, but like me you'll quickly find an ever growing ceiling of features that you'll want to add.</li>
 </ol>
 </li>
 <li><a href="https://flowershow.app/" target="_blank" class="external-link">Flowershow</a>
 <ol>
-<li>The new kid on the block. I'm really digging the integrated plugin right inside of <a class="internal-link is-unresolved" href="/404" target="">developer/Home Lab 🏠/Obsidian.md</a>. Still has a bit to go, but could be the most useful if you're willing to give it a try.</li>
+<li>The new kid on the block. I'm really digging the integrated plugin right inside of <a class="internal-link is-unresolved" href="/404" target="">Obsidian.md</a>. Still has a bit to go, but could be the most useful if you're willing to give it a try.</li>
 <li>NextJS</li>
 </ol>
 </li>
 </ol>
 <h2 id="publishing-platforms" tabindex="-1">Publishing Platforms</h2>
 <ul>
-<li>Self host - <a class="internal-link is-unresolved" href="/404" target="">developer/Projects📐/Obsidian Publish with NextJS</a></li>
+<li>Self host - <a class="internal-link is-unresolved" href="/404" target="">Obsidian Publish with NextJS</a></li>
 <li>Github Pages
 <ul>
 <li>custom domain tip --&gt; <a href="https://stackoverflow.com/a/67028408/15579591" target="_blank" class="external-link">WAIT A DAY, ENJOY OUTDOOR WALK</a></li>
@@ -4459,7 +4459,7 @@ replit.nix
 </ul>
 <h2 id="inspiration" tabindex="-1">Inspiration</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">The</a> Threshold (<a href="http://utsob.me" target="_blank" class="external-link">utsob.me</a>)</li>
+<li><a href="https://hermitage.utsob.me/" target="_blank" class="external-link">The Threshold (utsob.me)</a></li>
 </ul>
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>

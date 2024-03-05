@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4405,7 +4405,7 @@
       </header>
       
       
-      <p><a class="internal-link is-unresolved" href="/404" target="">Digital</a> Garden - Publish Obsidian Notes For Free (ole.dev) is an app that builds a static site with the help of your Obsidian markdown files, and styles. This tool has great support for popular plugins like</p>
+      <p><a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">Digital Garden - Publish Obsidian Notes For Free</a> is an app that builds a static site with the help of your Obsidian markdown files, and styles. This tool has great support for popular plugins like</p>
 <ul>
 <li>mermaidjs</li>
 <li>excalidraw</li>
@@ -4414,7 +4414,7 @@
 </ul>
 <p>So far this tool has everything I need in a <a class="tag" onclick="toggleTagSearch(this)" data-content="#SSG">#SSG</a> builder.</p>
 <h2 id="how-i-host" tabindex="-1">How I Host</h2>
-<p>Usually I always opt for a <a class="tag" onclick="toggleTagSearch(this)" data-content="#selfhosted">#selfhosted</a> solution, and there is a good <a class="internal-link is-unresolved" href="/404" target="">https://github.com/oleeskild/obsidian-digital-garden/discussions/160#discussioncomment-7153146</a>on house. to do it. Maybe I will try out building the site with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a> and connecting it with my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">developer/Home Lab 🏠/Nginx Proxy Manager</a>.</p>
+<p>Usually I always opt for a <a class="tag" onclick="toggleTagSearch(this)" data-content="#selfhosted">#selfhosted</a> solution, and there is a good <a href="https://github.com/oleeskild/obsidian-digital-garden/discussions/160#discussioncomment-7153146" target="_blank" class="external-link">link</a>on house. to do it. Maybe I will try out building the site with <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> and connecting it with my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">Nginx Proxy Manager</a>.</p>
 <h2 id="self-hosted" tabindex="-1">Self Hosted</h2>
 <p>Putting the self hosted solution here just in case I want to do it later. This is assuming you have a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Nginx Proxy Manager/">Nginx Proxy Manager</a> set up to point to the <a class="tag" onclick="toggleTagSearch(this)" data-content="#SSG">#SSG</a> files.</p>
 <pre><code class="language-dockerfile">FROM node:18 as base
@@ -4432,7 +4432,7 @@ COPY --from=builder /usr/src/app/dist /
 </code></pre>
 <pre><code class="language-shell">docker build -f Dockerfile.export --output dist .
 </code></pre>
-<p>For now I'm using <strong>GitHub Pages</strong>, as it's very similar to a self hosted build, while taking the burden off of my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a></p>
+<p>For now I'm using <strong>GitHub Pages</strong>, as it's very similar to a self hosted build, while taking the burden off of my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a></p>
 <h3 id="git-hub-pages" tabindex="-1">GitHub Pages</h3>
 <p>For anyone who initially built this project with <strong>Vercel</strong> like me, I added this to <code>vercel.json</code> to stop it from building to their platform</p>
 <pre><code class="language-json">{
@@ -4529,7 +4529,7 @@ jobs:
           cname: pywrite-garden.tawtaw.site
 </code></pre>
 <h4 id="git-hub-keys" tabindex="-1">GitHub Keys</h4>
-<p>You'll need to create some keys to authenticate your local machine with the GitHub repo. If you like pictures, check out this <a class="internal-link is-unresolved" href="/404" target="">https://github.com/peaceiris/actions-gh-pages#️-create-ssh-deploy-key</a>. But I'll copy the good bits here</p>
+<p>You'll need to create some keys to authenticate your local machine with the GitHub repo. If you like pictures, check out this <a href="https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key" target="_blank" class="external-link">link</a>. But I'll copy the good bits here</p>
 <p>Assuming your still in the digital garden repo on your local machine run this</p>
 <pre><code class="language-bash">ssh-keygen -t rsa -b 4096 -C &quot;$(git config user.email)&quot; -f gh-pages -N &quot;&quot;
 </code></pre>
@@ -4549,7 +4549,7 @@ git push
 <p>create a CNAME record that points to <code>YOURUSERNAME.github.io</code></p>
 <p>Go to <code>https://github.com/YOURUSERNAME/GARDENREPO/settings/pages</code> and add a custom domain that you created</p>
 <h2 id="analytics" tabindex="-1">Analytics</h2>
-<p>I'll be using <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/umami/">developer/Home Lab 🏠/umami</a> as my <a class="tag" onclick="toggleTagSearch(this)" data-content="#selfhosted">#selfhosted</a> choice</p>
+<p>I'll be using <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/umami/">umami</a> as my <a class="tag" onclick="toggleTagSearch(this)" data-content="#selfhosted">#selfhosted</a> choice</p>
 <p>create an <code>analytics.njk</code> file</p>
 <pre><code class="language-bash">_includes
 ├── components
@@ -4565,14 +4565,14 @@ git push
 <p><code>analytics.njk</code></p>
 <pre><code class="language-html">&lt;script async src=&quot;https://animals.YOURDOMAIN.site/dogs&quot; data-website-id=&quot;fa4f8c5b-***&quot;&gt;&lt;/script&gt;
 </code></pre>
-<p>Essentially, your injecting a new <code>&lt;script&gt;</code> into the head of every page in your published garden. You'll also notice the strange choice of domain name, this explained in my setup of <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/umami/">developer/Home Lab 🏠/umami</a></p>
+<p>Essentially, your injecting a new <code>&lt;script&gt;</code> into the head of every page in your published garden. You'll also notice the strange choice of domain name, this explained in my setup of <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/umami/">umami</a></p>
 <h2 id="custom-styles" tabindex="-1">Custom Styles</h2>
 <p>edit <code>src/site/styles/custom-style.scss</code> for any custom style needs</p>
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Local</a> deployment · oleeskild/obsidian-digital-garden · Discussion <a class="tag" onclick="toggleTagSearch(this)" data-content="#160">#160</a> (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Google</a> Analytics · oleeskild/obsidian-digital-garden · Discussion <a class="tag" onclick="toggleTagSearch(this)" data-content="#195">#195</a> (<a href="http://github.com" target="_blank" class="external-link">github.com</a>)</li>
+<li><a href="https://github.com/oleeskild/obsidian-digital-garden/discussions/160" target="_blank" class="external-link">Local deployment · oleeskild/obsidian-digital-garden · Discussion <a class="tag" onclick="toggleTagSearch(this)" data-content="#160">#160</a> (github.com)</a></li>
+<li><a href="https://github.com/oleeskild/obsidian-digital-garden/discussions/195" target="_blank" class="external-link">Google Analytics · oleeskild/obsidian-digital-garden · Discussion <a class="tag" onclick="toggleTagSearch(this)" data-content="#195">#195</a> (github.com)</a></li>
 </ul>
 
       

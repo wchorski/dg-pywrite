@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4376,7 +4376,7 @@
       
       
       <h2 id="download-without-app-store" tabindex="-1">Download without App Store</h2>
-<p><a class="internal-link is-unresolved" href="/404" target="">macOS</a> 12 Monterey Full Installer Database. Download Directly from Apple! (<a href="http://mrmacintosh.com" target="_blank" class="external-link">mrmacintosh.com</a>)</p>
+<p><a href="https://mrmacintosh.com/macos-12-monterey-full-installer-database-download-directly-from-apple/" target="_blank" class="external-link">macOS 12 Monterey Full Installer Database. Download Directly from Apple! (mrmacintosh.com) </a></p>
 <h2 id="instructions" tabindex="-1">Instructions</h2>
 <p><a href="https://support.apple.com/en-us/HT201372" target="_blank" class="external-link">Create a bootable installer for macOS - Apple Support</a></p>
 <hr>

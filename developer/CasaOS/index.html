@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4377,18 +4377,18 @@
       
       <p>I tried <a href="https://casaos.io/" target="_blank" class="external-link">CasaOS - A simple, easy-to-use, elegant open-source personal cloud system</a> as a turn key solution to run a handful of self hosted apps located in a family member's network.</p>
 <h2 id="my-thoughts" tabindex="-1">My Thoughts</h2>
-<p>Initially, it has a pretty UI and all the basic needs I'd want in a n00b friendly <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">developer/Home Lab 🏠/Home Lab 🏠</a>. The <code>App Store</code> has some essential apps, but is a bit lacking. Luckily all <strong>CasaOS</strong> is is a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">developer/Home Lab 🏠/Docker</a> wrapper (similar to <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/portainer/">developer/Home Lab 🏠/portainer</a>).</p>
+<p>Initially, it has a pretty UI and all the basic needs I'd want in a n00b friendly <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Lab 🏠/">Home Lab 🏠</a>. The <code>App Store</code> has some essential apps, but is a bit lacking. Luckily all <strong>CasaOS</strong> is is a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Docker/">Docker</a> wrapper (similar to <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/portainer/">portainer</a>).</p>
 <p>Speaking of which, it automatically creates a shortcut on the dashboard when I go spin up a container, even from the command line.</p>
 <p>I like how it's not actually an <strong>Operating System</strong> but an app installed onto a vanilla <a class="internal-link is-unresolved" href="/404" target="">Debian</a> distro. That way I can install other apps and tools in tandem.</p>
 <h2 id="apps" tabindex="-1">Apps</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">developer/Home Lab 🏠/Home Assistant</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">developer/Home Lab 🏠/Plex.tv</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">developer/Home Lab 🏠/PhotoPrism</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Home Assistant/">Home Assistant</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Plex.tv/">Plex.tv</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/PhotoPrism/">PhotoPrism</a></li>
 <li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Duplicati/">Duplicati</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">developer/Home Lab 🏠/Pi-hole</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">developer/Home Lab 🏠/vaultwarden</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">developer/Home Lab 🏠/SAMBA</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/Pi-hole/">Pi-hole</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">vaultwarden</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">SAMBA</a></li>
 <li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/SAMBA/">SAMBA</a></li>
 <li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab 🏠/vaultwarden/">vaultwarden</a></li>
 </ul>

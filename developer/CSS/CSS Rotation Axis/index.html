@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-01T16:12:08.780Z';
+        const searchIndexDate = '2024-03-05T02:57:04.436Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-01T16:12:08.780Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T02:57:04.436Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-01T16:12:08.780Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T02:57:04.436Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4386,7 +4386,7 @@ transform-origin: 0% 0%;
 </ul>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/CSS/Cascading Style Sheet Tips & Tricks/">developer/CSS/Cascading Style Sheet Tips &amp; Tricks</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/CSS/Cascading Style Sheet Tips & Tricks/">Cascading Style Sheet Tips &amp; Tricks</a></li>
 </ul>
 
       

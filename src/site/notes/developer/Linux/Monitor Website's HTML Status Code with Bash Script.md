@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Monitor Website's HTML Status Code with Bash Script/","tags":["linux","bash","automation","webdev"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Monitor Website's HTML Status Code with Bash Script/","tags":["linux","bash","automation","webdev"]}
 ---
 
 Monitor your websites in bulk by using `curl` on the page and returning the status code 
@@ -54,7 +54,7 @@ Run this regularly with a `crontab -e` config every 15 minutes
 
 ## Home Assistant Sensor
 
-I leverage [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]] as a way to track history and send alerts. Here is how to set up the sensor
+I leverage [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] as a way to track history and send alerts. Here is how to set up the sensor
 
 ```yml
 sensor:
@@ -76,10 +76,10 @@ sensor:
 ```
 
 ## Credit
-- [[home-assistant.io)](https://community.home-assistant.io/t/creating-template-sensor/273724\|Creating Template Sensor - Configuration - Home Assistant Community (home-assistant.io)]]
+- [Creating Template Sensor - Configuration - Home Assistant Community (home-assistant.io)](https://community.home-assistant.io/t/creating-template-sensor/273724)
 - https://stackoverflow.com/questions/6852951/use-sed-to-replace-all-backslashes-with-forward-slashes
 - https://stackoverflow.com/questions/4014074/how-to-read-output-of-sed-into-a-variable
 - https://www.unix.com/shell-programming-and-scripting/66986-if-file-not-exist-create-new-one.html
 
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/Linux/Linux\|Linux]]
+- [[developer/developer_box📦\|developer_box📦]]

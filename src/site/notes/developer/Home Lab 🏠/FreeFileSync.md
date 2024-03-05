@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/FreeFileSync/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/FreeFileSync/"}
 ---
 
 #backup #cross_platform
@@ -7,9 +7,9 @@
 > [!info] [FreeFileSync](https://freefilesync.org/)
 > Open Source, Cross Platform File Synchronization & Backup Software
 
-when I need to make a **One to One** copy of a directory, internally or to another machine via a [[developer/Home Lab 🏠/SAMBA\|developer/Home Lab 🏠/SAMBA]] share. I originally used this exclusively until I found [[developer/Home Lab 🏠/Duplicati\|developer/Home Lab 🏠/Duplicati]]
+when I need to make a **One to One** copy of a directory, internally or to another machine via a [[developer/Home Lab 🏠/SAMBA\|SAMBA]] share. I originally used this exclusively until I found [[developer/Home Lab 🏠/Duplicati\|Duplicati]]
 
-> check out how I sync my iTunes playlists with my [[developer/Home Lab 🏠/Jellyfin\|developer/Home Lab 🏠/Jellyfin]] server
+> check out how I sync my iTunes playlists with my [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]] server
 
 ## setup
 - run the sync script manually once you point directories
@@ -18,10 +18,10 @@ when I need to make a **One to One** copy of a directory, internally or to anoth
 
 ### connections
 - iTunes
-- [[developer/Home Lab 🏠/Jellyfin\|developer/Home Lab 🏠/Jellyfin]]
+- [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]]
 
 ### installation
 
 ---
 ## backlinks
-[[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
+[[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]

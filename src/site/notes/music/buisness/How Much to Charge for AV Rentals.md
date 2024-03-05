@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/buisness/How Much to Charge for AV Rentals/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/buisness/How Much to Charge for AV Rentals/"}
 ---
 
 Plenty of times have I charged people for services (Musician and or DJ Services), but never have I plainly rented out my gear to a customer for a fee
@@ -47,5 +47,5 @@ Equipment
 
 ## Credits
 - [How Much Does It Cost To Rent AV Equipment For Your Event - National (rentforevent.com)](https://rentforevent.com/blog/how-much-does-it-cost-to-rent-av-equipment-for-your-event/
-- [[quipli.com)](https://quipli.com/equipment-rental-cost-calculator/\|2023 Equipment Rental Cost Calculator (quipli.com)]]
-- [[gethapn.com)](https://gethapn.com/resources/the-price-is-right-how-much-to-charge-for-rental-equipment/\|The Price is Right: How Much to Charge for Rental Equipment (gethapn.com)]]
+- [2023 Equipment Rental Cost Calculator (quipli.com)](https://quipli.com/equipment-rental-cost-calculator/)
+- [The Price is Right: How Much to Charge for Rental Equipment (gethapn.com)](https://gethapn.com/resources/the-price-is-right-how-much-to-charge-for-rental-equipment/)

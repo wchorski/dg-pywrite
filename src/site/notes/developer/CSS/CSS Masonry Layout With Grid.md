@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Masonry Layout With Grid/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Masonry Layout With Grid/"}
 ---
 
 
@@ -23,6 +23,6 @@
 ---
 
 ## Credits
-- [[youtube.com)](https://www.youtube.com/shorts/NNLxPcEnZDY\|A simple way to make a masonry layout (youtube.com)]]
+- [A simple way to make a masonry layout (youtube.com)](https://www.youtube.com/shorts/NNLxPcEnZDY)
 ## index
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

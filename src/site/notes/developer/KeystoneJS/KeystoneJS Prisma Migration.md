@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Prisma Migration/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Prisma Migration/"}
 ---
 
-migrating an existing [[PostGres\|PostGres]] database with the [[developer/KeystoneJS/KeystoneJS\|developer/KeystoneJS/KeystoneJS]] ORM takes a bit of doc reading. Essentially mashing the [Command Line - Keystone 6 Docs](https://keystonejs.com/docs/guides/cli) and [[https://www.prisma.io/docs/guides/migrate/developing-with-prisma-migrate/add-prisma-migrate-to-a-project#introspect-to-create-or-update-your-prisma-schema\|https://www.prisma.io/docs/guides/migrate/developing-with-prisma-migrate/add-prisma-migrate-to-a-project#introspect-to-create-or-update-your-prisma-schema]] articles together
+migrating an existing [[developer/Finance/PostGreSQL\|PostGreSQL]] database with the [[developer/KeystoneJS/KeystoneJS\|KeystoneJS]] ORM takes a bit of doc reading. Essentially mashing the [Command Line - Keystone 6 Docs](https://keystonejs.com/docs/guides/cli) and [link](https://www.prisma.io/docs/guides/migrate/developing-with-prisma-migrate/add-prisma-migrate-to-a-project#introspect-to-create-or-update-your-prisma-schema) articles together
 
 while in the `./backend` keystonejs root directory
 

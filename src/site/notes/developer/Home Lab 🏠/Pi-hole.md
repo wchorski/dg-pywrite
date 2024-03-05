@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Pi-hole/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Pi-hole/"}
 ---
 
 > [!info] [Pi-hole – Network-wide protection](https://pi-hole.net/)
@@ -35,7 +35,7 @@ echo "============" >> $LOG
 ```
 
 ## backup
-also a backup of [[developer/Home Lab 🏠/PiVPN\|developer/Home Lab 🏠/PiVPN]]
+also a backup of [[developer/Home Lab 🏠/PiVPN\|PiVPN]]
 
 ```bash
 #! /bin/bash

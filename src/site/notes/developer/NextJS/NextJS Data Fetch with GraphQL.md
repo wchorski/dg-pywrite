@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Data Fetch with GraphQL/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Data Fetch with GraphQL/"}
 ---
 
 ```tsx

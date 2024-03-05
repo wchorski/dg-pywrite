@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Docker🐳/Transfer Docker image to other server without remote repository/","tags":["nodejs","reactjs","docker","docker-compose","webdev"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Docker🐳/Transfer Docker image to other server without remote repository/","tags":["nodejs","reactjs","docker","docker-compose","webdev"]}
 ---
 
-I build my websites with [[developer/NodeJS\|developer/NodeJS]] and create production ready apps with [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]]. These images are usually unique the client and contain sensitive information. 
+I build my websites with [[developer/NodeJS\|NodeJS]] and create production ready apps with [[developer/Home Lab 🏠/Docker\|Docker]]. These images are usually unique the client and contain sensitive information. 
 
-My production server is an [[developer/Hardware/Intel NUC\|developer/Hardware/Intel NUC]]. Enough power to drive a few websites, but chugs along when I try to build an image. Why not build the image on my [[developer/Hardware/MacBook Pro M1 Laptop\|developer/Hardware/MacBook Pro M1 Laptop]] or [[developer/Hardware/Ryzen 5 5600x Custom PC\|developer/Hardware/Ryzen 5 5600x Custom PC]] with ease, then transfer the image over?
+My production server is an [[developer/Hardware/Intel NUC\|Intel NUC]]. Enough power to drive a few websites, but chugs along when I try to build an image. Why not build the image on my [[developer/Hardware/MacBook Pro M1 Laptop\|MacBook Pro M1 Laptop]] or [[developer/Hardware/Ryzen 5 5600x Custom PC\|Ryzen 5 5600x Custom PC]] with ease, then transfer the image over?
 ## tutorial
 
 In order to transfer a Docker image from one server to another, what you need to do is first export the image to a file, then copy that file over from your current server to the new one using `scp` or `rsync` and finally load the image to your new server. Here’s how to do that:
@@ -55,7 +55,7 @@ sudo docker images
 
 ---
 ## Credits
-- [[youtube.com)](https://www.youtube.com/watch?v=6jVGWHYs0B0\|How to copy a Docker image from one server to another without pushing it to a repository first? (youtube.com)]]
+- [How to copy a Docker image from one server to another without pushing it to a repository first? (youtube.com) ](https://www.youtube.com/watch?v=6jVGWHYs0B0)
 - [How to copy a Docker image from one server to another without pushing it to a repository first? | DigitalOcean](https://www.digitalocean.com/community/questions/how-to-copy-a-docker-image-from-one-server-to-another-without-pushing-it-to-a-repository-first)
 ## backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

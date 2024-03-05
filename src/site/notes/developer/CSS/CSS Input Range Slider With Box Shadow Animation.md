@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Input Range Slider With Box Shadow Animation/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Input Range Slider With Box Shadow Animation/"}
 ---
 
 
@@ -25,7 +25,7 @@
 	</label>
 ```
 
-for the `<output>` tag I use [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]] to handle state, so you're on your own if you want to use vanilla #javascript 
+for the `<output>` tag I use [[developer/ReactJS/ReactJS\|ReactJS]] to handle state, so you're on your own if you want to use vanilla #javascript 
 
 ```scss
 label.slider-cont{

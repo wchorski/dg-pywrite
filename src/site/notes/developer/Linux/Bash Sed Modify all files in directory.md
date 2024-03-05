@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash Sed Modify all files in directory/","tags":["bash","linux","automation","batch"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash Sed Modify all files in directory/","tags":["bash","linux","automation","batch"]}
 ---
 
-Needed to batch edit the #frontmatter of my markdown files for my [[developer/Home Lab 🏠/Obsidian.md\|developer/Home Lab 🏠/Obsidian.md]] vault. 
+Needed to batch edit the #frontmatter of my markdown files for my [[developer/Home Lab 🏠/Obsidian.md\|Obsidian.md]] vault. 
 
 This script checks if the first line is `---` (i.e. the start of frontmatter) and decides if we just add the `dg-publish: true` or do we need a whole frontmatter block
 

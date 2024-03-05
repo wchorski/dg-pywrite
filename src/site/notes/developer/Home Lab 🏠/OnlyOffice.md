@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/OnlyOffice/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/OnlyOffice/"}
 ---
 
 #FOSS #office #edit #powerpoint #word #excel 
@@ -13,8 +13,8 @@ but wasn't satisfied. **OnlyOffice** has some great features and compatibility r
 ---
 
 ### connections
-- I keep all docs in my [[developer/Home Lab 🏠/Nextcloud\|developer/Home Lab 🏠/Nextcloud]] instance to have them always accessible and synced between devices
-- might later look into hosting a server and hook into [[developer/Home Lab 🏠/Nextcloud\|developer/Home Lab 🏠/Nextcloud]] for cloud side editing. 
+- I keep all docs in my [[developer/Home Lab 🏠/Nextcloud\|Nextcloud]] instance to have them always accessible and synced between devices
+- might later look into hosting a server and hook into [[developer/Home Lab 🏠/Nextcloud\|Nextcloud]] for cloud side editing. 
 
 ### installation
 
@@ -23,6 +23,6 @@ but wasn't satisfied. **OnlyOffice** has some great features and compatibility r
 
 ---
 ## backlinks
-[[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
+[[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
 
 ---

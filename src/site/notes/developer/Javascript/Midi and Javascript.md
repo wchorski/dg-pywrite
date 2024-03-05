@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/Midi and Javascript/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/Midi and Javascript/"}
 ---
 
 This is the beginning how I learn to input midi into a web browser via #javascript 
@@ -186,5 +186,5 @@ looks like it was just because I was logging a 6 cell `console.table` very fast
 - [JavaScript MIDI Synth Tutorial - Part 1 | Getting MIDI in the browser - YouTube](https://www.youtube.com/watch?v=KRm_GICiPIQ)
 
 ## Backlinks
-- [[developer/Javascript/Javascript\|developer/Javascript/Javascript]]
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/Javascript/Javascript\|Javascript]]
+- [[developer/developer_box📦\|developer_box📦]]

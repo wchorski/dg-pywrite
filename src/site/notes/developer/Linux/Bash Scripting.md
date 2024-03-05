@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash Scripting/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash Scripting/"}
 ---
 
 
@@ -17,4 +17,4 @@ In other words, append  `&` to the command.
 - [How can I run bash script in the background? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/616232/how-can-i-run-bash-script-in-the-background)
 
 ## Backlinks
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
+- [[developer/Linux/Linux\|Linux]]

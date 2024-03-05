@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/MQTT Mosquitto/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/MQTT Mosquitto/"}
 ---
 
 hero_image
@@ -18,7 +18,7 @@ mkdir config
 
 ```
 
-## [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#3-create-mosquitto-config-file---mosquittoconf\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#3-create-mosquitto-config-file---mosquittoconf]]
+## [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#3-create-mosquitto-config-file---mosquittoconf)
 
 ## 3. Create Mosquitto config file - mosquitto.conf
 
@@ -39,7 +39,7 @@ persistence_file mosquitto.db
 persistence_location /mosquitto/data/
 ```
 
-## [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#4-create-mosquitto-password-file---pwfile\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#4-create-mosquitto-password-file---pwfile]]
+## [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#4-create-mosquitto-password-file---pwfile)
 
 ## 4. Create Mosquitto password file - pwfile
 
@@ -47,7 +47,7 @@ persistence_location /mosquitto/data/
 touch config/pwfile
 ```
 
-## [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#5-create-docker-compose-file-called-docker-composeyml\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#5-create-docker-compose-file-called-docker-composeyml]]
+## [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#5-create-docker-compose-file-called-docker-composeyml)
 
 ## 5. Create docker-compose file called 'docker-compose.yml'
 
@@ -78,7 +78,7 @@ networks:
 
 ```
 
-## [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#6-create-and-run-docker-container-for-mqtt\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#6-create-and-run-docker-container-for-mqtt]]
+## [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#6-create-and-run-docker-container-for-mqtt)
 
 ## 6. Create and run docker container for MQTT
 
@@ -91,7 +91,7 @@ sudo docker-compose -p mqtt5 up -d
 
 ```
 
-### [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#check-if-the-container-is-up-and-working-note-down-container-id\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#check-if-the-container-is-up-and-working-note-down-container-id]]
+### [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#check-if-the-container-is-up-and-working-note-down-container-id)
 
 ### Check if the container is up and working (note down container-id)
 
@@ -100,7 +100,7 @@ sudo docker ps
 
 ```
 
-## [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#7-create-a-userpassword-in-the-pwfile\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#7-create-a-userpassword-in-the-pwfile]]
+## [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#7-create-a-userpassword-in-the-pwfile)
 
 ## 7. Create a user/password in the pwfile
 
@@ -124,11 +124,11 @@ Then restart the container
 sudo docker restart <container-id>
 ```
 
-## [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#8-time-to-test-\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#8-time-to-test-]]
+## [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#8-time-to-test-)
 
 ## 8. Time to test !!!
 
-### [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#install-mosquitto-client-tools-for-testing\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#install-mosquitto-client-tools-for-testing]]
+### [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#install-mosquitto-client-tools-for-testing)
 
 ### Install mosquitto client tools for testing
 
@@ -137,7 +137,7 @@ sudo apt install mosquitto-clients
 
 ```
 
-### [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-subscriber-now---topic-name--hellotopic\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-subscriber-now---topic-name--hellotopic]]
+### [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-subscriber-now---topic-name--hellotopic)
 
 ### Let us start Subscriber now - topic name => 'hello/topic'
 
@@ -154,7 +154,7 @@ mosquitto_sub -v -L mqtt://user1:abc123@localhost/test/topic
 
 ```
 
-### [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-publising-to-that-topic\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-publising-to-that-topic]]
+### [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#let-us-start-publising-to-that-topic)
 
 ### Let us start Publising to that topic
 
@@ -171,7 +171,7 @@ mosquitto_pub -L mqtt://user1:abc123@localhost/test/topic -m 'hello MQTT'
 
 ```
 
-## [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#you-can-also-install-a-nice-mqtt-web-client\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#you-can-also-install-a-nice-mqtt-web-client]]
+## [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#you-can-also-install-a-nice-mqtt-web-client)
 
 ## You can also install a nice MQTT Web Client
 
@@ -181,7 +181,7 @@ Read more about it here => [https://mqttx.app/](https://mqttx.app/)
 sudo docker run -d --name mqttx-web -p 80:80 emqx/mqttx-web
 ```
 
-## [[https://github.com/sukesh-ak/setup-mosquitto-with-docker#sourcereference-for-mosquitto\|https://github.com/sukesh-ak/setup-mosquitto-with-docker#sourcereference-for-mosquitto]]
+## [link](https://github.com/sukesh-ak/setup-mosquitto-with-docker#sourcereference-for-mosquitto)
 
 ## Source/Reference for Mosquitto
 
@@ -200,5 +200,5 @@ Github => [https://github.com/eclipse/mosquitto](https://github.com/eclipse/mosq
 
 ---
 ## backlinks
-[[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
+[[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
 - https://github.com/sukesh-ak/setup-mosquitto-with-docker

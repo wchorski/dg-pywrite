@@ -1,19 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Assistant/Return HTML Status Code to Home Assistant Sensor/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Return HTML Status Code to Home Assistant Sensor/"}
 ---
 
-Scrape a website and return it's status code to a [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]] sensor. This builds off of my [[developer/Home Assistant/TV Power and Switch Template\|developer/Home Assistant/TV Power and Switch Template]].
+Scrape a website and return it's status code to a [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] sensor. This builds off of my [[developer/Home Assistant/TV Power and Switch Template\|TV Power and Switch Template]].
 
 ## Dashboard Screenshot
 ![attachments/HA-html-status-code 1.png|HA-html-status-code](/img/user/attachments/HA-html-status-code%201.png)
 
 ## Local File  + Template Sensor
 
-Later I explain a **Command Line Method** to do this only within Home Assistant, but I had a lot of false positives (or in this case, true negatives). This method assumes you have a separate machine (using my [[developer/Hardware/Pi4\|developer/Hardware/Pi4]]) to run the `curl` commands, share files via [[developer/Linux/SAMBA Share\|developer/Linux/SAMBA Share]], and set up a **Local File Sensor** in Home Assistant
+Later I explain a **Command Line Method** to do this only within Home Assistant, but I had a lot of false positives (or in this case, true negatives). This method assumes you have a separate machine (using my [[developer/Hardware/Pi4\|Pi4]]) to run the `curl` commands, share files via [[developer/Linux/SAMBA Share\|SAMBA Share]], and set up a **Local File Sensor** in Home Assistant
 
 ### Curl HMTL Status from Website
 
-I go more in depth with my [[developer/Linux/Monitor Website's HTML Status Code with Bash Script\|developer/Linux/Monitor Website's HTML Status Code with Bash Script]], but here is the gist
+I go more in depth with my [[developer/Linux/Monitor Website's HTML Status Code with Bash Script\|Monitor Website's HTML Status Code with Bash Script]], but here is the gist
 
 ```bash
 #!/bin/bash
@@ -35,7 +35,7 @@ do
 done
 ```
 
-Set this script to run in a [[developer/Linux/Crontab\|developer/Linux/Crontab]] and setup a [[developer/Linux/SAMBA Share\|developer/Linux/SAMBA Share]]. In my case my directory will be `~/html-status-codes/logs`
+Set this script to run in a [[developer/Linux/Crontab\|Crontab]] and setup a [[developer/Linux/SAMBA Share\|SAMBA Share]]. In my case my directory will be `~/html-status-codes/logs`
 
 ### Add Network Storage
 
@@ -79,9 +79,9 @@ sensors:
 			{{ html_status_icon('sensor.html_code_makeagram_file') }}
 ```
 
-You could just add the `platform: file` block and be done with it, but the `platform: template` adds a reactive icon as well as defaults the sensor to `0` if the file is `unkown` which makes readings in [[developer/Home Lab 🏠/Grafana & InfluxDB\|developer/Home Lab 🏠/Grafana & InfluxDB]] much more simple. 
+You could just add the `platform: file` block and be done with it, but the `platform: template` adds a reactive icon as well as defaults the sensor to `0` if the file is `unkown` which makes readings in [[developer/Home Lab 🏠/Grafana & InfluxDB\|Grafana & InfluxDB]] much more simple. 
 
-Notice how I'm importing a reusable snippet for the `icon_template:` field, learn how with [[developer/Home Assistant/Jinja Code Snippet\|developer/Home Assistant/Jinja Code Snippet]]
+Notice how I'm importing a reusable snippet for the `icon_template:` field, learn how with [[developer/Home Assistant/Jinja Code Snippet\|Jinja Code Snippet]]
 
 > [!info] Restart Home Assistant
 > Sometimes a "Quick Reload" doesn't update all the sensors (especially the `platform: file`. Try "Restart Home Assistant" instead
@@ -157,8 +157,8 @@ command_line:
 ```
 
 Don't let the syntax scare you here is the documentation
-- [[3.2.x) (palletsprojects.com)](https://jinja.palletsprojects.com/en/latest/templates/\|Template Designer Documentation — Jinja Documentation (3.2.x) (palletsprojects.com)]]
-- [[home-assistant.io)](https://www.home-assistant.io/docs/configuration/templating/\|Templating - Home Assistant (home-assistant.io)]]
+- [Template Designer Documentation — Jinja Documentation (3.2.x) (palletsprojects.com)](https://jinja.palletsprojects.com/en/latest/templates/)
+- [Templating - Home Assistant (home-assistant.io)](https://www.home-assistant.io/docs/configuration/templating/)
 
 I'll also break down what's happening line by line
 
@@ -183,7 +183,7 @@ icon: >-
 	{% endif %}
 ```
 
-Code split and reuse this icon code in a [[developer/Home Assistant/Jinja Code Snippet\|developer/Home Assistant/Jinja Code Snippet]]
+Code split and reuse this icon code in a [[developer/Home Assistant/Jinja Code Snippet\|Jinja Code Snippet]]
 ## Alert Automations
 
 Later I'll add some automation templates that alert my phone when a webpage goes down. Also would like to add a bit of color to these icons too in the future
@@ -197,11 +197,11 @@ In the **Home Assistant UI** find **Developer Tools > Services > Recorder: Purge
 > [!tip] force refresh the window because your browser cache may hold onto those old entities
 
 ## Credits
-- [[home-assistant.io)](https://community.home-assistant.io/t/template-sensors-are-still-there-after-they-are-being-removed/431510/3\|Template sensors are still there after they are being removed - Configuration - Home Assistant Community (home-assistant.io)]]
+- [Template sensors are still there after they are being removed - Configuration - Home Assistant Community (home-assistant.io)](https://community.home-assistant.io/t/template-sensors-are-still-there-after-they-are-being-removed/431510/3)
 - [shell - Curl to return http status code along with the response - Stack Overflow](https://stackoverflow.com/questions/38906626/curl-to-return-http-status-code-along-with-the-response)
-- [[home-assistant.io)](https://www.home-assistant.io/integrations/command_line/\|Command Line - Home Assistant (home-assistant.io)]]
-- [[github.com)](https://github.com/home-assistant/core/issues/94190\|icon_template is an invalid option for [command_line]]
+- [Command Line - Home Assistant (home-assistant.io)](https://www.home-assistant.io/integrations/command_line/)
+- [icon_template is an invalid option for [command_line](https://github.com/home-assistant/core/issues/94190)
 - [BrendanMoran](https://community.home-assistant.io/u/BrendanMoran) - [template example](https://community.home-assistant.io/t/website-down-or-up/53919/8)
 -  [sebdoan](https://community.home-assistant.io/u/sebdoan)- [template example](https://community.home-assistant.io/t/website-down-or-up/53919/9?u=billsky)
-- [[youtube.com)](https://www.youtube.com/watch?v=MKZ6B7tAXu0\|#57 Command Line Yaml Configuration has moved error FIXED ]]
-- [[home-assistant.io)](https://community.home-assistant.io/t/change-icon-color-based-on-sensor-value/493637/4\|Change icon color based on sensor value - Configuration - Home Assistant Community (home-assistant.io)]]
+- [#57 Command Line Yaml Configuration has moved error FIXED | Home Assistant 2023.6.0 | vccground (youtube.com)](https://www.youtube.com/watch?v=MKZ6B7tAXu0)
+- [Change icon color based on sensor value - Configuration - Home Assistant Community (home-assistant.io)](https://community.home-assistant.io/t/change-icon-color-based-on-sensor-value/493637/4)

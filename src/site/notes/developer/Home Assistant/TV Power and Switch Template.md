@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Assistant/TV Power and Switch Template/","tags":["homeassistant","yaml"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/TV Power and Switch Template/","tags":["homeassistant","yaml"]}
 ---
 
-A configuration for [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]]
+A configuration for [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]]
 
 I wanted to create a card that reacts to the TV's power state. 
 1. When the TV is on --> show TV controls
@@ -154,6 +154,9 @@ cards:
                       [[[
                         if (entity.state == 'ScreenBeam') return 'lightgreen';
                         else return 'grey';
+                      |[
+                        if (entity.state == 'ScreenBeam') return 'lightgreen';
+                        else return 'grey';
                       ]]]
             - type: custom:button-card
               entity: input_text.moeits_conf_tv_back_source
@@ -171,9 +174,12 @@ cards:
                       [[[
                         if (entity.state == 'Bulletin') return 'lightgreen';
                         else return 'grey';
+                      |[
+                        if (entity.state == 'Bulletin') return 'lightgreen';
+                        else return 'grey';
                       ]]]
 
 
 ```
 
-[[developer/_developer_box📦\|developer/_developer_box📦]]
+[[developer/developer_box📦\|developer_box📦]]

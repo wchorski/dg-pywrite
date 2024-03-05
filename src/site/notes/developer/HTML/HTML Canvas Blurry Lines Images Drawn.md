@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML Canvas Blurry Lines Images Drawn/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML Canvas Blurry Lines Images Drawn/"}
 ---
 
 describe_the_problem
@@ -40,4 +40,4 @@ window.onload = Draw ()
 - [html - Canvas drawings, like lines, are blurry - Stack Overflow](https://stackoverflow.com/questions/8696631/canvas-drawings-like-lines-are-blurry)
 
 ## Backlinks
-- [[developer/HTML/HTML, Back to Basics\|developer/HTML/HTML, Back to Basics]]
+- [[developer/HTML/HTML, Back to Basics\|HTML, Back to Basics]]

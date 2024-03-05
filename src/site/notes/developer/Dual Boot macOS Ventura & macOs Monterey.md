@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Dual Boot macOS Ventura & macOs Monterey/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Dual Boot macOS Ventura & macOs Monterey/"}
 ---
 
 
 ## Download without App Store
-[[mrmacintosh.com)](https://mrmacintosh.com/macos-12-monterey-full-installer-database-download-directly-from-apple/\|macOS 12 Monterey Full Installer Database. Download Directly from Apple! (mrmacintosh.com)]]
+[macOS 12 Monterey Full Installer Database. Download Directly from Apple! (mrmacintosh.com) ](https://mrmacintosh.com/macos-12-monterey-full-installer-database-download-directly-from-apple/)
 
 ## Instructions
 [Create a bootable installer for macOS - Apple Support](https://support.apple.com/en-us/HT201372)

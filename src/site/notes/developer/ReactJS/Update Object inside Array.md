@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Update Object inside Array/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Update Object inside Array/"}
 ---
 
 #reactjs #javascript 
@@ -57,7 +57,7 @@ export default App;
 
 ---
 ## Credits
-- [[https://bobbyhadz.com/blog/react-update-object-in-array#:~:text=To update an object in an array in,condition and return all other objects as is.\|https://bobbyhadz.com/blog/react-update-object-in-array#:~:text=To update an object in an array in,condition and return all other objects as is.]]
+- [link](https://bobbyhadz.com/blog/react-update-object-in-array#:~:text=To update an object in an array in,condition and return all other objects as is.)
 
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]

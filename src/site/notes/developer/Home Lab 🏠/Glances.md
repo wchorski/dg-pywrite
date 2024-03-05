@@ -1,13 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Glances/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Glances/"}
 ---
 
 
-> [[nicolargo.github.io)](https://nicolargo.github.io/glances/\|!info]]
+> [!info](https://nicolargo.github.io/glances/)
 > Glances is a cross-platform system monitoring tool written in Python.
 
 ### connections
-- [[developer/[Home Assistant](developer/Home Lab 🏠/Home Assistant.md\|Home Assistant]].md)
+- [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]]
 
 ### installation on Linux
 ```shell
@@ -62,5 +62,5 @@ run `pip install glances` & `pip install bottle`
 
 
 ## helpful links
-[[maketecheasier.com)](https://www.maketecheasier.com/glances-monitor-system-ubuntu/\|How to Use Glances to Monitor System On Ubuntu (maketecheasier.com)]]
-[[https://www.tecmint.com/glances-monitor-remote-linux-in-web-server-mode/#:~:text=Run Glances in Web Server Mode as a,start and view its status as follows. \|https://www.tecmint.com/glances-monitor-remote-linux-in-web-server-mode/#:~:text=Run Glances in Web Server Mode as a,start and view its status as follows. ]]
+[How to Use Glances to Monitor System On Ubuntu (maketecheasier.com)](https://www.maketecheasier.com/glances-monitor-system-ubuntu/)
+[link](https://www.tecmint.com/glances-monitor-remote-linux-in-web-server-mode/#:~:text=Run Glances in Web Server Mode as a,start and view its status as follows. )

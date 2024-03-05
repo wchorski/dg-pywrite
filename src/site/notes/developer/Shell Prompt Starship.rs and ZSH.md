@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Shell Prompt Starship.rs and ZSH/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Shell Prompt Starship.rs and ZSH/"}
 ---
 
 
@@ -7,7 +7,7 @@
 > The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 ### install on Linux Mint
-[[[Make Windows Terminal look amazing! - YouTube](https://www.youtube.com/watch?v=AK2JE2YsKto\|video tutorial]])  
+[video tutorial](https://www.youtube.com/watch?v=AK2JE2YsKto)  
 [other video tutorial](https://www.youtube.com/watch?v=VgTu1_92U0U&t=176s)
 
 0. grab `zsh` if you want all the pretty icons
@@ -39,106 +39,103 @@ mkdir -p ~/.config && touch ~/.config/starship.toml
 ```toml
 # ~/.config/starship.toml
 
-# Inserts a blank line between shell prompts
-add_newline = true
+add_newline = false
+command_timeout = 1000
+format = """$os$username$hostname$kubernetes$directory$git_branch$git_status"""
 
-format = """
-(238)$env_var\
-$username\
-$hostname\
-$directory\
-$fill\
-$git_branch\
-$git_state\
-$git_status\
-$git_metrics\
-$nodejs\
-$cmd_duration $jobs $time\
-$line_break\
-$character"""
-
-[nodejs]
-format = "[[$version )]($style|$symbol($version )]]"
-
-[fill]
-symbol = "."
-
-
-# Change the default prompt characters
+# Drop ugly default prompt characters
 [character]
-success_symbol = "[[238|]]"
-error_symbol = "[[238|]]"
+success_symbol = ''
+error_symbol = ''
 
-# Shows an icon that should be included by zshrc script based on the distribution or os
-[env_var.STARSHIP_DISTRO]
-format = '[[bold white|$env_value]]'  # removed space between distro and rest for pwsh
-variable = "STARSHIP_DISTRO"
+# ---
+
+[os]
+format = '[$symbol](bold white) '   
 disabled = false
+
+[os.symbols]
+Windows = ''
+Arch = '󰣇'
+Ubuntu = ''
+Macos = '󰀵'
+
+# ---
 
 # Shows the username
 [username]
-style_user = "white bold"
-style_root = "black bold"
-format = "[[$style|$user]] "
-disabled = true  # disable in powershell
-show_always = false
+style_user = 'white bold'
+style_root = 'black bold'
+format = '[$user]($style) '
+disabled = false
+show_always = true
 
+# Shows the hostname
+[hostname]
+ssh_only = false
+format = 'on [$hostname](bold yellow) '
+disabled = false
+
+# Shows current directory
 [directory]
-truncation_length = 3
-truncation_symbol = "…/"
-home_symbol = " ~"
-read_only_style = "197"
-read_only = "  "
-format = "at [[$style|$path]][[$read_only_style|$read_only]] "
+truncation_length = 1
+truncation_symbol = '…/'
+home_symbol = '󰋜 ~'
+read_only_style = '197'
+read_only = '  '
+format = 'at [$path]($style)[$read_only]($read_only_style) '
 
+# Shows current git branch
 [git_branch]
-symbol = " "
-format = "on [[$style|$symbol$branch]] "
-truncation_length = 4
-truncation_symbol = "…/"
-style = "bold green"
+symbol = ' '
+format = 'via [$symbol$branch]($style)'
+# truncation_length = 4
+truncation_symbol = '…/'
+style = 'bold green'
 
+# Shows current git status
 [git_status]
-format = '[[$all_status$ahead_behind\)]($style|\($all_status$ahead_behind\)]] '
-style = "bold green"
-conflicted = "🏳"
-up_to_date = " "
-untracked = " "
-ahead = "⇡${count}"
-diverged = "⇕⇡${ahead_count}⇣${behind_count}"
-behind = "⇣${count}"
-stashed = " "
-modified = " "
-staged = '[[$count\)](green|++\($count\)]]'
-renamed = "襁 "
-deleted = " "
+format = '[$all_status$ahead_behind]($style) '
+style = 'bold green'
+conflicted = '🏳'
+up_to_date = ''
+untracked = ' '
+ahead = '⇡${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+behind = '⇣${count}'
+stashed = ' '
+modified = ' '
+staged = '[++\($count\)](green)'
+renamed = '襁 '
+deleted = ' '
 
-[terraform]
-format = "via [[$style| terraform $version]] 壟 [[$style|$workspace]] "
+# Shows kubernetes context and namespace
+[kubernetes]
+format = 'via [󱃾 $context\($namespace\)](bold purple) '
+disabled = false
+
+# ---
 
 [vagrant]
-format = "via [[$style| vagrant $version]] "
+disabled = true
 
 [docker_context]
-format = "via [[bold blue| $context]] "
+disabled = true
 
 [helm]
-format = "via [[bold purple| $version]] "
+disabled = true
 
 [python]
-symbol = " "
-python_binary = "python3"
+disabled = true
 
+[nodejs]
+disabled = true
 
 [ruby]
-format = "via [[$style| $version]] "
+disabled = true
 
-[kubernetes]
-format = 'on [[$namespace\)](bold purple| $context\($namespace\)]] '
-disabled = false
-[kubernetes.context_aliases]
-"clcreative-k8s-staging" = "cl-k8s-staging"
-"clcreative-k8s-production" = "cl-k8s-prod"
+[terraform]
+disabled = true
 ```
 
 #### copy fonts via terminal

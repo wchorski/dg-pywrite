@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/html2canvas/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/html2canvas/"}
 ---
 
 package

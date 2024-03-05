@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash, batch find and remove files/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash, batch find and remove files/"}
 ---
 
 
@@ -20,4 +20,4 @@ find ./ -name "*.module.css" -type f -delete
 ## Credits
 - 
 ## index
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

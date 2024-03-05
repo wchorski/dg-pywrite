@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Digital Gardening/Obisidan Digital Garden/","tags":["html","SSG","obsidian","markdown","#selfhosted"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Digital Gardening/Obisidan Digital Garden/","tags":["html","SSG","obsidian","markdown","#selfhosted"]}
 ---
 
-[[ole.dev)](https://dg-docs.ole.dev/\|Digital Garden - Publish Obsidian Notes For Free (ole.dev)]] is an app that builds a static site with the help of your Obsidian markdown files, and styles. This tool has great support for popular plugins like 
+[Digital Garden - Publish Obsidian Notes For Free](https://dg-docs.ole.dev/) is an app that builds a static site with the help of your Obsidian markdown files, and styles. This tool has great support for popular plugins like 
 - mermaidjs
 - excalidraw
 - dataview
@@ -12,7 +12,7 @@ So far this tool has everything I need in a #SSG builder.
 
 ## How I Host
 
-Usually I always opt for a #selfhosted solution, and there is a good [[https://github.com/oleeskild/obsidian-digital-garden/discussions/160#discussioncomment-7153146\|https://github.com/oleeskild/obsidian-digital-garden/discussions/160#discussioncomment-7153146]]on house. to do it. Maybe I will try out building the site with [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]] and connecting it with my [[developer/Home Lab 🏠/Nginx Proxy Manager\|developer/Home Lab 🏠/Nginx Proxy Manager]]. 
+Usually I always opt for a #selfhosted solution, and there is a good [link](https://github.com/oleeskild/obsidian-digital-garden/discussions/160#discussioncomment-7153146)on house. to do it. Maybe I will try out building the site with [[developer/Home Lab 🏠/Docker\|Docker]] and connecting it with my [[developer/Home Lab 🏠/Nginx Proxy Manager\|Nginx Proxy Manager]]. 
 
 ## Self Hosted
 
@@ -37,7 +37,7 @@ COPY --from=builder /usr/src/app/dist /
 docker build -f Dockerfile.export --output dist .
 ```
 
-For now I'm using **GitHub Pages**, as it's very similar to a self hosted build, while taking the burden off of my [[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
+For now I'm using **GitHub Pages**, as it's very similar to a self hosted build, while taking the burden off of my [[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
 
 ### GitHub Pages
 
@@ -148,7 +148,7 @@ jobs:
 
 #### GitHub Keys
 
-You'll need to create some keys to authenticate your local machine with the GitHub repo. If you like pictures, check out this [[https://github.com/peaceiris/actions-gh-pages#️-create-ssh-deploy-key\|https://github.com/peaceiris/actions-gh-pages#️-create-ssh-deploy-key]]. But I'll copy the good bits here
+You'll need to create some keys to authenticate your local machine with the GitHub repo. If you like pictures, check out this [link](https://github.com/peaceiris/actions-gh-pages#️-create-ssh-deploy-key). But I'll copy the good bits here
 
 Assuming your still in the digital garden repo on your local machine run this
 
@@ -180,7 +180,7 @@ create a CNAME record that points to `YOURUSERNAME.github.io`
 Go to `https://github.com/YOURUSERNAME/GARDENREPO/settings/pages` and add a custom domain that you created
 ## Analytics
 
-I'll be using [[developer/Home Lab 🏠/umami\|developer/Home Lab 🏠/umami]] as my #selfhosted choice
+I'll be using [[developer/Home Lab 🏠/umami\|umami]] as my #selfhosted choice
 
 create an `analytics.njk` file 
 
@@ -202,7 +202,7 @@ _includes
 <script async src="https://animals.YOURDOMAIN.site/dogs" data-website-id="fa4f8c5b-***"></script>
 ```
 
-Essentially, your injecting a new `<script>` into the head of every page in your published garden. You'll also notice the strange choice of domain name, this explained in my setup of [[developer/Home Lab 🏠/umami\|developer/Home Lab 🏠/umami]]
+Essentially, your injecting a new `<script>` into the head of every page in your published garden. You'll also notice the strange choice of domain name, this explained in my setup of [[developer/Home Lab 🏠/umami\|umami]]
 
 ## Custom Styles
 
@@ -210,5 +210,5 @@ edit `src/site/styles/custom-style.scss` for any custom style needs
 
 ---
 ## Credits
-- [[github.com)](https://github.com/oleeskild/obsidian-digital-garden/discussions/160\|Local deployment · oleeskild/obsidian-digital-garden · Discussion #160 (github.com)]]
-- [[github.com)](https://github.com/oleeskild/obsidian-digital-garden/discussions/195\|Google Analytics · oleeskild/obsidian-digital-garden · Discussion #195 (github.com)]]
+- [Local deployment · oleeskild/obsidian-digital-garden · Discussion #160 (github.com)](https://github.com/oleeskild/obsidian-digital-garden/discussions/160)
+- [Google Analytics · oleeskild/obsidian-digital-garden · Discussion #195 (github.com)](https://github.com/oleeskild/obsidian-digital-garden/discussions/195)

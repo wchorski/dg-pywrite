@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/Keystone Calendar Day field set Default Value/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/Keystone Calendar Day field set Default Value/"}
 ---
 
 

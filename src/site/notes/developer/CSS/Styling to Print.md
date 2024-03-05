@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Styling to Print/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Styling to Print/"}
 ---
 
 ## Hide or Show When Printing
@@ -39,8 +39,8 @@ I Wanted to show certain items and hide others when a user goes to print a web p
 
 ---
 ## Credits
-- [[Ctrl+P) - Stack Overflow](https://stackoverflow.com/questions/54441453/react-printer-friendly-printable-area-to-print-ctrlp\|css - React, printer friendly printable area to print (Ctrl+P) - Stack Overflow]]
+- [css - React, printer friendly printable area to print (Ctrl+P) - Stack Overflow](https://stackoverflow.com/questions/54441453/react-printer-friendly-printable-area-to-print-ctrlp)
 - [html - @media print display:none isn't working - Stack Overflow](https://stackoverflow.com/questions/11698913/media-print-displaynone-isnt-working)
 
 ## Backlinks
-- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|developer/CSS/Cascading Style Sheet Tips & Tricks]]
+- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|Cascading Style Sheet Tips & Tricks]]

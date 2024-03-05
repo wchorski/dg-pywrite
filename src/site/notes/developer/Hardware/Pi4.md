@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Hardware/Pi4/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Pi4/"}
 ---
 
 
@@ -28,7 +28,7 @@ A great start for anyone who wants to start running digital services
               `"""
 ```
 
-Surprised that it isn't **Raspberry Pi OS**? Instead I run the Debian 64 bit version as recommended by [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]] **Supervised** install. I'm a little bummed I don't get the cool Raspberry ascii art from `neofetch`, but honestly, the developer experience is pretty much identical 
+Surprised that it isn't **Raspberry Pi OS**? Instead I run the Debian 64 bit version as recommended by [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] **Supervised** install. I'm a little bummed I don't get the cool Raspberry ascii art from `neofetch`, but honestly, the developer experience is pretty much identical 
 
 
 ## system wide backup
@@ -43,7 +43,7 @@ FILE_NAME="pi4--$(date +%y_%B_%d).img"
 DEST="/ntwmnt/octo8/backups/pi4/img"
 LOG="./backup-status.log"
 
-echo "[[ creating system wide backup ]]"
+echo "[[ creating system wide backup | creating system wide backup ]]"
 echo $FILE_NAME
 
 #backup img of SD card
@@ -60,10 +60,10 @@ fi
 
 ---
 ## Programs & Apps
-1. [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]]
-2. [[developer/Home Lab 🏠/PiVPN\|developer/Home Lab 🏠/PiVPN]]
-3. [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]]
-4. [[developer/Home Lab 🏠/DuckDNS\|developer/Home Lab 🏠/DuckDNS]]
-5. [[developer/Home Lab 🏠/Hyperion\|developer/Home Lab 🏠/Hyperion]]
+1. [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]]
+2. [[developer/Home Lab 🏠/PiVPN\|PiVPN]]
+3. [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]]
+4. [[developer/Home Lab 🏠/DuckDNS\|DuckDNS]]
+5. [[developer/Home Lab 🏠/Hyperion\|Hyperion]]
 
-[[developer/Hardware/Homelab Hardware PC Builds\|developer/Hardware/Homelab Hardware PC Builds]]
+[[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]

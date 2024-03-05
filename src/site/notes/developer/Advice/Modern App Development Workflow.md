@@ -8,7 +8,7 @@ You could apply this to any digital assets but I'll be focusing on benefits of p
 - [[developer/NodeJS\|NodeJS]]
 - [[developer/ReactJS/ReactJS\|ReactJS]]
 - [[developer/NextJS/NextJS\|NextJS]]
-- [[developer/Home Lab 🏠/github.com\|github.com]]
+- [[developer/Home Lab 🏠/GitHub\|GitHub]]
 ## Cloud Storage
 This is going to be your main driver for keeping your local development in sync. I switch between laptop and desktop with similar developer environments. I want that transition between machines to be seamless. PLUS I also have a [[developer/Hardware/Intel NUC\|Production Server]] That deploys these projects.
 
@@ -36,7 +36,7 @@ This keeps your configurations flexible enough without having too much fuss. I u
 ## Server
 my [[developer/Hardware/Intel NUC\|Production Server]] is the same machine that runs [[developer/Home Lab 🏠/Nextcloud\|Nextcloud]]. So in this instance, I'm able to dive right into the filesystem and run `docker compose build` / `docker compose up -d` at the root of whatever project I want to update / deploy
 ## Git Repo
-I assume you also want to share some of these revolutionary apps to the world as well? With this set up you can stop using [[developer/Home Lab 🏠/github.com\|github.com]] as a backup solution (like firing off `git push` every time a file is edited).
+I assume you also want to share some of these revolutionary apps to the world as well? With this set up you can stop using [[developer/Home Lab 🏠/GitHub\|GitHub]] as a backup solution (like firing off `git push` every time a file is edited).
 
 The cloud is doing it's thing to keep all files up to date, so now you can more methodically `git commit -m ''` when a new feature makes progress.
 

@@ -1,20 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Backup Solutions/","tags":["linux","Thunderbird","flstudio","music"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Backup Solutions/","tags":["linux","Thunderbird","flstudio","music"]}
 ---
 
 
 
 This is my chain of programs that help me backup and store data whether it's local clone, version controlled, and or remote sight backups
 
-- [[developer/Home Lab 🏠/FreeFileSync\|developer/Home Lab 🏠/FreeFileSync]]
+- [[developer/Home Lab 🏠/FreeFileSync\|FreeFileSync]]
 	- user friendly GUI
 	- clones files 1 to 1. Great for parodying data onto a duplicate machine
-- [[developer/Home Lab 🏠/Duplicati\|developer/Home Lab 🏠/Duplicati]]
+- [[developer/Home Lab 🏠/Duplicati\|Duplicati]]
 	- version control
 	- auto deletion of older data
 	- user friendly GUI
 	- automated backups via the app
-- [[developer/Linux/rsync\|developer/Linux/rsync]]
+- [[developer/Linux/rsync\|rsync]]
 	- command line
 	- automated backups over SSH
 	- great for remote site backups

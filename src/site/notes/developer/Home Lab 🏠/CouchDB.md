@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/CouchDB/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/CouchDB/"}
 ---
 
 ## [Apache CouchDB](https://couchdb.apache.org/)
@@ -17,7 +17,7 @@ Windows → the service is called `Apache CouchDB`
 - [[../Obsidian-Livesync.md\|Obsidian-Livesync]]
 
 ### installation
-1. [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]] `compose.yml`
+1. [[developer/Home Lab 🏠/Docker\|Docker]] `compose.yml`
 ```yaml
 version: '3'
 services:
@@ -87,17 +87,17 @@ then it'll work.
 - [How to retrieve all the documents in couchdb by given key? - Stack Overflow](https://stackoverflow.com/questions/28945405/how-to-retrieve-all-the-documents-in-couchdb-by-given-key)
 ---
 ## backlinks
-[[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
+[[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
 
 ---
 
 ## citations
-- [[https://docs.couchbase.com/server/current/install/startup-shutdown.html#:~:text=Windows 1 Open the Services app. You can,as whether it starts at system boot. \|https://docs.couchbase.com/server/current/install/startup-shutdown.html#:~:text=Windows 1 Open the Services app. You can,as whether it starts at system boot. ]]
-- [[https://mircozeiss.com/couchdb-security-and-pouchdb-authentication#:~:text=Make CouchDB accessible from client Use nano to,{ %2F%2F you'll need the headers object })%3B\|https://mircozeiss.com/couchdb-security-and-pouchdb-authentication#:~:text=Make CouchDB accessible from client Use nano to,{ %2F%2F you'll need the headers object })%3B]]
-- [[github.com)](https://github.com/zemirco/couchdb-cookie-auth/blob/master/app.js\|couchdb-cookie-auth/app.js at master · zemirco/couchdb-cookie-auth (github.com)]]
+- [link](https://docs.couchbase.com/server/current/install/startup-shutdown.html#:~:text=Windows 1 Open the Services app. You can,as whether it starts at system boot. )
+- [link](https://mircozeiss.com/couchdb-security-and-pouchdb-authentication#:~:text=Make CouchDB accessible from client Use nano to,{ %2F%2F you'll need the headers object })%3B)
+- [couchdb-cookie-auth/app.js at master · zemirco/couchdb-cookie-auth (github.com)](https://github.com/zemirco/couchdb-cookie-auth/blob/master/app.js)
 - [Creating regular users in CouchDB - Stack Overflow](https://stackoverflow.com/questions/3684749/creating-regular-users-in-couchdb)
 - https://github.com/apache/couchdb-nano/issues/313#issuecomment-1321691678
-- [[https://github.com/apache/couchdb-nano#nanodbinfocallback\|https://github.com/apache/couchdb-nano#nanodbinfocallback]]
+- [link](https://github.com/apache/couchdb-nano#nanodbinfocallback)
 
 
 #todo 

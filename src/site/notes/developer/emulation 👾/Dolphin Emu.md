@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation 👾/Dolphin Emu/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/emulation 👾/Dolphin Emu/"}
 ---
 
 Nintendo Gamecube & Wii emulator
 
 ## Mayflash gamecube controller adapter on Linux
-[[seanyeh.com)](http://www.seanyeh.com/pages/mayflash_gamecube_adapter_linux_dolphin_steam/\|Mayflash Gamecube controller adapter + Linux + Dolphin/Steam (seanyeh.com)]]
+[Mayflash Gamecube controller adapter + Linux + Dolphin/Steam (seanyeh.com)](https://www.seanyeh.com/pages/mayflash_gamecube_adapter_linux_dolphin_steam/)
 
 Paste the following into `/etc/udev/rules.d/51-gcadapter.rules`:
 
@@ -44,7 +44,7 @@ And copy this folder into your new computer. Should be same location. That will 
 Make sure the Mayflash adapter is set to "PC" setting. If you haven't already, run `wii-u-gc-adapter`
 
 ## Credits
-- [[dolphin-emu.org)](https://forums.dolphin-emu.org/Thread-mayflash-dolphinbar-on-linux\|Mayflash DolphinBar on Linux (dolphin-emu.org)]]
-- [[reddit.com)](https://www.reddit.com/r/emulation/comments/3gjmy2/comment/ctyz26e/\|Help me get Dolphinbar working on Arch Linux? : emulation (reddit.com)]]
-- [[reddit.com)](https://www.reddit.com/r/DolphinEmulator/comments/sa3ypn/any_way_to_get_all_game_save_data_miis_from_one/\|Any way to get all game save data + miis from one computer running dolphin to another? : r/DolphinEmulator (reddit.com)]]
+- [Mayflash DolphinBar on Linux (dolphin-emu.org)](https://forums.dolphin-emu.org/Thread-mayflash-dolphinbar-on-linux)
+- [Help me get Dolphinbar working on Arch Linux? : emulation (reddit.com)](https://www.reddit.com/r/emulation/comments/3gjmy2/comment/ctyz26e/)
+- [Any way to get all game save data + miis from one computer running dolphin to another? : r/DolphinEmulator (reddit.com)](https://www.reddit.com/r/DolphinEmulator/comments/sa3ypn/any_way_to_get_all_game_save_data_miis_from_one/)
 - [/shared2/menu/FaceLib/RFL_DB.dat - WiiBrew](https://wiibrew.org/wiki//shared2/menu/FaceLib/RFL_DB.dat)

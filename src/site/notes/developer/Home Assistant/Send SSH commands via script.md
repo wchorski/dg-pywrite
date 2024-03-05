@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Assistant/Send SSH commands via script/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Send SSH commands via script/"}
 ---
 
 #homeassistant #linux 
@@ -10,7 +10,7 @@
 
 ---
 ## Credits
-- [[https://siytek.com/home-assistant-shell/#:~:text=When executing shell commands in Home Assistant%2C the,integration comes when you combine it with SSH.\|https://siytek.com/home-assistant-shell/#:~:text=When executing shell commands in Home Assistant%2C the,integration comes when you combine it with SSH.]]
+- [link](https://siytek.com/home-assistant-shell/#:~:text=When executing shell commands in Home Assistant%2C the,integration comes when you combine it with SSH.)
 
 ## Backlinks
-- [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]]
+- [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]]

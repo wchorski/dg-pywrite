@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/GameDev 🕹/Game Ideas/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/GameDev 🕹/Game Ideas/"}
 ---
 
 ## Peer Pressure
 
-going of the static script of [[developer/GameDev 🕹/Dark Room White Tunnel\|developer/GameDev 🕹/Dark Room White Tunnel]]. use [Twine](https://twinery.org/) to construct the branching storylines and mechanics of the game
+going of the static script of [[developer/GameDev 🕹/Dark Room White Tunnel\|Dark Room White Tunnel]]. use [Twine](https://twinery.org/) to construct the branching storylines and mechanics of the game
 
 start off as 1 of 4 player
 First branch is declining the drug. leave un scathed 

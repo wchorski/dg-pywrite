@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Nextcloud/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Nextcloud/"}
 ---
 
 #cloud #gmail #opensource 
@@ -17,14 +17,14 @@
 
 ---
 ### connections
-- publicly face app with [[developer/Home Lab 🏠/Nginx Proxy Manager#Publicly Facing App\|developer/Home Lab 🏠/Nginx Proxy Manager#Publicly Facing App]]
-- syncs pictures for [[developer/Home Lab 🏠/PhotoPrism\|developer/Home Lab 🏠/PhotoPrism]] to read my every growing photo gallery
+- publicly face app with [[developer/Home Lab 🏠/Nginx Proxy Manager#Publicly Facing App\|Nginx Proxy Manager#Publicly Facing App]]
+- syncs pictures for [[developer/Home Lab 🏠/PhotoPrism\|PhotoPrism]] to read my every growing photo gallery
 - used as my calendar server
 - backup phone contacts
 
 ### installation
 1. note that I use an external drive. You must set up your other drive first.
-2. [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]] `compose.yml`
+2. [[developer/Home Lab 🏠/Docker\|Docker]] `compose.yml`
 ```yaml
 version: '2'
 
@@ -97,14 +97,14 @@ recover old ./version.php
 From there I could then pull the v20 docker image and run the upgrade to v20 using the same two commands.
 > [source](https://help.nextcloud.com/t/cant-start-nextcloud-because-the-version-of-the-data-is-higher-than-the-docker-image-version-and-downgrading-is-not-supported/109438/4?u=wchorski)
 
-If you don't make backups then you could possibly edit the container's `html/version.php`. Gotta thank [[developer/Home Lab 🏠/Duplicati\|developer/Home Lab 🏠/Duplicati]] for saving my behind
+If you don't make backups then you could possibly edit the container's `html/version.php`. Gotta thank [[developer/Home Lab 🏠/Duplicati\|Duplicati]] for saving my behind
 
 ## Upgrading to AIO
 
 Will get to this eventually, but for now I'm sticking with the regular `nextcloud:latest` docker container deployment 
-- [[github.com)](https://github.com/nextcloud/all-in-one/blob/main/migration.md\|all-in-one/migration.md at main · nextcloud/all-in-one (github.com)]]
-- [[https://github.com/nextcloud/all-in-one/blob/main/reverse-proxy.md#4-open-the-aio-interface\|https://github.com/nextcloud/all-in-one/blob/main/reverse-proxy.md#4-open-the-aio-interface]]
-- [[github.com)](https://github.com/nextcloud/all-in-one/blob/main/compose.yaml\|all-in-one/compose.yaml at main · nextcloud/all-in-one (github.com)]]
+- [all-in-one/migration.md at main · nextcloud/all-in-one (github.com)](https://github.com/nextcloud/all-in-one/blob/main/migration.md)
+- [link](https://github.com/nextcloud/all-in-one/blob/main/reverse-proxy.md#4-open-the-aio-interface)
+- [all-in-one/compose.yaml at main · nextcloud/all-in-one (github.com)](https://github.com/nextcloud/all-in-one/blob/main/compose.yaml)
 
 #todo 
 - [x] man description

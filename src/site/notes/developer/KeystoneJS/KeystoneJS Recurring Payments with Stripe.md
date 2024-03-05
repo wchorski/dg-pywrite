@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Recurring Payments with Stripe/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Recurring Payments with Stripe/"}
 ---
 
 ## sschema

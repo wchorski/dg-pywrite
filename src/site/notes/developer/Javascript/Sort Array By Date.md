@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/Sort Array By Date/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/Sort Array By Date/"}
 ---
 
-Wanted to sort and display the most future dates in a list / table (using [[developer/Home Lab 🏠/CouchDB\|developer/Home Lab 🏠/CouchDB]] , so don't forget the info is in the `doc` object)
+Wanted to sort and display the most future dates in a list / table (using [[developer/Home Lab 🏠/CouchDB\|CouchDB]] , so don't forget the info is in the `doc` object)
 
 ```js
 	data = [
@@ -17,6 +17,6 @@ Wanted to sort and display the most future dates in a list / table (using [[deve
 
 ---
 ## Credits
-- [[https://tutorial.eyehunts.com/js/sort-array-by-date-javascript-example-code/#:~:text=To sort an array by date first convert,get Date objects%2C then sort by compare function.\|https://tutorial.eyehunts.com/js/sort-array-by-date-javascript-example-code/#:~:text=To sort an array by date first convert,get Date objects%2C then sort by compare function.]]
+- [link](https://tutorial.eyehunts.com/js/sort-array-by-date-javascript-example-code/#:~:text=To sort an array by date first convert,get Date objects%2C then sort by compare function.)
 
 #javascript 

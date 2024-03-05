@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React Style Transitions from Scratch/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Style Transitions from Scratch/"}
 ---
 
 
@@ -111,5 +111,5 @@ export function EmojiFade() {
 - [Applying CSS Transitions with React Hooks | by Kaylie Kwon | JavaScript in Plain English](https://javascript.plainenglish.io/applying-css-transitions-with-react-hooks-7bd84671bc6b)
 
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/portainer/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/portainer/"}
 ---
 
 #docker 
@@ -10,7 +10,7 @@ Docker and Kubernetes Management. A no-code solution for spinning up containers.
 - one
 
 ## installation
-### [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]]
+### [[developer/Home Lab 🏠/Docker\|Docker]]
 1. `./compose.yml`
 ```
 version: "3.2"
@@ -37,15 +37,15 @@ services:
 2. `./upgrade.sh`
 ```
 #! /bin/bash
-echo "[[ upgrading portainer ]]"
+echo "[[ upgrading portainer | upgrading portainer ]]"
 
-echo "[[ stop portainer docker ]]"
+echo "[[ stop portainer docker | stop portainer docker ]]"
 sudo docker stop portainer
 
-echo "[[ remove old portainer docker ]]"
+echo "[[ remove old portainer docker | remove old portainer docker ]]"
 sudo docker rm portainer
 
-echo "[[ sudo docker-compose u -d ]]"
+echo "[[ sudo docker-compose u -d | sudo docker-compose u -d ]]"
 cd /home/<username>/docker/portainer
 
 sudo docker-compose up -d

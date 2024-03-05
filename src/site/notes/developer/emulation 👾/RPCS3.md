@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation 👾/RPCS3/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/emulation 👾/RPCS3/"}
 ---
 
 Playstation 3 emulator
 
 ## Manage / transfer save data
-[[https://rpcs3.net/quickstart# Manage Save Data](https://rpcs3.net/quickstart\|https://rpcs3.net/quickstart# Manage Save Data](https://rpcs3.net/quickstart#manage_saves]]
+[link](https://rpcs3.net/quickstart# Manage Save Data](https://rpcs3.net/quickstart#manage_saves)
   
 - For Windows users, save data files can be managed in `\dev_hdd0\home\00000001\savedata\`
 

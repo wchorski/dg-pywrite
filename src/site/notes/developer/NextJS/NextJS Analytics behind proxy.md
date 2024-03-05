@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Analytics behind proxy/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Analytics behind proxy/"}
 ---
 
-Add blockers track for common external endpoints that track data. We can get around this by setting up a proxy in [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]] to funel the external script to an enpoint that is from our domain
+Add blockers track for common external endpoints that track data. We can get around this by setting up a proxy in [[developer/NextJS/NextJS\|NextJS]] to funel the external script to an enpoint that is from our domain
 
-For a live example of this, check out [[developer/Projects📐/Make-a-Gram\|developer/Projects📐/Make-a-Gram]]
+For a live example of this, check out [[developer/Projects📐/Make-a-Gram\|Make-a-Gram]]
 
 ## .env
 ```env
@@ -15,7 +15,7 @@ NEXT_PUBLIC_UMAMI_SCRIPT="ramen"
 
 You've probably noticed the `ramen` as the **Umami_Script**. This is a custom endpoint set up via the [Environment variables | umami](https://umami.is/docs/environment-variables) "TRACKER_SCRIPT_NAME"
 
-Checkout the [[developer/Home Lab 🏠/umami\|developer/Home Lab 🏠/umami]] to see how I set it up in the `docker-compose.yml`
+Checkout the [[developer/Home Lab 🏠/umami\|umami]] to see how I set it up in the `docker-compose.yml`
 
 ## next.config.js
 ```js

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/Javascript Math Functions/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/Javascript Math Functions/"}
 ---
 
 ## Don't go past Zero

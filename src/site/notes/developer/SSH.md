@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/SSH/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/SSH/"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Hardware/Phenom II X6 1045T Custom PC/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Phenom II X6 1045T Custom PC/"}
 ---
 
 
@@ -53,4 +53,4 @@ Total Price: $
 ## Programs & Apps
 
 
-[[developer/Hardware/Homelab Hardware PC Builds\|developer/Hardware/Homelab Hardware PC Builds]]
+[[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]

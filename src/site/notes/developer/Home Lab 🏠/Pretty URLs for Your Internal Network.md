@@ -1,13 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Pretty URLs for Your Internal Network/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Pretty URLs for Your Internal Network/"}
 ---
 
 ## Tools
-- [[developer/Home Lab 🏠/Nginx Proxy Manager\|developer/Home Lab 🏠/Nginx Proxy Manager]]
-- [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]]
+- [[developer/Home Lab 🏠/Nginx Proxy Manager\|Nginx Proxy Manager]]
+- [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]]
 
 
 
 ---
 ## Credits 
-- [[ltm56.com)](https://ltm56.com/how-to-create-custom-domains-with-pihole-and-nginx-proxy-manager/\|How to Create Custom Domains with PiHole and NGINX Proxy Manager – LTM Tech (ltm56.com)]]
+- [How to Create Custom Domains with PiHole and NGINX Proxy Manager – LTM Tech (ltm56.com)](https://ltm56.com/how-to-create-custom-domains-with-pihole-and-nginx-proxy-manager/)

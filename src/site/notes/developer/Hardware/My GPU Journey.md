@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Hardware/My GPU Journey/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/My GPU Journey/"}
 ---
 
 
@@ -20,4 +20,4 @@
 | AMD  | Radeon PRO W6600 | Navi 23 | 1792  | 64   | 8gb  | GDDR6    | 128 bit   | 100 W max | $649  | [link](https://www.techpowerup.com/gpu-specs/radeon-pro-w6600.c3818) |
 | AMD  | Radeon RX 6600**   | Navi 23 | 1792  | 64   | 8 gb | GDDR6    | 128 bit   | 132 W max | $329  | [link](https://www.techpowerup.com/gpu-specs/radeon-rx-6600.c3696)   |
 | AMD  | Radeon RX 5700   | Navi 10 | 2304  | 64   | 8 gb | GDDR6    | 256 bit   | 180 W max | $349  | [link](https://www.techpowerup.com/gpu-specs/radeon-rx-5700.c3437)                                                                     |
-[[developer/Hardware/Homelab Hardware PC Builds\|developer/Hardware/Homelab Hardware PC Builds]]
+[[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]

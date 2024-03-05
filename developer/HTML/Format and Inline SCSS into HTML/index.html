@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4379,7 +4379,7 @@
 <p><a href="https://stackoverflow.com/a/65642134/15579591" target="_blank" class="external-link">source of help</a></p>
 <p>I use these free online tools to do the job</p>
 <ol>
-<li><a class="internal-link is-unresolved" href="/404" target="">SCSS</a> to CSS Converter  (<a href="http://jsonformatter.org" target="_blank" class="external-link">jsonformatter.org</a>) -&gt; convert <a class="internal-link" target="" data-note-icon="" href="/developer/CSS/Sass/">developer/CSS/Sass</a> to plain <strong>CSS</strong></li>
+<li><a href="https://jsonformatter.org/scss-to-css" target="_blank" class="external-link">SCSS to CSS Converter  (jsonformatter.org)</a> -&gt; convert <a class="internal-link" target="" data-note-icon="" href="/developer/CSS/Sass/">Sass</a> to plain <strong>CSS</strong></li>
 <li><a href="https://premailer.io/" target="_blank" class="external-link">Premailer.io - CSS blocks into inline style attributes for HTML emails</a> -&gt; Inline <strong>CSS</strong> to <strong>HTML</strong></li>
 </ol>
 <p>here is an example of what your input into <a href="https://premailer.io/" target="_blank" class="external-link">Premailer.io</a> should look like</p>

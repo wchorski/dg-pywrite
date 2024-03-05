@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4383,8 +4383,8 @@
 <li>more visual feedback</li>
 <li>analyzer / spectrogram</li>
 </ul>
-<p>Following <a href="https://www.youtube.com/watch?v=rkqqBA6ohc0&amp;t=10s" target="_blank" class="external-link">this video tutorial</a> I was able to create something from vanilla <a class="internal-link is-unresolved" href="/404" target="">developer/Javascript/Javascript</a> with a <a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">developer/ReactJS/ReactJS</a> like structure.</p>
-<p>plans to port this over to a real <a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">developer/ReactJS/ReactJS</a> are to follow --&gt; <a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/Custom Audio Player Component - ReactJS Port/">developer/ReactJS/Custom Audio Player Component - ReactJS Port</a></p>
+<p>Following <a href="https://www.youtube.com/watch?v=rkqqBA6ohc0&amp;t=10s" target="_blank" class="external-link">this video tutorial</a> I was able to create something from vanilla <a class="internal-link is-unresolved" href="/404" target="">Javascript</a> with a <a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">ReactJS</a> like structure.</p>
+<p>plans to port this over to a real <a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">ReactJS</a> are to follow --&gt; <a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/Custom Audio Player Component - ReactJS Port/">Custom Audio Player Component - ReactJS Port</a></p>
 <h3 id="index-html" tabindex="-1">index.html</h3>
 <pre><code class="language-html">&lt;head&gt;
 	&lt;script src='./scripts/MusicPlayer.js'&gt;&lt;/script&gt;

@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4379,7 +4379,7 @@
 <hr>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/_developer_box📦</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></li>
 </ul>
 
       
@@ -4638,6 +4638,7 @@
                                           <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/HTML/HTML Canvas Blurry Lines Images Drawn/" data-note-icon="" class="backlink">HTML Canvas Blurry Lines Images Drawn</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/HTML/HTML Dialog Model for Accessable Tooltips, Pop-ups, and More/" data-note-icon="" class="backlink">HTML Dialog Model for Accessable Tooltips, Pop-ups, and More</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/HTML/HTML Meta tags/" data-note-icon="" class="backlink">HTML Meta tags</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/HTML/HTML underused Tags/" data-note-icon="" class="backlink">HTML underused Tags</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/HTML/Responsive HTML Tables/" data-note-icon="" class="backlink">Responsive HTML Tables</a>
                                                 </div></div>
                               </div>

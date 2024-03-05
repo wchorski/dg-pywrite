@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4413,6 +4413,7 @@
 <h2 id="credit" tabindex="-1">Credit</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=ywtkJkxJsdg" target="_blank" class="external-link">The New dialog HTML Element Changes Modals Forever - YouTube</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/HTML/HTML, Back to Basics/">HTML, Back to Basics</a></li>
 </ul>
 <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#html">#html</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#javascript">#javascript</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#css">#css</a></p>
 

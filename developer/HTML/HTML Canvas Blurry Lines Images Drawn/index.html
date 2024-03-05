@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4410,7 +4410,7 @@ window.onload = Draw ()
 </ul>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/HTML/HTML, Back to Basics/">developer/HTML/HTML, Back to Basics</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/HTML/HTML, Back to Basics/">HTML, Back to Basics</a></li>
 </ul>
 
       

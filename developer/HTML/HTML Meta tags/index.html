@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4395,7 +4395,7 @@
 &lt;meta property=&quot;og:image&quot; content=&quot;https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png&quot; /&gt;
 </code></pre>
 <ul>
-<li>Use <a class="internal-link is-unresolved" href="/404" target="">https://ogp.me/#type_article</a> for articles and <a class="internal-link is-unresolved" href="/404" target="">https://ogp.me/#type_website</a> for the rest of your pages.</li>
+<li>Use <a href="https://ogp.me/#type_article" target="_blank" class="external-link">link</a> for articles and <a href="https://ogp.me/#type_website" target="_blank" class="external-link">link</a> for the rest of your pages.</li>
 </ul>
 <pre><code class="language-html">&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 </code></pre>
@@ -4404,11 +4404,11 @@
 <ul>
 <li><a href="https://www.youtube.com/watch?v=bi5bfH_gVWE" target="_blank" class="external-link">Learn HTML meta tags in 3 minutes 🏷️ - YouTube</a></li>
 <li><a href="https://www.youtube.com/watch?v=o3Gfsc6kihk" target="_blank" class="external-link">27: Which HTML Meta Tags Are Required in A Website? | Learn HTML and CSS | Full Course For Beginners - YouTube</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Open</a> Graph Meta Tags: Everything You Need to Know (<a href="http://ahrefs.com" target="_blank" class="external-link">ahrefs.com</a>)</li>
+<li><a href="https://ahrefs.com/blog/open-graph-meta-tags/" target="_blank" class="external-link">Open Graph Meta Tags: Everything You Need to Know (ahrefs.com)</a></li>
 </ul>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/HTML/HTML, Back to Basics/">developer/HTML/HTML, Back to Basics</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/HTML/HTML, Back to Basics/">HTML, Back to Basics</a></li>
 </ul>
 
       

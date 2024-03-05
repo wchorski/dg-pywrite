@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4385,11 +4385,11 @@
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target=""><a href="https://bobbyhadz.com/blog/react-useref-object-is-possibly-null#:~:text=The" target="_blank" class="external-link">https://bobbyhadz.com/blog/react-useref-object-is-possibly-null#:~:text=The</a> &quot;Object is possibly null&quot; error is caused,whose.current property is initialized to the passed argument.</a></li>
+<li>[link](<a href="https://bobbyhadz.com/blog/react-useref-object-is-possibly-null#:~:text=The" target="_blank" class="external-link">https://bobbyhadz.com/blog/react-useref-object-is-possibly-null#:~:text=The</a> &quot;Object is possibly null&quot; error is caused,whose.current property is initialized to the passed argument.)</li>
 </ul>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">developer/Javascript/Javascript</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">Javascript</a></li>
 </ul>
 
       

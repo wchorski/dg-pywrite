@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4423,12 +4423,12 @@ dialog.addEventListener(&quot;click&quot;, e =&gt; {
 </code></pre>
 <h2 id="credits" tabindex="-1">Credits</h2>
 <ul>
-<li><a class="internal-link is-unresolved" href="/404" target="">Modals</a> Will Never Be The Same - HTML dialog Element (<a href="http://webdevsimplified.com" target="_blank" class="external-link">webdevsimplified.com</a>)</li>
+<li><a href="https://blog.webdevsimplified.com/2023-04/html-dialog/" target="_blank" class="external-link">Modals Will Never Be The Same - HTML dialog Element (webdevsimplified.com)</a></li>
 <li><a href="https://www.youtube.com/watch?v=ywtkJkxJsdg" target="_blank" class="external-link">The New dialog HTML Element Changes Modals Forever - YouTube</a></li>
 </ul>
 <h2 id="backlinks" tabindex="-1">Backlinks</h2>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/HTML/HTML, Back to Basics/">developer/HTML/HTML, Back to Basics</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/HTML/HTML, Back to Basics/">HTML, Back to Basics</a></li>
 </ul>
 
       

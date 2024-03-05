@@ -4114,7 +4114,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-05T03:00:09.515Z';
+        const searchIndexDate = '2024-03-05T03:01:07.172Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -4126,9 +4126,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:00:09.515Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-05T03:01:07.172Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:00:09.515Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-05T03:01:07.172Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -4405,7 +4405,7 @@
 <ul>
 <li><a href="https://www.youtube.com/watch?v=OotCLwM0-bY" target="_blank" class="external-link">How To Create a Responsive Navigation Menu Bar using HTML and CSS | Mobile First - YouTube</a></li>
 </ul>
-<p><a class="internal-link is-unresolved" href="/404" target="">developer/_developer_box📦</a></p>
+<p><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></p>
 
       
       

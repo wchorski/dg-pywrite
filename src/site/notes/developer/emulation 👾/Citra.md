@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation 👾/Citra/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/emulation 👾/Citra/"}
 ---
 
 3DS emulator
@@ -9,10 +9,10 @@ I recommend getting a **New 3DS XL / LL** and loading Luma3ds to run native 3ds,
 [3DS Hacks Guide - 3DS Hacks Guide](https://3ds.hacks.guide/)
 
 ## 3DS as SAMBA share
-just like setting up a PC with [[developer/Home Lab 🏠/SAMBA\|developer/Home Lab 🏠/SAMBA]], you can also wirelessly transfer data to and from PC as if the 3DS's SD card was any other mounted drive.
+just like setting up a PC with [[developer/Home Lab 🏠/SAMBA\|SAMBA]], you can also wirelessly transfer data to and from PC as if the 3DS's SD card was any other mounted drive.
 
 ### non hacked 3ds 
-- [[https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete these steps 1 From the HOME menu%2C,accessing the system via a PC. More items\|https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete these steps 1 From the HOME menu%2C,accessing the system via a PC. More items]]
+- [link](https://en-americas-support.nintendo.com/app/answers/detail/a_id/14218/~/how-to-use-microsd-management-to-move-files-between-a-new-nintendo-3ds-xl-and-a#:~:text=Complete these steps 1 From the HOME menu%2C,accessing the system via a PC. More items)
 - [How to utilize the 3DS MICROSD MANAGEMENT to transfer files wirelessly - YouTube](https://www.youtube.com/watch?v=2IQtcY9mEbI&t=274s)
 
 >[!info] Windows 10 Users
@@ -25,7 +25,7 @@ my 3ds did not automatically show up in my networks tab, so I just mounted the d
 - ftp://192.168.0.66:5000` in **Windows Explorer**
 
 ## transfer / manage save data
-[[https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring Save Data 1 Open Checkpoint. ... 2,in Step 4] to the computer. More items\|https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring Save Data 1 Open Checkpoint. ... 2,in Step 4] to the computer. More items]]
+[link](https://citra-emu.org/wiki/dumping-save-data-from-a-3ds-console/#:~:text=Transferring Save Data 1 Open Checkpoint. ... 2,in Step 4] to the computer. More items)
 important thing to note is that whatever tool used to get the save data off of the 3DS supports exporting _expanded_ save data. Save data lives in Citra’s emulated SD card directories (`user/sdmc/Nintendo 3DS/000...0/000...0/title/[game-TID-high]/[game-TID-low]/data/00000001/`).
 
 I use [Checkpoint 3DS - GameBrew](https://www.gamebrew.org/wiki/Checkpoint_3DS) because it's the most simple. and also compatible with the Switch 

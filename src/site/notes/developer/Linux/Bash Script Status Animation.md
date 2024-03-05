@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash Script Status Animation/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash Script Status Animation/"}
 ---
 
 ```bash
@@ -20,7 +20,7 @@ save as `loading_animation.sh` and make it executable via `chmod +x loading.sh`
 
 ## importing animation to other scripts
 
-In this example I'm importing the animation script into an [[developer/Linux/rsync\|developer/Linux/rsync]] shell script 
+In this example I'm importing the animation script into an [[developer/Linux/rsync\|rsync]] shell script 
 
 ```shell
 #!/bin/bash

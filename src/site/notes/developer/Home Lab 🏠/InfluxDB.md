@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/InfluxDB/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/InfluxDB/"}
 ---
 
 
@@ -45,10 +45,10 @@ INFLUX_BUCKET=YOUR_BUCKET
 ---
 
 ## Credits
-- [[) · Issue #1549 · influxdata/flux · GitHub](https://github.com/influxdata/flux/issues/1549\|Add new time operators in addition to Now() · Issue #1549 · influxdata/flux · GitHub]]
+- [Add new time operators in addition to Now() · Issue #1549 · influxdata/flux · GitHub](https://github.com/influxdata/flux/issues/1549)
 
 ## Backlinks
-- [[developer/Home Lab 🏠/Home Lab 🏠\|developer/Home Lab 🏠/Home Lab 🏠]]
-- [[developer/Home Lab 🏠/Duplicati\|developer/Home Lab 🏠/Duplicati]]
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
+- [[developer/Home Lab 🏠/Duplicati\|Duplicati]]
+- [[developer/developer_box📦\|developer_box📦]]
 - [[developer/Home Lab 🏠/Duplicati\|duplicati]]

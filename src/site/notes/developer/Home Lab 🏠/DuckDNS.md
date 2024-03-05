@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/DuckDNS/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/DuckDNS/"}
 ---
 
-[[www.duckdns.org)](http://www.duckdns.org/\|Duck DNS (www.duckdns.org)]]
+[Duck DNS](http://www.duckdns.org/)
 
 > free dynamic DNS hosted on AWS
 

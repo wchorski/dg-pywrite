@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/SAMBA Share/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/SAMBA Share/"}
 ---
 
-[[https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.\|https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.]]
+[link](https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.)
 
 ```shell
 sudo apt-get update 
@@ -50,4 +50,4 @@ sudo chown root:smbgrp /samba/smbuser
 - 
 
 ## Backlinks
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
+- [[developer/Linux/Linux\|Linux]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/No Library Needed for CSS Transitions/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/No Library Needed for CSS Transitions/"}
 ---
 
 
@@ -117,4 +117,4 @@ const StyledEmoji = styled.div`
 - cred Kaylie Kwon - https://javascript.plainenglish.io/applying-css-transitions-with-react-hooks-7bd84671bc6b
 
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]

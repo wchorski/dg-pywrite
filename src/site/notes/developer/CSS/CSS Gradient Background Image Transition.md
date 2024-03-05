@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Gradient Background Image Transition/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Gradient Background Image Transition/"}
 ---
 
 Transiitioning a background image isn't a built in feature, but is a trick using pseudo elements
@@ -50,5 +50,5 @@ try using other CSS like `background-position: right` to also animate a single g
 
 ---
 ## Credit
-- [[keithjgrant.com)](https://keithjgrant.com/posts/2017/07/transitioning-gradients/\|Transitioning Gradients (keithjgrant.com)]]
+- [Transitioning Gradients (keithjgrant.com)](https://keithjgrant.com/posts/2017/07/transitioning-gradients/)
 - [Fun ways to animate CSS gradients - YouTube](https://www.youtube.com/watch?v=f3mwKLXpOLk&t=619s)

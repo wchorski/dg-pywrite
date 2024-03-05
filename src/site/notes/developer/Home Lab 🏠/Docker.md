@@ -1,25 +1,25 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Docker/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Lab 🏠/Docker/"}
 ---
 
 ## [Home - Docker](https://www.docker.com/)
 fast, easy and portable application development through containerization 
 
-If I haven't figured out a way to [[[What is a Container? - Docker](https://www.docker.com/resources/what-container/\|containerize]]) an app, I will find a way. Pretty much the backbone of how I deploy and maintain many services.    
+If I haven't figured out a way to [containerize](https://www.docker.com/resources/what-container/)) an app, I will find a way. Pretty much the backbone of how I deploy and maintain many services.    
 
 ---
 
 ### connections
-- [[developer/Home Lab 🏠/portainer\|developer/Home Lab 🏠/portainer]]
-- [[developer/Home Lab 🏠/Nginx Proxy Manager\|developer/Home Lab 🏠/Nginx Proxy Manager]]
-- [[developer/Home Lab 🏠/Nextcloud\|developer/Home Lab 🏠/Nextcloud]]
-- [[developer/Home Lab 🏠/PhotoPrism\|developer/Home Lab 🏠/PhotoPrism]]
-- [[developer/Home Lab 🏠/Wordpress\|developer/Home Lab 🏠/Wordpress]]
-- [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]]
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
-- [[developer/Home Lab 🏠/vaultwarden\|developer/Home Lab 🏠/vaultwarden]]
-- [[developer/Home Lab 🏠/Jellyfin\|developer/Home Lab 🏠/Jellyfin]]
-- [[developer/Home Lab 🏠/Plex.tv\|developer/Home Lab 🏠/Plex.tv]]
+- [[developer/Home Lab 🏠/portainer\|portainer]]
+- [[developer/Home Lab 🏠/Nginx Proxy Manager\|Nginx Proxy Manager]]
+- [[developer/Home Lab 🏠/Nextcloud\|Nextcloud]]
+- [[developer/Home Lab 🏠/PhotoPrism\|PhotoPrism]]
+- [[developer/Home Lab 🏠/Wordpress\|Wordpress]]
+- [[developer/NextJS/NextJS\|NextJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]
+- [[developer/Home Lab 🏠/vaultwarden\|vaultwarden]]
+- [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]]
+- [[developer/Home Lab 🏠/Plex.tv\|Plex.tv]]
 - pretty much any of my microservices. Especially if it's public facing 
 
 ### installation
@@ -40,7 +40,7 @@ sudo docker exec -it dev-garden-app-1 /bin/bash # 'heard you like shell inside y
 ```
 
 ### Map Volume on Windows 10
-- [[https://stackoverflow.com/questions/50959475/docker-compose-on-windows-volume-not-working#:~:text=To do so%3A 1 Run the command "set,container rm -f ) 5 Re-run the containers\|https://stackoverflow.com/questions/50959475/docker-compose-on-windows-volume-not-working#:~:text=To do so%3A 1 Run the command "set,container rm -f ) 5 Re-run the containers]]
+- [link](https://stackoverflow.com/questions/50959475/docker-compose-on-windows-volume-not-working#:~:text=To do so%3A 1 Run the command "set,container rm -f ) 5 Re-run the containers)
 ```shell
 1.  Launch Docker from your windows taskbar
 2.  Click on Settings icon on top
@@ -88,7 +88,7 @@ docker compose -f /mnt/uasis5/node/filesystem-livesync-pywriter4/compose.yml res
 ```
 
 #todo 
-- [[https://www.jamescoyle.net/how-to/docker-compose-files/3323-docker-compose-file-for-watchtower#:~:text=Create a new directory and save the above,from the moment you start the Watchtower container.\|https://www.jamescoyle.net/how-to/docker-compose-files/3323-docker-compose-file-for-watchtower#:~:text=Create a new directory and save the above,from the moment you start the Watchtower container.]]
+- [link](https://www.jamescoyle.net/how-to/docker-compose-files/3323-docker-compose-file-for-watchtower#:~:text=Create a new directory and save the above,from the moment you start the Watchtower container.)
 
 ---
 ## Credits

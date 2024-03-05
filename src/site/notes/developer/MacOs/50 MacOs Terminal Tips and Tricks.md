@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/MacOs/50 MacOs Terminal Tips and Tricks/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/MacOs/50 MacOs Terminal Tips and Tricks/"}
 ---
 
 describe_the_problem
@@ -27,7 +27,7 @@ auth sufficient pam_tid.so
 
 ---
 ## Credits
-- [[the last one is CRAZY!) - YouTube](https://www.youtube.com/watch?v=qOrlYzqXPa8\|50 macOS Tips and Tricks Using Terminal (the last one is CRAZY!) - YouTube]]
+- [the last one is CRAZY!) - YouTube](https://www.youtube.com/watch?v=qOrlYzqXPa8)
 
 ## Backlinks
 - 

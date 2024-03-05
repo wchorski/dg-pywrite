@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Hardware/MacBook Pro M1 Laptop/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/MacBook Pro M1 Laptop/"}
 ---
 
 
 ## Productivity Apps
-- [[github.com)](https://github.com/ianyh/Amethyst/releases/tag/v0.16.1\|Amethyst 0.16.1 · ianyh/Amethyst (github.com)]]
+- [Amethyst 0.16.1 · ianyh/Amethyst (github.com) ](https://github.com/ianyh/Amethyst/releases/tag/v0.16.1)
 
 ## Settings
 - Finder, show whole file path in header

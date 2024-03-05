@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Marquee Animations/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Marquee Animations/"}
 ---
 
 
@@ -92,7 +92,7 @@
 
 ---
 ## Credits
-- [[https://www.quackit.com/css/codes/marquees/#:~:text=CSS marquees are replacing HTML marquees as the,creating scrolling%2C bouncing%2C or slide-in text and images.\|https://www.quackit.com/css/codes/marquees/#:~:text=CSS marquees are replacing HTML marquees as the,creating scrolling%2C bouncing%2C or slide-in text and images.]]
+- [link](https://www.quackit.com/css/codes/marquees/#:~:text=CSS marquees are replacing HTML marquees as the,creating scrolling%2C bouncing%2C or slide-in text and images.)
 
 ## Backlinks
-[[developer/CSS/CSS\|developer/CSS/CSS]]
+[[developer/CSS/CSS\|CSS]]

@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Typescript/Typing with Typescript/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Typescript/Typing with Typescript/"}
 ---
 
 
 ## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

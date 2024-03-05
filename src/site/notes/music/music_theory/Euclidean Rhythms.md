@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/music/music_theory/Euclidean Rhythms/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/music_theory/Euclidean Rhythms/"}
 ---
 
-[[observablehq.com)](https://observablehq.com/@toja/euclidean-rhythms\|Euclidean rhythms / Torben Jansen / Observable (observablehq.com)]]
+[Euclidean rhythms / Torben Jansen / Observable (observablehq.com)](https://observablehq.com/@toja/euclidean-rhythms)
 
 > [!quote] _"What do African rhythms, spallation neutron source (SNS) accelerators in nuclear physics, string theory (stringology) in computer science, and an ancient algorithm described by Euclid have in common? The short answer is: patterns distributed as evenly as possible"_. *Godfried Toussaint*
 

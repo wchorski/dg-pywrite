@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Working With Inconsistent Logos/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Working With Inconsistent Logos/"}
 ---
 
 There are a few common problems when working with not so stellar logos sent in by the client
@@ -23,4 +23,4 @@ There are a few common problems when working with not so stellar logos sent in b
 - [🔥 Three CSS tips for working with inconsistently sized logos - YouTube](https://www.youtube.com/shorts/Z6sNWaj_b8o)
 
 ## Backlinks
-- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|developer/CSS/Cascading Style Sheet Tips & Tricks]]
+- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|Cascading Style Sheet Tips & Tricks]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/remove duplicates in Array/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/remove duplicates in Array/"}
 ---
 
 I want to filter out any duplicates and return a single array of unique categories
@@ -15,4 +15,4 @@ _( Note that var `uniq` will be an array... `new Set()` turns it into a set,
 - [javascript - Remove duplicate values from JS array - Stack Overflow](https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array)
 
 ## Backlinks
-- [[developer/Javascript/Javascript\|developer/Javascript/Javascript]]
+- [[developer/Javascript/Javascript\|Javascript]]

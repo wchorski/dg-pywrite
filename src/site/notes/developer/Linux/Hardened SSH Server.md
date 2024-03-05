@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Hardened SSH Server/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Hardened SSH Server/"}
 ---
 
 describe_the_problem
@@ -17,7 +17,7 @@ dpkg-reconfigure --priority=low unattended-upgrades
 
 ### Create Keys and Harden Server
 
-following [[https://www.sshaudit.com/hardening_guides.html#ubuntu_22_04_lts\|https://www.sshaudit.com/hardening_guides.html#ubuntu_22_04_lts]] step by step
+following [link](https://www.sshaudit.com/hardening_guides.html#ubuntu_22_04_lts) step by step
 
 ```bash
 rm /etc/ssh/ssh_host_*
@@ -58,7 +58,7 @@ PermitEmptyPasswords no
 systemctl restart sshd
 ```
 
-check your **Standard Audit** & **Policy Audit** score at [[ssh-audit.com)](https://ssh-audit.com/\|SSH Configuration Auditor (ssh-audit.com)]]
+check your **Standard Audit** & **Policy Audit** score at [SSH Configuration Auditor (ssh-audit.com)](https://ssh-audit.com/)
 
 ### Firewall
 
@@ -102,9 +102,9 @@ There is no easy way of adding new keys with `ssh-copy-id` once you disable `Pas
 
 ---
 ## Credits
-- [[ssh-audit.com)](https://ssh-audit.com/\|SSH Configuration Auditor (ssh-audit.com)]]
+- [SSH Configuration Auditor (ssh-audit.com)](https://ssh-audit.com/)
 - [5 Easy Ways to Secure Your SSH Server - YouTube](https://www.youtube.com/watch?v=l1iu3iZq1aQ)
-- [[ssh-audit.com)](https://ssh-audit.com/hardening_guides.html\|SSH Hardening Guides (ssh-audit.com)]]
+- [SSH Hardening Guides (ssh-audit.com)](https://ssh-audit.com/hardening_guides.html)
 - [Hardening Access to Your Server | Linux Security Tutorial - YouTube](https://www.youtube.com/watch?v=eeaFoZlSq6I&pp=ygUYaG93IHRvIGhhcmRlbiBzc2ggc2VydmVy)
 ## Backlinks
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
+- [[developer/Linux/Linux\|Linux]]

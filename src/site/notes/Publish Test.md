@@ -64,11 +64,11 @@ subgraph Your DB
 end
 ```
 
-| File                                                                                            | Last modified      |
-| ----------------------------------------------------------------------------------------------- | ------------------ |
-| [[developer/Projects📐/pvo-PP\|pvo-PP]]                                                      | 04.03.2024 - 18:24 |
-| [[developer/Projects📐/Party-Planner\|Party-Planner]]                                        | 04.03.2024 - 16:47 |
-| [[developer/Artificial intelligence/Ollama with Docker Compose\|Ollama with Docker Compose]] | 04.03.2024 - 15:53 |
+| File                                                                                  | Last modified      |
+| ------------------------------------------------------------------------------------- | ------------------ |
+| [[music/index\|index]]                                                             | 17.07.2024 - 07:07 |
+| [[developer/Animation/Organic Procedural Animation\|Organic Procedural Animation]] | 15.07.2024 - 13:26 |
+| [[🚿 shower thoughts/Psycology/The Narcissist's Prayer\|The Narcissist's Prayer]]  | 15.07.2024 - 11:57 |
 
 { .block-language-dataview}
 

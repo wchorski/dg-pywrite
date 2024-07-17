@@ -1,19 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/NextJS/"}
+{"dg-publish":true,"permalink":"/developer/NextJS/NextJS/","tags":["javascript","typescript","reactjs"]}
 ---
 
-#javascript #reactjs
-> [[nextjs.org)](nextjs.org\|!info]])
-The React Framework. hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
-
+[Next.js by Vercel - The React Framework (nextjs.org)](https://nextjs.org/)
+> The [[developer/Home Lab/ReactJS\|ReactJS]] Framework. hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
 ## connections
-- [[developer/Home Lab 🏠/Nginx Proxy Manager\|Nginx Proxy Manager]] for home routing
-- [[developer/Projects📐/heart-chart\|heart-chart]]
+- [[developer/Home Lab/Nginx Proxy Manager\|Nginx Proxy Manager]] for home routing
+- [[developer/Projects/heart-chart\|heart-chart]]
 - [[developer/KYPN/KYPN Stack\|KYPN Stack]]
 - [[developer/GameDev 🕹/Flame Warrior\|Flame Warrior]]
 
 ## installation
-1. `./compose.yml` via [[developer/Home Lab 🏠/Docker\|Docker]]
+1. `./compose.yml` via [[developer/Home Lab/Docker\|Docker]]
 	1. "app" - NextJS App
 	2. "mongo" - MongoDB database
 ```yml
@@ -224,7 +222,7 @@ export default Test;
 ```
 
 ### markdown image with nextjs/image
-[Use Next/Image with React Markdown – Amir Ardalan](https://amirardalan.com/blog/use-next-image-with-react-markdown) *tweaked code to fit with [[developer/Home Lab 🏠/Obsidian.md\|Obsidian.md]]*
+[Use Next/Image with React Markdown – Amir Ardalan](https://amirardalan.com/blog/use-next-image-with-react-markdown) *tweaked code to fit with [[developer/Home Lab/Obsidian.md\|Obsidian.md]]*
 https://forum.obsidian.md/t/how-can-i-change-the-size-of-images/2869/7?u=wchorski
 ```tsx
 // Markdown.tsx 

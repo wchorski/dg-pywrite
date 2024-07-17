@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/NodeJS/Recursive File Folder Processing/","tags":["nodejs","javascript","typescript"]}
 ---
 
-building a  [[developer/NodeJS\|NodeJS]] tool to recursively drill through a folder file structure to return all folders and files for processing
+building a  [[developer/NodeJS/NodeJS\|NodeJS]] tool to recursively drill through a folder file structure to return all folders and files for processing
 ## Node 20.x way
 
 Here is a snippet to get a general feel. This code is not complete, so check the [this repo](https://github.com/wchorski/wikilink_markdownlink_conversion/blob/main/app.ts) to see it in action.
@@ -105,6 +105,5 @@ async function readDirectories(folderPaths:string[], exportType:ExportType){
 
 ---
 ## Credits
-- [[developer/developer_box📦\|developer_box📦]]
 - [Loop Through Folders & Subfolders - Node JS & Apps Script, JavaScript, Google Drive, Learn Recursion (youtube.com)](https://www.youtube.com/watch?v=GMf30xyRv9M)
 - [Node.js fs.readdir recursive directory search - Stack Overflow](https://stackoverflow.com/questions/5827612/node-js-fs-readdir-recursive-directory-search)

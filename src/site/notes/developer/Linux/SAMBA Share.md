@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/developer/Linux/SAMBA Share/"}
 ---
 
-[link](https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect to Raspberry Pi Samba Server Mac 1,enter both the username and password... See More.)
 
 ```shell
 sudo apt-get update 
@@ -30,8 +29,6 @@ public=no
 ```
 
 `sudo smbpasswd -a pi`
-
-
 ## make file share for single user
 ```shell
 sudo addgroup smbgrp
@@ -43,11 +40,12 @@ sudo chmod -R 0770 /samba/smbuser
 sudo chown root:smbgrp /samba/smbuser
 ```
 
-`sudo systemctl restart smbd`
+```bash
+sudo systemctl restart smbd
+```
 
 ---
 ## Credits 
-- 
-
+- [How to Setup a Raspberry Pi Samba Server - Pi My Life Up](https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect)
 ## Backlinks
 - [[developer/Linux/Linux\|Linux]]

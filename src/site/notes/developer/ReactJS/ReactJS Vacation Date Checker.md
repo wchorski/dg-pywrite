@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS Vacation Date Checker/"}
 ---
 
-I wanted to build a date picker that checks against an array of vacation days. The logic is vanilla #javascript and even uses the built in API `.toLocalDateString` for pretty formatting.
+I wanted to build a date picker with [[developer/ReactJS/ReactJS\|ReactJS]] that checks against an array of vacation days. The logic is vanilla [[developer/Javascript/Javascript\|Javascript]] and even uses the built in API `.toLocalDateString` for pretty formatting.
 
 ## AvailabilityChecker.tsx
 ```tsx

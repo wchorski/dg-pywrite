@@ -107,4 +107,4 @@ export function Section({
 ## Credits
 - [css - how to create inline style with :before and :after - Stack Overflow](https://stackoverflow.com/questions/14436155/how-to-create-inline-style-with-before-and-after)
 ## Backlinks
-- [[developer/developer_box📦\|developer_box📦]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]

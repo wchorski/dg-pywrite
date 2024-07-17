@@ -16,5 +16,4 @@ Every time a **sub** plays the top **lead** becomes distorted for that "blown ou
 > That‘s an interesting hack to basically get a keytracked LFO
 
 
-## Backlinks
-- [[music/music box\|music/music box]]
+[[music/Sound Design/Index\|Sound Design]] 

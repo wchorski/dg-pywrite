@@ -1,18 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/remove duplicates in Array/"}
+{"dg-publish":true,"permalink":"/developer/Javascript/remove duplicates in Array/","tags":["javascript"]}
 ---
 
-I want to filter out any duplicates and return a single array of unique categories
+
+Filter out any duplicates and return a single array of unique categories in [[developer/Javascript/Javascript\|Javascript]]
 
 ```javascript
-uniq = [...new Set(array)];
+const array = ['apple', 'apple', 'orange', 'pear', 'banana']
+const uniq = [...new Set(array)];
 ```
 
-_( Note that var `uniq` will be an array... `new Set()` turns it into a set, but [... ] turns it back into an array again )_
+*( Note that var* `uniq` will be an array... `new Set()` turns it into a set, but `[...]` turns it back into an array again )
 
 ---
+
 ## Credits
 - [javascript - Remove duplicate values from JS array - Stack Overflow](https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array)
-
-## Backlinks
-- [[developer/Javascript/Javascript\|Javascript]]

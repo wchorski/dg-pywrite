@@ -46,10 +46,7 @@ fs.readFile(upfile, function(err, content){
     });
 });
 ```
-
----
 ## Credits
 - [node.js - NodeJS Request how to send multipart/form-data POST request - Stack Overflow](https://stackoverflow.com/questions/49053193/nodejs-request-how-to-send-multipart-form-data-post-request)
-
 ## Backlinks
-- [[developer/NodeJS\|NodeJS]]
+- [[developer/NodeJS/NodeJS\|NodeJS]]

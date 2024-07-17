@@ -27,7 +27,7 @@ const nextConfig = {
 module.exports = nextConfig
 ```
 
-I first tried this out on my [[developer/Projects📐/Make-a-Gram\|Make-a-Gram]] project
+I first tried this out on my [[developer/Projects/Make-a-Gram\|Make-a-Gram]] project
 
 ---
 ## Credits

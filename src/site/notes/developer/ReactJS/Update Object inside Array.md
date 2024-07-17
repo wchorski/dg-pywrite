@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/ReactJS/Update Object inside Array/"}
 ---
 
-#reactjs #javascript 
+[[developer/Home Lab/ReactJS\|ReactJS]]
 
 wanted to update a single object inside an array of 
 

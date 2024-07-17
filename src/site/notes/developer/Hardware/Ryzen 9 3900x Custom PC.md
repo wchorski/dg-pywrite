@@ -2,9 +2,9 @@
 {"dg-publish":true,"permalink":"/developer/Hardware/Ryzen 9 3900x Custom PC/"}
 ---
 
-My media rig that runs [[developer/Home Lab 🏠/Plex.tv\|Plex.tv]], [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]], & my constant consumption of Youtube. 
+My media rig that runs [[developer/Home Lab/Plex.tv\|Plex.tv]], [[developer/Home Lab/Jellyfin\|Jellyfin]], & my constant consumption of Youtube. 
 
-DNS  - **mint.lan** *-via [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]]*
+DNS  - **mint.lan** *-via [[developer/Home Lab/Pi-hole\|Pi-hole]]*
 
 ```bash
              ...-:::::-...                 spearmint@spearmint
@@ -61,7 +61,7 @@ I also use this as my emulation gaming rig
 - Wii U [Releases · cemu-project/Cemu (github.com)](https://github.com/cemu-project/Cemu/releases/)
 
 ### Crypto Mining
-I also mine [Monero](https://www.getmonero.org/) on this machine with [[developer/Home Lab 🏠/XMRig\|XMRig]] 
+I also mine [Monero](https://www.getmonero.org/) on this machine with [[developer/Home Lab/XMRig\|XMRig]] 
 
 
 [[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]

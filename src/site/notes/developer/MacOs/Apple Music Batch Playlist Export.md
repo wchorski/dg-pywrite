@@ -65,7 +65,7 @@ the line `set allPlaylistArray to (get name of every playlist)` grabs playlist f
 you can run the script in the command line `osascript ./playlist-export-automation.scpt` or you could build and test the script directly in Apple's **Script Editor** app
 
 ## Absolute Path to Relative Path
-If you poke into one of those `.m3u` files, you see that the paths are absolute. You'll want to make those a relative path to your music file so that [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]] or other music software can find the files if you plan to move or copy your music library to a different machine
+If you poke into one of those `.m3u` files, you see that the paths are absolute. You'll want to make those a relative path to your music file so that [[developer/Home Lab/Jellyfin\|Jellyfin]] or other music software can find the files if you plan to move or copy your music library to a different machine
 
 ```bash
 #! /bin/bash 
@@ -92,7 +92,7 @@ Replace `USERNAME` & `DRIVE` with paths that are unique to your machine. Also, t
 Notice how I replace the *absolute path* with a `..`. This is because I nest the `.m3u` files in it's own `playlist` folder. Think of it as, the path to where the `.m3u` lives, it must go up one directory so it can see the `./iTunes Media/Music/...` library.
 
 > [!warning] MacOS
-> I tried running this bash script on MacOS and it would keep throwing an error `sed: 1: "/Users/USERNAME/Music ...": unterminated substitute in regular expression`. Since my [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]] lives on a [[developer/Linux/Linux\|Linux]] server, I do all the conversion my linux machine so this is a non issue to me.
+> I tried running this bash script on MacOS and it would keep throwing an error `sed: 1: "/Users/USERNAME/Music ...": unterminated substitute in regular expression`. Since my [[developer/Home Lab/Jellyfin\|Jellyfin]] lives on a [[developer/Linux/Linux\|Linux]] server, I do all the conversion my linux machine so this is a non issue to me.
 
 ## Chat GPT Example
 I asked ChatGPT how to check if a string is found in an array
@@ -124,7 +124,4 @@ If the playlist already exists, how do I confirm to save over the old file?
 - [if statement - AppleScript "if contain" - Stack Overflow](https://stackoverflow.com/questions/43780648/applescript-if-contain)
 - [AppleScript Application is not allowed to send keystrokes - Stack Overflow](https://stackoverflow.com/questions/54973241/applescript-application-is-not-allowed-to-send-keystrokes)
 - [Waiting until a window exists in Applescript? - Ask Different (stackexchange.com)](https://apple.stackexchange.com/questions/121810/waiting-until-a-window-exists-in-applescript)
-
-## Backlinks
-- [[developer/developer_box📦\|developer_box📦]]
-- 
+- [[developer/MacOs/index\|index]]

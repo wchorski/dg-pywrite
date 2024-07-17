@@ -3,7 +3,7 @@
 ---
 
 
-here is a quick example of using global context for 
+here is a quick example of using [[developer/ReactJS/ReactJS\|ReactJS]] global context for 
 - opening / closing cart drawer
 - cart item contents for the user 
 

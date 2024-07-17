@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/Artificial intelligence/Ollama with Docker Compose/","tags":["AI","docker","docker-compose","container"]}
 ---
 
-Get the [Ollama](https://ollama.com/)app running on your local machine, but containerized by [[developer/Home Lab 🏠/Docker\|Docker]] for better flexibility in deployment and portability
+Get the [Ollama](https://ollama.com/)app running on your local machine, but containerized by [[developer/Home Lab/Docker\|Docker]] for better flexibility in deployment and portability
 
 I'm running this on my [[developer/Hardware/MacBook Pro M1 Laptop\|MacBook Pro M1 Laptop]]
 

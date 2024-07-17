@@ -68,7 +68,7 @@ Replace `USERNAME` & `DRIVE` with paths that are unique to your machine. Also, t
 
 Notice how I replace the *absolute path* with a `..`. This is because I nest the `.m3u` files in it's own `playlist` folder. Think of it as, the path to where the `.m3u` lives, it must go up one directory so it can see the `./iTunes Media/Music/...` library.
 ## Import to Jellyfin
-I use [[developer/Home Lab 🏠/Jellyfin\|Jellyfin]] as my online music manager. Note that this is a one way sync. All songs and playlists must be added and edited with **iTunes** and then updated to Jellyfin. 
+I use [[developer/Home Lab/Jellyfin\|Jellyfin]] as my online music manager. Note that this is a one way sync. All songs and playlists must be added and edited with **iTunes** and then updated to Jellyfin. 
 
 Cool thing about **Jellyfin** is that plopping `.m3u` files into the imported library will auto find and add those playlists to the frontend. Just make sure those relative paths are GOOD
 
@@ -78,7 +78,7 @@ I use [Symfonium](https://www.symfonium.app/)as my phone's dedicated music playe
 ## Improvements
 With the new Apple Music app, you still have to manually go through and "File -> Library -> Export Library" anytime you make changes. I'm sure I could run an `.applescript` to do this regularly, but for now I'll do a few clicks
 
-How do I get my music files from laptop to server? With [[developer/Home Lab 🏠/FreeFileSync\|FreeFileSync]]. Maybe in the future I'll just use [[developer/Linux/rsync\|rsync]]. 
+How do I get my music files from laptop to server? With [[developer/Home Lab/FreeFileSync\|FreeFileSync]]. Maybe in the future I'll just use [[developer/Linux/rsync\|rsync]]. 
 
 > [!note] Ignore Folders
 > Don't forget to ignore the `*/playlists` folder during this sync as you don't want to overwrite those `.m3u` files

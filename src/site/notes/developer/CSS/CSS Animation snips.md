@@ -2,8 +2,8 @@
 {"dg-publish":true,"permalink":"/developer/CSS/CSS Animation snips/"}
 ---
 
-cred - [CSS Floating hearts animation | This Dev Brain by Michal Tynior](https://thisdevbrain.com/css-floating-hearts-animation/)
 
+```html
 <html lang="en"><head>
   <meta charset="UTF-8">
   
@@ -181,6 +181,7 @@ body {
 
 
 </body></html>
+```
 
 ```html
 <div id="hearts-alpaca" class="hearts">
@@ -316,3 +317,7 @@ body {
   z-index: 1;
 }
 ```
+
+## Credit
+- [CSS Floating hearts animation | This Dev Brain by Michal Tynior](https://thisdevbrain.com/css-floating-hearts-animation/)
+- [[developer/CSS/CSS\|CSS]]

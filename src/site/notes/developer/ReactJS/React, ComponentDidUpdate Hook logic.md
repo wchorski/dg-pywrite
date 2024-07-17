@@ -31,4 +31,4 @@ useEffect(() => {
 - [javascript - Equivalent to componentDidUpdate using React hooks - Stack Overflow](https://stackoverflow.com/questions/53255951/equivalent-to-componentdidupdate-using-react-hooks)
 
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|[ReactJS]]]
+- [[developer/Home Lab/ReactJS\|ReactJS]]

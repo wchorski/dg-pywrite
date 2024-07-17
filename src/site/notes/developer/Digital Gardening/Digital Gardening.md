@@ -15,7 +15,7 @@ Digital gardening is my preferred way of 'blogging'. Writing, maintaining, and u
 
 ## Growing the Garden
 
-[[developer/Home Lab 🏠/Obsidian.md\|Obsidian.md]] is my way of maintating my *vault* of markdown files
+[[developer/Home Lab/Obsidian.md\|Obsidian.md]] is my way of maintating my *vault* of markdown files
 
 
 ## Prepping vault for publishing
@@ -71,16 +71,16 @@ Now to share this garden with the world. I've tried my hand at a few publishing 
 	3. has the best out of the box styling
 	4. simple git push to repo and GitHub Pages
 	5. Custom Node builder 
-3. DIY [[developer/Projects📐/Obsidian Publish with NextJS\|Obsidian Publish with NextJS]] aka Pywriter Publisher
+3. DIY [[developer/Projects/Obsidian Publish with NextJS\|Obsidian Publish with NextJS]] aka Pywriter Publisher
 	1. Generating static sites with markdown files is a good first project for any #webdev, but like me you'll quickly find an ever growing ceiling of features that you'll want to add. 
 4. [Flowershow](https://flowershow.app/)
-	1. The new kid on the block. I'm really digging the integrated plugin right inside of [[developer/Home Lab 🏠/Obsidian.md\|Obsidian.md]]. Still has a bit to go, but could be the most useful if you're willing to give it a try. 
+	1. The new kid on the block. I'm really digging the integrated plugin right inside of [[developer/Home Lab/Obsidian.md\|Obsidian.md]]. Still has a bit to go, but could be the most useful if you're willing to give it a try. 
 	2. NextJS 
 
 
 ## Publishing Platforms
 
-- Self host - [[developer/Projects📐/Obsidian Publish with NextJS\|Obsidian Publish with NextJS]]
+- Self host - [[developer/Projects/Obsidian Publish with NextJS\|Obsidian Publish with NextJS]]
 - Github Pages 
 	- custom domain tip --> [WAIT A DAY, ENJOY OUTDOOR WALK](https://stackoverflow.com/a/67028408/15579591)
 

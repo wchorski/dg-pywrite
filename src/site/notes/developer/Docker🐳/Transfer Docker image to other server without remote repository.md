@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/Docker🐳/Transfer Docker image to other server without remote repository/","tags":["nodejs","reactjs","docker","docker-compose","webdev"]}
 ---
 
-I build my websites with [[developer/NodeJS\|NodeJS]] and create production ready apps with [[developer/Home Lab 🏠/Docker\|Docker]]. These images are usually unique the client and contain sensitive information. 
+I build my websites with [[developer/NodeJS/NodeJS\|NodeJS]] and create production ready apps with [[developer/Home Lab/Docker\|Docker]]. These images are usually unique the client and contain sensitive information. 
 
 My production server is an [[developer/Hardware/Intel NUC\|Intel NUC]]. Enough power to drive a few websites, but chugs along when I try to build an image. Why not build the image on my [[developer/Hardware/MacBook Pro M1 Laptop\|MacBook Pro M1 Laptop]] or [[developer/Hardware/Ryzen 5 5600x Custom PC\|Ryzen 5 5600x Custom PC]] with ease, then transfer the image over?
 ## tutorial

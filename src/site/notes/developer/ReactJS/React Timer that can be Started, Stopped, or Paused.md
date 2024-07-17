@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/developer/ReactJS/React Timer that can be Started, Stopped, or Paused/","tags":["reactjs","javascript","JSX"]}
 ---
 
-[[developer/ReactJS/ReactJS\|ReactJS]]
-
 I wanted to create a `Game State` machine (with enum) that controlled a countdown timer. I was running in circles trying to figure out what was missing. I overlooked adding the state as a dependency in the `useEffect` hook 🙄
 
 ```jsx
@@ -165,3 +163,4 @@ export const TypingGame = ({ quote, content, getQuote }) => {
 ---
 ## Credits
 - [link](https://upmostly.com/tutorials/setinterval-in-react-components-using-hooks#:~:text=To stop an interval%2C you can use the,the React component unmounts the interval is cleared%3A)
+- [[developer/Home Lab/ReactJS\|ReactJS]]

@@ -3,7 +3,7 @@
 ---
 
 
-Integrating a Outlook IMAP sensor with [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] was a bit convoluted. So here is a step by step of my setup.
+Integrating a Outlook IMAP sensor with [[developer/Home Lab/Home Assistant\|Home Assistant]] was a bit convoluted. So here is a step by step of my setup.
 
 ## Add the integration
 I assume you know how to add a new Integration already. Search for "IMAP". fill in the details as such
@@ -70,4 +70,4 @@ check out [RogerSelwyn/O365-HomeAssistant: Office 365 integration for Home Assis
 - [POP, IMAP, and SMTP settings for Outlook.com - Microsoft Support](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040)
 - [Headers & Footers for dashboard cards - Home Assistant (home-assistant.io)](https://www.home-assistant.io/dashboards/header-footer/)
 
-[[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
+[[developer/Home Lab/Home Lab 🏠\|Home Lab 🏠]]

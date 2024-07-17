@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/developer/ReactJS/React Style Transitions from Scratch/"}
 ---
 
-
 ## Custom Hook
 `lib/useStyleTransition.tsx`
 ```jsx

@@ -11,3 +11,4 @@ put code here
 ---
 ## Credits
 - [CodeBlessYou/React-Pagination: How to apply pagination in React application (github.com)](https://github.com/CodeBlessYou/React-Pagination)
+- [[developer/ReactJS/ReactJS\|ReactJS]]

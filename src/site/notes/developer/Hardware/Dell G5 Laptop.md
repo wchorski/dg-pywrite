@@ -31,7 +31,7 @@ Total Price: $664.33 | 📅2019-10-21
 ## Programs & Apps
 - DJ / VJ- [Serato DJ ](https://serato.com/dj)
 - Interactive video creation & mixing - https://unity3d.com/
-- Pixel mapped lights - [[developer/Home Lab 🏠/Hyperion\|Hyperion]] & [[developer/Home Lab 🏠/WLED\|WLED]]
+- Pixel mapped lights - [[developer/Home Lab/Hyperion\|Hyperion]] & [[developer/Home Lab/WLED\|WLED]]
 - DMX Lights - [Ableton Live 9 ](https://www.ableton.com/en/blog/live-9-7-available-now/) paired with [DMXiS](https://www.dmxis.com/) software & hardware
 
 [[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]

@@ -133,11 +133,11 @@
 <pre><code class="language-js">/^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$/
 </code></pre>
 <p>Standard Password</p>
-<pre><code class="language-js">/^(?=.*[A-Z])(?=.*[!@#$&amp;*])(?=.*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,40}$/
+<pre><code class="language-js">/^(?=.*[A-Z])(?=.*[!@#{{CODE_BLOCK_7}}*])(?=.*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,40}$/
 </code></pre>
 <pre><code>^                         Start anchor
 (?=.*[A-Z].*[A-Z])        Ensure string has two uppercase letters.
-(?=.*[!@#$&amp;*])            Ensure string has one special case letter.
+(?=.*[!@#{{CODE_BLOCK_8}}*])            Ensure string has one special case letter.
 (?=.*[0-9].*[0-9])        Ensure string has two digits.
 (?=.*[a-z].*[a-z].*[a-z]) Ensure string has three lowercase letters.
 .{8}                      Ensure string is of length 8.
@@ -163,10 +163,71 @@ Find and Replace string between and <code></code> but starts with <code>[[http</
 <pre><code class="language-js">const regex = \[\[(http.*?)\]\]
 // replace string
 [link]($1)
-// `$` means the output variable
+// `---
+{&quot;dg-publish&quot;:true,&quot;permalink&quot;:&quot;/developer/Regex/&quot;}
+---
+
+
+
+Here lies all the regular expressions that I found useful
+
+[regex101: build, test, and debug regex](https://regex101.com/)
+
+get anything to the right of `--`
+```js
+/(?&lt;=\-\-).*/
 </code></pre>
-<p>find replace string between <code>[</code>and <code>](</code></p>
-<pre><code class="language-js">const regex = \[(.*)\]\((.*)\)
+<p>get anything to the left of  <code>--</code></p>
+<pre><code class="language-js">/^.*(?=\-\-)/
+</code></pre>
+<p>get anything between <code>[ ]</code></p>
+<pre><code class="language-js">/(?&lt;=\[).*(?=\])/
+</code></pre>
+<p>finds string between <code>](</code> &amp; <code>)</code> →  used to find string between <code>](</code> &amp; <code>)</code> i.e. <code>[link](http://this.com)</code></p>
+<pre><code class="language-js">/(?&lt;=\]\().*(?=\))/g
+</code></pre>
+<p>replace any special characters that OS's don't like</p>
+<pre><code class="language-js">STRING.replace(/[&amp;#\@\!, +()$~%'&quot;:*?&lt;&gt;{}]/g, '_')
+</code></pre>
+<p>Only alphabet characters are allowed for this field. <mark>NO spaces</mark></p>
+<pre><code class="language-js">/^[aA-zZ]+$/, 
+</code></pre>
+<p>phone number validation</p>
+<pre><code class="language-js">/^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$/
+</code></pre>
+<p>Standard Password</p>
+<pre><code class="language-js">/^(?=.*[A-Z])(?=.*[!@#{{CODE_BLOCK_7}}*])(?=.*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,40}$/
+</code></pre>
+<pre><code>^                         Start anchor
+(?=.*[A-Z].*[A-Z])        Ensure string has two uppercase letters.
+(?=.*[!@#{{CODE_BLOCK_8}}*])            Ensure string has one special case letter.
+(?=.*[0-9].*[0-9])        Ensure string has two digits.
+(?=.*[a-z].*[a-z].*[a-z]) Ensure string has three lowercase letters.
+.{8}                      Ensure string is of length 8.
+$                         End anchor.
+</code></pre>
+<p>Find a every line that starts with (with wildcard). Useful with <a class="internal-link" target="" data-note-icon="" href="/developer/Media Software/iTunes XML Playlist to m3u Converter/">iTunes XML Playlist to m3u Converter</a></p>
+<pre><code class="language-js"># don't forget to excape any slashes \/
+^\/Volumes\/edata\/iMusicLibrary\/.*$
+
+# select any line that starts with &quot;#EXTINF:&quot; could have any number after colon, and ends with comma.
+# examples that are removed: &quot;#EXTINF:177,&quot;, &quot;#EXTINF:246,&quot;, &quot;#EXTINF:192,&quot;
+^#EXTINF:.*?,
+</code></pre>
+<p>get file name extension</p>
+<pre><code class="language-js">let file = url.match(/?&lt;=\.)[^.\\/:*?&quot;&lt;&gt;|\r\n]+$/)
+console.log(file[0])
+	
+</code></pre>
+<p>remove file extension from path</p>
+<pre><code class="language-js">filePath.replace(/\.[^/.]+$/, '')
+</code></pre>
+Find and Replace string between and <code></code> but starts with <code>[[http</code><br>
+means the output variable
+<pre><code>
+find replace string between `[`and `](`
+```js
+const regex = \[(.*)\]\((.*)\)
 
 replace string --&gt; <a class="internal-link is-unresolved" href="/404" target=""> $1 </a>
 </code></pre>

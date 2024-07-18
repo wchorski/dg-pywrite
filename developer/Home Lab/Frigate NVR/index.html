@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Frigate NVR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>
+    // Create callout icons
+    window.addEventListener("load", () => {
+        document.querySelectorAll(".callout").forEach((elem) => {
+            const icon = getComputedStyle(elem).getPropertyValue('--callout-icon');
+            const iconName = icon && icon.trim().replace(/^lucide-/, "");
+
+            if (iconName) {
+                const calloutTitle = elem.querySelector(".callout-title");
+
+                if (calloutTitle) {
+                    const calloutIconContainer = document.createElement("div");
+                    const calloutIcon = document.createElement("i");
+
+                    calloutIconContainer.appendChild(calloutIcon);
+                    calloutIcon.setAttribute("icon-name", iconName);
+                    calloutIconContainer.setAttribute("class", "callout-icon");
+                    calloutTitle.insertBefore(calloutIconContainer, calloutTitle.firstChild);
+                }
+            }
+        });
+
+        lucide.createIcons();
+
+        // Collapse callouts
+        Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((elem) => {
+            elem.querySelector('.callout-title').addEventListener("click", (event) => {
+                if (elem.classList.contains("is-collapsed")) {
+                    elem.classList.remove("is-collapsed");
+                } else {
+                    elem.classList.add("is-collapsed");
+                }
+            });
+        });
+    });
+</script>
+
+
+<script src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+
+<script defer src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" defer></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+    <link href="/styles/obsidian-base.css" rel="stylesheet">
+    <link href="/styles/_theme.8f1d066a.css" rel="stylesheet">
+
+
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/pywrite.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+
+
+
+<style></style>
+    
+      <script async src="https://soup.tawtaw.site/ramen" data-website-id="fa4f8c5b-4767-4821-b063-f62c4cb90223"></script>
+    
+    
+  </head>
+  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section ">
+    
+    
+    
+      
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="/" style="text-decoration: none;">
+                <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            </a>
+        </div>
+        
+    </nav>
+    
+    
+
+    
+
+    <main class="content cm-s-obsidian ">
+      <header>
+        
+        <div class="header-meta">
+          </div>
+      
+      
+      </header>
+      
+      
+      <p>A complete CCTV system that is integrated into <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Home Assistant/">Home Assistant</a>, This was impart inspired by the lack luster results from <a class="internal-link is-unresolved" href="/404" target="">motion eye</a> with it's integrated Object Detection</p>
+<h2 id="installation" tabindex="-1">installation</h2>
+<p>I run <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Home Assistant/">Home Assistant</a> on a <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Raspberry Pi 4 4gb</a>. Looking at it's current resource usage,</p>
+<ul>
+<li>20% CPU</li>
+<li>42% (2 / 4 gb) RAM</li>
+</ul>
+<p>I wanted to see how'd it would handle a couple camera feeds with <strong>Frigate</strong></p>
+<h2 id="camera-config" tabindex="-1">Camera Config</h2>
+<p>check the <code>frigate.yaml</code></p>
+<pre><code class="language-yaml">mqtt:
+	# same IP as HAOS. Using Mosquitto add-on
+  host: 192.168.0.0 
+  # I set a user up as a basic HA user with login
+  user: USERNAME
+  password: PASSWORD
+cameras:
+	# Tapo Camera
+  foyer: 
+    ffmpeg:
+      inputs:
+        - path: rtsp://USERNAME:PASSWORD@cam-1.lan/stream2
+          roles:
+            - rtmp
+            - record
+            - detect
+    detect:
+      width: 1280
+      height: 720
+    record:
+      enabled: True
+      retain:
+        days: 0
+        mode: all
+    
+	# USB Camera
+  livingroom:
+    ffmpeg:
+      inputs:
+      - path: /dev/video0
+        roles:
+          - rtmp
+          - detect
+          - record
+      input_args: -f video4linux2 -avoid_negative_ts make_zero -fflags +genpts+discardcorrupt -use_wallclock_as_timestamps 1
+    detect:
+      width: 640
+      height: 480
+      
+database:
+  path: /config/frigate.db
+  
+</code></pre>
+<h2 id="first-impressions" tabindex="-1">First Impressions</h2>
+<p>setting up my cheap <a href="https://www.tp-link.com/us/home-networking/cloud-camera/tapo-c200/" target="_blank" class="external-link">Tapo C200</a> camera via RTSP, and USB <a href="https://en.wikipedia.org/wiki/PlayStation_Eye" target="_blank" class="external-link">PlayStation Eye</a> camera was fairly strait forward</p>
+<h2 id="recommended-cameras" tabindex="-1">Recommended Cameras</h2>
+<ul>
+<li><a href="https://www.amazon.com/Amcrest-5-Megapixel-NightVision-Weatherproof-IP5M-T1179EW-28MM/product-reviews/B083G9KT4C/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&amp;reviewerType=all_reviews" target="_blank" class="external-link">Amazon.com: Customer reviews: Amcrest 5MP Turret POE Camera, UltraHD Outdoor IP Camera POE with Mic/Audio, 5-Megapixel Security Surveillance Cameras, 98ft NightVision, 103° FOV, MicroSD (256GB), (IP5M-T1179EW-28MM)</a></li>
+</ul>
+<h2 id="home-assistant-notifications" tabindex="-1">Home Assistant Notifications</h2>
+<p>Here is a premade automation blueprint  by <a href="https://gist.github.com/hunterjm" target="_blank" class="external-link">hunterjm)</a>- <a href="https://gist.github.com/hunterjm/23c1588a9f2b8b9c2a62ffc364e17f8c" target="_blank" class="external-link">Frigate Notification Blueprint (github.com)</a></p>
+<h2 id="troubleshooting" tabindex="-1">Troubleshooting</h2>
+<pre><code class="language-shell">frigate.comms.mqtt             ERROR   : Unable to publish to stats: client is not connected
+</code></pre>
+<p>I never set up a MQTT server so I just installed the <a href="https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md" target="_blank" class="external-link">mosquitto)</a> addon available inside of Home Assistant.</p>
+<h2 id="docker-container" tabindex="-1">Docker Container</h2>
+<p>For those who installed <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Home Assistant/">Home Assistant</a> Containered version, <strong>Frigate</strong> must be installed like so</p>
+<h3 id="compose-yml" tabindex="-1">compose.yml</h3>
+<pre><code class="language-yml">version: &quot;3.9&quot;
+services:
+  frigate:
+    container_name: frigate
+    privileged: true # this may not be necessary for all setups
+    restart: unless-stopped
+    image: ghcr.io/blakeblackshear/frigate:stable
+    shm_size: &quot;64mb&quot; # update for your cameras based on calculation above
+    devices:
+      - /dev/bus/usb:/dev/bus/usb # passes the USB Coral, needs to be modified for other versions
+      - /dev/apex_0:/dev/apex_0 # passes a PCIe Coral, follow driver instructions here https://coral.ai/docs/m2/get-started/#2a-on-linux
+      - /dev/dri/renderD128 # for intel hwaccel, needs to be updated for your hardware
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./config:/config
+      - ./storage:/media/frigate
+      - type: tmpfs # Optional: 1GB of memory, reduces SSD/SD Card wear
+        target: /tmp/cache
+        tmpfs:
+          size: 1000000000
+    ports:
+      - &quot;5000:5000&quot;
+      - &quot;8554:8554&quot; # RTSP feeds
+      - &quot;8555:8555/tcp&quot; # WebRTC over tcp
+      - &quot;8555:8555/udp&quot; # WebRTC over udp
+    environment:
+      FRIGATE_RTSP_PASSWORD: &quot;password&quot;
+</code></pre>
+<p>nest a <code>./config/config.yml</code> to setup cameras</p>
+<h3 id="mqtt-broker" tabindex="-1">MQTT Broker</h3>
+<p>follow the <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Mosquitto MQTT Broker/">Mosquitto MQTT Broker</a> article if you need to setup a stand alone MQTT broker</p>
+<hr>
+<h2 id="credits" tabindex="-1">Credits</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=gQdtGLRzKRI" target="_blank" class="external-link">Frigate and Home Assistant -Home Automation Guy</a></li>
+<li><a href="https://github.com/blakeblackshear/frigate/issues/1184" target="_blank" class="external-link">Try to use a webcam · Issue <a class="tag" onclick="toggleTagSearch(this)" data-content="#1184">#1184</a> · blakeblackshear/frigate (github.com)</a></li>
+<li><a href="https://www.youtube.com/watch?v=Q2UT78lFQpo" target="_blank" class="external-link">Home Assistant Frigate integration for local image recognition - YouTube</a></li>
+<li><a href="https://www.youtube.com/watch?v=RWsT-x7yYXI" target="_blank" class="external-link">FRIGATE NVR Part 3 - Actionable Notifications and Dashboard Cards - YouTube</a></li>
+<li><a href="https://docs.frigate.video/frigate/installation" target="_blank" class="external-link">Installation | Frigate</a></li>
+<li><a href="https://www.homeautomationguy.io/blog/docker-tips/configuring-the-mosquitto-mqtt-docker-container-for-use-with-home-assistant" target="_blank" class="external-link">Configuring the Mosquitto MQTT Docker container for use with Home Assistant — Home Automation Guy</a></li>
+</ul>
+
+      
+      
+    </main>
+
+    
+
+    
+        <script>
+      if (window.location.hash) {
+        document.getElementById(window.location.hash.slice(1)).classList.add('referred');
+      }
+      window.addEventListener('hashchange', (evt) => {
+        const oldParts = evt.oldURL.split("#");
+        if (oldParts[1]) {
+          document.getElementById(oldParts[1]).classList.remove('referred');
+        }
+        const newParts = evt.newURL.split("#");
+        if (newParts[1]) {
+          document.getElementById(newParts[1]).classList.add('referred');
+        }
+      }, false);
+      const url_parts = window.location.href.split("#")
+      const url = url_parts[0];
+      const referrence = url_parts[1];
+      document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function (el) {
+        el.ondblclick = function(evt) {
+          const ref_url = url + '#' + evt.target.id
+          navigator.clipboard.writeText(ref_url);
+      }
+      });
+
+      
+    </script>
+    <script src=" https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js "></script>
+<script defer>
+    TIMESTAMP_FORMAT = "MMM dd, yyyy h:mm a";
+    document.querySelectorAll('.human-date').forEach(function (el) {
+        el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
+      });
+</script>
+    
+    
+    <script>
+lucide.createIcons({
+            attrs: {
+                class: ["svg-icon"]
+            }
+        });
+</script>
+  </body>
+</html>

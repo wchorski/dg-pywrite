@@ -124,15 +124,16 @@ Packages like <code>mariadb</code> don't come with a namespace. In this case use
 </div></div>
 <h2 id="the-script" tabindex="-1">The Script</h2>
 <pre><code class="language-bash">#!/bin/bash
-REMOVABLE_WORDS=(&quot;latest&quot; &quot;lts&quot; &quot;beta&quot; &quot;stable&quot; &quot;develop&quot; &quot;active&quot;)
-cd /home/spearmint/docker/
+REMOVABLE_WORDS=(&quot;latest&quot; &quot;lts&quot; &quot;beta&quot; &quot;stable&quot; &quot;develop&quot; &quot;active&quot; &quot;ubuntu&quot; &quot;apache&quot;)
+cd /home/icicle/docker/
 ##! each item must have PREFIX, NAMESPACE, and REPO (even if it's an emty string) 
 ##! does not take into account anything but 'latest'. there was an error when `docker image inspect...` a `develop` image
 ##? may use later for `lscr.io/` or `ghcr.io/` packages
-PREFIX=(      &quot;&quot;              &quot;&quot;            &quot;&quot;          &quot;&quot;         &quot;&quot;           &quot;&quot;          &quot;&quot;            &quot;&quot;             &quot;&quot;            &quot;&quot;             &quot;&quot;            &quot;&quot;)
-NAMESPACES=(  &quot;portainer&quot;     &quot;emberstack&quot;  &quot;jsavargas&quot; &quot;jellyfin&quot; &quot;plexinc&quot;    &quot;duplicati&quot; &quot;linuxserver&quot; &quot;flaresolverr&quot; &quot;linuxserver&quot; &quot;linuxserver&quot;  &quot;linuxserver&quot; &quot;linuxserver&quot;)
-REPOSITORIES=(&quot;portainer-ce&quot;  &quot;sftp&quot;        &quot;zspotify&quot;  &quot;jellyfin&quot; &quot;pms-docker&quot; &quot;duplicati&quot; &quot;prowlarr&quot;    &quot;flaresolverr&quot; &quot;radarr&quot;       &quot;sonarr&quot;      &quot;lidarr&quot;      &quot;qbittorrent&quot;)
-LOCAL_TAGS=(  &quot;&quot;              &quot;&quot;          &quot;&quot;            &quot;&quot;                      &quot;&quot;           &quot;&quot;           &quot;&quot;             &quot;&quot;             &quot;&quot;            &quot;&quot;            &quot;&quot;)
+PREFIX=(      &quot;&quot;              &quot;&quot;            &quot;&quot;          &quot;&quot;                    &quot;&quot;           &quot;&quot;           &quot;&quot;            &quot;&quot;                        &quot;&quot;)
+NAMESPACES=(  &quot;portainer&quot;     &quot;linuxserver&quot; &quot;library&quot;   &quot;jc21&quot;                &quot;photoprism&quot; &quot;prom&quot;       &quot;vaultwarden&quot; &quot;library&quot;                 &quot;library&quot;)
+REPOSITORIES=(&quot;portainer-ce&quot;  &quot;duplicati&quot;   &quot;nextcloud&quot; &quot;nginx-proxy-manager&quot; &quot;photoprism&quot; &quot;prometheus&quot; &quot;server&quot;      &quot;wordpress&quot;               &quot;mariadb&quot;)
+##? if empty string assumed &quot;:latest&quot;
+LOCAL_TAGS=(  &quot;&quot;              &quot;&quot;            &quot;:29&quot;       &quot;&quot;                    &quot;&quot;           &quot;&quot;           &quot;&quot;            &quot;:php8.2&quot;                 &quot;&quot;)
 
 ### todo
 ## set all the arrays above as one JSON object that is parsed with `jq`
@@ -141,7 +142,7 @@ handle_string_clean() {
   if [[ -z &quot;$1&quot; ]]
     then
       echo &quot;not_found&quot;
-      ## break out of function
+      ## break out of function if nothing was found in `curl`
       return 1
     fi
 
@@ -154,7 +155,6 @@ handle_string_clean() {
     remove_dict[&quot;$word&quot;]=1
   done
 
-  # Filter the original array
   filtered_array=()
   for word in &quot;${original_array[@]}&quot;
   do
@@ -164,32 +164,49 @@ handle_string_clean() {
     fi
   done
 
-  # Output the filtered array
-  echo &quot;${filtered_array[-1]}&quot;
+  local longest_string=&quot;&quot;
+  ## Iterate over each string in the array and return string with most information (this isn't perfect but works for me)
+  for str in &quot;${filtered_array[@]}&quot;
+  do
+    [ ${#str} -gt ${#longest_string} ] &amp;&amp; longest_string=$str
+  done
+
+  echo &quot;$longest_string&quot;
 }
+
+echo &quot;&quot; &gt; &quot;./.logs/all-images.log&quot;
 
 for i in &quot;${!REPOSITORIES[@]}&quot;
 do
   REPO=&quot;${REPOSITORIES[$i]}&quot;
-  localDigest=$(docker image inspect --format '{{index .RepoDigests 0}}' &quot;${PREFIX[i]}${NAMESPACES[i]}/$REPO${LOCAL_TAGS[i]}&quot; | awk -F'@' '{print $2}')
-  ##? I set `page_size` to 40 as sometimes the image you're looking for either gets burried under new releases or is very old. the max is 100
-  localVersions=$(      curl -s &quot;https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags?page_size=60&quot; -H 'Content-Type: application/json' | jq -r '.results[] | select(.digest == &quot;'$localDigest'&quot;) | .name')
+  if [ -z &quot;${LOCAL_TAGS[i]}&quot; ] || [ &quot;${LOCAL_TAGS[i]}&quot; = &quot;:latest&quot; ]
+  then
+    # Perform action if LOCAL_TAG is empty &quot;&quot; or equals &quot;:latest&quot;
+    localDigest=$(docker image inspect --format '{{index .RepoDigests 0}}' &quot;${PREFIX[i]}${NAMESPACES[i]}/$REPO${LOCAL_TAGS[i]}&quot; | awk -F'@' '{print $2}')
+    ##? I set `page_size` to 100 as sometimes the image you're looking for either gets burried under new releases or is very old. the max is 100
+    localVersions=$(      curl -s &quot;https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags?page_size=100&quot; -H 'Content-Type: application/json' | jq -r '.results[] | select(.digest == &quot;'$localDigest'&quot;) | .name')
+  else
+    localVersions=${LOCAL_TAGS[i]}
+  fi
+
   repoLatestDigest=$(   curl -s &quot;https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags/latest&quot; -H 'Content-Type: application/json' | jq -r '.digest')
-  repoLatestVersions=$( curl -s &quot;https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags?page_size=60&quot; -H 'Content-Type: application/json' | jq -r '.results[] | select(.digest == &quot;'$repoLatestDigest'&quot;) | .name')
+  repoLatestVersions=$( curl -s &quot;https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags?page_size=100&quot; -H 'Content-Type: application/json' | jq -r '.results[] | select(.digest == &quot;'$repoLatestDigest'&quot;) | .name')
 
   cleanlocalVersion=$(handle_string_clean &quot;$localVersions&quot;)
   cleanRepoLatestVersion=$(handle_string_clean &quot;$repoLatestVersions&quot;)
   
-  echo $REPO
-  # echo &quot;all Local vs: $localVersions&quot;
-  # echo &quot;all repo vs: $repoLatestVersions&quot;
+  CLEAN_FILENAME=$(sed -E 's/(http|https):\/\///g' &lt;&lt;&lt; &quot;${NAMESPACES[i]}_$REPO&quot; | sed 's/\//_/g')
 
+  ## for single file logs
+  echo $CLEAN_FILENAME &gt;&gt; &quot;./.logs/all-images.log&quot;
+  echo $cleanlocalVersion &gt; &quot;./.logs/local-version/$CLEAN_FILENAME.log&quot;     &amp;&amp; echo $cleanlocalVersion &gt;&gt; &quot;./.logs/all-images.log&quot;
+  echo $cleanRepoLatestVersion &gt; &quot;./.logs/repo-version/$CLEAN_FILENAME.log&quot; &amp;&amp; echo $cleanRepoLatestVersion &gt;&gt; &quot;./.logs/all-images.log&quot;
+  echo &quot;---&quot; &gt;&gt; &quot;./.logs/all-images.log&quot;
+
+  ## for local terminal output
+  echo $CLEAN_FILENAME
   echo &quot;local : $cleanlocalVersion&quot;
   echo &quot;latest: $cleanRepoLatestVersion&quot;
-
-  CLEAN_FILENAME=$(sed -E 's/(http|https):\/\///g' &lt;&lt;&lt; $REPO | sed 's/\//_/g')
-  echo $cleanlocalVersion &gt; ./.logs/local-version/$CLEAN_FILENAME.log
-  echo $cleanRepoLatestVersion &gt; ./.logs/repo-version/$CLEAN_FILENAME.log
   echo &quot;---&quot;
 done
 </code></pre>

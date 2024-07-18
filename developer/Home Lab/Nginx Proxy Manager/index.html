@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nginx Proxy Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>
+    // Create callout icons
+    window.addEventListener("load", () => {
+        document.querySelectorAll(".callout").forEach((elem) => {
+            const icon = getComputedStyle(elem).getPropertyValue('--callout-icon');
+            const iconName = icon && icon.trim().replace(/^lucide-/, "");
+
+            if (iconName) {
+                const calloutTitle = elem.querySelector(".callout-title");
+
+                if (calloutTitle) {
+                    const calloutIconContainer = document.createElement("div");
+                    const calloutIcon = document.createElement("i");
+
+                    calloutIconContainer.appendChild(calloutIcon);
+                    calloutIcon.setAttribute("icon-name", iconName);
+                    calloutIconContainer.setAttribute("class", "callout-icon");
+                    calloutTitle.insertBefore(calloutIconContainer, calloutTitle.firstChild);
+                }
+            }
+        });
+
+        lucide.createIcons();
+
+        // Collapse callouts
+        Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((elem) => {
+            elem.querySelector('.callout-title').addEventListener("click", (event) => {
+                if (elem.classList.contains("is-collapsed")) {
+                    elem.classList.remove("is-collapsed");
+                } else {
+                    elem.classList.add("is-collapsed");
+                }
+            });
+        });
+    });
+</script>
+
+
+<script src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+
+<script defer src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" defer></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+    <link href="/styles/obsidian-base.css" rel="stylesheet">
+    <link href="/styles/_theme.8f1d066a.css" rel="stylesheet">
+
+
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/pywrite.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+
+
+
+<style></style>
+    
+      <script async src="https://soup.tawtaw.site/ramen" data-website-id="fa4f8c5b-4767-4821-b063-f62c4cb90223"></script>
+    
+    
+  </head>
+  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section ">
+    
+    
+    
+      
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="/" style="text-decoration: none;">
+                <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            </a>
+        </div>
+        
+    </nav>
+    
+    
+
+    
+
+    <main class="content cm-s-obsidian ">
+      <header>
+        
+        <div class="header-meta">
+          </div>
+      
+      
+      </header>
+      
+      
+      <blockquote>
+<p>Expose your services easily and securely <a href="https://nginxproxymanager.com/" target="_blank" class="external-link">https://nginxproxymanager.com/</a></p>
+</blockquote>
+<p>Gotta be honest, writing Nginx code was always a headache, but once I found this I never want to go back. This makes <strong>routing</strong>  <strong>SSL</strong> certificates, and <strong>websockets</strong> a breeze.</p>
+<hr>
+<h2 id="app-network-routing" tabindex="-1">App Network Routing</h2>
+<pre class="mermaid">flowchart TB
+
+%% Hardware
+%% rpi("Raspberry Pi 🍓") 
+%% ice("Micro services Server")
+%% mint("Media Server 💻")
+router("Router ↔")
+internet("ISP 🌐")
+
+%% Apps
+pihole("Pi-Hole 🕳")
+vpn("PiVPN 🔐")
+ha("Home Assistant 🤖")
+
+nginx("Nginx Proxy Manager")
+nextcloud("NextCloud ☁")
+vaultwarden("Vaultwarden 🛡")
+wordp("Wordpress 🕸")
+
+plex("Plex.tv 📺")
+jelly("Jellyfin 🐙")
+
+
+subgraph Router
+	router
+end
+
+subgraph "Raspberry Pi 4 🍓"
+
+	pihole <-.-> router
+	vpn -.-> pihole
+	ha -.-> vpn
+end
+
+subgraph Intel NUC
+
+	nginx -.-> pihole
+	nextcloud -.-> nginx
+	vaultwarden -.-> nginx
+	wordp -.-> nginx
+end
+
+subgraph Ryzen 9 
+
+	plex -.-> nginx
+	jelly -.-> nginx
+end
+
+
+router <-- fiber 400mbps --> internet</pre><h3 id="connections" tabindex="-1">connections</h3>
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Pi-hole/">Pi-hole</a> for local DNS. Make pretty URLs for local or public services</li>
+</ul>
+<h3 id="installation" tabindex="-1">installation</h3>
+<ol>
+<li><code>compose.yml</code> via <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Docker/">Docker</a></li>
+</ol>
+<pre><code class="language-yaml">version: '3'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+      - ./css:/app/frontend/css # if you want to tweak the css for dark mode B-)
+</code></pre>
+<p>Default Admin User:</p>
+<pre><code>Email:    admin@example.com
+Password: changeme
+</code></pre>
+<hr>
+<h2 id="publicly-facing-apps" tabindex="-1">Publicly Facing Apps</h2>
+<ol>
+<li><a class="internal-link is-unresolved" href="/404" target="">WilliaMusic.com</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Nextcloud/">Nextcloud</a></li>
+<li><a class="internal-link is-unresolved" href="/404" target="">heart-chart</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/vaultwarden/">vaultwarden</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/PhotoPrism/">PhotoPrism</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Plex.tv/">Plex.tv</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Jellyfin/">Jellyfin</a></li>
+</ol>
+<h2 id="pretty-ur-ls-for-local-apps" tabindex="-1">Pretty URLs for Local Apps</h2>
+<ol>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Pi-hole/">Pi-hole</a> DNS setup</li>
+<li><strong>Nginx</strong> to link Port number</li>
+</ol>
+<h2 id="leveraging-docker-s-internal-dns-routing" tabindex="-1">Leveraging Docker's Internal DNS routing</h2>
+<p>for example <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/vaultwarden/">vaultwarden</a> I do <em>not</em> specify a <code>port</code> number. instead I use the <code>container_name: vaultwarden</code> as a DNS entry I can use in <strong>Nginx Proxy Manager</strong></p>
+<h2 id="dark-mode" tabindex="-1">Dark Mode</h2>
+<p>There isn't an official dark mode, but with a bit of file digging, you too can override the <code>main.css</code></p>
+<ol>
+<li>Spin up the container first and let the app pull down.</li>
+<li><em>check the <code>compose.yml</code> to map the <code>app/frontend/css/main.css</code> to a persistent volume</em></li>
+</ol>
+<pre><code class="language-yml">version: '3.8'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+      - ./css/main.css:/app/frontend/css/main.css ## &lt;----- here
+</code></pre>
+<ol start="3">
+<li>spin up the container again and go to edit that new <code>./css/main.css</code> file</li>
+</ol>
+<h3 id="css" tabindex="-1">CSS</h3>
+<p>add this to the bottom of  <code>main.css</code></p>
+<pre><code class="language-css">body, .modal-content{
+  background-color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#635366">#635366</a>;
+  color: white;
+ }
+
+ .modal-content{
+  box-shadow: black 2px 2px 8px;
+ }
+
+ .custom-switch-description{
+    color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#c3c3c3">#c3c3c3</a>;
+  }
+
+ <a class="tag" onclick="toggleTagSearch(this)" data-content="#header">#header</a>{
+  background-color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#323232">#323232</a>;
+ }
+ .navbar-light .navbar-brand{
+  color: white;
+ }
+ <a class="tag" onclick="toggleTagSearch(this)" data-content="#menu">#menu</a>{
+  background-color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#000">#000</a>;
+ }
+
+ .text-default {
+    color: white !important;
+  }
+
+  .tag{
+    background-color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#545454">#545454</a>;
+    color: white;
+  }
+
+ .card{
+    background-color: <a class="tag" onclick="toggleTagSearch(this)" data-content="#29292a">#29292a</a>;
+    box-shadow: black 2px 2px 8px;
+  }
+
+  .table thead {
+    border-bottom: solid black 3px;
+  }
+  .table th, .text-wrap table th, .table td, .text-wrap table td{
+    border-top: 1px solid <a class="tag" onclick="toggleTagSearch(this)" data-content="#000000">#000000</a>;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(0, 0, 0);
+  }
+</code></pre>
+<hr>
+<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#todo">#todo</a></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" id="cbx_0" disabled="true"><label for="cbx_0"> explain how you set up router to forward port 80 &amp; 443</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_1" disabled="true"><label for="cbx_1"> explain using domain name and IP address</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_2" disabled="true"><label for="cbx_2"> show how to connect pi-hole to give any service a pretty URL</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_3" disabled="true"><label for="cbx_3"> finish &quot;publicly facing app&quot;</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_4" disabled="true"><label for="cbx_4"> finish &quot;pretty urls for ...&quot;</label></li>
+</ul>
+
+      
+      
+    </main>
+
+    
+
+    
+        <script>
+      if (window.location.hash) {
+        document.getElementById(window.location.hash.slice(1)).classList.add('referred');
+      }
+      window.addEventListener('hashchange', (evt) => {
+        const oldParts = evt.oldURL.split("#");
+        if (oldParts[1]) {
+          document.getElementById(oldParts[1]).classList.remove('referred');
+        }
+        const newParts = evt.newURL.split("#");
+        if (newParts[1]) {
+          document.getElementById(newParts[1]).classList.add('referred');
+        }
+      }, false);
+      const url_parts = window.location.href.split("#")
+      const url = url_parts[0];
+      const referrence = url_parts[1];
+      document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function (el) {
+        el.ondblclick = function(evt) {
+          const ref_url = url + '#' + evt.target.id
+          navigator.clipboard.writeText(ref_url);
+      }
+      });
+
+      
+    </script>
+    <script src=" https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js "></script>
+<script defer>
+    TIMESTAMP_FORMAT = "MMM dd, yyyy h:mm a";
+    document.querySelectorAll('.human-date').forEach(function (el) {
+        el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
+      });
+</script>
+    
+    
+    <script>
+lucide.createIcons({
+            attrs: {
+                class: ["svg-icon"]
+            }
+        });
+</script>
+  </body>
+</html>

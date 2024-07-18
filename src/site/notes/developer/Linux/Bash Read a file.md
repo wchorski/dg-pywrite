@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/Linux/Bash Read a file/"}
 ---
 
-I was trying to extract a single line from a [[developer/Home Lab 🏠/Duplicati\|Duplicati]] log to show on a monitor dash. Here is the shell script and example text log I was trying to read
+I was trying to extract a single line from a [[developer/Home Lab/Duplicati\|Duplicati]] log to show on a monitor dash. Here is the shell script and example text log I was trying to read
 
 `readfile.sh`
 ```bash

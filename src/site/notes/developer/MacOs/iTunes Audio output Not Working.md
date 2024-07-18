@@ -14,6 +14,4 @@ One "fix" is to close iTunes and (with the headphones plugged in) start up iTune
 ---
 ## Credits
 - [Switching Audio Output on iTunes (Windows… - Apple Community](https://discussions.apple.com/thread/254553277?sortBy=best)
-
-## Backlinks
-- [[developer/developer_box📦\|developer_box📦]]
+- [[developer/MacOs/index\|index]]

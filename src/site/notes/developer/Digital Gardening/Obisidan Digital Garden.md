@@ -12,11 +12,11 @@ So far this tool has everything I need in a #SSG builder.
 
 ## How I Host
 
-Usually I always opt for a #selfhosted solution, and there is a good [link](https://github.com/oleeskild/obsidian-digital-garden/discussions/160#discussioncomment-7153146)on house. to do it. Maybe I will try out building the site with [[developer/Home Lab 🏠/Docker\|Docker]] and connecting it with my [[developer/Home Lab 🏠/Nginx Proxy Manager\|Nginx Proxy Manager]]. 
+Usually I always opt for a #selfhosted solution, and there is a good [link](https://github.com/oleeskild/obsidian-digital-garden/discussions/160#discussioncomment-7153146)on house. to do it. Maybe I will try out building the site with [[developer/Home Lab/Docker\|Docker]] and connecting it with my [[developer/Home Lab/Nginx Proxy Manager\|Nginx Proxy Manager]]. 
 
 ## Self Hosted
 
-Putting the self hosted solution here just in case I want to do it later. This is assuming you have a [[developer/Home Lab 🏠/Nginx Proxy Manager\|Nginx Proxy Manager]] set up to point to the #SSG files.
+Putting the self hosted solution here just in case I want to do it later. This is assuming you have a [[developer/Home Lab/Nginx Proxy Manager\|Nginx Proxy Manager]] set up to point to the #SSG files.
 
 ```dockerfile
 FROM node:18 as base
@@ -37,7 +37,12 @@ COPY --from=builder /usr/src/app/dist /
 docker build -f Dockerfile.export --output dist .
 ```
 
-For now I'm using **GitHub Pages**, as it's very similar to a self hosted build, while taking the burden off of my [[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
+> [!error] ERROR: "get-theme" exited with 1.
+> `AxiosError: unable to get local issuer certificate`
+> 
+> I was getting this error when trying to build the site to the `dist` folder. Looks like it was a network issue. Prodded around with my wifi and turned off my VPN and things started to work.
+
+For now I'm using **GitHub Pages**, as it's very similar to a self hosted build, while taking the burden off of my [[developer/Home Lab/Home Lab 🏠\|Home Lab 🏠]]
 
 ### GitHub Pages
 
@@ -180,7 +185,7 @@ create a CNAME record that points to `YOURUSERNAME.github.io`
 Go to `https://github.com/YOURUSERNAME/GARDENREPO/settings/pages` and add a custom domain that you created
 ## Analytics
 
-I'll be using [[developer/Home Lab 🏠/umami\|umami]] as my #selfhosted choice
+I'll be using [[developer/Home Lab/umami\|umami]] as my #selfhosted choice
 
 create an `analytics.njk` file 
 
@@ -202,7 +207,7 @@ _includes
 <script async src="https://animals.YOURDOMAIN.site/dogs" data-website-id="fa4f8c5b-***"></script>
 ```
 
-Essentially, your injecting a new `<script>` into the head of every page in your published garden. You'll also notice the strange choice of domain name, this explained in my setup of [[developer/Home Lab 🏠/umami\|umami]]
+Essentially, your injecting a new `<script>` into the head of every page in your published garden. You'll also notice the strange choice of domain name, this explained in my setup of [[developer/Home Lab/umami\|umami]]
 
 ## Custom Styles
 

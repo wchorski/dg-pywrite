@@ -54,7 +54,7 @@ Run this regularly with a `crontab -e` config every 15 minutes
 
 ## Home Assistant Sensor
 
-I leverage [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] as a way to track history and send alerts. Here is how to set up the sensor
+I leverage [[developer/Home Lab/Home Assistant\|Home Assistant]] as a way to track history and send alerts. Here is how to set up the sensor
 
 ```yml
 sensor:

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/Home Assistant/TV Power and Switch Template/","tags":["homeassistant","yaml"]}
 ---
 
-A configuration for [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]]
+A configuration for [[developer/Home Lab/Home Assistant\|Home Assistant]]
 
 I wanted to create a card that reacts to the TV's power state. 
 1. When the TV is on --> show TV controls

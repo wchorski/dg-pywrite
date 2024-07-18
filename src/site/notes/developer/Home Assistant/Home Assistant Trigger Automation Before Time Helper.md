@@ -35,4 +35,4 @@ It compares the two results and triggers when they are equal. The template updat
 - https://community.home-assistant.io/t/trigger-an-automation-before-the-time-of-a-time-helper/236667/3?u=billsky
 ## index
 - [[developer/developer_box📦\|developer_box📦]]
-- [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]]
+- [[developer/Home Lab/Home Assistant\|Home Assistant]]

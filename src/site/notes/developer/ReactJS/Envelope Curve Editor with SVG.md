@@ -46,5 +46,6 @@ useGSAP((context) => {
 - [Getting error `Cannot use import statement outside a module` when importing Flip - GSAP - GreenSock](https://gsap.com/community/forums/topic/29801-getting-error-cannot-use-import-statement-outside-a-module-when-importing-flip/)
 - [SVG Path: Drawing Quadratic Curves - YouTube](https://www.youtube.com/watch?v=qwI_cVs8yy0)
 - [SVG Path: Drawing Quadratic Curves (codepen.io)](codepen.io))
+- [add-svg-point - CodeSandbox](https://codesandbox.io/p/sandbox/add-svg-point-zgt56?file=%2Fsrc%2FApp.js)
 
 - [[developer/ReactJS/ReactJS\|ReactJS]]

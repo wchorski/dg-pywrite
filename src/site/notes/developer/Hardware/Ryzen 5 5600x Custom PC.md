@@ -8,7 +8,7 @@
 
 my computer for gaming, music making, & video editing 
 
-DNS  - **frost.lan** *-via [[developer/Home Lab 🏠/Pi-hole\|Pi-hole]]*
+DNS  - **frost.lan** *-via [[developer/Home Lab/Pi-hole\|Pi-hole]]*
 
 ## Build
 | part | brand | model | price |

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/Home Assistant/Local File as Sensor/"}
 ---
 
-use a local file or [[developer/Home Lab 🏠/SAMBA\|SAMBA]] share hooked into [[developer/Home Lab 🏠/Home Assistant\|Home Assistant]] to read as a sensor
+use a local file or [[developer/Home Lab/SAMBA\|SAMBA]] share hooked into [[developer/Home Lab/Home Assistant\|Home Assistant]] to read as a sensor
 
 
 ## Allow external directory 

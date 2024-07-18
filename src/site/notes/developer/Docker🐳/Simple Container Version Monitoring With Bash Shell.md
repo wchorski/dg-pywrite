@@ -16,15 +16,16 @@ I like when articles put the whole code first, so I'm doing that here. Below tha
 ## The Script
 ```bash
 #!/bin/bash
-REMOVABLE_WORDS=("latest" "lts" "beta" "stable" "develop" "active")
-cd /home/spearmint/docker/
+REMOVABLE_WORDS=("latest" "lts" "beta" "stable" "develop" "active" "ubuntu" "apache")
+cd /home/icicle/docker/
 ##! each item must have PREFIX, NAMESPACE, and REPO (even if it's an emty string) 
 ##! does not take into account anything but 'latest'. there was an error when `docker image inspect...` a `develop` image
 ##? may use later for `lscr.io/` or `ghcr.io/` packages
-PREFIX=(      ""              ""            ""          ""         ""           ""          ""            ""             ""            ""             ""            "")
-NAMESPACES=(  "portainer"     "emberstack"  "jsavargas" "jellyfin" "plexinc"    "duplicati" "linuxserver" "flaresolverr" "linuxserver" "linuxserver"  "linuxserver" "linuxserver")
-REPOSITORIES=("portainer-ce"  "sftp"        "zspotify"  "jellyfin" "pms-docker" "duplicati" "prowlarr"    "flaresolverr" "radarr"       "sonarr"      "lidarr"      "qbittorrent")
-LOCAL_TAGS=(  ""              ""          ""            ""                      ""           ""           ""             ""             ""            ""            "")
+PREFIX=(      ""              ""            ""          ""                    ""           ""           ""            ""                        "")
+NAMESPACES=(  "portainer"     "linuxserver" "library"   "jc21"                "photoprism" "prom"       "vaultwarden" "library"                 "library")
+REPOSITORIES=("portainer-ce"  "duplicati"   "nextcloud" "nginx-proxy-manager" "photoprism" "prometheus" "server"      "wordpress"               "mariadb")
+##? if empty string assumed ":latest"
+LOCAL_TAGS=(  ""              ""            ":29"       ""                    ""           ""           ""            ":php8.2"                 "")
 
 ### todo
 ## set all the arrays above as one JSON object that is parsed with `jq`
@@ -33,7 +34,7 @@ handle_string_clean() {
   if [[ -z "$1" ]]
     then
       echo "not_found"
-      ## break out of function
+      ## break out of function if nothing was found in `curl`
       return 1
     fi
 
@@ -46,7 +47,6 @@ handle_string_clean() {
     remove_dict["$word"]=1
   done
 
-  # Filter the original array
   filtered_array=()
   for word in "${original_array[@]}"
   do
@@ -56,32 +56,49 @@ handle_string_clean() {
     fi
   done
 
-  # Output the filtered array
-  echo "${filtered_array[-1]}"
+  local longest_string=""
+  ## Iterate over each string in the array and return string with most information (this isn't perfect but works for me)
+  for str in "${filtered_array[@]}"
+  do
+    [ ${#str} -gt ${#longest_string} ] && longest_string=$str
+  done
+
+  echo "$longest_string"
 }
+
+echo "" > "./.logs/all-images.log"
 
 for i in "${!REPOSITORIES[@]}"
 do
   REPO="${REPOSITORIES[$i]}"
-  localDigest=$(docker image inspect --format '{{index .RepoDigests 0}}' "${PREFIX[i]}${NAMESPACES[i]}/$REPO${LOCAL_TAGS[i]}" | awk -F'@' '{print $2}')
-  ##? I set `page_size` to 40 as sometimes the image you're looking for either gets burried under new releases or is very old. the max is 100
-  localVersions=$(      curl -s "https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags?page_size=60" -H 'Content-Type: application/json' | jq -r '.results[] | select(.digest == "'$localDigest'") | .name')
+  if [ -z "${LOCAL_TAGS[i]}" ] || [ "${LOCAL_TAGS[i]}" = ":latest" ]
+  then
+    # Perform action if LOCAL_TAG is empty "" or equals ":latest"
+    localDigest=$(docker image inspect --format '{{index .RepoDigests 0}}' "${PREFIX[i]}${NAMESPACES[i]}/$REPO${LOCAL_TAGS[i]}" | awk -F'@' '{print $2}')
+    ##? I set `page_size` to 100 as sometimes the image you're looking for either gets burried under new releases or is very old. the max is 100
+    localVersions=$(      curl -s "https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags?page_size=100" -H 'Content-Type: application/json' | jq -r '.results[] | select(.digest == "'$localDigest'") | .name')
+  else
+    localVersions=${LOCAL_TAGS[i]}
+  fi
+
   repoLatestDigest=$(   curl -s "https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags/latest" -H 'Content-Type: application/json' | jq -r '.digest')
-  repoLatestVersions=$( curl -s "https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags?page_size=60" -H 'Content-Type: application/json' | jq -r '.results[] | select(.digest == "'$repoLatestDigest'") | .name')
+  repoLatestVersions=$( curl -s "https://hub.docker.com/v2/namespaces/${NAMESPACES[i]}/repositories/$REPO/tags?page_size=100" -H 'Content-Type: application/json' | jq -r '.results[] | select(.digest == "'$repoLatestDigest'") | .name')
 
   cleanlocalVersion=$(handle_string_clean "$localVersions")
   cleanRepoLatestVersion=$(handle_string_clean "$repoLatestVersions")
   
-  echo $REPO
-  # echo "all Local vs: $localVersions"
-  # echo "all repo vs: $repoLatestVersions"
+  CLEAN_FILENAME=$(sed -E 's/(http|https):\/\///g' <<< "${NAMESPACES[i]}_$REPO" | sed 's/\//_/g')
 
+  ## for single file logs
+  echo $CLEAN_FILENAME >> "./.logs/all-images.log"
+  echo $cleanlocalVersion > "./.logs/local-version/$CLEAN_FILENAME.log"     && echo $cleanlocalVersion >> "./.logs/all-images.log"
+  echo $cleanRepoLatestVersion > "./.logs/repo-version/$CLEAN_FILENAME.log" && echo $cleanRepoLatestVersion >> "./.logs/all-images.log"
+  echo "---" >> "./.logs/all-images.log"
+
+  ## for local terminal output
+  echo $CLEAN_FILENAME
   echo "local : $cleanlocalVersion"
   echo "latest: $cleanRepoLatestVersion"
-
-  CLEAN_FILENAME=$(sed -E 's/(http|https):\/\///g' <<< $REPO | sed 's/\//_/g')
-  echo $cleanlocalVersion > ./.logs/local-version/$CLEAN_FILENAME.log
-  echo $cleanRepoLatestVersion > ./.logs/repo-version/$CLEAN_FILENAME.log
   echo "---"
 done
 ```

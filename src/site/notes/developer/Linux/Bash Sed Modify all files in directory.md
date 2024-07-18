@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/Linux/Bash Sed Modify all files in directory/","tags":["bash","linux","automation","batch"]}
 ---
 
-Needed to batch edit the #frontmatter of my markdown files for my [[developer/Home Lab 🏠/Obsidian.md\|Obsidian.md]] vault. 
+Needed to batch edit the #frontmatter of my markdown files for my [[developer/Home Lab/Obsidian.md\|Obsidian.md]] vault. 
 
 This script checks if the first line is `---` (i.e. the start of frontmatter) and decides if we just add the `dg-publish: true` or do we need a whole frontmatter block
 
@@ -40,6 +40,12 @@ for file in ./*.md; do
 
 done
 ```
+## MacOS
+For #MacOs users  use `gsed` instead of `sed` 
+
+```shell
+brew install gnu-sed
+```
 
 ---
 ## Credits
@@ -48,3 +54,4 @@ done
 - [bash - Execute command on all files in a directory - Stack Overflow](https://stackoverflow.com/questions/10523415/execute-command-on-all-files-in-a-directory)
 - [linux - Syntax error near unexpected token 'then' - Stack Overflow](https://stackoverflow.com/questions/20235217/syntax-error-near-unexpected-token-then)
 - [bash - How to insert a string into second to last line of a file - Stack Overflow](https://stackoverflow.com/questions/45483844/how-to-insert-a-string-into-second-to-last-line-of-a-file)
+- https://stackoverflow.com/a/60562182/15579591

@@ -14,4 +14,4 @@ put code here
 - 
 
 ## Backlinks
-- [[developer/Home Lab 🏠/Home Lab 🏠\|Home Lab 🏠]]
+- [[developer/Home Lab/Home Lab 🏠\|Home Lab 🏠]]

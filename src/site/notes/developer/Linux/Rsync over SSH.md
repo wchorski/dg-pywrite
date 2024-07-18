@@ -5,7 +5,7 @@
 
 Here is a simple backup solution for a client to remote server. Assuming you've already set up a [[developer/Linux/Hardened SSH Server\|Hardened SSH Server]] with key login
 
-In this example I'm backing up my [[developer/Home Lab 🏠/Nextcloud\|Nextcloud]] data (pictures, documents, etc.) to a remote server for my 'offsite backup'
+In this example I'm backing up my [[developer/Home Lab/Nextcloud\|Nextcloud]] data (pictures, documents, etc.) to a remote server for my 'offsite backup'
 
 - `LOCALDRIVE` === assuming you mounted your external drive with lots of space here
 - `REMOTESERVER.lan` === could be an offsite domain or you could just backup to a local IP on the same network
@@ -52,10 +52,6 @@ I'm getting 2 different errors when trying to sync my nextcloud data files
 1. `could not make way for new regular file: /FILEPATH`
 2. `cannot delete non-empty directory: /FILEPATH`
 
-#todo 
-- [[developer/Linux/Bash Script Status Animation\| ]] 
-- [ ] permissions issue could come up (like with nextcloud). make sure user is added to `www-data` group I think?
-
 ---
 ## Backlinks
-- [[developer/Linux/Linux\|Linux]]
+- [[developer/Linux/rsync\|rsync]]

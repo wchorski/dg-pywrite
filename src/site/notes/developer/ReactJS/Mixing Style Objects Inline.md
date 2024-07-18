@@ -32,3 +32,4 @@ export default function App(){
 ---
 ## Credits
 -  [link](https://reactgo.com/react-multiple-inline-styles/#:~:text=In React%2C we can add a inline styles,a single style object using the spread operator.)
+- [[developer/ReactJS/ReactJS\|ReactJS]]

@@ -7,11 +7,11 @@
 A JavaScript library for building user interfaces. "client"
 
 ## connections
-- [[developer/Home Lab 🏠/Nginx Proxy Manager\|Nginx Proxy Manager]] for home routing
+- [[developer/Home Lab/Nginx Proxy Manager\|Nginx Proxy Manager]] for home routing
 - [Node.js (nodejs.org)](https://nodejs.org/en)
 
 ## installation
-### [[developer/Home Lab 🏠/Docker\|Docker]] - full stack app
+### [[developer/Home Lab/Docker\|Docker]] - full stack app
 1. `./compose.yml`
 	1. "client" - React App
 	2. "server" - [Express](http://expressjs.com/) as the API

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/homelab-hardware-pc-builds/","tags":["hardware","pc","mac","windows","linux","intel","amd"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Homelab Hardware PC Builds/","tags":["hardware","pc","mac","windows","linux","intel","amd"]}
 ---
 
 
@@ -7,8 +7,8 @@
 | ------------------------------------------------------------------------------------ | ---------------- | ---- |
 | [[developer/Hardware/Dell G5 Laptop\|Dell G5 Laptop]]                             | sn0flake         | \-   |
 | [[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]     | \-               | \-   |
-| [[developer/Hardware/Intel NUC\|Intel NUC]]                                       | icicle           | \-   |
 | [[developer/Hardware/Intel i7-7700 Custom PC\|Intel i7-7700 Custom PC]]           | nicOS            | \-   |
+| [[developer/Hardware/Intel NUC\|Intel NUC]]                                       | icicle           | \-   |
 | [[developer/Hardware/MacBook Pro M1 Laptop\|MacBook Pro M1 Laptop]]               | splitDrive       | \-   |
 | [[developer/Hardware/My GPU Journey\|My GPU Journey]]                             | \-               | \-   |
 | [[developer/Hardware/Phenom II X6 1045T Custom PC\|Phenom II X6 1045T Custom PC]] | Kevin the Ripper | \-   |

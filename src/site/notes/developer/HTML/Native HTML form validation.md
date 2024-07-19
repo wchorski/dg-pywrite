@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/native-html-form-validation/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/Native HTML form validation/"}
 ---
 
 another helpful video form Kevin Powell [Improve your form validation hints without JS! - YouTube](https://www.youtube.com/watch?v=s2ThIxm7FyA) helps me understand how to get quick and easy validation without needing another JS library.

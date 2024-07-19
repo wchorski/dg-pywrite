@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/build-small-docker-image-sizes/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Docker🐳/Build small docker image sizes/"}
 ---
 
-I was building a [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]] image with [[developer/Home Lab 🏠/Docker\|developer/Home Lab 🏠/Docker]] and ended up with over **6gb** file sizes. 
+I was building a [[developer/NextJS/NextJS\|NextJS]] image with [[developer/Home Lab/Docker\|Docker]] and ended up with over **6gb** file sizes. 
 
 > Yikes
 
@@ -142,4 +142,4 @@ CMD ["node", "server.js"]
 ## Credits
 - [Reduce Docker Image size for your Next.js App | by Kyle Le | JavaScript in Plain English](https://javascript.plainenglish.io/reduce-docker-image-size-for-your-next-js-app-bcb65d322222)
 ## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/upload-file-without-a-library/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NodeJS/upload file without a library/"}
 ---
 
 I like to remove any package dependancies where I can. Hopefully this solution can help remove another
@@ -46,10 +46,7 @@ fs.readFile(upfile, function(err, content){
     });
 });
 ```
-
----
 ## Credits
 - [node.js - NodeJS Request how to send multipart/form-data POST request - Stack Overflow](https://stackoverflow.com/questions/49053193/nodejs-request-how-to-send-multipart-form-data-post-request)
-
 ## Backlinks
-- [[developer/NodeJS\|developer/NodeJS]]
+- [[developer/NodeJS/NodeJS\|NodeJS]]

@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-js-form-validation-without-library/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS form validation without Library/"}
 ---
 
-
+[[developer/Home Lab/ReactJS\|ReactJS]]
 ## Credits
-- [[github.com)](https://github.com/safak/youtube/blob/react-form/src/components/FormInput.jsx\|youtube/FormInput.jsx at react-form · safak/youtube (github.com)]]
+- [youtube/FormInput.jsx at react-form · safak/youtube (github.com)](https://github.com/safak/youtube/blob/react-form/src/components/FormInput.jsx)
 - [BEST Ways to Handle and Validate React Forms without a Library - YouTube](https://www.youtube.com/watch?v=tIdNeoHniEY)

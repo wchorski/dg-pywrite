@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-apollo-filter-search/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Apollo Filter Search/"}
 ---
 
-This is more Apollo related, but [[developer/KeystoneJS/KeystoneJS\|developer/KeystoneJS/KeystoneJS]] is built ontop so still is relevant 
+This is more Apollo related, but [[developer/KeystoneJS/KeystoneJS\|KeystoneJS]] is built ontop so still is relevant 
 
 creating a search filter that is not case sensitive was a nightmare to solve. Here I'll layout the Apollo Sandbox queries that I contstructed as an example
 

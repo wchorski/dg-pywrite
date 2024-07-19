@@ -1,6 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/publish-test/","title":"Markdown Testing Ground for Published Notes","noteIcon":""}
+{"dg-publish":true,"permalink":"/Publish Test/","title":"Markdown Testing Ground for Published Notes"}
 ---
+
+
+| tables            | are        | cool   | how about that |                 |
+| ----------------- | ---------- | ------ | -------------- | --------------- |
+|                   | how        | cool   | are            | check this out  |
+|                   |            |        |                | can we get this |
+|                   |            | tables | working go     |                 |
+| like what is this | the talbes |        |                |                 |
+|                   |            |        |                |                 |
+
 
 trying out wiki links instead 
 
@@ -54,11 +64,11 @@ subgraph Your DB
 end
 ```
 
-| File                                                             | Last modified      |
-| ---------------------------------------------------------------- | ------------------ |
-| [[music/Lighting/Custom DMX Enclosure\|Custom DMX Enclosure]] | 20.02.2024 - 14:37 |
-| [[index\|index]]                                              | 20.02.2024 - 14:36 |
-| [[templates/_dataview_recent_notes\|_dataview_recent_notes]]  | 20.02.2024 - 14:35 |
+| File                                                                                                                                                     | Last modified      |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [[developer/KeystoneJS/KeystoneJS 6 Hide and Restrict field in schema\|KeystoneJS 6 Hide and Restrict field in schema]]                               | 18.07.2024 - 19:02 |
+| [[developer/Advice/Modern App Development Workflow. git, cloud, laptop, PC, server\|Modern App Development Workflow. git, cloud, laptop, PC, server]] | 18.07.2024 - 18:24 |
+| [[developer/Docker🐳/Simple Container Version Monitoring With Bash Shell\|Simple Container Version Monitoring With Bash Shell]]                       | 18.07.2024 - 15:03 |
 
 { .block-language-dataview}
 

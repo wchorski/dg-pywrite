@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-meta-tags/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML Meta tags/"}
 ---
 
 describe_the_problem
@@ -32,7 +32,7 @@ responsive for smaller screens
 <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
 ```
 
-- Use [[https://ogp.me/#type_article\|https://ogp.me/#type_article]] for articles and [[https://ogp.me/#type_website\|https://ogp.me/#type_website]] for the rest of your pages.
+- Use [link](https://ogp.me/#type_article) for articles and [link](https://ogp.me/#type_website) for the rest of your pages.
 ```html
 <meta property="og:type" content="article" />
 ```
@@ -41,7 +41,7 @@ responsive for smaller screens
 ## Credits
 - [Learn HTML meta tags in 3 minutes 🏷️ - YouTube](https://www.youtube.com/watch?v=bi5bfH_gVWE)
 - [27: Which HTML Meta Tags Are Required in A Website? | Learn HTML and CSS | Full Course For Beginners - YouTube](https://www.youtube.com/watch?v=o3Gfsc6kihk)
-- [[ahrefs.com)](https://ahrefs.com/blog/open-graph-meta-tags/\|Open Graph Meta Tags: Everything You Need to Know (ahrefs.com)]]
+- [Open Graph Meta Tags: Everything You Need to Know (ahrefs.com)](https://ahrefs.com/blog/open-graph-meta-tags/)
 
 ## Backlinks
-- [[developer/HTML/HTML, Back to Basics\|developer/HTML/HTML, Back to Basics]]
+- [[developer/HTML/HTML, Back to Basics\|HTML, Back to Basics]]

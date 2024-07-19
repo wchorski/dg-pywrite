@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/git/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/GIT/"}
 ---
 
 
@@ -7,7 +7,7 @@
 - https://daily-dev-tips.com/posts/removing-a-env-file-from-git-history/
 
 ### Fix author on previous commits
-- [[https://waylonwalker.com/fix-git-commit-author/#:~:text=Fix git commit author 1 Change the email,... 8 A note on changing history... \|https://waylonwalker.com/fix-git-commit-author/#:~:text=Fix git commit author 1 Change the email,... 8 A note on changing history... ]]
+- [link](https://waylonwalker.com/fix-git-commit-author/#:~:text=Fix git commit author 1 Change the email,... 8 A note on changing history... )
 - [git - How to change the commit author for a single commit? - Stack Overflow](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-a-single-commit)
 
 ### usual grind
@@ -65,9 +65,9 @@ git push origin master
 ### fix commit author
 
 ## global login via terminal
-- [[iqcode.com)](https://iqcode.com/code/shell/login-to-github-from-terminal\|login to github from terminal Code Example (iqcode.com)]]
+- [login to github from terminal Code Example (iqcode.com)](https://iqcode.com/code/shell/login-to-github-from-terminal)
 - [How to Set Git Username and Password in GitBash? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-set-git-username-and-password-in-gitbash/)
-- [[https://git-scm.com/docs/git-credential-store#_storage_format\|https://git-scm.com/docs/git-credential-store#_storage_format]]
+- [link](https://git-scm.com/docs/git-credential-store#_storage_format)
 ```shell
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com

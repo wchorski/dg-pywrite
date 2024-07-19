@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/focus-textarea-after-disable/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Focus Textarea after disable/"}
 ---
-
-#reactjs 
 
 The logic gets a bit fuzzy when trying to focus a `<textarea />` element right after enabling input. The `useEffect` has to be utilized to keep the DOM updated
 
@@ -62,4 +60,4 @@ export const AppComponent = () => {
 - https://stackoverflow.com/questions/67242065/react-focus-on-an-input-element-that-have-input-with-disabled-property
 
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]

@@ -35,6 +35,12 @@ body, html {
 .graph .graph-title {
   display: none;
 }
+
+.markdown-preview-view img, .markdown-rendered img {
+  box-shadow: #000000d9 2px 2px 10px;
+  border: double 3px #404040;
+}
+
 .markdown-rendered ul, .markdown-rendered ol {
   padding-left: 1.6rem;
 }

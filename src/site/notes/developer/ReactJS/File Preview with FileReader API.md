@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/file-preview-with-file-reader-api/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/File Preview with FileReader API/"}
 ---
-
-#reactjs 
 
 I took from the credited article and split it into different chunks
 
@@ -12,3 +10,4 @@ I took from the credited article and split it into different chunks
 ---
 ## Credits
 - [Using the FileReader API to preview images in React - LogRocket Blog](https://blog.logrocket.com/using-filereader-api-preview-images-react/)
+- [[developer/ReactJS/ReactJS\|ReactJS]]

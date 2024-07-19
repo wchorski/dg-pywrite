@@ -1,11 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-state-machine-with-enum/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React State Machine with Enum/"}
 ---
 
-#reactjs #javascript 
+Create a state machine with Enums for all that auto complete goodness.
 
-Create a state machine with Enums for all that auto complete goodness
+## Update
+I prefer to tackle issues like this with [[developer/Typescript/Typescript\|Typescript]]
 
 ---
 ## Credits
-- [[gsferreira.com)](https://gsferreira.com/archive/2020/10/avoiding-booleans-in-react-components-with-a-state-enum/\|Avoiding Booleans in React Components with a State Enum ]]
+- [Avoiding Booleans in React Components with a State Enum | Gui Ferreira - Minimalist Software Craftsman (gsferreira.com)](https://gsferreira.com/archive/2020/10/avoiding-booleans-in-react-components-with-a-state-enum/)
+- [[developer/ReactJS/React One Shot Animation with CSS Trick\|React One Shot Animation with CSS Trick]]
+- [[developer/Home Lab/ReactJS\|ReactJS]]

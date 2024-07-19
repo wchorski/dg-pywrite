@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/typescript/react-ts-optional-prop/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Typescript/React ts optional prop/"}
 ---
 
 ```tsx
@@ -21,4 +21,4 @@ const Test = ({title = 'Mr', name = 'McGee'}: TestProps) => {
 - https://stackoverflow.com/a/59757984/15579591
 
 ## Backlinks
-- [[developer/Typescript/Typing with Typescript\|developer/Typescript/Typing with Typescript]]
+- [[developer/Typescript/Typescript\|Typescript]]

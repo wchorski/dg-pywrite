@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-one-shot-animation-with-css-trick/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React One Shot Animation with CSS Trick/"}
 ---
 
 
@@ -67,7 +67,5 @@ const StyledCartIcon = styled.div`
 
 ---
 ## Credits
-- reactjs - How to trigger a CSS animation on EVERY TIME a react component re-renders - Stack Overflow](https://stackoverflow.com/questions/63186710/how-to-trigger-a-css-animation-on-every-time-a-react-component-re-renders)
-
-## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]
+- [reactjs - How to trigger a CSS animation on EVERY TIME a react component re-renders - Stack Overflow](https://stackoverflow.com/questions/63186710/how-to-trigger-a-css-animation-on-every-time-a-react-component-re-renders)

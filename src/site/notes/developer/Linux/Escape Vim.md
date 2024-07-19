@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/escape-vim/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Escape Vim/"}
 ---
 
 much respect for the people who have the time and patience to learn vim. I do not have either of those, yet I still find myself thrown into a vim editor on accident every once in a while. You'll know you're in vim when you see a line of `~` flow down the left side
@@ -19,11 +19,11 @@ much respect for the people who have the time and patience to learn vim. I do no
 4.  Hit the `Enter` key
 
 ## citations
-[[https://www.cyberciti.biz/faq/linux-unix-exit-vim-editor/#:~:text=How to exit vim editor in terminal (method,Type SHIFT Z Z to save and exit.\|https://www.cyberciti.biz/faq/linux-unix-exit-vim-editor/#:~:text=How to exit vim editor in terminal (method,Type SHIFT Z Z to save and exit.]]
+[link](https://www.cyberciti.biz/faq/linux-unix-exit-vim-editor/#:~:text=How to exit vim editor in terminal (method,Type SHIFT Z Z to save and exit.)
 
 ---
 ## Credits 
 - 
 
 ## Backlinks
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
+- [[developer/Linux/Linux\|Linux]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/linux-system-service/","tags":["linux"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Linux System Service/","tags":["linux"]}
 ---
 
 
@@ -38,6 +38,6 @@ systemctl enable rot13
 ---
 
 ## Credits
-- [[https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6#:~:text=1 The program. Let’s create a small server,that it will always work as you \|https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6#:~:text=1 The program. Let’s create a small server,that it will always work as you ]]
+- [link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6#:~:text=1 The program. Let’s create a small server,that it will always work as you )
 ## index
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

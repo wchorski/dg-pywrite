@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/home-assistant-trigger-automation-before-time-helper/","tags":["homeassistant","automation","yaml"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Home Assistant Trigger Automation Before Time Helper/","tags":["homeassistant","automation","yaml"]}
 ---
 
 
-Create a [[https://www.home-assistant.io/docs/automation/trigger/#template-trigger\|https://www.home-assistant.io/docs/automation/trigger/#template-trigger]].
+Create a [link](https://www.home-assistant.io/docs/automation/trigger/#template-trigger).
 
   ```yml
   - platform: template     
@@ -31,8 +31,8 @@ It compares the two results and triggers when they are equal. The template updat
 ---
 
 ## Credits
-- [[home-assistant.io)](https://community.home-assistant.io/t/trigger-an-automation-before-the-time-of-a-time-helper/236667/2\|Trigger an automation BEFORE the time of a time helper - Configuration - Home Assistant Community (home-assistant.io)]]
+- [Trigger an automation BEFORE the time of a time helper - Configuration - Home Assistant Community (home-assistant.io)](https://community.home-assistant.io/t/trigger-an-automation-before-the-time-of-a-time-helper/236667/2)
 - https://community.home-assistant.io/t/trigger-an-automation-before-the-time-of-a-time-helper/236667/3?u=billsky
 ## index
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
-- [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]]
+- [[developer/developer_box📦\|developer_box📦]]
+- [[developer/Home Lab/Home Assistant\|Home Assistant]]

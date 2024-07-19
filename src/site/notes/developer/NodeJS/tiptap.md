@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/tiptap/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NodeJS/tiptap/"}
 ---
 
 > [!info] [Headless WYSIWYG Text Editor – Tiptap Editor](https://tiptap.dev/) 
@@ -7,8 +7,6 @@
 
 ## examples
 - [editor-sandbox - CodeSandbox](https://codesandbox.io/s/fok5cu?file=/src/components/Tiptap.vue)
-
-
 ## Troubleshooting
 
 ### hot reloading and initial content
@@ -146,4 +144,5 @@ Needed a slick way to show and hide the editor once the user interacts with a sp
 
 ---
 ## Credits 
-- [[https://github.com/ueberdosis/tiptap/issues/1451#issuecomment-941988769\|https://github.com/ueberdosis/tiptap/issues/1451#issuecomment-941988769]]
+- [link](https://github.com/ueberdosis/tiptap/issues/1451#issuecomment-941988769)
+- [[developer/NodeJS/NodeJS\|NodeJS]]

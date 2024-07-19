@@ -1,13 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/google-api-calendar-with-next-js-app/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/Google API Calendar With NextJS App/","tags":["javascript"]}
 ---
 
 Most tutorials dealing with the [Google Calendar API](https://developers.google.com/calendar/api/quickstart/nodejs) deal with your users loggin in to add the created event to their personal calendars. In my case I have employees that I want to create/ update calendars events for a single *main* calendar, without having any login. Authorization is already set up and calendar is pointed during development
-
-
 ## Lightbulb Moment
 
-I was still struggling on how the flow of information happens since most of the data is moved in a Headless environment. [[https://zappysys.com/api/integration-hub/google-calendar-connector/help/authentication/ServiceAccount#:~:text=Copy the email address of your service account,On the left%2C find the "My calendars" section.\|https://zappysys.com/api/integration-hub/google-calendar-connector/help/authentication/ServiceAccount#:~:text=Copy the email address of your service account,On the left%2C find the "My calendars" section.]] helped me understand how to set it up. Here is the bullet points.
+I was still struggling on how the flow of information happens since most of the data is moved in a Headless environment. [link](https://zappysys.com/api/integration-hub/google-calendar-connector/help/authentication/ServiceAccount#:~:text=Copy the email address of your service account,On the left%2C find the "My calendars" section.) helped me understand how to set it up. Here is the bullet points.
 
 (this assumes you've already set up the project & Calendar APIs via the google console)
 
@@ -20,7 +18,7 @@ I was still struggling on how the flow of information happens since most of the 
 
 ## NextJS API Route
 
-I'm wrapping the google api in a #NextJS API route so that everything happens on the server
+I'm wrapping the google api in a [[developer/NextJS/NextJS\|NextJS]] API route so that everything happens on the server
 
 `/pages/api/google/create.ts`
 ```ts

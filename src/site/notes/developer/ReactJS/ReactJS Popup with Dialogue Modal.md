@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-js-popup-with-dialogue-modal/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS Popup with Dialogue Modal/"}
 ---
 
 Watching a [Web Dev Simplified Tutorial](https://www.youtube.com/@WebDevSimplified) I wanted to port this idea of using `<dialogue>` as a symantically correct popup component. Here is my port to #reactjs 
@@ -75,4 +75,4 @@ I'm not a big fan of passing down an `useState` hook from parent to  child compo
 - Web Dev Simplified - https://www.youtube.com/watch?v=ywtkJkxJsdg&t=473s
 
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]

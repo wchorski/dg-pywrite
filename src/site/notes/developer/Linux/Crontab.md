@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/crontab/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Crontab/"}
 ---
 
 run scripts on a regular schedule
@@ -29,4 +29,4 @@ sudo crontab
 - 
 
 ## Backlinks
-- [[developer/Linux/Linux\|developer/Linux/Linux]]
+- [[developer/Linux/Linux\|Linux]]

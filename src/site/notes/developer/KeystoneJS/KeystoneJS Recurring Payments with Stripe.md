@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-recurring-payments-with-stripe/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Recurring Payments with Stripe/"}
 ---
 
 ## sschema
@@ -15,4 +15,6 @@ maybe use npm cron job to make payments and check if it gets bounced - [Creating
 > [!warning] would need to save credit card info. NEED TO ENCRYPT THIS!!!
 
 - [How to add User Accounts and Paid Subscriptions to your Next.js Website - DEV Community](https://dev.to/ajones_codes/how-to-add-user-accounts-and-paid-subscriptions-to-your-nextjs-website-585e)
-- 
+
+
+[[developer/KeystoneJS/KeystoneJS\|KeystoneJS]]

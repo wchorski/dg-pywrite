@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/next-router/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/Next Router/"}
 ---
 
 ## use isReady if query is empty 
@@ -26,4 +26,4 @@ const MediaPage = () => {
 - https://stackoverflow.com/a/71879444/15579591
 
 ## Backlinks
-- [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]]
+- [[developer/NextJS/NextJS\|NextJS]]

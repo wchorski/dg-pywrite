@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-back-to-basics/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML, Back to Basics/"}
 ---
 
 here lies my html basics
 
 ---
 ## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

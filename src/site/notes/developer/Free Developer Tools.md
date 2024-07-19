@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/free-developer-tools/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Free Developer Tools/"}
 ---
 
 

@@ -1,16 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/music/history/ghetto-blaster/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/History/Ghetto Blaster/"}
 ---
 
 
 retro boom box
 
-![attachments/Pasted image 20221019213517.png](/img/user/attachments/Pasted%20image%2020221019213517.png)
+![attachments/getto_blaster.png](/img/user/attachments/getto_blaster.png)
 
 > [!quote]
 > **Ghetto blaster boomboxes introduced the world to a new style of listening to music. For the first time, we could take our tunes with us on the move, listen to the radio wherever we liked, and we never had to compromise on volume.**
 > 
-> The ghetto blaster [[https://nostalgiacentral.com/pop-culture/fads/boom-box/#:~:text=A%20boombox%20(or%20Ghetto%20Blaster,their%20'Radiorecorder'%20in%201969.\|https://nostalgiacentral.com/pop-culture/fads/boom-box/#:~:text=A%20boombox%20(or%20Ghetto%20Blaster,their%20'Radiorecorder'%20in%201969.]], introducing a large, yet still (somewhat) portable machine with multiple loud speakers. The Philips company was the first to discover the tech required to make audio “portable”.
+> The ghetto blaster [link](https://nostalgiacentral.com/pop-culture/fads/boom-box/#:~:text=A%20boombox%20(or%20Ghetto%20Blaster,their%20'Radiorecorder'%20in%201969.), introducing a large, yet still (somewhat) portable machine with multiple loud speakers. The Philips company was the first to discover the tech required to make audio “portable”.
 > 
 > While the features available from a ghetto blaster have changed over the years, they usually include:
 > -   An amplifier (with extra bass support)

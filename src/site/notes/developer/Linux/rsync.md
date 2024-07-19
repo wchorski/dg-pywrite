@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/rsync/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/rsync/"}
 ---
 
 ## sync directories with external ignore file
@@ -34,7 +34,7 @@ I use `TARGET` variable to make naming of logs and directory selector easy to ch
 
 ### Sync, Ignore, and Remove Unwanted
 
-Trying to integrate this with my [[developer/Digital Gardening/Digital Gardening\|developer/Digital Gardening/Digital Gardening]] file management
+Trying to integrate this with my [[developer/Digital Gardening/Digital Gardening\|Digital Gardening]] file management
 
 ```bash
 #! /bin/bash
@@ -55,10 +55,11 @@ cp $SOURCE/$INDEX $DESTIN/index.md
 rm $DESTIN/$IGNORE
 ```
 
+This technique askes the most of your IT knowledge, and I'm sure there are other solutions that are simpler or have a pretty UI, but going with this route makes for a sleek and light system. To get this set up, follow these 2 articles 
+
 ---
-is this working at all from milkywave? 
 ## Credits
-- [[phoenixnap.com)](https://phoenixnap.com/kb/rsync-exclude-files-and-directories\|How to use Rsync to exclude Files and Directories in Data Transfer (phoenixnap.com)]]
+- [How to use Rsync to exclude Files and Directories in Data Transfer (phoenixnap.com)](https://phoenixnap.com/kb/rsync-exclude-files-and-directories)
 - [How to use rsync over ssh - Linux Tutorials - Learn Linux Configuration](https://linuxconfig.org/using-rsync-over-ssh-an-ultimate-backup-tool)
 
 ## Backlinks

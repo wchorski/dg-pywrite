@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-global-context-provider/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Global Context Provider/"}
 ---
 
 
@@ -83,4 +83,4 @@ export default (App)
 - https://stackoverflow.com/questions/58193424/passing-state-with-usecontext-in-typescript
 
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]

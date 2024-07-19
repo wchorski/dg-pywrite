@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music-theory/picardy-third/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/music_theory/Picardy Third/"}
 ---
 
 

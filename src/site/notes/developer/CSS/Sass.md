@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/sass/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Sass/"}
 ---
 
-> [[sass-lang.com)](https://sass-lang.com/\|!note]]
+> [!note](https://sass-lang.com/)
 > Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
 
 
-[[developer/CSS/CSS\|developer/CSS/CSS]]
+[[developer/CSS/CSS\|CSS]]

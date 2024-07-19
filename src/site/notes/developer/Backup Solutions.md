@@ -1,41 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/developer/backup-solutions/","tags":["linux","Thunderbird","flstudio","music"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Backup Solutions/","tags":["linux","Thunderbird","flstudio","music"]}
 ---
-
-
 
 This is my chain of programs that help me backup and store data whether it's local clone, version controlled, and or remote sight backups
 
-- [[developer/Home Lab 🏠/FreeFileSync\|developer/Home Lab 🏠/FreeFileSync]]
+- [[developer/Home Lab/FreeFileSync\|FreeFileSync]]
 	- user friendly GUI
 	- clones files 1 to 1. Great for parodying data onto a duplicate machine
-- [[developer/Home Lab 🏠/Duplicati\|developer/Home Lab 🏠/Duplicati]]
+- [[developer/Home Lab/Duplicati\|Duplicati]]
 	- version control
 	- auto deletion of older data
 	- user friendly GUI
 	- automated backups via the app
-- [[developer/Linux/rsync\|developer/Linux/rsync]]
+- [[developer/Linux/rsync\|rsync]]
 	- command line
 	- automated backups over SSH
 	- great for remote site backups
-
-
-## FreeFileSync
-
-## Duplicati
-
-## Rsync over SSH
-
-This technique askes the most of your IT knowledge, and I'm sure there are other solutions that are simpler or have a pretty UI, but going with this route makes for a sleek and light system. To get this set up, follow these 2 articles 
-
-### Linux Disk Image with DD Command and Compress
-- tutorial
-
-## pi4
-
-## icicle
-
-## spearmint 
+### Image, a Perfect Clone
+Maybe you want a 1 to 1 copy of your OS. Something that you can install on new hardware and be back and running exactly how you left off. For the [[developer/Linux/Linux\|Linux]] users out there check out [[developer/Linux/Create an Cloned Image of Your Raspberry Pi\|Create an Cloned Image of Your Raspberry Pi]]
 
 ---
 ## App Specific

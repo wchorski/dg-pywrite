@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-global-context-for-shopping-cart/","tags":["reactjs","NextJS"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Global Context for Shopping Cart/","tags":["reactjs","NextJS"]}
 ---
 
 
-here is a quick example of using global context for 
+here is a quick example of using [[developer/ReactJS/ReactJS\|ReactJS]] global context for 
 - opening / closing cart drawer
 - cart item contents for the user 
 

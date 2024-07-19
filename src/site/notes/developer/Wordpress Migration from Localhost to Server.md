@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/wordpress-migration-from-localhost-to-server/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Wordpress Migration from Localhost to Server/"}
 ---
 
 
-I was looking to build out a [[developer/Home Lab 🏠/Wordpress\|developer/Home Lab 🏠/Wordpress]] sight locally and deploy the SQL + Wordpress files onto a remote server. There is a few steps involved to make sure login, links, and db all play nicely together after the transfer
+I was looking to build out a [[developer/Home Lab/Wordpress\|Wordpress]] sight locally and deploy the SQL + Wordpress files onto a remote server. There is a few steps involved to make sure login, links, and db all play nicely together after the transfer
 
 ## Local Prep
 1. bundle wordpress files into a single zip folder. contents will look something like this `wp-mynewsight-local.zip`

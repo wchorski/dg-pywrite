@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-rotation-axis/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Rotation Axis/"}
 ---
 
 rotate an element not just around the center axis
@@ -14,4 +14,4 @@ transform-origin: 0% 0%;
 - [css transforms - How can I set a rotation point for an element in CSS? - Stack Overflow](https://stackoverflow.com/questions/6652476/how-can-i-set-a-rotation-point-for-an-element-in-css)
 
 ## Backlinks
-- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|developer/CSS/Cascading Style Sheet Tips & Tricks]]
+- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|Cascading Style Sheet Tips & Tricks]]

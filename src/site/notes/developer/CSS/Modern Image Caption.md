@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/modern-image-caption/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Modern Image Caption/"}
 ---
 
 Having a subtle caption that floats / aligns to the right with some hover effects seems simple right? Well, it was a bit confusing until I found out about `display: inline-flex;` and  `display: inline-table;`
@@ -69,4 +69,4 @@ Having a subtle caption that floats / aligns to the right with some hover effect
 ---
 
 ## Backlinks
-- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|developer/CSS/Cascading Style Sheet Tips & Tricks]]
+- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|Cascading Style Sheet Tips & Tricks]]

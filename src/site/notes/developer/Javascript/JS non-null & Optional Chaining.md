@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/js-non-null-and-optional-chaining/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/JS non-null & Optional Chaining/"}
 ---
 
 
@@ -19,7 +19,7 @@ describe_the_problem
 
 ---
 ## Credits
-- [[https://bobbyhadz.com/blog/react-useref-object-is-possibly-null#:~:text=The "Object is possibly null" error is caused,whose.current property is initialized to the passed argument.\|https://bobbyhadz.com/blog/react-useref-object-is-possibly-null#:~:text=The "Object is possibly null" error is caused,whose.current property is initialized to the passed argument.]]
+- [link](https://bobbyhadz.com/blog/react-useref-object-is-possibly-null#:~:text=The "Object is possibly null" error is caused,whose.current property is initialized to the passed argument.)
 
 ## Backlinks
-- [[developer/Javascript/Javascript\|developer/Javascript/Javascript]]
+- [[developer/Javascript/Javascript\|Javascript]]

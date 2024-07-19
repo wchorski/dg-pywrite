@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/add-event-listener-in-react-js/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Add Event Listener in ReactJS/"}
 ---
 
 I was having trouble with the `onLoadedMetadata` not firing when linked inside the `<audio>` tag. So hooking up an event listener 'the old fashion way' seemed to do the trick.
@@ -34,4 +34,4 @@ return (
 - [javascript - Using useEffect with event listeners - Stack Overflow](https://stackoverflow.com/questions/55262596/using-useeffect-with-event-listeners)
 
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]

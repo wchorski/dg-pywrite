@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/mixing-style-objects-inline/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Mixing Style Objects Inline/"}
 ---
 
 
@@ -31,4 +31,5 @@ export default function App(){
 
 ---
 ## Credits
--  [[https://reactgo.com/react-multiple-inline-styles/#:~:text=In React%2C we can add a inline styles,a single style object using the spread operator.\|https://reactgo.com/react-multiple-inline-styles/#:~:text=In React%2C we can add a inline styles,a single style object using the spread operator.]]
+-  [link](https://reactgo.com/react-multiple-inline-styles/#:~:text=In React%2C we can add a inline styles,a single style object using the spread operator.)
+- [[developer/ReactJS/ReactJS\|ReactJS]]

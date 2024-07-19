@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/handling-errors-in-an-api/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NodeJS/Handling Errors in an API/"}
 ---
 
-Making an API that that returns logical responses can be a bit confusing. So I'm gonna write out an example lifted from one of my projects using [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]] and [[developer/Home Lab 🏠/CouchDB\|developer/Home Lab 🏠/CouchDB]] 
+Making an API that that returns logical responses can be a bit confusing. So I'm gonna write out an example lifted from one of my projects using [[developer/NextJS/NextJS\|NextJS]] and [[developer/Home Lab/CouchDB\|CouchDB]] 
 
 This script creates default users if none are found in the database. This helps automate the initial build.
 
@@ -83,4 +83,4 @@ export default async function defaultUser(req, res) {
 
 ---
 ## Credits
-- [[giancarlobuomprisco.com)](https://giancarlobuomprisco.com/next/handling-api-errors-in-nextjs\|Handling API errors in Next.js (giancarlobuomprisco.com)]]
+- [Handling API errors in Next.js (giancarlobuomprisco.com)](https://giancarlobuomprisco.com/next/handling-api-errors-in-nextjs)

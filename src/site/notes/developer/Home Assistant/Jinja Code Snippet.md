@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/jinja-code-snippet/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Jinja Code Snippet/"}
 ---
 
-Create and reuse snippets of logic with the [Jinja](https://palletsprojects.com/p/jinja/)syntax for all sorts of use cases in [[developer/Home Lab 🏠/Home Assistant\|developer/Home Lab 🏠/Home Assistant]]. 
+Create and reuse snippets of logic with the [Jinja](https://palletsprojects.com/p/jinja/)syntax for all sorts of use cases in [[developer/Home Lab/Home Assistant\|Home Assistant]]. 
 
-check out the [[https://www.home-assistant.io/blog/2023/04/05/release-20234/#macros-for-your-templates\|https://www.home-assistant.io/blog/2023/04/05/release-20234/#macros-for-your-templates]] to make reusable snippets. Here is how I reuse code for the dynamic icon
+check out the [link](https://www.home-assistant.io/blog/2023/04/05/release-20234/#macros-for-your-templates) to make reusable snippets. Here is how I reuse code for the dynamic icon
 
 `html-status-icon.jinja`
 ```jinja

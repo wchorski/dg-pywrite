@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/advice/coder-advice-working-with-idea-men/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Advice/Coder Advice - Working With 'Idea Men'/"}
 ---
 
-Comment inspired by ThePrimeagen video [[youtube.com)](https://www.youtube.com/watch?v=tIgIF5lve8U\|I Just Need A Programmer ]]
+Comment inspired by ThePrimeagen video [I Just Need A Programmer | Prime Reacts (youtube.com)](https://www.youtube.com/watch?v=tIgIF5lve8U)
 
 If in the case you do decide to pick up a project from people like this, give them what they're asking for: A splash page click funnel contact form website. Make it glossy and stamped with their Logo. That immediately peaks interest without having to burn hours of software building. 
 
@@ -11,6 +11,6 @@ Get them to 'build out' their data structure and features in some sort of flow c
 
 ---
 ## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]
 - idk what this is going to help but hope it does to someone
 - how about this?

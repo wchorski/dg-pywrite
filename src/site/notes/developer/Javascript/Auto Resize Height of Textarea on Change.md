@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/auto-resize-height-of-textarea-on-change/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/Auto Resize Height of Textarea on Change/","tags":["javascript","input"]}
 ---
 
-Quick fix to auto resize a `<textarea />` if the input starts to go outside the pre-determined height.
+Quick fix to auto resize a `<textarea />` if the input starts to go outside the pre-determined height with [[developer/Javascript/Javascript\|Javascript]]
 
 ```jsx
 <textarea onChange={(e) => {

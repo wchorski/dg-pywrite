@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-jsx-dynamic-overlay-color/","tags":["reactjs","css","html"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React JSX Dynamic Overlay Color/","tags":["reactjs","css","html"]}
 ---
 
 I wanted a dynamic way to add a transparent color that would tint the background image of a `<section>`. I went the the pseudo `::before` route as I thought it would keep my #html less cluttered.
 
-Problem is, I don't like using CSS in JS libraries anymore as per my [[developer/NodeJS/CSS Modules vs Styled Components\|developer/NodeJS/CSS Modules vs Styled Components]] thoughts.
+Problem is, I don't like using CSS in JS libraries anymore as per my [[developer/NodeJS/CSS Modules vs Styled Components\|CSS Modules vs Styled Components]] thoughts.
 
 ## My React Component
 
@@ -107,4 +107,4 @@ export function Section({
 ## Credits
 - [css - how to create inline style with :before and :after - Stack Overflow](https://stackoverflow.com/questions/14436155/how-to-create-inline-style-with-before-and-after)
 ## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]

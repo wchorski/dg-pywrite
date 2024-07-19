@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/ryzen-5-5600x-custom-pc/","tags":["hardware"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Ryzen 5 5600x Custom PC/","tags":["hardware"]}
 ---
 
 
@@ -8,7 +8,7 @@
 
 my computer for gaming, music making, & video editing 
 
-DNS  - **frost.lan** *-via [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]]*
+DNS  - **frost.lan** *-via [[developer/Home Lab/Pi-hole\|Pi-hole]]*
 
 ## Build
 | part | brand | model | price |
@@ -34,7 +34,7 @@ new: corsair hx1000
 Bought as a prebuilt of Facebook Marketplace **$1,600** with a AMD Ryzen 9 3900x. I swapped out the CPU with the Ryzen 5 5600x because of the better single core performance. 
 
 ## Programs & Apps 
-- Music writing & arrangement - [[image-line.com)](https://www.image-line.com/fl-studio/\|FL Studio (image-line.com)]]
+- Music writing & arrangement - [FL Studio (image-line.com)](https://www.image-line.com/fl-studio/)
 - Cutting music to picture -  [Ableton Live 9 ](https://www.ableton.com/en/blog/live-9-7-available-now/)
 - Video editing - [DaVinci Resolve 18 | Blackmagic Design](https://www.blackmagicdesign.com/products/davinciresolve/)
 - control onboard RGB - [OpenRGB](https://openrgb.org/)
@@ -50,8 +50,8 @@ Bought as a prebuilt of Facebook Marketplace **$1,600** with a AMD Ryzen 9 3900x
 | soundcard  | Solid State |       |       |
 
 ## Enable SSH
-- [[https://winaero.com/enable-openssh-server-windows-10/#:~:text=Windows 10 Enable OpenSSH Server 1 Open the,Install button. 5 Restart Windows 10. See More.\|https://winaero.com/enable-openssh-server-windows-10/#:~:text=Windows 10 Enable OpenSSH Server 1 Open the,Install button. 5 Restart Windows 10. See More.]]
-- [[https://adamtheautomator.com/openssh-windows/#Adding_a_Windows_Firewall_Rule_to_Allow_SSH_Traffic\|https://adamtheautomator.com/openssh-windows/#Adding_a_Windows_Firewall_Rule_to_Allow_SSH_Traffic]]
+- [link](https://winaero.com/enable-openssh-server-windows-10/#:~:text=Windows 10 Enable OpenSSH Server 1 Open the,Install button. 5 Restart Windows 10. See More.)
+- [link](https://adamtheautomator.com/openssh-windows/#Adding_a_Windows_Firewall_Rule_to_Allow_SSH_Traffic)
 - `Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'`
 
 
@@ -59,7 +59,7 @@ Bought as a prebuilt of Facebook Marketplace **$1,600** with a AMD Ryzen 9 3900x
 [De Fausti](https://www.youtube.com/channel/UCu8jiWN4yBjYw5W9Jgn0YHQ)
 I use open headphones and am also super sensible to loud PCs. My latest build has full PWM 140mm SilentWings 3 and a DarkRock 4 cooler, the loudest part is now the GPU and backup HDD. But the best part IMO is my Seasonic fanless titanium PSU, that thing is a fucking beast. The pump noise on AIO was exactly what I was worried about and it seems like I made the right choice in the end. Thanks for this!
 
-[[developer/Hardware/Homelab Hardware PC Builds\|developer/Hardware/Homelab Hardware PC Builds]]
+[[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]
 
 #todo 
 - [ ] finish this page

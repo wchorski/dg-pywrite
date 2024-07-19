@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/mac-os/i-tunes-audio-output-not-working/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/MacOs/iTunes Audio output Not Working/"}
 ---
 
 On a Windows machine, iTunes likes to have a separate audio routing *feature*, independent of the System Audio. 
@@ -13,7 +13,5 @@ One "fix" is to close iTunes and (with the headphones plugged in) start up iTune
 
 ---
 ## Credits
-- [[Windows… - Apple Community](https://discussions.apple.com/thread/254553277?sortBy=best\|Switching Audio Output on iTunes (Windows… - Apple Community]]
-
-## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [Switching Audio Output on iTunes (Windows… - Apple Community](https://discussions.apple.com/thread/254553277?sortBy=best)
+- [[developer/MacOs/index\|index]]

@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/js-switch-statement/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/JS Switch Statement/"}
 ---
 
 ## Switch Statment
-[[mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch\|switch - JavaScript ]]
+[switch - JavaScript | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 ```js
 const expr = 'Papayas';
 
@@ -31,7 +31,7 @@ switch (true) {
 	case (29000 <= val && val < 30000): /* do something */ break; 
 }
 ```
-### get all header tags on a page and display - [[https://softauthor.com/get-element-by-tag-name-in-javascript/#:~:text=Get Element (s\|https://softauthor.com/get-element-by-tag-name-in-javascript/#:~:text=Get Element (s]]%20By%20Tag%20Name%20In%20JavaScript,Get%20Element%20(s)%20By%20Tag%20Name%20From%20Parent)
+### get all header tags on a page and display - [link](https://softauthor.com/get-element-by-tag-name-in-javascript/#:~:text=Get Element (s)%20By%20Tag%20Name%20In%20JavaScript,Get%20Element%20(s)%20By%20Tag%20Name%20From%20Parent)
 ```html
 <div>div <br>box 1</div>
 <div>div <br>box 2</div>
@@ -48,4 +48,4 @@ console.log(spanBoxes); // HTMLCollection[2]
 
 ----
 ## Backlinks
-- [[developer/Javascript/Javascript\|developer/Javascript/Javascript]]
+- [[developer/Javascript/Javascript\|Javascript]]

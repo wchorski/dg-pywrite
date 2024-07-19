@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/no-library-needed-for-css-transitions/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/No Library Needed for CSS Transitions/"}
 ---
-
 
 ## Custom Hook
 `useStyleTransition.tsx`
@@ -115,6 +114,6 @@ const StyledEmoji = styled.div`
 ## Credits 
 - [Applying CSS Transitions with React Hooks | by Kaylie Kwon | JavaScript in Plain English](https://javascript.plainenglish.io/applying-css-transitions-with-react-hooks-7bd84671bc6b)
 - cred Kaylie Kwon - https://javascript.plainenglish.io/applying-css-transitions-with-react-hooks-7bd84671bc6b
-
 ## Backlinks
-- [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]]
+- [[developer/ReactJS/ReactJS\|ReactJS]]
+- [[developer/CSS/CSS\|CSS]]

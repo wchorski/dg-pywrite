@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-color-mixing/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Color Mixing/"}
 ---
 
-mixing colors in #css is now a breeze. Create quick color pallet themes that can easily be tweaked.
+mixing colors in [[developer/CSS/CSS\|CSS]] is now a breeze. Create quick color pallet themes that can easily be tweaked.
 
 ```html
 <div class="wrapper">
@@ -82,4 +82,4 @@ mixing colors in #css is now a breeze. Create quick color pallet themes that can
 - [This new CSS function makes color schemes a breeze - YouTube](https://www.youtube.com/shorts/CZ_LaL5DZk0)
 
 ## Backlinks
-- [[developer/CSS/CSS\|developer/CSS/CSS]]
+- [[developer/CSS/CSS\|CSS]]

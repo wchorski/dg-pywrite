@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music-theory/louie-zong-rhythm-hell/","noteIcon":""}
+{"dg-publish":true,"permalink":"/music/music_theory/Louie Zong - Rhythm Hell/"}
 ---
 
 When I saw **Louie Zong's** video [Rhythm Hell - YouTube](https://www.youtube.com/watch?v=a-EI30uucng&list=TLPQMDYwNDIwMjPEfxCLA9I0Ow&index=3) I got the itch to transcribe some rhythms. 

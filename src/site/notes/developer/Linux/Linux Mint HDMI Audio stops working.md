@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/linux-mint-hdmi-audio-stops-working/","tags":["linux","troubleshooting","audio"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Linux Mint HDMI Audio stops working/","tags":["linux","troubleshooting","audio"]}
 ---
 
-Every other day the audio seemed to stop passing through the HDMI chord to the Display for my media rig [[developer/Hardware/Ryzen 9 3900x Custom PC\|developer/Hardware/Ryzen 9 3900x Custom PC]]. Audio seemed to usually stop as I paused a Youtube video, or switch apps every so often
+Every other day the audio seemed to stop passing through the HDMI chord to the Display for my media rig [[developer/Hardware/Ryzen 9 3900x Custom PC\|Ryzen 9 3900x Custom PC]]. Audio seemed to usually stop as I paused a Youtube video, or switch apps every so often
 
 I would manually disconnect the HDMI and plug it back in to get it to work, but I thought there had to be a simpler way to do it via software. 
 
@@ -24,6 +24,6 @@ exit
 ---
 
 ## Credits
-- [[reddit.com)](https://www.reddit.com/r/linuxmint/comments/j3tren/audio_losing_hdmi_connection_after_sleep/\|Audio losing HDMI connection after sleep : r/linuxmint (reddit.com)]]
+- [Audio losing HDMI connection after sleep : r/linuxmint (reddit.com)](https://www.reddit.com/r/linuxmint/comments/j3tren/audio_losing_hdmi_connection_after_sleep/)
 ## index
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/linux/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Linux/Linux/"}
 ---
 
 ## Debian
@@ -11,4 +11,4 @@
 
 ---
 ## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

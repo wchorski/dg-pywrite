@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/ryzen-9-3900x-custom-pc/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Hardware/Ryzen 9 3900x Custom PC/"}
 ---
 
-My media rig that runs [[developer/Home Lab 🏠/Plex.tv\|developer/Home Lab 🏠/Plex.tv]], [[developer/Home Lab 🏠/Jellyfin\|developer/Home Lab 🏠/Jellyfin]], & my constant consumption of Youtube. 
+My media rig that runs [[developer/Home Lab/Plex.tv\|Plex.tv]], [[developer/Home Lab/Jellyfin\|Jellyfin]], & my constant consumption of Youtube. 
 
-DNS  - **mint.lan** *-via [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 🏠/Pi-hole]]*
+DNS  - **mint.lan** *-via [[developer/Home Lab/Pi-hole\|Pi-hole]]*
 
 ```bash
              ...-:::::-...                 spearmint@spearmint
@@ -54,14 +54,14 @@ DNS  - **mint.lan** *-via [[developer/Home Lab 🏠/Pi-hole\|developer/Home Lab 
 
 ### Gaming Emulation
 I also use this as my emulation gaming rig
-- [[dolphin-emu.org)](https://dolphin-emu.org/\|Dolphin Emulator - GameCube/Wii games on PC (dolphin-emu.org)]]
+- [Dolphin Emulator - GameCube/Wii games on PC (dolphin-emu.org)](https://dolphin-emu.org/)
 - [RPCS3 - The PlayStation 3 Emulator](https://rpcs3.net/)
 - Playstation 2 & 1
 - [redream - Dreamcast Emulator](https://redream.io/)
-- Wii U [[github.com)](https://github.com/cemu-project/Cemu/releases/\|Releases · cemu-project/Cemu (github.com)]]
+- Wii U [Releases · cemu-project/Cemu (github.com)](https://github.com/cemu-project/Cemu/releases/)
 
 ### Crypto Mining
-I also mine [Monero](https://www.getmonero.org/) on this machine with [[developer/Home Lab 🏠/XMRig\|developer/Home Lab 🏠/XMRig]] 
+I also mine [Monero](https://www.getmonero.org/) on this machine with [[developer/Home Lab/XMRig\|XMRig]] 
 
 
-[[developer/Hardware/Homelab Hardware PC Builds\|developer/Hardware/Homelab Hardware PC Builds]]
+[[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]

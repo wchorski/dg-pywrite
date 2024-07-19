@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/interactive-music/","noteIcon":1}
+{"dg-publish":true,"permalink":"/music/Interactive Music/"}
 ---
 
 

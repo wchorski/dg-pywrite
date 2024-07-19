@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/keystone-js/validate-input-field-hook/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/Validate Input Field Hook/"}
 ---
 
 comparison of how you could sanitize data, or just throw a `validation` error upon POST
@@ -25,3 +25,5 @@ slug: text({
       }
     }),
 ```
+
+[[developer/KeystoneJS/KeystoneJS\|KeystoneJS]]

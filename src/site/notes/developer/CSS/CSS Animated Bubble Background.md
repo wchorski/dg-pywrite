@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-animated-bubble-background/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Animated Bubble Background/"}
 ---
 
 ```html
@@ -1526,7 +1526,7 @@
 ```
 
 ## Credits
-- [[codepen.io)](https://codepen.io/bajzarpa/pen/woYNXp\|Random moving bubbles (codepen.io)]]
+- [Random moving bubbles (codepen.io)](https://codepen.io/bajzarpa/pen/woYNXp)
 
 ## Backlinks 
-- [[developer/CSS/CSS\|developer/CSS/CSS]]
+- [[developer/CSS/CSS\|CSS]]

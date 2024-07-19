@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/react-jsx-dynamic-overlay-color/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/React JSX Dynamic Overlay Color/"}
 ---
 
 
@@ -12,4 +12,4 @@
 ## Credits
 - 
 ## index
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/serving-static-files-back-to-client/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/Serving Static Files back to Client/"}
 ---
 
-After I [[developer/NextJS/Upload Files with next-connect and Multer\|developer/NextJS/Upload Files with next-connect and Multer]] I wanted to serve those same files back to the client. Ahh but not so fast says [[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]]. 
+After I [[developer/NextJS/Upload Files with next-connect and Multer\|Upload Files with next-connect and Multer]] I wanted to serve those same files back to the client. Ahh but not so fast says [[developer/NextJS/NextJS\|NextJS]]. 
 
-> [[nextjs.org)](https://nextjs.org/docs/basic-features/static-file-serving\|!note]]
-> Only assets that are in the `public` directory at [[https://nextjs.org/docs/api-reference/cli#build\|https://nextjs.org/docs/api-reference/cli#build]] will be served by Next.js. Files added at runtime won't be available. We recommend using a third party service like [AWS S3](https://aws.amazon.com/s3/) for persistent file storage.
+> [!note](https://nextjs.org/docs/basic-features/static-file-serving)
+> Only assets that are in the `public` directory at [link](https://nextjs.org/docs/api-reference/cli#build) will be served by Next.js. Files added at runtime won't be available. We recommend using a third party service like [AWS S3](https://aws.amazon.com/s3/) for persistent file storage.
 
 ### create an api endpoint
 `./pages/api/images-endpoint/[...slug].js`
@@ -38,9 +38,9 @@ server {
 https://stackoverflow.com/a/70490960/15579591
 
 ## other stuff
-Looks like we could fiddle with a custom server but that looks like a bigger headache [[nextjs.org)](https://nextjs.org/docs/advanced-features/custom-server\|Advanced Features: Custom Server ]]
+Looks like we could fiddle with a custom server but that looks like a bigger headache [Advanced Features: Custom Server | Next.js (nextjs.org)](https://nextjs.org/docs/advanced-features/custom-server)
 
 ---
 ## Credits
 - https://stackoverflow.com/a/72031304/15579591 - thanks to [User Rizwan Amjad ](https://stackoverflow.com/users/11503874/rizwan-amjad)
-- [[https://stackoverflow.com/questions/68225815/how-to-access-files-uploaded-to-the-public-folder-in-next-js#:~:text=From Next.js documentation%3A Only assets that are in,to them in the app at run time.\|https://stackoverflow.com/questions/68225815/how-to-access-files-uploaded-to-the-public-folder-in-next-js#:~:text=From Next.js documentation%3A Only assets that are in,to them in the app at run time.]]
+- [link](https://stackoverflow.com/questions/68225815/how-to-access-files-uploaded-to-the-public-folder-in-next-js#:~:text=From Next.js documentation%3A Only assets that are in,to them in the app at run time.)

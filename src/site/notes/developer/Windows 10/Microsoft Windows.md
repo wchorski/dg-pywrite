@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/microsoft-windows/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Windows 10/Microsoft Windows/"}
 ---
 
 Here lies everything about the Windows Operating System 🪦
 
-meh... It works for me. Mostly keep it around for Gaming and [[music/FL Studio Tips/FL Studio Tips\|FL Studio]]
+meh... It works for me. Mostly keep it around for Gaming and [[music/FL Studio/FL Studio\|FL Studio]]
 

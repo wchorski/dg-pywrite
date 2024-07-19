@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/toggle-checkbox-css/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/CSS/Toggle Checkbox CSS/"}
 ---
 
 ```scss
@@ -71,4 +71,4 @@ input[type="checkbox"].toggle:checked + label {
 ---
 
 ## Backlinks
-- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|developer/CSS/Cascading Style Sheet Tips & Tricks]]
+- [[developer/CSS/Cascading Style Sheet Tips & Tricks\|Cascading Style Sheet Tips & Tricks]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/find-mac-address-of-any-ap/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/tutorials/Find MAC Address of Any AP/"}
 ---
 
 It's criminal when a manufacturer doesn't print the MAC address onto the device. With these steps you should be able to find any MAC address
@@ -58,7 +58,7 @@ Interface: 192.168.175.100 --- 0x12
  
 ---
 ## Citations
-- [[azcentral.com)](https://yourbusiness.azcentral.com/mac-address-access-point-19756.html\|How to Find the MAC Address of an Access Point (azcentral.com)]]
+- [How to Find the MAC Address of an Access Point (azcentral.com) ](https://yourbusiness.azcentral.com/mac-address-access-point-19756.html)
 
 ## Backlinks
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

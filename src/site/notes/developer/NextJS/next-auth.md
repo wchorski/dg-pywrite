@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/next-auth/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/NextJS/next-auth/"}
 ---
 
 #NextJS 
@@ -70,7 +70,7 @@ const SignInError = ({ error }) => {
 ## Authorization
 
 ### Facebook App Auth
-1. [[https://next-auth.js.org/providers/facebook#configuration\|https://next-auth.js.org/providers/facebook#configuration]]
+1. [link](https://next-auth.js.org/providers/facebook#configuration)
 3. [https://developers.facebook.com/apps](https://developers.facebook.com/apps)
 4. create a new app
 5. Left menu `Facebook Login` > `Settings`
@@ -79,7 +79,7 @@ const SignInError = ({ error }) => {
 7. profit?
 
 ### Google Authorization
-1. [[https://next-auth.js.org/providers/google#configuration\|https://next-auth.js.org/providers/google#configuration]]
+1. [link](https://next-auth.js.org/providers/google#configuration)
 2. [https://console.developers.google.com/apis/credentials](https://console.developers.google.com/apis/credentials)
 3. select appropriate app
 4. `Authorized redirect URIs`
@@ -87,16 +87,16 @@ const SignInError = ({ error }) => {
 
 
 ## Error Message Handling 
-- [[https://logfetch.com/next-auth-custom-error-page/#:~:text=Once the signin process is set up with,at %2Fpages%2Fsignin.jsx and show the error message there.\|https://logfetch.com/next-auth-custom-error-page/#:~:text=Once the signin process is set up with,at %2Fpages%2Fsignin.jsx and show the error message there.]]
+- [link](https://logfetch.com/next-auth-custom-error-page/#:~:text=Once the signin process is set up with,at %2Fpages%2Fsignin.jsx and show the error message there.)
 
 
 --- 
 ## Credits
-- [[next-auth.js.org)](https://next-auth.js.org/configuration/pages\|Pages ]]
-- [[https://logfetch.com/next-auth-custom-error-page/#:~:text=Once the signin process is set up with,at %2Fpages%2Fsignin.jsx and show the error message there.\|https://logfetch.com/next-auth-custom-error-page/#:~:text=Once the signin process is set up with,at %2Fpages%2Fsignin.jsx and show the error message there.]]
+- [Pages | NextAuth.js (next-auth.js.org)](https://next-auth.js.org/configuration/pages)
+- [link](https://logfetch.com/next-auth-custom-error-page/#:~:text=Once the signin process is set up with,at %2Fpages%2Fsignin.jsx and show the error message there.)
 - [Nextauth Complete Tutorial #12 Add Facebook provider - YouTube](https://www.youtube.com/watch?v=eTpkgNBmrX8&t=198s)
-- [[next-auth.js.org)](https://next-auth.js.org/\|NextAuth.js (next-auth.js.org)]]
+- [NextAuth.js (next-auth.js.org)](https://next-auth.js.org/)
 
 
 ## Backlinks
-[[developer/Home Lab 🏠/NextJS\|developer/Home Lab 🏠/NextJS]]
+[[developer/NextJS/NextJS\|NextJS]]

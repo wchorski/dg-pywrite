@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-dynamic-table/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Dynamic Table/"}
 ---
 
-This is a [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]] expansion to my [[developer/HTML/Responsive HTML Tables\|developer/HTML/Responsive HTML Tables]]. 
+This is a [[developer/ReactJS/ReactJS\|ReactJS]] expansion to my [[developer/HTML/Responsive HTML Tables\|Responsive HTML Tables]]. 
 
 ## index.js
 ```tsx
@@ -169,5 +169,5 @@ const StyledTable = styled.table`
 
 ## Credit
 - ChatGPT   🤖 
-- [[developer/HTML/Responsive HTML Tables\|developer/HTML/Responsive HTML Tables]]
+- [[developer/HTML/Responsive HTML Tables\|Responsive HTML Tables]]
 - [Functions to Add ARIA to Tables and Lists — Adrian Roselli](https://adrianroselli.com/2018/05/functions-to-add-aria-to-tables-and-lists.html)

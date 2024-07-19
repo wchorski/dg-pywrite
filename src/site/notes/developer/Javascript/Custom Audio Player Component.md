@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/custom-audio-player-component/","noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Javascript/Custom Audio Player Component/"}
 ---
 
 #javascript 
@@ -10,9 +10,9 @@ I wanted a custom audio / music player that has some modern features such as a
 - more visual feedback
 - analyzer / spectrogram
 
-Following [this video tutorial](https://www.youtube.com/watch?v=rkqqBA6ohc0&t=10s) I was able to create something from vanilla [[developer/Javascript/Javascript\|developer/Javascript/Javascript]] with a [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]] like structure. 
+Following [this video tutorial](https://www.youtube.com/watch?v=rkqqBA6ohc0&t=10s) I was able to create something from vanilla [[developer/Javascript/Javascript\|Javascript]] with a [[developer/ReactJS/ReactJS\|ReactJS]] like structure. 
 
-plans to port this over to a real [[developer/ReactJS/ReactJS\|developer/ReactJS/ReactJS]] are to follow --> [[developer/ReactJS/Custom Audio Player Component - ReactJS Port\|developer/ReactJS/Custom Audio Player Component - ReactJS Port]]
+plans to port this over to a real [[developer/ReactJS/ReactJS\|ReactJS]] are to follow --> [[developer/ReactJS/Custom Audio Player Component - ReactJS Port\|Custom Audio Player Component - ReactJS Port]]
 
 ### index.html
 ```html

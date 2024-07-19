@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/yt-dlp/","tags":["linux"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/developer/Media Software/yt-dlp/","tags":["linux"]}
 ---
 
 This is a nice library for all my 🏴‍☠️black flag waving friends
 
-[[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation\|https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation]]
+[link](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation)
 
 #bash script wrapper 
 
@@ -24,8 +24,8 @@ Simple way to run a "preset" of your most used configs
 
 ---
 
-[[developer/Media Software/Docker Compose Media Containers Arrs\|developer/Media Software/Docker Compose Media Containers Arrs]]
+[[developer/Media Software/Docker Compose Media Containers Arrs\|Docker Compose Media Containers Arrs]]
 ## Credits
-- [[howtogeek.com)](https://www.howtogeek.com/442332/how-to-work-with-variables-in-bash/\|How to Work with Variables in Bash (howtogeek.com)]]
+- [How to Work with Variables in Bash (howtogeek.com)](https://www.howtogeek.com/442332/how-to-work-with-variables-in-bash/)
 ## index
-- [[developer/_developer_box📦\|developer/_developer_box📦]]
+- [[developer/developer_box📦\|developer_box📦]]

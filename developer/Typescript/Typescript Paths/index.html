@@ -5216,7 +5216,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-07-19T19:16:38.054Z';
+        const searchIndexDate = '2024-07-19T19:35:18.600Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5228,9 +5228,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-07-19T19:16:38.054Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-07-19T19:35:18.600Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-07-19T19:16:38.054Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-07-19T19:35:18.600Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5983,7 +5983,9 @@
 </script>
     
       <footer class="page-footer" >
-  <span>Powered by <a href="https://www.tawtaw.site" target="_blank">There's a Will There's a Web.site</a></span>
+  <div class="wrapper">
+    <span>Powered by <a href="https://www.tawtaw.site" target="_blank">There's a Will There's a Web.site</a></span>
+  </div>
 </footer>
     
     

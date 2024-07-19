@@ -8,10 +8,10 @@ Here is where I dump notes on web development, automation, game emulation, music
 ## Recent Notes
 | File                                                                                                                                                     | Last modified      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [[developer/KeystoneJS/KeystoneJS 6 Hide and Restrict field in schema\|KeystoneJS 6 Hide and Restrict field in schema]]                               | 18.07.2024 - 19:02 |
-| [[developer/Advice/Modern App Development Workflow. git, cloud, laptop, PC, server\|Modern App Development Workflow. git, cloud, laptop, PC, server]] | 18.07.2024 - 18:24 |
-| [[developer/Docker🐳/Simple Container Version Monitoring With Bash Shell\|Simple Container Version Monitoring With Bash Shell]]                       | 18.07.2024 - 15:03 |
-| [[🚿 shower thoughts/words/egalitarian\|egalitarian]]                                                                                                 | 18.07.2024 - 12:06 |
+| [[developer/Hardware/Ryzen 5 5600x Custom PC\|Ryzen 5 5600x Custom PC]]                                                                               | 19.07.2024 - 15:29 |
+| [[developer/Docker🐳/Untitled\|Untitled]]                                                                                                             | 19.07.2024 - 11:31 |
+| [[developer/KeystoneJS/KeystoneJS 6 Hide and Restrict field in schema\|KeystoneJS 6 Hide and Restrict field in schema]]                               | 18.07.2024 - 19:01 |
+| [[developer/Advice/Modern App Development Workflow. git, cloud, laptop, PC, server\|Modern App Development Workflow. git, cloud, laptop, PC, server]] | 18.07.2024 - 18:26 |
 
 { .block-language-dataview}
 
@@ -26,8 +26,8 @@ Here is where I dump notes on web development, automation, game emulation, music
 | ------------------------------------------------------------------------------------ | ---------------- | ---- |
 | [[developer/Hardware/Dell G5 Laptop\|Dell G5 Laptop]]                             | sn0flake         | \-   |
 | [[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]     | \-               | \-   |
-| [[developer/Hardware/Intel i7-7700 Custom PC\|Intel i7-7700 Custom PC]]           | nicOS            | \-   |
 | [[developer/Hardware/Intel NUC\|Intel NUC]]                                       | icicle           | \-   |
+| [[developer/Hardware/Intel i7-7700 Custom PC\|Intel i7-7700 Custom PC]]           | nicOS            | \-   |
 | [[developer/Hardware/MacBook Pro M1 Laptop\|MacBook Pro M1 Laptop]]               | splitDrive       | \-   |
 | [[developer/Hardware/My GPU Journey\|My GPU Journey]]                             | \-               | \-   |
 | [[developer/Hardware/Phenom II X6 1045T Custom PC\|Phenom II X6 1045T Custom PC]] | Kevin the Ripper | \-   |

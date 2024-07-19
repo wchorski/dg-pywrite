@@ -173,8 +173,10 @@ handle_string_clean() {
 
   echo &quot;$longest_string&quot;
 }
-
-echo &quot;&quot; &gt; &quot;./.logs/all-images.log&quot;
+## start with empty file, or delete previous data
+# : &gt; &quot;./.logs/all-images.log&quot;
+date &gt; &quot;./.logs/all-images.log&quot;
+echo &quot;##########&quot; &gt; &quot;./.logs/all-images.log&quot;
 
 for i in &quot;${!REPOSITORIES[@]}&quot;
 do
@@ -197,12 +199,14 @@ do
   
   CLEAN_FILENAME=$(sed -E 's/(http|https):\/\///g' &lt;&lt;&lt; &quot;${NAMESPACES[i]}_$REPO&quot; | sed 's/\//_/g')
 
-  ## for single file logs
+  ## for one log file
   echo $CLEAN_FILENAME &gt;&gt; &quot;./.logs/all-images.log&quot;
-  echo $cleanlocalVersion &gt; &quot;./.logs/local-version/$CLEAN_FILENAME.log&quot;     &amp;&amp; echo $cleanlocalVersion &gt;&gt; &quot;./.logs/all-images.log&quot;
-  echo $cleanRepoLatestVersion &gt; &quot;./.logs/repo-version/$CLEAN_FILENAME.log&quot; &amp;&amp; echo $cleanRepoLatestVersion &gt;&gt; &quot;./.logs/all-images.log&quot;
+  echo $cleanlocalVersion &gt;&gt; &quot;./.logs/all-images.log&quot;
+  echo $cleanRepoLatestVersion &gt;&gt; &quot;./.logs/all-images.log&quot;
   echo &quot;---&quot; &gt;&gt; &quot;./.logs/all-images.log&quot;
-
+  ## for single file logs | `-n` stops 2nd line from being created
+  echo -n $cleanlocalVersion &gt; &quot;./.logs/local-version/$CLEAN_FILENAME.log&quot;    
+  echo -n $cleanRepoLatestVersion &gt; &quot;./.logs/repo-version/$CLEAN_FILENAME.log&quot;
   ## for local terminal output
   echo $CLEAN_FILENAME
   echo &quot;local : $cleanlocalVersion&quot;
@@ -238,57 +242,28 @@ done
 <p>I'll put this script to run in a <code>cron job</code> and my <strong>Home Assistant</strong> dashboard does the rest.</p>
 <h2 id="output" tabindex="-1">Output</h2>
 <p>With echo logs in place, this is what your console will look like. I'm thinking either I keep the <code>repo</code> and <code>local</code> files separate, or just print 1 file like this per image.</p>
-<pre><code class="language-shell">portainer-ce
-local : 2.19.5
-latest: 2.19.5
+<pre><code class="language-shell">Thu 18 Jul 2024 02:53:57 PM CDT
+##########
+portainer_portainer-ce
+2.19.5
+2.19.5
 ---
-sftp
-local : build-5.1.71
-latest: build-5.1.71
+linuxserver_duplicati
+v2.0.8.1-2.0.8.1_beta_2024-05-07-ls211
+version-v2.0.8.1-2.0.8.1_beta_2024-05-07
 ---
-zspotify
-local : 2.1.1
-latest: 2.1.1
+library_nextcloud
+:29
+29.0.3-apache
 ---
-jellyfin
-local : 10.9.7.20240625-002012
-latest: 10.9.7.20240625-002012
+jc21_nginx-proxy-manager
+2.11.3
+2.11.3
 ---
-pms-docker
-local : 1.40.3.8555-fef15d30c
-latest: 1.40.4.8679-424562606
----
-duplicati
-local : 2.0.8.1_beta_2024-05-07
-latest: 2.0.8.1_beta_2024-05-07
----
-prowlarr
-local : 1.20.1.4603-ls78
-latest: 1.20.1.4603-ls78
----
-flaresolverr
-local : v3.3.21
-latest: v3.3.21
----
-radarr
-local : 5.7.0.8882-ls228
-latest: 5.7.0.8882-ls228
----
-sonarr
-local : 4.0.6.1805-ls245
-latest: 4.0.6.1805-ls245
----
-lidarr
-local : 2.3.3.4204-ls3
-latest: 2.3.3.4204-ls3
----
-qbittorrent
-local : 4.6.5-r0-ls340
-latest: 4.6.5-r0-ls340
----
+...
 </code></pre>
 <h2 id="postmortem" tabindex="-1">Postmortem</h2>
-<p>Is there a better way to do this? Maybe. I could have simplified things by just comparing <code>update_date</code> value, but that would only tell me how old the version was, not if it was a minor or major change.</p>
+<p>Is there a better way to do this? Maybe. I could have simplified things by just comparing <code>update_date</code> value, but that would only tell me how old the version was, not if it was a minor or major change. There is this promising <a href="https://github.com/docker/hub-tool" target="_blank" class="external-link">cli hub-tool</a>, but still too new to tell.</p>
 <p>This is a great example of making a lack luster API work for you. We have to visit the API twice per package, and we have to filter through 60 results just to get the 1 we want (<code>page_size=60</code>) since the version we want could live lower down the list. It's expensive, but it works.</p>
 <h2 id="troubleshooting" tabindex="-1">Troubleshooting</h2>
 <p>Here is a brain dump of how I got to the above code. It's kinda a mess, but it's how I understood the who, what's, and where's</p>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Game Emulation</title>
+    <title>Remove Broken or un-published Link in Garden</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -109,20 +109,45 @@
       </header>
       
       
-      <p>Here is the hub of all things game emulation</p>
-<ul class="block-language-dataview">
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/3DS Homebrew/">3DS Homebrew</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Cemu/">Cemu</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Citra/">Citra</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Controllers/">Controllers</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Dolphin Emu/">Dolphin Emu</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Emulation Tools/">Emulation Tools</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Game Emulation/">Game Emulation</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/PCX2 Qt/">PCX2 Qt</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Pokemon Genning/">Pokemon Genning</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Pokémon Genning; Create a Mew from start to finish/">Pokémon Genning; Create a Mew from start to finish</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/RPCS3/">RPCS3</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Switch Homebrew/">Switch Homebrew</a></li>
+      <h2 id="my-question" tabindex="-1">My Question</h2>
+<p>When using <code>dataview</code> to list recently updated notes, it looks like non published notes are listed as well.</p>
+<p>Is there any way to either</p>
+<ol>
+<li>skip over unpublished notes</li>
+<li>remove broken links</li>
+</ol>
+<h2 id="stalegjelsten-answer" tabindex="-1">stalegjelsten Answer</h2>
+<p>Adding <code>where dg-publish</code> to your Dataview query would probably fix this.</p>
+<pre><code>TABLE dateformat(file.mtime, &quot;dd.MM.yyyy - HH:mm&quot;) AS &quot;Last modified&quot;
+FROM &quot;mynotes&quot;
+WHERE dg-publish
+SORT file.mtime DESC
+LIMIT 10
+</code></pre>
+<p>If you would like to have all your notes listed in Obsidian, but only show the published notes in the dataview tables in your digital garden you can use the following &quot;hack&quot;.</p>
+<p>In your dataview queries, add a line containing <code>WHERE file.mtime</code> in a separate line, e.g.</p>
+<pre><code>TABLE dateformat(file.mtime, &quot;dd.MM.yyyy - HH:mm&quot;) AS &quot;Last modified&quot;
+FROM &quot;mynotes&quot;
+WHERE file.mtime
+SORT file.mtime DESC
+LIMIT 10
+</code></pre>
+<p>(It doesn't need to be <code>file.mtime</code>, but choose something which matches all notes, but at the same time is not something you would ever add an actual where filter for).</p>
+<p>Then you can use a Digital garden custom filter which replaces <code>WHERE file.mtime</code> with <code>WHERE dg-publish</code> 👇</p>
+<p id="Where">|</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>file.mtime$</th>
+<th>where dg-publish</th>
+<th>gm</th>
+</tr>
+</thead>
+</table></div>
+<hr>
+<h2 id="credits" tabindex="-1">Credits</h2>
+<ul>
+<li><a href="https://github.com/oleeskild/obsidian-digital-garden/issues/619" target="_blank" class="external-link">Dataview Remove Broken Links · Issue <a class="tag" onclick="toggleTagSearch(this)" data-content="#619">#619</a> · oleeskild/obsidian-digital-garden (github.com)</a></li>
 </ul>
 
       

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Game Emulation</title>
+    <title>Modern App Development Workflow. git, cloud, laptop, PC, server</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -109,20 +109,42 @@
       </header>
       
       
-      <p>Here is the hub of all things game emulation</p>
-<ul class="block-language-dataview">
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/3DS Homebrew/">3DS Homebrew</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Cemu/">Cemu</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Citra/">Citra</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Controllers/">Controllers</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Dolphin Emu/">Dolphin Emu</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Emulation Tools/">Emulation Tools</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Game Emulation/">Game Emulation</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/PCX2 Qt/">PCX2 Qt</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Pokemon Genning/">Pokemon Genning</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Pokémon Genning; Create a Mew from start to finish/">Pokémon Genning; Create a Mew from start to finish</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/RPCS3/">RPCS3</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/emulation/Switch Homebrew/">Switch Homebrew</a></li>
+      <p>This is advice for anyone developing source code and want an efficient way of splitting projects but retaining a lot of the benefits of your <a class="tag" onclick="toggleTagSearch(this)" data-content="#templates">#templates</a>.</p>
+<p>You could apply this to any digital assets but I'll be focusing on benefits of people developing source code for things like</p>
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/NodeJS/NodeJS/">NodeJS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/ReactJS/ReactJS/">ReactJS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/NextJS/NextJS/">NextJS</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/GitHub/">GitHub</a></li>
+</ul>
+<h2 id="cloud-storage" tabindex="-1">Cloud Storage</h2>
+<p>This is going to be your main driver for keeping your local development in sync. I switch between laptop and desktop with similar developer environments. I want that transition between machines to be seamless. PLUS I also have a <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Production Server</a> That deploys these projects.</p>
+<p>You could use any sorts of cloud providers, but here I'm using <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Nextcloud/">Nextcloud</a>.</p>
+<h2 id="desktop-and-amp-laptop" tabindex="-1">Desktop &amp; Laptop</h2>
+<p>Here I'll explain the setup for your development machines. I assume you have <a class="internal-link" target="" data-note-icon="" href="/developer/NodeJS/NodeJS/">NodeJS</a> and <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Docker/">Docker</a> installed already.</p>
+<h3 id="ignore-files" tabindex="-1">Ignore files</h3>
+<p>an <code>.env</code> file should be unique to the environment that it lives. <em>duh</em>. And we'll follow the same process as each machine is it's own environment.</p>
+<p>On your development machines you should be able to edit an <code>ignore</code> file for your cloud sync (<a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Nextcloud/">Nextcloud</a> has this feature)</p>
+<p>!<a class="internal-link is-unresolved" href="/404" target="">nextcloud-ignore.PNG</a></p>
+<pre><code class="language-txt"># .ignore
+.env
+.node_modules
+.next
+.keystone
+.react-mail
+.DS_Store
+</code></pre>
+<p>This keeps your configurations flexible enough without having too much fuss. I use <code>.env.prod</code> and <code>.env.dev</code> files synced to the cloud. That helps me keep a reminder of what I use between folders wile ignoring them to the public repo</p>
+<h2 id="server" tabindex="-1">Server</h2>
+<p>my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Production Server</a> is the same machine that runs <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Nextcloud/">Nextcloud</a>. So in this instance, I'm able to dive right into the filesystem and run <code>docker compose build</code> / <code>docker compose up -d</code> at the root of whatever project I want to update / deploy</p>
+<h2 id="git-repo" tabindex="-1">Git Repo</h2>
+<p>I assume you also want to share some of these revolutionary apps to the world as well? With this set up you can stop using <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/GitHub/">GitHub</a> as a backup solution (like firing off <code>git push</code> every time a file is edited).</p>
+<p>The cloud is doing it's thing to keep all files up to date, so now you can more methodically <code>git commit -m ''</code> when a new feature makes progress.</p>
+<hr>
+<h2 id="credits" tabindex="-1">Credits</h2>
+<ul>
+<li><a class="internal-link is-unresolved" href="/404" target="">developer_box📦</a></li>
+<li></li>
 </ul>
 
       

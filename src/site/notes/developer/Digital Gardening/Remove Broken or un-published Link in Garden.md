@@ -27,7 +27,7 @@ In your dataview queries, add a line containing `WHERE file.mtime` in a separa
 ```
 TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
 FROM "mynotes"
-WHERE file.mtime
+WHERE dg-publish
 SORT file.mtime DESC
 LIMIT 10
 ```

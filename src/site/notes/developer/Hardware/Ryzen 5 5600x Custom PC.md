@@ -11,28 +11,25 @@ my computer for gaming, music making, & video editing
 DNS  - **frost.lan** *-via [[developer/Home Lab/Pi-hole\|Pi-hole]]*
 
 ## Build
-| part | brand | model | price |
-| ---- | ---- | ---- | ---- |
-| OS | Windows | 10 |  |
-| CPU | AMD RYZEN | Ryzen 5 5600x (6 cores, 12 threads) | $237.50 |
-| Motherboard | Gigabyte Aorus | elite wifi mobo x570 |  |
-| RAM | G Skill | 32G Trident RGB |  |
-| ~~GPU~~ | ~~Gigabyte Aorus~~ | ~~Windforce OC RTX 2080 SUPER 8G~~ |  |
-| GPU | AMD | ??? |  |
-| Cooler | IBuyPower [link](https://www.reddit.com/r/iBUYPOWER/comments/bjdu9j/what_aio_cooler_does_ibuy_power_use_and_how_is/?utm_source=BD&utm_medium=Search&utm_name=Bing&utm_content=PSR1) | (oem Apaltek Kraken M22 NZXT) |  |
-| Cooler | about to install an Arctik Liquid Freezer II 240mm |  |  |
-| Cooler | ~~AMD Wraith cooler~~ |  |  |
-| Storage main | SanDisk Extreme PRO M.2 | Sandisk NVMe 1tb |  |
-| Storage Ext | SanDisk Extreme PRO M.2 | NVMe 2tb |  |
-| Storage Ext |  | HDD 1tb (500gb x2 joined) |  |
-| PSU | Seasonic | 850W gold+ |  |
-| Case | Corsair |  |  |
-
-old psu: seasonic focus gx-850
-new: corsair hx1000 
+| part         | brand                                                                                                                                                                                   | model                               | price   |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------- |
+| OS           | Windows                                                                                                                                                                                 | 10                                  |         |
+| CPU          | AMD RYZEN                                                                                                                                                                               | Ryzen 5 5600x (6 cores, 12 threads) | $237.50 |
+| Motherboard  | Gigabyte Aorus                                                                                                                                                                          | elite wifi mobo x570                |         |
+| RAM          | G Skill                                                                                                                                                                                 | 32G Trident RGB                     |         |
+| ~~GPU~~      | ~~Gigabyte Aorus~~                                                                                                                                                                      | ~~Windforce OC RTX 2080 SUPER 8G~~  |         |
+| GPU          | AMD                                                                                                                                                                                     | ???                                 |         |
+| ~~Cooler~~   | ~~IBuyPower~~ [link](https://www.reddit.com/r/iBUYPOWER/comments/bjdu9j/what_aio_cooler_does_ibuy_power_use_and_how_is/?utm_source=BD&utm_medium=Search&utm_name=Bing&utm_content=PSR1) | ~~(oem Apaltek Kraken M22 NZXT)~~   |         |
+| Cooler       | Liquid Freezer II 240mm                                                                                                                                                                 | Arctik                              |         |
+| ~~Cooler~~   | ~~AMD Wraith cooler~~                                                                                                                                                                   |                                     |         |
+| Storage main | SanDisk Extreme PRO M.2                                                                                                                                                                 | Sandisk NVMe 1tb                    |         |
+| Storage      | SanDisk Extreme PRO M.2                                                                                                                                                                 | NVMe 2tb                            |         |
+| Storage      |                                                                                                                                                                                         | 500gb 2.5 SSD                       |         |
+| Storage      |                                                                                                                                                                                         | 500gb 2.5 SSD                       |         |
+| PSU          | Seasonic                                                                                                                                                                                | 850W gold+                          |         |
+| Case         | Corsair                                                                                                                                                                                 |                                     |         |
 
 Bought as a prebuilt of Facebook Marketplace **$1,600** with a AMD Ryzen 9 3900x. I swapped out the CPU with the Ryzen 5 5600x because of the better single core performance. 
-
 ## Programs & Apps 
 - Music writing & arrangement - [FL Studio (image-line.com)](https://www.image-line.com/fl-studio/)
 - Cutting music to picture -  [Ableton Live 9 ](https://www.ableton.com/en/blog/live-9-7-available-now/)

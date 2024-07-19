@@ -5216,7 +5216,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-07-19T19:44:49.330Z';
+        const searchIndexDate = '2024-07-19T20:29:59.269Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5228,9 +5228,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-07-19T19:44:49.330Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-07-19T20:29:59.269Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-07-19T19:44:49.330Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-07-19T20:29:59.269Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5541,19 +5541,19 @@
 <td></td>
 </tr>
 <tr>
-<td>Cooler</td>
-<td>IBuyPower <a href="https://www.reddit.com/r/iBUYPOWER/comments/bjdu9j/what_aio_cooler_does_ibuy_power_use_and_how_is/?utm_source=BD&amp;utm_medium=Search&amp;utm_name=Bing&amp;utm_content=PSR1" target="_blank" class="external-link">link</a></td>
-<td>(oem Apaltek Kraken M22 NZXT)</td>
+<td><s>Cooler</s></td>
+<td><s>IBuyPower</s> <a href="https://www.reddit.com/r/iBUYPOWER/comments/bjdu9j/what_aio_cooler_does_ibuy_power_use_and_how_is/?utm_source=BD&amp;utm_medium=Search&amp;utm_name=Bing&amp;utm_content=PSR1" target="_blank" class="external-link">link</a></td>
+<td><s>(oem Apaltek Kraken M22 NZXT)</s></td>
 <td></td>
 </tr>
 <tr>
 <td>Cooler</td>
-<td>about to install an Arctik Liquid Freezer II 240mm</td>
-<td></td>
+<td>Liquid Freezer II 240mm</td>
+<td>Arctik</td>
 <td></td>
 </tr>
 <tr>
-<td>Cooler</td>
+<td><s>Cooler</s></td>
 <td><s>AMD Wraith cooler</s></td>
 <td></td>
 <td></td>
@@ -5565,15 +5565,21 @@
 <td></td>
 </tr>
 <tr>
-<td>Storage Ext</td>
+<td>Storage</td>
 <td>SanDisk Extreme PRO M.2</td>
 <td>NVMe 2tb</td>
 <td></td>
 </tr>
 <tr>
-<td>Storage Ext</td>
+<td>Storage</td>
 <td></td>
-<td>HDD 1tb (500gb x2 joined)</td>
+<td>500gb 2.5 SSD</td>
+<td></td>
+</tr>
+<tr>
+<td>Storage</td>
+<td></td>
+<td>500gb 2.5 SSD</td>
 <td></td>
 </tr>
 <tr>
@@ -5590,8 +5596,6 @@
 </tr>
 </tbody>
 </table></div>
-<p>old psu: seasonic focus gx-850<br>
-new: corsair hx1000</p>
 <p>Bought as a prebuilt of Facebook Marketplace <strong>$1,600</strong> with a AMD Ryzen 9 3900x. I swapped out the CPU with the Ryzen 5 5600x because of the better single core performance.</p>
 <h2 id="programs-and-amp-apps" tabindex="-1">Programs &amp; Apps</h2>
 <ul>
@@ -5929,7 +5933,8 @@ I use open headphones and am also super sensible to loud PCs. My latest build ha
                               
                               <div class="backlinks">
                                     <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Docker🐳/Transfer Docker image to other server without remote repository/" data-note-icon="" class="backlink">Transfer Docker image to other server without remote repository</a>
+                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/Publish Test/" data-note-icon="" class="backlink">Markdown Testing Ground for Published Notes</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Docker🐳/Transfer Docker image to other server without remote repository/" data-note-icon="" class="backlink">Transfer Docker image to other server without remote repository</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/developer/Hardware/Homelab Hardware PC Builds/" data-note-icon="" class="backlink">Homelab Hardware PC Builds</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/" data-note-icon="" class="backlink">Welcome to Pywrite Garden</a>
                                                 </div></div>

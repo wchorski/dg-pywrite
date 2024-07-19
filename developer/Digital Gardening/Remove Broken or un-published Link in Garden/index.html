@@ -5216,7 +5216,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-07-19T19:44:49.330Z';
+        const searchIndexDate = '2024-07-19T20:29:59.269Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5228,9 +5228,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-07-19T19:44:49.330Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-07-19T20:29:59.269Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-07-19T19:44:49.330Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-07-19T20:29:59.269Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5524,7 +5524,7 @@ LIMIT 10
 <p>In your dataview queries, add a line containing <code>WHERE file.mtime</code> in a separate line, e.g.</p>
 <pre><code>TABLE dateformat(file.mtime, &quot;dd.MM.yyyy - HH:mm&quot;) AS &quot;Last modified&quot;
 FROM &quot;mynotes&quot;
-WHERE file.mtime
+WHERE dg-publish
 SORT file.mtime DESC
 LIMIT 10
 </code></pre>

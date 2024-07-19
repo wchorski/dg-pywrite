@@ -5216,7 +5216,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-07-19T19:44:49.330Z';
+        const searchIndexDate = '2024-07-19T20:29:59.269Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5228,9 +5228,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-07-19T19:44:49.330Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-07-19T20:29:59.269Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-07-19T19:44:49.330Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-07-19T20:29:59.269Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5543,13 +5543,13 @@
 <td>-</td>
 </tr>
 <tr>
-<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel i7-7700 Custom PC/">Intel i7-7700 Custom PC</a></td>
-<td>nicOS</td>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Intel NUC</a></td>
+<td>icicle</td>
 <td>-</td>
 </tr>
 <tr>
-<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel NUC/">Intel NUC</a></td>
-<td>icicle</td>
+<td><a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Intel i7-7700 Custom PC/">Intel i7-7700 Custom PC</a></td>
+<td>nicOS</td>
 <td>-</td>
 </tr>
 <tr>

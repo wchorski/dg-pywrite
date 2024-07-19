@@ -65,8 +65,10 @@ handle_string_clean() {
 
   echo "$longest_string"
 }
-
-echo "" > "./.logs/all-images.log"
+## start with empty file, or delete previous data
+# : > "./.logs/all-images.log"
+date > "./.logs/all-images.log"
+echo "##########" > "./.logs/all-images.log"
 
 for i in "${!REPOSITORIES[@]}"
 do
@@ -89,12 +91,14 @@ do
   
   CLEAN_FILENAME=$(sed -E 's/(http|https):\/\///g' <<< "${NAMESPACES[i]}_$REPO" | sed 's/\//_/g')
 
-  ## for single file logs
+  ## for one log file
   echo $CLEAN_FILENAME >> "./.logs/all-images.log"
-  echo $cleanlocalVersion > "./.logs/local-version/$CLEAN_FILENAME.log"     && echo $cleanlocalVersion >> "./.logs/all-images.log"
-  echo $cleanRepoLatestVersion > "./.logs/repo-version/$CLEAN_FILENAME.log" && echo $cleanRepoLatestVersion >> "./.logs/all-images.log"
+  echo $cleanlocalVersion >> "./.logs/all-images.log"
+  echo $cleanRepoLatestVersion >> "./.logs/all-images.log"
   echo "---" >> "./.logs/all-images.log"
-
+  ## for single file logs | `-n` stops 2nd line from being created
+  echo -n $cleanlocalVersion > "./.logs/local-version/$CLEAN_FILENAME.log"    
+  echo -n $cleanRepoLatestVersion > "./.logs/repo-version/$CLEAN_FILENAME.log"
   ## for local terminal output
   echo $CLEAN_FILENAME
   echo "local : $cleanlocalVersion"
@@ -126,58 +130,29 @@ I'll put this script to run in a `cron job` and my **Home Assistant** dashboard 
 With echo logs in place, this is what your console will look like. I'm thinking either I keep the `repo` and `local` files separate, or just print 1 file like this per image.
 
 ```shell
-portainer-ce
-local : 2.19.5
-latest: 2.19.5
+Thu 18 Jul 2024 02:53:57 PM CDT
+##########
+portainer_portainer-ce
+2.19.5
+2.19.5
 ---
-sftp
-local : build-5.1.71
-latest: build-5.1.71
+linuxserver_duplicati
+v2.0.8.1-2.0.8.1_beta_2024-05-07-ls211
+version-v2.0.8.1-2.0.8.1_beta_2024-05-07
 ---
-zspotify
-local : 2.1.1
-latest: 2.1.1
+library_nextcloud
+:29
+29.0.3-apache
 ---
-jellyfin
-local : 10.9.7.20240625-002012
-latest: 10.9.7.20240625-002012
+jc21_nginx-proxy-manager
+2.11.3
+2.11.3
 ---
-pms-docker
-local : 1.40.3.8555-fef15d30c
-latest: 1.40.4.8679-424562606
----
-duplicati
-local : 2.0.8.1_beta_2024-05-07
-latest: 2.0.8.1_beta_2024-05-07
----
-prowlarr
-local : 1.20.1.4603-ls78
-latest: 1.20.1.4603-ls78
----
-flaresolverr
-local : v3.3.21
-latest: v3.3.21
----
-radarr
-local : 5.7.0.8882-ls228
-latest: 5.7.0.8882-ls228
----
-sonarr
-local : 4.0.6.1805-ls245
-latest: 4.0.6.1805-ls245
----
-lidarr
-local : 2.3.3.4204-ls3
-latest: 2.3.3.4204-ls3
----
-qbittorrent
-local : 4.6.5-r0-ls340
-latest: 4.6.5-r0-ls340
----
+...
 ```
 
 ## Postmortem
-Is there a better way to do this? Maybe. I could have simplified things by just comparing `update_date` value, but that would only tell me how old the version was, not if it was a minor or major change. 
+Is there a better way to do this? Maybe. I could have simplified things by just comparing `update_date` value, but that would only tell me how old the version was, not if it was a minor or major change. There is this promising [cli hub-tool](https://github.com/docker/hub-tool), but still too new to tell.
 
 This is a great example of making a lack luster API work for you. We have to visit the API twice per package, and we have to filter through 60 results just to get the 1 we want (`page_size=60`) since the version we want could live lower down the list. It's expensive, but it works. 
 ## Troubleshooting

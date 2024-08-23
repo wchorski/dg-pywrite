@@ -662,17 +662,6 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/CSS/Toggle Checkbox CSS/">Toggle Checkbox CSS </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/CSS/Toggle Checkbox with pure CSS Html/">Toggle Checkbox with pure CSS Html </a>
                 </div>
             
@@ -5337,7 +5326,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-08-23T14:49:54.348Z';
+        const searchIndexDate = '2024-08-23T15:17:20.353Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5349,9 +5338,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T14:49:54.348Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:17:20.353Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T14:49:54.348Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:17:20.353Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5610,7 +5599,7 @@
                 
               
             </div>
-          <div class="timestamps"></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-07-18T18:10:53.796-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-18T19:02:06.652-05:00"></span></div></div></div>
       
       
         
@@ -5620,10 +5609,26 @@
       
       
       <p>I have a data schema named <strong>Booking</strong> in my <a class="internal-link" target="" data-note-icon="" href="/developer/KeystoneJS/KeystoneJS/">KeystoneJS</a> app. The <a href="https://keystonejs.com/docs/config/access-control" target="_blank" class="external-link">Docs</a>explain in a broad term, but examples for an individual field access is still confusing. Here is my example with permissions, access, etc.</p>
+<h2 id="access" tabindex="-1">Access</h2>
 <ul>
 <li><strong>Customer</strong>: Can only view their certain booking <code>canViewBookings</code>.</li>
 <li><strong>Employees</strong> Can update booking assigned to them.</li>
 </ul>
+<p>How I set the access for the whole <strong>Booking</strong> schema</p>
+<pre><code class="language-ts">access: {
+    filter: {
+      query: rules.canViewBookings,      
+      update: rules.canManageBookings,
+      delete: () =&gt; false,
+    },
+    operation: {
+      create: permissions.canManageBookings,
+      query: permissions.isLoggedIn,
+      update: permissions.isLoggedIn,
+      delete: () =&gt; false,
+    }
+  },
+</code></pre>
 <h2 id="no-permissions-set" tabindex="-1">No Permissions Set</h2>
 <p>Currently both <strong>Customer</strong> and <strong>Employee</strong> can view all fields on the <strong>Booking</strong> schema.</p>
 <p><picture src="/img/user/attachments/Pasted%20image%2020240718183126.png" alt="attachments/Pasted image 20240718183126.png"><source       media="(max-width:480px)"
@@ -5941,6 +5946,9 @@
                                           <nav class="toc">
                 <ol>
                     
+                    <li><a href="#access">Access</a>
+            		</li>
+
                     <li><a href="#no-permissions-set">No Permissions Set</a>
             		</li>
 

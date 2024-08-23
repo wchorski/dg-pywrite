@@ -662,17 +662,6 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/CSS/Toggle Checkbox CSS/">Toggle Checkbox CSS </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/CSS/Toggle Checkbox with pure CSS Html/">Toggle Checkbox with pure CSS Html </a>
                 </div>
             
@@ -5337,7 +5326,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-08-23T14:49:54.348Z';
+        const searchIndexDate = '2024-08-23T15:17:20.353Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5349,9 +5338,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T14:49:54.348Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:17:20.353Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T14:49:54.348Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:17:20.353Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5628,7 +5617,7 @@
                 
               
             </div>
-          <div class="timestamps"></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-08-02T16:30:25.000-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-08-02T16:30:25.000-05:00"></span></div></div></div>
       
       
         
@@ -5812,12 +5801,41 @@ The database is used for transactional file locking. To enhance performance, ple
      'password' =&gt; '', // recommended!, if not defined no password will be used.
 	),
 </code></pre>
+<h2 id="rescan-files" tabindex="-1">Rescan files</h2>
+<p>If you edited any files outside of Nextcloud UI (possibly in the terminal), you will need to rescan files to update Nextcloud's database</p>
+<pre><code class="language-bash">docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ  files:scan --all
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ  files:cleanup
+</code></pre>
+<pre><code class="language-bash">## Go to the nextcloud folder (Ex. /var/www/nextcloud) where the **occ** exists.
+
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ maintenance:mode --on
+
+docker exec -it -u 33 nextcloud-app-1 redis-cli --askpass -s /var/run/redis/redis.sock flushall
+Password can be found in nextcloud_folder/config/config.php
+
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ maintenance:mode --off
+
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ files:scan --all
+
+## This scans for all files within the specific user
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ files:scan-app-data
+
+## This scans for all the shared folder or files that has been shared
+</code></pre>
+<h3 id="flush-file-lock-cache-in-sql" tabindex="-1">Flush File Lock Cache in SQL</h3>
+<pre><code class="language-bash">docker exec nextcloud-db-1 mysql nextcloud -p$MYSQL_ROOT_PASSWORD -e &quot;SELECT * FROM oc_file_locks WHERE \`lock\`&lt;&gt;0;&quot;
+</code></pre>
 <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#todo">#todo</a></p>
 <ul class="task-list">
 <li class="task-list-item"><input type="checkbox" id="cbx_0" checked="true" disabled="true"><label for="cbx_0"> man description</label></li>
 <li class="task-list-item"><input type="checkbox" id="cbx_1" checked="true" disabled="true"><label for="cbx_1"> my desc</label></li>
 <li class="task-list-item"><input type="checkbox" id="cbx_2" checked="true" disabled="true"><label for="cbx_2"> working on contact syncing</label></li>
 <li class="task-list-item"><input type="checkbox" id="cbx_3" disabled="true"><label for="cbx_3"> try out nextcloud-aio</label></li>
+</ul>
+<hr>
+<h2 id="credits" tabindex="-1">Credits</h2>
+<ul>
+<li><a href="https://help.nextcloud.com/t/file-is-locked-how-to-unlock/1883/94" target="_blank" class="external-link">File is locked - how to unlock - 📑 How to - Nextcloud community</a></li>
 </ul>
 
       
@@ -6105,6 +6123,18 @@ The database is used for transactional file locking. To enhance performance, ple
                     <li><a href="#enhance-memcache-file-locking">enhance memcache file locking</a>
             		</li>
                 </ol>
+            		</li>
+
+                    <li><a href="#rescan-files">Rescan files</a>
+            
+                <ol>
+                    
+                    <li><a href="#flush-file-lock-cache-in-sql">Flush File Lock Cache in SQL</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#credits">Credits</a>
             		</li>
                 </ol>
             </nav>

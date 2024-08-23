@@ -662,17 +662,6 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/CSS/Toggle Checkbox CSS/">Toggle Checkbox CSS </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/CSS/Toggle Checkbox with pure CSS Html/">Toggle Checkbox with pure CSS Html </a>
                 </div>
             
@@ -5337,7 +5326,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-08-23T14:49:54.348Z';
+        const searchIndexDate = '2024-08-23T15:17:20.353Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5349,9 +5338,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T14:49:54.348Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:17:20.353Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T14:49:54.348Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:17:20.353Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5592,7 +5581,7 @@
                 
               
             </div>
-          <div class="timestamps"></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-08-02T01:56:32.000-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-08-02T01:56:32.000-05:00"></span></div></div></div>
       
       
         
@@ -5665,7 +5654,18 @@ CMD [&quot;yarn&quot;, &quot;start&quot;]
 
 </code></pre>
 <h3 id="best" tabindex="-1">BEST</h3>
-<pre><code class="language-Dockerfile">FROM node:18-alpine as builder
+<p>Use a variable in your <code>.env</code> file</p>
+<pre><code class="language-env">## Linux 64 bit
+PRODUCTION_PLATFORM='linux/amd64'
+
+## MacOS M1 Silicon
+PRODUCTION_PLATFORM='linux/arm64/v8'
+</code></pre>
+<pre><code class="language-Dockerfile">ARG PRODUCTION_PLATFORM
+FROM --platform=$PRODUCTION_PLATFORM node:20-alpine AS base
+
+
+FROM base as builder
 WORKDIR /app
 
 COPY yarn.lock .
@@ -5674,7 +5674,8 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
-FROM node:18-alpine as runner
+
+FROM base as runner
 WORKDIR /app
 
 COPY --from=builder /app/package.json .
@@ -5691,12 +5692,24 @@ CMD [&quot;yarn&quot;, &quot;start&quot;]
 
 </code></pre>
 <h3 id="standalone" tabindex="-1">Standalone</h3>
-<p>In your <code>next.config.js</code> file, enable the standalone output</p>
-<pre><code class="language-js">experimental: {  
-	outputStandalone: true,  
-},
+<p>In your <code>next.config.mjs</code> file, enable the standalone output for <strong>Next 14</strong></p>
+<pre><code class="language-mjs">export default {
+  // todo look into build optimization with `standalone` mode
+  output: &quot;standalone&quot;,
+  ...
 </code></pre>
-<pre><code class="language-Dockerfile">FROM node:18-alpine as builder
+<pre><code>Use a variable in your `.env` file 
+```env
+## Linux 64 bit
+PRODUCTION_PLATFORM='linux/amd64'
+
+## MacOS M1 Silicon
+PRODUCTION_PLATFORM='linux/arm64/v8'
+</code></pre>
+<pre><code class="language-Dockerfile">ARG PRODUCTION_PLATFORM
+FROM --platform=$PRODUCTION_PLATFORM node:20-alpine AS base
+
+FROM base as builder
 WORKDIR /app
 
 COPY yarn.lock .
@@ -5705,7 +5718,7 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
-FROM node:18-alpine as runner
+FROM base as runner
 WORKDIR /app
 
 COPY --from=builder /app/package.json .

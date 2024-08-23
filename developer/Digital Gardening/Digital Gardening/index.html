@@ -662,17 +662,6 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/CSS/Toggle Checkbox CSS/">Toggle Checkbox CSS </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/CSS/Toggle Checkbox with pure CSS Html/">Toggle Checkbox with pure CSS Html </a>
                 </div>
             
@@ -5337,7 +5326,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-08-23T14:49:54.348Z';
+        const searchIndexDate = '2024-08-23T15:17:20.353Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5349,9 +5338,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T14:49:54.348Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:17:20.353Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T14:49:54.348Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:17:20.353Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5592,7 +5581,7 @@
                 
               
             </div>
-          <div class="timestamps"></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-07-19T15:32:18.000-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-21T18:38:54.795-05:00"></span></div></div></div>
       
       
         
@@ -5674,6 +5663,12 @@ replit.nix
 </ol>
 </li>
 </ol>
+<h2 id="custom-frontmatter" tabindex="-1">Custom Frontmatter</h2>
+<ul>
+<li><a href="https://github.com/oleeskild/obsidian-digital-garden/issues/354" target="_blank" class="external-link">How do I see all frontmatter on my website? · Issue <a class="tag" onclick="toggleTagSearch(this)" data-content="#354">#354</a> · oleeskild/obsidian-digital-garden (github.com)</a></li>
+</ul>
+<pre><code class="language-njk">{% if openSource %}&lt;strong&gt;Is it open source?&lt;/strong&gt; {{ openSource }}{% endif %}
+</code></pre>
 <h2 id="publishing-platforms" tabindex="-1">Publishing Platforms</h2>
 <ul>
 <li>Self host - <a class="internal-link is-unresolved" href="/404" target="">Obsidian Publish with NextJS</a></li>
@@ -5686,6 +5681,12 @@ replit.nix
 <h2 id="inspiration" tabindex="-1">Inspiration</h2>
 <ul>
 <li><a href="https://hermitage.utsob.me/" target="_blank" class="external-link">The Threshold (utsob.me)</a></li>
+<li>Hermitage
+<ul>
+<li>Live garden: <a href="https://hermitage.utsob.me/" target="_blank" class="external-link">The Threshold (utsob.me)</a></li>
+<li>garden repo: <a href="https://github.com/uroybd/topobon" target="_blank" class="external-link">uroybd/topobon (github.com)</a></li>
+</ul>
+</li>
 </ul>
 <hr>
 <h2 id="credits" tabindex="-1">Credits</h2>
@@ -5951,6 +5952,9 @@ replit.nix
             		</li>
 
                     <li><a href="#static-site-generation">Static Site Generation</a>
+            		</li>
+
+                    <li><a href="#custom-frontmatter">Custom Frontmatter</a>
             		</li>
 
                     <li><a href="#publishing-platforms">Publishing Platforms</a>

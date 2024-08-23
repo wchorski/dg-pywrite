@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Pokémon Genning; Create a Mew from start to finish/"}
+{"dg-publish":true,"permalink":"/developer/emulation/Pokémon Genning; Create a Mew from start to finish/","created":"2024-03-13T20:40:16.551-05:00","updated":"2024-03-14T21:56:09.000-05:00"}
 ---
 
 This is a derivative of my all encompassing guide to [[developer/emulation/Pokemon Genning\|Pokemon Genning]]. Here I'll go from start to finish on how to generate a *Legal* Mew into a Pokémon game. There are few tutorials out there that are either to vague or assume a lot from the reader. This guide will be completely #n00b friendly

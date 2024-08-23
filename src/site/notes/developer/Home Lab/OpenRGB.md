@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/OpenRGB/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/OpenRGB/","created":"2024-03-13T20:41:46.395-05:00","updated":"2024-03-14T21:56:30.000-05:00"}
 ---
 
 ## Install

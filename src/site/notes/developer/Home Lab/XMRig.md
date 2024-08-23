@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/XMRig/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/XMRig/","created":"2024-03-13T20:41:53.806-05:00","updated":"2024-03-14T21:56:31.000-05:00"}
 ---
 
 > [!info] [XMRig](https://xmrig.com/)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Animate On Scroll With No JS/","tags":["style","css","no_js","webdev","animation"]}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Animate On Scroll With No JS/","tags":["style","css","no_js","webdev","animation"],"created":"2024-06-15T09:09:14.000-05:00","updated":"2024-06-15T09:09:14.000-05:00"}
 ---
 
 Trigger [[developer/CSS/CSS\|CSS]] animation when element comes into view. No javascript, no libraries.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/CouchDB/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/CouchDB/","created":"2024-03-13T20:41:45.024-05:00","updated":"2024-03-14T21:56:29.000-05:00"}
 ---
 
 ## [Apache CouchDB](https://couchdb.apache.org/)

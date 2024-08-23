@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Controllers/","tags":["emulation","gamer","gaming","3rd-party","linux"]}
+{"dg-publish":true,"permalink":"/developer/emulation/Controllers/","tags":["emulation","gamer","gaming","3rd-party","linux"],"created":"2024-04-20T11:08:10.684-05:00","updated":"2024-04-23T16:59:22.000-05:00"}
 ---
 
 ## PS3 Dualshock Controller Bluetooth

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Input Range Slider With Box Shadow Animation/"}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Input Range Slider With Box Shadow Animation/","created":"2024-02-29T22:19:55.785-06:00","updated":"2024-03-01T00:18:17.000-06:00"}
 ---
 
 

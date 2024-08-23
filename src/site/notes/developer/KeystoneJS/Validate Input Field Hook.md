@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/Validate Input Field Hook/"}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/Validate Input Field Hook/","created":"2024-02-29T22:19:56.034-06:00","updated":"2024-06-04T15:45:30.000-05:00"}
 ---
 
 comparison of how you could sanitize data, or just throw a `validation` error upon POST

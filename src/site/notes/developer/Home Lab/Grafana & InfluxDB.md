@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Grafana & InfluxDB/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Grafana & InfluxDB/","created":"2024-03-13T20:41:12.427-05:00","updated":"2024-03-14T21:56:24.000-05:00"}
 ---
 
 I use the Grafana and InfluxDB [[developer/Home Lab/Home Assistant\|Home Assistant]] integrations to better track and monitor all sorts of sensors and services.

@@ -1,11 +1,28 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS 6 Hide and Restrict field in schema/","tags":["KeystoneJS","typescript","authorization"]}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS 6 Hide and Restrict field in schema/","tags":["KeystoneJS","typescript","authorization"],"created":"2024-07-18T18:10:53.796-05:00","updated":"2024-07-18T19:02:06.652-05:00"}
 ---
 
 I have a data schema named **Booking** in my [[developer/KeystoneJS/KeystoneJS\|KeystoneJS]] app. The [Docs](https://keystonejs.com/docs/config/access-control)explain in a broad term, but examples for an individual field access is still confusing. Here is my example with permissions, access, etc.
-
+## Access
 - **Customer**: Can only view their certain booking `canViewBookings`.
 - **Employees** Can update booking assigned to them.
+
+How I set the access for the whole **Booking** schema
+```ts
+access: {
+    filter: {
+      query: rules.canViewBookings,      
+      update: rules.canManageBookings,
+      delete: () => false,
+    },
+    operation: {
+      create: permissions.canManageBookings,
+      query: permissions.isLoggedIn,
+      update: permissions.isLoggedIn,
+      delete: () => false,
+    }
+  },
+```
 
 ## No Permissions Set
 Currently both **Customer** and **Employee** can view all fields on the **Booking** schema.

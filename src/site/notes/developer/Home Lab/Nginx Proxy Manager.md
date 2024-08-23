@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Nginx Proxy Manager/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Nginx Proxy Manager/","created":"2024-03-13T20:41:09.764-05:00","updated":"2024-03-14T21:56:24.000-05:00"}
 ---
 
 

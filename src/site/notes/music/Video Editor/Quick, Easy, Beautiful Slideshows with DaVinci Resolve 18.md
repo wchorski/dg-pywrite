@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/Video Editor/Quick, Easy, Beautiful Slideshows with DaVinci Resolve 18/","tags":["video","filmeditor","pictures","DaVinci_Resolve"]}
+{"dg-publish":true,"permalink":"/music/Video Editor/Quick, Easy, Beautiful Slideshows with DaVinci Resolve 18/","tags":["video","filmeditor","pictures","DaVinci_Resolve"],"created":"2024-03-23T10:17:01.929-05:00","updated":"2024-03-24T21:03:56.000-05:00"}
 ---
 
 Here's a [[music/Video Editor/Video Editor\|Video Editor]] tip to making... *just read the title of this note again*

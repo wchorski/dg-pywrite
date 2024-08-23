@@ -1,63 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Toggle Checkbox with pure CSS Html/","tags":["css","style","html","scss","no_js"],"created":"2024-02-29T22:19:55.811-06:00","updated":"2024-08-23T09:48:23.652-05:00"}
+{"dg-publish":true,"permalink":"/developer/CSS/Toggle Checkbox with pure CSS Html/","tags":["css","style","html","scss","no_js"],"created":"2024-02-29T22:19:55.811-06:00","updated":"2024-08-23T10:15:51.046-05:00"}
 ---
 
-## Example
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="style.css" />
-		<style>
-			label:has(input[type="checkbox"]) {
-				cursor: pointer;
-			}
-			
-			input[type="checkbox"] {
-				appearance: none;
-				position: relative;
-				display: inline-block;
-				background: lightgrey;
-				height: 1.65rem;
-				width: 2.75rem;
-				vertical-align: middle;
-				border-radius: 2rem;
-				box-shadow: 0px 1px 3px #0003 inset;
-				transition: 250ms linear background;
-				cursor: pointer;
-			}
-			
-			input[type="checkbox"]::before {
-				content: "";
-				display: block;
-				width: 1.25rem;
-				height: 1.25rem;
-				background: #fff;
-				border-radius: 1.2rem;
-				position: absolute;
-				top: 0.2rem;
-				left: 0.2rem;
-				box-shadow: 0px 1px 3px #0003 inset;
-				transition: 0.25s linear transform;
-				transform: translateX(0rem);
-			}
-			input[type="checkbox"]:checked {
-				background: limegreen;
-			}
-			input[type="checkbox"]:checked::before {
-				transform: translateX(1rem);
-			}
-		</style>
-	</head>
-	<body>
-		<label>
-			<input type="checkbox" />
-			<span> Check Me Out! </span>
-		</label>
-	</body>
-</html>
-
+## Live Demo
+<iframe src="https://assets.tawtaw.site/tawtaw/checkbox/index.html" width="100%" height="50"></iframe>
 ## Html
 ```html
 <label>

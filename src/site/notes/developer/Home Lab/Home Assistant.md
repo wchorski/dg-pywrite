@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Home Assistant/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Home Assistant/","created":"2024-03-13T20:41:23.314-05:00","updated":"2024-03-14T21:56:26.000-05:00"}
 ---
 
 [Home Assistant (home-assistant.io)](https://www.home-assistant.io/)

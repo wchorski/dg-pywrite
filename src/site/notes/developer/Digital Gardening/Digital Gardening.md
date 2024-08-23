@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Digital Gardening/Digital Gardening/"}
+{"dg-publish":true,"permalink":"/developer/Digital Gardening/Digital Gardening/","created":"2024-07-19T15:32:18.000-05:00","updated":"2024-07-21T18:38:54.795-05:00"}
 ---
 
 
@@ -77,7 +77,11 @@ Now to share this garden with the world. I've tried my hand at a few publishing 
 	1. The new kid on the block. I'm really digging the integrated plugin right inside of [[developer/Home Lab/Obsidian.md\|Obsidian.md]]. Still has a bit to go, but could be the most useful if you're willing to give it a try. 
 	2. NextJS 
 
-
+## Custom Frontmatter
+- [How do I see all frontmatter on my website? · Issue #354 · oleeskild/obsidian-digital-garden (github.com)](https://github.com/oleeskild/obsidian-digital-garden/issues/354)
+```njk
+{% if openSource %}<strong>Is it open source?</strong> {{ openSource }}{% endif %}
+```
 ## Publishing Platforms
 
 - Self host - [[developer/Projects/Obsidian Publish with NextJS\|Obsidian Publish with NextJS]]
@@ -86,6 +90,9 @@ Now to share this garden with the world. I've tried my hand at a few publishing 
 
 ## Inspiration
 - [The Threshold (utsob.me)](https://hermitage.utsob.me/)
+- Hermitage
+	- Live garden: [The Threshold (utsob.me)](https://hermitage.utsob.me/)
+	- garden repo: [uroybd/topobon (github.com)](https://github.com/uroybd/topobon)
 
 ---
 ## Credits

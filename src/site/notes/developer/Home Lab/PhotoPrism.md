@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/PhotoPrism/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/PhotoPrism/","created":"2024-03-13T20:41:38.685-05:00","updated":"2024-03-14T21:56:28.000-05:00"}
 ---
 
 #pictures #selfhosted

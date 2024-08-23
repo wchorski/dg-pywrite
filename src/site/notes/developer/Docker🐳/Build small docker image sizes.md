@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Docker🐳/Build small docker image sizes/"}
+{"dg-publish":true,"permalink":"/developer/Docker🐳/Build small docker image sizes/","created":"2024-08-02T01:56:32.000-05:00","updated":"2024-08-02T01:56:32.000-05:00"}
 ---
 
 I was building a [[developer/NextJS/NextJS\|NextJS]] image with [[developer/Home Lab/Docker\|Docker]] and ended up with over **6gb** file sizes. 
@@ -76,8 +76,21 @@ CMD ["yarn", "start"]
 ```
 
 ### BEST
+Use a variable in your `.env` file 
+```env
+## Linux 64 bit
+PRODUCTION_PLATFORM='linux/amd64'
+
+## MacOS M1 Silicon
+PRODUCTION_PLATFORM='linux/arm64/v8'
+```
+
 ```Dockerfile
-FROM node:18-alpine as builder
+ARG PRODUCTION_PLATFORM
+FROM --platform=$PRODUCTION_PLATFORM node:20-alpine AS base
+
+
+FROM base as builder
 WORKDIR /app
 
 COPY yarn.lock .
@@ -86,7 +99,8 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
-FROM node:18-alpine as runner
+
+FROM base as runner
 WORKDIR /app
 
 COPY --from=builder /app/package.json .
@@ -105,15 +119,29 @@ CMD ["yarn", "start"]
 
 
 ### Standalone
-In your `next.config.js` file, enable the standalone output
-```js
-experimental: {  
-	outputStandalone: true,  
-},
+In your `next.config.mjs` file, enable the standalone output for **Next 14**
+```mjs
+export default {
+  // todo look into build optimization with `standalone` mode
+  output: "standalone",
+  ...
+```
+
+```
+Use a variable in your `.env` file 
+```env
+## Linux 64 bit
+PRODUCTION_PLATFORM='linux/amd64'
+
+## MacOS M1 Silicon
+PRODUCTION_PLATFORM='linux/arm64/v8'
 ```
 
 ```Dockerfile
-FROM node:18-alpine as builder
+ARG PRODUCTION_PLATFORM
+FROM --platform=$PRODUCTION_PLATFORM node:20-alpine AS base
+
+FROM base as builder
 WORKDIR /app
 
 COPY yarn.lock .
@@ -122,7 +150,7 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
-FROM node:18-alpine as runner
+FROM base as runner
 WORKDIR /app
 
 COPY --from=builder /app/package.json .

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Mixing Style Objects Inline/"}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Mixing Style Objects Inline/","created":"2024-02-29T22:19:56.211-06:00","updated":"2024-06-04T15:45:39.000-05:00"}
 ---
 
 

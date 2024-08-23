@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Create an Cloned Image of Your Raspberry Pi/","tags":["linux","hardware"]}
+{"dg-publish":true,"permalink":"/developer/Linux/Create an Cloned Image of Your Raspberry Pi/","tags":["linux","hardware"],"created":"2024-03-05T22:12:54.643-06:00","updated":"2024-03-06T13:20:21.000-06:00"}
 ---
 
 ## External Drive

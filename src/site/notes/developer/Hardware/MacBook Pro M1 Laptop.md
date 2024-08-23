@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Hardware/MacBook Pro M1 Laptop/"}
+{"dg-publish":true,"permalink":"/developer/Hardware/MacBook Pro M1 Laptop/","created":"2024-02-29T22:19:55.880-06:00","updated":"2024-03-01T00:20:15.000-06:00"}
 ---
 
 

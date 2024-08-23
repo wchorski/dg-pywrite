@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Nextcloud/","tags":["cloud","nextcloud","owncloud","media","assets","management"]}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Nextcloud/","tags":["cloud","nextcloud","owncloud","media","assets","management"],"created":"2024-08-02T16:30:25.000-05:00","updated":"2024-08-02T16:30:25.000-05:00"}
 ---
 
 #cloud #gmail #opensource 
@@ -170,9 +170,42 @@ If you want to configure **Redis** to listen on an Unix socket (which is recomme
      'password' => '', // recommended!, if not defined no password will be used.
 	),
 ```
+## Rescan files
+If you edited any files outside of Nextcloud UI (possibly in the terminal), you will need to rescan files to update Nextcloud's database
+```bash
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ  files:scan --all
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ  files:cleanup
+```
+
+```bash
+## Go to the nextcloud folder (Ex. /var/www/nextcloud) where the **occ** exists.
+
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ maintenance:mode --on
+
+docker exec -it -u 33 nextcloud-app-1 redis-cli --askpass -s /var/run/redis/redis.sock flushall
+Password can be found in nextcloud_folder/config/config.php
+
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ maintenance:mode --off
+
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ files:scan --all
+
+## This scans for all files within the specific user
+docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ files:scan-app-data
+
+## This scans for all the shared folder or files that has been shared
+```
+
+### Flush File Lock Cache in SQL
+```bash
+docker exec nextcloud-db-1 mysql nextcloud -p$MYSQL_ROOT_PASSWORD -e "SELECT * FROM oc_file_locks WHERE \`lock\`<>0;"
+```
 
 #todo 
 - [x] man description
 - [x] my desc
 - [x] working on contact syncing
 - [ ] try out nextcloud-aio
+
+---
+## Credits
+- [File is locked - how to unlock - 📑 How to - Nextcloud community](https://help.nextcloud.com/t/file-is-locked-how-to-unlock/1883/94)

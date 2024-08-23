@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/vaultwarden/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/vaultwarden/","created":"2024-03-13T20:41:34.073-05:00","updated":"2024-03-14T21:56:28.000-05:00"}
 ---
 
 

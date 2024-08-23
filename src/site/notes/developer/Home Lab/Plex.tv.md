@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Plex.tv/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Plex.tv/","created":"2024-07-09T13:25:22.000-05:00","updated":"2024-07-09T13:25:22.000-05:00"}
 ---
 
 #music #movie #tv #film #media #player

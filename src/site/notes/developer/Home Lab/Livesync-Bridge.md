@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Livesync-Bridge/"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Livesync-Bridge/","created":"2024-03-13T20:41:19.875-05:00","updated":"2024-03-14T21:56:25.000-05:00"}
 ---
 
 #github #netlify 

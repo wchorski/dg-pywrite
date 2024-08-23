@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Handle Dark Light Themes The Right Way/","tags":["css","style","theme","darkmode"]}
+{"dg-publish":true,"permalink":"/developer/CSS/Handle Dark Light Themes The Right Way/","tags":["css","style","theme","darkmode"],"created":"2024-03-07T07:02:43.136-06:00","updated":"2024-03-06T13:20:21.000-06:00"}
 ---
 
 Respect a user's system settings by setting up your [[developer/CSS/CSS\|CSS]] in a dynamic way. 

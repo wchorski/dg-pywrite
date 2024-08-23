@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Prometheus/","tags":["docker","monitor","container"]}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Prometheus/","tags":["docker","monitor","container"],"created":"2024-04-28T22:07:53.922-05:00","updated":"2024-04-30T21:29:23.000-05:00"}
 ---
 
 Creating a [[developer/Home Lab/Home Lab 🏠\|Home Lab 🏠]] is like gardening. The more it grows, the harder it is to manage. Currently I monitor my [[developer/Hardware/Intel NUC\|Server]] with a simple [[developer/Home Lab/Glances\|Glances]] solution. This gets me the host's `CPU` `RAM` `Memory Storage` `Network` etc. 

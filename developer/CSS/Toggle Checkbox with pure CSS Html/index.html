@@ -5326,7 +5326,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-08-23T15:17:20.353Z';
+        const searchIndexDate = '2024-08-23T15:22:41.891Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5338,9 +5338,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:17:20.353Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:22:41.891Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:17:20.353Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:22:41.891Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5611,7 +5611,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-02-29T22:19:55.811-06:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-08-23T10:15:51.046-05:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-02-29T22:19:55.811-06:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-08-23T10:21:34.696-05:00"></span></div></div></div>
       
       
         
@@ -5622,13 +5622,16 @@
       
       <h2 id="live-demo" tabindex="-1">Live Demo</h2>
 <iframe src="https://assets.tawtaw.site/tawtaw/checkbox/index.html" width="100%" height="50"></iframe>
-## Html
-```html
-<label>
-	<input type="checkbox" >
-	<span> Check Me Out! </span>
-</label>
-```
+<h2 id="html" tabindex="-1">Html</h2>
+<pre><code class="language-html">&lt;label&gt;
+	&lt;input type=&quot;checkbox&quot; /&gt;
+	&lt;span&gt; Check Me Out! &lt;/span&gt;
+&lt;/label&gt;
+</code></pre>
+<div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> the <code>&lt;span&gt;</code> tag isn't needed but is nice to have once you start applying any <code>grid</code> or <code>flex</code></div></div>
+<div class="callout-content">
+<p>
+</p></div></div>
 <h2 id="css" tabindex="-1">CSS</h2>
 <pre><code class="language-css">label:has(input[type=&quot;checkbox&quot;]) {
 	cursor: pointer;
@@ -5982,6 +5985,9 @@ input[type=&quot;checkbox&quot;].toggle:checked + label {
                 <ol>
                     
                     <li><a href="#live-demo">Live Demo</a>
+            		</li>
+
+                    <li><a href="#html">Html</a>
             		</li>
 
                     <li><a href="#css">CSS</a>

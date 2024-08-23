@@ -5324,7 +5324,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-08-23T15:17:20.353Z';
+        const searchIndexDate = '2024-08-23T15:22:41.891Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5336,9 +5336,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:17:20.353Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:22:41.891Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:17:20.353Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:22:41.891Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5600,7 +5600,11 @@
 <tbody class="table-view-tbody">
 <tr>
 <td><a class="internal-link" target="" data-note-icon="" href="/developer/CSS/Toggle Checkbox with pure CSS Html/">Toggle Checkbox with pure CSS Html</a></td>
-<td>23.08.2024 - 09:48</td>
+<td>23.08.2024 - 10:21</td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/🚿 shower thoughts/Rants/The Zelda Fandom from a Zelda Fan/">The Zelda Fandom from a Zelda Fan</a></td>
+<td>23.08.2024 - 10:19</td>
 </tr>
 <tr>
 <td><a class="internal-link is-unresolved" href="/404" target="">2024.05.18 UAG fashion show</a></td>
@@ -5609,10 +5613,6 @@
 <tr>
 <td><a class="internal-link is-unresolved" href="/404" target="">2024.09.14 Hannah &amp; Gavin</a></td>
 <td>22.08.2024 - 18:40</td>
-</tr>
-<tr>
-<td><a class="internal-link is-unresolved" href="/404" target="">_2024.00.00 DJ_Client</a></td>
-<td>22.08.2024 - 18:35</td>
 </tr>
 </tbody>
 </table></div>

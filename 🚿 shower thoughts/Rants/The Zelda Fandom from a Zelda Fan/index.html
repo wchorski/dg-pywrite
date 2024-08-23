@@ -5326,7 +5326,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-08-23T15:17:20.353Z';
+        const searchIndexDate = '2024-08-23T15:22:41.891Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5338,9 +5338,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:17:20.353Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-08-23T15:22:41.891Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:17:20.353Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-08-23T15:22:41.891Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5605,7 +5605,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-04-03T18:33:06.530-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-04-02T14:15:01.000-05:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-04-03T18:33:06.530-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-08-23T10:19:26.360-05:00"></span></div></div></div>
       
       
         
@@ -5622,7 +5622,8 @@
 &amp;<br>
 &quot;The core ideas have been lost, here's how it could have been tied back to the original&quot;</p>
 </blockquote>
-<p>These are ideas and decisions that the <strong>Creator</strong> should be having about their next installment, not the player. Don't get me wrong, I think player feedback is very important when polishing a game but I'm sure I'm not the only one when I say that some <strong>Zelda</strong> fans expect so much out of this series because they had a lifetime to dream up every</p>
+<p>These are ideas and decisions that the <strong>Creator</strong> should be having about their next instalment, not the player. Don't get me wrong, I think player feedback is very important when polishing a game but I'm sure I'm not the only one when I say that some <strong>Zelda</strong> fans expect so much out of this series because they had a lifetime to dream up every possible feature and design</p>
+<p>If your stuck feeling the same way about your favorite game series, I think it's a good sign that it's time to broaden the horizons. There are plenty of <em>Zelda clones</em> out there that may scratch that itch you've been looking for</p>
 
       
       
@@ -5860,9 +5861,9 @@
                               
                               <div class="backlinks">
                                     <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card">
-                                                            <span class="no-backlinks-message">No other pages mentions this page</span>
-                                                      </div></div>
+                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/Publish Test/" data-note-icon="" class="backlink">Markdown Testing Ground for Published Notes</a>
+                                                </div><div class="backlink-card"><i  icon-name="link"></i><a href="/" data-note-icon="" class="backlink">Welcome to Pywrite Garden</a>
+                                                </div></div>
                               </div>
                         
                   

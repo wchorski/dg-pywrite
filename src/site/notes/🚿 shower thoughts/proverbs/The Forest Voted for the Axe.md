@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/proverbs/The Forest Voted for the Axe/"}
+{"dg-publish":true,"permalink":"/🚿 shower thoughts/proverbs/The Forest Voted for the Axe/","created":"2024-02-29T22:19:56.766-06:00","updated":"2024-06-04T15:44:49.000-05:00"}
 ---
 
 

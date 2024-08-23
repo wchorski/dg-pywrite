@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Windows 10/Windows Boot Error Blue Screen/"}
+{"dg-publish":true,"permalink":"/developer/Windows 10/Windows Boot Error Blue Screen/","created":"2024-02-29T22:19:56.279-06:00","updated":"2024-03-01T00:19:28.000-06:00"}
 ---
 
 Nothing like getting home from a full day of work to boot up your home [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]] 10 PC and see the blue screen of death.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/Serving Static Files back to Client/"}
+{"dg-publish":true,"permalink":"/developer/NextJS/Serving Static Files back to Client/","created":"2024-02-29T22:19:56.130-06:00","updated":"2024-03-01T00:19:25.000-06:00"}
 ---
 
 After I [[developer/NextJS/Upload Files with next-connect and Multer\|Upload Files with next-connect and Multer]] I wanted to serve those same files back to the client. Ahh but not so fast says [[developer/NextJS/NextJS\|NextJS]]. 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React Style Transitions from Scratch/"}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Style Transitions from Scratch/","created":"2024-02-29T22:19:56.228-06:00","updated":"2024-06-04T15:44:54.000-05:00"}
 ---
 
 ## Custom Hook

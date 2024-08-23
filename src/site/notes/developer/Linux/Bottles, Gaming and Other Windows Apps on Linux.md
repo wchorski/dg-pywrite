@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bottles, Gaming and Other Windows Apps on Linux/","tags":["linux","gaming"]}
+{"dg-publish":true,"permalink":"/developer/Linux/Bottles, Gaming and Other Windows Apps on Linux/","tags":["linux","gaming"],"created":"2024-07-05T12:24:16.409-05:00","updated":"2024-07-05T12:47:19.902-05:00"}
 ---
 
 Gaming on Linux can either be a cake walk or walking on glass. I've experienced both sides of the coin.

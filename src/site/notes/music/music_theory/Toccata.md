@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music_theory/Toccata/"}
+{"dg-publish":true,"permalink":"/music/music_theory/Toccata/","created":"2024-02-29T22:19:56.403-06:00","updated":"2024-03-01T00:21:30.000-06:00"}
 ---
 
 > [!quote]

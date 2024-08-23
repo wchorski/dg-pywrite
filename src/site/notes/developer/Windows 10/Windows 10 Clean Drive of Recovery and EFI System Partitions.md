@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Windows 10/Windows 10 Clean Drive of Recovery and EFI System Partitions/"}
+{"dg-publish":true,"permalink":"/developer/Windows 10/Windows 10 Clean Drive of Recovery and EFI System Partitions/","created":"2024-02-29T22:19:56.278-06:00","updated":"2024-03-01T00:18:10.000-06:00"}
 ---
 
 The Window's **Disk Management** GUI tool prevents you from deleting *Recovery* and *EFI System* Partitions for your own safety. If you're like me, cleaning off a drive for different use, but still having a hanging *100 MB* partition on a 1tb drive just digs under your skin.

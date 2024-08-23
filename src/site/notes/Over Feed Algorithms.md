@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Over Feed Algorithms/","tags":["music","film","creator","YouTube"]}
+{"dg-publish":true,"permalink":"/Over Feed Algorithms/","tags":["music","film","creator","YouTube"],"created":"2024-03-30T13:19:26.204-05:00","updated":"2024-03-29T10:18:53.000-05:00"}
 ---
 
 1. Archive your work 

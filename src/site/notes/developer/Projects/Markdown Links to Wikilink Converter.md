@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Projects/Markdown Links to Wikilink Converter/","tags":["nodejs","javascript","typescript","markdown"]}
+{"dg-publish":true,"permalink":"/developer/Projects/Markdown Links to Wikilink Converter/","tags":["nodejs","javascript","typescript","markdown"],"created":"2024-03-13T20:40:30.859-05:00","updated":"2024-03-14T21:56:21.000-05:00"}
 ---
 
 GitHub Repo: [wchorski/wikilink_markdownlink_conversion](https://github.com/wchorski/wikilink_markdownlink_conversion)

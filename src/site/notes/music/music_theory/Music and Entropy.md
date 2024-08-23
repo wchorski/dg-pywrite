@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music_theory/Music and Entropy/","tags":["rant"]}
+{"dg-publish":true,"permalink":"/music/music_theory/Music and Entropy/","tags":["rant"],"created":"2024-06-15T09:09:16.000-05:00","updated":"2024-06-15T09:09:16.000-05:00"}
 ---
 
 Listening to Benn Jordan's [Wait. Does Music Defy Entropy? 🤔 - YouTube](https://www.youtube.com/watch?v=gMfVhHxSfDA) video got me thinking about how Entropy can effect a music producer's workflow. 

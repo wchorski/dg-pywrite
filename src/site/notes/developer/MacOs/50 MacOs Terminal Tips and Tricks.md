@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/MacOs/50 MacOs Terminal Tips and Tricks/"}
+{"dg-publish":true,"permalink":"/developer/MacOs/50 MacOs Terminal Tips and Tricks/","created":"2024-02-29T22:19:56.075-06:00","updated":"2024-06-04T15:45:11.000-05:00"}
 ---
 
 ## find password of previously connected wifi

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NodeJS/Recursive File Folder Processing/","tags":["nodejs","javascript","typescript"]}
+{"dg-publish":true,"permalink":"/developer/NodeJS/Recursive File Folder Processing/","tags":["nodejs","javascript","typescript"],"created":"2024-02-29T22:19:56.142-06:00","updated":"2024-06-04T15:45:13.000-05:00"}
 ---
 
 building a  [[developer/NodeJS/NodeJS\|NodeJS]] tool to recursively drill through a folder file structure to return all folders and files for processing

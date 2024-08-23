@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Typescript/Typescript, Conditional Types/","tags":["typescript"]}
+{"dg-publish":true,"permalink":"/developer/Typescript/Typescript, Conditional Types/","tags":["typescript"],"created":"2024-03-08T23:23:26.189-06:00","updated":"2024-06-04T15:45:07.000-05:00"}
 ---
 
 ## 1st Example 

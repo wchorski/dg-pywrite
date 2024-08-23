@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Publish Test/","title":"Markdown Testing Ground for Published Notes"}
+{"dg-publish":true,"permalink":"/Publish Test/","title":"Markdown Testing Ground for Published Notes","created":"2024-02-29T22:19:55.061-06:00","updated":"2024-03-01T09:33:25.358-06:00"}
 ---
 
 
@@ -64,11 +64,11 @@ subgraph Your DB
 end
 ```
 
-| File                                                                                                                       | Last modified      |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [[developer/Hardware/Ryzen 5 5600x Custom PC\|Ryzen 5 5600x Custom PC]]                                                 | 19.07.2024 - 15:29 |
-| [[developer/Docker🐳/Untitled\|Untitled]]                                                                               | 19.07.2024 - 11:31 |
-| [[developer/KeystoneJS/KeystoneJS 6 Hide and Restrict field in schema\|KeystoneJS 6 Hide and Restrict field in schema]] | 18.07.2024 - 19:01 |
+| File                                                                                           | Last modified      |
+| ---------------------------------------------------------------------------------------------- | ------------------ |
+| [[developer/CSS/Toggle Checkbox with pure CSS Html\|Toggle Checkbox with pure CSS Html]]    | 23.08.2024 - 09:48 |
+| [[music/DJ William 🎛/DJ Clients/2024.05.18 UAG fashion show\|2024.05.18 UAG fashion show]] | 22.08.2024 - 22:20 |
+| [[music/DJ William 🎛/DJ Clients/2024.09.14 Hannah & Gavin\|2024.09.14 Hannah & Gavin]]     | 22.08.2024 - 18:40 |
 
 { .block-language-dataview}
 

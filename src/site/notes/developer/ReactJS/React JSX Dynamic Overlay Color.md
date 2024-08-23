@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React JSX Dynamic Overlay Color/","tags":["reactjs","css","html"]}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React JSX Dynamic Overlay Color/","tags":["reactjs","css","html"],"created":"2024-02-29T22:19:56.224-06:00","updated":"2024-06-04T15:45:16.000-05:00"}
 ---
 
 I wanted a dynamic way to add a transparent color that would tint the background image of a `<section>`. I went the the pseudo `::before` route as I thought it would keep my #html less cluttered.

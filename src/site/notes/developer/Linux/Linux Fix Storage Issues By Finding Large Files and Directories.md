@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Linux Fix Storage Issues By Finding Large Files and Directories/","tags":["linux","hardware","bash"]}
+{"dg-publish":true,"permalink":"/developer/Linux/Linux Fix Storage Issues By Finding Large Files and Directories/","tags":["linux","hardware","bash"],"created":"2024-07-08T15:44:35.000-05:00","updated":"2024-07-08T15:44:35.000-05:00"}
 ---
 
 ## Ask Ubuntu | Dan King

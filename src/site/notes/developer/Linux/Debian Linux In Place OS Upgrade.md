@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Debian Linux In Place OS Upgrade/","tags":["linux","debian","FOSS"]}
+{"dg-publish":true,"permalink":"/developer/Linux/Debian Linux In Place OS Upgrade/","tags":["linux","debian","FOSS"],"created":"2024-07-07T21:27:37.431-05:00","updated":"2024-07-07T22:07:39.329-05:00"}
 ---
 
 I wanted to upgrade my [[developer/Hardware/Pi4\|Pi4]] Debian OS from `bullseye 11` to `bookworm 12` without having to reimage and migrate any configurations or redownload apps

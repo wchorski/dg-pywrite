@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React Timer that can be Started, Stopped, or Paused/","tags":["reactjs","javascript","JSX"]}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Timer that can be Started, Stopped, or Paused/","tags":["reactjs","javascript","JSX"],"created":"2024-02-29T22:19:56.230-06:00","updated":"2024-06-04T15:44:22.000-05:00"}
 ---
 
 I wanted to create a `Game State` machine (with enum) that controlled a countdown timer. I was running in circles trying to figure out what was missing. I overlooked adding the state as a dependency in the `useEffect` hook 🙄

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/No Library Needed for CSS Transitions/"}
+{"dg-publish":true,"permalink":"/developer/ReactJS/No Library Needed for CSS Transitions/","created":"2024-02-29T22:19:56.213-06:00","updated":"2024-06-04T15:44:49.000-05:00"}
 ---
 
 ## Custom Hook

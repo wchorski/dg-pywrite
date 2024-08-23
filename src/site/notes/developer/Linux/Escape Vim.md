@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Escape Vim/"}
+{"dg-publish":true,"permalink":"/developer/Linux/Escape Vim/","created":"2024-02-29T22:19:56.056-06:00","updated":"2024-03-01T00:21:29.000-06:00"}
 ---
 
 much respect for the people who have the time and patience to learn vim. I do not have either of those, yet I still find myself thrown into a vim editor on accident every once in a while. You'll know you're in vim when you see a line of `~` flow down the left side

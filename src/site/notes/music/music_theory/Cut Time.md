@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music_theory/Cut Time/"}
+{"dg-publish":true,"permalink":"/music/music_theory/Cut Time/","created":"2024-02-29T22:19:56.394-06:00","updated":"2024-03-01T00:21:14.000-06:00"}
 ---
 
 ### definition

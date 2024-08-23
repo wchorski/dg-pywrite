@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/proverbs/Wise men speak because they have something to say; Fools because they have to say something/"}
+{"dg-publish":true,"permalink":"/🚿 shower thoughts/proverbs/Wise men speak because they have something to say; Fools because they have to say something/","created":"2024-03-11T22:45:39.272-05:00","updated":"2024-03-12T12:18:44.000-05:00"}
 ---
 
 

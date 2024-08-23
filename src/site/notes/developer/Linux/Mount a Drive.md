@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Mount a Drive/","tags":["linux","terminal","commandline"]}
+{"dg-publish":true,"permalink":"/developer/Linux/Mount a Drive/","tags":["linux","terminal","commandline"],"created":"2024-02-29T22:19:56.067-06:00","updated":"2024-03-05T22:52:21.822-06:00"}
 ---
 
 1. list what's hooked up `lsblk`

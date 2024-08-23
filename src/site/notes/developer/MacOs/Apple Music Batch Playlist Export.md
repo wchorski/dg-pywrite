@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/MacOs/Apple Music Batch Playlist Export/","tags":["Apple","script","automation","music","bash"]}
+{"dg-publish":true,"permalink":"/developer/MacOs/Apple Music Batch Playlist Export/","tags":["Apple","script","automation","music","bash"],"created":"2024-02-29T22:19:56.077-06:00","updated":"2024-06-04T15:45:12.000-05:00"}
 ---
 
 I have a lot of iTunes... I mean Apple Music playlists that I'd like to export as `.m3u`. I wanted a way to have a select few playlists to export, not export every single playlist

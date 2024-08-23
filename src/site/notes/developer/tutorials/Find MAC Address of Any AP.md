@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/Find MAC Address of Any AP/"}
+{"dg-publish":true,"permalink":"/developer/tutorials/Find MAC Address of Any AP/","created":"2024-02-29T22:19:56.249-06:00","updated":"2024-03-01T00:19:46.000-06:00"}
 ---
 
 It's criminal when a manufacturer doesn't print the MAC address onto the device. With these steps you should be able to find any MAC address

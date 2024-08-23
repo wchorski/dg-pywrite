@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Projects/Markdown Wikilink Examples/Markdown Wikilink Example Note/"}
+{"dg-publish":true,"permalink":"/developer/Projects/Markdown Wikilink Examples/Markdown Wikilink Example Note/","created":"2024-03-13T20:40:11.950-05:00","updated":"2024-03-14T21:56:09.000-05:00"}
 ---
 
 ## Wikilinks

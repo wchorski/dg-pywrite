@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/buisness/Music Composer Working with Clients Tips/","tags":["gamedev","music","producer"]}
+{"dg-publish":true,"permalink":"/music/buisness/Music Composer Working with Clients Tips/","tags":["gamedev","music","producer"],"created":"2024-07-12T22:50:53.000-05:00","updated":"2024-07-12T22:50:53.000-05:00"}
 ---
 
 

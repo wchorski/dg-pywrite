@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Windows 10/SSH Server and Key Login/"}
+{"dg-publish":true,"permalink":"/developer/Windows 10/SSH Server and Key Login/","created":"2024-02-29T22:19:56.276-06:00","updated":"2024-03-01T00:19:53.000-06:00"}
 ---
 
 I wanted to send commands from other computers to my **Windows 10** machine. Upon initial install of Windows, I logged in with my Microsoft account and was met with `Permission denied, please try again.` when trying passwords

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Advice/Modern App Development Workflow. git, cloud, laptop, PC, server/","tags":["webdev","nodejs","commandline","gamedev","selfhosted"]}
+{"dg-publish":true,"permalink":"/developer/Advice/Modern App Development Workflow. git, cloud, laptop, PC, server/","tags":["webdev","nodejs","commandline","gamedev","selfhosted"],"created":"2024-02-29T22:19:55.759-06:00","updated":"2024-07-18T18:24:21.884-05:00"}
 ---
 
 This is advice for anyone developing source code and want an efficient way of splitting projects but retaining a lot of the benefits of your #templates. 

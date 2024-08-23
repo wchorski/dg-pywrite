@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/Quartz-w_Boswell/"}
+{"dg-publish":true,"permalink":"/developer/tutorials/Quartz-w_Boswell/","created":"2024-02-29T22:19:56.255-06:00","updated":"2024-03-01T00:20:32.000-06:00"}
 ---
 
 [[brandonkboswell.com)](brandonkboswell.com\|Publishing your Obsidian Vault Online with Quartz (brandonkboswell.com)]])

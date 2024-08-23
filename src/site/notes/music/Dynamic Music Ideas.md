@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/Dynamic Music Ideas/","tags":["Wwise","music","arrangement","gamedev","videogames"]}
+{"dg-publish":true,"permalink":"/music/Dynamic Music Ideas/","tags":["Wwise","music","arrangement","gamedev","videogames"],"created":"2024-06-15T09:09:18.000-05:00","updated":"2024-06-15T09:09:18.000-05:00"}
 ---
 
 

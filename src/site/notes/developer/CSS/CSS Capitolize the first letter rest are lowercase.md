@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Capitolize the first letter rest are lowercase/"}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Capitolize the first letter rest are lowercase/","created":"2024-02-29T22:19:55.778-06:00","updated":"2024-03-01T00:18:17.000-06:00"}
 ---
 
 I has a string like so`WUMBO` and needed to just have the fist letter capitol. Easy (or so I thought).

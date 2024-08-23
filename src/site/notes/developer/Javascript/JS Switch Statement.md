@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/JS Switch Statement/"}
+{"dg-publish":true,"permalink":"/developer/Javascript/JS Switch Statement/","created":"2024-02-29T22:19:56.015-06:00","updated":"2024-03-01T00:20:16.000-06:00"}
 ---
 
 ## Switch Statment

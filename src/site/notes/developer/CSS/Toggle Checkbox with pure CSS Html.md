@@ -1,10 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Toggle Checkbox with pure CSS Html/","tags":["css","style","html","scss","no_js"],"created":"2024-02-29T22:19:55.811-06:00","updated":"2024-08-23T10:15:51.046-05:00"}
+{"dg-publish":true,"permalink":"/developer/CSS/Toggle Checkbox with pure CSS Html/","tags":["css","style","html","scss","no_js"],"created":"2024-02-29T22:19:55.811-06:00","updated":"2024-08-23T10:21:34.696-05:00"}
 ---
 
 ## Live Demo
 <iframe src="https://assets.tawtaw.site/tawtaw/checkbox/index.html" width="100%" height="50"></iframe>
+
 ## Html
+
 ```html
 <label>
 	<input type="checkbox" />
@@ -12,6 +14,7 @@
 </label>
 ```
 
+> [!tip] the `<span>` tag isn't needed but is nice to have once you start applying any `grid` or `flex`
 ## CSS
 ```css
 label:has(input[type="checkbox"]) {

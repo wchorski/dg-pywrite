@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React Click Off to Close Drawer/"}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React Click Off to Close Drawer/","created":"2024-02-29T22:19:56.218-06:00","updated":"2024-03-01T00:19:36.000-06:00"}
 ---
 
 I'm integrating a shopping cart into my [[developer/ReactJS/ReactJS\|ReactJS]] app. For modern user experience, I want the side cart to close if the user clicks off of the cart menu. 

@@ -6,12 +6,12 @@
 Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously 'watered' over time, fixing, updating, and growing this database of notes. 
 
 ## Recent Notes
-| File                                                                                           | Last modified      |
-| ---------------------------------------------------------------------------------------------- | ------------------ |
-| [[developer/CSS/Toggle Checkbox with pure CSS Html\|Toggle Checkbox with pure CSS Html]]    | 23.08.2024 - 09:48 |
-| [[music/DJ William 🎛/DJ Clients/2024.05.18 UAG fashion show\|2024.05.18 UAG fashion show]] | 22.08.2024 - 22:20 |
-| [[music/DJ William 🎛/DJ Clients/2024.09.14 Hannah & Gavin\|2024.09.14 Hannah & Gavin]]     | 22.08.2024 - 18:40 |
-| [[_templates/_2024.00.00 DJ_Client\|_2024.00.00 DJ_Client]]                                 | 22.08.2024 - 18:35 |
+| File                                                                                                 | Last modified      |
+| ---------------------------------------------------------------------------------------------------- | ------------------ |
+| [[developer/CSS/Toggle Checkbox with pure CSS Html\|Toggle Checkbox with pure CSS Html]]          | 23.08.2024 - 10:21 |
+| [[🚿 shower thoughts/Rants/The Zelda Fandom from a Zelda Fan\|The Zelda Fandom from a Zelda Fan]] | 23.08.2024 - 10:19 |
+| [[music/DJ William 🎛/DJ Clients/2024.05.18 UAG fashion show\|2024.05.18 UAG fashion show]]       | 22.08.2024 - 22:20 |
+| [[music/DJ William 🎛/DJ Clients/2024.09.14 Hannah & Gavin\|2024.09.14 Hannah & Gavin]]           | 22.08.2024 - 18:40 |
 
 { .block-language-dataview}
 

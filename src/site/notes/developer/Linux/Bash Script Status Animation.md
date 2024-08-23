@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash Script Status Animation/"}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash Script Status Animation/","created":"2024-02-29T22:19:56.046-06:00","updated":"2024-03-01T00:19:54.000-06:00"}
 ---
 
 ```bash

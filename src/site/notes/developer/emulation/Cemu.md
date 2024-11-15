@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Cemu/","created":"2024-03-13T20:41:54.357-05:00","updated":"2024-03-14T21:56:31.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/emulation/Cemu/","dgPassFrontmatter":true}
 ---
 
 Nintendo Wii U emulator

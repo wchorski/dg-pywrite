@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Plex.tv/","created":"2024-07-09T13:25:22.000-05:00","updated":"2024-07-09T13:25:22.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Plex.tv/","dgPassFrontmatter":true}
 ---
 
 #music #movie #tv #film #media #player
@@ -43,3 +43,5 @@ services:
       - ./transcodes:/transcode
       - /mnt/<externalDrive>/plex/media:/firemedia #unique name for inside the container
 ```
+
+https://tizutech.com/plex-transcoding-with-docker-nvidia-gpu/

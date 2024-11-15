@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Responsive Font Typography with Clamp/","tags":["typography","css","style","responsive"],"created":"2024-08-06T10:41:07.000-05:00","updated":"2024-08-06T10:41:07.000-05:00"}
+{"dg-publish":true,"tags":["typography","css","style","responsive"],"permalink":"/developer/CSS/Responsive Font Typography with Clamp/","dgPassFrontmatter":true}
 ---
 
 

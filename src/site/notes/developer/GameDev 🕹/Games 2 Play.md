@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/GameDev 🕹/Games 2 Play/","created":"2024-02-29T22:19:55.864-06:00","updated":"2024-06-04T15:46:09.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/GameDev 🕹/Games 2 Play/","dgPassFrontmatter":true}
 ---
 
 - [Download Mega Man Soccer for the SNES (vimm.net)](https://vimm.net/vault/1385)

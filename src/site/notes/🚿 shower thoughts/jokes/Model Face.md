@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/jokes/Model Face/","tags":["party_trick","interactive"],"created":"2024-06-14T16:39:11.000-05:00","updated":"2024-06-14T16:39:11.000-05:00"}
+{"dg-publish":true,"tags":["party_trick","interactive"],"permalink":"/🚿 shower thoughts/jokes/Model Face/","dgPassFrontmatter":true}
 ---
 
 1. Smile without moving your eyes

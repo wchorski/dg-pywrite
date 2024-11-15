@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Remove, Clear a File Input/","created":"2024-02-29T22:19:56.244-06:00","updated":"2024-03-01T00:19:55.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Remove, Clear a File Input/","dgPassFrontmatter":true}
 ---
 
 There is an extra step that needs to be made when clearing out an `<input type='file'/>` input in a [[developer/ReactJS/ReactJS\|ReactJS]] app. The easy way is to use the `useRef` hook.

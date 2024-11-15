@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Toggle Checkbox with pure CSS Html/","tags":["css","style","html","scss","no_js"],"created":"2024-02-29T22:19:55.811-06:00","updated":"2024-08-23T10:21:34.696-05:00"}
+{"dg-publish":true,"tags":["css","style","html","scss","no_js"],"permalink":"/developer/CSS/Toggle Checkbox with pure CSS Html/","dgPassFrontmatter":true}
 ---
 
 ## Live Demo
@@ -56,9 +56,19 @@ input[type="checkbox"]:checked::before {
 	transform: translateX(1rem);
 }
 
+/* accessablility */
+input[type="checkbox"]:focus-within {
+	outline: 2px solid dodgerblue;
+	outline-offset: 2px;
+}
+input[type="checkbox"]:focus {
+	outline-color: transparent;
+}
+
 ```
 ## Previous Method
 
+### SCSS
 ```scss
 input[type="checkbox"].toggle {
   opacity: .1;

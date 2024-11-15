@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Prisma Migration/","created":"2024-02-29T22:19:56.029-06:00","updated":"2024-03-01T00:19:37.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Prisma Migration/","dgPassFrontmatter":true}
 ---
 
 migrating an existing [[developer/Finance/PostGreSQL\|PostGreSQL]] database with the [[developer/KeystoneJS/KeystoneJS\|KeystoneJS]] ORM takes a bit of doc reading. Essentially mashing the [Command Line - Keystone 6 Docs](https://keystonejs.com/docs/guides/cli) and [link](https://www.prisma.io/docs/guides/migrate/developing-with-prisma-migrate/add-prisma-migrate-to-a-project#introspect-to-create-or-update-your-prisma-schema) articles together

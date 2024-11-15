@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Windows 10/Host Static Website on Windows 10 IIS/","created":"2024-07-02T12:15:16.000-05:00","updated":"2024-07-02T12:15:16.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Windows 10/Host Static Website on Windows 10 IIS/","dgPassFrontmatter":true}
 ---
 
 ## Enable IIS Feature

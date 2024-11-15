@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Dolphin Emu/","created":"2024-03-13T20:41:30.439-05:00","updated":"2024-03-14T21:56:27.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/emulation/Dolphin Emu/","dgPassFrontmatter":true}
 ---
 
 Nintendo Gamecube & Wii emulator

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React One Shot Animation with CSS Trick/","created":"2024-02-29T22:19:56.225-06:00","updated":"2024-06-04T15:44:45.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/ReactJS/React One Shot Animation with CSS Trick/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/rsync/","created":"2024-02-29T22:19:56.070-06:00","updated":"2024-03-05T21:45:50.938-06:00"}
+{"dg-publish":true,"permalink":"/developer/Linux/rsync/","dgPassFrontmatter":true}
 ---
 
 ## sync directories with external ignore file

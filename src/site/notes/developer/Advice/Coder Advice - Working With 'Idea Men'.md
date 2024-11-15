@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Advice/Coder Advice - Working With 'Idea Men'/","created":"2024-02-29T22:19:55.758-06:00","updated":"2024-03-01T00:19:18.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/Advice/Coder Advice - Working With 'Idea Men'/","dgPassFrontmatter":true}
 ---
 
 Comment inspired by ThePrimeagen video [I Just Need A Programmer | Prime Reacts (youtube.com)](https://www.youtube.com/watch?v=tIgIF5lve8U)

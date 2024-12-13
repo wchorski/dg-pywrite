@@ -5391,7 +5391,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-12-13T18:16:03.240Z';
+        const searchIndexDate = '2024-12-13T18:22:29.941Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5403,9 +5403,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-12-13T18:16:03.240Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-12-13T18:22:29.941Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-12-13T18:16:03.240Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-12-13T18:22:29.941Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -5663,7 +5663,6 @@
       
         
 
-<p>HEYYYYY LISTEN</p>
       
       </header>
       

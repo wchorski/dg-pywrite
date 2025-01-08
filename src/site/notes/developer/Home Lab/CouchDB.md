@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/CouchDB/","created":"2024-03-13T20:41:45.024-05:00","updated":"2024-03-14T21:56:29.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/CouchDB/","created":"2024-09-26T19:20:08.000-05:00","updated":"2024-09-26T19:20:08.000-05:00"}
 ---
 
 ## [Apache CouchDB](https://couchdb.apache.org/)
@@ -19,7 +19,6 @@ Windows → the service is called `Apache CouchDB`
 ### installation
 1. [[developer/Home Lab/Docker\|Docker]] `compose.yml`
 ```yaml
-version: '3'
 services:
   couchserver:
     image: couchdb

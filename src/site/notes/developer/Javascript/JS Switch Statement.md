@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/JS Switch Statement/","created":"2024-02-29T22:19:56.015-06:00","updated":"2024-03-01T00:20:16.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/Javascript/JS Switch Statement/","created":"2024-02-29T22:19:56.015-06:00","updated":"2024-09-15T20:56:38.688-05:00"}
 ---
 
-## Switch Statment
+## Switch Statement
 [switch - JavaScript | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 ```js
 const expr = 'Papayas';
@@ -44,6 +44,20 @@ Let’s get only the **span** elements.
 ```javascript
 const spanBoxes = document.getElementsByTagName("span");
 console.log(spanBoxes); // HTMLCollection[2]
+```
+
+## Declare variable inline
+```js
+const value = (() => {
+  switch (someCondition) {
+    case 'case1':
+      return 'result1'
+    case 'case2':
+      return 'result2'
+    default:
+      return 'defaultResult'
+  }
+})()
 ```
 
 ----

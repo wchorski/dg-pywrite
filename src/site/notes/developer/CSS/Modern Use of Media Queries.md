@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["webdev","frontend","style"],"permalink":"/developer/CSS/Modern Use of Media Queries/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/CSS/Modern Use of Media Queries/","tags":["webdev","frontend","style"],"created":"2024-03-14T21:55:57.565-05:00","updated":"2024-03-14T21:56:23.000-05:00"}
 ---
 
 [[developer/CSS/CSS\|CSS]] Magic for easy to use dynamic columns.

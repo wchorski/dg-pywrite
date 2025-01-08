@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Cemu/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/emulation/Cemu/","created":"2024-03-13T20:41:54.357-05:00","updated":"2024-11-26T21:47:59.117-06:00"}
 ---
 
 Nintendo Wii U emulator
@@ -11,8 +11,9 @@ emulate the gamepads touch, gyro, and second display
 - [joaorb64/joycond-cemuhook: Support for cemuhook's UDP protocol for joycond devices (github.com)](https://github.com/joaorb64/joycond-cemuhook)
 
 ## game library
-[Wii U USB Helper 0.6.1.655 Download | TechSpot](https://www.techspot.com/downloads/7049-wii-u-usb-helper.html)
+- https://github.com/Xpl0itU/WiiUDownloader/releases/tag/v2.60
+~~[Wii U USB Helper 0.6.1.655 Download | TechSpot](https://www.techspot.com/downloads/7049-wii-u-usb-helper.html)
 - [http://vault.titlekeys.ovh/](https://www.youtube.com/redirect?redir_token=QUFFLUhqbEZhQU5ZcWxwZnpSS3JyLXBsZGxMM0FJMU42Z3xBQ3Jtc0ttbmtjTHV3aWRleDdFRkpOdmVJR0pna3pTM1llVUN4QzBJTC0wMkNudTJWb3R2RGRoQjlFY2hVQnQ2NFFpZ0txMWt6c1JRRUxvRnQyZ0xrNmlXcHJCeDJlekRvdVNJX21KQkUyOXZuLU0tNENwZUhzQQ%3D%3D&event=video_description&v=_-WV_TT1ZA0&q=http%3A%2F%2Fvault.titlekeys.ovh%2F) - [credit](https://www.reddit.com/r/CemuPiracy/comments/hr834n/i_was_trying_to_install_wiiu_usbhelper_but/)
 
-## Backlinks
+~~## Backlinks
 - [[developer/emulation/Game Emulation\|Game Emulation]]

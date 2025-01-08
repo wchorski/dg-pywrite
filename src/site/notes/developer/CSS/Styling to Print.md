@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Styling to Print/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/CSS/Styling to Print/","created":"2024-02-29T22:19:55.809-06:00","updated":"2024-03-01T00:21:01.000-06:00"}
 ---
 
 ## Hide or Show When Printing

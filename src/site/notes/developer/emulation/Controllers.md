@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["emulation","gamer","gaming","3rd-party","linux"],"permalink":"/developer/emulation/Controllers/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/emulation/Controllers/","tags":["emulation","gamer","gaming","3rd-party","linux"],"created":"2024-10-15T15:07:04.000-05:00","updated":"2024-10-15T15:07:04.000-05:00"}
 ---
 
 ## Controller manager

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["automation","homeassistant"],"permalink":"/developer/Home Assistant/Computer Keyboard Key to Trigger Home Assistant Webhook/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Computer Keyboard Key to Trigger Home Assistant Webhook/","tags":["automation","homeassistant"],"created":"2024-05-30T10:53:00.927-05:00","updated":"2024-06-01T17:03:45.000-05:00"}
 ---
 
 ## The Automation Explained

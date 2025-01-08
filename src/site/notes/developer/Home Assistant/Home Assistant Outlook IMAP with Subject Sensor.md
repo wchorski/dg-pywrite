@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Assistant/Home Assistant Outlook IMAP with Subject Sensor/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Home Assistant Outlook IMAP with Subject Sensor/","created":"2024-02-29T22:19:55.894-06:00","updated":"2024-06-04T15:44:22.000-05:00"}
 ---
 
 

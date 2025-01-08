@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["MacOs","docker","error","troubleshooting"],"permalink":"/developer/Docker🐳/Docker Credentials Error MacOS/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/Docker🐳/Docker Credentials Error MacOS/","tags":["MacOs","docker","error","troubleshooting"],"created":"2024-07-29T11:11:28.000-05:00","updated":"2024-07-29T11:11:28.000-05:00"}
 ---
 
 ## The Error

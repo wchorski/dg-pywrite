@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NodeJS/upload file without a library/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/NodeJS/upload file without a library/","created":"2024-02-29T22:19:56.146-06:00","updated":"2024-06-04T15:45:33.000-05:00"}
 ---
 
 I like to remove any package dependancies where I can. Hopefully this solution can help remove another

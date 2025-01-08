@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["reactjs","nodejs","email"],"permalink":"/developer/NodeJS/NodeMailer HTML templates with modern tools/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/NodeJS/NodeMailer HTML templates with modern tools/","tags":["reactjs","nodejs","email"],"created":"2024-02-29T22:19:56.139-06:00","updated":"2024-06-04T15:44:41.000-05:00"}
 ---
 
 haven't tried this out myself, but looks like it makes sense, but I'd try out [Send email using Nodemailer - React Email](https://react.email/docs/integrations/nodemailer) first

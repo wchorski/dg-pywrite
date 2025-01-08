@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Psycology/Logical Fallacies/Straw Man Fallacy/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/🚿 shower thoughts/Psycology/Logical Fallacies/Straw Man Fallacy/","created":"2024-03-14T21:55:53.901-05:00","updated":"2024-03-14T21:56:21.000-05:00"}
 ---
 
 > [!quote] A [straw man argument](https://www.grammarly.com/blog/straw-man-fallacy/) is one that argues against a hyperbolic, inaccurate version of the opposition rather than their actual argument. 

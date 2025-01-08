@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript","reactjs","webdev"],"permalink":"/developer/ReactJS/ReactJS Time Picker with Blackout Times/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS Time Picker with Blackout Times/","tags":["javascript","reactjs","webdev"],"created":"2024-02-29T22:19:56.239-06:00","updated":"2024-06-04T15:44:45.000-05:00"}
 ---
 
 Very simple demo of how an input of 'blackout times' can disable options shown in an list of time options to pick from with [[developer/ReactJS/ReactJS\|ReactJS]]

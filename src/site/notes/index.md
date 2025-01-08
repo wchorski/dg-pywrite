@@ -6,12 +6,12 @@
 Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously 'watered' over time, fixing, updating, and growing this database of notes. 
 
 ## Recent Notes
-| File                                                                                                 | Last modified      |
-| ---------------------------------------------------------------------------------------------------- | ------------------ |
-| [[developer/CSS/Toggle Checkbox with pure CSS Html\|Toggle Checkbox with pure CSS Html]]          | 23.08.2024 - 10:21 |
-| [[🚿 shower thoughts/Rants/The Zelda Fandom from a Zelda Fan\|The Zelda Fandom from a Zelda Fan]] | 23.08.2024 - 10:19 |
-| [[music/DJ William 🎛/DJ Clients/2024.05.18 UAG fashion show\|2024.05.18 UAG fashion show]]       | 22.08.2024 - 22:20 |
-| [[music/DJ William 🎛/DJ Clients/2024.09.14 Hannah & Gavin\|2024.09.14 Hannah & Gavin]]           | 22.08.2024 - 18:40 |
+| File                                                                                          | Last modified      |
+| --------------------------------------------------------------------------------------------- | ------------------ |
+| [[music/WilliaMusic/P4V Perforce Push Pull Walktrough\|P4V Perforce Push Pull Walktrough]] | 08.01.2025 - 00:17 |
+| [[attachments/p4v-push_pull-walkthrough (3) 1.png\|p4v-push_pull-walkthrough (3) 1.png]]   | 07.01.2025 - 23:09 |
+| [[music/DJ William 🎛/DJ Clients/2025.06.06 Robin & Tyler\|2025.06.06 Robin & Tyler]]      | 06.01.2025 - 12:00 |
+| [[🚿 shower thoughts/bits\|bits]]                                                          | 05.01.2025 - 01:41 |
 
 { .block-language-dataview}
 
@@ -24,15 +24,15 @@ Here is where I dump notes on web development, automation, game emulation, music
 ### PC Hardware
 | File                                                                                 | codename         | cost |
 | ------------------------------------------------------------------------------------ | ---------------- | ---- |
-| [[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]     | \-               | \-   |
 | [[developer/Hardware/Dell G5 Laptop\|Dell G5 Laptop]]                             | sn0flake         | \-   |
+| [[developer/Hardware/Homelab Hardware PC Builds\|Homelab Hardware PC Builds]]     | \-               | \-   |
 | [[developer/Hardware/Intel i7-7700 Custom PC\|Intel i7-7700 Custom PC]]           | nicOS            | \-   |
 | [[developer/Hardware/Intel NUC\|Intel NUC]]                                       | icicle           | \-   |
 | [[developer/Hardware/Pi4\|Pi4]]                                                   | rpi4             | \-   |
 | [[developer/Hardware/MacBook Pro M1 Laptop\|MacBook Pro M1 Laptop]]               | splitDrive       | \-   |
 | [[developer/Hardware/Ryzen 5 5600x Custom PC\|Ryzen 5 5600x Custom PC]]           | FrostByte        | \-   |
 | [[developer/Hardware/Ryzen 9 3900x Custom PC\|Ryzen 9 3900x Custom PC]]           | spearmint        | \-   |
-| [[developer/Hardware/Phenom II X6 1045T Custom PC\|Phenom II X6 1045T Custom PC]] | Kevin the Ripper | \-   |
 | [[developer/Hardware/My GPU Journey\|My GPU Journey]]                             | \-               | \-   |
+| [[developer/Hardware/Phenom II X6 1045T Custom PC\|Phenom II X6 1045T Custom PC]] | Kevin the Ripper | \-   |
 
 { .block-language-dataview}

@@ -1,8 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Regex/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/Regex/","created":"2024-12-29T17:29:52.000-06:00","updated":"2024-12-29T17:29:52.000-06:00"}
 ---
 
 
+> [!tip] Regex not returning true on second 
+> https://stackoverflow.com/questions/59694142/regex-testvalue-returns-true-when-logged-but-false-within-an-if-statement
 
 Here lies all the regular expressions that I found useful
 
@@ -86,10 +88,12 @@ const regex = \[\[(http.*?)\]\]
 // replace string
 [link]($1)
 // `---
-{"dg-publish":true,"permalink":"/developer/Regex/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/Regex/","created":"2024-12-29T17:29:52.000-06:00","updated":"2024-12-29T17:29:52.000-06:00"}
 ---
 
 
+> [!tip] Regex not returning true on second 
+> https://stackoverflow.com/questions/59694142/regex-testvalue-returns-true-when-logged-but-false-within-an-if-statement
 
 Here lies all the regular expressions that I found useful
 

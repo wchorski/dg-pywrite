@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Custom Audio Player Component - ReactJS Port/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Custom Audio Player Component - ReactJS Port/","created":"2024-02-29T22:19:56.202-06:00","updated":"2024-06-04T15:44:32.000-05:00"}
 ---
 
 Will later learn how to make a robust audio player with the resources below

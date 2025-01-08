@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS  practical use for before and after pseudo elements/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS  practical use for before and after pseudo elements/","created":"2024-02-29T22:19:55.773-06:00","updated":"2024-03-01T00:18:14.000-06:00"}
 ---
 
 ## Credits

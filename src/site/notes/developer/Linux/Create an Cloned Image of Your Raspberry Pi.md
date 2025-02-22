@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Create an Cloned Image of Your Raspberry Pi/","tags":["linux","hardware"],"created":"2024-03-05T22:12:54.643-06:00","updated":"2024-03-06T13:20:21.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/Linux/Create an Cloned Image of Your Raspberry Pi/","tags":["linux","hardware"],"created":"2024-03-05T22:12:54.643-06:00","updated":"2025-01-21T22:58:11.122-06:00"}
 ---
 
 ## External Drive
-You'll want an external thumb drive or [[developer/Linux/NAS\|NAS]] by [[developer/Linux/Mount a Drive\|Mounting a Drive]] that has twice or more storage than your Raspberry Pi's **SD Card** capacity
+You'll want an external thumb drive or [[developer/Linux/NAS\|NAS]] by [[developer/Linux/Mount a Drive in Linux Terminal\|Mounting a Drive]] that has twice or more storage than your Raspberry Pi's **SD Card** capacity
 
 Here I've mounted the **Network Mount** to `network_mount` inside my user folder so I don't have to deal with funky permissions
 ```bash

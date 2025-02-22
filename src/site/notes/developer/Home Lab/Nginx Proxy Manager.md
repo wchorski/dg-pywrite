@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Nginx Proxy Manager/","created":"2024-03-13T20:41:09.764-05:00","updated":"2024-03-14T21:56:24.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Nginx Proxy Manager/","created":"2025-01-20T13:28:56.000-06:00","updated":"2025-01-20T13:28:56.000-06:00"}
 ---
 
 
@@ -183,6 +183,11 @@ body, .modal-content{
   }
 ```
 
+## Redirect
+Useful for redirecting a `DOMAIN.com` -> `www.DOMAIN.com` ([tutorial]( https://devcodelight.com/en/creating-a-redirection-with-nginx-proxy-manager/))
+
+[[developer/Networking/Nginx Proxy Manager Redirect to Nested Page\|Nginx Proxy Manager Redirect to Nested Page]]
+
 ---
 
 #todo 
@@ -191,3 +196,6 @@ body, .modal-content{
 - [ ] show how to connect pi-hole to give any service a pretty URL
 - [ ] finish "publicly facing app"
 - [ ] finish "pretty urls for ..."
+
+
+---

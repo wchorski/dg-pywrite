@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/WilliaMusic/P4V Perforce Push Pull Walktrough/","tags":["stepBystep","walkthrough"],"created":"2025-01-07T22:47:18.467-06:00","updated":"2025-01-08T00:17:37.016-06:00"}
+{"dg-publish":true,"permalink":"/music/WilliaMusic/P4V Perforce Push Pull Walktrough/","tags":["stepBystep","walkthrough"],"created":"2025-01-07T22:47:18.467-06:00","updated":"2025-01-08T00:39:36.196-06:00"}
 ---
 
 
@@ -83,7 +83,7 @@ I'd recommend just getting in the habit of always generating sound banks every t
 
 ![attachments/Pasted image 20250108000236.png](/img/user/attachments/Pasted%20image%2020250108000236.png)
 
-This will "Completed with fatal errors". That is normal and expected. Just close the window and don't ask too many questons.
+This will "Completed with fatal errors". That is normal and expected. Just close the window and don't ask too many questions.
 
 ![attachments/Pasted image 20250108000538.png](/img/user/attachments/Pasted%20image%2020250108000538.png)
 

@@ -1,5 +1,5 @@
 ---
-{"codename":"spearmint","dg-publish":true,"permalink":"/developer/Hardware/Ryzen 9 3900x Custom PC/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/Hardware/Ryzen 9 3900x Custom PC/","created":"2024-02-29T22:19:55.890-06:00","updated":"2025-01-21T22:14:58.040-06:00"}
 ---
 
 My media rig that runs [[developer/Home Lab/Plex.tv\|Plex.tv]], [[developer/Home Lab/Jellyfin\|Jellyfin]], & my constant consumption of Youtube. 
@@ -42,6 +42,12 @@ DNS  - **mint.lan** *-via [[developer/Home Lab/Pi-hole\|Pi-hole]]*
 | Storage Ext  |                                         | HDD 8tb                                |       |     |     |
 | PSU          | high power 80 gold 650w hp1-j650gd-f12s | 650 W                                  |       |     |     |
 | Case         |                                         |                                        |       |     |     |
+## Parts
+| File                                                                                                                                                    | make    | model        | capacity | device                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ | -------- | -------------------------------------------------------------------------- |
+| [[developer/Hardware/PC Inventory/Wi-fi 6 Bluetooth 5.2 Adapter tp-link Archer TX55E PCIe\|Wi-fi 6 Bluetooth 5.2 Adapter tp-link Archer TX55E PCIe]] | tp-link | Archer TX55E | \-       | [[developer/Hardware/Ryzen 9 3900x Custom PC\|Ryzen 9 3900x Custom PC]] |
+
+{ .block-language-dataview}
 
 >[!important] GPU Driver
 >I tried the default `xserver-xorg-video-nouveau (open-source)` driver with terrible stuttering on game emulation. The proprietary `nvidia-driver-515` worked miles better. 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Batocera on SteamDeck/","tags":["emulation","game","gaming","retro"],"created":"2024-12-22T18:46:07.000-06:00","updated":"2024-12-22T18:46:07.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/emulation/Batocera on SteamDeck/","tags":["emulation","game","gaming","retro"],"created":"2024-12-22T18:46:07.000-06:00","updated":"2025-02-19T22:27:47.000-06:00"}
 ---
 
 I stumbled across my own SteamDeck, so of course the natural first thing to do is see how it fares with emulating other gaming consoles. 
@@ -66,6 +66,9 @@ This adds the code and enables without having to touch the UI
 > I won't say I did any extensive testing, but I believe the battery life is much more efficient when running games or idling Batocera.
 > 
 ## cloud saves
+
+## Scraper
+Make An account https://www.screenscraper.fr/index.php. this is the best scraper by far.
 ### rclone
 -https://github.com/peterbozso/batocera-backup-service
 ### syncthing

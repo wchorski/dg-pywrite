@@ -64,11 +64,11 @@ subgraph Your DB
 end
 ```
 
-| File                                                                                          | Last modified      |
-| --------------------------------------------------------------------------------------------- | ------------------ |
-| [[music/WilliaMusic/P4V Perforce Push Pull Walktrough\|P4V Perforce Push Pull Walktrough]] | 08.01.2025 - 00:17 |
-| [[attachments/p4v-push_pull-walkthrough (3) 1.png\|p4v-push_pull-walkthrough (3) 1.png]]   | 07.01.2025 - 23:09 |
-| [[music/DJ William 🎛/DJ Clients/2025.06.06 Robin & Tyler\|2025.06.06 Robin & Tyler]]      | 06.01.2025 - 12:00 |
+| File                                                                                                               | Last modified      |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------ |
+| [[developer/Windows 10/Windows Close Programs on Loggout or Sleep\|Windows Close Programs on Loggout or Sleep]] | 21.02.2025 - 21:47 |
+| [[developer/KYPN/KYPN Stack\|KYPN Stack]]                                                                       | 21.02.2025 - 18:47 |
+| [[developer/HTML/URL Path Map\|URL Path Map]]                                                                   | 21.02.2025 - 17:31 |
 
 { .block-language-dataview}
 

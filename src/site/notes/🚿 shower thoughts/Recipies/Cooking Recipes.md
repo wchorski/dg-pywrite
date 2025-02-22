@@ -3,8 +3,8 @@
 ---
 
 ## Recipes List
-- [[🚿 shower thoughts/Recipies/Schnitzel Fried Chicken\|Schnitzel Fried Chicken]]
 - [[🚿 shower thoughts/Recipies/Cooking Recipes\|Cooking Recipes]]
 - [[🚿 shower thoughts/Recipies/Pork Chop Apple Cider Merinaade\|Pork Chop Apple Cider Merinaade]]
+- [[🚿 shower thoughts/Recipies/Schnitzel Fried Chicken\|Schnitzel Fried Chicken]]
 
 { .block-language-dataview}

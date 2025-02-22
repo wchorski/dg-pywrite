@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/VPN that takes Monero Payment/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/VPN that takes Monero Payment/","created":"2024-02-29T22:19:55.746-06:00","updated":"2024-03-01T00:20:18.000-06:00"}
 ---
 
 

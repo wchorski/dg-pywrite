@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["cloud","nextcloud","owncloud","media","assets","management"],"permalink":"/developer/Home Lab/Nextcloud/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Nextcloud/","tags":["cloud","nextcloud","owncloud","media","assets","management"],"created":"2024-12-05T15:47:02.000-06:00","updated":"2025-01-23T11:56:03.261-06:00"}
 ---
 
 #cloud #gmail #opensource 
@@ -25,8 +25,6 @@
 1. note that I use an external drive. You must set up your other drive first.
 2. [[developer/Home Lab/Docker\|Docker]] `compose.yml`
 ```yaml
-version: '2'
-
 volumes:
   nextcloud:
   db:
@@ -199,12 +197,20 @@ docker exec -it -u 33 nextcloud-app-1 /var/www/html/occ files:scan-app-data
 ```bash
 docker exec nextcloud-db-1 mysql nextcloud -p$MYSQL_ROOT_PASSWORD -e "SELECT * FROM oc_file_locks WHERE \`lock\`<>0;"
 ```
+### Fix Lock Error
+If you've been fiddling with files in the terminal, permissions may get jacked up. In the below example we are making sure all files inside `nextcloud` data repo are owned by `www-data`. You can narrow this scope to any folders or files inside this directory to save time especially if you have a lot of files. 
+
+```shell
+sudo chown -R www-data:www-data nextcloud
+```
+## Other Troubleshooting
+- [[developer/Nextcloud/Nextcloud Block Issues and Large Log Files\|Nextcloud Block Issues and Large Log Files]]
 
 #todo 
 - [x] man description
 - [x] my desc
 - [x] working on contact syncing
-- [ ] try out nextcloud-aio
+- [ ] try out nextcloud-aio https://github.com/nextcloud/all-in-one/blob/main/migration.md
 
 ---
 ## Credits

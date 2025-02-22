@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Dolphin Emu/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/emulation/Dolphin Emu/","created":"2024-11-26T16:57:28.000-06:00","updated":"2025-02-05T23:22:43.846-06:00"}
 ---
 
 Nintendo Gamecube & Wii emulator
@@ -30,6 +30,9 @@ I have a [USB sensor bar](https://www.mayflash.com/product/6.html) that connects
 2. paste `SUBSYSTEM=="hidraw", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0306", MODE="0666"`
 3. reload rules → `sudo udevadm control --reload-rules`
 
+### Regular sensor bar Firmware Update
+Update the bar so it can act as a regular IR sensor bar (useful for frontends like [[developer/emulation/Batocera on SteamDeck\|Batocera]])
+https://forums.dolphin-emu.org/Thread-dolphinbar-and-bluetooth-passthrough
 ## Recover backup
 If you don't have any new game saves on your new computer you can do this. Go to new computer and rename the folder called "Dolphin Emulator" to something like "Dolphin Emulator BAK"
 
@@ -42,6 +45,11 @@ Then go to old computer and again find the folder
 And copy this folder into your new computer. Should be same location. That will bring all your settings and saves
 ### Steam
 Make sure the Mayflash adapter is set to "PC" setting. If you haven't already, run `wii-u-gc-adapter`
+
+## Widescreen and 60fps Hacks Codes
+2 packs that include many games and region's AR + Geko codes for Widescreen and 60fps Gamecube games
+- [Part 1](https://forums.launchbox-app.com/files/file/4040-the-nintendo-gamecube-widescreen-project-pre-configured-anamorphic-169-for-dolphin-emulator-part-1-native-169-games/)
+- [Part 2](https://forums.launchbox-app.com/files/file/4062-the-nintendo-gamecube-widescreen-project-part-2-pre-applied-ar-gecko-widescreen-cheats-hacks-anamorphic-169-for-dolphin-emulator/)
 
 ## Credits
 - [Mayflash DolphinBar on Linux (dolphin-emu.org)](https://forums.dolphin-emu.org/Thread-mayflash-dolphinbar-on-linux)

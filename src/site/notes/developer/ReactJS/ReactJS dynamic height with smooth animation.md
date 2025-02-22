@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS dynamic height with smooth animation/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/ReactJS/ReactJS dynamic height with smooth animation/","created":"2024-02-29T22:19:56.234-06:00","updated":"2024-06-04T15:44:36.000-05:00"}
 ---
 
 If you've tried the `max-height` css trick to make smooth height animations, you'll realize that this isn't a one size fits all solution (literally)

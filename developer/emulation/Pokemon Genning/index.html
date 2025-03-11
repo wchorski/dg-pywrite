@@ -4975,6 +4975,59 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Personal/travel')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
+                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
+                    <span class="foldername">travel</span>
+                    </div>
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Personal/travel/2025 Steamboat CO')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
+                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
+                    <span class="foldername">2025 Steamboat CO</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/Personal/travel/2025 Steamboat CO/March 8 2025/">March 8 2025 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/Personal/Stock Market Order Types (Market Order, Limit Order, Stop Loss, Stop Limit)/">Stock Market Order Types (Market Order, Limit Order, Stop Loss, Stop Limit) </a>
                 </div>
             
@@ -5368,6 +5421,17 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/🚿 shower thoughts/Psycology/Know, Like and Trust/">Know, Like and Trust </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/🚿 shower thoughts/Psycology/liar&#39;s paradox/">liar&#39;s paradox </a>
                 </div>
             
         </div>
@@ -5817,7 +5881,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-11T01:15:49.521Z';
+        const searchIndexDate = '2025-03-11T01:26:55.049Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5829,9 +5893,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T01:15:49.521Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T01:26:55.049Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T01:15:49.521Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T01:26:55.049Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6072,7 +6136,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-13T20:41:17.641-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-14T21:56:25.000-05:00"></span></div></div></div>
+          <div class="timestamps"></div></div>
       
       
         

@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Digital Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Digital Garden</h1>
+               <h1 style="text-align:center;">Pywrite Garden</h1>
          </a>
          
         
@@ -5881,7 +5881,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-11T01:26:55.049Z';
+        const searchIndexDate = '2025-03-11T06:38:47.927Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5893,9 +5893,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T01:26:55.049Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T06:38:47.927Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T01:26:55.049Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T06:38:47.927Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6148,7 +6148,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-01-07T22:47:18.467-06:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-01-08T00:39:36.196-06:00"></span></div></div></div>
+          </div>
       
       
         
@@ -6163,23 +6163,7 @@
 <li>highlight folder you wish to sync (go farther into the nested structure to single out what parts you need to avoid extra downloads)</li>
 <li>hit the <strong>Get Latest</strong> button and wait for <strong>Log</strong> box to complete</li>
 </ol>
-<p><picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(2).png" alt="attachments/p4v-push_pull-walkthrough (2).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/vuA_SW9eD4-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/vuA_SW9eD4-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/vuA_SW9eD4-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/vuA_SW9eD4-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(2).png"
-      alt="attachments/p4v-push_pull-walkthrough (2).png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/p4v-push_pull-walkthrough%20(2).png" alt="attachments/p4v-push_pull-walkthrough (2).png"></p>
 <h3 id="wwise-project" tabindex="-1">Wwise Project</h3>
 <ol>
 <li>Open Wwise project <code>WwiseProject.wproj</code> through AudioKinetic Launcher <strong>With Proper Version</strong>
@@ -6193,126 +6177,30 @@
 </ol>
 </li>
 </ol>
-<p><picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(3).png" alt="attachments/p4v-push_pull-walkthrough (3).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/sywZmKrXX0-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/sywZmKrXX0-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/sywZmKrXX0-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/sywZmKrXX0-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(3).png"
-      alt="attachments/p4v-push_pull-walkthrough (3).png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/p4v-push_pull-walkthrough%20(3).png" alt="attachments/p4v-push_pull-walkthrough (3).png"></p>
 <h4 id="check-out-unit" tabindex="-1">Check out Unit</h4>
 <ol>
 <li>Editing and saving (ctrl + s) a Work Unit will automatically check out (turn green dot to red !)
 <ol>
 <li>You an also manually check out a Unit with the context menu<br>
-<picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(4).png" alt="attachments/p4v-push_pull-walkthrough (4).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/H_DEioYC4H-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/H_DEioYC4H-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/H_DEioYC4H-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/H_DEioYC4H-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(4).png"
-      alt="attachments/p4v-push_pull-walkthrough (4).png"
-      width=""
-      ></picture></li>
+<img src="/img/user/attachments/p4v-push_pull-walkthrough%20(4).png" alt="attachments/p4v-push_pull-walkthrough (4).png"></li>
 </ol>
 </li>
 </ol>
 <h4 id="saving-a-change" tabindex="-1">Saving a Change</h4>
 <p>Here I've edited the switch container <code>MusicSwitchAlien</code> to <code>MusicSwitchAlien_CHANGE</code> and am about to save.</p>
-<p><picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(6).png" alt="attachments/p4v-push_pull-walkthrough (6).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/RD9Sal1L4Z-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/RD9Sal1L4Z-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/RD9Sal1L4Z-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/RD9Sal1L4Z-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(6).png"
-      alt="attachments/p4v-push_pull-walkthrough (6).png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/p4v-push_pull-walkthrough%20(6).png" alt="attachments/p4v-push_pull-walkthrough (6).png"></p>
 <p>After I save the Unit gets checked out (red !)<br>
-<picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(7).png" alt="attachments/p4v-push_pull-walkthrough (7).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/r_PlUetqYo-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/r_PlUetqYo-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/r_PlUetqYo-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/r_PlUetqYo-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(7).png"
-      alt="attachments/p4v-push_pull-walkthrough (7).png"
-      width=""
-      ></picture></p>
+<img src="/img/user/attachments/p4v-push_pull-walkthrough%20(7).png" alt="attachments/p4v-push_pull-walkthrough (7).png"></p>
 <h3 id="back-over-to-p4-v" tabindex="-1">Back over to P4V</h3>
 <p>After your done with your edits check back to the P4v (you didn't close it did you?) and you'll notice a parallel updates under the <strong>Pending</strong> tab in P4V</p>
-<p><picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(8).png" alt="attachments/p4v-push_pull-walkthrough (8).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/qugbaPNRrm-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/qugbaPNRrm-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/qugbaPNRrm-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/qugbaPNRrm-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(8).png"
-      alt="attachments/p4v-push_pull-walkthrough (8).png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/p4v-push_pull-walkthrough%20(8).png" alt="attachments/p4v-push_pull-walkthrough (8).png"></p>
 <div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Revert Changes<br></div></div>
 <div class="callout-content">
 <p>
 Above I accidently checked out a file that I did not make changes to. You're able to context menu and &quot;Revert if Unchanged&quot; these in P4V. Check out below</p>
 </div></div>
-<p><picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(12).png" alt="attachments/p4v-push_pull-walkthrough (12).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/XNuVPH9KbR-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/XNuVPH9KbR-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/XNuVPH9KbR-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/XNuVPH9KbR-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(12).png"
-      alt="attachments/p4v-push_pull-walkthrough (12).png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/p4v-push_pull-walkthrough%20(12).png" alt="attachments/p4v-push_pull-walkthrough (12).png"></p>
 <h4 id="submit-changes" tabindex="-1">Submit Changes</h4>
 <p>You now ready to <strong>push</strong> the new changes. Hit the big juicy <strong>Submit</strong> button to start</p>
 <div class="callout " data-callout="note"><div class="callout-title"><div class="callout-title-inner"> HOLD UP<br></div></div>
@@ -6327,36 +6215,9 @@ You must make a <strong>commit message</strong> in the pop up dialogue box. Here
 - new RTPC for camera proximity
 </code></pre>
 <p>The first bit <code>[Music - Will]</code> represents the what has been done and by who. the <code>BC-224</code> is the Jira ticket # (screenshot from Jira below)</p>
-<p><picture src="/img/user/attachments/Pasted%20image%2020250107235241.png" alt="attachments/Pasted image 20250107235241.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/brCo7huOOD-322.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/brCo7huOOD-322.jpeg"
-      >
-      <img       class=""
-      src="/img/user/attachments/Pasted%20image%2020250107235241.png"
-      alt="attachments/Pasted image 20250107235241.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020250107235241.png" alt="attachments/Pasted image 20250107235241.png"></p>
 <p>The rest is really up to you, the more detail the better. I'll say <code>Name change &quot;MusicSwitchAlien_CHANGE</code> is a bit overkill, but the other 3 (phony changes) listed are more inline with what should be noted. This is to help both you and the team remember each commit in case we need to roll back the project. Be descriptive enough that you'd remember the commit in a month or 2 down the road.</p>
-<p><picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(11).png" alt="attachments/p4v-push_pull-walkthrough (11).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/L9wPx4ovaG-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/L9wPx4ovaG-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/L9wPx4ovaG-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/L9wPx4ovaG-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(11).png"
-      alt="attachments/p4v-push_pull-walkthrough (11).png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/p4v-push_pull-walkthrough%20(11).png" alt="attachments/p4v-push_pull-walkthrough (11).png"></p>
 <p>Now you may hit the <strong>Submit</strong> button in the pop up to finish the job</p>
 <h3 id="double-check-wwise" tabindex="-1">Double Check Wwise</h3>
 <p>Back in Wwise the <strong>red !</strong> should now have turned back to a <strong>green dot</strong>. Sometimes it doesn't update right away. You have 2 options.</p>
@@ -6364,23 +6225,7 @@ You must make a <strong>commit message</strong> in the pop up dialogue box. Here
 <li>Close and reopen Wwise</li>
 <li>Hit &quot;Source Control &gt; Refresh All&quot; in the context menu (screenshot below)</li>
 </ol>
-<p><picture src="/img/user/attachments/p4v-push_pull-walkthrough%20(1).png" alt="attachments/p4v-push_pull-walkthrough (1).png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/fg-8j-jgLS-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/fg-8j-jgLS-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/fg-8j-jgLS-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/fg-8j-jgLS-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/p4v-push_pull-walkthrough%20(1).png"
-      alt="attachments/p4v-push_pull-walkthrough (1).png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/p4v-push_pull-walkthrough%20(1).png" alt="attachments/p4v-push_pull-walkthrough (1).png"></p>
 <div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> If that doesn't work<br></div></div>
 <div class="callout-content">
 <p>
@@ -6389,36 +6234,9 @@ Look back to P4V and see if you need to <strong>Revert Unchanged</strong></p>
 <h2 id="generate-soundbanks" tabindex="-1">Generate Soundbanks</h2>
 <p>Note, that when adding new assets you must generate new sound banks before you commit any changes.</p>
 <p>I'd recommend just getting in the habit of always generating sound banks every time your down with a session of work.</p>
-<p><picture src="/img/user/attachments/Pasted%20image%2020250108000236.png" alt="attachments/Pasted image 20250108000236.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/dKZnLNy6re-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/dKZnLNy6re-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/dKZnLNy6re-502.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/dKZnLNy6re-502.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/Pasted%20image%2020250108000236.png"
-      alt="attachments/Pasted image 20250108000236.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020250108000236.png" alt="attachments/Pasted image 20250108000236.png"></p>
 <p>This will &quot;Completed with fatal errors&quot;. That is normal and expected. Just close the window and don't ask too many questions.</p>
-<p><picture src="/img/user/attachments/Pasted%20image%2020250108000538.png" alt="attachments/Pasted image 20250108000538.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/mt5gcDmrSy-494.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/mt5gcDmrSy-494.jpeg"
-      >
-      <img       class=""
-      src="/img/user/attachments/Pasted%20image%2020250108000538.png"
-      alt="attachments/Pasted image 20250108000538.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020250108000538.png" alt="attachments/Pasted image 20250108000538.png"></p>
 <h3 id="unlock-file" tabindex="-1">Unlock File</h3>
 <p>Sometimes you may get a permission error when trying to save preventing you from modifying the file</p>
 <p>Try these 2 options in your file browser (Explorer for Windows or Finder for MacOS)</p>

@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Digital Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Digital Garden</h1>
+               <h1 style="text-align:center;">Pywrite Garden</h1>
          </a>
          
         
@@ -5881,7 +5881,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-11T01:26:55.049Z';
+        const searchIndexDate = '2025-03-11T06:38:47.927Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5893,9 +5893,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T01:26:55.049Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T06:38:47.927Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T01:26:55.049Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T06:38:47.927Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6148,7 +6148,7 @@
                 
               
             </div>
-          <div class="timestamps"></div></div>
+          </div>
       
       
         
@@ -6161,42 +6161,10 @@
 <p>If you're like me, you view these graphs often. I tired quickly when having to open up the app click through the sidebar and click dashboard. All that to have the view smashed inside  <strong>HA's</strong> UI.</p>
 <h2 id="home-assistant-add-ons" tabindex="-1">Home Assistant Add-ons</h2>
 <p>in the Grafana add-on settings, open port 3000 for docker. Just add 3000 to Network “Change the ports…” setting and save.</p>
-<p><picture src="/img/user/attachments/Pasted%20image%2020250122214033.png" alt="attachments/Pasted image 20250122214033.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/goTnNZuGWx-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/goTnNZuGWx-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/goTnNZuGWx-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/goTnNZuGWx-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/Pasted%20image%2020250122214033.png"
-      alt="attachments/Pasted image 20250122214033.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020250122214033.png" alt="attachments/Pasted image 20250122214033.png"></p>
 <h3 id="before-you-leave-ha" tabindex="-1">Before you leave HA</h3>
 <p>Head over the the Grafana add-on's view and find the <strong>Share</strong> button and copy the &quot;Public Dashboard&quot; URL</p>
-<p><picture src="/img/user/attachments/Pasted%20image%2020250122214458.png" alt="attachments/Pasted image 20250122214458.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/MLvg9MAkrb-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/MLvg9MAkrb-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/MLvg9MAkrb-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/MLvg9MAkrb-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/Pasted%20image%2020250122214458.png"
-      alt="attachments/Pasted image 20250122214458.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020250122214458.png" alt="attachments/Pasted image 20250122214458.png"></p>
 <h2 id="browser" tabindex="-1">Browser</h2>
 <p>In the address bar make sure to change <code>localhost</code> to you <strong>HA's</strong> IP/Hostname</p>
 <pre><code class="language-conf">location = / {     

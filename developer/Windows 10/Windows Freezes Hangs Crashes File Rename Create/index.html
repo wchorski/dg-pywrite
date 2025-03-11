@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Digital Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Digital Garden</h1>
+               <h1 style="text-align:center;">Pywrite Garden</h1>
          </a>
          
         
@@ -5881,7 +5881,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-11T01:26:55.049Z';
+        const searchIndexDate = '2025-03-11T06:38:47.927Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5893,9 +5893,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T01:26:55.049Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T06:38:47.927Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T01:26:55.049Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T06:38:47.927Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6166,7 +6166,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-02-18T23:40:45.413-06:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-02-18T23:52:54.289-06:00"></span></div></div></div>
+          </div>
       
       
         
@@ -6178,23 +6178,7 @@
       <p>When creating and renaming files, folders, directories, etc. I'd sit there watching the file explorer freeze up for seconds to minutes until finally it would snap back to reality.</p>
 <p>After a bit of forum digging, unchecking these to Privacy settings seemed to do the trick.</p>
 <p>You can find them under the <strong>View</strong> tab <strong>Options</strong> button</p>
-<p><picture src="/img/user/attachments/win-10-file-rename-freeze-fix.jpg" alt="attachments/win-10-file-rename-freeze-fix.jpg"><source       media="(max-width:480px)"
-      srcset="/img/optimized/S57NG-KWwz-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/S57NG-KWwz-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/S57NG-KWwz-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/S57NG-KWwz-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/win-10-file-rename-freeze-fix.jpg"
-      alt="attachments/win-10-file-rename-freeze-fix.jpg"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/win-10-file-rename-freeze-fix.jpg" alt="attachments/win-10-file-rename-freeze-fix.jpg"></p>
 <div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Just for fun<br></div></div>
 <div class="callout-content">
 <p>

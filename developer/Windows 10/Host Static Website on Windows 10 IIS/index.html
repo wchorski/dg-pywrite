@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Digital Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Digital Garden</h1>
+               <h1 style="text-align:center;">Pywrite Garden</h1>
          </a>
          
         
@@ -5881,7 +5881,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-11T01:26:55.049Z';
+        const searchIndexDate = '2025-03-11T06:38:47.927Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5893,9 +5893,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T01:26:55.049Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T06:38:47.927Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T01:26:55.049Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T06:38:47.927Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6136,7 +6136,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-07-02T12:15:16.000-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-02T12:15:16.000-05:00"></span></div></div></div>
+          </div>
       
       
         
@@ -6147,68 +6147,14 @@
       
       <h2 id="enable-iis-feature" tabindex="-1">Enable IIS Feature</h2>
 <p>You may need to enable IIS first before using the app.</p>
-<p><picture src="/img/user/attachments/Pasted%20image%2020240702111949.png" alt="attachments/Pasted image 20240702111949.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/3-W4-nwpTT-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/3-W4-nwpTT-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/3-W4-nwpTT-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/3-W4-nwpTT-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/Pasted%20image%2020240702111949.png"
-      alt="attachments/Pasted image 20240702111949.png"
-      width=""
-      ></picture></p>
-<p><picture src="/img/user/attachments/Pasted%20image%2020240702112002.png" alt="attachments/Pasted image 20240702112002.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/NtKToqducG-492.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/NtKToqducG-492.jpeg"
-      >
-      <img       class=""
-      src="/img/user/attachments/Pasted%20image%2020240702112002.png"
-      alt="attachments/Pasted image 20240702112002.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020240702111949.png" alt="attachments/Pasted image 20240702111949.png"></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020240702112002.png" alt="attachments/Pasted image 20240702112002.png"></p>
 <h2 id="create-new-site" tabindex="-1">Create New Site</h2>
 <p>Now you can search in your apps for <code>IIS</code> or <strong>Internet Information Services</strong> and run the GUI</p>
 <p>Right click to open context menu to &quot;Add Website...&quot;<br>
-<picture src="/img/user/attachments/Pasted%20image%2020240702112557.png" alt="attachments/Pasted image 20240702112557.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/AVIcAPrpvT-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/AVIcAPrpvT-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/AVIcAPrpvT-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/AVIcAPrpvT-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/Pasted%20image%2020240702112557.png"
-      alt="attachments/Pasted image 20240702112557.png"
-      width=""
-      ></picture></p>
+<img src="/img/user/attachments/Pasted%20image%2020240702112557.png" alt="attachments/Pasted image 20240702112557.png"></p>
 <p>Configure the site name and file location<br>
-<picture src="/img/user/attachments/Pasted%20image%2020240702112701.png" alt="attachments/Pasted image 20240702112701.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/v45zLTokbi-495.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/v45zLTokbi-495.jpeg"
-      >
-      <img       class=""
-      src="/img/user/attachments/Pasted%20image%2020240702112701.png"
-      alt="attachments/Pasted image 20240702112701.png"
-      width=""
-      ></picture></p>
+<img src="/img/user/attachments/Pasted%20image%2020240702112701.png" alt="attachments/Pasted image 20240702112701.png"></p>
 <p>In this example, the root of the website files lives at <code>C:\inetpub\wwwroot\mysite</code>. You may organize your files anyway you'd like. It's recommended that you have these files outside and above your <code>./User</code> files</p>
 <h2 id="edit-host-file" tabindex="-1">Edit Host File</h2>
 <p>We must tell the <a class="tag" onclick="toggleTagSearch(this)" data-content="#windows">#windows</a> machine to resolve the <code>mysite.local</code> domain name</p>

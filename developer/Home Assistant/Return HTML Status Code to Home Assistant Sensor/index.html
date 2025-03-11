@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Digital Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Digital Garden</h1>
+               <h1 style="text-align:center;">Pywrite Garden</h1>
          </a>
          
         
@@ -5881,7 +5881,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-11T01:26:55.049Z';
+        const searchIndexDate = '2025-03-11T06:38:47.927Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5893,9 +5893,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T01:26:55.049Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T06:38:47.927Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T01:26:55.049Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T06:38:47.927Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6136,7 +6136,7 @@
                 
               
             </div>
-          <div class="timestamps"></div></div>
+          </div>
       
       
         
@@ -6147,23 +6147,7 @@
       
       <p>Scrape a website and return it's status code to a <a class="internal-link" target="" data-note-icon="" href="/developer/Home Lab/Home Assistant/">Home Assistant</a> sensor. This builds off of my <a class="internal-link" target="" data-note-icon="" href="/developer/Home Assistant/TV Power and Switch Template/">TV Power and Switch Template</a>.</p>
 <h2 id="dashboard-screenshot" tabindex="-1">Dashboard Screenshot</h2>
-<p><picture src="/img/user/attachments/HA-html-status-code%201.png" alt="attachments/HA-html-status-code 1.png|HA-html-status-code"><source       media="(max-width:480px)"
-      srcset="/img/optimized/PKmQUN2_CS-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/PKmQUN2_CS-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/PKmQUN2_CS-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/PKmQUN2_CS-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/HA-html-status-code%201.png"
-      alt="attachments/HA-html-status-code 1.png|HA-html-status-code"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/HA-html-status-code%201.png" alt="attachments/HA-html-status-code 1.png|HA-html-status-code"></p>
 <h2 id="local-file-template-sensor" tabindex="-1">Local File  + Template Sensor</h2>
 <p>Later I explain a <strong>Command Line Method</strong> to do this only within Home Assistant, but I had a lot of false positives (or in this case, true negatives). This method assumes you have a separate machine (using my <a class="internal-link" target="" data-note-icon="" href="/developer/Hardware/Pi4/">Pi4</a>) to run the <code>curl</code> commands, share files via <a class="internal-link" target="" data-note-icon="" href="/developer/Linux/SAMBA Share/">SAMBA Share</a>, and set up a <strong>Local File Sensor</strong> in Home Assistant</p>
 <h3 id="curl-hmtl-status-from-website" tabindex="-1">Curl HMTL Status from Website</h3>
@@ -6190,23 +6174,7 @@ done
 <h3 id="add-network-storage" tabindex="-1">Add Network Storage</h3>
 <p>Home Assistant now supports mounting network storage via the UI (you may have to update you HA to get this feature) <code>http://HOMEASSISTANT_HOSTNAME:8123/config/storage</code></p>
 <p>On this page <button>Add Network Storage</button>  with the username, password, and folder</p>
-<p><picture src="/img/user/attachments/HA-network-smb%201.png" alt="attachments/HA-network-smb 1.png|HA-network-smb"><source       media="(max-width:480px)"
-      srcset="/img/optimized/sUULu9-1DM-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/sUULu9-1DM-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/sUULu9-1DM-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/sUULu9-1DM-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/HA-network-smb%201.png"
-      alt="attachments/HA-network-smb 1.png|HA-network-smb"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/HA-network-smb%201.png" alt="attachments/HA-network-smb 1.png|HA-network-smb"></p>
 <p>Now we can jump into HA's <code>configuration.yaml</code></p>
 <h3 id="ha-configuration-yaml" tabindex="-1">HA Configuration.yaml</h3>
 <div class="callout " data-callout="important"><div class="callout-title"><div class="callout-title-inner"> Allow the directory<br></div></div>

@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Digital Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Digital Garden</h1>
+               <h1 style="text-align:center;">Pywrite Garden</h1>
          </a>
          
         
@@ -5881,7 +5881,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-11T01:26:55.049Z';
+        const searchIndexDate = '2025-03-11T06:38:47.927Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5893,9 +5893,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T01:26:55.049Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-11T06:38:47.927Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T01:26:55.049Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-11T06:38:47.927Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6160,7 +6160,7 @@
                 
               
             </div>
-          <div class="timestamps"></div></div>
+          </div>
       
       
         
@@ -6191,60 +6191,12 @@ wmic process where name=&quot;EpicGamesLauncher.exe&quot; call terminate
 <p>
 If your desktop doesn't lock when going to sleep. I'm not sure if this will work for you. You can still poke around in the <strong>Event Viewer</strong> to see what you can use to trigger your script.</p>
 </div></div>
-<p><picture src="/img/user/attachments/Pasted%20image%2020250123120707.png" alt="attachments/Pasted image 20250123120707.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/VXAaT_Dp41-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/VXAaT_Dp41-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/VXAaT_Dp41-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/VXAaT_Dp41-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/Pasted%20image%2020250123120707.png"
-      alt="attachments/Pasted image 20250123120707.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020250123120707.png" alt="attachments/Pasted image 20250123120707.png"></p>
 <h3 id="trigger" tabindex="-1">Trigger</h3>
-<p><picture src="/img/user/attachments/Pasted%20image%2020250123120911.png" alt="attachments/Pasted image 20250123120911.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/2F_NO8fHVY-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/2F_NO8fHVY-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/2F_NO8fHVY-629.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/2F_NO8fHVY-629.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/Pasted%20image%2020250123120911.png"
-      alt="attachments/Pasted image 20250123120911.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020250123120911.png" alt="attachments/Pasted image 20250123120911.png"></p>
 <h2 id="finding-event" tabindex="-1">Finding Event</h2>
 <p>If you want the script to trigger from a different event you can browse the <strong>Event Viewer</strong>.</p>
-<p><picture src="/img/user/attachments/Pasted%20image%2020250123121159.png" alt="attachments/Pasted image 20250123121159.png"><source       media="(max-width:480px)"
-      srcset="/img/optimized/4wIrILhqJl-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/4wIrILhqJl-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/4wIrILhqJl-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/4wIrILhqJl-700.jpeg"
-        ><img       class=""
-      src="/img/user/attachments/Pasted%20image%2020250123121159.png"
-      alt="attachments/Pasted image 20250123121159.png"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/attachments/Pasted%20image%2020250123121159.png" alt="attachments/Pasted image 20250123121159.png"></p>
 <p>Here I've fount Event ID <code>42</code> might even work better for what I need. But I'm sticking to <code>7002</code> for now because it already just works</p>
 <h2 id="2nd-option-command" tabindex="-1">2nd Option Command</h2>
 <p>If the program isn't closing you can try <code>taskill /IM</code> to forcefully close the program. This is not a graceful solution but it can work on those stubborn apps.</p>

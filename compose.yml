@@ -1,11 +1,32 @@
 name: dg-pywriter
 services:
-  nginx:
-    image: nginx:latest
-    container_name: dg-pywriter-web
-    stdin_open: true
-    tty: true
+  web:
+    image: dg-pywriter:latest
+    restart: unless-stopped
+    build:
+      context: ./
+      dockerfile: Dockerfile
     ports:
       - 8888:80
-    volumes:
-      - ./dist:/usr/share/nginx/html
+    networks:
+      - this
+      - proxy # TODO turn back on when using proxy
+
+  # nginx:
+  #   image: nginx:latest
+  #   container_name: dg-pywriter-web
+  #   stdin_open: true
+  #   tty: true
+  #   ports:
+  #     - 8888:80
+  #   volumes:
+  #     - ./dist:/usr/share/nginx/html
+
+networks:    
+  this:
+    name: dg-pywriter-network
+    driver: bridge  
+  proxy:  # TODO turn back on when using proxy
+    name: nginx-prox-mgmt-3_default # whatever proxy container network
+    driver: bridge
+    external: true

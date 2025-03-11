@@ -12,17 +12,16 @@ RUN npm run build
 
 
 
-# # Stage 2: Serve with Nginx
-# FROM nginx:latest AS server
+# Stage 2: Serve with Nginx
+FROM nginx:latest AS server
 
-# # Copy built site from builder stage
-# COPY --from=builder /app/_site /usr/share/nginx/html
+# Copy built site from builder stage
+COPY --from=builder /app/dist /usr/share/nginx/html
 
 # # Copy a custom Nginx configuration (optional)
 # COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# # Expose port 80
-# EXPOSE 80
+EXPOSE 80
 
-# # Start Nginx
-# CMD ["nginx", "-g", "daemon off;"]
+# Start Nginx
+CMD ["nginx", "-g", "daemon off;"]

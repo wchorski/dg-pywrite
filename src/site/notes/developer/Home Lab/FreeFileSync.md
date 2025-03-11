@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/FreeFileSync/","created":"2024-03-13T20:41:29.867-05:00","updated":"2024-03-14T21:56:27.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/FreeFileSync/","dgPassFrontmatter":true}
 ---
 
 #backup #cross_platform

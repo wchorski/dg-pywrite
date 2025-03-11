@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CMS Page Builder Rich Text Editors/","created":"2024-12-16T21:50:19.000-06:00","updated":"2024-12-16T21:50:19.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/CMS Page Builder Rich Text Editors/","dgPassFrontmatter":true}
 ---
 
 

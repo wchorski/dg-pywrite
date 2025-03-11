@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Backup Solutions/","tags":["linux","Thunderbird","flstudio","music"],"created":"2024-02-29T22:19:55.697-06:00","updated":"2024-06-04T15:46:26.000-05:00"}
+{"tags":["linux","Thunderbird","flstudio","music"],"dg-publish":true,"permalink":"/developer/Backup Solutions/","dgPassFrontmatter":true}
 ---
 
 This is my chain of programs that help me backup and store data whether it's local clone, version controlled, and or remote sight backups

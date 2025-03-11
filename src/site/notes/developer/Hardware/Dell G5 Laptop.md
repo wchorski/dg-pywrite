@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Hardware/Dell G5 Laptop/","created":"2024-02-29T22:19:55.871-06:00","updated":"2024-06-04T15:46:10.000-05:00"}
+{"codename":"sn0flake","dg-publish":true,"permalink":"/developer/Hardware/Dell G5 Laptop/","dgPassFrontmatter":true}
 ---
 
 

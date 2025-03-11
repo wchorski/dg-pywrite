@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/idioms/Swallow the Frog/","tags":["idiom","saying","time","management","productivity"],"created":"2025-01-20T23:26:31.447-06:00","updated":"2025-01-20T23:28:33.527-06:00"}
+{"dg-publish":true,"tags":["idiom","saying","time","management","productivity"],"permalink":"/🚿 shower thoughts/idioms/Swallow the Frog/","dgPassFrontmatter":true}
 ---
 
 > [!quote] [davron](https://www.davron.net/the-swallow-the-frog-principle-the-secret-to-time-management/)

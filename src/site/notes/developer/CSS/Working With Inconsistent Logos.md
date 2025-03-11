@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Working With Inconsistent Logos/","created":"2024-02-29T22:19:55.812-06:00","updated":"2024-03-01T00:19:51.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/CSS/Working With Inconsistent Logos/","dgPassFrontmatter":true}
 ---
 
 There are a few common problems when working with not so stellar logos sent in by the client

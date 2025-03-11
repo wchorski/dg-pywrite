@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Document vs SQL Database/","tags":["db","database","SQL","NoSQL"],"created":"2024-02-29T22:19:55.712-06:00","updated":"2024-06-04T15:46:07.000-05:00"}
+{"dg-publish":true,"tags":["db","database","SQL","NoSQL"],"permalink":"/developer/Document vs SQL Database/","dgPassFrontmatter":true}
 ---
 
 

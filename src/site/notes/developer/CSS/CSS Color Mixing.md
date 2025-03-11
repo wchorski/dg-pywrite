@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Color Mixing/","created":"2024-02-29T22:19:55.779-06:00","updated":"2024-03-01T00:21:01.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/CSS/CSS Color Mixing/","dgPassFrontmatter":true}
 ---
 
 mixing colors in [[developer/CSS/CSS\|CSS]] is now a breeze. Create quick color pallet themes that can easily be tweaked.

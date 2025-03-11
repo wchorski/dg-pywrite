@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Hardware/Phenom II X6 1045T Custom PC/","created":"2024-02-29T22:19:55.884-06:00","updated":"2024-03-01T00:19:40.000-06:00"}
+{"codename":"Kevin the Ripper","dg-publish":true,"permalink":"/developer/Hardware/Phenom II X6 1045T Custom PC/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Nextcloud/","tags":["cloud","nextcloud","owncloud","media","assets","management"],"created":"2024-12-05T15:47:02.000-06:00","updated":"2025-01-23T11:56:03.261-06:00"}
+{"dg-publish":true,"tags":["cloud","nextcloud","owncloud","media","assets","management"],"permalink":"/developer/Home Lab/Nextcloud/","dgPassFrontmatter":true}
 ---
 
 #cloud #gmail #opensource 

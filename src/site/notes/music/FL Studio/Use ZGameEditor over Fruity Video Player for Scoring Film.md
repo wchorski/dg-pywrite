@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/FL Studio/Use ZGameEditor over Fruity Video Player for Scoring Film/","tags":["audio","music","producer","DAW"],"created":"2024-02-29T22:19:56.380-06:00","updated":"2024-03-01T00:18:11.000-06:00"}
+{"dg-publish":true,"tags":["audio","music","producer","DAW"],"permalink":"/music/FL Studio/Use ZGameEditor over Fruity Video Player for Scoring Film/","dgPassFrontmatter":true}
 ---
 
 If you've tried scoring film in [[music/FL Studio/FL Studio\|FL Studio]] then I assume you tried [Fruity Video Player (image-line.com)](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Video%20Player.htm) to match up your session playlist with the piece of media. 

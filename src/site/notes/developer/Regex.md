@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Regex/","created":"2024-12-29T17:29:52.000-06:00","updated":"2024-12-29T17:29:52.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/Regex/","dgPassFrontmatter":true}
 ---
 
 
@@ -88,7 +88,7 @@ const regex = \[\[(http.*?)\]\]
 // replace string
 [link]($1)
 // `---
-{"dg-publish":true,"permalink":"/developer/Regex/","created":"2024-12-29T17:29:52.000-06:00","updated":"2024-12-29T17:29:52.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/Regex/","dgPassFrontmatter":true}
 ---
 
 

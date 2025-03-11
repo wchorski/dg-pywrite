@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Pretty URLs for Your Internal Network/","created":"2024-03-13T20:40:28.921-05:00","updated":"2024-03-14T21:56:21.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Pretty URLs for Your Internal Network/","dgPassFrontmatter":true}
 ---
 
 ## Tools

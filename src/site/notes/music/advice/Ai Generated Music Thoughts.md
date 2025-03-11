@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/advice/Ai Generated Music Thoughts/","tags":["music","AI"],"created":"2025-01-22T12:33:59.000-06:00","updated":"2025-01-22T12:33:59.000-06:00"}
+{"dg-publish":true,"tags":["music","AI"],"permalink":"/music/advice/Ai Generated Music Thoughts/","dgPassFrontmatter":true}
 ---
 
 ## Tidal Wave

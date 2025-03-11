@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/FL Studio/FL Studio Map Pitch and Mod Wheel/","tags":["flstudio","DAW","plug-in","3rd-party","music"],"created":"2024-04-29T21:50:41.883-05:00","updated":"2024-04-30T21:29:20.000-05:00"}
+{"dg-publish":true,"tags":["flstudio","DAW","plug-in","3rd-party","music"],"permalink":"/music/FL Studio/FL Studio Map Pitch and Mod Wheel/","dgPassFrontmatter":true}
 ---
 
 ## Pitch Bend

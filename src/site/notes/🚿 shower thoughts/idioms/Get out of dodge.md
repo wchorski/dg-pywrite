@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/idioms/Get out of dodge/","created":"2024-12-15T16:44:30.000-06:00","updated":"2024-12-15T16:44:30.000-06:00"}
+{"dg-publish":true,"permalink":"/🚿 shower thoughts/idioms/Get out of dodge/","dgPassFrontmatter":true}
 ---
 
 The idiom **"get out of dodge"** > typically refers to leaving a place quickly, especially to avoid trouble or an unpleasant situation. The phrase originates from the town of Dodge City in Kansas, which was famous for its wild west lawlessness in the late 19th century.

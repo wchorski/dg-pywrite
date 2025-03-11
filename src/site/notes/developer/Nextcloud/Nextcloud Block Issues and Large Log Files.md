@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Nextcloud/Nextcloud Block Issues and Large Log Files/","tags":["nextcloud","logs","data","recovery"],"created":"2025-01-22T22:00:46.027-06:00","updated":"2025-01-22T22:16:30.100-06:00"}
+{"dg-publish":true,"tags":["nextcloud","logs","data","recovery"],"permalink":"/developer/Nextcloud/Nextcloud Block Issues and Large Log Files/","dgPassFrontmatter":true}
 ---
 
 I had the external drive (a externally powered external HDD. I know... but it's cheap and it works) unmount itself a few times in one week. This worried me that the drive may be reaching end of life, but I had another suspicion something was going on.

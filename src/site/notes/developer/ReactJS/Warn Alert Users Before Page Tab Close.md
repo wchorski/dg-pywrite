@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Warn Alert Users Before Page Tab Close/","tags":["reactjs","javascript","webdev"],"created":"2024-03-05T21:45:14.953-06:00","updated":"2024-03-06T13:20:21.000-06:00"}
+{"dg-publish":true,"tags":["reactjs","javascript","webdev"],"permalink":"/developer/ReactJS/Warn Alert Users Before Page Tab Close/","dgPassFrontmatter":true}
 ---
 
 ## Get started 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Digital Gardening/Digital Gardening/","created":"2024-07-19T15:32:18.000-05:00","updated":"2024-07-21T18:38:54.795-05:00"}
+{"dg-publish":true,"permalink":"/developer/Digital Gardening/Digital Gardening/","dgPassFrontmatter":true}
 ---
 
 

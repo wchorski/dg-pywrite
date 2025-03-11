@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Assistant/Jinja Code Snippet/","created":"2024-02-29T22:19:55.897-06:00","updated":"2024-06-04T15:45:43.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Home Assistant/Jinja Code Snippet/","dgPassFrontmatter":true}
 ---
 
 Create and reuse snippets of logic with the [Jinja](https://palletsprojects.com/p/jinja/)syntax for all sorts of use cases in [[developer/Home Lab/Home Assistant\|Home Assistant]]. 

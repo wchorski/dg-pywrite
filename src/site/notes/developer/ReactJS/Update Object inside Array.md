@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Update Object inside Array/","created":"2024-02-29T22:19:56.245-06:00","updated":"2024-06-04T15:45:40.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Update Object inside Array/","dgPassFrontmatter":true}
 ---
 
 [[developer/Home Lab/ReactJS\|ReactJS]]

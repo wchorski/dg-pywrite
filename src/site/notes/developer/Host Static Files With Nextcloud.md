@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Host Static Files With Nextcloud/","tags":["media","assets","images","files","public","selfhosted","docker"],"created":"2024-07-12T14:29:46.000-05:00","updated":"2024-07-12T14:29:46.000-05:00"}
+{"dg-publish":true,"tags":["media","assets","images","files","public","selfhosted","docker"],"permalink":"/developer/Host Static Files With Nextcloud/","dgPassFrontmatter":true}
 ---
 
 Between self-hosting a [[developer/Home Lab/Nextcloud\|Nextcloud]] instance and creating website, I wanted there to be a way for my **Nextcloud** users to upload and manage public files to share and or add to their site. 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Raspberry hostname mismatch/","tags":["linux","network","DNS"],"created":"2025-01-08T10:52:57.000-06:00","updated":"2025-01-08T10:52:57.000-06:00"}
+{"dg-publish":true,"tags":["linux","network","DNS"],"permalink":"/developer/Linux/Raspberry hostname mismatch/","dgPassFrontmatter":true}
 ---
 
 

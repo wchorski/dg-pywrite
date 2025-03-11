@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/Simple Toggle State Button with HTML and CSS/","created":"2024-02-29T22:19:55.992-06:00","updated":"2024-03-01T00:18:21.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/HTML/Simple Toggle State Button with HTML and CSS/","dgPassFrontmatter":true}
 ---
 
 I found a little trick using an `input checkbox` as a sort of page specific state machine. I know the title says button, but figured you're here because you had 'button' in your search query

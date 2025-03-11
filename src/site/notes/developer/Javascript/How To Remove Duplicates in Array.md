@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/How To Remove Duplicates in Array/","tags":["javascript"],"created":"2024-05-28T21:42:24.541-05:00","updated":"2024-05-23T11:01:18.000-05:00"}
+{"dg-publish":true,"tags":["javascript"],"permalink":"/developer/Javascript/How To Remove Duplicates in Array/","dgPassFrontmatter":true}
 ---
 
 

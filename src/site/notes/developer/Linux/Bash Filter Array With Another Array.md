@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash Filter Array With Another Array/","tags":["linux","bash","array"],"created":"2024-07-10T14:46:10.000-05:00","updated":"2024-07-10T14:46:10.000-05:00"}
+{"dg-publish":true,"tags":["linux","bash","array"],"permalink":"/developer/Linux/Bash Filter Array With Another Array/","dgPassFrontmatter":true}
 ---
 
 ## Single Line String to Array

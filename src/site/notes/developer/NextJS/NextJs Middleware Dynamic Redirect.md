@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/NextJs Middleware Dynamic Redirect/","tags":["js","reactjs","nodejs","javascript","API"],"created":"2024-11-21T20:45:59.000-06:00","updated":"2024-11-21T20:45:59.000-06:00"}
+{"dg-publish":true,"tags":["js","reactjs","nodejs","javascript","API"],"permalink":"/developer/NextJS/NextJs Middleware Dynamic Redirect/","dgPassFrontmatter":true}
 ---
 
 Through my [[developer/KYPN/KYPN Stack\|KYPN Stack]] I've set up dynamic routes that fetches a posts in the db through the blog route by searching it's `slug`

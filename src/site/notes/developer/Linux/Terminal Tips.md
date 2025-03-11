@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Terminal Tips/","created":"2025-01-22T22:13:26.556-06:00","updated":"2025-01-22T22:16:16.960-06:00"}
+{"dg-publish":true,"permalink":"/developer/Linux/Terminal Tips/","dgPassFrontmatter":true}
 ---
 
 ## Navigating Editing Lines

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Citra/","created":"2024-03-13T20:41:51.749-05:00","updated":"2024-03-14T21:56:30.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/emulation/Citra/","dgPassFrontmatter":true}
 ---
 
 3DS emulator

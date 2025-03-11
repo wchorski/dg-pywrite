@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Rsync over SSH/","created":"2024-02-29T22:19:56.068-06:00","updated":"2024-06-04T15:46:17.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Linux/Rsync over SSH/","dgPassFrontmatter":true}
 ---
 
 

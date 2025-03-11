@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/Native HTML form validation/","created":"2024-02-29T22:19:55.989-06:00","updated":"2024-03-01T00:20:06.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/HTML/Native HTML form validation/","dgPassFrontmatter":true}
 ---
 
 another helpful video form Kevin Powell [Improve your form validation hints without JS! - YouTube](https://www.youtube.com/watch?v=s2ThIxm7FyA) helps me understand how to get quick and easy validation without needing another JS library.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash Read a file/","created":"2024-02-29T22:19:56.043-06:00","updated":"2024-06-04T15:46:13.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Linux/Bash Read a file/","dgPassFrontmatter":true}
 ---
 
 I was trying to extract a single line from a [[developer/Home Lab/Duplicati\|Duplicati]] log to show on a monitor dash. Here is the shell script and example text log I was trying to read

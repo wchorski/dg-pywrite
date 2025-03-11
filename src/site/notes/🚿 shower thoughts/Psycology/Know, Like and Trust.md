@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Psycology/Know, Like and Trust/","tags":["advice","buisness","selfhosted"],"created":"2024-02-29T22:19:56.782-06:00","updated":"2024-03-01T00:19:36.000-06:00"}
+{"dg-publish":true,"tags":["advice","buisness","selfhosted"],"permalink":"/🚿 shower thoughts/Psycology/Know, Like and Trust/","dgPassFrontmatter":true}
 ---
 
 > [!quote] KLT [^1]

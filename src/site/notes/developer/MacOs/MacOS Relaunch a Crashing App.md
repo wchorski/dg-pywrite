@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/MacOs/MacOS Relaunch a Crashing App/","created":"2024-07-02T13:40:20.000-05:00","updated":"2024-07-02T13:40:20.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/MacOs/MacOS Relaunch a Crashing App/","dgPassFrontmatter":true}
 ---
 
 The #microsoft Outlook app on my #MacOs constantly crashed. I would get no warning that this would happen, meaning minutes would go by while I sit wistfully unaware of the emails hitting my inbox.

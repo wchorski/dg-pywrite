@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Conway's Game of Life/","created":"2024-07-15T11:31:08.000-05:00","updated":"2024-07-15T11:31:08.000-05:00"}
+{"dg-publish":true,"permalink":"/🚿 shower thoughts/Conway's Game of Life/","dgPassFrontmatter":true}
 ---
 
 [Life Universe (oimo.io)](https://oimo.io/works/life/)

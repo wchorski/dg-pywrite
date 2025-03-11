@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music_theory/Euclidean Rhythms/","created":"2024-02-29T22:19:56.396-06:00","updated":"2024-03-01T00:20:32.000-06:00"}
+{"dg-publish":true,"permalink":"/music/music_theory/Euclidean Rhythms/","dgPassFrontmatter":true}
 ---
 
 [Euclidean rhythms / Torben Jansen / Observable (observablehq.com)](https://observablehq.com/@toja/euclidean-rhythms)

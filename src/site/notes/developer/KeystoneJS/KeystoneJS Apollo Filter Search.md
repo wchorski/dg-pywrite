@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Apollo Filter Search/","created":"2024-02-29T22:19:56.028-06:00","updated":"2024-03-01T00:19:25.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Apollo Filter Search/","dgPassFrontmatter":true}
 ---
 
 This is more Apollo related, but [[developer/KeystoneJS/KeystoneJS\|KeystoneJS]] is built ontop so still is relevant 

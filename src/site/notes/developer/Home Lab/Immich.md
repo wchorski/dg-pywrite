@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Immich/","tags":["photos","selfhosted","media","management"],"created":"2024-08-07T19:38:20.000-05:00","updated":"2024-08-07T19:38:20.000-05:00"}
+{"dg-publish":true,"tags":["photos","selfhosted","media","management"],"permalink":"/developer/Home Lab/Immich/","dgPassFrontmatter":true}
 ---
 
 I've been using [[developer/Home Lab/PhotoPrism\|PhotoPrism]]. While it does the job, and has a bit more maturity to it's codebase, I find that **Immich** provides clear deployment docs with modern benefits such as 

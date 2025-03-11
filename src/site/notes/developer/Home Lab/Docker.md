@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Docker/","created":"2024-03-13T20:41:49.479-05:00","updated":"2024-03-14T21:56:30.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Docker/","dgPassFrontmatter":true}
 ---
 
 ## [Home - Docker](https://www.docker.com/)

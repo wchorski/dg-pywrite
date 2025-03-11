@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Typescript/VS Code Import Typescript Error/","tags":["typescript","text_editor","vscode","code"],"created":"2024-07-24T13:35:33.000-05:00","updated":"2024-07-24T13:35:33.000-05:00"}
+{"dg-publish":true,"tags":["typescript","text_editor","vscode","code"],"permalink":"/developer/Typescript/VS Code Import Typescript Error/","dgPassFrontmatter":true}
 ---
 
 If you've noticed a strange error saying your import is wrong. Then you delete and retype the *EXACT* same thing and... wow the error is gone? wtf.

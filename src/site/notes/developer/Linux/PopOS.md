@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/PopOS/","tags":["linux"],"created":"2024-07-02T13:25:20.000-05:00","updated":"2024-07-02T13:25:20.000-05:00"}
+{"dg-publish":true,"tags":["linux"],"permalink":"/developer/Linux/PopOS/","dgPassFrontmatter":true}
 ---
 
 ## Sluggish UI and or App Loading

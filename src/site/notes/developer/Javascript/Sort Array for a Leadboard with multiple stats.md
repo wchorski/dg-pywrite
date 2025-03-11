@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/Sort Array for a Leadboard with multiple stats/","created":"2024-02-29T22:19:56.021-06:00","updated":"2024-06-04T15:44:23.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Javascript/Sort Array for a Leadboard with multiple stats/","dgPassFrontmatter":true}
 ---
 
 for my typing game [[developer/Projects/Keyboard Warrior\|Keyboard Warrior]] I wanted to create a leaderboard that ranks player scores by `words per minute`. Sometimes a player will have the same score as another, so I needed to use a second stat that compares the `accuracy` of the keystrokes.

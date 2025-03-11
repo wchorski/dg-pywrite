@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/Steamdeck reset sudo password/","tags":["steam","gaming","admin"],"created":"2025-01-11T16:21:35.082-06:00","updated":"2025-01-11T16:23:45.850-06:00"}
+{"dg-publish":true,"tags":["steam","gaming","admin"],"permalink":"/developer/emulation/Steamdeck reset sudo password/","dgPassFrontmatter":true}
 ---
 
  This are the steps on how to reset a forgotten sudo password. You will need a keyboard attached to the Steam Deck to enter the commands easily -

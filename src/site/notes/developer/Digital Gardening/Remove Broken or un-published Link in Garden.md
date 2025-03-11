@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Digital Gardening/Remove Broken or un-published Link in Garden/","tags":["digital_garden","notes","markdown","static"],"created":"2024-07-18T10:03:22.000-05:00","updated":"2024-07-18T10:03:22.000-05:00"}
+{"dg-publish":true,"tags":["digital_garden","notes","markdown","static"],"permalink":"/developer/Digital Gardening/Remove Broken or un-published Link in Garden/","dgPassFrontmatter":true}
 ---
 
 ## My Question
@@ -27,7 +27,7 @@ In your dataview queries, add a line containing `WHERE file.mtime` in a separa
 ```
 TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
 FROM "mynotes"
-WHERE file.mtime
+WHERE dg-publish
 SORT file.mtime DESC
 LIMIT 10
 ```

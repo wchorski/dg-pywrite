@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Analytics and Add Blockers/","created":"2024-02-29T22:19:56.124-06:00","updated":"2024-06-04T15:45:04.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Analytics and Add Blockers/","dgPassFrontmatter":true}
 ---
 
 I want to make sure I get session data from my users even if they have an add blocker. To do this I just need to create a proxy in the `next.config.js` that routes my analytics data as if it's from the same domain

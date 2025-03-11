@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Mount a Drive in Linux Terminal/","tags":["linux","terminal","commandline"],"created":"2024-02-29T22:19:56.067-06:00","updated":"2025-01-21T23:02:05.712-06:00"}
+{"dg-publish":true,"tags":["linux","terminal","commandline"],"permalink":"/developer/Linux/Mount a Drive in Linux Terminal/","dgPassFrontmatter":true}
 ---
 
 1. list what's hooked up `lsblk`

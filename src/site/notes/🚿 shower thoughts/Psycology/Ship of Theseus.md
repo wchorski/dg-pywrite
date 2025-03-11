@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Psycology/Ship of Theseus/","created":"2025-01-19T20:25:34.208-06:00","updated":"2025-01-20T23:10:12.826-06:00"}
+{"dg-publish":true,"permalink":"/🚿 shower thoughts/Psycology/Ship of Theseus/","dgPassFrontmatter":true}
 ---
 
 ******> The Ship of Theseus is a puzzle that makes us wonder about identity—what it means to be the same thing over time. Here’s one way to see it: say we have an old ship that was used by a hero named Theseus. This ship is now like a museum piece to celebrate his adventures. But as time goes by, the wooden parts start to rot, and people replace them, one by one, with new pieces that look just the same. Eventually, they change every single part. Now, people start asking a big question: Is the ship still the same Ship of Theseus?

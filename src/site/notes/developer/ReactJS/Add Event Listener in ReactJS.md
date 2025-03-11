@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Add Event Listener in ReactJS/","created":"2024-02-29T22:19:56.194-06:00","updated":"2024-03-01T00:19:41.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/ReactJS/Add Event Listener in ReactJS/","dgPassFrontmatter":true}
 ---
 
 I was having trouble with the `onLoadedMetadata` not firing when linked inside the `<audio>` tag. So hooking up an event listener 'the old fashion way' seemed to do the trick.

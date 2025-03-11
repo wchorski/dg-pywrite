@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML Dialog Model for Accessable Tooltips, Pop-ups, and More/","created":"2024-02-29T22:19:55.982-06:00","updated":"2024-03-01T00:18:10.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML Dialog Model for Accessable Tooltips, Pop-ups, and More/","dgPassFrontmatter":true}
 ---
 
 

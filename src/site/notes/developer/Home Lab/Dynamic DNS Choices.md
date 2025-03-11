@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Dynamic DNS Choices/","created":"2024-03-13T20:41:09.472-05:00","updated":"2024-03-14T21:56:24.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/Home Lab/Dynamic DNS Choices/","dgPassFrontmatter":true}
 ---
 
 You got your shiny self hosted app and you about to open it up to the world. No problem, just have people type in your public IP address. i.e. `98.143.344.321` in the address bar to get to you're site. 

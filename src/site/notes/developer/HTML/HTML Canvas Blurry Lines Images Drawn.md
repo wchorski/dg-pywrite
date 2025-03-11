@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML Canvas Blurry Lines Images Drawn/","created":"2024-02-29T22:19:55.981-06:00","updated":"2024-03-01T00:19:23.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/HTML/HTML Canvas Blurry Lines Images Drawn/","dgPassFrontmatter":true}
 ---
 
 describe_the_problem

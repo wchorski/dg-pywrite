@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Data Fetch with GraphQL/","created":"2024-02-29T22:19:56.127-06:00","updated":"2024-03-01T00:19:40.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Data Fetch with GraphQL/","dgPassFrontmatter":true}
 ---
 
 ```tsx

@@ -1,0 +1,11 @@
+name: dg-pywriter
+services:
+  nginx:
+    image: nginx:latest
+    container_name: dg-pywriter-web
+    stdin_open: true
+    tty: true
+    ports:
+      - 8888:80
+    volumes:
+      - ./dist:/usr/share/nginx/html

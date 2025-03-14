@@ -5023,7 +5023,18 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/Personal/travel/2025 Steamboat CO/March 8 2025/">March 8 2025 </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/personal/travel/2025-steamboat-co/march-12-2025/">March 12 2025 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/personal/travel/2025-steamboat-co/march-8-2025/">March 8 2025 </a>
                 </div>
             
         </div>
@@ -5061,7 +5072,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/Personal/Stock Market Order Types (Market Order, Limit Order, Stop Loss, Stop Limit)/">Stock Market Order Types (Market Order, Limit Order, Stop Loss, Stop Limit) </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/personal/stock-market-order-types-market-order-limit-order-stop-loss-stop-limit/">Stock Market Order Types (Market Order, Limit Order, Stop Loss, Stop Limit) </a>
                 </div>
             
         </div>
@@ -5914,7 +5925,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-12T23:35:48.697Z';
+        const searchIndexDate = '2025-03-14T13:32:14.437Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5926,9 +5937,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-12T23:35:48.697Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-14T13:32:14.437Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-12T23:35:48.697Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-14T13:32:14.437Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6200,7 +6211,8 @@
 <p>To close out the night a game of cards was an order.</p>
 <p>Praise be, there was a lot of cooperation. Everyone scored over 100 points. Elizabeth takes the win, Bob takes the silver.</p>
 <p><img src="/img/user/attachments/20250309_211848.jpg" alt="attachments/20250309_211848.jpg"></p>
-<p><a class="internal-link" target="" data-note-icon="" href="/Personal/travel/2025 Steamboat CO/March 8 2025/">March 8 2025 &lt;- Previous Day</a></p>
+<h2 id="trip-days" tabindex="-1">Trip Days</h2>
+<p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-8-2025/">March 8 2025 &lt;- Previous Day</a></p>
 <p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-10-2025/">Next Day -&gt; March 10 2025</a></p>
 
       
@@ -6450,6 +6462,9 @@
 
                     <li><a href="#wholesome-oh-heck">Wholesome Oh Heck</a>
             		</li>
+
+                    <li><a href="#trip-days">Trip Days</a>
+            		</li>
                 </ol>
             </nav>
                                     </div>
@@ -6462,7 +6477,7 @@
                               
                               <div class="backlinks">
                                     <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/Personal/travel/2025 Steamboat CO/March 8 2025/" data-note-icon="" class="backlink">March 8 2025</a>
+                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/personal/travel/2025-steamboat-co/march-8-2025/" data-note-icon="" class="backlink">March 8 2025</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/personal/travel/2025-steamboat-co/march-10-2025/" data-note-icon="" class="backlink">March 10 2025</a>
                                                 </div><div class="backlink-card"><i  icon-name="link"></i><a href="/" data-note-icon="" class="backlink">Welcome to Pywrite Garden</a>
                                                 </div></div>

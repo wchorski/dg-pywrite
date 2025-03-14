@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Personal/Stock Market Order Types (Market Order, Limit Order, Stop Loss, Stop Limit)/","created":"2024-07-03T11:36:40.000-05:00","updated":"2024-07-03T11:36:40.000-05:00"}
+{"dg-publish":true,"permalink":"/personal/stock-market-order-types-market-order-limit-order-stop-loss-stop-limit/","dgPassFrontmatter":true}
 ---
 
 ### Market Order

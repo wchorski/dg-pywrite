@@ -5936,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-15T19:26:59.586Z';
+        const searchIndexDate = '2025-03-15T20:34:11.564Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5948,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:26:59.586Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T20:34:11.564Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:26:59.586Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T20:34:11.564Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6202,8 +6202,9 @@
       
       <p>Today's meet up was much more organized and prompt. Just needed a few days to settle in. Gondola ride up the mountain with the 3 musketeers.</p>
 <p><img src="/img/user/attachments/IMG_6368.jpg" alt="attachments/IMG_6368.jpg"></p>
-<h3 id="sunny-lodge-entourage" tabindex="-1">Sunny Lodge Entourage</h3>
-<p>The snow is icy and unforgiving. A few stops at <a href="https://www.steamboat.com/things-to-do/dining/rendezvous-food-court" target="_blank" class="external-link">Rendezvous Lodge</a> for a bite and to wait for the sun to soften up the ground. Our snack bags expanded by the low atmospheric pressure.</p>
+<iframe width="315" height="560" src="https://www.youtube.com/embed/GxpJYROzaao" title="2025 Steamboat, CO Steve and Will Ski" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### Sunny Lodge Entourage
+The snow is icy and unforgiving. A few stops at [Rendezvous Lodge](https://www.steamboat.com/things-to-do/dining/rendezvous-food-court) for a bite and to wait for the sun to soften up the ground. Our snack bags expanded by the low atmospheric pressure.
 <p><img src="/img/user/attachments/20250312_110217.jpg" alt="attachments/20250312_110217.jpg"></p>
 <p>A Packers jersey passes by. Overhearing the conversation...</p>
 <blockquote>
@@ -6482,9 +6483,6 @@ setting out a sweet and salty snack will not last long with this group.</p>
                                           <nav class="toc">
                 <ol>
                     
-                    <li><a href="#sunny-lodge-entourage">Sunny Lodge Entourage</a>
-            		</li>
-
                     <li><a href="#another-quik-trip">Another QuikTrip</a>
             		</li>
 

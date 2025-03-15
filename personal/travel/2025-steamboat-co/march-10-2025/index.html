@@ -5936,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-15T19:26:59.586Z';
+        const searchIndexDate = '2025-03-15T20:34:11.564Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5948,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:26:59.586Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T20:34:11.564Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:26:59.586Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T20:34:11.564Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6215,6 +6215,7 @@
 <li>Alabama</li>
 <li>handful of Steamboat locals</li>
 </ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OZgwCdX9558?si=3lkIgxHmuGtORuYK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>A rest back at the condo popcorn awaited us, brought to you by Mary B.</p>
 <h3 id="dinner-for-two" tabindex="-1">Dinner for Two</h3>
 <p>Matt had dinner plans featuring sausage cabbage soup. Balistreri/Cuomo's preped fish tacos. Drop a comment which one you would've picked.</p>
@@ -6244,6 +6245,7 @@
 <p>A funky mix of original tunes with a sprinkle of covers (Bill Withers, Toto, Earth Wind and Fire, Lil' Wayne, Taylor Swift)</p>
 <p><img src="/img/user/attachments/20250310_230625%202.jpg" alt="attachments/20250310_230625 2.jpg"></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U1CsQvxystM?si=OQtDeISVOxrxDAYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kLVZAJMNppg?si=cIRaER2P0qPjnB73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ## Trip Days
 <a class="internal-link is-unresolved" href="/404" target="">March 9 2025 <- Previous Day</a>
 <a class="internal-link is-unresolved" href="/404" target="">Next Day -> March 11 2025</a>

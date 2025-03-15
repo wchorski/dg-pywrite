@@ -5936,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-15T19:26:59.586Z';
+        const searchIndexDate = '2025-03-15T20:34:11.564Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5948,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:26:59.586Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T20:34:11.564Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:26:59.586Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T20:34:11.564Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6204,8 +6204,9 @@
 <p>Peanut butter banana English muffin and a cup of mud to start day. This cold air has us thinking of visiting a NET specialist.</p>
 <h3 id="10-30am" tabindex="-1">10:30am</h3>
 <p>A few morning setbacks cut into the skiers' daylight.</p>
+<p><img src="/img/user/attachments/IMG_6378.png" alt="attachments/IMG_6378.png"></p>
 <blockquote>
-<p>&quot;same schedual ws us huh? Hitting the slopes at the <em>crack of noon</em>&quot;</p>
+<p>&quot;same schedule as us huh? Hitting the slopes at the <em>crack of noon</em>&quot;</p>
 <ul>
 <li>fellow steamboat riders</li>
 </ul>
@@ -6218,7 +6219,7 @@
 </ul>
 </blockquote>
 <blockquote>
-<p>&quot;probably won't see you again unless of course you were ski patrol. Then you'd find me split open like a canalope&quot;</p>
+<p>&quot;probably won't see you again unless of course you were ski patrol. Then you'd find me split open like a cantaloupe&quot;</p>
 <ul>
 <li>Matt</li>
 </ul>

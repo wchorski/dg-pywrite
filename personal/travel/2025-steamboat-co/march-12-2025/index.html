@@ -5936,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-15T19:03:23.892Z';
+        const searchIndexDate = '2025-03-15T19:26:59.586Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5948,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:03:23.892Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:26:59.586Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:03:23.892Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:26:59.586Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6211,9 +6211,9 @@
 </blockquote>
 <p><em>I swear these cheese heads are impossible to avoid</em></p>
 <p><img src="/img/user/attachments/20250312_114239.jpg" alt="attachments/20250312_114239.jpg"></p>
-<p><img src="https://youtu.be/OhSLpSh2sNg" alt="Matt &amp; Steve Ski"></p>
-<h3 id="the-return-to-home-base" tabindex="-1">The return to home base</h3>
-<p>Will's walk off the hill was accompanied by a dog and her owner. <code>Penga</code> woofs an agressive greeting towards me.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OhSLpSh2sNg?si=zv6ZBnT_rx6mVvYD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### The return to home base
+Will's walk off the hill was accompanied by a dog and her owner. `Penga` woofs an agressive greeting towards me. 
 <blockquote>
 <p>Well I guess I should say hello back</p>
 <ul>
@@ -6483,9 +6483,6 @@ setting out a sweet and salty snack will not last long with this group.</p>
                 <ol>
                     
                     <li><a href="#sunny-lodge-entourage">Sunny Lodge Entourage</a>
-            		</li>
-
-                    <li><a href="#the-return-to-home-base">The return to home base</a>
             		</li>
 
                     <li><a href="#another-quik-trip">Another QuikTrip</a>

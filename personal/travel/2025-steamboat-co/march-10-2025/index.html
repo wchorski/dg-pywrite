@@ -5936,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-15T19:03:23.892Z';
+        const searchIndexDate = '2025-03-15T19:26:59.586Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5948,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:03:23.892Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:26:59.586Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:03:23.892Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:26:59.586Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6242,12 +6242,11 @@
 <p><img src="/img/user/attachments/20250310_214400.jpg" alt="attachments/20250310_214400.jpg"></p>
 <p>Main Event <a href="https://www.flooziesduo.com/" target="_blank" class="external-link">The Floozies</a>. Twin brothers from hailing from Kansas City, MO</p>
 <p>A funky mix of original tunes with a sprinkle of covers (Bill Withers, Toto, Earth Wind and Fire, Lil' Wayne, Taylor Swift)</p>
-<p><img src="/img/user/attachments/20250310_230625%202.jpg" alt="attachments/20250310_230625 2.jpg"><br>
-<img src="https://youtu.be/U1CsQvxystM" alt="The Floozies"></p>
-<h2 id="trip-days" tabindex="-1">Trip Days</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-9-2025/">March 9 2025 &lt;- Previous Day</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-11-2025/">Next Day -&gt; March 11 2025</a></p>
-
+<p><img src="/img/user/attachments/20250310_230625%202.jpg" alt="attachments/20250310_230625 2.jpg"></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U1CsQvxystM?si=OQtDeISVOxrxDAYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Trip Days
+<a class="internal-link is-unresolved" href="/404" target="">March 9 2025 <- Previous Day</a>
+<a class="internal-link is-unresolved" href="/404" target="">Next Day -> March 11 2025</a>
       
       
     </main>
@@ -6500,9 +6499,6 @@
             		</li>
 
                     <li><a href="#music-time">Music Time</a>
-            		</li>
-
-                    <li><a href="#trip-days">Trip Days</a>
             		</li>
                 </ol>
             </nav>

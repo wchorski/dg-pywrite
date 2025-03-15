@@ -5034,6 +5034,17 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/personal/travel/2025-steamboat-co/march-13-2025/">March 13 2025 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/personal/travel/2025-steamboat-co/march-8-2025/">March 8 2025 </a>
                 </div>
             
@@ -5925,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-14T13:32:14.437Z';
+        const searchIndexDate = '2025-03-15T16:48:53.509Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5937,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-14T13:32:14.437Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T16:48:53.509Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-14T13:32:14.437Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T16:48:53.509Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6229,7 +6240,8 @@ setting out a sweet and salty snack will not last long with this group.</p>
 <p>One more sit by the fire for Emma and Will<br>
 <img src="/img/user/attachments/20250312_221509.jpg" alt="attachments/20250312_221509.jpg"></p>
 <h2 id="trip-days" tabindex="-1">Trip Days</h2>
-<p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-11-2025/">March 11 2025 &lt;- Previous Day</a></p>
+<p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-11-2025/">March 11 2025 &lt;- Previous Day</a><br>
+<a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-12-2025/">March 12 2025 -&gt; Next Day</a></p>
 
       
       
@@ -6496,9 +6508,8 @@ setting out a sweet and salty snack will not last long with this group.</p>
                               
                               <div class="backlinks">
                                     <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card">
-                                                            <span class="no-backlinks-message">No other pages mentions this page</span>
-                                                      </div></div>
+                                          <div class="backlink-list"><div class="backlink-card"><i  icon-name="link"></i><a href="/personal/travel/2025-steamboat-co/march-13-2025/" data-note-icon="" class="backlink">March 13 2025</a>
+                                                </div></div>
                               </div>
                         
                   

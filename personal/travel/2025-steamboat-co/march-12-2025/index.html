@@ -5936,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-15T18:22:06.374Z';
+        const searchIndexDate = '2025-03-15T19:03:23.892Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5948,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T18:22:06.374Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:03:23.892Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T18:22:06.374Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:03:23.892Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6211,7 +6211,7 @@
 </blockquote>
 <p><em>I swear these cheese heads are impossible to avoid</em></p>
 <p><img src="/img/user/attachments/20250312_114239.jpg" alt="attachments/20250312_114239.jpg"></p>
-<p>!<a class="internal-link is-unresolved" href="/404" target="">attachments/20250312_102958_1.mp4</a></p>
+<p><img src="https://youtu.be/OhSLpSh2sNg" alt="Matt &amp; Steve Ski"></p>
 <h3 id="the-return-to-home-base" tabindex="-1">The return to home base</h3>
 <p>Will's walk off the hill was accompanied by a dog and her owner. <code>Penga</code> woofs an agressive greeting towards me.</p>
 <blockquote>

@@ -5936,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-15T18:22:06.374Z';
+        const searchIndexDate = '2025-03-15T19:03:23.892Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5948,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T18:22:06.374Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:03:23.892Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T18:22:06.374Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:03:23.892Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6232,11 +6232,13 @@ Use stickers, marker, paint, or tape to customize your gear. We can't all be usi
 <p><img src="/img/user/attachments/20250313_131507.jpg" alt="attachments/20250313_131507.jpg"></p>
 <h3 id="chairlift-confessions" tabindex="-1">chairlift confessions</h3>
 <p>Another chairlift mate (local resident originally from Chicago) Tells a morbid story of an unfortunate skiers being taken by the mountain. Why do we <em>continue</em> to ride? A question I cannot answer.</p>
+<p><img src="https://youtu.be/ubUmKg13b2g" alt="Elizabeth &amp; Steve B Ski"></p>
 <p>![[attachments/20250313_144745.mp4]]</p>
 <p>The sun playfully dances with the clouds. Bright light + overcast makes for intense snow blind conditions. The ground looking like one big blob of white.</p>
 <blockquote>
 <p>just feel the vibe. Just go with the flow man</p>
 </blockquote>
+<p><img src="https://youtu.be/u8cIznbPuM0" alt="Will Ski"></p>
 <h3 id="victory-road" tabindex="-1">Victory Road</h3>
 <p>Scarlet red chairs line the long hand rail. The Stars align, the gang is all here.</p>
 <p><img src="/img/user/attachments/20250313_161510.jpg" alt="attachments/20250313_161510.jpg"></p>

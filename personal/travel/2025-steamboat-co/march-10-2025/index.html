@@ -5936,7 +5936,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-03-15T18:22:06.374Z';
+        const searchIndexDate = '2025-03-15T19:03:23.892Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -5948,9 +5948,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T18:22:06.374Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-03-15T19:03:23.892Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T18:22:06.374Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-03-15T19:03:23.892Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6206,6 +6206,7 @@
 <h3 id="spills-and-thrills" tabindex="-1">Spills and Thrills</h3>
 <p>Seemed like everyone kissed the ground once or twice. Shaking off the rust.</p>
 <p><img src="/img/user/attachments/20250310_121202.jpg" alt="attachments/20250310_121202.jpg"></p>
+<p><img src="https://youtu.be/u8cIznbPuM0" alt="Will Ski"></p>
 <p>Chairlift meet and greets</p>
 <ul>
 <li>2 Texans</li>
@@ -6242,7 +6243,7 @@
 <p>Main Event <a href="https://www.flooziesduo.com/" target="_blank" class="external-link">The Floozies</a>. Twin brothers from hailing from Kansas City, MO</p>
 <p>A funky mix of original tunes with a sprinkle of covers (Bill Withers, Toto, Earth Wind and Fire, Lil' Wayne, Taylor Swift)</p>
 <p><img src="/img/user/attachments/20250310_230625%202.jpg" alt="attachments/20250310_230625 2.jpg"><br>
-!<a class="internal-link is-unresolved" href="/404" target="">attachments/20250310_221705.mp4</a></p>
+<img src="https://youtu.be/U1CsQvxystM" alt="The Floozies"></p>
 <h2 id="trip-days" tabindex="-1">Trip Days</h2>
 <p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-9-2025/">March 9 2025 &lt;- Previous Day</a><br>
 <a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-11-2025/">Next Day -&gt; March 11 2025</a></p>

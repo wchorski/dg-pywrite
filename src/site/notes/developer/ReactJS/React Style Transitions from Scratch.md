@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React Style Transitions from Scratch/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/react-style-transitions-from-scratch/","dgPassFrontmatter":true}
 ---
 
 ## Custom Hook

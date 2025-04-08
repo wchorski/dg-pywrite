@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Psycology/Logical Fallacies/Appeal to Hypocrisy/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/psycology/logical-fallacies/appeal-to-hypocrisy/","dgPassFrontmatter":true}
 ---
 
 

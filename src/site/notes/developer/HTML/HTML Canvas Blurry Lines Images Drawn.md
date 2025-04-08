@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML Canvas Blurry Lines Images Drawn/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/html-canvas-blurry-lines-images-drawn/","dgPassFrontmatter":true}
 ---
 
 describe_the_problem

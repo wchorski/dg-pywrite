@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Android/Removing Samsung and Google Bloatware from Android 12/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/android/removing-samsung-and-google-bloatware-from-android-12/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Center and Fit Image the Right Way/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/center-and-fit-image-the-right-way/","dgPassFrontmatter":true}
 ---
 
 

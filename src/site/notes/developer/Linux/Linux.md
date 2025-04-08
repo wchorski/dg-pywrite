@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Linux/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/linux/","dgPassFrontmatter":true}
 ---
 
 ## Debian

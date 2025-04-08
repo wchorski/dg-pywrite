@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Media Software/Radarr/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/radarr/","dgPassFrontmatter":true}
 ---
 
 

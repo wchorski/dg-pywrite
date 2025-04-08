@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["sensor","homeassistant","IoT","DIY"],"permalink":"/developer/Home Assistant/Esp Home Multi Sensor Configuration/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["sensor","homeassistant","IoT","DIY"],"permalink":"/developer/home-assistant/esp-home-multi-sensor-configuration/","dgPassFrontmatter":true}
 ---
 
 Configure a micro controller as a motion, temperature, and humidity sensor

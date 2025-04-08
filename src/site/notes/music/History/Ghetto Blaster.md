@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/History/Ghetto Blaster/","created":"2024-02-29T22:19:56.387-06:00","updated":"2024-03-01T00:21:11.000-06:00"}
+{"dg-publish":true,"permalink":"/music/history/ghetto-blaster/","dgPassFrontmatter":true}
 ---
 
 

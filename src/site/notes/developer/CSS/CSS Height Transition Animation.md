@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Height Transition Animation/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-height-transition-animation/","dgPassFrontmatter":true}
 ---
 
 smooth transition height trick

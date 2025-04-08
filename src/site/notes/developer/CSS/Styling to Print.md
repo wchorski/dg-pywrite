@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Styling to Print/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/styling-to-print/","dgPassFrontmatter":true}
 ---
 
 ## Hide or Show When Printing

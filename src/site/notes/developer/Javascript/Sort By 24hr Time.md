@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/Sort By 24hr Time/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/javascript/sort-by-24hr-time/","dgPassFrontmatter":true}
 ---
 
 I have an Array of objects each with a 24 hour `time` attribute. I want to simply sort the array so earlier times `00:00` are put in the front and later times `23:55` are put at the end of the array before I map over. Here is a bit of [[developer/Javascript/Javascript\|Javascript]] to make the sort happen.

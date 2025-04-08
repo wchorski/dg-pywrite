@@ -1,5 +1,5 @@
 ---
-{"codename":"icicle","dg-publish":true,"permalink":"/developer/Hardware/Intel NUC/","dgPassFrontmatter":true}
+{"codename":"icicle","dg-publish":true,"permalink":"/developer/hardware/intel-nuc/","dgPassFrontmatter":true}
 ---
 
 

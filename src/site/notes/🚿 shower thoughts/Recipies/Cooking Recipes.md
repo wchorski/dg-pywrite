@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Recipies/Cooking Recipes/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/recipies/cooking-recipes/","dgPassFrontmatter":true}
 ---
 
 ## Recipes List

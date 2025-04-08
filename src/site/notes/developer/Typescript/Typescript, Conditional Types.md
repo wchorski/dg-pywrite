@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["typescript"],"permalink":"/developer/Typescript/Typescript, Conditional Types/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["typescript"],"permalink":"/developer/typescript/typescript-conditional-types/","dgPassFrontmatter":true}
 ---
 
 ## 1st Example 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Recipies/Schnitzel Fried Chicken/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/recipies/schnitzel-fried-chicken/","dgPassFrontmatter":true}
 ---
 
 Now, I will give a little disclaimer: I do NOT measure my ingredients when making this recipe, so these measurements are merely approximations. As a rule of thumb: seasonings are generously sprinkled in.

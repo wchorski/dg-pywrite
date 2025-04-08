@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-note-icon":2,"tags":["fallacy"],"permalink":"/🚿 shower thoughts/Psycology/Logical Fallacies/Reification Fallacy/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-note-icon":2,"tags":["fallacy"],"permalink":"/shower-thoughts/psycology/logical-fallacies/reification-fallacy/","dgPassFrontmatter":true}
 ---
 
 

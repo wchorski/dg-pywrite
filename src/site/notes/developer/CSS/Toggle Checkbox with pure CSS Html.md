@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["css","style","html","scss","no_js"],"permalink":"/developer/CSS/Toggle Checkbox with pure CSS Html/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["css","style","html","scss","no_js"],"permalink":"/developer/css/toggle-checkbox-with-pure-css-html/","dgPassFrontmatter":true}
 ---
 
 ## Live Demo

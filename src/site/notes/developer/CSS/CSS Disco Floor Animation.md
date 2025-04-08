@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Disco Floor Animation/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-disco-floor-animation/","dgPassFrontmatter":true}
 ---
 
 

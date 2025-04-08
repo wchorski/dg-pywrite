@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/React JSX Dynamic Overlay Color/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/react-jsx-dynamic-overlay-color/","dgPassFrontmatter":true}
 ---
 
 

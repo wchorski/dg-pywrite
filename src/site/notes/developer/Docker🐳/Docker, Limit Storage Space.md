@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Docker🐳/Docker, Limit Storage Space/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/docker/docker-limit-storage-space/","dgPassFrontmatter":true}
 ---
 
 You can use the `storage_opt` key in the Docker Compose file to set storage size limits for containers.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/proverbs/The Forest Voted for the Axe/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/the-forest-voted-for-the-axe/","dgPassFrontmatter":true}
 ---
 
 

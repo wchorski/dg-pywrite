@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/SSH/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/ssh/","dgPassFrontmatter":true}
 ---
 
 

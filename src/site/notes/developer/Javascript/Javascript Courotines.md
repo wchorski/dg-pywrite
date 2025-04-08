@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["js","javascript","automation","async","yield"],"permalink":"/developer/Javascript/Javascript Courotines/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["js","javascript","automation","async","yield"],"permalink":"/developer/javascript/javascript-courotines/","dgPassFrontmatter":true}
 ---
 
 ```js

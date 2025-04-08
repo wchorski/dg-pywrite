@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["bash","monitor","docker","docker-compose","curl"],"permalink":"/developer/Docker🐳/Simple Container Version Monitoring With Bash Shell/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["bash","monitor","docker","docker-compose","curl"],"permalink":"/developer/docker/simple-container-version-monitoring-with-bash-shell/","dgPassFrontmatter":true}
 ---
 
 ## PreReqs

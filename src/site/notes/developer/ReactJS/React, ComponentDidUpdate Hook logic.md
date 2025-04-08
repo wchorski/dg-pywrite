@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/React, ComponentDidUpdate Hook logic/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/react-component-did-update-hook-logic/","dgPassFrontmatter":true}
 ---
 
 The `useRef` creates an "instance variable" in functional component. It acts as a flag to indicate whether it is in mount or update phase without updating state.

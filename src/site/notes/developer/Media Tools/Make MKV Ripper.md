@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"MakeMKV App","permalink":"/developer/Media Tools/Make MKV Ripper/","dgPassFrontmatter":true}
+{"dg-publish":true,"title":"MakeMKV App","permalink":"/developer/media-tools/make-mkv-ripper/","dgPassFrontmatter":true}
 ---
 
 

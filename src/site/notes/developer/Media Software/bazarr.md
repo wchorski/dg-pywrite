@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Media Software/bazarr/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/bazarr/","dgPassFrontmatter":true}
 ---
 
 

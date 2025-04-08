@@ -1,5 +1,5 @@
 ---
-{"tags":["nodejs","yaml","docker","docker-compose"],"dg-publish":true,"permalink":"/developer/Docker🐳/Docker Compose Use Environment Variables Like a Pro/","dgPassFrontmatter":true}
+{"tags":["nodejs","yaml","docker","docker-compose"],"dg-publish":true,"permalink":"/developer/docker/docker-compose-use-environment-variables-like-a-pro/","dgPassFrontmatter":true}
 ---
 
 Finding yourself building, rebuilding, and deploying [[developer/Home Lab/Docker\|Docker]] containers? My stack of [[developer/NodeJS/NodeJS\|NodeJS]] projects have started to unruly, and I need a better way to deploy my apps with little fuss. 

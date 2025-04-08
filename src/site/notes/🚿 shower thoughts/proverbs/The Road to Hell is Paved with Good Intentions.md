@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["proverbs","saying","words"],"permalink":"/🚿 shower thoughts/proverbs/The Road to Hell is Paved with Good Intentions/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["proverbs","saying","words"],"permalink":"/shower-thoughts/proverbs/the-road-to-hell-is-paved-with-good-intentions/","dgPassFrontmatter":true}
 ---
 
 >In general, this common idiom and proverb expresses the idea that good intentions don’t necessarily guarantee good results, and that good intentions matter little—if at all—if they don’t end in good outcomes.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/SAMBA/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/samba/","dgPassFrontmatter":true}
 ---
 
 

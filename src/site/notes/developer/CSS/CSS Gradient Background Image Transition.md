@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Gradient Background Image Transition/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-gradient-background-image-transition/","dgPassFrontmatter":true}
 ---
 
 Transiitioning a background image isn't a built in feature, but is a trick using pseudo elements

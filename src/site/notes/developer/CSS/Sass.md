@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Sass/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/sass/","dgPassFrontmatter":true}
 ---
 
 > [!note](https://sass-lang.com/)

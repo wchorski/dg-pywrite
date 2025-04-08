@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Modern Image Caption/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/modern-image-caption/","dgPassFrontmatter":true}
 ---
 
 Having a subtle caption that floats / aligns to the right with some hover effects seems simple right? Well, it was a bit confusing until I found out about `display: inline-flex;` and  `display: inline-table;`

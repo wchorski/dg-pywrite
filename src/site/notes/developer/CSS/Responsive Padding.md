@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/Responsive Padding/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/responsive-padding/","dgPassFrontmatter":true}
 ---
 
 

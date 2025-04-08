@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/Special Characters That can be used in URL/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/special-characters-that-can-be-used-in-url/","dgPassFrontmatter":true}
 ---
 
 According to the URL encoding standard (RFC 3986), the following characters are generally safe and do not need to be encoded:

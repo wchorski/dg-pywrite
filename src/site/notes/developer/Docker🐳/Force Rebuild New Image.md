@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Docker🐳/Force Rebuild New Image/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/docker/force-rebuild-new-image/","dgPassFrontmatter":true}
 ---
 
 Instead of just building your images, and then trying to up them, consider this:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/MacOs/Dual Boot macOS Ventura & macOs Monterey/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/mac-os/dual-boot-mac-os-ventura-and-mac-os-monterey/","dgPassFrontmatter":true}
 ---
 
 

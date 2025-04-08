@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Shell Prompt Starship.rs and ZSH/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/shell-prompt-starship-rs-and-zsh/","dgPassFrontmatter":true}
 ---
 
 

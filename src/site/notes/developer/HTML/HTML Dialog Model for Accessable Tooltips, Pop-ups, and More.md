@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML Dialog Model for Accessable Tooltips, Pop-ups, and More/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/html-dialog-model-for-accessable-tooltips-pop-ups-and-more/","dgPassFrontmatter":true}
 ---
 
 

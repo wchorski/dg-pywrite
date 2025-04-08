@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["homeassistant","automation","yaml"],"permalink":"/developer/Home Assistant/Home Assistant Trigger Automation Before Time Helper/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["homeassistant","automation","yaml"],"permalink":"/developer/home-assistant/home-assistant-trigger-automation-before-time-helper/","dgPassFrontmatter":true}
 ---
 
 

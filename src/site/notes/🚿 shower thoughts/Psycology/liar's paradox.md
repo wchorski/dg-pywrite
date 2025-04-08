@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Psycology/liar's paradox/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/psycology/liar-s-paradox/","dgPassFrontmatter":true}
 ---
 
 

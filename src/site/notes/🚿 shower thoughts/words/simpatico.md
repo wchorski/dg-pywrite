@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/words/simpatico/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/words/simpatico/","dgPassFrontmatter":true}
 ---
 
 > having shared qualities, interests, etc

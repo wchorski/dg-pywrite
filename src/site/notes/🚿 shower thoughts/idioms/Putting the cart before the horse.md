@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/idioms/Putting the cart before the horse/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/putting-the-cart-before-the-horse/","dgPassFrontmatter":true}
 ---
 
 - Jim Gafagan 

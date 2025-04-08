@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Hardware/My GPU Journey/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/hardware/my-gpu-journey/","dgPassFrontmatter":true}
 ---
 
 

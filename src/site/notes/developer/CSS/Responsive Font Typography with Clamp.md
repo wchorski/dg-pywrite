@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["typography","css","style","responsive"],"permalink":"/developer/CSS/Responsive Font Typography with Clamp/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["typography","css","style","responsive"],"permalink":"/developer/css/responsive-font-typography-with-clamp/","dgPassFrontmatter":true}
 ---
 
 

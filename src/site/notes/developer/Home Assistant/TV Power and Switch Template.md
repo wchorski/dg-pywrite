@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["homeassistant","yaml"],"permalink":"/developer/Home Assistant/TV Power and Switch Template/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["homeassistant","yaml"],"permalink":"/developer/home-assistant/tv-power-and-switch-template/","dgPassFrontmatter":true}
 ---
 
 A configuration for [[developer/Home Lab/Home Assistant\|Home Assistant]]

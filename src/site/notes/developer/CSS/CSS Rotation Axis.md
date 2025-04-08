@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Rotation Axis/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-rotation-axis/","dgPassFrontmatter":true}
 ---
 
 rotate an element not just around the center axis

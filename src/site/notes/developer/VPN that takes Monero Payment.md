@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/VPN that takes Monero Payment/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/vpn-that-takes-monero-payment/","dgPassFrontmatter":true}
 ---
 
 

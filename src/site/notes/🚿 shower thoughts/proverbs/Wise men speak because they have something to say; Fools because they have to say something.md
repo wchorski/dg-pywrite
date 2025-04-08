@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":null,"permalink":"/🚿 shower thoughts/proverbs/Wise men speak because they have something to say; Fools because they have to say something/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":null,"permalink":"/shower-thoughts/proverbs/wise-men-speak-because-they-have-something-to-say-fools-because-they-have-to-say-something/","dgPassFrontmatter":true}
 ---
 
 

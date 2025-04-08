@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Animation snips/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-animation-snips/","dgPassFrontmatter":true}
 ---
 
 

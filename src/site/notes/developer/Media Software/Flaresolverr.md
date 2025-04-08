@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Media Software/Flaresolverr/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/flaresolverr/","dgPassFrontmatter":true}
 ---
 
 [How to setup FlareSolverr - TRaSH Guides (trash-guides.info)](https://trash-guides.info/Prowlarr/prowlarr-setup-flaresolverr/)

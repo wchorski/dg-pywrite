@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Recurring Payments with Stripe/","created":"2024-02-29T22:19:56.031-06:00","updated":"2024-06-04T15:44:32.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-recurring-payments-with-stripe/","dgPassFrontmatter":true}
 ---
 
 ## sschema

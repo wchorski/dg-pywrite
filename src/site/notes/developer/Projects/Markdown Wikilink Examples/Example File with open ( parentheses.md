@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Projects/Markdown Wikilink Examples/Example File with open ( parentheses/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/projects/markdown-wikilink-examples/example-file-with-open-parentheses/","dgPassFrontmatter":true}
 ---
 
 example file

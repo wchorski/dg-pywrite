@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/Migrating My Apps/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/tutorials/migrating-my-apps/","dgPassFrontmatter":true}
 ---
 
 I've been having problems with my [[developer/Hardware/Pi4\|Pi4]] freezing up because of the [[developer/Home Lab/Home Assistant\|Home Assistant]] install. There are all sorts of reasons why [[developer/Home Lab/Home Assistant\|Home Assistant]] would lock up the Pi. Resulting in my **DNS and DHCP** server via [[developer/Home Lab/Pi-hole\|Pi-hole]] and VPN via [[developer/Home Lab/PiVPN\|PiVPN]]  to go down (not good). 

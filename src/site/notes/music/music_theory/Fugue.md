@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music_theory/Fugue/","created":"2024-02-29T22:19:56.397-06:00","updated":"2024-03-01T00:21:31.000-06:00"}
+{"dg-publish":true,"permalink":"/music/music-theory/fugue/","dgPassFrontmatter":true}
 ---
 
 > [!quote]

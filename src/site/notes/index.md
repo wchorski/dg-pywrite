@@ -8,10 +8,10 @@ Here is where I dump notes on web development, automation, game emulation, music
 ## Recent Notes
 | File                                                                                                                  | Last modified      |
 | --------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [[developer/emulation/3DS Crashes on Game Icon hover on Homescreen\|3DS Crashes on Game Icon hover on Homescreen]] | 17.06.2025 - 11:50 |
+| [[developer/GameDev/Game Ideas\|Game Ideas]]                                                                       | 17.06.2025 - 12:10 |
+| [[developer/emulation/3DS Crashes on Game Icon hover on Homescreen\|3DS Crashes on Game Icon hover on Homescreen]] | 17.06.2025 - 12:08 |
 | [[Personal/EF 2025\|EF 2025]]                                                                                      | 16.06.2025 - 18:55 |
 | [[🚿 shower thoughts/Rants/I Told You So Love\|I Told You So Love]]                                                | 16.06.2025 - 14:10 |
-| [[🚿 shower thoughts/jokes/if your dog is running a fever\|if your dog is running a fever]]                        | 16.06.2025 - 13:58 |
 
 { .block-language-dataview}
 

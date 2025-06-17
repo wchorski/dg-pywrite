@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/URL Path Map/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/url-path-map/","dgPassFrontmatter":true}
 ---
 
 ```txt

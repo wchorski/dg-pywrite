@@ -14,4 +14,7 @@ I had to enter godmode (hold `start` while powering on) and manage the titles. G
 
 By visiting the [hshop](https://hshop.erista.me/t/19263)I was able to look up the title's name and get it's `Title ID`. In the list of Titles that godmode gave me I was able to hunt down the bad title and delete it.
 
+#todo 
+- [ ] add screenshot
+
 phew... Now I'm able to manage my save data and browse my home screen without catastrophy.  

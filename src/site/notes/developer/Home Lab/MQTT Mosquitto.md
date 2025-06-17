@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/MQTT Mosquitto/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/mqtt-mosquitto/","dgPassFrontmatter":true}
 ---
 
 hero_image

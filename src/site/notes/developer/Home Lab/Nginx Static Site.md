@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Nginx Static Site/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/nginx-static-site/","dgPassFrontmatter":true}
 ---
 
 Put up a simple static site that can serve static files like pictures, videos, pdfs or write html, css, js for the most purist web developers.

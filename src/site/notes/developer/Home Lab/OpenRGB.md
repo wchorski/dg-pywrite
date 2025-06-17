@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/OpenRGB/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/open-rgb/","dgPassFrontmatter":true}
 ---
 
 ## Install

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/MacOs/50 MacOs Terminal Tips and Tricks/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/mac-os/50-mac-os-terminal-tips-and-tricks/","dgPassFrontmatter":true}
 ---
 
 ## find password of previously connected wifi

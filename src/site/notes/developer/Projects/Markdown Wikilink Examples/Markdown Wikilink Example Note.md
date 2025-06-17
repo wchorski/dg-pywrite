@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Projects/Markdown Wikilink Examples/Markdown Wikilink Example Note/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/projects/markdown-wikilink-examples/markdown-wikilink-example-note/","dgPassFrontmatter":true}
 ---
 
 ## Wikilinks

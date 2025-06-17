@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/Find MAC Address of Any AP/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/tutorials/find-mac-address-of-any-ap/","dgPassFrontmatter":true}
 ---
 
 It's criminal when a manufacturer doesn't print the MAC address onto the device. With these steps you should be able to find any MAC address

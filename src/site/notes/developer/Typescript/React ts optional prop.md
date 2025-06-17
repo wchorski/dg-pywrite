@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Typescript/React ts optional prop/","created":"2024-02-29T22:19:56.258-06:00","updated":"2024-06-04T15:45:44.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/typescript/react-ts-optional-prop/","dgPassFrontmatter":true}
 ---
 
 ```tsx

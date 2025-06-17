@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/Keystone Calendar Day field set Default Value/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-calendar-day-field-set-default-value/","dgPassFrontmatter":true}
 ---
 
 

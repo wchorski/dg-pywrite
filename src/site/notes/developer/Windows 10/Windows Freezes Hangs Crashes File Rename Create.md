@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Windows 10/Windows Freezes Hangs Crashes File Rename Create/","tags":["windows","pc","files","troubleshooting","microsoft"],"created":"2025-02-18T23:40:45.413-06:00","updated":"2025-02-18T23:52:54.289-06:00"}
+{"dg-publish":true,"tags":["windows","pc","files","troubleshooting","microsoft"],"permalink":"/developer/windows-10/windows-freezes-hangs-crashes-file-rename-create/","dgPassFrontmatter":true}
 ---
 
 When creating and renaming files, folders, directories, etc. I'd sit there watching the file explorer freeze up for seconds to minutes until finally it would snap back to reality.

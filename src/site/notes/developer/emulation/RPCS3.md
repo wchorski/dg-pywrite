@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["emulation","gaming"],"permalink":"/developer/emulation/RPCS3/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["emulation","gaming"],"permalink":"/developer/emulation/rpcs-3/","dgPassFrontmatter":true}
 ---
 
 Playstation 3 emulator

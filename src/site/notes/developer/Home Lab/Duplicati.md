@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Duplicati/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/duplicati/","dgPassFrontmatter":true}
 ---
 
 ## [Duplicati](https://www.duplicati.com/)

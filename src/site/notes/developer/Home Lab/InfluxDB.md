@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/InfluxDB/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/influx-db/","dgPassFrontmatter":true}
 ---
 
 

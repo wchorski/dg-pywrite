@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash Sed Modify all files in directory/","tags":["bash","linux","automation","batch"],"created":"2024-07-02T10:35:42.000-05:00","updated":"2024-07-02T10:35:42.000-05:00"}
+{"dg-publish":true,"tags":["bash","linux","automation","batch"],"permalink":"/developer/linux/bash-sed-modify-all-files-in-directory/","dgPassFrontmatter":true}
 ---
 
 Needed to batch edit the #frontmatter of my markdown files for my [[developer/Home Lab/Obsidian.md\|Obsidian.md]] vault. 

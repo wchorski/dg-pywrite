@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Analytics behind proxy/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/next-js/next-js-analytics-behind-proxy/","dgPassFrontmatter":true}
 ---
 
 Add blockers track for common external endpoints that track data. We can get around this by setting up a proxy in [[developer/NextJS/NextJS\|NextJS]] to funel the external script to an enpoint that is from our domain

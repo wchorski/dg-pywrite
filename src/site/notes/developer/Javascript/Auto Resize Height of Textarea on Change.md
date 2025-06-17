@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript","input"],"permalink":"/developer/Javascript/Auto Resize Height of Textarea on Change/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["javascript","input"],"permalink":"/developer/javascript/auto-resize-height-of-textarea-on-change/","dgPassFrontmatter":true}
 ---
 
 Quick fix to auto resize a `<textarea />` if the input starts to go outside the pre-determined height with [[developer/Javascript/Javascript\|Javascript]]

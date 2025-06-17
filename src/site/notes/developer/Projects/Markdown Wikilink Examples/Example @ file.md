@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Projects/Markdown Wikilink Examples/Example @ file/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/projects/markdown-wikilink-examples/example-file/","dgPassFrontmatter":true}
 ---
 
 example file

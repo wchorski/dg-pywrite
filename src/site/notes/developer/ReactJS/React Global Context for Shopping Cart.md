@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["reactjs","NextJS"],"permalink":"/developer/ReactJS/React Global Context for Shopping Cart/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["reactjs","NextJS"],"permalink":"/developer/react-js/react-global-context-for-shopping-cart/","dgPassFrontmatter":true}
 ---
 
 

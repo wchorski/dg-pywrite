@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/idioms/FIFO/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/fifo/","dgPassFrontmatter":true}
 ---
 
 First In First Out

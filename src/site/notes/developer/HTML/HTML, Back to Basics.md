@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML, Back to Basics/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/html-back-to-basics/","dgPassFrontmatter":true}
 ---
 
 here lies my html basics

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Networking/Nginx Proxy Manager Redirect to Nested Page/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/networking/nginx-proxy-manager-redirect-to-nested-page/","dgPassFrontmatter":true}
 ---
 
 I wanted to create an 'under construction' homepage for my personal site. I'm already running a site service with [[developer/Home Lab/Nginx Static Site\|Nginx Static Site]] serves public assets (pictures, videos). I will refer to this as my **Static Asset Site**

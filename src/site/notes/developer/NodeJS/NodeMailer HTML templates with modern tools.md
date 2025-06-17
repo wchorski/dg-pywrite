@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["reactjs","nodejs","email"],"permalink":"/developer/NodeJS/NodeMailer HTML templates with modern tools/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["reactjs","nodejs","email"],"permalink":"/developer/node-js/node-mailer-html-templates-with-modern-tools/","dgPassFrontmatter":true}
 ---
 
 haven't tried this out myself, but looks like it makes sense, but I'd try out [Send email using Nodemailer - React Email](https://react.email/docs/integrations/nodemailer) first

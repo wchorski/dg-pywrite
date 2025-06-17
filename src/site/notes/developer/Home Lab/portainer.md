@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/portainer/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/portainer/","dgPassFrontmatter":true}
 ---
 
 #docker 

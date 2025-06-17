@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Plex.tv/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/plex-tv/","dgPassFrontmatter":true}
 ---
 
 #music #movie #tv #film #media #player

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/FOSS/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/foss/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Glances/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/glances/","dgPassFrontmatter":true}
 ---
-
 
 > [!info](https://nicolargo.github.io/glances/)
 > Glances is a cross-platform system monitoring tool written in Python.
@@ -39,8 +38,11 @@ Description = Glances in Web Server Mode
 After = network.target
 
 [Service]
-User = pi4
+Type=simple 
+User=root
 ExecStart = /usr/local/bin/glances  -w  -t  5
+Restart=always 
+RestartSec=20
 
 [Install]
 WantedBy = multi-user.target
@@ -48,6 +50,9 @@ WantedBy = multi-user.target
 
 enable and test 
 ```shell
+# may or maynot need to reload whole daemon
+sudo systemctl daemon-reload
+
 sudo systemctl enable glancesweb.service
 sudo systemctl start glancesweb.service
 sudo systemctl status glancesweb.service
@@ -74,6 +79,24 @@ Here is a one-liner code that
 3. copies to local library files
 ```bash
 sudo sh -c 'wget -O - https://github.com/nicolargo/glances/archive/refs/tags/v$(glances -V|cut -zd" " -f2|tr -d v).tar.gz | tar -xz -C /usr/lib/python3/dist-packages/glances/outputs/static/ --strip-components=4 --wildcards glances-*/glances/outputs/static/public/'
+```
+
+## Debian 12
+I upgraded a Debian 11 to 12 and there was some issues. I'm opting for the default apt package over the pip install now.
+
+```shell
+which glances
+## insert your output location
+sudo rm /usr/local/bin/glances
+
+sudo apt update 
+sudo apt install glances
+
+which glances 
+dpkg -S $(which glances)
+
+# test 
+glances -w
 ```
 
 ---

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["cloud","nextcloud","owncloud","media","assets","management"],"permalink":"/developer/Home Lab/Nextcloud/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["cloud","nextcloud","owncloud","media","assets","management"],"permalink":"/developer/home-lab/nextcloud/","dgPassFrontmatter":true}
 ---
 
 #cloud #gmail #opensource 
@@ -203,15 +203,26 @@ If you've been fiddling with files in the terminal, permissions may get jacked u
 ```shell
 sudo chown -R www-data:www-data nextcloud
 ```
+
+### Default Phone Region
+- [Docs](https://github.com/nextcloud/all-in-one?tab=readme-ov-file#how-to-resolve-security--setup-warnings-displays-the-missing-default-phone-region-after-initial-install)
+```shell
+❯ docker exec -it -u 33 nextcloud-aio-nextcloud /var/www/html/occ config:system:set default_phone_region --value="US"
+
+System config value default_phone_region set to string US
+```
+### Export Import Contacts
+How to migrate Contacts and Address Book to new instance or profile account
+- `https://[DOMAIN].com/apps/contacts/All contacts`
+- or `https://nextcloud.[DOMAIN].[TLD]/remote.php/dav/addressbooks/users/[USERNAME]/contacts?export`
 ## Other Troubleshooting
 - [[developer/Nextcloud/Nextcloud Block Issues and Large Log Files\|Nextcloud Block Issues and Large Log Files]]
 
 #todo 
-- [x] man description
-- [x] my desc
 - [x] working on contact syncing
-- [ ] try out nextcloud-aio https://github.com/nextcloud/all-in-one/blob/main/migration.md
+- [x] try out nextcloud-aio https://github.com/nextcloud/all-in-one/blob/main/migration.md
 
 ---
 ## Credits
 - [File is locked - how to unlock - 📑 How to - Nextcloud community](https://help.nextcloud.com/t/file-is-locked-how-to-unlock/1883/94)
+- https://help.nextcloud.com/t/contacts-app-how-to-backup-export-full-addressbook/6336/15

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML underused Tags/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/html-underused-tags/","dgPassFrontmatter":true}
 ---
 
 ```html

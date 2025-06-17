@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Typescript/Typescript Paths/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/typescript/typescript-paths/","dgPassFrontmatter":true}
 ---
 
 with [[developer/Typescript/Typescript\|Typescript]] paths, you're able to set custom paths to make imports much easier to remember and type

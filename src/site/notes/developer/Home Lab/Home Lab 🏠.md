@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Home Lab 🏠/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/home-lab/","dgPassFrontmatter":true}
 ---
 
 ## Network Routing

@@ -1,5 +1,5 @@
 ---
-{"codename":"spearmint","dg-publish":true,"permalink":"/developer/Hardware/Ryzen 9 3900x Custom PC/","dgPassFrontmatter":true}
+{"codename":"spearmint","dg-publish":true,"permalink":"/developer/hardware/ryzen-9-3900x-custom-pc/","dgPassFrontmatter":true}
 ---
 
 My media rig that runs [[developer/Home Lab/Plex.tv\|Plex.tv]], [[developer/Home Lab/Jellyfin\|Jellyfin]], & my constant consumption of Youtube. 
@@ -28,20 +28,22 @@ DNS  - **mint.lan** *-via [[developer/Home Lab/Pi-hole\|Pi-hole]]*
                ``-:::::-``
 ```
 
-| part         | brand                                   | model                                  | price |     |     |
-| ------------ | --------------------------------------- | -------------------------------------- | ----- | --- | --- |
-| OS           | Linux Mint                              | 20.3 x86_64                            |       |     |     |
-| CPU          | AMD RYZEN                               | 9 3900X 12 Core                        |       |     |     |
-| Motherboard  | Gigabyte Aorus                          | elite wifi mobo x570                   |       |     |     |
-| RAM          | G Skill                                 | 32 gb trident z ram DDR4 3200mhz       |       |     |     |
-| ~~GPU~~          | ~~NVIDIA_GeForce~~                          | GTX 1060 3GB                           |       |     |     |
-| GPU          | Zotac                                   | Geforce GTX 1070 Mini 8gb 256bit GDDR5 |       |     |     |
-| Cooler       | Some Wraith Cooler                      |                                        |       |     |     |
-| Storage main |                                         | NVMe ?gb                               |       |     |     |
-| Storage Ext  | Samsung                                 | 2.5mm SSD  ?gb                         |       |     |     |
-| Storage Ext  |                                         | HDD 8tb                                |       |     |     |
-| PSU          | high power 80 gold 650w hp1-j650gd-f12s | 650 W                                  |       |     |     |
-| Case         |                                         |                                        |       |     |     |
+| part         | brand                                   | model                                  | price |               |     |
+| ------------ | --------------------------------------- | -------------------------------------- | ----- | ------------- | --- |
+| OS           | Linux Mint                              | 20.3 x86_64                            |       |               |     |
+| CPU          | AMD RYZEN                               | 9 3900X 12 Core                        |       |               |     |
+| Motherboard  | Gigabyte Aorus                          | elite wifi mobo x570                   |       |               |     |
+| RAM          | G Skill                                 | 32 gb trident z ram DDR4 3200mhz       |       |               |     |
+| ~~GPU~~      | ~~NVIDIA_GeForce~~                      | GTX 1060 3GB                           |       |               |     |
+| GPU          | Zotac                                   | Geforce GTX 1070 Mini 8gb 256bit GDDR5 |       |               |     |
+| Cooler       | Some Wraith Cooler                      |                                        |       |               |     |
+| Storage main |                                         | NVMe ?gb                               |       |               |     |
+| Storage Ext  | Samsung                                 | 2.5mm SSD  ?gb                         |       | crypto        |     |
+| Storage Ext  | Samsung                                 | 2.5mm SSD  ?gb                         |       | picture cache |     |
+| Storage Ext  | WD Red                                  | HDD 8tb                                |       | TV & Movies   |     |
+| Storage Ext  | WD Red                                  | HDD 8tb                                |       | Games         |     |
+| PSU          | high power 80 gold 650w hp1-j650gd-f12s | 650 W                                  |       |               |     |
+| Case         |                                         |                                        |       |               |     |
 ## Parts
 | File                                                                                                                                                    | make    | model        | capacity | device                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ | -------- | -------------------------------------------------------------------------- |

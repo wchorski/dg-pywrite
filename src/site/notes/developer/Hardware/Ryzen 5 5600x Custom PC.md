@@ -1,5 +1,5 @@
 ---
-{"codename":"FrostByte","tags":["hardware"],"dg-publish":true,"created":"2024-07-19","updated":"2024-07-19","permalink":"/developer/Hardware/Ryzen 5 5600x Custom PC/","dgPassFrontmatter":true}
+{"codename":"FrostByte","tags":["hardware"],"dg-publish":true,"created":"2024-07-19","updated":"2024-07-19","permalink":"/developer/hardware/ryzen-5-5600x-custom-pc/","dgPassFrontmatter":true}
 ---
 
 

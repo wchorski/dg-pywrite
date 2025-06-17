@@ -1,5 +1,5 @@
 ---
-{"codename":"splitDrive","dg-publish":true,"permalink":"/developer/Hardware/MacBook Pro M1 Laptop/","dgPassFrontmatter":true}
+{"codename":"splitDrive","dg-publish":true,"permalink":"/developer/hardware/mac-book-pro-m1-laptop/","dgPassFrontmatter":true}
 ---
 
 
@@ -24,4 +24,4 @@ killall Finder
 - [5 quick tips to STREAMLINE your MacOS EXPERIENCE - YouTube](https://www.youtube.com/watch?v=CGQXZKse0JU)
 
 ## Backlinks
-- [[developer/Hardware/My Homelab Hardware.md\|My Homelab Hardware]]
+- [[developer/Hardware/My Homelab Hardware\|My Homelab Hardware]]

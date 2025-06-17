@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"tags":["docker","monitor","container"],"permalink":"/developer/Home Lab/Prometheus/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["docker","monitor","container"],"permalink":"/developer/home-lab/prometheus/","dgPassFrontmatter":true}
 ---
 
-Creating a [[developer/Home Lab/Home Lab 🏠\|Home Lab 🏠]] is like gardening. The more it grows, the harder it is to manage. Currently I monitor my [[developer/Hardware/Intel NUC\|Server]] with a simple [[developer/Home Lab/Glances\|Glances]] solution. This gets me the host's `CPU` `RAM` `Memory Storage` `Network` etc. 
+Creating a [[developer/Home Lab/Home Lab 🏠\|Home Lab 🏠]] is like gardening. The more it grows, the harder it is to manage. Currently I monitor my [[developer/Hardware/Intel NUC i3-5010U\|Server]] with a simple [[developer/Home Lab/Glances\|Glances]] solution. This gets me the host's `CPU` `RAM` `Memory Storage` `Network` etc. 
 
 Now I need finer grain monitoring. With all my fancy [[developer/Home Lab/Docker\|Docker]] containers running all sorts of apps, I need to see which apps / services are really hogging the resources
 

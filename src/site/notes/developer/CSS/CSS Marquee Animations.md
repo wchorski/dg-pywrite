@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/CSS/CSS Marquee Animations/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-marquee-animations/","dgPassFrontmatter":true}
 ---
 
 

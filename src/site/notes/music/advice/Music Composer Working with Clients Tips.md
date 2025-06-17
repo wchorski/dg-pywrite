@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["gamedev","music","producer"],"permalink":"/music/advice/Music Composer Working with Clients Tips/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["gamedev","music","producer"],"permalink":"/music/advice/music-composer-working-with-clients-tips/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/PCX2 Qt/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/emulation/pcx-2-qt/","dgPassFrontmatter":true}
 ---
 
 > [!note] press f9 to toggle "software mode"

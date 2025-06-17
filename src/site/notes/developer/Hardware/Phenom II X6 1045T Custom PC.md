@@ -1,5 +1,5 @@
 ---
-{"codename":"Kevin the Ripper","dg-publish":true,"permalink":"/developer/Hardware/Phenom II X6 1045T Custom PC/","dgPassFrontmatter":true}
+{"codename":"Kevin the Ripper","dg-publish":true,"permalink":"/developer/hardware/phenom-ii-x6-1045-t-custom-pc/","dgPassFrontmatter":true}
 ---
 
 

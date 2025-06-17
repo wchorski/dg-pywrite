@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Nginx Proxy Manager/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/nginx-proxy-manager/","dgPassFrontmatter":true}
 ---
 
 

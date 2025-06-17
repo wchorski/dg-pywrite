@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["unreal","game","gamedev","music","audio","UE5"],"permalink":"/developer/UnrealEngine/Quartz MetaSounds Music Implementation for Unreal Engine/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["unreal","game","gamedev","music","audio","UE5"],"permalink":"/developer/unreal-engine/quartz-meta-sounds-music-implementation-for-unreal-engine/","dgPassFrontmatter":true}
 ---
 
 also called MetaSounds

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript","typescript","reactjs"],"permalink":"/developer/NextJS/NextJS/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["javascript","typescript","reactjs"],"permalink":"/developer/next-js/next-js/","dgPassFrontmatter":true}
 ---
 
 [Next.js by Vercel - The React Framework (nextjs.org)](https://nextjs.org/)

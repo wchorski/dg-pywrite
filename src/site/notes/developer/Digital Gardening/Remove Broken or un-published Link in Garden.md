@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["digital_garden","notes","markdown","static"],"permalink":"/developer/Digital Gardening/Remove Broken or un-published Link in Garden/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["digital_garden","notes","markdown","static"],"permalink":"/developer/digital-gardening/remove-broken-or-un-published-link-in-garden/","dgPassFrontmatter":true}
 ---
 
 ## My Question

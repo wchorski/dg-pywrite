@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/NextJS/NextJS Data Fetch with GraphQL/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/next-js/next-js-data-fetch-with-graph-ql/","dgPassFrontmatter":true}
 ---
 
 ```tsx

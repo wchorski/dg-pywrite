@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/JS non-null & Optional Chaining/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/javascript/js-non-null-and-optional-chaining/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Publish Test/","title":"Markdown Testing Ground for Published Notes","created":"2024-02-29T22:19:55.061-06:00","updated":"2024-03-01T09:33:25.358-06:00"}
+{"title":"Markdown Testing Ground for Published Notes","dg-publish":true,"permalink":"/publish-test/","dgPassFrontmatter":true}
 ---
 
 
@@ -64,11 +64,11 @@ subgraph Your DB
 end
 ```
 
-| File                                                                                                               | Last modified      |
-| ------------------------------------------------------------------------------------------------------------------ | ------------------ |
-| [[developer/Windows 10/Windows Close Programs on Loggout or Sleep\|Windows Close Programs on Loggout or Sleep]] | 21.02.2025 - 21:47 |
-| [[developer/KYPN/KYPN Stack\|KYPN Stack]]                                                                       | 21.02.2025 - 18:47 |
-| [[developer/HTML/URL Path Map\|URL Path Map]]                                                                   | 21.02.2025 - 17:31 |
+| File                                                                                                                  | Last modified      |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [[developer/emulation/3DS Crashes on Game Icon hover on Homescreen\|3DS Crashes on Game Icon hover on Homescreen]] | 17.06.2025 - 11:50 |
+| [[Personal/EF 2025\|EF 2025]]                                                                                      | 16.06.2025 - 18:55 |
+| [[🚿 shower thoughts/Rants/I Told You So Love\|I Told You So Love]]                                                | 16.06.2025 - 14:10 |
 
 { .block-language-dataview}
 

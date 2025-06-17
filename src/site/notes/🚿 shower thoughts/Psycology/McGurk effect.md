@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Psycology/McGurk effect/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/psycology/mc-gurk-effect/","dgPassFrontmatter":true}
 ---
 
 https://www.simplypsychology.org/mcgurk-effect.html#:~:text=The%20McGurk%20effect%20occurs%20when%20an%20individual%20perceives,the%20spoken%20words%2C%20resulting%20in%20a%20perceptual%20illusion.

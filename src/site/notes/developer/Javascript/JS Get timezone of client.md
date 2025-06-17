@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/JS Get timezone of client/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/javascript/js-get-timezone-of-client/","dgPassFrontmatter":true}
 ---
 
 ```javascript

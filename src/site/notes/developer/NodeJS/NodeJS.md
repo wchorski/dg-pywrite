@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript","typescript","webdev"],"permalink":"/developer/NodeJS/NodeJS/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["javascript","typescript","webdev"],"permalink":"/developer/node-js/node-js/","dgPassFrontmatter":true}
 ---
 
 ## Tips & Tricks

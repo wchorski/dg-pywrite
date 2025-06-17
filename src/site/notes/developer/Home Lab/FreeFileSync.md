@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/FreeFileSync/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/free-file-sync/","dgPassFrontmatter":true}
 ---
 
 #backup #cross_platform

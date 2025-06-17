@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["reactjs","NextJS","javascript","typescript"],"permalink":"/developer/Typescript/Typescript/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["reactjs","NextJS","javascript","typescript"],"permalink":"/developer/typescript/typescript/","dgPassFrontmatter":true}
 ---
 
 A super script of [[developer/Javascript/Javascript\|Javascript]] to make it strongly typed language.

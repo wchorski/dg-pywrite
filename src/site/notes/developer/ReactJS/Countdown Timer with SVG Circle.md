@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/ReactJS/Countdown Timer with SVG Circle/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/countdown-timer-with-svg-circle/","dgPassFrontmatter":true}
 ---
 
 #reactjs 

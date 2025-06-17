@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["nextcloud","logs","data","recovery"],"permalink":"/developer/Nextcloud/Nextcloud Block Issues and Large Log Files/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["nextcloud","logs","data","recovery"],"permalink":"/developer/nextcloud/nextcloud-block-issues-and-large-log-files/","dgPassFrontmatter":true}
 ---
 
 I had the external drive (a externally powered external HDD. I know... but it's cheap and it works) unmount itself a few times in one week. This worried me that the drive may be reaching end of life, but I had another suspicion something was going on.
@@ -26,18 +26,39 @@ drwxr-xr-x 5 www-data www-data 4.0K Nov 21 2021 __groupfolders
 
 > [!note] Worry Not
 > If your worried about deleting things willy nilly it's [ok](https://help.nextcloud.com/t/delet-log-file-in-nextcloud-13-0-5/36458)
-
 ## Clearing the File
 If your using bash here is a cool script to set the whole file to a blank string
 
 ```bash
 echo "" | sudo tee /mnt/MYDRIVE/nextcloud/data/nextcloud.log > /dev/null
 ```
+
+I had to remount the drive `sudo mount -a` and restart the container to bring nextcloud back online
 ## Logging Settings
 The reason why these files ballooned in size was because of my Logging levels. I had `Debug` & `Info` ticked for some reason. you can configuring them at this path on your server
 
 https://NEXTCLOUD_DOMAIN/settings/admin/logging
 
+## Errors created from database files
+I stupidly hosted database files from other apps within the `data` directory that nextcloud is mounted to. 
+
+> [!error] Files
+> Files created outside of the Nextcloud Webdav ecosystem (aka not through a client, directly in the system or through FTP, SAMBA, etc) will cause major headaches down the road.
+
+A whole mess of these 
+
+```log
+UnexpectedValueException RecursiveDirectoryIterator::__construct(/var/www/html/data/nextcloud/files/webdev/WEBAPP/db/postgres): Failed to open directory: Permission denied
+```
+
+Note how postgres files are throwing permission issues when being created.
+
+```shell
+# remove or migrate files
+sudo rm -R ./WEBAPP/db/postgres
+```
+
+Then I restarted the container to get everything back online
 
 ---
 ## Credit

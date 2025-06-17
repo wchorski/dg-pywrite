@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Google Email Trick/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/google-email-trick/","dgPassFrontmatter":true}
 ---
 
 

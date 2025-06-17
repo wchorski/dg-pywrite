@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/HTML Meta tags/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/html-meta-tags/","dgPassFrontmatter":true}
 ---
 
 describe_the_problem

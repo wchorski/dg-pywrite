@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux"],"permalink":"/developer/Linux/PopOS/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["linux"],"permalink":"/developer/linux/pop-os/","dgPassFrontmatter":true}
 ---
 
 ## Sluggish UI and or App Loading

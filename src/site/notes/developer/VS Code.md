@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/VS Code/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/vs-code/","dgPassFrontmatter":true}
 ---
 
 VS Code is a Text Editor made by #microsoft 

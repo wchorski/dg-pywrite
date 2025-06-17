@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/KeystoneJS/KeystoneJS Apollo Filter Search/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-apollo-filter-search/","dgPassFrontmatter":true}
 ---
 
 This is more Apollo related, but [[developer/KeystoneJS/KeystoneJS\|KeystoneJS]] is built ontop so still is relevant 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Free Developer Tools/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/free-developer-tools/","dgPassFrontmatter":true}
 ---
 
 

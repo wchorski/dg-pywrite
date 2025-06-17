@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/proverbs/Gallows Humor/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/gallows-humor/","dgPassFrontmatter":true}
 ---
 
 > humor that makes fun of a life-threatening, disastrous, or terrifying situation

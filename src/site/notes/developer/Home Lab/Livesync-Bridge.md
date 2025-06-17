@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Livesync-Bridge/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/livesync-bridge/","dgPassFrontmatter":true}
 ---
 
 #github #netlify 

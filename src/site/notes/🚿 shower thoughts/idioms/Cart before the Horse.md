@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/idioms/Cart before the Horse/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/cart-before-the-horse/","dgPassFrontmatter":true}
 ---
 
 [[🚿 shower thoughts/idioms/Idioms, Proverbs, Expressions, Jokes\|Idioms, Proverbs, Expressions, Jokes]]

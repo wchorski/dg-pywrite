@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/🚿 shower thoughts/Conway's Game of Life/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/shower-thoughts/conway-s-game-of-life/","dgPassFrontmatter":true}
 ---
 
 [Life Universe (oimo.io)](https://oimo.io/works/life/)

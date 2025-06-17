@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/HTML/Responsive HTML Tables/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/responsive-html-tables/","dgPassFrontmatter":true}
 ---
 
 Create a responsive table without libraries or frameworks.

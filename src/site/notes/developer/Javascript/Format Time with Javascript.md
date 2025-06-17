@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Javascript/Format Time with Javascript/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/javascript/format-time-with-javascript/","dgPassFrontmatter":true}
 ---
 
 Use [[developer/Javascript/Javascript\|Javascript]]'s built in functions to format time. You could even dynamically show time depending on locale / region of the User. 

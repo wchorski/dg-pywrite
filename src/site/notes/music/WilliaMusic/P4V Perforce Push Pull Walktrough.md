@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/WilliaMusic/P4V Perforce Push Pull Walktrough/","tags":["stepBystep","walkthrough"],"created":"2025-01-07T22:47:18.467-06:00","updated":"2025-01-08T00:39:36.196-06:00"}
+{"dg-publish":true,"tags":["stepBystep","walkthrough"],"permalink":"/music/willia-music/p4-v-perforce-push-pull-walktrough/","dgPassFrontmatter":true}
 ---
 
 

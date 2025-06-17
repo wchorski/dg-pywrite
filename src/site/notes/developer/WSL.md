@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/WSL/","created":"2024-02-29T22:19:55.755-06:00","updated":"2024-03-01T00:21:38.000-06:00"}
+{"dg-publish":true,"permalink":"/developer/wsl/","dgPassFrontmatter":true}
 ---
 
 

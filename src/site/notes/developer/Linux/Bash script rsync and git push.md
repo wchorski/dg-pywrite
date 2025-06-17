@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Linux/Bash script rsync and git push/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/bash-script-rsync-and-git-push/","dgPassFrontmatter":true}
 ---
 
 I'm proud of my little shell script that copies over files via rsync and commits those files to my git repo. This script auto publishes my digital garden made with [[developer/Projects/Obsidian Publish with NextJS\|Obsidian Publish with NextJS]]

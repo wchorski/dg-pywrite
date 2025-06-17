@@ -1,5 +1,5 @@
 ---
-{"codename":"rpi4","dg-publish":true,"permalink":"/developer/Hardware/Pi4/","dgPassFrontmatter":true}
+{"codename":"rpi4","dg-publish":true,"permalink":"/developer/hardware/pi4/","dgPassFrontmatter":true}
 ---
 
 

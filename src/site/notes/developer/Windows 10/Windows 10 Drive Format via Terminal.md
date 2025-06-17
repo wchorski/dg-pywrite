@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Windows 10/Windows 10 Drive Format via Terminal/","tags":["windows","microsoft"],"created":"2025-01-22T14:06:15.000-06:00","updated":"2025-01-22T14:06:15.000-06:00"}
+{"dg-publish":true,"tags":["windows","microsoft"],"permalink":"/developer/windows-10/windows-10-drive-format-via-terminal/","dgPassFrontmatter":true}
 ---
 
 ```

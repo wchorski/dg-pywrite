@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Assistant/Return HTML Status Code to Home Assistant Sensor/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-assistant/return-html-status-code-to-home-assistant-sensor/","dgPassFrontmatter":true}
 ---
 
 Scrape a website and return it's status code to a [[developer/Home Lab/Home Assistant\|Home Assistant]] sensor. This builds off of my [[developer/Home Assistant/TV Power and Switch Template\|TV Power and Switch Template]].

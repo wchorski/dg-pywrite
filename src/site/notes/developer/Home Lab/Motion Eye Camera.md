@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Home Lab/Motion Eye Camera/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/motion-eye-camera/","dgPassFrontmatter":true}
 ---
 
 integration with [[developer/Home Lab/Home Assistant\|Home Assistant]] as plug and play CCTV instillation. 

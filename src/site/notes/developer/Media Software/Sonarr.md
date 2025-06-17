@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Media Software/Sonarr/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/sonarr/","dgPassFrontmatter":true}
 ---
 
 

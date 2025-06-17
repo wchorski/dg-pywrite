@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/Markdown/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/markdown/","dgPassFrontmatter":true}
 ---
 
 

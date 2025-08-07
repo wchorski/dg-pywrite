@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6355,7 +6355,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6415,7 +6415,18 @@ done
 <li>Absolute path of 1st computer directory <code>file:///Volumes/DRIVE/MUSIC_DIRECTORY</code> is what is being replaced with  <code>..</code> to be a relative path. If your coming from Windows, it may look like <code>E:/MUSICLIBRARY</code></li>
 </ol>
 <p>Your iTunes folder will look like this</p>
-<p><img src="/img/user/attachments/iTunes-Directory-Tree.png" alt="attachments/iTunes-Directory-Tree.png|iTunes-Directory-Tree"></p>
+<p><picture src="/img/user/attachments/iTunes-Directory-Tree.png" alt="attachments/iTunes-Directory-Tree.png|iTunes-Directory-Tree"><source       media="(max-width:480px)"
+      srcset="/img/optimized/gaB9ZvAHef-241.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/gaB9ZvAHef-241.jpeg"
+      >
+      <img       class=""
+      src="/img/user/attachments/iTunes-Directory-Tree.png"
+      alt="attachments/iTunes-Directory-Tree.png|iTunes-Directory-Tree"
+      width=""
+      ></picture></p>
 <p>I created another folder <code>playlists</code> that will house all my new <code>.m3u</code> files. And that relative path <code>../</code> will start looking for songs one directory above the <code>playlists</code> folder</p>
 <p>Replace <code>USERNAME</code> &amp; <code>DRIVE</code> with paths that are unique to your machine. Also, this assumes <code>/Volumes/DRIVE</code> won't clash with any of your music's file structure i.e. <em>artist</em>, <em>album</em> or <em>filename</em> that may have <code>/Volumes/DRIVE</code>. If in your library the rock band <a href="https://volumesofficial.com/" target="_blank" class="external-link">Volumes</a>may have an album titled the same as your drive's name. Very unlikely, but if it did happen, it would replace that text and break the path.</p>
 <p>Notice how I replace the <em>absolute path</em> with a <code>..</code>. This is because I nest the <code>.m3u</code> files in it's own <code>playlist</code> folder. Think of it as, the path to where the <code>.m3u</code> lives, it must go up one directory so it can see the <code>./iTunes Media/Music/...</code> library.</p>

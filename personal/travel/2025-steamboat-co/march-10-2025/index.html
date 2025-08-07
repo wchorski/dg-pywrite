@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6355,7 +6355,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6365,11 +6365,43 @@
       
       
       <p>First ski day. Chorski's shake off their road grog and hit the gondola at 9:30am</p>
-<p><img src="/img/user/attachments/20250310_100621.jpg" alt="attachments/20250310_100621.jpg"></p>
+<p><picture src="/img/user/attachments/20250310_100621.jpg" alt="attachments/20250310_100621.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/KFGM91mmkx-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/KFGM91mmkx-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/KFGM91mmkx-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/KFGM91mmkx-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250310_100621.jpg"
+      alt="attachments/20250310_100621.jpg"
+      width=""
+      ></picture></p>
 <p>Will forgets sunscreen. Classic (those 5 different bottles of lotion and aerosol cans sitting alone and forgotten)</p>
 <h3 id="spills-and-thrills" tabindex="-1">Spills and Thrills</h3>
 <p>Seemed like everyone kissed the ground once or twice. Shaking off the rust.</p>
-<p><img src="/img/user/attachments/20250310_121202.jpg" alt="attachments/20250310_121202.jpg"></p>
+<p><picture src="/img/user/attachments/20250310_121202.jpg" alt="attachments/20250310_121202.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/ZZvEoP1flK-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/ZZvEoP1flK-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/ZZvEoP1flK-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/ZZvEoP1flK-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250310_121202.jpg"
+      alt="attachments/20250310_121202.jpg"
+      width=""
+      ></picture></p>
 <p><img src="https://youtu.be/u8cIznbPuM0" alt="Will Ski"></p>
 <p>Chairlift meet and greets</p>
 <ul>
@@ -6383,8 +6415,40 @@
 <p>A rest back at the condo popcorn awaited us, brought to you by Mary B.</p>
 <h3 id="dinner-for-two" tabindex="-1">Dinner for Two</h3>
 <p>Matt had dinner plans featuring sausage cabbage soup. Balistreri/Cuomo's preped fish tacos. Drop a comment which one you would've picked.</p>
-<p><img src="/img/user/attachments/20250310_181110.jpg" alt="attachments/20250310_181110.jpg"></p>
-<p><img src="/img/user/attachments/IMG_3945.jpg" alt="attachments/IMG_3945.jpg"></p>
+<p><picture src="/img/user/attachments/20250310_181110.jpg" alt="attachments/20250310_181110.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/bg8-qg6LUk-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/bg8-qg6LUk-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/bg8-qg6LUk-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/bg8-qg6LUk-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250310_181110.jpg"
+      alt="attachments/20250310_181110.jpg"
+      width=""
+      ></picture></p>
+<p><picture src="/img/user/attachments/IMG_3945.jpg" alt="attachments/IMG_3945.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/bCA_A1-_ca-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/bCA_A1-_ca-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/bCA_A1-_ca-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/bCA_A1-_ca-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/IMG_3945.jpg"
+      alt="attachments/IMG_3945.jpg"
+      width=""
+      ></picture></p>
 <p>Another round of drinks. The pregame for tonight's activities.</p>
 <blockquote>
 <p>whisky is a for men drink</p>
@@ -6404,10 +6468,42 @@
 <p>Not even a few minutes through the door and there is plenty of people watching to be had. A couple bros with their PBRs hooting and hollering. Can't escape these <strong>Cheese Heads</strong></p>
 <h3 id="music-time" tabindex="-1">Music Time</h3>
 <p><a href="https://www.instagram.com/eliptik.beats.music/" target="_blank" class="external-link">Eliptik</a> opener DJ. Cool blend of hip hop beats with glitchy blips.</p>
-<p><img src="/img/user/attachments/20250310_214400.jpg" alt="attachments/20250310_214400.jpg"></p>
+<p><picture src="/img/user/attachments/20250310_214400.jpg" alt="attachments/20250310_214400.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/IrQqu-d1-8-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/IrQqu-d1-8-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/IrQqu-d1-8-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/IrQqu-d1-8-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250310_214400.jpg"
+      alt="attachments/20250310_214400.jpg"
+      width=""
+      ></picture></p>
 <p>Main Event <a href="https://www.flooziesduo.com/" target="_blank" class="external-link">The Floozies</a>. Twin brothers from hailing from Kansas City, MO</p>
 <p>A funky mix of original tunes with a sprinkle of covers (Bill Withers, Toto, Earth Wind and Fire, Lil' Wayne, Taylor Swift)</p>
-<p><img src="/img/user/attachments/20250310_230625%202.jpg" alt="attachments/20250310_230625 2.jpg"></p>
+<p><picture src="/img/user/attachments/20250310_230625%202.jpg" alt="attachments/20250310_230625 2.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/B4DNPwzqFt-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/B4DNPwzqFt-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/B4DNPwzqFt-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/B4DNPwzqFt-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250310_230625%202.jpg"
+      alt="attachments/20250310_230625 2.jpg"
+      width=""
+      ></picture></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U1CsQvxystM?si=OQtDeISVOxrxDAYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kLVZAJMNppg?si=cIRaER2P0qPjnB73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ## Trip Days

@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6355,7 +6355,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6369,7 +6369,23 @@
 <p>A cruise was an even split between Will &amp; Matt as they get another fill of gas in an unmarked fisherman's town just outside of Laramie, Wyoming. We smash some McDouble's (no cheese) and went on our way.</p>
 <h3 id="steamboat-co-north-star-lodging" tabindex="-1">Steamboat, CO NorthStar Lodging</h3>
 <p>Matt tests the Telluride's off road capabilities as we enter the lot. The pile of rocks lining the curb expertly re-arranged.</p>
-<p><img src="/img/user/attachments/20250311_102405.jpg" alt="attachments/20250311_102405.jpg"></p>
+<p><picture src="/img/user/attachments/20250311_102405.jpg" alt="attachments/20250311_102405.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/wMgI4zmDkI-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/wMgI4zmDkI-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/wMgI4zmDkI-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/wMgI4zmDkI-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250311_102405.jpg"
+      alt="attachments/20250311_102405.jpg"
+      width=""
+      ></picture></p>
 <p>Phoning in Cuomo/Balistreri, they're hosting dinner, you don't even have to ask you know it's gonna be <strong>good</strong></p>
 <p>Matt &amp; Will start their walk over and that's when <em>panic</em> sets in. A wild detour turns what should have been a 5min walk into a half hour.</p>
 <h3 id="what-s-for-dinner" tabindex="-1">What's for Dinner</h3>
@@ -6380,12 +6396,44 @@
 <li>Parm &amp; Basil tossed pasta</li>
 <li>&quot;Mary Me Chicken&quot; chicken breasts bathed in butter and garlic</li>
 </ol>
-<p><img src="/img/user/attachments/20250309_184814.jpg" alt="attachments/20250309_184814.jpg"></p>
+<p><picture src="/img/user/attachments/20250309_184814.jpg" alt="attachments/20250309_184814.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/Z2wZ5aAkLk-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/Z2wZ5aAkLk-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/Z2wZ5aAkLk-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/Z2wZ5aAkLk-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250309_184814.jpg"
+      alt="attachments/20250309_184814.jpg"
+      width=""
+      ></picture></p>
 <p>Some would say it was a meal of butter and garlic with a <em>side</em> of chicken ;)</p>
 <h3 id="wholesome-oh-heck" tabindex="-1">Wholesome Oh Heck</h3>
 <p>To close out the night a game of cards was an order.</p>
 <p>Praise be, there was a lot of cooperation. Everyone scored over 100 points. Elizabeth takes the win, Bob takes the silver.</p>
-<p><img src="/img/user/attachments/20250309_211848.jpg" alt="attachments/20250309_211848.jpg"></p>
+<p><picture src="/img/user/attachments/20250309_211848.jpg" alt="attachments/20250309_211848.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/WBgyP0dgyQ-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/WBgyP0dgyQ-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/WBgyP0dgyQ-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/WBgyP0dgyQ-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250309_211848.jpg"
+      alt="attachments/20250309_211848.jpg"
+      width=""
+      ></picture></p>
 <h2 id="trip-days" tabindex="-1">Trip Days</h2>
 <p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-8-2025/">March 8 2025 &lt;- Previous Day</a></p>
 <p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-10-2025/">Next Day -&gt; March 10 2025</a></p>

@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6355,7 +6355,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6379,7 +6379,23 @@ Sharing out your Public IP is just like copy and pasting your personal phone num
 <h2 id="point-your-domain-name-to-your-public-ip" tabindex="-1">Point your domain name to your Public IP</h2>
 <p>Now that you got your shiny new domain name. The next step is to point your Public IP as an <em>A record</em> to your domain.</p>
 <p>Here is how I set it up in <a href="https://porkbun.com/" target="_blank" class="external-link">PorkBun</a>'s Dashboard</p>
-<p><img src="/img/user/attachments/dynamic-dns-a-record%201.png" alt="attachments/dynamic-dns-a-record 1.png|dynamic-dns-a-record">**********</p>
+<p><picture src="/img/user/attachments/dynamic-dns-a-record%201.png" alt="attachments/dynamic-dns-a-record 1.png|dynamic-dns-a-record"><source       media="(max-width:480px)"
+      srcset="/img/optimized/7frBT_mTPg-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/7frBT_mTPg-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/7frBT_mTPg-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/7frBT_mTPg-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/dynamic-dns-a-record%201.png"
+      alt="attachments/dynamic-dns-a-record 1.png|dynamic-dns-a-record"
+      width=""
+      ></picture>**********</p>
 <div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Your ISP can change your Public IP at any time<br></div></div>
 <div class="callout-content">
 <p>
@@ -6404,7 +6420,23 @@ Without a <strong>Static IP</strong> your service provider can and will change y
 <h3 id="built-in-router-ddns" tabindex="-1">Built in Router DDNS</h3>
 <p>You're router probably has a dynamic dns solution that you can enable through the dashboard. You can reach this dashboard by typing this local IP address into your url bar (example <code>192.168.0.1</code>).</p>
 <p>I have a <a href="https://www.tp-link.com/us/home-networking/wifi-router/archer-ax3000/" target="_blank" class="external-link">Archer AX3000 | Dual Band Gigabit Wi-Fi 6 Router | TP-Link</a>. This is what my dashboard looks like.</p>
-<p><img src="/img/user/attachments/ddns-tp-link%201.png" alt="attachments/ddns-tp-link 1.png|ddns-tp-link"></p>
+<p><picture src="/img/user/attachments/ddns-tp-link%201.png" alt="attachments/ddns-tp-link 1.png|ddns-tp-link"><source       media="(max-width:480px)"
+      srcset="/img/optimized/a1A1WvgY2v-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/a1A1WvgY2v-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/a1A1WvgY2v-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/a1A1WvgY2v-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/ddns-tp-link%201.png"
+      alt="attachments/ddns-tp-link 1.png|ddns-tp-link"
+      width=""
+      ></picture></p>
 <p>Last thing to do is go back to your domain name provider and point your domain (or any subdomain) to your created <code>mydomain.tplink.com</code> address as a <strong>CNAME</strong> record. I recommend this option for as the easiest way to get up and running as there is very little configuration.</p>
 <h3 id="duck-dns" tabindex="-1">DuckDNS</h3>
 <p>This is for the more technically inclined.</p>

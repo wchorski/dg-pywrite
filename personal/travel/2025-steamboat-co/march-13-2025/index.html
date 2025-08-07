@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6355,7 +6355,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6365,8 +6365,40 @@
       
       
       <p>Leftover steak, potatoes, and onions for breakfast. Fried in the same greasy pan used last night.</p>
-<p><img src="/img/user/attachments/20250313_090331.jpg" alt="attachments/20250313_090331.jpg"></p>
-<p><img src="/img/user/attachments/20250313_091138.jpg" alt="attachments/20250313_091138.jpg"><br>
+<p><picture src="/img/user/attachments/20250313_090331.jpg" alt="attachments/20250313_090331.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/CKj1Yf4mBx-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/CKj1Yf4mBx-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/CKj1Yf4mBx-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/CKj1Yf4mBx-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250313_090331.jpg"
+      alt="attachments/20250313_090331.jpg"
+      width=""
+      ></picture></p>
+<p><picture src="/img/user/attachments/20250313_091138.jpg" alt="attachments/20250313_091138.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/OBBcGbLXCs-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/OBBcGbLXCs-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/OBBcGbLXCs-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/OBBcGbLXCs-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250313_091138.jpg"
+      alt="attachments/20250313_091138.jpg"
+      width=""
+      ></picture><br>
 <em>Thank goodness for HDR</em></p>
 <h3 id="back-to-the-base" tabindex="-1">Back to The Base</h3>
 <p>An optimistic 9:30am gondola ride up is stifled by wrong ski polls. 🤦</p>
@@ -6391,9 +6423,41 @@ Use stickers, marker, paint, or tape to customize your gear. We can't all be usi
 <li>they yelled from the chair</li>
 </ul>
 </blockquote>
-<p><img src="/img/user/attachments/20250313_124530.jpg" alt="attachments/20250313_124530.jpg"></p>
+<p><picture src="/img/user/attachments/20250313_124530.jpg" alt="attachments/20250313_124530.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/jgEGGbOAJO-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/jgEGGbOAJO-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/jgEGGbOAJO-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/jgEGGbOAJO-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250313_124530.jpg"
+      alt="attachments/20250313_124530.jpg"
+      width=""
+      ></picture></p>
 <p>Gearing up after the break reveals an unfortunate situation. These bindings have seen better days.</p>
-<p><img src="/img/user/attachments/20250313_131507.jpg" alt="attachments/20250313_131507.jpg"></p>
+<p><picture src="/img/user/attachments/20250313_131507.jpg" alt="attachments/20250313_131507.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/tIAosywMIx-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/tIAosywMIx-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/tIAosywMIx-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/tIAosywMIx-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250313_131507.jpg"
+      alt="attachments/20250313_131507.jpg"
+      width=""
+      ></picture></p>
 <h3 id="chairlift-confessions" tabindex="-1">chairlift confessions</h3>
 <p>Another chairlift mate (local resident originally from Chicago) Tells a morbid story of an unfortunate skiers being taken by the mountain. Why do we <em>continue</em> to ride? A question I cannot answer.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ubUmKg13b2g?si=9D_B1_7gbXpMzkk7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -6404,9 +6468,41 @@ Use stickers, marker, paint, or tape to customize your gear. We can't all be usi
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u8cIznbPuM0?si=H4SvG_KKBmwW1QwK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h3 id="victory-road" tabindex="-1">Victory Road</h3>
 <p>Scarlet red chairs line the long hand rail. The Stars align, the gang is all here.</p>
-<p><img src="/img/user/attachments/20250313_161510.jpg" alt="attachments/20250313_161510.jpg"></p>
+<p><picture src="/img/user/attachments/20250313_161510.jpg" alt="attachments/20250313_161510.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/vJZpw1A_-W-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/vJZpw1A_-W-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/vJZpw1A_-W-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/vJZpw1A_-W-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250313_161510.jpg"
+      alt="attachments/20250313_161510.jpg"
+      width=""
+      ></picture></p>
 <p>A quick glance at the rack 🙄<br>
-<img src="/img/user/attachments/20250313_161618.jpg" alt="attachments/20250313_161618.jpg"></p>
+<picture src="/img/user/attachments/20250313_161618.jpg" alt="attachments/20250313_161618.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/v8cy67nkSL-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/v8cy67nkSL-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/v8cy67nkSL-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/v8cy67nkSL-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250313_161618.jpg"
+      alt="attachments/20250313_161618.jpg"
+      width=""
+      ></picture></p>
 <h3 id="1-shot-1-beer" tabindex="-1">1 shot, 1 beer</h3>
 <p>A well deserved rest back at the condo. A bit of stretching, a bit of boob tube.</p>
 <p>Matt (Mr. Stormwatch) breaks the news.</p>
@@ -6418,10 +6514,42 @@ Use stickers, marker, paint, or tape to customize your gear. We can't all be usi
 </blockquote>
 <p>Not exactly the news you want to hear midway through a Pacifico 😒</p>
 <p>During the pack a discovery is made. A rouge Heath Klondike bar tucked away in the freezer. Will snags it for the pity party trip back home.</p>
-<p><img src="/img/user/attachments/20250313_184331.jpg" alt="attachments/20250313_184331.jpg"></p>
+<p><picture src="/img/user/attachments/20250313_184331.jpg" alt="attachments/20250313_184331.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/Wv1_VUKPz7-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/Wv1_VUKPz7-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/Wv1_VUKPz7-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/Wv1_VUKPz7-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250313_184331.jpg"
+      alt="attachments/20250313_184331.jpg"
+      width=""
+      ></picture></p>
 <h3 id="gas-and-taco" tabindex="-1">gas and taco</h3>
 <p>Taco johns in <a href="https://maps.app.goo.gl/7qNm63qpAdNRdttB9" target="_blank" class="external-link">Sydney, Nebraska</a></p>
-<p><img src="/img/user/attachments/20250313_215314.jpg" alt="attachments/20250313_215314.jpg"></p>
+<p><picture src="/img/user/attachments/20250313_215314.jpg" alt="attachments/20250313_215314.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/_NB710nz1h-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/_NB710nz1h-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/_NB710nz1h-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/_NB710nz1h-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250313_215314.jpg"
+      alt="attachments/20250313_215314.jpg"
+      width=""
+      ></picture></p>
 <p>Overnight in our old stomping grounds <a href="https://maps.app.goo.gl/NVBg5hC7kPkzcP2WA" target="_blank" class="external-link">North Platte, NE</a>. Arriving at <strong>1:00am</strong> means we didn't get to enjoy the night life. <em>Ba-hum-bug</em></p>
 <h2 id="trip-days" tabindex="-1">Trip Days</h2>
 <p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-12-2025/">March 12 2025 &lt;- Previous Day</a></p>

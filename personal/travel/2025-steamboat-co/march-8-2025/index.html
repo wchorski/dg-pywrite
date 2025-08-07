@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6373,7 +6373,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6388,18 +6388,82 @@
 <blockquote>
 <p>Orphaned at age nine, Herbert Hoover left <strong>West Branch</strong> never to live here again. In later years, he returned to his humble birthplace to celebrate his long career of public service. A memorial landscape remains to tell his story: how community, hard work, honesty, and usefulness to others opened a world of opportunity— and the presidency of the United States— to a child of simple beginnings.</p>
 </blockquote>
-<p><img src="/img/user/attachments/20250308_121110.jpg" alt="attachments/20250308_121110.jpg"></p>
+<p><picture src="/img/user/attachments/20250308_121110.jpg" alt="attachments/20250308_121110.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/IShgVrk8-a-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/IShgVrk8-a-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/IShgVrk8-a-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/IShgVrk8-a-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250308_121110.jpg"
+      alt="attachments/20250308_121110.jpg"
+      width=""
+      ></picture></p>
 <p>The next hours was a race against the sunset. A Hyatt Inn appears above the horizon</p>
 <h2 id="york-nebraska" tabindex="-1">York, Nebraska</h2>
 <p>As we unpack into our room for the night. The first mistakes reveal themselves.</p>
-<p><img src="/img/user/attachments/20250308_173835.jpg" alt="attachments/20250308_173835.jpg"></p>
+<p><picture src="/img/user/attachments/20250308_173835.jpg" alt="attachments/20250308_173835.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/tbGwfBOiyN-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/tbGwfBOiyN-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/tbGwfBOiyN-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/tbGwfBOiyN-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250308_173835.jpg"
+      alt="attachments/20250308_173835.jpg"
+      width=""
+      ></picture></p>
 <h3 id="coatless-and-shoeless" tabindex="-1">Coatless and Shoeless</h3>
 <p>Will forgets his coat and Matt leaves his boots in Aurora. Nothing like perusing the local Walmart for their wears.</p>
 <p>Matt finds some <em>stylish</em> closed toe crocks. The off season leaves Will in the cold. A quick trip over to Trucking Co. Supply store nets us a &quot;good enough&quot; coat and Nebraskin jerky.</p>
-<p><img src="/img/user/attachments/20250309_102606.jpg" alt="attachments/20250309_102606.jpg"></p>
+<p><picture src="/img/user/attachments/20250309_102606.jpg" alt="attachments/20250309_102606.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/Yup2KNlGBB-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/Yup2KNlGBB-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/Yup2KNlGBB-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/Yup2KNlGBB-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250309_102606.jpg"
+      alt="attachments/20250309_102606.jpg"
+      width=""
+      ></picture></p>
 <h3 id="night-cap" tabindex="-1">Night Cap</h3>
 <p>Our lodging hostest recommends a local eatery over the local Applebee's (glad to know Nebraskins have the same restaurant sentiments)</p>
-<p><img src="/img/user/attachments/20250308_184045.jpg" alt="attachments/20250308_184045.jpg"></p>
+<p><picture src="/img/user/attachments/20250308_184045.jpg" alt="attachments/20250308_184045.jpg"><source       media="(max-width:480px)"
+      srcset="/img/optimized/9WypIGsg8b-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/9WypIGsg8b-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/9WypIGsg8b-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/9WypIGsg8b-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/20250308_184045.jpg"
+      alt="attachments/20250308_184045.jpg"
+      width=""
+      ></picture></p>
 <p>Chances Restaurant and Lounge provides ice cold brews, breaded pork chops, and roast beef cuts to fill the starving travelers.</p>
 <h2 id="trip-days" tabindex="-1">Trip Days</h2>
 <p><a class="internal-link" target="" data-note-icon="" href="/personal/travel/2025-steamboat-co/march-9-2025/"> Next Day -&gt; March 9 2025</a></p>

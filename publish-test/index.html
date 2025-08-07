@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6355,7 +6355,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6481,7 +6481,23 @@ end</pre><div class="block-language-dataview table-wrapper"><table class="datavi
 <h2 id="visual-note-link" tabindex="-1">Visual Note link</h2>
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 <p><a href="https://www.psychologytoday.com/us/basics/dunning-kruger-effect" target="_blank" class="external-link">Dunning-Kruger Effect | Psychology Today</a></p>
-<p><img src="/img/user/attachments/Pasted%20image%2020221109111315%201.png" alt="attachments/Pasted image 20221109111315 1.png"></p>
+<p><picture src="/img/user/attachments/Pasted%20image%2020221109111315%201.png" alt="attachments/Pasted image 20221109111315 1.png"><source       media="(max-width:480px)"
+      srcset="/img/optimized/GvX7LJmtD8-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/GvX7LJmtD8-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/GvX7LJmtD8-532.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/GvX7LJmtD8-532.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/Pasted%20image%2020221109111315%201.png"
+      alt="attachments/Pasted image 20221109111315 1.png"
+      width=""
+      ></picture></p>
 <div class="callout " data-callout="quote"><div class="callout-title"><div class="callout-title-inner"> The concept of the Dunning-Kruger effect is based on a <a href="https://pdfs.semanticscholar.org/e320/9ca64cbed9a441e55568797cbd3683cf7f8c.pdf" target="_blank" class="external-link">1999 paper</a> by Cornell University psychologists David Dunning and Justin Kruger. The pair tested participants on their logic, grammar, and <a href="https://www.psychologytoday.com/us/basics/humor" title="Psychology Today looks at sense of humor" target="_blank" class="external-link">sense of humor</a>, and found that those who performed in the bottom quartile rated their skills far above average. For example, those in the 12th percentile self-rated their expertise to be, on average, in the 62nd percentile.</div></div>
 <div class="callout-content">
 <p>
@@ -6527,7 +6543,23 @@ end</pre><div class="block-language-dataview table-wrapper"><table class="datavi
 </li>
 </ol>
 <h2 id="images" tabindex="-1">Images</h2>
-<p><img src="/img/user/attachments/Pasted%20image%2020221003162310%201.png" alt="attachments/Pasted image 20221003162310 1.png|Pasted image 20221003162310 1|300" width="300px"></p>
+<p><picture src="/img/user/attachments/Pasted%20image%2020221003162310%201.png" alt="attachments/Pasted image 20221003162310 1.png|Pasted image 20221003162310 1|300" width="300px"><source       media="(max-width:480px)"
+      srcset="/img/optimized/kQmafbhSwm-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/kQmafbhSwm-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/kQmafbhSwm-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/kQmafbhSwm-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/Pasted%20image%2020221003162310%201.png"
+      alt="attachments/Pasted image 20221003162310 1.png|Pasted image 20221003162310 1|300"
+      width="300px"
+      ></picture></p>
 <h3 id="excalidraw" tabindex="-1">Excalidraw</h3>
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 <p><mark>⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠</mark></p>

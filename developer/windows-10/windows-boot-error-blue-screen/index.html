@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6355,7 +6355,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6365,7 +6365,23 @@
       
       
       <p>Nothing like getting home from a full day of work to boot up your home <a class="internal-link" target="" data-note-icon="" href="/developer/windows-10/microsoft-windows/">Microsoft Windows</a> 10 PC and see the blue screen of death.</p>
-<p><img src="/img/user/attachments/Recovery-Blue-Screen-Error-0x0000185-1%202.jpg" alt="attachments/Recovery-Blue-Screen-Error-0x0000185-1 2.jpg|Recovery-Blue-Screen-Error-0x0000185-1"></p>
+<p><picture src="/img/user/attachments/Recovery-Blue-Screen-Error-0x0000185-1%202.jpg" alt="attachments/Recovery-Blue-Screen-Error-0x0000185-1 2.jpg|Recovery-Blue-Screen-Error-0x0000185-1"><source       media="(max-width:480px)"
+      srcset="/img/optimized/S7LCZ1MmM_-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/S7LCZ1MmM_-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/S7LCZ1MmM_-600.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/S7LCZ1MmM_-600.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/Recovery-Blue-Screen-Error-0x0000185-1%202.jpg"
+      alt="attachments/Recovery-Blue-Screen-Error-0x0000185-1 2.jpg|Recovery-Blue-Screen-Error-0x0000185-1"
+      width=""
+      ></picture></p>
 <p>This particular situation was because of a corrupted UEIF partition. With a bit of digging I found this <a href="https://www.youtube.com/watch?v=CZ17JrgFFhw" target="_blank" class="external-link">video tutorial</a>from <strong>CyberCPU Tech</strong> that saved my bacon.</p>
 <h2 id="create-installation-usb" tabindex="-1">Create Installation USB</h2>
 <p>Before anything, you must create <a href="https://www.howtogeek.com/787937/how-to-make-a-bootable-windows-10-usb-drive/" target="_blank" class="external-link">a Bootable Windows 10 USB Drive</a>. Meaning you'll need a working computer to fix the broken one. This Bootable USB will get you into the console and and fix the corrupted partition. Get the the download <a href="https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d" target="_blank" class="external-link">directly from Microsoft</a></p>
@@ -6373,7 +6389,23 @@
 <p>I'll also assume you know how to boot from this newly created USB install media. Assume your computer will continue to attempt to boot from the bad drive until you tell your computer to <a href="https://www.digitalcitizen.life/boot-your-windows-10-pc-usb-flash-drive/" target="_blank" class="external-link">boot from the USB instead</a></p>
 <h2 id="media-creation-tool" tabindex="-1">Media Creation Tool</h2>
 <p>After you pick your language, you'll end up at this window<br>
-<img src="/img/user/attachments/Windows-Repair-computer%201.png" alt="attachments/Windows-Repair-computer 1.png|Windows-Repair-computer"></p>
+<picture src="/img/user/attachments/Windows-Repair-computer%201.png" alt="attachments/Windows-Repair-computer 1.png|Windows-Repair-computer"><source       media="(max-width:480px)"
+      srcset="/img/optimized/QJRrdMp5X5-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/QJRrdMp5X5-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/QJRrdMp5X5-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/QJRrdMp5X5-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/Windows-Repair-computer%201.png"
+      alt="attachments/Windows-Repair-computer 1.png|Windows-Repair-computer"
+      width=""
+      ></picture></p>
 <p>Continue through the menu with <strong>Troubleshoot -&gt; Command Prompt</strong>. You could attempt the <strong>Startup Repair</strong> option and hope for the best, but I assume you already tried that.</p>
 <h2 id="terminal" tabindex="-1">Terminal</h2>
 <p>Now you should have a console open like below</p>

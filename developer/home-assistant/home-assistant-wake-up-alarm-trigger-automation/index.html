@@ -97,7 +97,7 @@
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
         
         <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Pywrite Garden</h1>
+            <h1 style="margin: 15px !important;">Pywrite | Digital Garden</h1>
         </a>
         
     </div>
@@ -123,7 +123,7 @@
       <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         
          <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Pywrite Garden</h1>
+               <h1 style="text-align:center;">Pywrite | Digital Garden</h1>
          </a>
          
         
@@ -6100,7 +6100,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-06-17T18:07:02.933Z';
+        const searchIndexDate = '2025-08-07T16:19:30.622Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6112,9 +6112,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-06-17T18:07:02.933Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-08-07T16:19:30.622Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-06-17T18:07:02.933Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-08-07T16:19:30.622Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -6373,7 +6373,7 @@
                 
               
             </div>
-          </div>
+          <div class="timestamps"></div></div>
       
       
         
@@ -6425,10 +6425,42 @@ template: !include template.yaml
 <p>don't forget to change <code>phone_next_alarm </code> and <code>isAlarmRinging_myphone</code> to your needs</p>
 <h2 id="home-assistant" tabindex="-1">Home Assistant</h2>
 <p>Move to the HA UI in your browser to restart home assistant. Confirm the sensor was created at http://hYOUR_HA_IP:8123/config/entities and make sure it's showing as <code>False</code></p>
-<p><img src="/img/user/attachments/Pasted%20image%2020241002132658.png" alt="attachments/Pasted image 20241002132658.png"></p>
+<p><picture src="/img/user/attachments/Pasted%20image%2020241002132658.png" alt="attachments/Pasted image 20241002132658.png"><source       media="(max-width:480px)"
+      srcset="/img/optimized/ASBbqDdJcN-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/ASBbqDdJcN-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/ASBbqDdJcN-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/ASBbqDdJcN-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/Pasted%20image%2020241002132658.png"
+      alt="attachments/Pasted image 20241002132658.png"
+      width=""
+      ></picture></p>
 <h3 id="automation" tabindex="-1">Automation</h3>
 <p>The automation I've set up with this alarm turns on my lights for my wake up morning routine.</p>
-<p><img src="/img/user/attachments/Pasted%20image%2020241002132811.png" alt="attachments/Pasted image 20241002132811.png"></p>
+<p><picture src="/img/user/attachments/Pasted%20image%2020241002132811.png" alt="attachments/Pasted image 20241002132811.png"><source       media="(max-width:480px)"
+      srcset="/img/optimized/b0eOzFaqUJ-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/b0eOzFaqUJ-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/b0eOzFaqUJ-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/b0eOzFaqUJ-700.jpeg"
+        ><img       class=""
+      src="/img/user/attachments/Pasted%20image%2020241002132811.png"
+      alt="attachments/Pasted image 20241002132811.png"
+      width=""
+      ></picture></p>
 <p>This routine logic:</p>
 <ol>
 <li>Trigger when current time equals alarm time (When <code>isAlarmRinging_myphone</code> goes <code>False</code> to <code>True</code>)</li>

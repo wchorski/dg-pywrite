@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/jellyfin/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/jellyfin/","created":"2025-04-09T22:17:32.433-05:00","updated":"2025-04-09T11:40:10.000-05:00"}
 ---
 
 #music #media #player #itunes #bash #powershell
@@ -8,7 +8,7 @@
 > [!info] [Jellyfin](https://jellyfin.org/) The Free Software Media System.
 > Jellyfin is the volunteer-built media solution that puts _you_ in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.
 
-I use this exclusively for music hosting because [[developer/Home Lab/Plex.tv\|Plex.tv]] has more restrictions on client music playback. Plus, with a little shell magic -> [[developer/Home Lab/Jellyfin#iTunes playlist Sync\|iTunes playlist Sync]]
+I use this exclusively for music hosting because [[developer/Home Lab/Plex.tv\|Plex.tv]] has more restrictions on client music playback. Plus, with a little shell magic -> [[#iTunes playlist Sync|iTunes playlist Sync]]
 
 ---
 

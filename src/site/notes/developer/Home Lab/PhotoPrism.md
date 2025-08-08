@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/photo-prism/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/photo-prism/","created":"2025-04-09T22:16:36.307-05:00","updated":"2025-04-09T11:38:44.000-05:00"}
 ---
 
 #pictures #selfhosted

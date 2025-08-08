@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/free-file-sync/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/free-file-sync/","created":"2025-04-09T22:15:51.579-05:00","updated":"2025-04-09T11:37:46.000-05:00"}
 ---
 
 #backup #cross_platform

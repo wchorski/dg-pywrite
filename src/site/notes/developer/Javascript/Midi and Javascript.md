@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/midi-and-javascript/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/javascript/midi-and-javascript/","created":"2025-04-09T22:13:26.407-05:00","updated":"2025-04-09T11:34:51.000-05:00"}
 ---
 
 This is the beginning how I learn to input midi into a web browser via #javascript 

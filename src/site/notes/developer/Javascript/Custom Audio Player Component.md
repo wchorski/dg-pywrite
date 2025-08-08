@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/custom-audio-player-component/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/javascript/custom-audio-player-component/","created":"2025-04-09T22:09:52.028-05:00","updated":"2025-04-09T11:30:36.000-05:00"}
 ---
 
 #javascript 

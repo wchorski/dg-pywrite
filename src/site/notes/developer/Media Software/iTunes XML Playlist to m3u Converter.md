@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/i-tunes-xml-playlist-to-m3u-converter/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/i-tunes-xml-playlist-to-m3u-converter/","created":"2025-04-09T22:07:48.573-05:00","updated":"2025-04-09T11:28:23.000-05:00"}
 ---
 
 using this [java](http://www.ericdaugherty.com/dev/itunesexport/scala/)cli app, I'm able to convert playlists living in the `iTunes Library.xml` file into separate `*.m3u` playlist files

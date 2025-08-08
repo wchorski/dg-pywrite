@@ -1,5 +1,5 @@
 ---
-{"codename":"nicOS","dg-publish":true,"permalink":"/developer/hardware/intel-i7-7700-custom-pc/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/hardware/intel-i7-7700-custom-pc/","created":"2025-04-09T22:12:25.183-05:00","updated":"2025-05-12T01:01:24.000-05:00"}
 ---
 
 ## Codename: Icicle v2

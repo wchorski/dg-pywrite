@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["docker","nextcloud","bash","shell","smb"],"permalink":"/developer/nextcloud/nextcloud-remove-external-storage-terminal/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/nextcloud/nextcloud-remove-external-storage-terminal/","tags":["docker","nextcloud","bash","shell","smb"],"created":"2025-04-15T18:58:55.869-05:00","updated":"2025-04-12T11:36:30.000-05:00"}
 ---
 
 I mounted a [[developer/Linux/SAMBA Share\|SAMBA Share]] share to my nextcloud in hopes that I could share a large media library to family and friends without having to process all files through Nextcloud. 

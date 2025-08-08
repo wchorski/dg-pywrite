@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-dialog-model-for-accessable-tooltips-pop-ups-and-more/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/html-dialog-model-for-accessable-tooltips-pop-ups-and-more/","created":"2025-04-09T22:06:36.129-05:00","updated":"2025-04-09T11:27:04.000-05:00"}
 ---
 
 

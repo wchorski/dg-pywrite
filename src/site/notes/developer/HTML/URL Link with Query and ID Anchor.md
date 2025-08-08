@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/url-link-with-query-and-id-anchor/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/html/url-link-with-query-and-id-anchor/","created":"2025-04-09T22:10:24.853-05:00","updated":"2025-04-09T11:31:14.000-05:00"}
 ---
 
 #html 

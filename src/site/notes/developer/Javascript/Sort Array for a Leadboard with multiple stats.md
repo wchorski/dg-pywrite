@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/sort-array-for-a-leadboard-with-multiple-stats/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/javascript/sort-array-for-a-leadboard-with-multiple-stats/","created":"2025-04-09T22:07:00.874-05:00","updated":"2025-04-09T11:27:32.000-05:00"}
 ---
 
 for my typing game [[developer/Projects/Keyboard Warrior\|Keyboard Warrior]] I wanted to create a leaderboard that ranks player scores by `words per minute`. Sometimes a player will have the same score as another, so I needed to use a second stat that compares the `accuracy` of the keystrokes.

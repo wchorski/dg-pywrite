@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/only-office/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/only-office/","created":"2025-04-09T22:16:35.627-05:00","updated":"2025-04-09T11:38:44.000-05:00"}
 ---
 
 #FOSS #office #edit #powerpoint #word #excel 

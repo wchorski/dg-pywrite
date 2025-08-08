@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["homeassistant","automation"],"permalink":"/developer/home-assistant/find-my-phone-automation/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-assistant/find-my-phone-automation/","tags":["homeassistant","automation"],"created":"2025-05-12T19:26:29.228-05:00","updated":"2025-05-12T15:38:25.000-05:00"}
 ---
 
 Using [[developer/Home Lab/Home Assistant\|Home Assistant]] with the companion app on your phone. Home Assistant server must be able to reach the phone via network (VPN, Public Domain, Local Network)

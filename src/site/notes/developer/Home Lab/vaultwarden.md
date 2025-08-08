@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/vaultwarden/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/vaultwarden/","created":"2025-04-09T22:16:18.922-05:00","updated":"2025-04-09T11:38:24.000-05:00"}
 ---
 
 

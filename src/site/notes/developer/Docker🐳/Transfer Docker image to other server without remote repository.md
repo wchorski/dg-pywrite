@@ -1,5 +1,5 @@
 ---
-{"tags":["nodejs","reactjs","docker","docker-compose","webdev"],"dg-publish":true,"permalink":"/developer/docker/transfer-docker-image-to-other-server-without-remote-repository/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/docker/transfer-docker-image-to-other-server-without-remote-repository/","tags":["nodejs","reactjs","docker","docker-compose","webdev"],"created":"2025-04-09T22:06:20.520-05:00","updated":"2025-05-05T20:59:42.000-05:00"}
 ---
 
 I build my websites with [[developer/NodeJS/NodeJS\|NodeJS]] and create production ready apps with [[developer/Home Lab/Docker\|Docker]]. These images are usually unique the client and contain sensitive information. 

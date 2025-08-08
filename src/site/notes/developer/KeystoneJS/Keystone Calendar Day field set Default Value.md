@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-calendar-day-field-set-default-value/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-calendar-day-field-set-default-value/","created":"2025-04-09T22:07:07.796-05:00","updated":"2025-04-09T11:27:39.000-05:00"}
 ---
 
 

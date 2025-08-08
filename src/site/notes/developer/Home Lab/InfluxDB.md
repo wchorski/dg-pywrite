@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/influx-db/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/influx-db/","created":"2025-04-09T22:17:32.034-05:00","updated":"2025-04-09T11:40:10.000-05:00"}
 ---
 
 

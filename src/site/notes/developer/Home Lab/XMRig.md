@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/xm-rig/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/xm-rig/","created":"2025-04-09T22:18:22.047-05:00","updated":"2025-04-09T11:41:09.000-05:00"}
 ---
 
 > [!info] [XMRig](https://xmrig.com/)

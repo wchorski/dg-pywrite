@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/pretty-ur-ls-for-your-internal-network/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/pretty-ur-ls-for-your-internal-network/","created":"2025-04-09T22:08:39.154-05:00","updated":"2025-04-09T11:29:16.000-05:00"}
 ---
 
 ## Tools

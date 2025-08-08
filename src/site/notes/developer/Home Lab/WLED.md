@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/wled/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/wled/","created":"2025-04-09T22:18:32.801-05:00","updated":"2025-04-09T11:41:23.000-05:00"}
 ---
 
 [Aircoookie/WLED: Control WS2812B and many more types of digital RGB LEDs with an ESP8266 or ESP32 over WiFi! (github.com)](https://github.com/Aircoookie/WLED)

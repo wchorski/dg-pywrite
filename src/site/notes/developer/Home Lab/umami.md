@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["selfhosted","analytics","html","webdev"],"permalink":"/developer/home-lab/umami/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/umami/","tags":["selfhosted","analytics","html","webdev"],"created":"2025-04-09T22:18:22.438-05:00","updated":"2025-04-09T11:41:09.000-05:00"}
 ---
 
 [Umami](https://umami.is/)

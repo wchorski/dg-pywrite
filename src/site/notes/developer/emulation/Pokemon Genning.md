@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/pokemon-genning/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/emulation/pokemon-genning/","created":"2025-04-09T22:14:37.371-05:00","updated":"2025-04-09T11:36:14.000-05:00"}
 ---
 
 genning a legal, proper Pokémon includes knowledge of what moves a Pokémon can get and when, knowing proper EV and IV spreads (Hidden Powers are a thing), and giving them the correct abilities.

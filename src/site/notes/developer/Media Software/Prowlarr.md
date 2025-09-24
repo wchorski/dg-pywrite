@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/prowlarr/","created":"2025-04-09T22:15:17.408-05:00","updated":"2025-04-09T11:37:04.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/media-software/prowlarr/","dgPassFrontmatter":true}
 ---
 
 ## Troubleshoot CloudFlare Protection

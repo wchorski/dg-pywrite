@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/my-gpu-journey/","created":"2025-04-09T22:15:15.291-05:00","updated":"2025-04-09T11:37:01.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/hardware/my-gpu-journey/","dgPassFrontmatter":true}
 ---
 
 

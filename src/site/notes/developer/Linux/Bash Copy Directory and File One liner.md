@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/bash-copy-directory-and-file-one-liner/","created":"2025-04-09T22:08:58.854-05:00","updated":"2025-04-09T11:29:39.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/linux/bash-copy-directory-and-file-one-liner/","dgPassFrontmatter":true}
 ---
 
 I needed a #bash shell script that automatically copied over private files such as `.env` and `home.tsx` within my web development stack

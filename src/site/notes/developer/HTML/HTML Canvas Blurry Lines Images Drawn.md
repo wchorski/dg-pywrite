@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-canvas-blurry-lines-images-drawn/","created":"2025-04-09T22:09:22.401-05:00","updated":"2025-04-09T11:30:04.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/html/html-canvas-blurry-lines-images-drawn/","dgPassFrontmatter":true}
 ---
 
 describe_the_problem

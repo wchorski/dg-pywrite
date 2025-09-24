@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/samba/","created":"2025-04-09T22:18:20.343-05:00","updated":"2025-04-09T11:41:09.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/home-lab/samba/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/pi-hole/","created":"2025-04-09T22:17:53.161-05:00","updated":"2025-04-09T11:40:38.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/home-lab/pi-hole/","dgPassFrontmatter":true}
 ---
 
 > [!info] [Pi-hole – Network-wide protection](https://pi-hole.net/)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/owning-digital-products-on-physical-media/","created":"2025-07-09T21:27:54.359-05:00","updated":"2025-07-09T14:07:27.000-05:00"}
+{"dg-publish":true,"permalink":"/shower-thoughts/owning-digital-products-on-physical-media/","dgPassFrontmatter":true}
 ---
 
 ## Question

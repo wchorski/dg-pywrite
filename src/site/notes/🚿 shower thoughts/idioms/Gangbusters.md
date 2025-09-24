@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/gangbusters/","tags":["words","idiom","saying"],"created":"2025-04-09T22:14:11.360-05:00","updated":"2025-04-09T11:35:44.000-05:00"}
+{"dg-publish":true,"tags":["words","idiom","saying"],"permalink":"/shower-thoughts/idioms/gangbusters/","dgPassFrontmatter":true}
 ---
 
 > outstandingly excellent or successful

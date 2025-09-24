@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/home-assistant/","created":"2025-04-09T22:15:15.514-05:00","updated":"2025-04-09T11:37:03.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/home-lab/home-assistant/","dgPassFrontmatter":true}
 ---
 
 [Home Assistant (home-assistant.io)](https://www.home-assistant.io/)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/js-get-timezone-of-client/","created":"2025-04-09T22:11:01.019-05:00","updated":"2025-04-09T11:31:52.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/javascript/js-get-timezone-of-client/","dgPassFrontmatter":true}
 ---
 
 ```javascript

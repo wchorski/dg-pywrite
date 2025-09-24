@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/remove-duplicates-in-array/","tags":["javascript"],"created":"2025-04-09T22:10:39.944-05:00","updated":"2025-04-09T11:31:28.000-05:00"}
+{"dg-publish":true,"tags":["javascript"],"permalink":"/developer/javascript/remove-duplicates-in-array/","dgPassFrontmatter":true}
 ---
 
 

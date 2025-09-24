@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/home-assistant-outlook-imap-with-subject-sensor/","created":"2025-04-09T22:06:43.986-05:00","updated":"2025-04-09T11:27:13.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/home-assistant/home-assistant-outlook-imap-with-subject-sensor/","dgPassFrontmatter":true}
 ---
 
 

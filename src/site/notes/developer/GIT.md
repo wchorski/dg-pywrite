@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/git/","created":"2025-04-09T22:19:37.429-05:00","updated":"2025-04-09T11:42:35.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/git/","dgPassFrontmatter":true}
 ---
 
 

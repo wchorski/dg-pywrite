@@ -4,7 +4,9 @@
 
 Here is the hub of all things game emulation
 
+- [[developer/emulation/3DS Crashes on Game Icon hover on Homescreen\|3DS Crashes on Game Icon hover on Homescreen]]
 - [[developer/emulation/3DS Homebrew\|3DS Homebrew]]
+- [[developer/emulation/3DS SD card not showing installed games\|3DS SD card not showing installed games]]
 - [[developer/emulation/Batocera on SteamDeck\|Batocera on SteamDeck]]
 - [[developer/emulation/Battlefield Bad Company 2 Online\|Battlefield Bad Company 2 Online]]
 - [[developer/emulation/Cemu\|Cemu]]
@@ -20,6 +22,5 @@ Here is the hub of all things game emulation
 - [[developer/emulation/RPCS3\|RPCS3]]
 - [[developer/emulation/Steamdeck reset sudo password\|Steamdeck reset sudo password]]
 - [[developer/emulation/Switch Homebrew\|Switch Homebrew]]
-- [[developer/emulation/3DS Crashes on Game Icon hover on Homescreen\|3DS Crashes on Game Icon hover on Homescreen]]
 
 { .block-language-dataview}

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/mac-book-pro-m1-laptop/","created":"2025-04-09T22:13:24.457-05:00","updated":"2025-04-09T11:34:50.000-05:00"}
+{"codename":"splitDrive","dg-publish":true,"permalink":"/developer/hardware/mac-book-pro-m1-laptop/","dgPassFrontmatter":true}
 ---
 
 

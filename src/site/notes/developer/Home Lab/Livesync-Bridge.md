@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/livesync-bridge/","created":"2025-04-09T22:14:53.772-05:00","updated":"2025-04-09T11:36:34.000-05:00"}
+{"dg-publish":true,"permalink":"/developer/home-lab/livesync-bridge/","dgPassFrontmatter":true}
 ---
 
 #github #netlify 
@@ -162,7 +162,7 @@ services:
 		- `hotkeys.json`
 		- `templates.json`
 1. download `obsidian-livesync` from **Community Plugins**
-2. follow [[#Regex to ignore files|Regex to ignore files]] to ignore correct files / folders also `|📁 Dungeon Master`
+2. follow [[developer/Home Lab/Livesync-Bridge#Regex to ignore files\|Regex to ignore files]] to ignore correct files / folders also `|📁 Dungeon Master`
 3. **🛰 Remote Database** tab
 	1. URI `https://dungeon-db.williamusic.com/dnd-live`
 	2. Username: `admin_dnd`

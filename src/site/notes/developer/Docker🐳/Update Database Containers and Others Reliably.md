@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/update-database-containers-and-others-reliably/","tags":["docker","docker-compose","linux","automation","backup"],"created":"2025-04-09T22:07:13.587-05:00","updated":"2025-04-09T11:27:44.000-05:00"}
+{"dg-publish":true,"tags":["docker","docker-compose","linux","automation","backup"],"permalink":"/developer/docker/update-database-containers-and-others-reliably/","dgPassFrontmatter":true}
 ---
 
 ## Containers that don't have a built in script

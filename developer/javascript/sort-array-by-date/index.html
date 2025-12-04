@@ -519,6 +519,17 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/css/footer-always-on-bottom-with-flex-box/">Footer Always on Bottom with flex box </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/css/handle-dark-light-themes-the-right-way/">Handle Dark Light Themes The Right Way </a>
                 </div>
             
@@ -1327,6 +1338,17 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/hardware/playstation-vita/">Playstation Vita </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/hardware/ryzen-5-5600x-custom-pc/">Ryzen 5 5600x Custom PC </a>
                 </div>
             
@@ -2094,6 +2116,17 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/html/html-table-with-headers-on-the-side/">HTML Table with Headers on the Side </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/html/html-underused-tags/">HTML underused Tags </a>
                 </div>
             
@@ -2219,6 +2252,17 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/javascript/custom-audio-player-component/">Custom Audio Player Component </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/javascript/custom-event-vs-broadcast-channel/">Custom Event vs Broadcast Channel </a>
                 </div>
             
         </div>
@@ -2667,6 +2711,17 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/linux/bottles-gaming-and-other-windows-apps-on-linux/">Bottles, Gaming and Other Windows Apps on Linux </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/linux/convert-video-to-hap-alpha-with-ffmpeg/">Convert video to HAP Alpha with FFMPEG </a>
                 </div>
             
         </div>
@@ -5135,6 +5190,17 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/music/w-wise/dynamic-music-ideas/">Dynamic Music Ideas </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/music/w-wise/intro-into-continuous-loop-with-wwise-music/">Intro into Continuous Loop with Wwise Music </a>
                 </div>
             
@@ -6321,7 +6387,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2025-09-24T21:03:08.117Z';
+        const searchIndexDate = '2025-12-04T23:05:35.371Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -6333,9 +6399,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2025-09-24T21:03:08.117Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2025-12-04T23:05:35.371Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-09-24T21:03:08.117Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2025-12-04T23:05:35.371Z', docs}));
             window.docs = docs
             window.index = index;
         }

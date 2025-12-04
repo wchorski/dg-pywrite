@@ -77,3 +77,10 @@ Make An account https://www.screenscraper.fr/index.php. this is the best scraper
 - [no sound after wake](https://github.com/batocera-linux/batocera.linux/issues/12342)
 - change brightness ingame [not planned](https://github.com/batocera-linux/batocera.linux/issues/8833)
 - install pkg files and add to frontend [tutorial](https://wiki.batocera.org/systems:ps3)
+
+## Second thoughts
+While I really appreciate the true All-in-one package. I've found I switch between boots a lot and it gets quite tiresome. I've tried [EmuDeck](https://www.emudeck.com/). My initial experience was not good and It turned me away from trying to make everything work in SteamOS. The biggest factor that was holding me back was managing controllers for multiplayer. It looks like that is actually really easy to do when you have them hooked up.
+
+https://www.reddit.com/r/DolphinEmulator/comments/wl2kj2/connecting_multiple_wireless_controllers_to/
+
+I don't mind going through each emulator when setting up so I'll just use the discover store to grab and update my emulator packages

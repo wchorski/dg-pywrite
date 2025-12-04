@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/nextcloud/","tags":["cloud","nextcloud","owncloud","media","assets","management"],"created":"2025-04-09T22:17:17.751-05:00","updated":"2025-05-30T12:58:09.000-05:00"}
+{"dg-publish":true,"tags":["cloud","nextcloud","owncloud","media","assets","management"],"permalink":"/developer/home-lab/nextcloud/","dgPassFrontmatter":true}
 ---
 
 #cloud #gmail #opensource 
@@ -215,6 +215,11 @@ System config value default_phone_region set to string US
 How to migrate Contacts and Address Book to new instance or profile account
 - `https://[DOMAIN].com/apps/contacts/All contacts`
 - or `https://nextcloud.[DOMAIN].[TLD]/remote.php/dav/addressbooks/users/[USERNAME]/contacts?export`
+## Memories & Recognize
+- https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+- https://github.com/nextcloud/all-in-one/tree/main/community-containers/memories
+- https://github.com/nextcloud/all-in-one#how-to-enable-hardware-acceleration-for-nextcloud
+- https://github.com/nextcloud/previewgenerator
 ## Other Troubleshooting
 - [[developer/Nextcloud/Nextcloud Block Issues and Large Log Files\|Nextcloud Block Issues and Large Log Files]]
 

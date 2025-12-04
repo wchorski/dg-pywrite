@@ -45,9 +45,8 @@ DNS  - **mint.lan** *-via [[developer/Home Lab/Pi-hole\|Pi-hole]]*
 | PSU          | high power 80 gold 650w hp1-j650gd-f12s | 650 W                                  |       |               |     |
 | Case         |                                         |                                        |       |               |     |
 ## Parts
-| File                                                                                                                                                    | make    | model        | capacity | device                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ | -------- | -------------------------------------------------------------------------- |
-| [[developer/Hardware/PC Inventory/Wi-fi 6 Bluetooth 5.2 Adapter tp-link Archer TX55E PCIe\|Wi-fi 6 Bluetooth 5.2 Adapter tp-link Archer TX55E PCIe]] | tp-link | Archer TX55E | \-       | [[developer/Hardware/Ryzen 9 3900x Custom PC\|Ryzen 9 3900x Custom PC]] |
+| File | make | model | capacity | device |
+| ---- | ---- | ----- | -------- | ------ |
 
 { .block-language-dataview}
 

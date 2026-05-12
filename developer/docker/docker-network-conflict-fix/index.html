@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Grafana &amp; InfluxDB</title>
+<title>Docker Network Conflict Fix</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script type="importmap">
@@ -26,7 +26,7 @@
 <link href="/styles/obsidian-base.css" rel="stylesheet">
 <link href="/styles/_theme.ee574352.css" rel="stylesheet">
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
-<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/components.css?v=2026-04-14T19:07:36.483Z" rel="stylesheet"><link href="/styles/user/pywrite.css?v=2026-04-14T19:07:36.483Z" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/components.css?v=2026-05-12T16:29:26.967Z" rel="stylesheet"><link href="/styles/user/pywrite.css?v=2026-05-12T16:29:26.967Z" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -146,6 +146,11 @@
 <i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
 <i x-show="!isOpen" data-lucide="chevron-right"></i>
 <span class="foldername">CSS</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/css/anchored-box-with-message/">Anchored Box with Message </a>
+</div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
@@ -358,15 +363,20 @@
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;developer/Docker🐳&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;developer/Docker&quot;)}" @click.stop="isOpen=!isOpen">
 <div class="foldername-wrapper align-icon">
 <i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
 <i x-show="!isOpen" data-lucide="chevron-right"></i>
-<span class="foldername">Docker🐳</span>
+<span class="foldername">Docker</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/docker/build-small-docker-image-sizes/">Build small docker image sizes </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/docker/docker-all-predefined-address-pools-have-been-fully-subnetted/">Docker All Predefined address Pools have been fully subnetted </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -382,6 +392,11 @@
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/docker/docker-daemon-goes-down/">Docker Daemon Goes Down </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink active-note">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/docker/docker-network-conflict-fix/">Docker Network Conflict Fix </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -417,6 +432,11 @@
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/docker/reset-password-on-duplicati-container/">Reset Password on Duplicati Container </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/docker/rust-rs-s3-storage-bucket-container/">RustRS S3 Storage Bucket Container </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -520,6 +540,11 @@
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/emulation/ps-3-save-data-transfer-via-ftp/">PS3 SaveData Transfer via FTP </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/emulation/rpcs-3/">RPCS3 </a>
 </div>
 </div>
@@ -531,6 +556,20 @@
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/emulation/switch-homebrew/">Switch Homebrew </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;developer/Finance&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Finance</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/finance/personal-finance-tracker-paisa/">Personal Finance Tracker Paisa </a>
 </div>
 </div>
 </div>
@@ -750,8 +789,8 @@
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note">
-<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/home-lab/grafana-and-influx-db/">Grafana &amp; InfluxDB </a>
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/home-lab/grafana-and-influx-db-in-home-assistant-dasbhoard/">Grafana &amp; InfluxDB in Home Assistant Dasbhoard </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -960,6 +999,11 @@
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/html/html-radio-buttons-do-not-need-to-share-the-same-parent/">HTML Radio Buttons do not need to share the same parent </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/html/html-table-with-headers-on-the-side/">HTML Table with Headers on the Side </a>
 </div>
 </div>
@@ -1080,6 +1124,11 @@
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/javascript/js-switch-statement/">JS Switch Statement </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/javascript/js-doc-typing-a-broadcast-channel-listener-with-enum/">JSDoc Typing a Broadcast Channel Listener With Enum </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1261,6 +1310,11 @@
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/linux/find-and-delete-files-and-directories-with-regex/">Find and delete files and directories with regex </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/linux/hardened-ssh-server/">Hardened SSH Server </a>
 </div>
 </div>
@@ -1321,6 +1375,11 @@
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/linux/rotate-terminal-orientation-on-headless-no-gui-desktop-server/">Rotate terminal orientation on headless no GUI desktop server </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/linux/rsync-over-ssh/">Rsync over SSH </a>
 </div>
 </div>
@@ -1337,6 +1396,11 @@
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/linux/terminal-tips/">Terminal Tips </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/linux/troubleshooting-slow-sluggish-read-write-speeds/">Troubleshooting Slow Sluggish Read Write Speeds </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -1972,6 +2036,11 @@
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/windows-10/windows-add-markdown-file-to-context/">Windows add Markdown file to context </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/windows-10/windows-boot-error-blue-screen/">Windows Boot Error Blue Screen </a>
 </div>
 </div>
@@ -1985,6 +2054,30 @@
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/windows-10/windows-freezes-hangs-crashes-file-rename-create/">Windows Freezes Hangs Crashes File Rename Create </a>
 </div>
 </div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;developer/Wordpress&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Wordpress</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/wordpress/increase-max-upload-size-for-wordpress-uploads/">Increase Max Upload Size for Wordpress uploads </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/wordpress/use-s3-uploads-in-place-of-wordpress-media-directory/">Use S3 Uploads in-place of Wordpress media directory </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/developer/att-router-passthrough-with-pi-hole/">Att Router Passthrough with Pi Hole </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -2202,6 +2295,20 @@
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;music/LSDJ&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">LSDJ</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/music/lsdj/lsdj-tips/">LSDJ Tips </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
 <div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;music/music_theory&quot;)}" @click.stop="isOpen=!isOpen">
 <div class="foldername-wrapper align-icon">
 <i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
@@ -2246,6 +2353,25 @@
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/music/music-theory/triplets/">triplets </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;music/Reaper&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Reaper</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/music/reaper/reaper-import-aaf-files-from-film-editor/">Reaper Import AAF files from Film Editor </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/music/reaper/reaper-keybindings/">Reaper Keybindings </a>
 </div>
 </div>
 </div>
@@ -2655,6 +2781,11 @@
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/shower-thoughts/psycology/escapism/">Escapism </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/shower-thoughts/psycology/know-like-and-trust/">Know, Like and Trust </a>
 </div>
 </div>
@@ -2699,7 +2830,17 @@
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/shower-thoughts/rants/the-paradox-of-tolerance-and-paradox-of-acceptance/">The paradox of tolerance And paradox of acceptance </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/shower-thoughts/rants/the-zelda-fandom-from-a-zelda-fan/">The Zelda Fandom from a Zelda Fan </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/shower-thoughts/rants/we-don-t-need-better-algorithms/">We don&#39;t need better algorithms </a>
 </div>
 </div>
 </div>
@@ -2833,47 +2974,152 @@
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1);const previewCache=new Map;window.toggleSearch=function(){const e=document.getElementById("globalsearch");e.classList.contains("active")?e.classList.remove("active"):(e.classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){const t=e.textContent;t&&(document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <div style="display: flex; justify-content: center; padding: 40px;">\n        <svg width="40" height="40" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">\n            <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="8">\n                    <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n            </g>\n        </svg>\n    </div>';function debounce(e,t,n){var r;return function(){var i=this,a=arguments,s=n&&!r;clearTimeout(r),r=setTimeout((function(){r=null,n||e.apply(i,a)}),t),s&&e.apply(i,a)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="<code>⌘</code>&nbsp;+&nbsp;<code>K</code>"))}function tokenizeSearchTerms(e){const t=[],n=/"([^"]+)"|(\S+)/g;let r;for(;null!==(r=n.exec(e));){const e=(r[1]||r[2]).toLowerCase();e.length>1&&t.push(e)}return t.sort(((e,t)=>t.length-e.length))}function highlightTerms(e,t){if(!t||0===t.length||!e)return e;let n=e;return t.forEach((e=>{const t=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),r=new RegExp(`(${t})`,"gi");n=n.replace(r,'<span class="search-highlight">$1</span>')})),n}function getContextualExcerpt(e,t,n=150){if(!e)return"";const r=e.replace(/<[^>]*>/g,"");if(!t||0===t.length)return truncateText(r,n);let i=r.length;if(t.forEach((e=>{const t=r.toLowerCase().indexOf(e.toLowerCase());-1!==t&&t<i&&(i=t)})),i===r.length)return truncateText(r,n);const a=Math.max(0,i-50),s=Math.min(r.length,a+n);let o=r.substring(a,s);return a>0&&(o="..."+o),s<r.length&&(o+="..."),o}function truncateText(e,t){return e?(e=e.replace(/<[^>]*>/g,"")).length<=t?e:e.substring(0,t-3)+"...":""}async function fetchPreviewContent(e){if(previewCache.has(e))return previewCache.get(e);try{const t=await fetch(e),n=await t.text(),r=new DOMParser,i=r.parseFromString(n,"text/html").querySelector(".content, .cm-s-obsidian, article, main"),a=i?i.innerHTML:"";return previewCache.set(e,a),a}catch(e){return console.error("Failed to fetch preview:",e),""}}function highlightTextNodes(e,t){if(!t||0===t.length)return;const n=document.createTreeWalker(e,NodeFilter.SHOW_TEXT,null,!1),r=[];for(;n.nextNode();)r.push(n.currentNode);r.forEach((e=>{const n=e.textContent;let r=!1;if(t.forEach((e=>{n.toLowerCase().includes(e.toLowerCase())&&(r=!0)})),r){const r=document.createElement("span");r.innerHTML=highlightTerms(n,t),e.parentNode.replaceChild(r,e)}}))}async function showPreview(e){const t=window.searchResults;if(!t||!t[e])return;const n=t[e],r=document.getElementById("search-preview"),i=document.getElementById("preview-content"),a=r.querySelector(".preview-placeholder");if(!r||!i)return;document.querySelectorAll(".searchresult").forEach((e=>e.classList.remove("active")));const s=document.querySelector(`.searchresult[data-index="${e}"]`);s&&s.classList.add("active"),i.innerHTML=loadingSvg,i.classList.add("has-content"),a.style.display="none";const o=await fetchPreviewContent(n.url),c=n.tags&&n.tags.length>0?`<div class="preview-tags">${n.tags.map((e=>`<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${e}</a>`)).join("")}</div>`:"";i.innerHTML=`\n            <div class="preview-title">${highlightTerms(n.title,window.searchTerms)}</div>\n            ${c}\n            <div class="preview-body">${o}</div>\n        `;const l=i.querySelector(".preview-body");l&&window.searchTerms&&highlightTextNodes(l,window.searchTerms),window.currentPreviewIndex=e}function hidePreview(){const e=document.getElementById("search-preview"),t=document.getElementById("preview-content"),n=e?.querySelector(".preview-placeholder");n&&(n.style.display="flex"),t&&(t.classList.remove("has-content"),t.innerHTML=""),window.currentPreviewIndex=-1}function createIndex(e){const t=e=>(e=>e.toLowerCase().normalize("NFD").replace(/n\u0303/g,"ñ").replace(/[\u0300-\u036f]/g,"").normalize("NFC"))(e).split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){const e=await fetch("/searchIndex.json?v=2026-04-14T19:07:36.483Z").then((e=>e.json())),t=createIndex(e);function n(e){const t=document.querySelectorAll(".searchresult");if(0===t.length)return;let n,r=-1;t.forEach(((e,t)=>{e.classList.contains("active")&&(r=t)})),-1===r?n=e>0?0:t.length-1:(n=r+e,n<0&&(n=t.length-1),n>=t.length&&(n=0)),t.forEach((e=>e.classList.remove("active"))),t[n].classList.add("active"),t[n].scrollIntoView({behavior:"smooth",block:"nearest"}),showPreview(parseInt(t[n].dataset.index))}window.docs=e,window.index=t,document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),n(1)),"ArrowUp"===e.key&&(e.preventDefault(),n(-1)),"Enter"===e.key)){e.preventDefault();const t=document.querySelector(".searchresult.active");if(t){const e=t.dataset.url;e&&(window.location.href=e)}}}));const r=debounce(search,200,!1);window.field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&"Enter"!==e.key&&r()})),window.resultsDiv=document.querySelector("#search-results");const i=new URL(location.href).searchParams;i.get("q")&&(field.setAttribute("value",i.get("q")),toggleSearch(),search())}async function search(){const e=field.value.trim(),t=document.getElementById("search-layout");if(!e)return resultsDiv.innerHTML="<span><i>Enter your search text in the box above</i></span>",hidePreview(),void(t&&t.classList.add("no-preview"));window.lastSearch=e,window.searchTerms=tokenizeSearchTerms(e),resultsDiv.innerHTML=loadingSvg,hidePreview();const n=offlineSearch(e);if(window.searchResults=n,!n.length)return t&&t.classList.add("no-preview"),void(resultsDiv.innerHTML=`\n                <div class="no-results">\n                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n                        <circle cx="11" cy="11" r="8"></circle>\n                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>\n                        <line x1="8" y1="11" x2="14" y2="11"></line>\n                    </svg>\n                    <p>No results for "${e}"</p>\n                </div>\n            `);t&&t.classList.remove("no-preview");let r="";n.forEach(((e,t)=>{const n=highlightTerms(getContextualExcerpt(e.content,window.searchTerms,120),window.searchTerms),i=highlightTerms(e.title,window.searchTerms),a=e.tags&&e.tags.length>0?`<div class="result-tags">${e.tags.map((e=>`<span class="tag">#${e}</span>`)).join("")}</div>`:"";r+=`\n                <div class="searchresult${0===t?" active":""}"\n                     data-index="${t}"\n                     data-url="${e.url}"\n                     onmouseenter="showPreview(${t})"\n                     onclick="window.location.href='${e.url}'">\n                    <span class="result-title">${i}</span>\n                    ${a}\n                    <div class="result-excerpt">${n}</div>\n                </div>\n            `})),resultsDiv.innerHTML=r,n.length>0&&showPreview(0),"undefined"!=typeof lucide&&lucide.createIcons()}function offlineSearch(e){const t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",limit:10}]),r=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...r("title"),...r("content"),...r("tags")])].map((e=>{const n={...t[e]};return n.tags=n.tags.filter((e=>"gardenEntry"!==e&&"note"!==e)),n}))}window.lastSearch="",window.searchResults=[],window.searchTerms=[],window.currentPreviewIndex=-1,window.search=search</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1);const previewCache=new Map;window.toggleSearch=function(){const e=document.getElementById("globalsearch");e.classList.contains("active")?e.classList.remove("active"):(e.classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){const t=e.textContent;t&&(document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <div style="display: flex; justify-content: center; padding: 40px;">\n        <svg width="40" height="40" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">\n            <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="8">\n                    <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n            </g>\n        </svg>\n    </div>';function debounce(e,t,n){var r;return function(){var i=this,a=arguments,s=n&&!r;clearTimeout(r),r=setTimeout((function(){r=null,n||e.apply(i,a)}),t),s&&e.apply(i,a)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="<code>⌘</code>&nbsp;+&nbsp;<code>K</code>"))}function tokenizeSearchTerms(e){const t=[],n=/"([^"]+)"|(\S+)/g;let r;for(;null!==(r=n.exec(e));){const e=(r[1]||r[2]).toLowerCase();e.length>1&&t.push(e)}return t.sort(((e,t)=>t.length-e.length))}function highlightTerms(e,t){if(!t||0===t.length||!e)return e;let n=e;return t.forEach((e=>{const t=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),r=new RegExp(`(${t})`,"gi");n=n.replace(r,'<span class="search-highlight">$1</span>')})),n}function getContextualExcerpt(e,t,n=150){if(!e)return"";const r=e.replace(/<[^>]*>/g,"");if(!t||0===t.length)return truncateText(r,n);let i=r.length;if(t.forEach((e=>{const t=r.toLowerCase().indexOf(e.toLowerCase());-1!==t&&t<i&&(i=t)})),i===r.length)return truncateText(r,n);const a=Math.max(0,i-50),s=Math.min(r.length,a+n);let o=r.substring(a,s);return a>0&&(o="..."+o),s<r.length&&(o+="..."),o}function truncateText(e,t){return e?(e=e.replace(/<[^>]*>/g,"")).length<=t?e:e.substring(0,t-3)+"...":""}async function fetchPreviewContent(e){if(previewCache.has(e))return previewCache.get(e);try{const t=await fetch(e),n=await t.text(),r=new DOMParser,i=r.parseFromString(n,"text/html").querySelector(".content, .cm-s-obsidian, article, main"),a=i?i.innerHTML:"";return previewCache.set(e,a),a}catch(e){return console.error("Failed to fetch preview:",e),""}}function highlightTextNodes(e,t){if(!t||0===t.length)return;const n=document.createTreeWalker(e,NodeFilter.SHOW_TEXT,null,!1),r=[];for(;n.nextNode();)r.push(n.currentNode);r.forEach((e=>{const n=e.textContent;let r=!1;if(t.forEach((e=>{n.toLowerCase().includes(e.toLowerCase())&&(r=!0)})),r){const r=document.createElement("span");r.innerHTML=highlightTerms(n,t),e.parentNode.replaceChild(r,e)}}))}async function showPreview(e){const t=window.searchResults;if(!t||!t[e])return;const n=t[e],r=document.getElementById("search-preview"),i=document.getElementById("preview-content"),a=r.querySelector(".preview-placeholder");if(!r||!i)return;document.querySelectorAll(".searchresult").forEach((e=>e.classList.remove("active")));const s=document.querySelector(`.searchresult[data-index="${e}"]`);s&&s.classList.add("active"),i.innerHTML=loadingSvg,i.classList.add("has-content"),a.style.display="none";const o=await fetchPreviewContent(n.url),c=n.tags&&n.tags.length>0?`<div class="preview-tags">${n.tags.map((e=>`<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${e}</a>`)).join("")}</div>`:"";i.innerHTML=`\n            <div class="preview-title">${highlightTerms(n.title,window.searchTerms)}</div>\n            ${c}\n            <div class="preview-body">${o}</div>\n        `;const l=i.querySelector(".preview-body");l&&window.searchTerms&&highlightTextNodes(l,window.searchTerms),window.currentPreviewIndex=e}function hidePreview(){const e=document.getElementById("search-preview"),t=document.getElementById("preview-content"),n=e?.querySelector(".preview-placeholder");n&&(n.style.display="flex"),t&&(t.classList.remove("has-content"),t.innerHTML=""),window.currentPreviewIndex=-1}function createIndex(e){const t=e=>(e=>e.toLowerCase().normalize("NFD").replace(/n\u0303/g,"ñ").replace(/[\u0300-\u036f]/g,"").normalize("NFC"))(e).split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){const e=await fetch("/searchIndex.json?v=2026-05-12T16:29:26.967Z").then((e=>e.json())),t=createIndex(e);function n(e){const t=document.querySelectorAll(".searchresult");if(0===t.length)return;let n,r=-1;t.forEach(((e,t)=>{e.classList.contains("active")&&(r=t)})),-1===r?n=e>0?0:t.length-1:(n=r+e,n<0&&(n=t.length-1),n>=t.length&&(n=0)),t.forEach((e=>e.classList.remove("active"))),t[n].classList.add("active"),t[n].scrollIntoView({behavior:"smooth",block:"nearest"}),showPreview(parseInt(t[n].dataset.index))}window.docs=e,window.index=t,document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),n(1)),"ArrowUp"===e.key&&(e.preventDefault(),n(-1)),"Enter"===e.key)){e.preventDefault();const t=document.querySelector(".searchresult.active");if(t){const e=t.dataset.url;e&&(window.location.href=e)}}}));const r=debounce(search,200,!1);window.field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&"Enter"!==e.key&&r()})),window.resultsDiv=document.querySelector("#search-results");const i=new URL(location.href).searchParams;i.get("q")&&(field.setAttribute("value",i.get("q")),toggleSearch(),search())}async function search(){const e=field.value.trim(),t=document.getElementById("search-layout");if(!e)return resultsDiv.innerHTML="<span><i>Enter your search text in the box above</i></span>",hidePreview(),void(t&&t.classList.add("no-preview"));window.lastSearch=e,window.searchTerms=tokenizeSearchTerms(e),resultsDiv.innerHTML=loadingSvg,hidePreview();const n=offlineSearch(e);if(window.searchResults=n,!n.length)return t&&t.classList.add("no-preview"),void(resultsDiv.innerHTML=`\n                <div class="no-results">\n                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n                        <circle cx="11" cy="11" r="8"></circle>\n                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>\n                        <line x1="8" y1="11" x2="14" y2="11"></line>\n                    </svg>\n                    <p>No results for "${e}"</p>\n                </div>\n            `);t&&t.classList.remove("no-preview");let r="";n.forEach(((e,t)=>{const n=highlightTerms(getContextualExcerpt(e.content,window.searchTerms,120),window.searchTerms),i=highlightTerms(e.title,window.searchTerms),a=e.tags&&e.tags.length>0?`<div class="result-tags">${e.tags.map((e=>`<span class="tag">#${e}</span>`)).join("")}</div>`:"";r+=`\n                <div class="searchresult${0===t?" active":""}"\n                     data-index="${t}"\n                     data-url="${e.url}"\n                     onmouseenter="showPreview(${t})"\n                     onclick="window.location.href='${e.url}'">\n                    <span class="result-title">${i}</span>\n                    ${a}\n                    <div class="result-excerpt">${n}</div>\n                </div>\n            `})),resultsDiv.innerHTML=r,n.length>0&&showPreview(0),"undefined"!=typeof lucide&&lucide.createIcons()}function offlineSearch(e){const t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",limit:10}]),r=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...r("title"),...r("content"),...r("tags")])].map((e=>{const n={...t[e]};return n.tags=n.tags.filter((e=>"gardenEntry"!==e&&"note"!==e)),n}))}window.lastSearch="",window.searchResults=[],window.searchTerms=[],window.currentPreviewIndex=-1,window.search=search</script>
 <main class="content cm-s-obsidian print">
 <header>
-<h1 data-note-icon="">Grafana &amp; InfluxDB</h1>
+<h1 data-note-icon="">Docker Network Conflict Fix</h1>
 <div class="header-meta">
 <div class="header-tags">
+<a class="tag" onclick="toggleTagSearch(this)">
+#docker
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#container
+</a>
 </div>
 <div class="timestamps"></div></div>
 </header>
-<p>I use the Grafana and InfluxDB <a class="internal-link" target="" data-note-icon="" href="/developer/home-lab/home-assistant/">Home Assistant</a> integrations to better track and monitor all sorts of sensors and services.</p>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/developer/linux/monitor-website-s-html-status-code-with-bash-script/">Monitor Website's HTML Status Code with Bash Script</a></li>
-</ul>
-<h2 id="visualize-1-data-set-with-2-different-panels" tabindex="-1">Visualize 1 Data set with 2 different Panels</h2>
-<ul>
-<li><a href="https://community.grafana.com/t/how-can-i-put-two-visualizations-in-one-panel/58531" target="_blank" class="external-link">How can I put two visualizations in one panel? - Grafana / Time Series Panel - Grafana Labs Community Forums</a></li>
-</ul>
-<p><strong>Query &gt; Data Source &gt; -- Dashboard --</strong></p>
-<h3 id="home-assistant-allow-domains" tabindex="-1">Home Assistant Allow Domains</h3>
-<p>The error message “origin not allowed” appears at the top left of the graphics window.</p>
-<h3 id="grafana-plugin-options" tabindex="-1">Grafana Plugin Options</h3>
-<pre><code class="language-yml">plugins: []
-custom_plugins: []
-env_vars:
-  - name: GF_SECURITY_CSRF_TRUSTED_ORIGINS
-    value: home.lan ## &lt;-- add domain here
-ssl: false
-certfile: fullchain.pem
-keyfile: privkey.pem
-environment:
-  - GF_AUTH_DISABLE_LOGIN_FORM=true
-  - GF_AUTH_ANONYMOUS_ENABLED=true
-  - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
-  - GF_SECURITY_ALLOW_EMBEDDING=true
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/home-lab/docker/">Docker</a> system service was having trouble launching</p>
+<pre><code class="language-shell">## trying a docker command
+docker ps 
+
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+## check service status
+systemctl status docker
+
+docker.service - Docker Application Container Engine      Loaded: loaded (/usr/lib/systemd/system/docker.service;
+enabled
+; preset:
+enabled
+)     Drop-In: /etc/systemd/system/docker.service.d              └─override.conf      Active:
+failed
+ (Result: exit-code) since Thu 2026-05-07 01:16:49 CDT; 11h ago  Invocation: d2bcd05b72d143889f43f0c61cb92774 TriggeredBy:
+×
+ docker.socket        Docs: [https://docs.docker.com ](https://docs.docker.com)    Process: 2975 ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+(code=exited, status=1/FAILURE)
+    Main PID: 2975 (code=exited, status=1/FAILURE)  May 07 01:16:49 icicle systemd[1]: docker.service: Scheduled restart job, restart counter is at 3. May 07 01:16:49 icicle systemd[1]:
+docker.service: Start request repeated too quickly.
+ May 07 01:16:49 icicle systemd[1]:
+docker.service: Failed with result 'exit-code'.
+ May 07 01:16:49 icicle systemd[1]:
+Failed to start docker.service - Docker Application Container Engine.
 </code></pre>
-<p>Not sure how to add multiple domains</p>
-<hr>
-<h2 id="credit" tabindex="-1">Credit</h2>
-<ul>
-<li><a href="https://community.home-assistant.io/t/grafana-origin-not-allowed-after-11-0-0-update/888816" target="_blank" class="external-link">https://community.home-assistant.io/t/grafana-origin-not-allowed-after-11-0-0-update/888816</a></li>
-</ul>
+<p>check the journalctl</p>
+<pre><code class="language-shell">journalctl -u docker.service -n 50 --no-pager
+
+May 07 01:16:35 icicle dockerd[1259]: time=&quot;2026-05-07T01:16:35.043096085-05:00&quot; level=info msg=&quot;Deleting nftables IPv6 rules&quot; error=&quot;exit status 1&quot; output=&quot;Error: Could not process rule: No such file or directory\ndelete table ip6 docker-bridges&quot;
+May 07 01:16:36 icicle dockerd[1259]: time=&quot;2026-05-07T01:16:36.294534785-05:00&quot; level=info msg=&quot;Daemon shutdown complete&quot; error=&quot;failed to start daemon: Error initializing network controller: error creating default \&quot;bridge\&quot; network: cannot create network 4f14ab4226c99977b49eb01b85bce61875d800eb8fb795fd75436782f0019dd3 (docker0): conflicts with network a28def9fe15f0a1e2732d1af43ff7ca0c59702028ac53b7053aba54934449eae (docker0): networks have same bridge name&quot;
+May 07 01:16:36 icicle dockerd[1259]: failed to start daemon: Error initializing network controller: error creating default &quot;bridge&quot; network: cannot create network 4f14ab4226c99977b49eb01b85bce61875d800eb8fb795fd75436782f0019dd3 (docker0): conflicts with network a28def9fe15f0a1e2732d1af43ff7ca0c59702028ac53b7053aba54934449eae (docker0): networks have same bridge name
+May 07 01:16:36 icicle systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+May 07 01:16:36 icicle systemd[1]: docker.service: Failed with result 'exit-code'.
+May 07 01:16:36 icicle systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+May 07 01:16:36 icicle systemd[1]: docker.service: Consumed 1.677s CPU time, 192M memory peak.
+May 07 01:16:38 icicle systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+May 07 01:16:38 icicle systemd[1]: Starting docker.service - Docker Application Container Engine...
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.563873595-05:00&quot; level=info msg=&quot;Starting up&quot;
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.564304343-05:00&quot; level=info msg=&quot;OTEL tracing is not configured, using no-op tracer provider&quot;
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.565635091-05:00&quot; level=info msg=&quot;CDI directory does not exist, skipping&quot; dir=/etc/cdi
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.579057317-05:00&quot; level=info msg=&quot;Creating a containerd client&quot; address=/run/containerd/containerd.sock timeout=1m0s
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.582344207-05:00&quot; level=info msg=&quot;Loading containers: start.&quot;
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.586231611-05:00&quot; level=info msg=&quot;NRI is disabled&quot;
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.634193594-05:00&quot; level=info msg=&quot;[graphdriver] using prior storage driver: overlay2&quot;
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.712554642-05:00&quot; level=info msg=&quot;Restoring containers: start.&quot;
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.817136377-05:00&quot; level=info msg=&quot;Deleting nftables IPv4 rules&quot; error=&quot;exit status 1&quot; output=&quot;Error: Could not process rule: No such file or directory\ndelete table ip docker-bridges&quot;
+May 07 01:16:38 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:38.860940019-05:00&quot; level=info msg=&quot;Deleting nftables IPv6 rules&quot; error=&quot;exit status 1&quot; output=&quot;Error: Could not process rule: No such file or directory\ndelete table ip6 docker-bridges&quot;
+May 07 01:16:41 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:41.561873012-05:00&quot; level=info msg=&quot;stopping event stream following graceful shutdown&quot; error=&quot;&lt;nil&gt;&quot; module=libcontainerd namespace=moby
+May 07 01:16:41 icicle dockerd[2255]: time=&quot;2026-05-07T01:16:41.563091227-05:00&quot; level=info msg=&quot;Daemon shutdown complete&quot; error=&quot;failed to start daemon: Error initializing network controller: error creating default \&quot;bridge\&quot; network: cannot create network c46d8b18025a6a266f99cd64d6071f936ab8a9c29c57770f28be60abe3ab9aa8 (docker0): conflicts with network a28def9fe15f0a1e2732d1af43ff7ca0c59702028ac53b7053aba54934449eae (docker0): networks have same bridge name&quot;
+May 07 01:16:41 icicle dockerd[2255]: failed to start daemon: Error initializing network controller: error creating default &quot;bridge&quot; network: cannot create network c46d8b18025a6a266f99cd64d6071f936ab8a9c29c57770f28be60abe3ab9aa8 (docker0): conflicts with network a28def9fe15f0a1e2732d1af43ff7ca0c59702028ac53b7053aba54934449eae (docker0): networks have same bridge name
+May 07 01:16:41 icicle systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+May 07 01:16:41 icicle systemd[1]: docker.service: Failed with result 'exit-code'.
+May 07 01:16:41 icicle systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+May 07 01:16:41 icicle systemd[1]: docker.service: Consumed 2.636s CPU time, 48.3M memory peak.
+May 07 01:16:43 icicle systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+May 07 01:16:43 icicle systemd[1]: Starting docker.service - Docker Application Container Engine...
+May 07 01:16:43 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:43.822839336-05:00&quot; level=info msg=&quot;Starting up&quot;
+May 07 01:16:43 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:43.823179478-05:00&quot; level=info msg=&quot;OTEL tracing is not configured, using no-op tracer provider&quot;
+May 07 01:16:43 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:43.824817402-05:00&quot; level=info msg=&quot;CDI directory does not exist, skipping&quot; dir=/etc/cdi
+May 07 01:16:43 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:43.838497840-05:00&quot; level=info msg=&quot;Creating a containerd client&quot; address=/run/containerd/containerd.sock timeout=1m0s
+May 07 01:16:43 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:43.841964140-05:00&quot; level=info msg=&quot;Loading containers: start.&quot;
+May 07 01:16:43 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:43.846623100-05:00&quot; level=info msg=&quot;NRI is disabled&quot;
+May 07 01:16:43 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:43.858526232-05:00&quot; level=info msg=&quot;[graphdriver] using prior storage driver: overlay2&quot;
+May 07 01:16:43 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:43.915806924-05:00&quot; level=info msg=&quot;Restoring containers: start.&quot;
+May 07 01:16:44 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:44.003526854-05:00&quot; level=info msg=&quot;Deleting nftables IPv4 rules&quot; error=&quot;exit status 1&quot; output=&quot;Error: Could not process rule: No such file or directory\ndelete table ip docker-bridges&quot;
+May 07 01:16:44 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:44.041040929-05:00&quot; level=info msg=&quot;Deleting nftables IPv6 rules&quot; error=&quot;exit status 1&quot; output=&quot;Error: Could not process rule: No such file or directory\ndelete table ip6 docker-bridges&quot;
+May 07 01:16:46 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:46.997514748-05:00&quot; level=info msg=&quot;stopping event stream following graceful shutdown&quot; error=&quot;&lt;nil&gt;&quot; module=libcontainerd namespace=moby
+May 07 01:16:46 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:46.998381265-05:00&quot; level=info msg=&quot;Daemon shutdown complete&quot; error=&quot;failed to start daemon: Error initializing network controller: error creating default \&quot;bridge\&quot; network: cannot create network adbd932b81bf56389033f314881b079f7392f07f5c6d1200d88ddab43d91dc0c (docker0): conflicts with network a28def9fe15f0a1e2732d1af43ff7ca0c59702028ac53b7053aba54934449eae (docker0): networks have same bridge name&quot;
+May 07 01:16:46 icicle dockerd[2975]: failed to start daemon: Error initializing network controller: error creating default &quot;bridge&quot; network: cannot create network adbd932b81bf56389033f314881b079f7392f07f5c6d1200d88ddab43d91dc0c (docker0): conflicts with network a28def9fe15f0a1e2732d1af43ff7ca0c59702028ac53b7053aba54934449eae (docker0): networks have same bridge name
+May 07 01:16:46 icicle dockerd[2975]: time=&quot;2026-05-07T01:16:46.998435361-05:00&quot; level=info msg=&quot;stopping event stream following graceful shutdown&quot; error=&quot;context canceled&quot; module=libcontainerd namespace=plugins.moby
+May 07 01:16:47 icicle systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+May 07 01:16:47 icicle systemd[1]: docker.service: Failed with result 'exit-code'.
+May 07 01:16:47 icicle systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+May 07 01:16:47 icicle systemd[1]: docker.service: Consumed 2.874s CPU time, 45.8M memory peak.
+May 07 01:16:49 icicle systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+May 07 01:16:49 icicle systemd[1]: docker.service: Start request repeated too quickly.
+May 07 01:16:49 icicle systemd[1]: docker.service: Failed with result 'exit-code'.
+May 07 01:16:49 icicle systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+root@icicle:/var/lib/docker# systemctl status containerd
+● containerd.service - containerd container runtime
+     Loaded: loaded (/usr/lib/systemd/system/containerd.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-05-07 01:16:32 CDT; 11h ago
+ Invocation: f24e3312b00e4c088817ad55a83cee5f
+       Docs: https://containerd.io
+    Process: 968 ExecStartPre=/sbin/modprobe overlay (code=exited, status=0/SUCCESS)
+   Main PID: 986 (containerd)
+      Tasks: 12
+     Memory: 61.1M (peak: 63M)
+        CPU: 35.230s
+     CGroup: /system.slice/containerd.service
+             └─986 /usr/bin/containerd
+
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.779418448-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.779434873-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.779444314-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.779452963-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.779460986-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.779508108-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.781344146-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.781405081-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle containerd[986]: time=&quot;2026-05-07T01:16:32.781477770-05:00&quot; level=info &gt;
+May 07 01:16:32 icicle systemd[1]: Started containerd.service - containerd container runtime.
+
+root@icicle:/var/lib/docker# dockerd --validate
+configuration OK
+root@icicle:/var/lib/docker# df -h /var/lib/docker
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       466G  192G  252G  44% /
+root@icicle:/var/lib/docker# netstat -tulpn | grep dockerd
+</code></pre>
+<p>Docker has a <strong>network conflict</strong> - there are duplicate network entries with the same bridge name (<code>docker0</code>). This is corrupting the network database.</p>
+<pre><code class="language-shell"># Stop Docker (it's already stopped, but let's be sure)
+sudo systemctl stop docker docker.socket
+
+# Remove the corrupted network state
+sudo rm -rf /var/lib/docker/network/
+
+# Start Docker - it will recreate the network database cleanly
+sudo systemctl start docker
+</code></pre>
+<p>Docker is trying to create the default bridge network but finds conflicting entries in its database - multiple networks claiming the same <code>docker0</code> bridge name. Removing <code>/var/lib/docker/network/</code> clears this corruption, and Docker will rebuild it from scratch.</p>
+<h2 id="prune-containers-and-networks" tabindex="-1">Prune containers and networks</h2>
+<pre><code class="language-shell"># Remove all stopped containers (they reference the old networks)
+docker container prune -f
+
+# Remove all networks (they'll be recreated)
+docker network prune -f
+</code></pre>
+<p>Immediately after I was having network issues about &quot;all predefined address pools have been fully subnetted&quot;. Here is that troubleshooting guide.</p>
+<p><a class="internal-link" target="" data-note-icon="" href="/developer/docker/docker-all-predefined-address-pools-have-been-fully-subnetted/">Docker All Predefined address Pools have been fully subnetted</a></p>
 </main>
 <aside>
 <div class="sidebar">
@@ -2898,21 +3144,13 @@ environment:
 <div class="toc">
 <div class="toc-title-container">
 <div class="toc-title">
-Grafana &amp; InfluxDB
+Docker Network Conflict Fix
 </div>
 </div>
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#visualize-1-data-set-with-2-different-panels">Visualize 1 Data set with 2 different Panels</a>
-<ol>
-<li><a href="#home-assistant-allow-domains">Home Assistant Allow Domains</a>
-</li>
-<li><a href="#grafana-plugin-options">Grafana Plugin Options</a>
-</li>
-</ol>
-</li>
-<li><a href="#credit">Credit</a>
+<li><a href="#prune-containers-and-networks">Prune containers and networks</a>
 </li>
 </ol>
 </nav>
@@ -2921,8 +3159,7 @@ Grafana &amp; InfluxDB
 <script>!function(){const t=document.querySelectorAll('.toc-container a[href^="#"]');if(!t.length)return;const e=Array.from(t).map((t=>{const e=decodeURIComponent(t.getAttribute("href").slice(1));return{link:t,target:document.getElementById(e)}})).filter((t=>t.target));function n(){let n=e[0];for(const t of e)t.target.getBoundingClientRect().top<=100&&(n=t);t.forEach((t=>t.classList.remove("toc-active"))),n&&n.link.classList.add("toc-active")}window.addEventListener("scroll",n,{passive:!0}),n()}()</script>
 <div class="backlinks">
 <div class="backlink-title">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i data-lucide="link"></i><a href="/developer/home-assistant/return-html-status-code-to-home-assistant-sensor/" data-note-icon="" class="backlink">Return HTML Status Code to Home Assistant Sensor</a>
-</div><div class="backlink-card"><i data-lucide="link"></i><a href="/developer/home-assistant/view-ha-plugin-dashboard-outside-of-app/" data-note-icon="" class="backlink">View HA Plugin Dashboard outside of App</a>
+<div class="backlink-list"><div class="backlink-card"><i data-lucide="link"></i><a href="/developer/docker/docker-all-predefined-address-pools-have-been-fully-subnetted/" data-note-icon="" class="backlink">Docker All Predefined address Pools have been fully subnetted</a>
 </div></div>
 </div>
 </div>

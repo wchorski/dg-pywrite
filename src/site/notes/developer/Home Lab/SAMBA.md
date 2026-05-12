@@ -14,3 +14,4 @@ sudo nano /etc/samba/smb.conf
 
 ## Credit
 - [How to Setup a Raspberry Pi Samba Server - Pi My Life Up](https://pimylifeup.com/raspberry-pi-samba/#:~:text=Connect)
+- Linux Mint: https://forums.linuxmint.com/viewtopic.php?t=423409

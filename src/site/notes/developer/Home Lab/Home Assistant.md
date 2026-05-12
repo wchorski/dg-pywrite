@@ -115,3 +115,4 @@ sensor:
 ---
 ## Credits
 - https://community.home-assistant.io/t/pi-poe-hat-fan-control/149115/20?u=billsky
+- https://smarthomescene.com/guides/how-to-setup-librehardwaremonitor-in-home-assistant/

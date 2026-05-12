@@ -2,7 +2,7 @@
 {"dg-publish":true,"tags":["homeassistant","Grafana"],"permalink":"/developer/home-assistant/view-ha-plugin-dashboard-outside-of-app/","dgPassFrontmatter":true}
 ---
 
-Setting up sensors and status data in [[developer/Home Lab/Home Assistant\|Home Assistant]] is a breeze. Download the [[developer/Home Lab/Grafana & InfluxDB\|Grafana & InfluxDB]] plugins and you'll be able to view and sift through the data with beautiful dashboards.
+Setting up sensors and status data in [[developer/Home Lab/Home Assistant\|Home Assistant]] is a breeze. Download the [[developer/Home Lab/Grafana & InfluxDB in Home Assistant Dasbhoard\|Grafana & InfluxDB in Home Assistant Dasbhoard]] plugins and you'll be able to view and sift through the data with beautiful dashboards.
 
 If you're like me, you view these graphs often. I tired quickly when having to open up the app click through the sidebar and click dashboard. All that to have the view smashed inside  **HA's** UI. 
 

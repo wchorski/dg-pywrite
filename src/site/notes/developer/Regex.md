@@ -10,6 +10,43 @@ Here lies all the regular expressions that I found useful
 
 [regex101: build, test, and debug regex](https://regex101.com/)
 
+## Three-Step Process (Handles ALL Cases)
+
+### Step 1: Both single digits (M/D/YYYY)
+
+**Find:** `^(\d)/(\d)/(\d{4}),`  
+**Replace:** `0$1/0$2/$3,`
+
+Converts **any** combination:
+
+- `1/1/2024,` → `01/01/2024,`
+- `5/9/2024,` → `05/09/2024,`
+- `9/7/2024,` → `09/07/2024,`
+
+### Step 2: Single month, double day (M/DD/YYYY)
+
+**Find:** `^(\d)/(\d{2})/(\d{4}),`  
+**Replace:** `0$1/$2/$3,`
+
+Converts:
+
+- `1/15/2024,` → `01/15/2024,`
+- `5/31/2024,` → `05/31/2024,`
+- `9/28/2024,` → `09/28/2024,`
+
+### Step 3: Double month, single day (MM/D/YYYY)
+
+**Find:** `^(\d{2})/(\d)/(\d{4}),`  
+**Replace:** `$1/0$2/$3,`
+
+Converts:
+
+- `10/5/2024,` → `10/05/2024,`
+- `11/3/2024,` → `11/03/2024,`
+- `12/7/2024,` → `12/07/2024,`
+
+These three regexes work for **all months (1-12)** and **all days (1-31)**! The `\d` wildcard matches any digit.
+
 get anything to the right of `--`
 ```js
 /(?<=\-\-).*/
@@ -98,6 +135,43 @@ const regex = \[\[(http.*?)\]\]
 Here lies all the regular expressions that I found useful
 
 [regex101: build, test, and debug regex](https://regex101.com/)
+
+## Three-Step Process (Handles ALL Cases)
+
+### Step 1: Both single digits (M/D/YYYY)
+
+**Find:** `^(\d)/(\d)/(\d{4}),`  
+**Replace:** `0$1/0$2/$3,`
+
+Converts **any** combination:
+
+- `1/1/2024,` → `01/01/2024,`
+- `5/9/2024,` → `05/09/2024,`
+- `9/7/2024,` → `09/07/2024,`
+
+### Step 2: Single month, double day (M/DD/YYYY)
+
+**Find:** `^(\d)/(\d{2})/(\d{4}),`  
+**Replace:** `0$1/$2/$3,`
+
+Converts:
+
+- `1/15/2024,` → `01/15/2024,`
+- `5/31/2024,` → `05/31/2024,`
+- `9/28/2024,` → `09/28/2024,`
+
+### Step 3: Double month, single day (MM/D/YYYY)
+
+**Find:** `^(\d{2})/(\d)/(\d{4}),`  
+**Replace:** `$1/0$2/$3,`
+
+Converts:
+
+- `10/5/2024,` → `10/05/2024,`
+- `11/3/2024,` → `11/03/2024,`
+- `12/7/2024,` → `12/07/2024,`
+
+These three regexes work for **all months (1-12)** and **all days (1-31)**! The `\d` wildcard matches any digit.
 
 get anything to the right of `--`
 ```js
@@ -193,6 +267,32 @@ After the "." sign, add at least 2 letters from a to z:
   pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">  
   <input type="submit">  
 </form>
+```
+
+## Find multi line ledger and replace account and category
+
+### example
+find
+```
+2023/03/16 Retirement Account
+    Assets:Checking:Chase                        -10 USD
+    Assets:Investments:Unknown
+```
+
+and replaces it with
+```
+2023/03/16 Retirement Account
+    Assets:Checking:Chase                        -10 USD
+    Assets:Investments:Retirement Account
+```
+
+Regex
+```js
+// regex find
+^(\d{4}/\d{2}/\d{2} Retirement Account.*\n.*Assets:Checking:Chase.*\n)    Assets:Investments:Unknown
+
+// replace with
+$1    Assets:Investments:Retirement Account
 ```
 ---
 ## Credits

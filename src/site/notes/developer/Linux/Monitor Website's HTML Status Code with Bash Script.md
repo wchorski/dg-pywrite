@@ -2,6 +2,9 @@
 {"dg-publish":true,"tags":["linux","bash","automation","webdev"],"permalink":"/developer/linux/monitor-website-s-html-status-code-with-bash-script/","dgPassFrontmatter":true}
 ---
 
+> [!note] DIY
+> For those of you who want a self built solution, follow the rest of this tutorial. For those who want to keep their sanity just use [Uptime Kuma](https://uptimekuma.org/)
+
 Monitor your websites in bulk by using `curl` on the page and returning the status code 
 - `200` - good
 - `302` - good redirect

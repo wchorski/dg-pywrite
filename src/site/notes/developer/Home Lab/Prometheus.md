@@ -6,7 +6,7 @@ Creating a [[developer/Home Lab/Home Lab 🏠\|Home Lab 🏠]] is like gardening
 
 Now I need finer grain monitoring. With all my fancy [[developer/Home Lab/Docker\|Docker]] containers running all sorts of apps, I need to see which apps / services are really hogging the resources
 
-> [!error] when editing the `/etc/docker/daemon.json` I totally borked my docker service. So fixing or removing that file will help the daemon run again [[developer/Docker🐳/Docker Daemon Goes Down\|Docker Daemon Goes Down]]
+> [!error] when editing the `/etc/docker/daemon.json` I totally borked my docker service. So fixing or removing that file will help the daemon run again [[developer/Docker/Docker Daemon Goes Down\|Docker Daemon Goes Down]]
 ## Step 1: Docker Config
 Get the docker IP as it will be different from the host IP
 

@@ -59,3 +59,21 @@ flowchart TB
 ```
 
 
+## Linux Mint
+**1. Find your Mint's Ubuntu base:**
+
+bash
+
+```bash
+cat /etc/os-release | grep UBUNTU_CODENAME
+```
+
+**2. Run the install script with the Ubuntu flag:**
+
+Linux Mint 22 is Ubuntu `nobel`
+
+bash
+
+```bash
+curl -sSL https://releases.hyperion-project.org/install | bash -s -- --ubuntu <codename>
+```

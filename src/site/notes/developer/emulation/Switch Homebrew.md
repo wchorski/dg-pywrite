@@ -13,3 +13,7 @@ https://switch.hacks.guide/extras/updating#missioncontrol-crash
 ![attachments/missioncontrolcrash1.Chg5lu43-1.jpg](/img/user/attachments/missioncontrolcrash1.Chg5lu43-1.jpg)
 
 > This happens due to your current version of [MissionControl](https://switch.hacks.guide/homebrew/mission-control.html) not being compatible with your currently installed Atmosphère version. If there is a newer version of MissionControl available for your currently installed Atmosphère version, you should update to that newer version if you wish to keep using MissionControl. If not, you can fix this crash by navigating to `sd:/atmosphere/contents` and deleting the folder named `010000000000bd00`, which will uninstall MissionControl.
+
+## modchip
+- https://www.reddit.com/r/NxSwitchModding/comments/1c5kiwo/complete_nintendo_switch_oled_modchip/
+- https://www.youtube.com/watch?v=FNBB5iYD8Es

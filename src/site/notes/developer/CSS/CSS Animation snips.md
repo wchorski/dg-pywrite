@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/developer/css/css-animation-snips/","dgPassFrontmatter":true}
 ---
 
+https://www.iamsajid.com/motion-design/
 
 ```html
 <html lang="en"><head>

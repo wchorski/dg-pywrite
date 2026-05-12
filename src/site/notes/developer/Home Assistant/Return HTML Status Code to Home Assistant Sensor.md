@@ -79,7 +79,7 @@ sensors:
 			{{ html_status_icon('sensor.html_code_makeagram_file') }}
 ```
 
-You could just add the `platform: file` block and be done with it, but the `platform: template` adds a reactive icon as well as defaults the sensor to `0` if the file is `unkown` which makes readings in [[developer/Home Lab/Grafana & InfluxDB\|Grafana & InfluxDB]] much more simple. 
+You could just add the `platform: file` block and be done with it, but the `platform: template` adds a reactive icon as well as defaults the sensor to `0` if the file is `unkown` which makes readings in [[developer/Home Lab/Grafana & InfluxDB in Home Assistant Dasbhoard\|Grafana & InfluxDB in Home Assistant Dasbhoard]] much more simple. 
 
 Notice how I'm importing a reusable snippet for the `icon_template:` field, learn how with [[developer/Home Assistant/Jinja Code Snippet\|Jinja Code Snippet]]
 

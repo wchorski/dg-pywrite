@@ -85,7 +85,18 @@ USB3.0 HD Video: USB3.0 HD Vide (usb-0000:01:00.0-1.4):
 
 the second `v4l2-ctl --list-devices` lists a much more descriptive list. Here you can see my HDMI capture device as well as the usb camera. we want `/dev/video2`
 
-`start_camera_stream.sh`
+Instead of `video2` we have an even better option. It uses the device's ID. Better use case if you change out usb devices.
+
+```bash
+pi4@rpi:~/mediamtx $ 
+ls -l /dev/v4l/by-id/
+total 0
+lrwxrwxrwx 1 root root 12 Feb  2 22:40 usb-OmniVision_Technologies__Inc._USB_Camera-B4.04.27.1-video-index0 -> ../../video0
+
+/dev/v4l/by-id/usb-OmniVision_Technologies__Inc._USB_Camera-B4.04.27.1-video-index0
+```
+
+`nano start_camera_stream.sh`
 
 ```shell
 #!/bin/bash
@@ -99,7 +110,7 @@ fi
 
 # Camera device
 # Change this to your identified camera device
-CAMERA_DEV="/dev/video0"
+CAMERA_DEV="/dev/v4l/by-id/usb-OmniVision_Technologies__Inc._USB_Camera-B4.04.27.1-video-index0"
 
 # Check if camera exists
 if [ ! -e "$CAMERA_DEV" ]; then
@@ -191,3 +202,9 @@ sudo systemctl start camera-stream.service
 
 ## NVR
 [[developer/Home Lab/Frigate NVR\|Frigate NVR]]
+
+> [!note] Hardware Acceleration
+> Forget about it. 
+> 
+>  The GTX 1070 doesn't support H.264 High 4:2:2 profile decoding via CUDA/NVDEC.
+The documentation confirms that NVIDIA GPUs have limitations based on their supported features matrix. The GTX 1070 only supports 4:2:0 chroma subsampling for H.264 hardware decoding, not 4:2:2.

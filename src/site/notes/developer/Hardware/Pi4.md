@@ -7,7 +7,33 @@
 
 A great start for anyone who wants to start running digital services
 
-### install
+```shell
+   `.::///+:/-.        --///+//-:`
+ `+oooooooooooo:   `+oooooooooooo:
+  /oooo++//ooooo:  ooooo+//+ooooo.     pi4@rpi
+  `+ooooooo:-:oo-  +o+::/ooooooo:      -------
+   `:oooooooo+``    `.oooooooo+-       OS: Debian GNU/Linux 13 (trixie) aarch64
+     `:++ooo/.        :+ooo+/.`        Host: Raspberry Pi 4 Model B Rev 1.5
+        ...`  `.----.` ``..            Kernel: Linux 6.12.62+rpt-rpi-v8
+     .::::-``:::::::::.`-:::-`         Uptime: 1 hour, 37 mins
+    -:::-`   .:::::::-`  `-:::-        Packages: 671 (dpkg)
+   `::.  `.--.`  `` `.---.``.::`       Shell: zsh 5.9
+       .::::::::`  -::::::::` `        Terminal: /dev/pts/0
+ .::` .:::::::::- `::::::::::``::.     CPU: BCM2711 (4) @ 1.80 GHz
+-:::` ::::::::::.  ::::::::::.`:::-    GPU: Broadcom bcm2711-vc5 [Integrated]
+::::  -::::::::.   `-::::::::  ::::    Memory: 212.09 MiB / 1.80 GiB (11%)
+-::-   .-:::-.``....``.-::-.   -::-    Swap: 0 B / 1.80 GiB (0%)
+ .. ``       .::::::::.     `..`..     Disk (/): 4.14 GiB / 228.81 GiB (2%) - ext4
+   -:::-`   -::::::::::`  .:::::`      Local IP (eth0): 192.168.0.101/24
+   :::::::` -::::::::::` :::::::.      Locale: en_GB.UTF-8
+   .:::::::  -::::::::. ::::::::
+    `-:::::`   ..--.`   ::::::.                                                                        `...`  `...--..`  `...`
+            .::::::::::                OS: Raspberry Pi OS aarch64
+             `.-::::-`
+```
+
+### Old Install
+Below is old news
 ```shell
        _,met$$$gg.          pi4@rpi
     ,g$$$$$$$$P.       -------
@@ -74,7 +100,7 @@ Surprised that it isn't **Raspberry Pi OS**? Instead I run the Debian 64 bit ver
 ## system wide backup
 
 `full-img-backup.sh`
-{{CODE_BLOCK_1}}
+{{CODE_BLOCK_2}}
 
 ---
 ## Programs & Apps

@@ -10,3 +10,4 @@
 - [Vegyn: The Road to Hell Is Paved With Good Intentions Album Review | Pitchfork](https://pitchfork.com/reviews/albums/vegyn-the-road-to-hell-is-paved-with-good-intentions/)
 - [‘(the road to) hell is paved with good intentions’: meaning and origin – word histories](https://wordhistories.net/2021/11/15/hell-good-intentions/)
 - [What Does the Road to Hell Is Paved With Good Intentions Mean? (thewordcounter.com)](https://thewordcounter.com/what-does-the-road-to-hell-is-paved-with-good-intentions-mean/)
+- [[🚿 shower thoughts/proverbs/Proverbs Index\|Proverbs Index]]

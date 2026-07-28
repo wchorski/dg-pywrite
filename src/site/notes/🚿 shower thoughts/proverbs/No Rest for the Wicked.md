@@ -9,3 +9,4 @@
 ---
 ## Credit
 - [There's no rest for the wicked - Idioms by The Free Dictionary](https://idioms.thefreedictionary.com/there%27s+no+rest+for+the+wicked)
+- [[🚿 shower thoughts/proverbs/Proverbs Index\|Proverbs Index]]

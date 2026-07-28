@@ -3,3 +3,5 @@
 ---
 
 ![Rush - Bravado](https://www.youtube.com/watch?v=WhwUY-MHd30)
+
+[[🚿 shower thoughts/proverbs/Proverbs Index\|Proverbs Index]]

@@ -10,4 +10,4 @@
 
 ## Credit
 - [Quote by Turkish Proverbs: “The forest was shrinking but the trees kept vot...” (goodreads.com)](https://www.goodreads.com/quotes/10759599-the-forest-was-shrinking-but-the-trees-kept-voting-for)
-- [[🚿 shower thoughts/idioms/Idioms, Proverbs, Expressions, Jokes\|Idioms, Proverbs, Expressions, Jokes]]
+- [[🚿 shower thoughts/proverbs/Proverbs Index\|Proverbs Index]]

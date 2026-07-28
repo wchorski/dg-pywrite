@@ -82,6 +82,10 @@ static domain_name_servers=127.0.0.1
 sudo service dhcpcd restart
 ```
 
+Learn how to create `.lan`or `.local` with with [[developer/Pretty URLS for Local DNS Records\|Pretty URLS for Local DNS Records]]
+
+Also able to [[developer/DNS/Resolve Public Domain with Local DNS\|Resolve Public Domain with Local DNS]] 
+
 ## Credits
 - [Raspberry Pi DNS Settings: How to Change the DNS - Pi My Life Up](https://pimylifeup.com/raspberry-pi-dns-settings/)
 - [Pi-hole's host machine can't resolve local domains - Help / Community Help - Pi-hole Userspace](https://discourse.pi-hole.net/t/pi-holes-host-machine-cant-resolve-local-domains/48008)

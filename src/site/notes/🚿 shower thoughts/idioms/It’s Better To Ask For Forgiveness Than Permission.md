@@ -8,3 +8,4 @@
 ---
 ## Credit
 - https://grammarhow.com/better-to-ask-for-forgiveness-than-permission-meaning-origin/
+- [[🚿 shower thoughts/idioms/Idioms Index\|Idioms Index]]

@@ -14,4 +14,4 @@ In contrast to [[🚿 shower thoughts/idioms/Form Follows Function\|Form Follows
 
 ---
 
-[[🚿 shower thoughts/idioms/Idioms, Proverbs, Expressions, Jokes\|Idioms, Proverbs, Expressions, Jokes]]
+[[🚿 shower thoughts/idioms/Idioms Index\|Idioms Index]]

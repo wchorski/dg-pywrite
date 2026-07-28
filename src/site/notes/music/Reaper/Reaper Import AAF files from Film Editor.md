@@ -6,3 +6,8 @@
 https://gitlab.com/skysphr/reaper-aaf
 ## Video Tutorial
 https://www.youtube.com/watch?v=nbfAkADKvjc
+
+
+---
+## Credit
+- [[music/Reaper/Reaper DAW Knowledge\|Reaper DAW Knowledge]]

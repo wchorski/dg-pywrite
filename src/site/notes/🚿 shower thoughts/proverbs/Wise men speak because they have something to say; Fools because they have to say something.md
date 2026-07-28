@@ -12,4 +12,4 @@
 - [meaning - Grammaticality: 'Wise men speak because they have something to say; Fools because they have to say something' - English Language Learners Stack Exchange](https://ell.stackexchange.com/questions/247817/grammaticality-wise-men-speak-because-they-have-something-to-say-fools-becaus)
 - [Language Log » Did Plato say this? (upenn.edu)](https://languagelog.ldc.upenn.edu/nll/?p=796)
 
-[[🚿 shower thoughts/Shower Thoughts\|Shower Thoughts]]
+[[🚿 shower thoughts/proverbs/Proverbs Index\|Proverbs Index]]

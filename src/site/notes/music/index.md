@@ -6,6 +6,7 @@ A collection of notes that related to music, music business, music theory... you
 ### Recently Modified or Added
 | File                                                                                                             | Last modified      |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [[music/advice/Ai Generated Music Thoughts\|Ai Generated Music Thoughts]]                                     | 29.07.2026 - 23:55 |
 | [[music/Reaper/Reaper Batch Export Regions as Separate Clips\|Reaper Batch Export Regions as Separate Clips]] | 23.07.2026 - 21:15 |
 | [[music/Reaper/Reaper Batch Renaming Markers and Regions\|Reaper Batch Renaming Markers and Regions]]         | 23.07.2026 - 21:15 |
 | [[music/Reaper/Install Reaper Package manager Repack\|Install Reaper Package manager Repack]]                 | 22.07.2026 - 22:55 |
@@ -15,6 +16,5 @@ A collection of notes that related to music, music business, music theory... you
 | [[music/WWise/Wwise Souncaster\|Wwise Souncaster]]                                                            | 07.07.2026 - 21:30 |
 | [[music/LSDJ/LSDJ Tips\|LSDJ Tips]]                                                                           | 15.01.2026 - 23:18 |
 | [[music/WWise/Dynamic Music Ideas\|Dynamic Music Ideas]]                                                      | 24.09.2025 - 21:29 |
-| [[music/index\|index]]                                                                                        | 24.09.2025 - 16:19 |
 
 { .block-language-dataview}

@@ -150,6 +150,14 @@ setting="Uncle Will 'Now is not the time to use that (settings)'"
 
 > - Separate kiosk collection is done by creating a **`kiosk`** folder within collections then enable the kiosk mode option
 > - Access by pressing **`L1 + R2 + Y`** on the config option in the main menu
+
+## The Old School Way
+I have mulled around with the idea of providing an even more authentic experience. One that uses real carts, no higher level menus, and a real power switch. This would require modding an original Game Boy Advance. We will see if I ever get to it.
+
+- [Mod Kit]( https://godofgamingshop.com/products/game-boy-advance-v5-ips-full-mod-kit?variant=40780760547386)
+- [Flash Writer](https://www.aliexpress.us/item/3256812044223752.html?spm=a2g0o.productlist.main.1.f7d7WfxhWfxhCd&algo_pvid=fdc13990-dd1c-4913-babb-54a7945d7840&algo_exp_id=fdc13990-dd1c-4913-babb-54a7945d7840-0&pdp_ext_f=%7B%22order%22%3A%22156%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%2135.99%2119.99%21%21%21242.05%21134.46%21%402103117b17854498492854633e0f87%2112000058514189481%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Acd65c572%3Bm03_new_user%3A-29895%3BpisId%3A5000000210792318&curPageLogUid=mCKx5wxTDZ99&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012230538504%7C_p_origin_prod%3A)
+- [Blank Carts](https://www.aliexpress.us/item/3256811355762654.html?spm=a2g0o.productlist.main.3.f7d7WfxhWfxhCd&algo_pvid=fdc13990-dd1c-4913-babb-54a7945d7840&algo_exp_id=fdc13990-dd1c-4913-babb-54a7945d7840-2&pdp_ext_f=%7B%22order%22%3A%222656%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%2131.86%216.28%21%21%21214.24%2142.22%21%402103117b17854498492854633e0f87%2112000059080412156%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Acd65c572%3Bm03_new_user%3A-29895%3BpisId%3A5000000210792323&curPageLogUid=oz5834z7xhnA&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005011542077406%7C_p_origin_prod%3A)
+
 ---
 ## Credit
 - https://retrohandhelds.gg/minui-for-rg35xx-plus-and-rg35xxh-guide/

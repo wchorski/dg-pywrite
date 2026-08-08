@@ -74,7 +74,7 @@
 
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 
-<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/components.css?v=2026-07-28T14:47:22.761Z" rel="stylesheet"><link href="/styles/user/pywrite.css?v=2026-07-28T14:47:22.761Z" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/components.css?v=2026-08-08T19:25:18.206Z" rel="stylesheet"><link href="/styles/user/pywrite.css?v=2026-08-08T19:25:18.206Z" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -1693,6 +1693,18 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink ">
+                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/home-assistant/extract-values-from-discord-formatted-webhook-input/">Extract values from Discord formatted Webhook Input </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink ">
                     <a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/home-assistant/find-my-phone-automation/">Find My Phone Automation </a>
                 </div>
             
@@ -2327,6 +2339,18 @@
             
                 <div @click.stop class="notelink ">
                     <a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/home-lab/vaultwarden/">vaultwarden </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink ">
+                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/home-lab/vn-stat/">vnStat </a>
                 </div>
             
         </div>
@@ -5240,6 +5264,18 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink ">
+                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/steam-deck-stuff/">SteamDeck Stuff </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink ">
                     <a data-note-icon="" style="text-decoration: none;" class="filename" href="/developer/the-lenia-universe/">The LENIA Universe </a>
                 </div>
             
@@ -6818,18 +6854,6 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/shower-thoughts/proverbs/people-morn-lose-more-than-appreciate-gain/">People morn lose more than appreciate gain </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
                     <a data-note-icon="" style="text-decoration: none;" class="filename" href="/shower-thoughts/proverbs/proverbs-index/">Proverbs Index </a>
                 </div>
             
@@ -7726,7 +7750,7 @@
 
     async function init() {
         // Fetch search index (browser caches based on query param)
-        const docs = await fetch('/searchIndex.json?v=2026-07-28T14:47:22.761Z').then(r => r.json());
+        const docs = await fetch('/searchIndex.json?v=2026-08-08T19:25:18.206Z').then(r => r.json());
         const index = createIndex(docs);
         window.docs = docs;
         window.index = index;

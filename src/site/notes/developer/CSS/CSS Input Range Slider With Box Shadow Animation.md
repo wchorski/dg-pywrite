@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-input-range-slider-with-box-shadow-animation/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-input-range-slider-with-box-shadow-animation/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 

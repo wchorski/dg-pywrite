@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["style","css","scss","html","layout","webdev"],"permalink":"/developer/css/css-overlapping-grid-layout/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["style","css","scss","html","layout","webdev"],"permalink":"/developer/css/css-overlapping-grid-layout/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["style","css","scss","html","layout","webdev"]}}
 ---
 
 [React - JSFiddle - Code Playground](https://jsfiddle.net/r2x6z3Lt/51/)

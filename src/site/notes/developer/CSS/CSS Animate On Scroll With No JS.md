@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["style","css","no_js","webdev","animation"],"permalink":"/developer/css/css-animate-on-scroll-with-no-js/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["style","css","no_js","webdev","animation"],"permalink":"/developer/css/css-animate-on-scroll-with-no-js/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["style","css","no_js","webdev","animation"]}}
 ---
 
 Trigger [[developer/CSS/CSS\|CSS]] animation when element comes into view. No javascript, no libraries.

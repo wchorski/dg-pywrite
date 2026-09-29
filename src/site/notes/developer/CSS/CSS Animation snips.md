@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-animation-snips/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-animation-snips/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 https://www.iamsajid.com/motion-design/

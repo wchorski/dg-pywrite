@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/smooth-scroll-on-everything/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/smooth-scroll-on-everything/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 Smooth scrolling when moving to a different element on the same page gives any app that modern feel.

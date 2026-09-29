@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["css","style","javascript","html"],"permalink":"/developer/css/anchored-box-with-message/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["css","style","javascript","html"],"permalink":"/developer/css/anchored-box-with-message/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["css","style","javascript","html"]}}
 ---
 
 Using [CSS anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Anchor_positioning) is still fairly new, but [browser support](https://caniuse.com/?search=position-anchor) is looking good enough (this was tested on Firefox and Edge).

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["emulation","game","gaming","retro"],"permalink":"/developer/emulation/batocera-on-steam-deck/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["emulation","game","gaming","retro"],"permalink":"/developer/emulation/batocera-on-steam-deck/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["emulation","game","gaming","retro"]}}
 ---
 
 I stumbled across my own SteamDeck, so of course the natural first thing to do is see how it fares with emulating other gaming consoles. 

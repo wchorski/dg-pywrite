@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-animated-bubble-background/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css-animated-bubble-background/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ```html

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/buzz-words/gui/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/buzz-words/gui/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 | letter | word      |

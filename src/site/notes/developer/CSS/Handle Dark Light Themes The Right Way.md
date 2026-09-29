@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["css","style","theme","darkmode"],"permalink":"/developer/css/handle-dark-light-themes-the-right-way/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["css","style","theme","darkmode"],"permalink":"/developer/css/handle-dark-light-themes-the-right-way/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["css","style","theme","darkmode"]}}
 ---
 
 Respect a user's system settings by setting up your [[developer/CSS/CSS\|CSS]] in a dynamic way. 

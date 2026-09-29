@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["docker","docker-compose","backup","container"],"permalink":"/developer/docker/reset-password-on-duplicati-container/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["docker","docker-compose","backup","container"],"permalink":"/developer/docker/reset-password-on-duplicati-container/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["docker","docker-compose","backup","container"]}}
 ---
 
 ## Password lockout after upgrade

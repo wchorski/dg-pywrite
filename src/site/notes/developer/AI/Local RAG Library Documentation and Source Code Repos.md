@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["AI","opensource","source-code","webdev","Drizzle","AstroJS","HTMX"],"permalink":"/developer/ai/local-rag-library-documentation-and-source-code-repos/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["AI","opensource","source-code","webdev","Drizzle","AstroJS","HTMX"],"permalink":"/developer/ai/local-rag-library-documentation-and-source-code-repos/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["AI","opensource","source-code","webdev","Drizzle","AstroJS","HTMX"]}}
 ---
 
 Months of copy and pasting code snippets from my IDE to multiple chat browser windows, auditing, and copying back into the IDE. God forbid i start a new chat and have to re explain the context (tools, libraries, project description) all over again. 

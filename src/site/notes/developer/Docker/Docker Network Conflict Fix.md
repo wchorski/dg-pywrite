@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["docker","container"],"permalink":"/developer/docker/docker-network-conflict-fix/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["docker","container"],"permalink":"/developer/docker/docker-network-conflict-fix/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["docker","container"]}}
 ---
 
 [[developer/Home Lab/Docker\|Docker]] system service was having trouble launching

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["digital_garden","notes","markdown","static"],"permalink":"/developer/digital-gardening/remove-broken-or-un-published-link-in-garden/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["digital_garden","notes","markdown","static"],"permalink":"/developer/digital-gardening/remove-broken-or-un-published-link-in-garden/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["digital_garden","notes","markdown","static"]}}
 ---
 
 ## My Question
@@ -36,9 +36,7 @@ LIMIT 10
 
 Then you can use a Digital garden custom filter which replaces `WHERE file.mtime` with `WHERE dg-publish` 👇  
 
-|
-{ #Where}
- file\.mtime$ | where dg-publish | gm  |
+| ^Where file\.mtime$ | where dg-publish | gm  |
 | ------------------- | ---------------- | --- |
 
 ---

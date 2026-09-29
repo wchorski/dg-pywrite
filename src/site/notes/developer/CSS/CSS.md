@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/css/css/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 
@@ -24,7 +24,7 @@ li.task-list-item:has(input:checked){
 [link](https://iqcode.com/code/css/css-technique-for-a-horizontal-line-with-icons-in-the-middle#:~:text=CSS technique for a horizontal line with icons,line-through%3B } View another examples Add Own solution)
 check out the `graph ` and  `Table of Contents` labels in this screenshot 
 
-![attachments/Pasted image 20221109140342 1.png|sections with headers   |     500](/img/user/attachments/Pasted%20image%2020221109140342%201.png)
+![attachments/Pasted image 20221109140342 1.png\|sections with headers   \|     500](/img/user/attachments/Pasted%20image%2020221109140342%201.png)
 with the power of `:before` & `:after` you too can make this stylish "strike through" effect
 
 ```scss

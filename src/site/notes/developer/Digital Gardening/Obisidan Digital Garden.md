@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["html","SSG","obsidian","markdown","#selfhosted"],"permalink":"/developer/digital-gardening/obisidan-digital-garden/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["html","SSG","obsidian","markdown","#selfhosted"],"permalink":"/developer/digital-gardening/obisidan-digital-garden/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["html","SSG","obsidian","markdown","#selfhosted"]}}
 ---
 
 [Digital Garden - Publish Obsidian Notes For Free](https://dg-docs.ole.dev/) is an app that builds a static site with the help of your Obsidian markdown files, and styles. This tool has great support for popular plugins like 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/game-emulation/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/emulation/game-emulation/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 Here is the hub of all things game emulation
@@ -19,11 +19,12 @@ Here is the hub of all things game emulation
 - [[developer/emulation/Emulation Tools\|Emulation Tools]]
 - [[developer/emulation/Game Emulation\|Game Emulation]]
 - [[developer/emulation/PCX2 Qt\|PCX2 Qt]]
-- [[developer/emulation/PS3 SaveData Transfer via FTP\|PS3 SaveData Transfer via FTP]]
 - [[developer/emulation/Pokemon Genning\|Pokemon Genning]]
 - [[developer/emulation/Pokémon Genning; Create a Mew from start to finish\|Pokémon Genning; Create a Mew from start to finish]]
-- [[developer/emulation/RPCS3\|RPCS3]]
-- [[developer/emulation/Steamdeck reset sudo password\|Steamdeck reset sudo password]]
+- [[developer/emulation/PS3 SaveData Transfer via FTP\|PS3 SaveData Transfer via FTP]]
+- [[developer/emulation/Mounting Rom Zip files while continuing to seed\|Mounting Rom Zip files while continuing to seed]]
 - [[developer/emulation/Switch Homebrew\|Switch Homebrew]]
+- [[developer/emulation/Steamdeck reset sudo password\|Steamdeck reset sudo password]]
+- [[developer/emulation/RPCS3\|RPCS3]]
 
 { .block-language-dataview}

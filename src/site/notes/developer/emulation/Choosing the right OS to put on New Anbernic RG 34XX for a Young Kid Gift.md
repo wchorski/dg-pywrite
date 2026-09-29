@@ -1,6 +1,13 @@
 ---
-{"dg-publish":true,"tags":["emulation","retro","handheld","device"],"permalink":"/developer/emulation/choosing-the-right-os-to-put-on-new-anbernic-rg-34-xx-for-a-young-kid-gift/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["emulation","retro","handheld","device"],"permalink":"/developer/emulation/choosing-the-right-os-to-put-on-new-anbernic-rg-34-xx-for-a-young-kid-gift/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["emulation","retro","handheld","device"]}}
 ---
+
+> [!tip] So I just found out about BaseOS with NextUI
+> Still in the testing phase but will find out if it is better. Literally just doing it to make screenshots work
+> - BaseOS https://github.com/pvaibhav/BaseOS
+> - https://github.com/pvaibhav/NextUI
+> - Auto Sync https://kyaraben.org/download/
+> - First Impressions: It comes with some nice upgrades to MinUI that put it on par with fully featured OSs but there are still some drawbacks like some plugins not working. All in all it is still a very good option for power users that want a little more out of MinUI. Still It still leaves the door wide open to more configuration and Tools (something I wish i could hide away with some parental mode)
 
 Just recently picked up a [ANBERNIC RG 34XX](https://anbernic.com/products/rg34xx?variant=46272542376193) to play *homebrew* games on. I am gifting this to a young family member so I want to make menu navigation and game launching as easy as possible and not feel locked down behind a "parental control pin code". Installing  [MinUI](https://github.com/shauninman/MinUI) over the stock Anbernic OS seems to be the right choice (perfectly explained by [Zu from Retro Handheld](https://www.youtube.com/watch?v=i7i0sFCZwrc))
 

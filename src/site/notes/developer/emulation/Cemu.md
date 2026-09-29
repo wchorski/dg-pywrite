@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/cemu/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/emulation/cemu/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 Nintendo Wii U emulator

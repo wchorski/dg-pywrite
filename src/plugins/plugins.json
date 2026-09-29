@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "plugins": {
+    "dg-timestamps": {
+      "settings": {
+        "showCreated": true,
+        "showUpdated": true,
+        "timestampFormat": "YYYY, MMM-dd h:mm a",
+        "dateFormat": "YYYY, MMM dd"
+      }
+    }
+  }
+}

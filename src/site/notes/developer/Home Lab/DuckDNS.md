@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/duck-dns/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/duck-dns/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 [Duck DNS](http://www.duckdns.org/)

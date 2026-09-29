@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/livesync-bridge/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/livesync-bridge/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 #github #netlify 
@@ -136,7 +136,7 @@ services:
 ### Regex to ignore files
 1. follow the plugin [obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync)'s instructions
 	- add URL of hosted **CouchDB** server
-	- [[🚿 shower thoughts/creds\|creds]] should match "auth" in `config.json`
+	- [[shower thoughts/creds\|creds]] should match "auth" in `config.json`
 2. check the setting under the "🔁 **Sync Settings**" tab **Regular expression to ignore files**
 	- I wanted to ignore 2 things: any `Untitled.md` files and anything in a `private` directory
 	- regex copy pasta: `Untitled.*\.md$|private`

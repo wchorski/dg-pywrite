@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["monitor","network","metrics"],"permalink":"/developer/home-lab/vn-stat/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["monitor","network","metrics"],"permalink":"/developer/home-lab/vn-stat/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["monitor","network","metrics"]}}
 ---
 
 I've used [[developer/Home Lab/Glances\|Glances]] to monitor server metrics, but it does not capture historical data such as
@@ -39,7 +39,10 @@ eth0: No data. Timestamp of last update is same 2026-08-06 22:03:36 as of databa
 
 Now view stats
 ```sh
-❯ vnstat -i eth0
+vnstat -i eth0
+```
+
+```sh
 Database updated: 2026-08-06 22:08:40
 
    eth0 since 2026-08-06
@@ -177,6 +180,15 @@ MQTT_PASS="yourpassword"
 ```sh
 sudo apt update
 sudo apt install mosquitto-clients
+```
+
+#### Target the Network card
+Find your network card. For most it will be `eth0`, for me it is `enp5s0`. You may want to track multiple cards like a wifi network as well.
+```sh
+ip address show
+
+2: enp5s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000 link/ether 18:c0:4d:64:3f:01 brd ff:ff:ff:ff:ff:ff inet 192.168.1.102/24 brd 192.168.1.255 scope global dynamic noprefixroute enp5s0 valid_lft 79639sec preferred_lft 79639sec inet6 fe80::3c39:62f8:2bed:b89f/64 scope link noprefixroute valid_lft forever preferred_lft forever
+
 ```
 
 ##### Test MQTT

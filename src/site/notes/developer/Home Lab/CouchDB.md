@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/couch-db/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/couch-db/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## [Apache CouchDB](https://couchdb.apache.org/)

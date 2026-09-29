@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/plex-tv/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/plex-tv/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 #music #movie #tv #film #media #player
@@ -45,3 +45,25 @@ services:
 ```
 
 https://tizutech.com/plex-transcoding-with-docker-nvidia-gpu/
+
+## Adding Live TV with custom EPG
+Add in channels setup in [[developer/Media Software/Dispatcharr\|Dispatcharr]] to plex
+
+Go to Settings > Manage > Live TV & DVR
+
+http://mint.lan:32400/web/index.html#!/settings/server/2ca941b05441e71efe835b29c4642f9746122c29/manage/dvr
+
+Add this to the manual url search
+
+```txt
+http://mint.lan:9191/hdhr
+```
+
+> [!note] BEFORE ADDING
+> There will be a place to add custom EPG
+
+```txt
+http://mint.lan:9191/output/epg
+```
+
+https://support.plex.tv/articles/using-an-xmltv-guide/

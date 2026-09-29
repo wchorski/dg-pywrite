@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["css","style","html","webdev"],"permalink":"/developer/html/heading-with-subtitle-above-or-below/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["css","style","html","webdev"],"permalink":"/developer/html/heading-with-subtitle-above-or-below/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["css","style","html","webdev"]}}
 ---
 
 Setting the subtitle heading is a confusing game of symatics and personal style. There must be a definitive way. Enter `role="doc-subtitle"`

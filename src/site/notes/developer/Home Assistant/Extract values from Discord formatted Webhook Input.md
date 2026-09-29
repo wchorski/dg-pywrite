@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["homeassistant","webdev","automation","metrics","rewards","microsoft","webhooks"],"permalink":"/developer/home-assistant/extract-values-from-discord-formatted-webhook-input/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["homeassistant","webdev","automation","metrics","rewards","microsoft","webhooks"],"permalink":"/developer/home-assistant/extract-values-from-discord-formatted-webhook-input/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["homeassistant","webdev","automation","metrics","rewards","microsoft","webhooks"]}}
 ---
 
 This assumes you already have [TheNetsky Microsoft-Rewards-Script](https://github.com/TheNetsky/Microsoft-Rewards-Script) up and running, and want to monitor the points via home assistant.

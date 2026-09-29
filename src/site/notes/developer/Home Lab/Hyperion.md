@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/hyperion/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/hyperion/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## [[hyperion-project.org)](hyperion-project.org\|Install Hyperion ]])

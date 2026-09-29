@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/open-rgb/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/open-rgb/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## Install

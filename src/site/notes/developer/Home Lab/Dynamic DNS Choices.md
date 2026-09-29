@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/dynamic-dns-choices/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/home-lab/dynamic-dns-choices/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 You got your shiny self hosted app and you about to open it up to the world. No problem, just have people type in your public IP address. i.e. `98.143.344.321` in the address bar to get to you're site. 
@@ -19,7 +19,7 @@ Now that you got your shiny new domain name. The next step is to point your Publ
 
 Here is how I set it up in [PorkBun](https://porkbun.com/)'s Dashboard
 
-![attachments/dynamic-dns-a-record 1.png|dynamic-dns-a-record](/img/user/attachments/dynamic-dns-a-record%201.png)**********
+![attachments/dynamic-dns-a-record 1.png\|dynamic-dns-a-record](/img/user/attachments/dynamic-dns-a-record%201.png)**********
 
 > [!tip] Your ISP can change your Public IP at any time
 > Without a **Static IP** your service provider can and will change your public IP address. Although I've gone years without it changing, it still can happen without notice. For the extra paranoid you could monitor your IP with [[developer/Home Lab/Home Assistant\|Home Assistant]])
@@ -44,7 +44,7 @@ You're router probably has a dynamic dns solution that you can enable through th
 
 I have a [Archer AX3000 | Dual Band Gigabit Wi-Fi 6 Router | TP-Link](https://www.tp-link.com/us/home-networking/wifi-router/archer-ax3000/). This is what my dashboard looks like.
 
-![attachments/ddns-tp-link 1.png|ddns-tp-link](/img/user/attachments/ddns-tp-link%201.png)
+![attachments/ddns-tp-link 1.png\|ddns-tp-link](/img/user/attachments/ddns-tp-link%201.png)
 
 Last thing to do is go back to your domain name provider and point your domain (or any subdomain) to your created `mydomain.tplink.com` address as a **CNAME** record. I recommend this option for as the easiest way to get up and running as there is very little configuration.
 

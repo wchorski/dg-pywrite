@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["nextcloud","smb","network","data"],"permalink":"/developer/nextcloud/making-samba-share-from-a-nextcloud-files-backend/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["nextcloud","smb","network","data"],"permalink":"/developer/nextcloud/making-samba-share-from-a-nextcloud-files-backend/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["nextcloud","smb","network","data"]}}
 ---
 
 it's dangerous work messing with [[developer/Home Lab/Nextcloud\|Nextcloud]]'s files outside of it's client. (i.e, through a file explorer or terminal). Here I'll show you how to do it the safe way.

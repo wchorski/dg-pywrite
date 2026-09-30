@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/bash-scripting/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/bash-scripting/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 

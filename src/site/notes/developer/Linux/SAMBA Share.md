@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/samba-share/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/samba-share/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 

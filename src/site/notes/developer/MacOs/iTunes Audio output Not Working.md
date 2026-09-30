@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/mac-os/i-tunes-audio-output-not-working/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/mac-os/i-tunes-audio-output-not-working/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 On a Windows machine, iTunes likes to have a separate audio routing *feature*, independent of the System Audio. 

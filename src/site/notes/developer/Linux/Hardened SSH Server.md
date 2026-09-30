@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/hardened-ssh-server/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/hardened-ssh-server/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 describe_the_problem
@@ -42,8 +42,8 @@ echo -e "\n# Restrict key exchange, cipher, and MAC algorithms, as per sshaudit.
 service ssh restart
 ```
 ### Setup SSH config
+disable lines in sshd config
 ```bash
-# disable lines in sshd config
 nano /etc/ssh/sshd_config
 ```
 

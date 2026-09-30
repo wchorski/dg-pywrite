@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","debian","FOSS"],"permalink":"/developer/linux/debian-linux-in-place-os-upgrade/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["linux","debian","FOSS"],"permalink":"/developer/linux/debian-linux-in-place-os-upgrade/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","debian","FOSS"]}}
 ---
 
 I wanted to upgrade my [[developer/Hardware/Pi4\|Pi4]] Debian OS from `bullseye 11` to `bookworm 12` without having to reimage and migrate any configurations or redownload apps
@@ -56,27 +56,21 @@ $ sudo shutdown -r now
 You can fire off `uname -a ; lsb_release -a` to tell you the current OS version. For me, I use trusty `neofetch`
 
 ```shell
-       _,met$$$gg.          pi4@rpi
-    ,g$$$$$$$$P.       -------
-  ,g$P"     """Y$.".        OS: Debian GNU/Linux 12 (bookworm) aarch64
- ,$P'              `$$.     Host: Raspberry Pi 4 Model B Rev 1.5
-',$P       ,ggs.     `$b:   Kernel: 6.1.21-v8+
-`d$'     ,$P"'   .    $$    Uptime: 2 mins
- $P      d
-
----
-## Credits
-- [DebianUpgrade - Debian Wiki](https://wiki.debian.org/DebianUpgrade)
-- [In-Place Upgrade Debian 11 Bullseye to 12 Bookworm (youtube.com)](https://www.youtube.com/watch?v=nMFtCDRz0YA)
-- [Upgrade Raspberry Pi OS to the Latest Version (2024) – RaspberryTips](https://raspberrytips.com/update-raspberry-pi-latest-version/)     ,    $P    Packages: 1265 (dpkg)
- $:      $.   -    ,d$'    Shell: bash 5.2.15
- $;      Y$b._   _,d$P'      Terminal: /dev/pts/0
- Y$.    `.`"Y$$P"'         CPU: BCM2835 (4) @ 1.800GHz
- `$b      "-.__              Memory: 202MiB / 1849MiB
-  `Y$
-   `Y$.
-     `$b.
-       `Y$b.
+       _,met$$$$$gg.          pi4@rpi
+    ,g$$$$$$$$$$$$$$$P.       -------
+  ,g$$P"     """Y$$.".        OS: Debian GNU/Linux 12 (bookworm) aarch64
+ ,$$P'              `$$$.     Host: Raspberry Pi 4 Model B Rev 1.5
+',$$P       ,ggs.     `$$b:   Kernel: 6.1.21-v8+
+`d$$'     ,$P"'   .    $$$    Uptime: 2 mins
+ $$P      d$'     ,    $$P    Packages: 1265 (dpkg)
+ $$:      $$.   -    ,d$$'    Shell: bash 5.2.15
+ $$;      Y$b._   _,d$P'      Terminal: /dev/pts/0
+ Y$$.    `.`"Y$$$$P"'         CPU: BCM2835 (4) @ 1.800GHz
+ `$$b      "-.__              Memory: 202MiB / 1849MiB
+  `Y$$
+   `Y$$.
+     `$$b.
+       `Y$$b.
           `"Y$b._
               `"""
 ```

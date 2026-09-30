@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","files","filesystem","zfs","pool"],"permalink":"/developer/linux/troubleshooting-slow-sluggish-read-write-speeds/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["linux","files","filesystem","zfs","pool"],"permalink":"/developer/linux/troubleshooting-slow-sluggish-read-write-speeds/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","files","filesystem","zfs","pool"]}}
 ---
 
 ## Diagnose

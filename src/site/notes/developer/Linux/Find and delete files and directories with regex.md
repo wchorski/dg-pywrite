@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","files","filesystem","automation"],"permalink":"/developer/linux/find-and-delete-files-and-directories-with-regex/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["linux","files","filesystem","automation"],"permalink":"/developer/linux/find-and-delete-files-and-directories-with-regex/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","files","filesystem","automation"]}}
 ---
 
 on my [[developer/Linux/Linux\|Linux]] system I want to delete [[developer/Home Lab/Docker\|Docker]] volumes that are not named (usually orphaned by old containers). Yes I'm aware of `docker system prune` but in this case I am working off a spare drive, recovering data way from the docker server.
@@ -13,42 +13,13 @@ ls /var/docker/volumes
 Preview what would be deleted first:
 
 ```
-find /var/lib/docker/volumes \  -maxdepth 1 \  -type d \  -regextype posix-extended \  -regex '.*/[a-f0-9]{64}
-
-Then actually delete them:
-
-```
-find /var/lib/docker/volumes \  -maxdepth 1 \  -type d \  -regextype posix-extended \  -regex '.*/[a-f0-9]{64}
-
-That will keep named volumes like:
-
-- `nextcloud_aio_database`
-- `immich_model-cache`
-- `prometheus_prometheus-data`
-
-and remove only the 64-character hash dirs.
-
-Safer alternative with confirmation:
-
-```
-find /var/lib/docker/volumes \  -maxdepth 1 \  -type d \  -regextype posix-extended \  -regex '.*/[a-f0-9]{64}
+find /var/lib/docker/volumes \  -maxdepth 1 \  -type d \  -regextype posix-extended \  -regex '.*/[a-f0-9]{64}$'
 ```
 
 Then actually delete them:
 
-{{CODE_BLOCK_2}}
-
-That will keep named volumes like:
-
-- `nextcloud_aio_database`
-- `immich_model-cache`
-- `prometheus_prometheus-data`
-
-and remove only the 64-character hash dirs.
-
-Safer alternative with confirmation:
-
-{{CODE_BLOCK_3}} \  -exec rm -rf {} +
+```
+find /var/lib/docker/volumes \  -maxdepth 1 \  -type d \  -regextype posix-extended \  -regex '.*/[a-f0-9]{64}$' \  -exec rm -rf {} +
 ```
 
 That will keep named volumes like:
@@ -61,69 +32,6 @@ and remove only the 64-character hash dirs.
 
 Safer alternative with confirmation:
 
-{{CODE_BLOCK_3}}
 ```
-
-Then actually delete them:
-
-{{CODE_BLOCK_2}}
-
-That will keep named volumes like:
-
-- `nextcloud_aio_database`
-- `immich_model-cache`
-- `prometheus_prometheus-data`
-
-and remove only the 64-character hash dirs.
-
-Safer alternative with confirmation:
-
-{{CODE_BLOCK_3}} \  -ok rm -rf {} \;
+find /var/lib/docker/volumes \  -maxdepth 1 \  -type d \  -regextype posix-extended \  -regex '.*/[a-f0-9]{64}$' \  -ok rm -rf {} \;
 ```
-```
-
-Then actually delete them:
-
-{{CODE_BLOCK_2}}
-
-That will keep named volumes like:
-
-- `nextcloud_aio_database`
-- `immich_model-cache`
-- `prometheus_prometheus-data`
-
-and remove only the 64-character hash dirs.
-
-Safer alternative with confirmation:
-
-{{CODE_BLOCK_3}} \  -exec rm -rf {} +
-```
-
-That will keep named volumes like:
-
-- `nextcloud_aio_database`
-- `immich_model-cache`
-- `prometheus_prometheus-data`
-
-and remove only the 64-character hash dirs.
-
-Safer alternative with confirmation:
-
-{{CODE_BLOCK_3}}
-```
-
-Then actually delete them:
-
-{{CODE_BLOCK_2}}
-
-That will keep named volumes like:
-
-- `nextcloud_aio_database`
-- `immich_model-cache`
-- `prometheus_prometheus-data`
-
-and remove only the 64-character hash dirs.
-
-Safer alternative with confirmation:
-
-{{CODE_BLOCK_3}}

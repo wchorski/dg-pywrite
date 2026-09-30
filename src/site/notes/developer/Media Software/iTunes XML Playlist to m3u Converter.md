@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/i-tunes-xml-playlist-to-m3u-converter/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/i-tunes-xml-playlist-to-m3u-converter/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 using this [java](http://www.ericdaugherty.com/dev/itunesexport/scala/)cli app, I'm able to convert playlists living in the `iTunes Library.xml` file into separate `*.m3u` playlist files
@@ -60,7 +60,7 @@ you'll want to edit 2 things on this file
 
 Your iTunes folder will look like this
 
-![attachments/iTunes-Directory-Tree.png|iTunes-Directory-Tree](/img/user/attachments/iTunes-Directory-Tree.png)
+![attachments/iTunes-Directory-Tree.png\|iTunes-Directory-Tree](/img/user/attachments/iTunes-Directory-Tree.png)
 
 I created another folder `playlists` that will house all my new `.m3u` files. And that relative path `../` will start looking for songs one directory above the `playlists` folder
 

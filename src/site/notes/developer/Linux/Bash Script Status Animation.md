@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/bash-script-status-animation/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/bash-script-status-animation/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ```bash

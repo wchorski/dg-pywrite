@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","terminal","commandline"],"permalink":"/developer/linux/mount-a-drive-in-linux-terminal/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["linux","terminal","commandline"],"permalink":"/developer/linux/mount-a-drive-in-linux-terminal/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","terminal","commandline"]}}
 ---
 
 1. list what's hooked up `lsblk`

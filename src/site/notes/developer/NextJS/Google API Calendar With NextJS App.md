@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript"],"permalink":"/developer/next-js/google-api-calendar-with-next-js-app/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["javascript"],"permalink":"/developer/next-js/google-api-calendar-with-next-js-app/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["javascript"]}}
 ---
 
 Most tutorials dealing with the [Google Calendar API](https://developers.google.com/calendar/api/quickstart/nodejs) deal with your users loggin in to add the created event to their personal calendars. In my case I have employees that I want to create/ update calendars events for a single *main* calendar, without having any login. Authorization is already set up and calendar is pointed during development

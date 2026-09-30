@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["media","music"],"permalink":"/developer/media-software/zotify/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["media","music"],"permalink":"/developer/media-software/zotify/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["media","music"]}}
 ---
 
 ## Docker How to

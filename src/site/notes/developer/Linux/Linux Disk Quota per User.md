@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/linux-disk-quota-per-user/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/linux-disk-quota-per-user/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 I want to create data storage limits so that my users don't use up all available disk space

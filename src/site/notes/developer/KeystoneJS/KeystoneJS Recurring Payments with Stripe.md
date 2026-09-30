@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-recurring-payments-with-stripe/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-recurring-payments-with-stripe/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## sschema

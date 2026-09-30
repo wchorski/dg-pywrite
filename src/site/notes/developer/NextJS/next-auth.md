@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/next-auth/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/next-js/next-auth/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 #NextJS 

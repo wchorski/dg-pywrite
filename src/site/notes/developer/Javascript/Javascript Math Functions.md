@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/javascript-math-functions/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/javascript/javascript-math-functions/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## Don't go past Zero

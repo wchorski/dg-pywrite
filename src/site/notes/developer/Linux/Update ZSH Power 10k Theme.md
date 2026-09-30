@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/update-zsh-power-10k-theme/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/update-zsh-power-10k-theme/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## Error (shortened)
@@ -65,8 +65,8 @@ Restart your shell session: Simply exit and SSH back in, or run `exec zsh`
     +(anon):62> sysopen -w -o cloexec -u req_fd -- /tmp/gitstatus.POWERLEVEL9K.1000.92602.1754410004.1.fifo
     +(anon):63> [[ 22 == <1-> ]]
     +(anon):64> typeset -gi '_GITSTATUS_REQ_FD_POWERLEVEL9K=req_fd'
-    +(anon):66> print -nru 22 -- }hello\C-_\C-^'
-    +(anon):67> local expected=}hello\C-_0\C-^' actual
+    +(anon):66> print -nru 22 -- $'}hello\C-_\C-^'
+    +(anon):67> local expected=$'}hello\C-_0\C-^' actual
     +(anon):68> ((  1  ))
     +(anon):68> [[ ! -t 1 && ! -t 0 ]]
     +(anon):69> local -F deadline='EPOCHREALTIME + 4'

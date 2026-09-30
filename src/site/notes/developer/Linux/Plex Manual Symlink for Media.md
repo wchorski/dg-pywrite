@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["media","plex","tv","movies"],"permalink":"/developer/linux/plex-manual-symlink-for-media/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["media","plex","tv","movies"],"permalink":"/developer/linux/plex-manual-symlink-for-media/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["media","plex","tv","movies"]}}
 ---
 
 Sometimes I have to manually import a movie into my media library, without the help of [[developer/Media Software/Sonarr\|Sonarr]] or [[developer/Media Software/Radarr\|Radarr]] to manually add metadata.

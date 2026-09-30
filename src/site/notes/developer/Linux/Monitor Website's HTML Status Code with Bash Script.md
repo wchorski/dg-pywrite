@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","bash","automation","webdev"],"permalink":"/developer/linux/monitor-website-s-html-status-code-with-bash-script/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["linux","bash","automation","webdev"],"permalink":"/developer/linux/monitor-website-s-html-status-code-with-bash-script/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","bash","automation","webdev"]}}
 ---
 
 > [!note] DIY

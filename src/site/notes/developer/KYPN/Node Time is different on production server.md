@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["nodejs","javascript","docker","server","production","development","webdev"],"permalink":"/developer/kypn/node-time-is-different-on-production-server/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["nodejs","javascript","docker","server","production","development","webdev"],"permalink":"/developer/kypn/node-time-is-different-on-production-server/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["nodejs","javascript","docker","server","production","development","webdev"]}}
 ---
 
 ## TLDR

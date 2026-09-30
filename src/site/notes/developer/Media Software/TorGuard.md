@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/tor-guard/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/tor-guard/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 my VPN of choice

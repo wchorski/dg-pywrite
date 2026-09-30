@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-3rd-party-data-parody-integrations-stripe/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-3rd-party-data-parody-integrations-stripe/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 > [!note] Payment Processing Modularity

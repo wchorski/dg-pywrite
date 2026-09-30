@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/docker-compose-media-containers-arrs/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/docker-compose-media-containers-arrs/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 - [[developer/Media Software/Prowlarr\|Prowlarr]]
@@ -13,6 +13,7 @@
 - [[developer/Media Software/bazarr\|bazarr]]
 - [[developer/Media Software/ProtonVPN\|ProtonVPN]]
 - [TorGuard](https://torguard.net/index.html)
+- [[developer/Media Software/Dispatcharr\|Dispatcharr]]
 
 ## Configuration
 Other tutorials I found left out a torrent downloader in the container stack. This stack includes everything but a media server (which I assume most have an already running server of i.e. [[developer/Home Lab/Plex.tv\|Plex.tv]], [[developer/Home Lab/Jellyfin\|Jellyfin]], etc.)

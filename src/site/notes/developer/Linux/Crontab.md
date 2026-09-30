@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/crontab/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/crontab/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 run scripts on a regular schedule

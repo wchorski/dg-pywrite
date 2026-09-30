@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/ladarr/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/media-software/ladarr/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 

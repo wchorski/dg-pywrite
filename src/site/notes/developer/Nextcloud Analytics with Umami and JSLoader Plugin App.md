@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["nextcloud","analytics"],"permalink":"/developer/nextcloud-analytics-with-umami-and-js-loader-plugin-app/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["nextcloud","analytics"],"permalink":"/developer/nextcloud-analytics-with-umami-and-js-loader-plugin-app/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["nextcloud","analytics"]}}
 ---
 
 Once I started sharing files and opening my [[developer/Home Lab/Nextcloud\|Nextcloud]] server to other users, I wanted to track it's usage and see what routes or files were the most popular.

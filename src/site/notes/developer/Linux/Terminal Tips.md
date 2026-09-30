@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/terminal-tips/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/terminal-tips/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## Navigating Editing Lines

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","metadata","tags","genre","media","library","songs"],"permalink":"/developer/media-software/metadata-remote/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["music","metadata","tags","genre","media","library","songs"],"permalink":"/developer/media-software/metadata-remote/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","metadata","tags","genre","media","library","songs"]}}
 ---
 
 Never have I found a self hosted app that helps a niche problem yet so elegantly in every way.

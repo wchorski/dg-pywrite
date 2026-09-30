@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/rsync/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/linux/rsync/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## sync directories with external ignore file

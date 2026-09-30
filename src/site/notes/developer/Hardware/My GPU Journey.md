@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/my-gpu-journey/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/hardware/my-gpu-journey/","dg-note-properties":{}}
 ---
 
 

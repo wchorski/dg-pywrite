@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript"],"permalink":"/developer/javascript/how-to-remove-duplicates-in-array/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["javascript"]}}
+{"dg-publish":true,"permalink":"/developer/javascript/how-to-remove-duplicates-in-array/","tags":["javascript"],"dg-note-properties":{"tags":["javascript"]}}
 ---
 
 

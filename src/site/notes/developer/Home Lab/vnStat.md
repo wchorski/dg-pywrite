@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["monitor","network","metrics"],"permalink":"/developer/home-lab/vn-stat/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["monitor","network","metrics"]}}
+{"dg-publish":true,"permalink":"/developer/home-lab/vn-stat/","tags":["monitor","network","metrics"],"dg-note-properties":{"tags":["monitor","network","metrics"]}}
 ---
 
 I've used [[developer/Home Lab/Glances\|Glances]] to monitor server metrics, but it does not capture historical data such as

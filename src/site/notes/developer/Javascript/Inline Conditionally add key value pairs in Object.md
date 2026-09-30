@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript","webdev","JSON","OOP","ternary"],"permalink":"/developer/javascript/inline-conditionally-add-key-value-pairs-in-object/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["javascript","webdev","JSON","OOP","ternary"]}}
+{"dg-publish":true,"permalink":"/developer/javascript/inline-conditionally-add-key-value-pairs-in-object/","tags":["javascript","webdev","JSON","OOP","ternary"],"dg-note-properties":{"tags":["javascript","webdev","JSON","OOP","ternary"]}}
 ---
 
 conditionally add in a key value pair or nothing at all. Avoid `null` or `undefined` key values being added to the object.

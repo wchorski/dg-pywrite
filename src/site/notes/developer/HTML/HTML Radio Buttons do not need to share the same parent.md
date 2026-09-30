@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["html"],"permalink":"/developer/html/html-radio-buttons-do-not-need-to-share-the-same-parent/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["html"]}}
+{"dg-publish":true,"permalink":"/developer/html/html-radio-buttons-do-not-need-to-share-the-same-parent/","tags":["html"],"dg-note-properties":{"tags":["html"]}}
 ---
 
 As long as each input is of type `radio` and share the same name, i.e. `myGroup` they will act in tandem.

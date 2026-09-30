@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/jellyfin/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/jellyfin/","dg-note-properties":{}}
 ---
 
 #music #media #player #itunes #bash #powershell

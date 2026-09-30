@@ -1,5 +1,5 @@
 ---
-{"codename":"spearmint","dg-publish":true,"permalink":"/developer/hardware/ryzen-9-3900x-custom-pc/","dgPassFrontmatter":true,"dg-note-properties":{"codename":"spearmint"}}
+{"dg-publish":true,"permalink":"/developer/hardware/ryzen-9-3900x-custom-pc/","dg-note-properties":{"codename":"spearmint"}}
 ---
 
 My media rig that runs [[developer/Home Lab/Plex.tv\|Plex.tv]], [[developer/Home Lab/Jellyfin\|Jellyfin]], & my constant consumption of Youtube. 

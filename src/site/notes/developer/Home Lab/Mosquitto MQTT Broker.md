@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/mosquitto-mqtt-broker/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/mosquitto-mqtt-broker/","dg-note-properties":{}}
 ---
 
 Frigate with Home Assistant requires an MQTT broker. Here is how to set it up

@@ -1,5 +1,5 @@
 ---
-{"codename":"splitDrive","dg-publish":true,"permalink":"/developer/hardware/mac-book-pro-m1-laptop/","dgPassFrontmatter":true,"dg-note-properties":{"codename":"splitDrive"}}
+{"dg-publish":true,"permalink":"/developer/hardware/mac-book-pro-m1-laptop/","dg-note-properties":{"codename":"splitDrive"}}
 ---
 
 

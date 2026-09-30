@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/libre-photos/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/libre-photos/","dg-note-properties":{}}
 ---
 
 Flexible and intuitive photo viewer with superpowers

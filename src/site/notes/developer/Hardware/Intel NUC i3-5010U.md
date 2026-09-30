@@ -1,5 +1,5 @@
 ---
-{"codename":"icicle","dg-publish":true,"permalink":"/developer/hardware/intel-nuc-i3-5010-u/","dgPassFrontmatter":true,"dg-note-properties":{"codename":"icicle"}}
+{"dg-publish":true,"permalink":"/developer/hardware/intel-nuc-i3-5010-u/","dg-note-properties":{"codename":"icicle"}}
 ---
 
 ## Intel NUC i3-5010U

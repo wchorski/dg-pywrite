@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-back-to-basics/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/html/html-back-to-basics/","dg-note-properties":{}}
 ---
 
 here lies my html basics

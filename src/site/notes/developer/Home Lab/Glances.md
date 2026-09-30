@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/glances/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/glances/","dg-note-properties":{}}
 ---
 
 > [!info](https://nicolargo.github.io/glances/)

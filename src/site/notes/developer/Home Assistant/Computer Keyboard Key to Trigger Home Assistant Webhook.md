@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["automation","homeassistant"],"permalink":"/developer/home-assistant/computer-keyboard-key-to-trigger-home-assistant-webhook/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["automation","homeassistant"]}}
+{"dg-publish":true,"permalink":"/developer/home-assistant/computer-keyboard-key-to-trigger-home-assistant-webhook/","tags":["automation","homeassistant"],"dg-note-properties":{"tags":["automation","homeassistant"]}}
 ---
 
 ## The Automation Explained

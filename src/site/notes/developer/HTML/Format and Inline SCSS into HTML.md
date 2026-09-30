@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/format-and-inline-scss-into-html/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/html/format-and-inline-scss-into-html/","dg-note-properties":{}}
 ---
 
 When I create **Examples** with my source code, I want to easily embed the html here in my notes. 

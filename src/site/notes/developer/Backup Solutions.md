@@ -1,5 +1,5 @@
 ---
-{"tags":["linux","Thunderbird","flstudio","music"],"dg-publish":true,"permalink":"/developer/backup-solutions/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","Thunderbird","flstudio","music"]}}
+{"dg-publish":true,"permalink":"/developer/backup-solutions/","tags":["linux","Thunderbird","flstudio","music"],"dg-note-properties":{"tags":["linux","Thunderbird","flstudio","music"]}}
 ---
 
 This is my chain of programs that help me backup and store data whether it's local clone, version controlled, and or remote sight backups

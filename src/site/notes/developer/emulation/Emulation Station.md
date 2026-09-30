@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["emulation","gaming","game","retro","nintendo","sega","sony","xbox"],"permalink":"/developer/emulation/emulation-station/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["emulation","gaming","game","retro","nintendo","sega","sony","xbox"]}}
+{"dg-publish":true,"permalink":"/developer/emulation/emulation-station/","tags":["emulation","gaming","game","retro","nintendo","sega","sony","xbox"],"dg-note-properties":{"tags":["emulation","gaming","game","retro","nintendo","sega","sony","xbox"]}}
 ---
 
 https://es-de.org/

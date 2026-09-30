@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["finance","selfhosted","plaintext"],"permalink":"/developer/finance/personal-finance-tracker-paisa/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["finance","selfhosted","plaintext"]}}
+{"dg-publish":true,"permalink":"/developer/finance/personal-finance-tracker-paisa/","tags":["finance","selfhosted","plaintext"],"dg-note-properties":{"tags":["finance","selfhosted","plaintext"]}}
 ---
 
 ## Ledger Paisa

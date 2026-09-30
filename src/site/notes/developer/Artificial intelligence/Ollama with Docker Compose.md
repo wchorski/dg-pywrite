@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["AI","docker","docker-compose","container"],"permalink":"/developer/artificial-intelligence/ollama-with-docker-compose/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["AI","docker","docker-compose","container"]}}
+{"dg-publish":true,"permalink":"/developer/artificial-intelligence/ollama-with-docker-compose/","tags":["AI","docker","docker-compose","container"],"dg-note-properties":{"tags":["AI","docker","docker-compose","container"]}}
 ---
 
 Get the [Ollama](https://ollama.com/)app running on your local machine, but containerized by [[developer/Home Lab/Docker\|Docker]] for better flexibility in deployment and portability

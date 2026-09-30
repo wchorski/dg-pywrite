@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["db","database","SQL","NoSQL"],"permalink":"/developer/document-vs-sql-database/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["db","database","SQL","NoSQL"]}}
+{"dg-publish":true,"permalink":"/developer/document-vs-sql-database/","tags":["db","database","SQL","NoSQL"],"dg-note-properties":{"tags":["db","database","SQL","NoSQL"]}}
 ---
 
 

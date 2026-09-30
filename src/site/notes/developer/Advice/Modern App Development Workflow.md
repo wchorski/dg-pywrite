@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["webdev","nodejs","commandline","gamedev"],"permalink":"/developer/advice/modern-app-development-workflow/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["webdev","nodejs","commandline","gamedev"]}}
+{"dg-publish":true,"permalink":"/developer/advice/modern-app-development-workflow/","tags":["webdev","nodejs","commandline","gamedev"],"dg-note-properties":{"tags":["webdev","nodejs","commandline","gamedev"]}}
 ---
 
 This is advice for anyone developing source code and want an efficient way of splitting projects but retaining a lot of the benefits of your #templates. 

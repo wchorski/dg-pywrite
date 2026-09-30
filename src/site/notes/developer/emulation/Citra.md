@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/citra/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/emulation/citra/","dg-note-properties":{}}
 ---
 
 3DS emulator

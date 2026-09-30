@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["network","internet","router"],"permalink":"/developer/att-router-passthrough-with-pi-hole/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["network","internet","router"]}}
+{"dg-publish":true,"permalink":"/developer/att-router-passthrough-with-pi-hole/","tags":["network","internet","router"],"dg-note-properties":{"tags":["network","internet","router"]}}
 ---
 
 Just recently I was setup with At&t internet. They *generously* provide a dual modem/router with the service.  I was having a time trying to use my own router.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["emulation","retro","handheld","device"],"permalink":"/developer/emulation/choosing-the-right-os-to-put-on-new-anbernic-rg-34-xx-for-a-young-kid-gift/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["emulation","retro","handheld","device"]}}
+{"dg-publish":true,"permalink":"/developer/emulation/choosing-the-right-os-to-put-on-new-anbernic-rg-34-xx-for-a-young-kid-gift/","tags":["emulation","retro","handheld","device"],"dg-note-properties":{"tags":["emulation","retro","handheld","device"]}}
 ---
 
 > [!tip] So I just found out about BaseOS with NextUI

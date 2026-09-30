@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/casa-os/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/casa-os/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/battlefield-bad-company-2-online/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/emulation/battlefield-bad-company-2-online/","dg-note-properties":{}}
 ---
 
 Play BC2 online long after EA shut down their servers

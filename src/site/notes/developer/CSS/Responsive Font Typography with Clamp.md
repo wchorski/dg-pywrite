@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["typography","css","style","responsive"],"permalink":"/developer/css/responsive-font-typography-with-clamp/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["typography","css","style","responsive"]}}
+{"dg-publish":true,"permalink":"/developer/css/responsive-font-typography-with-clamp/","tags":["typography","css","style","responsive"],"dg-note-properties":{"tags":["typography","css","style","responsive"]}}
 ---
 
 

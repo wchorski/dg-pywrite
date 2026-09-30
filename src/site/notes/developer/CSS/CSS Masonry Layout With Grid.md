@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-masonry-layout-with-grid/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/css-masonry-layout-with-grid/","dg-note-properties":{}}
 ---
 
 

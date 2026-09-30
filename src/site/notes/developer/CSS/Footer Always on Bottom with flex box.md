@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["style","css","design","layout"],"permalink":"/developer/css/footer-always-on-bottom-with-flex-box/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["style","css","design","layout"]}}
+{"dg-publish":true,"permalink":"/developer/css/footer-always-on-bottom-with-flex-box/","tags":["style","css","design","layout"],"dg-note-properties":{"tags":["style","css","design","layout"]}}
 ---
 
 Simple way to have the footer always stick to the bottom and have the `<main>` content take up the rest of the room. No more floating `<footer>`

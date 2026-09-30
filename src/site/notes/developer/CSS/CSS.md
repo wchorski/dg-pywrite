@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/css/","dg-note-properties":{}}
 ---
 
 

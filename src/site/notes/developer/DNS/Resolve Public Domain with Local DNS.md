@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["DNS","domain","local"],"permalink":"/developer/dns/resolve-public-domain-with-local-dns/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["DNS","domain","local"]}}
+{"dg-publish":true,"permalink":"/developer/dns/resolve-public-domain-with-local-dns/","tags":["DNS","domain","local"],"dg-note-properties":{"tags":["DNS","domain","local"]}}
 ---
 
 If you've ever done self hosting and have bought a public domain, soon enough you'll come across resolving issues when you're on said home network.

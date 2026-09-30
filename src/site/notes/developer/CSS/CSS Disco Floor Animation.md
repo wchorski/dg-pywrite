@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-disco-floor-animation/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/css-disco-floor-animation/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/git/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/git/","dg-note-properties":{}}
 ---
 
 

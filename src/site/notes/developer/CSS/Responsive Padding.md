@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/responsive-padding/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/responsive-padding/","dg-note-properties":{}}
 ---
 
 

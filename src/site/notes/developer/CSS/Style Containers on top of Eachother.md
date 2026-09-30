@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/style-containers-on-top-of-eachother/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/style-containers-on-top-of-eachother/","dg-note-properties":{}}
 ---
 
 

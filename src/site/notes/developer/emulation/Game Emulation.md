@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/game-emulation/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/emulation/game-emulation/","dg-note-properties":{}}
 ---
 
 Here is the hub of all things game emulation

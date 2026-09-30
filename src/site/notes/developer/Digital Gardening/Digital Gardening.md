@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/digital-gardening/digital-gardening/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/digital-gardening/digital-gardening/","dg-note-properties":{}}
 ---
 
 

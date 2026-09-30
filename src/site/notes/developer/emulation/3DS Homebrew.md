@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["gamer","gaming","homebrew","nintendo","retro","emulation"],"permalink":"/developer/emulation/3-ds-homebrew/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["gamer","gaming","homebrew","nintendo","retro","emulation"]}}
+{"dg-publish":true,"permalink":"/developer/emulation/3-ds-homebrew/","tags":["gamer","gaming","homebrew","nintendo","retro","emulation"],"dg-note-properties":{"tags":["gamer","gaming","homebrew","nintendo","retro","emulation"]}}
 ---
 
 Supercharge your 3DS to do the most with Homebrew. 

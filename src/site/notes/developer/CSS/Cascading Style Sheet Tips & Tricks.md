@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/cascading-style-sheet-tips-and-tricks/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/cascading-style-sheet-tips-and-tricks/","dg-note-properties":{}}
 ---
 

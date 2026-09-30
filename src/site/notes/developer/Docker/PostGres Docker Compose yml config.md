@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/post-gres-docker-compose-yml-config/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/docker/post-gres-docker-compose-yml-config/","dg-note-properties":{}}
 ---
 
 ## compose.yml

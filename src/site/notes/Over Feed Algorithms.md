@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","film","creator","YouTube"],"permalink":"/over-feed-algorithms/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["music","film","creator","YouTube"],"permalink":"/over-feed-algorithms/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","film","creator","YouTube"]}}
 ---
 
 1. Archive your work 

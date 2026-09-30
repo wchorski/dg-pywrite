@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Wwise","interactive","music","dynamic"],"permalink":"/music/w-wise/intro-into-continuous-loop-with-wwise-music/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["Wwise","interactive","music","dynamic"],"permalink":"/music/w-wise/intro-into-continuous-loop-with-wwise-music/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["Wwise","interactive","music","dynamic"]}}
 ---
 
 Clip labeled `A-intro` is a 4 measure lead-in to an 18 measure musical phrase. I only want the intro to play once and have the main `B-loop` play indefinitely until a transition is triggered by player input, moving us into a different song or level.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","lighting","dmx"],"permalink":"/music/visuals/dm-xis/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["music","lighting","dmx"],"permalink":"/music/visuals/dm-xis/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","lighting","dmx"]}}
 ---
 
 [Lighting & Show Control – software by Dave Brown | db audioware (dmxis.com)](https://www.dmxis.com/)

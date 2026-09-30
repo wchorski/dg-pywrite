@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["flstudio","DAW","ableton","vst","plug-in","free"],"permalink":"/music/best-free-plugins/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["flstudio","DAW","ableton","vst","plug-in","free"],"permalink":"/music/best-free-plugins/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["flstudio","DAW","ableton","vst","plug-in","free"]}}
 ---
 
 ## Generators

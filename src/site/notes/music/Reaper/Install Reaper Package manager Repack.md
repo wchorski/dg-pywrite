@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Reaper","DAW"],"permalink":"/music/reaper/install-reaper-package-manager-repack/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["Reaper","DAW"],"permalink":"/music/reaper/install-reaper-package-manager-repack/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["Reaper","DAW"]}}
 ---
 
 1. https://reapack.com/ and pick your OS installer (mine is Windows x86 64-bit)

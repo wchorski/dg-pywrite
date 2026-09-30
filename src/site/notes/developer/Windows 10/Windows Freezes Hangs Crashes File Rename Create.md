@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["windows","pc","files","troubleshooting","microsoft"],"permalink":"/developer/windows-10/windows-freezes-hangs-crashes-file-rename-create/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["windows","pc","files","troubleshooting","microsoft"],"permalink":"/developer/windows-10/windows-freezes-hangs-crashes-file-rename-create/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["windows","pc","files","troubleshooting","microsoft"]}}
 ---
 
 When creating and renaming files, folders, directories, etc. I'd sit there watching the file explorer freeze up for seconds to minutes until finally it would snap back to reality.
@@ -17,4 +17,4 @@ You can find them under the **View** tab **Options** button
 ---
 ## Credit
 - https://forums.tomshardware.com/threads/computer-slow-to-make-new-folders.3472699/#post-20990590
-- 
+- [[developer/Windows 10/Windows Index\|Windows Index]]

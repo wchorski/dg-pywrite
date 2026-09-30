@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/advice/how-much-to-charge-for-av-rentals/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/music/advice/how-much-to-charge-for-av-rentals/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 Plenty of times have I charged people for services (Musician and or DJ Services), but never have I plainly rented out my gear to a customer for a fee

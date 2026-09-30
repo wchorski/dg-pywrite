@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["audio","DAW","film","filmeditor"],"permalink":"/music/reaper/reaper-import-aaf-files-from-film-editor/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["audio","DAW","film","filmeditor"],"permalink":"/music/reaper/reaper-import-aaf-files-from-film-editor/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["audio","DAW","film","filmeditor"]}}
 ---
 
 ## Plugin

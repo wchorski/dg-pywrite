@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/sound-design/diegetic/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/music/sound-design/diegetic/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 

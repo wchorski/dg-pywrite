@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music-theory/cut-time/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/music/music-theory/cut-time/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ### definition

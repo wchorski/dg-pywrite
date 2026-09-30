@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","AI"],"permalink":"/music/advice/ai-generated-music-thoughts/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["music","AI"],"permalink":"/music/advice/ai-generated-music-thoughts/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","AI"]}}
 ---
 
 ## Tidal Wave

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["windows","batch","powershell","terminal"],"permalink":"/developer/windows-10/windows-close-programs-on-loggout-or-sleep/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["windows","batch","powershell","terminal"],"permalink":"/developer/windows-10/windows-close-programs-on-loggout-or-sleep/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["windows","batch","powershell","terminal"]}}
 ---
 
 The day is done and my work (or gaming) at my [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]] PC has come to an end. I usually send my PC to sleep so I can quick boot back into my desktop upon next session. Problem is that I don't like to close out of every single app one click at a time. 
@@ -49,3 +49,4 @@ taskkill /IM EpicGamesLauncher.exe /F
 ---
 ## Credit
 - https://stackoverflow.com/questions/53308169/terminating-a-process-from-cmd-softest-to-hardest
+- [[developer/Windows 10/Windows Index\|Windows Index]]

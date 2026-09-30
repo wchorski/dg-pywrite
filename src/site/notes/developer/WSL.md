@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/wsl/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/wsl/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 

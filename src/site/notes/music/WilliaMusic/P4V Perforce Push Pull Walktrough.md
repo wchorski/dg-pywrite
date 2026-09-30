@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["stepBystep","walkthrough"],"permalink":"/music/willia-music/p4-v-perforce-push-pull-walktrough/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["stepBystep","walkthrough"],"permalink":"/music/willia-music/p4-v-perforce-push-pull-walktrough/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["stepBystep","walkthrough"]}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","interactive","dynamic","randomization","Wwise","flstudio","wwise","videogames","gamedev"],"permalink":"/music/w-wise/wwise-slightly-random-playlist-arrangements/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["music","interactive","dynamic","randomization","Wwise","flstudio","wwise","videogames","gamedev"],"permalink":"/music/w-wise/wwise-slightly-random-playlist-arrangements/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","interactive","dynamic","randomization","Wwise","flstudio","wwise","videogames","gamedev"]}}
 ---
 
 So you just wrote a banger of a tune for your next video game project. This piece was written in a more traditional sense that it was constructed to be listened to in sequence (such as intro, verse, chorus, verse, bridge, outro). Now how do we introduce some randomization to the arrangement without making it sound like it went through the blender?

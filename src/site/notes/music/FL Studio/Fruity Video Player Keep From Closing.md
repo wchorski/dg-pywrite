@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"tags":["music","producer"],"permalink":"/music/fl-studio/fruity-video-player-keep-from-closing/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["music","producer"],"permalink":"/music/fl-studio/fruity-video-player-keep-from-closing/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","producer"]}}
 ---
 
-Stop [FL Studio](music/FL%20Studio/FL%20Studio.md) **Fruity Video Player** from closing when you click on another plugin.
+Stop [[music/FL Studio/FL Studio\|FL Studio]] **Fruity Video Player** from closing when you click on another plugin.
 
 Uncheck `Auto select linked modules` under the **General** tab
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/personal/stock-market-order-types-market-order-limit-order-stop-loss-stop-limit/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/personal/stock-market-order-types-market-order-limit-order-stop-loss-stop-limit/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ### Market Order

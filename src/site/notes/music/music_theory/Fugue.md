@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/music-theory/fugue/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/music/music-theory/fugue/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 > [!quote]

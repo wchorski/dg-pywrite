@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["ssh","terminal","IoT","homelab"],"permalink":"/developer/windows-10/ssh-server-and-key-login-linux-mac-client-to-windows-server/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["ssh","terminal","IoT","homelab"],"permalink":"/developer/windows-10/ssh-server-and-key-login-linux-mac-client-to-windows-server/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["ssh","terminal","IoT","homelab"]}}
 ---
 
 I wanted to send commands from other computers to my **Windows 10** machine. Upon initial install of Windows, I logged in with my Microsoft account and was met with `Permission denied, please try again.` when trying passwords
@@ -153,3 +153,4 @@ ssh wchorski@L150DDVR07
 - [windows 10 - Using New-Item cmdlet with Literalpath in Powershell? - Stack Overflow](https://stackoverflow.com/questions/54197595/using-new-item-cmdlet-with-literalpath-in-powershell)
 - [How to Use SSH to Remotely Connect to Windows 10 or 11 – TheITBros](https://theitbros.com/ssh-into-windows/)
 - [Running a command as Administrator using PowerShell? - Stack Overflow](https://stackoverflow.com/questions/7690994/running-a-command-as-administrator-using-powershell)
+- [[developer/Windows 10/Windows Index\|Windows Index]]

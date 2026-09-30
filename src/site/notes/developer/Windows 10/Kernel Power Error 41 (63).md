@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/kernel-power-error-41-63/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/windows-10/kernel-power-error-41-63/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 I've recently had problems with my **Windows 10 Machine** suddenly powering off as if someone ripped the cord from the wall. Looking into the logs via
@@ -12,3 +12,4 @@ The solution was to go into my **Aorus BIOS** and reset to default. I assumed th
 ---
 ## Backlinks
 - [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]]
+- [[developer/Windows 10/Windows Index\|Windows Index]]

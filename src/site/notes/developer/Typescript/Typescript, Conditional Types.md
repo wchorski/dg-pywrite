@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["typescript"],"permalink":"/developer/typescript/typescript-conditional-types/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["typescript"],"permalink":"/developer/typescript/typescript-conditional-types/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["typescript"]}}
 ---
 
 ## 1st Example 

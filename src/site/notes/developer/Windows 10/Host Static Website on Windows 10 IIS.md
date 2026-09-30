@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/host-static-website-on-windows-10-iis/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/windows-10/host-static-website-on-windows-10-iis/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ## Enable IIS Feature
@@ -38,3 +38,4 @@ Add in a line at the bottom. Use the server's IP address (static or DHCP given a
 ## Credits
 - [How to install IIS (Internet Information Services) on Windows 10? (koskila.net)](https://www.koskila.net/how-to-install-iis-internet-information-services-on-windows-10/#:~:text=To%20enable%20IIS%20on%20a%20Windows%2010%20computer%2C,Practice%20your%20patience%20...%205%20That%E2%80%99s%20it%21%20)
 - [Windows Server | #09: How to Host a Website in IIS on Windows Server 2016/2019? (youtube.com)](https://www.youtube.com/watch?v=r8UOKHCQEW8)
+- [[developer/Windows 10/Windows Index\|Windows Index]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["nodejs","middleware","analytics","proxy"],"permalink":"/developer/node-js/analytics-middleware-route-with-astro-js/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["nodejs","middleware","analytics","proxy"],"permalink":"/developer/node-js/analytics-middleware-route-with-astro-js/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["nodejs","middleware","analytics","proxy"]}}
 ---
 
 You just got your fancy self host analytics app running on your home server. You're ready to throw it onto your other self hosted apps and see the traffic *pour* in. Only to realize that many ad blockers will block this traffic.

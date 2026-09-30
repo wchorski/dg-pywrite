@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/windows-boot-error-blue-screen/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/windows-10/windows-boot-error-blue-screen/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 Nothing like getting home from a full day of work to boot up your home [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]] 10 PC and see the blue screen of death.
 
 
-![attachments/Recovery-Blue-Screen-Error-0x0000185-1 2.jpg|Recovery-Blue-Screen-Error-0x0000185-1](/img/user/attachments/Recovery-Blue-Screen-Error-0x0000185-1%202.jpg)
+![attachments/Recovery-Blue-Screen-Error-0x0000185-1 2.jpg\|Recovery-Blue-Screen-Error-0x0000185-1](/img/user/attachments/Recovery-Blue-Screen-Error-0x0000185-1%202.jpg)
 
 This particular situation was because of a corrupted UEIF partition. With a bit of digging I found this [video tutorial](https://www.youtube.com/watch?v=CZ17JrgFFhw)from **CyberCPU Tech** that saved my bacon.
 
@@ -17,7 +17,7 @@ I'll also assume you know how to boot from this newly created USB install media.
 
 ## Media Creation Tool
 After you pick your language, you'll end up at this window
-![attachments/Windows-Repair-computer 1.png|Windows-Repair-computer](/img/user/attachments/Windows-Repair-computer%201.png)
+![attachments/Windows-Repair-computer 1.png\|Windows-Repair-computer](/img/user/attachments/Windows-Repair-computer%201.png)
 
 Continue through the menu with **Troubleshoot -> Command Prompt**. You could attempt the **Startup Repair** option and hope for the best, but I assume you already tried that.
 
@@ -63,4 +63,4 @@ bcdboot c:\windows /s v: /f UEFI
 - [Windows 10 and 11 Wont Boot, How To Fix UEFI Partition - YouTube](https://www.youtube.com/watch?v=CZ17JrgFFhw)
 
 ## Backlinks
-- 
+- [[developer/Windows 10/Windows Index\|Windows Index]]

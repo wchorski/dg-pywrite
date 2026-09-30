@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/how-to-setup-live-syncd-obsidian-vault/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/tutorials/how-to-setup-live-syncd-obsidian-vault/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 wip

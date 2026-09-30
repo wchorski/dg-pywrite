@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/wordpress-migration-from-localhost-to-server/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/wordpress-migration-from-localhost-to-server/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 

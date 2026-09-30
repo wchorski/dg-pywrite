@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/mixing-style-objects-inline/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/mixing-style-objects-inline/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 

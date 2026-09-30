@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/regex/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/regex/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 
@@ -84,13 +84,13 @@ phone number validation
 
 Standard Password
 ```js
-/^(?=.*[A-Z])(?=.*[!@#{{CODE_BLOCK_7}}*])(?=.*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,40}$/
+/^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,40}$/
 ```
 
 ```
 ^                         Start anchor
 (?=.*[A-Z].*[A-Z])        Ensure string has two uppercase letters.
-(?=.*[!@#{{CODE_BLOCK_8}}*])            Ensure string has one special case letter.
+(?=.*[!@#$&*])            Ensure string has one special case letter.
 (?=.*[0-9].*[0-9])        Ensure string has two digits.
 (?=.*[a-z].*[a-z].*[a-z]) Ensure string has three lowercase letters.
 .{8}                      Ensure string is of length 8.
@@ -124,129 +124,7 @@ Find and Replace string between `[[`and `|`and `]]` but starts with `[[http`
 const regex = \[\[(http.*?)\]\]
 // replace string
 [link]($1)
-// `---
-{"dg-publish":true,"permalink":"/developer/regex/","dgPassFrontmatter":true}
----
-
-
-> [!tip] Regex not returning true on second 
-> https://stackoverflow.com/questions/59694142/regex-testvalue-returns-true-when-logged-but-false-within-an-if-statement
-
-Here lies all the regular expressions that I found useful
-
-[regex101: build, test, and debug regex](https://regex101.com/)
-
-## Three-Step Process (Handles ALL Cases)
-
-### Step 1: Both single digits (M/D/YYYY)
-
-**Find:** `^(\d)/(\d)/(\d{4}),`  
-**Replace:** `0$1/0$2/$3,`
-
-Converts **any** combination:
-
-- `1/1/2024,` → `01/01/2024,`
-- `5/9/2024,` → `05/09/2024,`
-- `9/7/2024,` → `09/07/2024,`
-
-### Step 2: Single month, double day (M/DD/YYYY)
-
-**Find:** `^(\d)/(\d{2})/(\d{4}),`  
-**Replace:** `0$1/$2/$3,`
-
-Converts:
-
-- `1/15/2024,` → `01/15/2024,`
-- `5/31/2024,` → `05/31/2024,`
-- `9/28/2024,` → `09/28/2024,`
-
-### Step 3: Double month, single day (MM/D/YYYY)
-
-**Find:** `^(\d{2})/(\d)/(\d{4}),`  
-**Replace:** `$1/0$2/$3,`
-
-Converts:
-
-- `10/5/2024,` → `10/05/2024,`
-- `11/3/2024,` → `11/03/2024,`
-- `12/7/2024,` → `12/07/2024,`
-
-These three regexes work for **all months (1-12)** and **all days (1-31)**! The `\d` wildcard matches any digit.
-
-get anything to the right of `--`
-```js
-/(?<=\-\-).*/
-```
-
-get anything to the left of  `--`
-```js
-/^.*(?=\-\-)/
-``` 
-
-get anything between `[ ]`
-```js
-/(?<=\[).*(?=\])/
-```
-
-finds string between `](` & `)` →  used to find string between `](` & `)` i.e. `[link](http://this.com)` 
-```js
-/(?<=\]\().*(?=\))/g
-```
-
-replace any special characters that OS's don't like
-```js
-STRING.replace(/[&#\@\!, +()$~%'":*?<>{}]/g, '_')
-```
-
-Only alphabet characters are allowed for this field. ==NO spaces==
-```js
-/^[aA-zZ]+$/, 
-```
-
-phone number validation
-```js
-/^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$/
-```
-
-Standard Password
-```js
-/^(?=.*[A-Z])(?=.*[!@#{{CODE_BLOCK_7}}*])(?=.*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,40}$/
-```
-
-```
-^                         Start anchor
-(?=.*[A-Z].*[A-Z])        Ensure string has two uppercase letters.
-(?=.*[!@#{{CODE_BLOCK_8}}*])            Ensure string has one special case letter.
-(?=.*[0-9].*[0-9])        Ensure string has two digits.
-(?=.*[a-z].*[a-z].*[a-z]) Ensure string has three lowercase letters.
-.{8}                      Ensure string is of length 8.
-$                         End anchor.
-```
-
-Find a every line that starts with (with wildcard). Useful with [[developer/Media Software/iTunes XML Playlist to m3u Converter|iTunes XML Playlist to m3u Converter]]
-```js
-# don't forget to excape any slashes \/
-^\/Volumes\/edata\/iMusicLibrary\/.*$
-
-# select any line that starts with "#EXTINF:" could have any number after colon, and ends with comma.
-# examples that are removed: "#EXTINF:177,", "#EXTINF:246,", "#EXTINF:192,"
-^#EXTINF:.*?,
-```
-
-get file name extension
-```js
-let file = url.match(/?<=\.)[^.\\/:*?"<>|\r\n]+$/)
-console.log(file[0])
-	
-```
-
-remove file extension from path
-```js
-filePath.replace(/\.[^/.]+$/, '')
-```
-
-Find and Replace string between `[[`and `|`and `]]` but starts with `[[http`
- means the output variable
+// `$` means the output variable
 ```
 
 find replace string between `[`and `](`

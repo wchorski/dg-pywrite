@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["nodejs","javascript","typescript","markdown"],"name":"Link Flip","permalink":"/developer/projects/markdown-links-to-wikilink-converter/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["nodejs","javascript","typescript","markdown"],"name":"Link Flip","permalink":"/developer/projects/markdown-links-to-wikilink-converter/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["nodejs","javascript","typescript","markdown"],"name":"Link Flip"}}
 ---
 
 GitHub Repo: [wchorski/wikilink_markdownlink_conversion](https://github.com/wchorski/wikilink_markdownlink_conversion)

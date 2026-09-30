@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/ssh-bad-owner-fix/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/windows-10/ssh-bad-owner-fix/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 `Bad owner or permissions on C:\\Users\\$USERNAME/.ssh/config`
@@ -14,3 +14,4 @@ put code here
 
 ## Backlinks
 - [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]]
+- [[developer/Windows 10/Windows Index\|Windows Index]]

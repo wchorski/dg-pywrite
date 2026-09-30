@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-js/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/react-js/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 #javascript #reactjs 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["windows","microsoft"],"permalink":"/developer/windows-10/windows-10-drive-format-via-terminal/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["windows","microsoft"],"permalink":"/developer/windows-10/windows-10-drive-format-via-terminal/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["windows","microsoft"]}}
 ---
 
 ```
@@ -47,3 +47,4 @@ delete partition
 ---
 ## Credit
 - https://www.thewindowsclub.com/delete-volume-option-is-greyed-out-for-usb-flash-drive
+- [[developer/Windows 10/Windows Index\|Windows Index]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["reactjs","nodejs"],"permalink":"/developer/react-js/envelope-curve-editor-with-svg/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["reactjs","nodejs"],"permalink":"/developer/react-js/envelope-curve-editor-with-svg/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["reactjs","nodejs"]}}
 ---
 
 

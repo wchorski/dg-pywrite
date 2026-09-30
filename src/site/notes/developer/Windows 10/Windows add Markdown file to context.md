@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["windows","context","registery"],"permalink":"/developer/windows-10/windows-add-markdown-file-to-context/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["windows","context","registery"],"permalink":"/developer/windows-10/windows-add-markdown-file-to-context/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["windows","context","registery"]}}
 ---
 
 
@@ -23,3 +23,4 @@ Make a new file, put that in it, double-click it, and enjoy
 ---
 ## Credit
 - https://thetmpfiles.com/2021/03/03/add-markdown-to-your-windows-context-menu/
+- [[developer/Windows 10/Windows Index\|Windows Index]]

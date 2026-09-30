@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-state-machine-with-enum/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/react-state-machine-with-enum/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 Create a state machine with Enums for all that auto complete goodness.

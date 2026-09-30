@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/update-object-inside-array/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/update-object-inside-array/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 [[developer/Home Lab/ReactJS\|ReactJS]]

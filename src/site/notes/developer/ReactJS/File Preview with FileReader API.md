@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/file-preview-with-file-reader-api/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/file-preview-with-file-reader-api/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 I took from the credited article and split it into different chunks

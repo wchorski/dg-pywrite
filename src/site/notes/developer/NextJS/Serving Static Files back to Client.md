@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/next-js/serving-static-files-back-to-client/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/next-js/serving-static-files-back-to-client/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 After I [[developer/NextJS/Upload Files with next-connect and Multer\|Upload Files with next-connect and Multer]] I wanted to serve those same files back to the client. Ahh but not so fast says [[developer/NextJS/NextJS\|NextJS]]. 

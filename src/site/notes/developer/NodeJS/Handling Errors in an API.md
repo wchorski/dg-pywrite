@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/handling-errors-in-an-api/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/node-js/handling-errors-in-an-api/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 Making an API that that returns logical responses can be a bit confusing. So I'm gonna write out an example lifted from one of my projects using [[developer/NextJS/NextJS\|NextJS]] and [[developer/Home Lab/CouchDB\|CouchDB]] 

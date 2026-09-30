@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Wordpress","data","upload","limit","config","docker"],"permalink":"/developer/wordpress/increase-max-upload-size-for-wordpress-uploads/","dgPassFrontmatter":true}
+{"dg-publish":true,"tags":["Wordpress","data","upload","limit","config","docker"],"permalink":"/developer/wordpress/increase-max-upload-size-for-wordpress-uploads/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["Wordpress","data","upload","limit","config","docker"]}}
 ---
 
 > [!note] Docker Container

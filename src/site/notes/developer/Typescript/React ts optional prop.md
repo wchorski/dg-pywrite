@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/typescript/react-ts-optional-prop/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/typescript/react-ts-optional-prop/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 ```tsx

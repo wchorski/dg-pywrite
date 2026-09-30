@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-adsr-envelope-ui-with-svg/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/developer/react-js/react-adsr-envelope-ui-with-svg/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 There's probably a better way to build this with `html <canvas>` but I'm opting to build this out with `<intput type="range"` and `<svg>` and [[developer/ReactJS/ReactJS\|ReactJS]]. 

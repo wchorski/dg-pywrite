@@ -74,7 +74,7 @@
 
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 
-<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/components.css?v=2026-09-30T06:32:12.832Z" rel="stylesheet"><link href="/styles/user/pywrite.css?v=2026-09-30T06:32:12.832Z" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/components.css?v=2026-09-30T18:18:31.251Z" rel="stylesheet"><link href="/styles/user/pywrite.css?v=2026-09-30T18:18:31.251Z" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -92,7 +92,7 @@
     
     
   </head>
-  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section   ">
+  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section   backlinks-note-icon">
     
 
     
@@ -8414,18 +8414,18 @@ pagePanelMedia.addEventListener('change', evt => {
                               
                               <div class="backlinks">
                                     <div class="backlink-title">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/dns/resolve-public-domain-with-local-dns/" data-note-icon="" class="backlink">Resolve Public Domain with Local DNS</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/digital-gardening/obisidan-digital-garden/" data-note-icon="" class="backlink">Obisidan Digital Garden</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/hardware/intel-nuc-i3-5010-u/" data-note-icon="" class="backlink">Intel NUC i3-5010U</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/home-lab/docker/" data-note-icon="" class="backlink">Docker</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/home-lab/home-lab/" data-note-icon="" class="backlink">Home Lab 🏠</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/home-lab/livesync-bridge/" data-note-icon="" class="backlink">Livesync-Bridge</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/home-lab/nextcloud/" data-note-icon="" class="backlink">Nextcloud</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/home-lab/pretty-ur-ls-for-your-internal-network/" data-note-icon="" class="backlink">Pretty URLs for Your Internal Network</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/host-static-files-with-nextcloud/" data-note-icon="" class="backlink">Host Static Files With Nextcloud</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/networking/nginx-proxy-manager-redirect-to-nested-page/" data-note-icon="" class="backlink">Nginx Proxy Manager Redirect to Nested Page</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/next-js/next-js/" data-note-icon="" class="backlink">NextJS</a>
-                                                      </div><div class="backlink-card"><i  data-lucide="link"></i><a href="/developer/react-js/react-js/" data-note-icon="" class="backlink">ReactJS</a>
+                                          <div class="backlink-list"><div class="backlink-card"><a href="/developer/dns/resolve-public-domain-with-local-dns/" data-note-icon="" class="backlink">Resolve Public Domain with Local DNS</a>
+                                                      </div><div class="backlink-card"><a href="/developer/digital-gardening/obisidan-digital-garden/" data-note-icon="" class="backlink">Obisidan Digital Garden</a>
+                                                      </div><div class="backlink-card"><a href="/developer/hardware/intel-nuc-i3-5010-u/" data-note-icon="" class="backlink">Intel NUC i3-5010U</a>
+                                                      </div><div class="backlink-card"><a href="/developer/home-lab/docker/" data-note-icon="" class="backlink">Docker</a>
+                                                      </div><div class="backlink-card"><a href="/developer/home-lab/home-lab/" data-note-icon="" class="backlink">Home Lab 🏠</a>
+                                                      </div><div class="backlink-card"><a href="/developer/home-lab/livesync-bridge/" data-note-icon="" class="backlink">Livesync-Bridge</a>
+                                                      </div><div class="backlink-card"><a href="/developer/home-lab/nextcloud/" data-note-icon="" class="backlink">Nextcloud</a>
+                                                      </div><div class="backlink-card"><a href="/developer/home-lab/pretty-ur-ls-for-your-internal-network/" data-note-icon="" class="backlink">Pretty URLs for Your Internal Network</a>
+                                                      </div><div class="backlink-card"><a href="/developer/host-static-files-with-nextcloud/" data-note-icon="" class="backlink">Host Static Files With Nextcloud</a>
+                                                      </div><div class="backlink-card"><a href="/developer/networking/nginx-proxy-manager-redirect-to-nested-page/" data-note-icon="" class="backlink">Nginx Proxy Manager Redirect to Nested Page</a>
+                                                      </div><div class="backlink-card"><a href="/developer/next-js/next-js/" data-note-icon="" class="backlink">NextJS</a>
+                                                      </div><div class="backlink-card"><a href="/developer/react-js/react-js/" data-note-icon="" class="backlink">ReactJS</a>
                                                       </div></div>
                               </div>
                         
@@ -9078,7 +9078,7 @@ pagePanelMedia.addEventListener('change', evt => {
 
     async function init() {
         // Fetch search index (browser caches based on query param)
-        const docs = await fetch('/searchIndex.json?v=2026-09-30T06:32:12.832Z').then(r => r.json());
+        const docs = await fetch('/searchIndex.json?v=2026-09-30T18:18:31.251Z').then(r => r.json());
         const index = createIndex(docs);
         window.docs = docs;
         window.index = index;

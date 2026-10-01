@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/glances/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/glances/","noteIcon":"","created":"2025-05-12T13:53:27.000-05:00","updated":"2025-05-12T13:53:27.000-05:00","dg-note-properties":{}}
 ---
 
 > [!info](https://nicolargo.github.io/glances/)

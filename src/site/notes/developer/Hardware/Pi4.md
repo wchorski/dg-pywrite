@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/pi4/","dg-note-properties":{"codename":"rpi4"}}
+{"dg-publish":true,"permalink":"/developer/hardware/pi4/","noteIcon":"","created":"2026-03-16T23:36:21.000-05:00","updated":"2026-03-16T23:36:21.000-05:00","dg-note-properties":{"codename":"rpi4"}}
 ---
 
 

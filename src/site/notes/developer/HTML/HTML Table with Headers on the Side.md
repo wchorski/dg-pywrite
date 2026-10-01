@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["html","layout"],"permalink":"/developer/html/html-table-with-headers-on-the-side/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["html","layout"]}}
+{"dg-publish":true,"permalink":"/developer/html/html-table-with-headers-on-the-side/","tags":["html","layout"],"noteIcon":"","created":"2025-10-19T15:52:59.000-05:00","updated":"2025-10-19T15:52:59.000-05:00","dg-note-properties":{"tags":["html","layout"]}}
 ---
 
 ```html

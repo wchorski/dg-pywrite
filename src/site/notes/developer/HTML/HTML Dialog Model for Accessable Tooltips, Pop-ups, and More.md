@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-dialog-model-for-accessable-tooltips-pop-ups-and-more/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/html/html-dialog-model-for-accessable-tooltips-pop-ups-and-more/","noteIcon":"","created":"2025-04-09T11:27:04.000-05:00","updated":"2025-04-09T11:27:04.000-05:00","dg-note-properties":{}}
 ---
 
 

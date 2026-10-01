@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/samba/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/samba/","noteIcon":"","created":"2026-02-17T11:47:18.000-06:00","updated":"2026-02-17T11:47:18.000-06:00","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/obsidian-md/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/obsidian-md/","noteIcon":"","created":"2026-08-25T19:48:47.000-05:00","updated":"2026-08-25T19:48:47.000-05:00","dg-note-properties":{}}
 ---
 
 #notes #markdown #webdev

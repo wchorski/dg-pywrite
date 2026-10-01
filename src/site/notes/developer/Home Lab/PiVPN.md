@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/pi-vpn/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/pi-vpn/","noteIcon":"","created":"2025-04-09T11:41:07.000-05:00","updated":"2025-04-09T11:41:07.000-05:00","dg-note-properties":{}}
 ---
 
 >[!info] [PIVPN: Simplest way to setup a VPN](https://pivpn.io/)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/sftp-server/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/sftp-server/","noteIcon":"","created":"2025-11-04T22:27:06.000-06:00","updated":"2025-11-04T22:27:06.000-06:00","dg-note-properties":{}}
 ---
 
 ## Exiting groups or users

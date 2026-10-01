@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/ryzen-5-5600x-custom-pc/","tags":["hardware"],"dg-note-properties":{"codename":"FrostByte","tags":["hardware"],"created":"2024-07-19","updated":"2024-07-19"}}
+{"dg-publish":true,"permalink":"/developer/hardware/ryzen-5-5600x-custom-pc/","tags":["hardware"],"noteIcon":"","created":"2025-04-09T11:33:39.000-05:00","updated":"2025-04-09T11:33:39.000-05:00","dg-note-properties":{"codename":"FrostByte","tags":["hardware"],"created":"2024-07-19","updated":"2024-07-19"}}
 ---
 
 

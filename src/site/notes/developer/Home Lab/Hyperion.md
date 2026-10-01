@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/hyperion/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/hyperion/","noteIcon":"","created":"2026-02-17T11:47:18.000-06:00","updated":"2026-02-17T11:47:18.000-06:00","dg-note-properties":{}}
 ---
 
 ## [[hyperion-project.org)](hyperion-project.org\|Install Hyperion ]])

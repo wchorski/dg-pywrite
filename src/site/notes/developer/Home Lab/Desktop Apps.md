@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/desktop-apps/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/desktop-apps/","noteIcon":"","created":"2025-04-09T11:37:44.000-05:00","updated":"2025-04-09T11:37:44.000-05:00","dg-note-properties":{}}
 ---
 
 

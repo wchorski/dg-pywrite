@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/open-rgb/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/open-rgb/","noteIcon":"","created":"2025-04-09T11:40:36.000-05:00","updated":"2025-04-09T11:40:36.000-05:00","dg-note-properties":{}}
 ---
 
 ## Install

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/view-ha-plugin-dashboard-outside-of-app/","tags":["homeassistant","Grafana"],"dg-note-properties":{"tags":["homeassistant","Grafana"]}}
+{"dg-publish":true,"permalink":"/developer/home-assistant/view-ha-plugin-dashboard-outside-of-app/","tags":["homeassistant","Grafana"],"noteIcon":"","created":"2026-03-21T18:20:32.000-05:00","updated":"2026-03-21T18:20:32.000-05:00","dg-note-properties":{"tags":["homeassistant","Grafana"]}}
 ---
 
 Setting up sensors and status data in [[developer/Home Lab/Home Assistant\|Home Assistant]] is a breeze. Download the [[developer/Home Lab/Grafana & InfluxDB in Home Assistant Dasbhoard\|Grafana & InfluxDB in Home Assistant Dasbhoard]] plugins and you'll be able to view and sift through the data with beautiful dashboards.

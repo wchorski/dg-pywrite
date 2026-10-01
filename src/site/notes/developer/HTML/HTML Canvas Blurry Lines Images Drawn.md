@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/html-canvas-blurry-lines-images-drawn/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/html/html-canvas-blurry-lines-images-drawn/","noteIcon":"","created":"2025-04-09T11:30:04.000-05:00","updated":"2025-04-09T11:30:04.000-05:00","dg-note-properties":{}}
 ---
 
 describe_the_problem

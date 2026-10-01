@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/my-gpu-journey/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/hardware/my-gpu-journey/","noteIcon":"","created":"2025-04-09T11:37:01.000-05:00","updated":"2025-04-09T11:37:01.000-05:00","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/duplicati/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/duplicati/","noteIcon":"","created":"2025-04-09T11:39:54.000-05:00","updated":"2025-04-09T11:39:54.000-05:00","dg-note-properties":{}}
 ---
 
 ## [Duplicati](https://www.duplicati.com/)

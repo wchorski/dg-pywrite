@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/git-hub/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/git-hub/","noteIcon":"","created":"2025-04-09T11:40:48.000-05:00","updated":"2025-04-09T11:40:48.000-05:00","dg-note-properties":{}}
 ---
 

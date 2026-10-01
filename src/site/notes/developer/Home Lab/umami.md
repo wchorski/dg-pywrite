@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/umami/","tags":["selfhosted","analytics","html","webdev"],"dg-note-properties":{"tags":["selfhosted","analytics","html","webdev"]}}
+{"dg-publish":true,"permalink":"/developer/home-lab/umami/","tags":["selfhosted","analytics","html","webdev"],"noteIcon":"","created":"2025-04-09T11:41:09.000-05:00","updated":"2025-04-09T11:41:09.000-05:00","dg-note-properties":{"tags":["selfhosted","analytics","html","webdev"]}}
 ---
 
 [Umami](https://umami.is/)

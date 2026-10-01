@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/network-switch-tl-sg-108-pe/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/hardware/network-switch-tl-sg-108-pe/","noteIcon":"","created":"2025-05-10T16:42:05.000-05:00","updated":"2025-05-10T16:42:05.000-05:00","dg-note-properties":{}}
 ---
 
 https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg108e/

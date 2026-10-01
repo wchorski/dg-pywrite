@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/playstation-vita/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/hardware/playstation-vita/","noteIcon":"","created":"2025-10-08T20:25:27.000-05:00","updated":"2025-10-08T20:25:27.000-05:00","dg-note-properties":{}}
 ---
 
 jailbroken with hen

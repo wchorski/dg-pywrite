@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-assistant/home-assistant-wake-up-alarm-trigger-automation/","tags":["homeassistant","automation","template"],"dg-note-properties":{"tags":["homeassistant","automation","template"]}}
+{"dg-publish":true,"permalink":"/developer/home-assistant/home-assistant-wake-up-alarm-trigger-automation/","tags":["homeassistant","automation","template"],"noteIcon":"","created":"2025-04-09T11:27:14.000-05:00","updated":"2025-04-09T11:27:14.000-05:00","dg-note-properties":{"tags":["homeassistant","automation","template"]}}
 ---
 
 This assumes you've already set up the companion [[developer/Home Lab/Home Assistant\|Home Assistant]] app to your phone an enabled the `Alarm Sensors`

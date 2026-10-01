@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/nintendo-switch-gen-1/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/hardware/nintendo-switch-gen-1/","noteIcon":"","created":"2026-01-08T09:21:43.000-06:00","updated":"2026-01-08T09:21:43.000-06:00","dg-note-properties":{}}
 ---
 
 ## Mod chip

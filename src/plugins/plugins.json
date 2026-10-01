@@ -8,6 +8,20 @@
         "timestampFormat": "YYYY, MMM-dd h:mm a",
         "dateFormat": "YYYY, MMM dd"
       }
+    },
+    "breadcrumbs": {
+      "repo": "oleeskild/garden-plugin-breadcrumbs",
+      "installedVersion": "1.0.0",
+      "installedRef": "v1.0.0",
+      "installedAt": "2026-10-01T21:48:27.156Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/breadcrumbs/README.md",
+        "src/plugins/breadcrumbs/garden-plugin.json",
+        "src/plugins/breadcrumbs/index.js",
+        "src/plugins/breadcrumbs/styles/trail.scss",
+        "src/plugins/breadcrumbs/templates/trail.njk"
+      ]
     }
   }
 }

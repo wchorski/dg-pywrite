@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-animated-bubble-background/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/css-animated-bubble-background/","noteIcon":"","created":"2025-04-09T11:32:33.000-05:00","updated":"2025-04-09T11:32:33.000-05:00","dg-note-properties":{}}
 ---
 
 ```html

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/working-with-inconsistent-logos/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/working-with-inconsistent-logos/","noteIcon":"","created":"2025-04-09T11:32:14.000-05:00","updated":"2025-04-09T11:32:14.000-05:00","dg-note-properties":{}}
 ---
 
 There are a few common problems when working with not so stellar logos sent in by the client

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/docker-daemon-goes-down/","tags":["docker","docker-compose"],"dg-note-properties":{"tags":["docker","docker-compose"]}}
+{"dg-publish":true,"permalink":"/developer/docker/docker-daemon-goes-down/","tags":["docker","docker-compose"],"noteIcon":"","created":"2026-05-09T09:51:10.000-05:00","updated":"2026-05-09T09:51:10.000-05:00","dg-note-properties":{"tags":["docker","docker-compose"]}}
 ---
 
 > Job for docker.service failed because the control process exited with error code. See "systemctl status docker.service" and "journalctl -xe" for details.

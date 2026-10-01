@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/simple-container-version-monitoring-with-bash-shell/","tags":["bash","monitor","docker","docker-compose","curl"],"dg-note-properties":{"tags":["bash","monitor","docker","docker-compose","curl"]}}
+{"dg-publish":true,"permalink":"/developer/docker/simple-container-version-monitoring-with-bash-shell/","tags":["bash","monitor","docker","docker-compose","curl"],"noteIcon":"","created":"2026-05-09T09:51:05.000-05:00","updated":"2026-05-09T09:51:05.000-05:00","dg-note-properties":{"tags":["bash","monitor","docker","docker-compose","curl"]}}
 ---
 
 ## PreReqs

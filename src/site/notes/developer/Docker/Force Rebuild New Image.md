@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/force-rebuild-new-image/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/docker/force-rebuild-new-image/","noteIcon":"","created":"2026-05-09T09:51:11.000-05:00","updated":"2026-05-09T09:51:11.000-05:00","dg-note-properties":{}}
 ---
 
 Instead of just building your images, and then trying to up them, consider this:

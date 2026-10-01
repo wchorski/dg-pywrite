@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/switch-homebrew/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/emulation/switch-homebrew/","noteIcon":"","created":"2025-12-21T19:07:27.000-06:00","updated":"2025-12-21T19:07:27.000-06:00","dg-note-properties":{}}
 ---
 
 [Getting Started - NH Switch Guide (hacks.guide)](https://switch.hacks.guide/)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/cms-page-builder-rich-text-editors/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/cms-page-builder-rich-text-editors/","noteIcon":"","created":"2025-04-09T11:32:24.000-05:00","updated":"2025-04-09T11:32:24.000-05:00","dg-note-properties":{}}
 ---
 
 

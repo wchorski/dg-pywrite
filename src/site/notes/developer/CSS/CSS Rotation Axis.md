@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-rotation-axis/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/css-rotation-axis/","noteIcon":"","created":"2025-04-09T11:37:39.000-05:00","updated":"2025-04-09T11:37:39.000-05:00","dg-note-properties":{}}
 ---
 
 rotate an element not just around the center axis

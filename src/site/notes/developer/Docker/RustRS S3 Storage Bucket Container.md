@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/rust-rs-s3-storage-bucket-container/","tags":["docker","docker-compose","s3","storage"],"dg-note-properties":{"tags":["docker","docker-compose","s3","storage"]}}
+{"dg-publish":true,"permalink":"/developer/docker/rust-rs-s3-storage-bucket-container/","tags":["docker","docker-compose","s3","storage"],"noteIcon":"","created":"2026-05-12T11:28:30.000-05:00","updated":"2026-05-12T11:28:30.000-05:00","dg-note-properties":{"tags":["docker","docker-compose","s3","storage"]}}
 ---
 
 - https://github.com/rustfs/rustfs 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/inspect-docker-image-to-reduce-build-size/","tags":["docker","docker-compose","software","build","optimization"],"dg-note-properties":{"tags":["docker","docker-compose","software","build","optimization"]}}
+{"dg-publish":true,"permalink":"/developer/docker/inspect-docker-image-to-reduce-build-size/","tags":["docker","docker-compose","software","build","optimization"],"noteIcon":"","created":"2026-05-09T09:51:07.000-05:00","updated":"2026-05-09T09:51:07.000-05:00","dg-note-properties":{"tags":["docker","docker-compose","software","build","optimization"]}}
 ---
 
 ## Frontend build

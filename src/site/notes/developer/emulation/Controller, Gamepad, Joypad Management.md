@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/controller-gamepad-joypad-management/","tags":["game","gaming","linux","windows","MacOs","playstation","nintendo"],"dg-note-properties":{"tags":["game","gaming","linux","windows","MacOs","playstation","nintendo"]}}
+{"dg-publish":true,"permalink":"/developer/emulation/controller-gamepad-joypad-management/","tags":["game","gaming","linux","windows","MacOs","playstation","nintendo"],"noteIcon":"","created":"2025-04-09T11:28:52.000-05:00","updated":"2025-04-09T11:28:52.000-05:00","dg-note-properties":{"tags":["game","gaming","linux","windows","MacOs","playstation","nintendo"]}}
 ---
 
 I've taken on the foolish challenge of gaming on Linux. For the most part I've had good success weaving through the small inconveniences with many modern games, emulation, and playing with 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/rpcs-3/","tags":["emulation","gaming"],"dg-note-properties":{"tags":["emulation","gaming"]}}
+{"dg-publish":true,"permalink":"/developer/emulation/rpcs-3/","tags":["emulation","gaming"],"noteIcon":"","created":"2025-04-09T11:40:56.000-05:00","updated":"2025-04-09T11:40:56.000-05:00","dg-note-properties":{"tags":["emulation","gaming"]}}
 ---
 
 Playstation 3 emulator

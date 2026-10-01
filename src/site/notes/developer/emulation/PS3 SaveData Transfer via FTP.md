@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/ps-3-save-data-transfer-via-ftp/","tags":["homebrew","jailbreak","gaming","backups"],"dg-note-properties":{"tags":["homebrew","jailbreak","gaming","backups"]}}
+{"dg-publish":true,"permalink":"/developer/emulation/ps-3-save-data-transfer-via-ftp/","tags":["homebrew","jailbreak","gaming","backups"],"noteIcon":"","created":"2025-11-16T15:55:42.000-06:00","updated":"2025-11-16T15:55:42.000-06:00","dg-note-properties":{"tags":["homebrew","jailbreak","gaming","backups"]}}
 ---
 
 ## Official Sony Backup Restore

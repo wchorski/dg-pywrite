@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/advice/coder-advice-working-with-idea-men/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/advice/coder-advice-working-with-idea-men/","noteIcon":"","created":"2025-04-09T11:29:25.000-05:00","updated":"2025-04-09T11:29:25.000-05:00","dg-note-properties":{}}
 ---
 
 Comment inspired by ThePrimeagen video [I Just Need A Programmer | Prime Reacts (youtube.com)](https://www.youtube.com/watch?v=tIgIF5lve8U)

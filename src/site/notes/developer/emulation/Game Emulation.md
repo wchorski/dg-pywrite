@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/game-emulation/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/emulation/game-emulation/","noteIcon":"","created":"2025-04-09T11:36:40.000-05:00","updated":"2025-04-09T11:36:40.000-05:00","dg-note-properties":{}}
 ---
 
 Here is the hub of all things game emulation
@@ -18,13 +18,13 @@ Here is the hub of all things game emulation
 - [[developer/emulation/Emulation Station\|Emulation Station]]
 - [[developer/emulation/Emulation Tools\|Emulation Tools]]
 - [[developer/emulation/Game Emulation\|Game Emulation]]
+- [[developer/emulation/Mounting Rom Zip files while continuing to seed\|Mounting Rom Zip files while continuing to seed]]
 - [[developer/emulation/PCX2 Qt\|PCX2 Qt]]
+- [[developer/emulation/PS3 SaveData Transfer via FTP\|PS3 SaveData Transfer via FTP]]
 - [[developer/emulation/Pokemon Genning\|Pokemon Genning]]
 - [[developer/emulation/Pokémon Genning; Create a Mew from start to finish\|Pokémon Genning; Create a Mew from start to finish]]
-- [[developer/emulation/PS3 SaveData Transfer via FTP\|PS3 SaveData Transfer via FTP]]
-- [[developer/emulation/Mounting Rom Zip files while continuing to seed\|Mounting Rom Zip files while continuing to seed]]
-- [[developer/emulation/Switch Homebrew\|Switch Homebrew]]
-- [[developer/emulation/Steamdeck reset sudo password\|Steamdeck reset sudo password]]
 - [[developer/emulation/RPCS3\|RPCS3]]
+- [[developer/emulation/Steamdeck reset sudo password\|Steamdeck reset sudo password]]
+- [[developer/emulation/Switch Homebrew\|Switch Homebrew]]
 
 { .block-language-dataview}

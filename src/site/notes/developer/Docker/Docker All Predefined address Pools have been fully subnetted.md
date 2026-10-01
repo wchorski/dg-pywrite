@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/docker-all-predefined-address-pools-have-been-fully-subnetted/","tags":["docker","container","network","virtual"],"dg-note-properties":{"tags":["docker","container","network","virtual"]}}
+{"dg-publish":true,"permalink":"/developer/docker/docker-all-predefined-address-pools-have-been-fully-subnetted/","tags":["docker","container","network","virtual"],"noteIcon":"","created":"2026-05-09T09:51:05.000-05:00","updated":"2026-05-09T09:51:05.000-05:00","dg-note-properties":{"tags":["docker","container","network","virtual"]}}
 ---
 
 After fixing [[developer/Docker/Docker Network Conflict Fix\|Docker Network Conflict Fix]] I found this new error

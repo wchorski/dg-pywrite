@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/digital-gardening/remove-broken-or-un-published-link-in-garden/","tags":["digital_garden","notes","markdown","static"],"dg-note-properties":{"tags":["digital_garden","notes","markdown","static"]}}
+{"dg-publish":true,"permalink":"/developer/digital-gardening/remove-broken-or-un-published-link-in-garden/","tags":["digital_garden","notes","markdown","static"],"noteIcon":"","created":"2025-04-09T11:27:10.000-05:00","updated":"2025-04-09T11:27:10.000-05:00","dg-note-properties":{"tags":["digital_garden","notes","markdown","static"]}}
 ---
 
 ## My Question

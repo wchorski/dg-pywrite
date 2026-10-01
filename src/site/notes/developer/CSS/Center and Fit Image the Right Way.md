@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/center-and-fit-image-the-right-way/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/center-and-fit-image-the-right-way/","noteIcon":"","created":"2025-04-09T11:31:11.000-05:00","updated":"2025-04-09T11:31:11.000-05:00","dg-note-properties":{}}
 ---
 
 

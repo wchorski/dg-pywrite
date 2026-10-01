@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-nested-border-radius/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/css-nested-border-radius/","noteIcon":"","created":"2025-04-09T11:35:16.000-05:00","updated":"2025-04-09T11:35:16.000-05:00","dg-note-properties":{}}
 ---
 
 You've probably set the parent and child element `border-radius` to the same value expecting them to line up, but it's the padding that throws the angle of the curve off

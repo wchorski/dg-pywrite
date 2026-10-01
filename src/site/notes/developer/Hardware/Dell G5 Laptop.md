@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/hardware/dell-g5-laptop/","dg-note-properties":{"codename":"sn0flake"}}
+{"dg-publish":true,"permalink":"/developer/hardware/dell-g5-laptop/","noteIcon":"","created":"2025-04-09T11:37:00.000-05:00","updated":"2025-04-09T11:37:00.000-05:00","dg-note-properties":{"codename":"sn0flake"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/css-disco-floor-animation/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/css-disco-floor-animation/","noteIcon":"","created":"2025-04-09T11:35:01.000-05:00","updated":"2025-04-09T11:35:01.000-05:00","dg-note-properties":{}}
 ---
 
 

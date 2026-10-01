@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/docker-credentials-error-mac-os/","tags":["MacOs","docker","error","troubleshooting"],"dg-note-properties":{"tags":["MacOs","docker","error","troubleshooting"]}}
+{"dg-publish":true,"permalink":"/developer/docker/docker-credentials-error-mac-os/","tags":["MacOs","docker","error","troubleshooting"],"noteIcon":"","created":"2026-05-09T09:51:08.000-05:00","updated":"2026-05-09T09:51:08.000-05:00","dg-note-properties":{"tags":["MacOs","docker","error","troubleshooting"]}}
 ---
 
 ## The Error

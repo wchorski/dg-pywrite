@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/build-small-docker-image-sizes/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/docker/build-small-docker-image-sizes/","noteIcon":"","created":"2026-05-09T09:51:08.000-05:00","updated":"2026-05-09T09:51:08.000-05:00","dg-note-properties":{}}
 ---
 
 I was building a [[developer/NextJS/NextJS\|NextJS]] image with [[developer/Home Lab/Docker\|Docker]] and ended up with over **6gb** file sizes. 

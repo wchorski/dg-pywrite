@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/docker-dns-networking/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/docker/docker-dns-networking/","noteIcon":"","created":"2026-05-09T09:51:11.000-05:00","updated":"2026-05-09T09:51:11.000-05:00","dg-note-properties":{}}
 ---
 
 #docker #docker-compose #DNS

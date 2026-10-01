@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/responsive-font-typography-with-clamp/","tags":["typography","css","style","responsive"],"dg-note-properties":{"tags":["typography","css","style","responsive"]}}
+{"dg-publish":true,"permalink":"/developer/css/responsive-font-typography-with-clamp/","tags":["typography","css","style","responsive"],"noteIcon":"","created":"2025-04-09T11:30:20.000-05:00","updated":"2025-04-09T11:30:20.000-05:00","dg-note-properties":{"tags":["typography","css","style","responsive"]}}
 ---
 
 

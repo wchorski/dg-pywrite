@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/emulation/3-ds-crashes-on-game-icon-hover-on-homescreen/","tags":["homebrew","nintendo","bug","crash"],"dg-note-properties":{"tags":["homebrew","nintendo","bug","crash"]}}
+{"dg-publish":true,"permalink":"/developer/emulation/3-ds-crashes-on-game-icon-hover-on-homescreen/","tags":["homebrew","nintendo","bug","crash"],"noteIcon":"","created":"2025-06-17T12:10:19.000-05:00","updated":"2025-06-17T12:10:19.000-05:00","dg-note-properties":{"tags":["homebrew","nintendo","bug","crash"]}}
 ---
 
 I had a strange bug that would crash my 3DS when hovering over a game title (in this case New Super Mario Bros 2).

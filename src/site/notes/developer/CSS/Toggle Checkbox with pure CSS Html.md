@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/toggle-checkbox-with-pure-css-html/","tags":["css","style","html","scss","no_js"],"dg-note-properties":{"tags":["css","style","html","scss","no_js"]}}
+{"dg-publish":true,"permalink":"/developer/css/toggle-checkbox-with-pure-css-html/","tags":["css","style","html","scss","no_js"],"noteIcon":"","created":"2025-04-09T11:31:11.000-05:00","updated":"2025-04-09T11:31:11.000-05:00","dg-note-properties":{"tags":["css","style","html","scss","no_js"]}}
 ---
 
 ## Live Demo

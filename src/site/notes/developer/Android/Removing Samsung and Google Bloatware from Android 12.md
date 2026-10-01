@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/android/removing-samsung-and-google-bloatware-from-android-12/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/android/removing-samsung-and-google-bloatware-from-android-12/","noteIcon":"","created":"2025-04-09T11:27:13.000-05:00","updated":"2025-04-09T11:27:13.000-05:00","dg-note-properties":{}}
 ---
 
 

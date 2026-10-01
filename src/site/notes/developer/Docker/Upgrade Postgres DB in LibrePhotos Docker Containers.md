@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/docker/upgrade-postgres-db-in-libre-photos-docker-containers/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/docker/upgrade-postgres-db-in-libre-photos-docker-containers/","noteIcon":"","created":"2026-05-09T09:51:05.000-05:00","updated":"2026-05-09T09:51:05.000-05:00","dg-note-properties":{}}
 ---
 
 ```shell

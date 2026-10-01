@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/css/has-selector/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/css/has-selector/","noteIcon":"","created":"2025-04-09T11:40:33.000-05:00","updated":"2025-04-09T11:40:33.000-05:00","dg-note-properties":{}}
 ---
 
 I see a lot of potential in the `:has()` selector, expecially when it comes to input fields

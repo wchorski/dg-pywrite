@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["gamedev","music","producer"],"permalink":"/music/buisness/music-composer-working-with-clients-tips/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["gamedev","music","producer"]}}
+{"dg-publish":true,"permalink":"/music/buisness/music-composer-working-with-clients-tips/","tags":["gamedev","music","producer"],"noteIcon":"","created":"2025-04-09T11:29:30.000-05:00","updated":"2025-04-09T11:29:30.000-05:00","dg-note-properties":{"tags":["gamedev","music","producer"]}}
 ---
 
 

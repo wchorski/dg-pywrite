@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/conway-s-game-of-life/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/conway-s-game-of-life/","noteIcon":"","created":"2026-08-25T19:48:32.000-05:00","updated":"2026-08-25T19:48:32.000-05:00","dg-note-properties":{}}
 ---
 
 [Life Universe (oimo.io)](https://oimo.io/works/life/)

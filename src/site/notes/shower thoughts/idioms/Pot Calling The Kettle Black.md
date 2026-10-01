@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/pot-calling-the-kettle-black/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/pot-calling-the-kettle-black/","noteIcon":"","created":"2026-08-25T19:48:08.000-05:00","updated":"2026-08-25T19:48:08.000-05:00","dg-note-properties":{}}
 ---
 
 

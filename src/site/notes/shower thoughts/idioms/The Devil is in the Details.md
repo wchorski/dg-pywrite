@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/the-devil-is-in-the-details/","tags":["idiom","words"],"dg-note-properties":{"tags":["idiom","words"]}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/the-devil-is-in-the-details/","tags":["idiom","words"],"noteIcon":"","created":"2026-08-25T19:48:10.000-05:00","updated":"2026-08-25T19:48:10.000-05:00","dg-note-properties":{"tags":["idiom","words"]}}
 ---
 
 > "**The devil is in the details**" is an [idiom](https://en.wikipedia.org/wiki/Idiom "Idiom") alluding to a catch or mysterious element hidden in the details;[[1\|1]](https://en.wikipedia.org/wiki/The_devil_is_in_the_details#cite_note-Titelman-1) it indicates that "something may seem simple, but in fact the details are complicated and likely to cause problems".[[2\|2]](https://en.wikipedia.org/wiki/The_devil_is_in_the_details#cite_note-2) It comes from the earlier phrase "**God is in the details**", expressing the idea that whatever one does should be done thoroughly; that is, details are important.[[1\|1]](https://en.wikipedia.org/wiki/The_devil_is_in_the_details#cite_note-Titelman-1)

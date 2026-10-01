@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/jokes/i-m-autistic/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/jokes/i-m-autistic/","noteIcon":"","created":"2026-08-25T19:48:40.000-05:00","updated":"2026-08-25T19:48:40.000-05:00","dg-note-properties":{}}
 ---
 
 Person 1: "I'm Autistic"

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["flstudio","DAW","plug-in","3rd-party","music"],"permalink":"/music/fl-studio/fl-studio-map-pitch-and-mod-wheel/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["flstudio","DAW","plug-in","3rd-party","music"]}}
+{"dg-publish":true,"permalink":"/music/fl-studio/fl-studio-map-pitch-and-mod-wheel/","tags":["flstudio","DAW","plug-in","3rd-party","music"],"noteIcon":"","created":"2025-04-09T11:31:00.000-05:00","updated":"2025-04-09T11:31:00.000-05:00","dg-note-properties":{"tags":["flstudio","DAW","plug-in","3rd-party","music"]}}
 ---
 
 ## Pitch Bend

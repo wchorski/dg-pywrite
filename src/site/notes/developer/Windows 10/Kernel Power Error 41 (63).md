@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/kernel-power-error-41-63/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/windows-10/kernel-power-error-41-63/","noteIcon":"","created":"2026-09-16T10:46:31.000-05:00","updated":"2026-09-16T10:46:31.000-05:00","dg-note-properties":{}}
 ---
 
 I've recently had problems with my **Windows 10 Machine** suddenly powering off as if someone ripped the cord from the wall. Looking into the logs via

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Reaper","DAW","SFX","audio","sound_design"],"permalink":"/music/reaper/reaper-batch-export-regions-as-separate-clips/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["Reaper","DAW","SFX","audio","sound_design"]}}
+{"dg-publish":true,"permalink":"/music/reaper/reaper-batch-export-regions-as-separate-clips/","tags":["Reaper","DAW","SFX","audio","sound_design"],"noteIcon":"","created":"2026-07-23T21:15:19.000-05:00","updated":"2026-07-23T21:15:19.000-05:00","dg-note-properties":{"tags":["Reaper","DAW","SFX","audio","sound_design"]}}
 ---
 
 > [!note] SFX Weapon

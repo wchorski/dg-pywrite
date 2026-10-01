@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/form-over-function/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/form-over-function/","noteIcon":"","created":"2026-08-25T19:48:23.000-05:00","updated":"2026-08-25T19:48:23.000-05:00","dg-note-properties":{}}
 ---
 
 > - The concept of “**Form Over Function**” prioritizes aesthetics and the look of a product over its practical functionality.

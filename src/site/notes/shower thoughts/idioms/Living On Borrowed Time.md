@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/living-on-borrowed-time/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/living-on-borrowed-time/","noteIcon":"","created":"2026-08-25T19:48:16.000-05:00","updated":"2026-08-25T19:48:16.000-05:00","dg-note-properties":{}}
 ---
 
 

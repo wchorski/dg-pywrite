@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/brass-tacks/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/brass-tacks/","noteIcon":"","created":"2026-08-25T19:48:40.000-05:00","updated":"2026-08-25T19:48:40.000-05:00","dg-note-properties":{}}
 ---
 
 

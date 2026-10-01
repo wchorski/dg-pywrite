@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/one-hand-to-shake-beats-one-throat-to-choke/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/one-hand-to-shake-beats-one-throat-to-choke/","noteIcon":"","created":"2026-08-25T19:47:55.000-05:00","updated":"2026-08-25T19:47:55.000-05:00","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","producer","DAW","flstudio"],"permalink":"/music/reaper/reaper-keybindings/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","producer","DAW","flstudio"]}}
+{"dg-publish":true,"permalink":"/music/reaper/reaper-keybindings/","tags":["music","producer","DAW","flstudio"],"noteIcon":"","created":"2026-07-22T22:35:36.000-05:00","updated":"2026-07-22T22:35:36.000-05:00","dg-note-properties":{"tags":["music","producer","DAW","flstudio"]}}
 ---
 
 Getting Reaper keybindings to be more like [[music/FL Studio/FL Studio\|music/FL Studio/FL Studio]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Reaper","DAW","sound_design","SFX"],"permalink":"/music/reaper/reaper-batch-renaming-markers-and-regions/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["Reaper","DAW","sound_design","SFX"]}}
+{"dg-publish":true,"permalink":"/music/reaper/reaper-batch-renaming-markers-and-regions/","tags":["Reaper","DAW","sound_design","SFX"],"noteIcon":"","created":"2026-07-23T21:15:19.000-05:00","updated":"2026-07-23T21:15:19.000-05:00","dg-note-properties":{"tags":["Reaper","DAW","sound_design","SFX"]}}
 ---
 
 > [!tip] Dynamic Split

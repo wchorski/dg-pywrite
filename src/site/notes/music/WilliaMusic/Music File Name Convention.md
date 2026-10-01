@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","Wwise","game","gamedev"],"permalink":"/music/willia-music/music-file-name-convention/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","Wwise","game","gamedev"]}}
+{"dg-publish":true,"permalink":"/music/willia-music/music-file-name-convention/","tags":["music","Wwise","game","gamedev"],"noteIcon":"","created":"2025-04-09T11:32:38.000-05:00","updated":"2025-04-09T11:32:38.000-05:00","dg-note-properties":{"tags":["music","Wwise","game","gamedev"]}}
 ---
 
 ## Best way to name files

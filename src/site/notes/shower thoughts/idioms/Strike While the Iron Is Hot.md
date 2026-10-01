@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/strike-while-the-iron-is-hot/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/strike-while-the-iron-is-hot/","noteIcon":"","created":"2026-08-25T19:48:08.000-05:00","updated":"2026-08-25T19:48:08.000-05:00","dg-note-properties":{}}
 ---
 
 > To strike while the iron is hot is to act decisively and take an opportunity when it arises.

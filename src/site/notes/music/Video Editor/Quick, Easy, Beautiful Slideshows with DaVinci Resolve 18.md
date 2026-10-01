@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["video","filmeditor","pictures","DaVinci_Resolve"],"permalink":"/music/video-editor/quick-easy-beautiful-slideshows-with-da-vinci-resolve-18/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["video","filmeditor","pictures","DaVinci_Resolve"]}}
+{"dg-publish":true,"permalink":"/music/video-editor/quick-easy-beautiful-slideshows-with-da-vinci-resolve-18/","tags":["video","filmeditor","pictures","DaVinci_Resolve"],"noteIcon":"","created":"2025-04-09T11:26:59.000-05:00","updated":"2025-04-09T11:26:59.000-05:00","dg-note-properties":{"tags":["video","filmeditor","pictures","DaVinci_Resolve"]}}
 ---
 
 Here's a [[music/Video Editor/Video Editor\|Video Editor]] tip to making... *just read the title of this note again*

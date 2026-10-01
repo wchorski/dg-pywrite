@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Wwise","audio"],"permalink":"/music/w-wise/wwise-souncaster/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["Wwise","audio"]}}
+{"dg-publish":true,"permalink":"/music/w-wise/wwise-souncaster/","tags":["Wwise","audio"],"noteIcon":"","created":"2026-07-07T21:30:44.000-05:00","updated":"2026-07-07T21:30:44.000-05:00","dg-note-properties":{"tags":["Wwise","audio"]}}
 ---
 
 the default player to test playback is "Transport Control". 

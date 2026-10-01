@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Wwise","music","arrangement","gamedev","videogames"],"permalink":"/music/w-wise/dynamic-music-ideas/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["Wwise","music","arrangement","gamedev","videogames"]}}
+{"dg-publish":true,"permalink":"/music/w-wise/dynamic-music-ideas/","tags":["Wwise","music","arrangement","gamedev","videogames"],"noteIcon":"","created":"2025-09-24T21:29:33.000-05:00","updated":"2025-09-24T21:29:33.000-05:00","dg-note-properties":{"tags":["Wwise","music","arrangement","gamedev","videogames"]}}
 ---
 
 ## Panic Theme "Hurry Up!" from Tetris PLUS

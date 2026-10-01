@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["windows","context","registery"],"permalink":"/developer/windows-10/windows-add-markdown-file-to-context/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["windows","context","registery"]}}
+{"dg-publish":true,"permalink":"/developer/windows-10/windows-add-markdown-file-to-context/","tags":["windows","context","registery"],"noteIcon":"","created":"2026-09-16T10:46:30.000-05:00","updated":"2026-09-16T10:46:30.000-05:00","dg-note-properties":{"tags":["windows","context","registery"]}}
 ---
 
 

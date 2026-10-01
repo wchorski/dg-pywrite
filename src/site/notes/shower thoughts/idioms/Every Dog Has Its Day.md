@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/every-dog-has-its-day/","tags":["words","idiom"],"dg-note-properties":{"tags":["words","idiom"]}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/every-dog-has-its-day/","tags":["words","idiom"],"noteIcon":"","created":"2026-08-25T19:48:18.000-05:00","updated":"2026-08-25T19:48:18.000-05:00","dg-note-properties":{"tags":["words","idiom"]}}
 ---
 
 > The phrase “Every dog has its day” is over 450 years old, and the impulse beneath the phrase even older.

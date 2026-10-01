@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/steam-deck-stuff/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/steam-deck-stuff/","noteIcon":"","created":"2026-08-23T22:22:07.000-05:00","updated":"2026-08-23T22:22:07.000-05:00","dg-note-properties":{}}
 ---
 
 - [[developer/emulation/Steamdeck reset sudo password\|Steamdeck reset sudo password]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/modern-4-horsemen-of-the-apocolypse/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/modern-4-horsemen-of-the-apocolypse/","noteIcon":"","created":"2026-08-25T19:48:07.000-05:00","updated":"2026-08-25T19:48:07.000-05:00","dg-note-properties":{}}
 ---
 
 > My personal three horsemen of the apocalypse are **weaponized incompetence**, **learned helplessness**, **willful ignorance**. The fourth horseman is a free space that could at any time be filled by **lack of critical thinking skills**, **misogyny**, **racism**, **bigotry**, hubris, etc.

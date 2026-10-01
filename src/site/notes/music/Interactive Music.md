@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-note-icon":1,"permalink":"/music/interactive-music/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/music/interactive-music/","noteIcon":1,"created":"2025-04-09T11:41:18.000-05:00","updated":"2025-04-09T11:41:18.000-05:00","dg-note-properties":{}}
 ---
 
 

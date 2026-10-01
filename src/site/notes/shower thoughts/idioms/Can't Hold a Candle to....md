@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/idioms/can-t-hold-a-candle-to/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/idioms/can-t-hold-a-candle-to/","noteIcon":"","created":"2026-08-25T19:48:11.000-05:00","updated":"2026-08-25T19:48:11.000-05:00","dg-note-properties":{}}
 ---
 
 

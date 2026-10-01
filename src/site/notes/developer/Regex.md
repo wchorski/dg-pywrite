@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/regex/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/regex/","noteIcon":"","created":"2026-01-18T00:56:41.000-06:00","updated":"2026-01-18T00:56:41.000-06:00","dg-note-properties":{}}
 ---
 
 

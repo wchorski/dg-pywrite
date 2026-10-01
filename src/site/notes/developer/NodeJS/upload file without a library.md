@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/node-js/upload-file-without-a-library/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/node-js/upload-file-without-a-library/","noteIcon":"","created":"2025-04-09T11:31:56.000-05:00","updated":"2025-04-09T11:31:56.000-05:00","dg-note-properties":{}}
 ---
 
 I like to remove any package dependancies where I can. Hopefully this solution can help remove another

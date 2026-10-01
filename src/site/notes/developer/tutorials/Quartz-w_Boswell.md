@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/quartz-w-boswell/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/tutorials/quartz-w-boswell/","noteIcon":"","created":"2025-04-09T11:35:59.000-05:00","updated":"2025-04-09T11:35:59.000-05:00","dg-note-properties":{}}
 ---
 
 [[brandonkboswell.com)](brandonkboswell.com\|Publishing your Obsidian Vault Online with Quartz (brandonkboswell.com)]])

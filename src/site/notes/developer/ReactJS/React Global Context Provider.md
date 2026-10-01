@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-global-context-provider/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/react-js/react-global-context-provider/","noteIcon":"","created":"2025-04-09T11:31:34.000-05:00","updated":"2025-04-09T11:31:34.000-05:00","dg-note-properties":{}}
 ---
 
 

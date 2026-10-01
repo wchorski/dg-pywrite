@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/no-library-needed-for-css-transitions/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/react-js/no-library-needed-for-css-transitions/","noteIcon":"","created":"2025-04-09T11:29:29.000-05:00","updated":"2025-04-09T11:29:29.000-05:00","dg-note-properties":{}}
 ---
 
 ## Custom Hook

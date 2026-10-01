@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["s3","storage","Wordpress","wp","media","data"],"permalink":"/developer/wordpress/use-s3-uploads-in-place-of-wordpress-media-directory/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["s3","storage","Wordpress","wp","media","data"]}}
+{"dg-publish":true,"permalink":"/developer/wordpress/use-s3-uploads-in-place-of-wordpress-media-directory/","tags":["s3","storage","Wordpress","wp","media","data"],"noteIcon":"","created":"2026-05-12T11:28:30.000-05:00","updated":"2026-05-12T11:28:30.000-05:00","dg-note-properties":{"tags":["s3","storage","Wordpress","wp","media","data"]}}
 ---
 
 Deploy your own storage with [[developer/Docker/RustRS S3 Storage Bucket Container\|RustRS S3 Storage Bucket Container]]

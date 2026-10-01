@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","midi","controller","keyboard"],"permalink":"/music/fl-studio/novation-launchkey-mk2-mkii-with-fl-studio/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","midi","controller","keyboard"]}}
+{"dg-publish":true,"permalink":"/music/fl-studio/novation-launchkey-mk2-mkii-with-fl-studio/","tags":["music","midi","controller","keyboard"],"noteIcon":"","created":"2026-08-23T22:17:08.000-05:00","updated":"2026-08-23T22:17:08.000-05:00","dg-note-properties":{"tags":["music","midi","controller","keyboard"]}}
 ---
 
 I've had to re setup this a few times and writing down what I did in case I gotta do it again.

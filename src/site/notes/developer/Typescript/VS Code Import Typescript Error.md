@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["typescript","text_editor","vscode","code"],"permalink":"/developer/typescript/vs-code-import-typescript-error/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["typescript","text_editor","vscode","code"]}}
+{"dg-publish":true,"permalink":"/developer/typescript/vs-code-import-typescript-error/","tags":["typescript","text_editor","vscode","code"],"noteIcon":"","created":"2025-04-09T11:30:10.000-05:00","updated":"2025-04-09T11:30:10.000-05:00","dg-note-properties":{"tags":["typescript","text_editor","vscode","code"]}}
 ---
 
 If you've noticed a strange error saying your import is wrong. Then you delete and retype the *EXACT* same thing and... wow the error is gone? wtf.

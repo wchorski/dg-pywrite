@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript","typescript","webdev"],"permalink":"/developer/node-js/node-js/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["javascript","typescript","webdev"]}}
+{"dg-publish":true,"permalink":"/developer/node-js/node-js/","tags":["javascript","typescript","webdev"],"noteIcon":"","created":"2025-04-09T11:41:23.000-05:00","updated":"2025-04-09T11:41:23.000-05:00","dg-note-properties":{"tags":["javascript","typescript","webdev"]}}
 ---
 
 ## Tips & Tricks

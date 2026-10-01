@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["reactjs","nodejs","JSX"],"permalink":"/developer/react-js/control-input-field-with-buttons/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["reactjs","nodejs","JSX"]}}
+{"dg-publish":true,"permalink":"/developer/react-js/control-input-field-with-buttons/","tags":["reactjs","nodejs","JSX"],"noteIcon":"","created":"2025-04-09T11:30:40.000-05:00","updated":"2025-04-09T11:30:40.000-05:00","dg-note-properties":{"tags":["reactjs","nodejs","JSX"]}}
 ---
 
 With [[developer/ReactJS/ReactJS\|ReactJS]], I wanted to create an number input field that can both be edited by keyboard input and incremental buttons like

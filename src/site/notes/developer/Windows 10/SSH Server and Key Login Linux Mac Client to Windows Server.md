@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["ssh","terminal","IoT","homelab"],"permalink":"/developer/windows-10/ssh-server-and-key-login-linux-mac-client-to-windows-server/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["ssh","terminal","IoT","homelab"]}}
+{"dg-publish":true,"permalink":"/developer/windows-10/ssh-server-and-key-login-linux-mac-client-to-windows-server/","tags":["ssh","terminal","IoT","homelab"],"noteIcon":"","created":"2026-09-16T10:46:29.000-05:00","updated":"2026-09-16T10:46:29.000-05:00","dg-note-properties":{"tags":["ssh","terminal","IoT","homelab"]}}
 ---
 
 I wanted to send commands from other computers to my **Windows 10** machine. Upon initial install of Windows, I logged in with my Microsoft account and was met with `Permission denied, please try again.` when trying passwords

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-dynamic-table/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/react-js/react-dynamic-table/","noteIcon":"","created":"2025-04-09T11:35:39.000-05:00","updated":"2025-04-09T11:35:39.000-05:00","dg-note-properties":{}}
 ---
 
 This is a [[developer/ReactJS/ReactJS\|ReactJS]] expansion to my [[developer/HTML/Responsive HTML Tables\|Responsive HTML Tables]]. 

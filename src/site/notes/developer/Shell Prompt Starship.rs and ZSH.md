@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/shell-prompt-starship-rs-and-zsh/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/shell-prompt-starship-rs-and-zsh/","noteIcon":"","created":"2025-04-09T11:33:04.000-05:00","updated":"2025-04-09T11:33:04.000-05:00","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/typescript/typescript-paths/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/typescript/typescript-paths/","noteIcon":"","created":"2025-04-09T11:35:36.000-05:00","updated":"2025-04-09T11:35:36.000-05:00","dg-note-properties":{}}
 ---
 
 with [[developer/Typescript/Typescript\|Typescript]] paths, you're able to set custom paths to make imports much easier to remember and type

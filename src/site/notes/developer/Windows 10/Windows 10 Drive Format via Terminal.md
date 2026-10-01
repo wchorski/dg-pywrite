@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["windows","microsoft"],"permalink":"/developer/windows-10/windows-10-drive-format-via-terminal/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["windows","microsoft"]}}
+{"dg-publish":true,"permalink":"/developer/windows-10/windows-10-drive-format-via-terminal/","tags":["windows","microsoft"],"noteIcon":"","created":"2026-09-16T10:46:30.000-05:00","updated":"2026-09-16T10:46:30.000-05:00","dg-note-properties":{"tags":["windows","microsoft"]}}
 ---
 
 ```

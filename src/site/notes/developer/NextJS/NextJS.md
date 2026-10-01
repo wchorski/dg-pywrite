@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript","typescript","reactjs"],"permalink":"/developer/next-js/next-js/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["javascript","typescript","reactjs"]}}
+{"dg-publish":true,"permalink":"/developer/next-js/next-js/","tags":["javascript","typescript","reactjs"],"noteIcon":"","created":"2025-04-09T11:41:24.000-05:00","updated":"2025-04-09T11:41:24.000-05:00","dg-note-properties":{"tags":["javascript","typescript","reactjs"]}}
 ---
 
 [Next.js by Vercel - The React Framework (nextjs.org)](https://nextjs.org/)

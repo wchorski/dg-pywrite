@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/windows-boot-error-blue-screen/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/windows-10/windows-boot-error-blue-screen/","noteIcon":"","created":"2026-09-16T10:46:31.000-05:00","updated":"2026-09-16T10:46:31.000-05:00","dg-note-properties":{}}
 ---
 
 Nothing like getting home from a full day of work to boot up your home [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]] 10 PC and see the blue screen of death.

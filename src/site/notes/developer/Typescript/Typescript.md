@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["reactjs","NextJS","javascript","typescript"],"permalink":"/developer/typescript/typescript/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["reactjs","NextJS","javascript","typescript"]}}
+{"dg-publish":true,"permalink":"/developer/typescript/typescript/","tags":["reactjs","NextJS","javascript","typescript"],"noteIcon":"","created":"2025-04-09T11:37:52.000-05:00","updated":"2025-04-09T11:37:52.000-05:00","dg-note-properties":{"tags":["reactjs","NextJS","javascript","typescript"]}}
 ---
 
 A super script of [[developer/Javascript/Javascript\|Javascript]] to make it strongly typed language.

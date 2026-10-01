@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/windows-10/host-static-website-on-windows-10-iis/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/windows-10/host-static-website-on-windows-10-iis/","noteIcon":"","created":"2026-09-16T10:46:31.000-05:00","updated":"2026-09-16T10:46:31.000-05:00","dg-note-properties":{}}
 ---
 
 ## Enable IIS Feature

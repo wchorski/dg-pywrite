@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","buisness"],"permalink":"/music/advice/why-music-song-titles-and-genres-matter/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","buisness"]}}
+{"dg-publish":true,"permalink":"/music/advice/why-music-song-titles-and-genres-matter/","tags":["music","buisness"],"noteIcon":"","created":"2025-08-21T11:54:02.000-05:00","updated":"2025-08-21T11:54:02.000-05:00","dg-note-properties":{"tags":["music","buisness"]}}
 ---
 
 While watching a [Venus Theory](https://www.youtube.com/@VenusTheory) video [Instagrambient: The Soundtrack of Social Media](https://www.youtube.com/watch?v=99kY7AwAQOw) I came across the idea I've had a few times before. Why the title and genre of your music is important and how it sets expectations to the listener. 

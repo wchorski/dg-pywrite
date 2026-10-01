@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/react-js-form-validation-without-library/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/react-js/react-js-form-validation-without-library/","noteIcon":"","created":"2025-04-09T11:29:07.000-05:00","updated":"2025-04-09T11:29:07.000-05:00","dg-note-properties":{}}
 ---
 
 [[developer/Home Lab/ReactJS\|ReactJS]]

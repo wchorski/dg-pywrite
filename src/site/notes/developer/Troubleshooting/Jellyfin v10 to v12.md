@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["media","server","selfhosted","docker"],"permalink":"/developer/troubleshooting/jellyfin-v10-to-v12/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["media","server","selfhosted","docker"]}}
+{"dg-publish":true,"permalink":"/developer/troubleshooting/jellyfin-v10-to-v12/","tags":["media","server","selfhosted","docker"],"noteIcon":"","created":"2026-09-09T12:34:39.000-05:00","updated":"2026-09-09T12:34:39.000-05:00","dg-note-properties":{"tags":["media","server","selfhosted","docker"]}}
 ---
 
 What a nightmare upgrading and trying to fix SQLite errors for [[developer/Home Lab/Jellyfin\|Jellyfin]]

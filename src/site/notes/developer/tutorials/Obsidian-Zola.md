@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/tutorials/obsidian-zola/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/tutorials/obsidian-zola/","noteIcon":"","created":"2025-04-09T11:37:06.000-05:00","updated":"2025-04-09T11:37:06.000-05:00","dg-note-properties":{}}
 ---
 
 a much easier way to publish Obsidian Vaults (although [[developer/tutorials/Quartz-w_Boswell\|Quartz-w_Boswell]] has some percs, this was much faster to publish and, out of the box, it looks nicer)

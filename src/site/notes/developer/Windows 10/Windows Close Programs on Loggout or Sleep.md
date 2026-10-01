@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["windows","batch","powershell","terminal"],"permalink":"/developer/windows-10/windows-close-programs-on-loggout-or-sleep/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["windows","batch","powershell","terminal"]}}
+{"dg-publish":true,"permalink":"/developer/windows-10/windows-close-programs-on-loggout-or-sleep/","tags":["windows","batch","powershell","terminal"],"noteIcon":"","created":"2026-09-16T10:46:29.000-05:00","updated":"2026-09-16T10:46:29.000-05:00","dg-note-properties":{"tags":["windows","batch","powershell","terminal"]}}
 ---
 
 The day is done and my work (or gaming) at my [[developer/Windows 10/Microsoft Windows\|Microsoft Windows]] PC has come to an end. I usually send my PC to sleep so I can quick boot back into my desktop upon next session. Problem is that I don't like to close out of every single app one click at a time. 

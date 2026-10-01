@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/react-js/focus-textarea-after-disable/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/react-js/focus-textarea-after-disable/","noteIcon":"","created":"2025-04-09T11:31:57.000-05:00","updated":"2025-04-09T11:31:57.000-05:00","dg-note-properties":{}}
 ---
 
 The logic gets a bit fuzzy when trying to focus a `<textarea />` element right after enabling input. The `useEffect` has to be utilized to keep the DOM updated

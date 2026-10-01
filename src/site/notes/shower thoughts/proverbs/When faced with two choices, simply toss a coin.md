@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/when-faced-with-two-choices-simply-toss-a-coin/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/when-faced-with-two-choices-simply-toss-a-coin/","noteIcon":"","created":"2026-08-25T19:47:52.000-05:00","updated":"2026-08-25T19:47:52.000-05:00","dg-note-properties":{}}
 ---
 
 

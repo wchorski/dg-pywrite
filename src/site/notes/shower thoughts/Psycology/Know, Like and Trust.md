@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/psycology/know-like-and-trust/","tags":["advice","buisness","selfhosted"],"dg-note-properties":{"tags":["advice","buisness","selfhosted"]}}
+{"dg-publish":true,"permalink":"/shower-thoughts/psycology/know-like-and-trust/","tags":["advice","buisness","selfhosted"],"noteIcon":"","created":"2026-08-25T19:48:15.000-05:00","updated":"2026-08-25T19:48:15.000-05:00","dg-note-properties":{"tags":["advice","buisness","selfhosted"]}}
 ---
 
 > [!quote] KLT [^1]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/psycology/liar-s-paradox/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/psycology/liar-s-paradox/","noteIcon":"","created":"2026-08-25T19:48:26.000-05:00","updated":"2026-08-25T19:48:26.000-05:00","dg-note-properties":{}}
 ---
 
 

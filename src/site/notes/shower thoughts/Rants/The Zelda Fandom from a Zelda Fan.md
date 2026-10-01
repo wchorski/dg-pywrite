@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/rants/the-zelda-fandom-from-a-zelda-fan/","tags":["videogames","zelda","nintendo","rant"],"dg-note-properties":{"tags":["videogames","zelda","nintendo","rant"]}}
+{"dg-publish":true,"permalink":"/shower-thoughts/rants/the-zelda-fandom-from-a-zelda-fan/","tags":["videogames","zelda","nintendo","rant"],"noteIcon":"","created":"2026-08-25T19:48:03.000-05:00","updated":"2026-08-25T19:48:03.000-05:00","dg-note-properties":{"tags":["videogames","zelda","nintendo","rant"]}}
 ---
 
 Watched this [video](https://www.youtube.com/watch?v=1po1IYonV80) talking about the **Zelda Fandom** from an unbiased opinion, but also got me thinking in a more meta sense about other fandoms

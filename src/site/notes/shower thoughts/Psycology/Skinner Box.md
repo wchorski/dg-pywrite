@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/psycology/skinner-box/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/psycology/skinner-box/","noteIcon":"","created":"2026-08-25T19:48:34.000-05:00","updated":"2026-08-25T19:48:34.000-05:00","dg-note-properties":{}}
 ---
 
 > The Skinner Box is a chamber, often small, that is used to conduct operant conditioning research with animals. Within this chamber, there is usually a lever or key that an individual animal can operate to obtain a food or water source within the chamber as a reinforcer.

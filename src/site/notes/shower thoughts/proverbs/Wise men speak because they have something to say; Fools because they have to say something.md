@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/wise-men-speak-because-they-have-something-to-say-fools-because-they-have-to-say-something/","dg-note-properties":{"tags":null}}
+{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/wise-men-speak-because-they-have-something-to-say-fools-because-they-have-to-say-something/","noteIcon":"","created":"2026-08-25T19:47:49.000-05:00","updated":"2026-08-25T19:47:49.000-05:00","dg-note-properties":{"tags":null}}
 ---
 
 

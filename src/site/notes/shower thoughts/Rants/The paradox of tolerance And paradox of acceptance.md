@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/rants/the-paradox-of-tolerance-and-paradox-of-acceptance/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/rants/the-paradox-of-tolerance-and-paradox-of-acceptance/","noteIcon":"","created":"2026-08-25T19:47:52.000-05:00","updated":"2026-08-25T19:47:52.000-05:00","dg-note-properties":{}}
 ---
 
 There are two paradox here. 

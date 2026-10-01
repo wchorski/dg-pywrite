@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/psycology/escapism/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/psycology/escapism/","noteIcon":"","created":"2026-08-25T19:48:39.000-05:00","updated":"2026-08-25T19:48:39.000-05:00","dg-note-properties":{}}
 ---
 
 ## In response to the "Keep politics out of music" persons

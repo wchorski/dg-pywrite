@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/loss-aversion-people-morn-lose-more-than-appreciate-gain/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/loss-aversion-people-morn-lose-more-than-appreciate-gain/","noteIcon":"","created":"2026-08-25T19:47:50.000-05:00","updated":"2026-08-25T19:47:50.000-05:00","dg-note-properties":{}}
 ---
 
 > Imagine finding a $100 bill on the ground. You’d feel a quick surge of joy. Now imagine losing $100 from your wallet. Which feels stronger? For most of us, the pain of loss is sharper than the pleasure of gain.

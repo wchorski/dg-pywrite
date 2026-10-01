@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/the-forest-voted-for-the-axe/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/the-forest-voted-for-the-axe/","noteIcon":"","created":"2026-08-25T19:48:05.000-05:00","updated":"2026-08-25T19:48:05.000-05:00","dg-note-properties":{}}
 ---
 
 

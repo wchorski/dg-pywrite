@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/no-rest-for-the-wicked/","tags":["idiom"],"dg-note-properties":{"tags":["idiom"]}}
+{"dg-publish":true,"permalink":"/shower-thoughts/proverbs/no-rest-for-the-wicked/","tags":["idiom"],"noteIcon":"","created":"2026-08-25T19:48:13.000-05:00","updated":"2026-08-25T19:48:13.000-05:00","dg-note-properties":{"tags":["idiom"]}}
 ---
 
 > The lack of peace in one's life, or the perpetual need to be working or be busy, stems from one's sinfulness. The phrase comes from the Bible, in which it alludes to the suffering in hell that awaits sinners after death. Now, the phrase is usually used humorously.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/rants/we-don-t-need-better-algorithms/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/rants/we-don-t-need-better-algorithms/","noteIcon":"","created":"2026-08-25T19:48:05.000-05:00","updated":"2026-08-25T19:48:05.000-05:00","dg-note-properties":{}}
 ---
 
 ## we don't need 'a better algorithm' we need 'better distribution'

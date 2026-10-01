@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shower-thoughts/words/pragmatic/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/shower-thoughts/words/pragmatic/","noteIcon":"","created":"2026-08-25T19:48:45.000-05:00","updated":"2026-08-25T19:48:45.000-05:00","dg-note-properties":{}}
 ---
 
 > relating to matters of fact or practical affairs often to the exclusion of intellectual or artistic matters **:** practical as opposed to idealistic

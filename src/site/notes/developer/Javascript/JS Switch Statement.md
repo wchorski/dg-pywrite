@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/js-switch-statement/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/javascript/js-switch-statement/","noteIcon":"","created":"2025-04-09T11:34:51.000-05:00","updated":"2025-04-09T11:34:51.000-05:00","dg-note-properties":{}}
 ---
 
 ## Switch Statement

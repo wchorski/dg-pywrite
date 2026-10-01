@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/networking/nginx-proxy-manager-redirect-to-nested-page/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/networking/nginx-proxy-manager-redirect-to-nested-page/","noteIcon":"","created":"2025-04-09T11:27:52.000-05:00","updated":"2025-04-09T11:27:52.000-05:00","dg-note-properties":{}}
 ---
 
 I wanted to create an 'under construction' homepage for my personal site. I'm already running a site service with [[developer/Home Lab/Nginx Static Site\|Nginx Static Site]] serves public assets (pictures, videos). I will refer to this as my **Static Asset Site**

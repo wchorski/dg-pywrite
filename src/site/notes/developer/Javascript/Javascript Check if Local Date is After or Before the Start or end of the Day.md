@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/javascript-check-if-local-date-is-after-or-before-the-start-or-end-of-the-day/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/javascript/javascript-check-if-local-date-is-after-or-before-the-start-or-end-of-the-day/","noteIcon":"","created":"2025-04-09T11:26:42.000-05:00","updated":"2025-04-09T11:26:42.000-05:00","dg-note-properties":{}}
 ---
 
 I needed a helper script that helps calculate days in a availablity calendar

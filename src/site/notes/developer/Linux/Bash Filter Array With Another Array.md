@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","bash","array"],"permalink":"/developer/linux/bash-filter-array-with-another-array/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","bash","array"]}}
+{"dg-publish":true,"permalink":"/developer/linux/bash-filter-array-with-another-array/","tags":["linux","bash","array"],"noteIcon":"","created":"2025-04-09T11:30:09.000-05:00","updated":"2025-04-09T11:30:09.000-05:00","dg-note-properties":{"tags":["linux","bash","array"]}}
 ---
 
 ## Single Line String to Array

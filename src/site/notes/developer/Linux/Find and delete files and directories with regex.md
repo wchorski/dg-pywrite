@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","files","filesystem","automation"],"permalink":"/developer/linux/find-and-delete-files-and-directories-with-regex/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","files","filesystem","automation"]}}
+{"dg-publish":true,"permalink":"/developer/linux/find-and-delete-files-and-directories-with-regex/","tags":["linux","files","filesystem","automation"],"noteIcon":"","created":"2026-05-09T09:51:07.000-05:00","updated":"2026-05-09T09:51:07.000-05:00","dg-note-properties":{"tags":["linux","files","filesystem","automation"]}}
 ---
 
 on my [[developer/Linux/Linux\|Linux]] system I want to delete [[developer/Home Lab/Docker\|Docker]] volumes that are not named (usually orphaned by old containers). Yes I'm aware of `docker system prune` but in this case I am working off a spare drive, recovering data way from the docker server.

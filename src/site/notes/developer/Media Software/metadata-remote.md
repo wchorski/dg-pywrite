@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["music","metadata","tags","genre","media","library","songs"],"permalink":"/developer/media-software/metadata-remote/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["music","metadata","tags","genre","media","library","songs"]}}
+{"dg-publish":true,"permalink":"/developer/media-software/metadata-remote/","tags":["music","metadata","tags","genre","media","library","songs"],"noteIcon":"","created":"2025-07-12T00:42:01.000-05:00","updated":"2025-07-12T00:42:01.000-05:00","dg-note-properties":{"tags":["music","metadata","tags","genre","media","library","songs"]}}
 ---
 
 Never have I found a self hosted app that helps a niche problem yet so elegantly in every way.

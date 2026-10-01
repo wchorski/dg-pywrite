@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["MacOs","mac","Apple","windows"],"permalink":"/developer/mac-os/mac-osx-drive-format-via-terminal/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["MacOs","mac","Apple","windows"]}}
+{"dg-publish":true,"permalink":"/developer/mac-os/mac-osx-drive-format-via-terminal/","tags":["MacOs","mac","Apple","windows"],"noteIcon":"","created":"2025-04-09T11:31:15.000-05:00","updated":"2025-04-09T11:31:15.000-05:00","dg-note-properties":{"tags":["MacOs","mac","Apple","windows"]}}
 ---
 
 I was moving data between a Macbook and Windows PC. For some reason the USB worked on the Windows PC but wouldn't **Initialize** in MacOS making the drive unreadable. 

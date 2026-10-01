@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["KeystoneJS","typescript","authorization"],"permalink":"/developer/keystone-js/keystone-js-6-hide-and-restrict-field-in-schema/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["KeystoneJS","typescript","authorization"]}}
+{"dg-publish":true,"permalink":"/developer/keystone-js/keystone-js-6-hide-and-restrict-field-in-schema/","tags":["KeystoneJS","typescript","authorization"],"noteIcon":"","created":"2025-04-09T11:27:32.000-05:00","updated":"2025-04-09T11:27:32.000-05:00","dg-note-properties":{"tags":["KeystoneJS","typescript","authorization"]}}
 ---
 
 I have a data schema named **Booking** in my [[developer/KeystoneJS/KeystoneJS\|KeystoneJS]] app. The [Docs](https://keystonejs.com/docs/config/access-control)explain in a broad term, but examples for an individual field access is still confusing. Here is my example with permissions, access, etc.

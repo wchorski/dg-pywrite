@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["javascript","reactive","webdev","gamedev","html","js","JSDoc"],"permalink":"/developer/javascript/custom-event-vs-broadcast-channel/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["javascript","reactive","webdev","gamedev","html","js","JSDoc"]}}
+{"dg-publish":true,"permalink":"/developer/javascript/custom-event-vs-broadcast-channel/","tags":["javascript","reactive","webdev","gamedev","html","js","JSDoc"],"noteIcon":"","created":"2025-12-05T14:01:06.000-06:00","updated":"2025-12-05T14:01:06.000-06:00","dg-note-properties":{"tags":["javascript","reactive","webdev","gamedev","html","js","JSDoc"]}}
 ---
 
 While building my [Family Feud clone](https://github.com/wchorski/festi-feud) I wanted to make reactive ui that served the moderator and game window (that are shown separate browser tabs). My first thought was to make a pub/sub type system with state being held and mutated in a **GameStateManager** class component

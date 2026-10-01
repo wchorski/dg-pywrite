@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["KYPN","webdev","tawtaw"],"permalink":"/developer/kypn/kypn-booking-flow/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["KYPN","webdev","tawtaw"]}}
+{"dg-publish":true,"permalink":"/developer/kypn/kypn-booking-flow/","tags":["KYPN","webdev","tawtaw"],"noteIcon":"","created":"2025-04-09T11:37:22.000-05:00","updated":"2025-04-09T11:37:22.000-05:00","dg-note-properties":{"tags":["KYPN","webdev","tawtaw"]}}
 ---
 
 ## Flow Chart

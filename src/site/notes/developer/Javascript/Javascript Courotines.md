@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["js","javascript","automation","async","yield"],"permalink":"/developer/javascript/javascript-courotines/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["js","javascript","automation","async","yield"]}}
+{"dg-publish":true,"permalink":"/developer/javascript/javascript-courotines/","tags":["js","javascript","automation","async","yield"],"noteIcon":"","created":"2025-04-09T20:44:45.000-05:00","updated":"2025-04-09T20:44:45.000-05:00","dg-note-properties":{"tags":["js","javascript","automation","async","yield"]}}
 ---
 
 ```js

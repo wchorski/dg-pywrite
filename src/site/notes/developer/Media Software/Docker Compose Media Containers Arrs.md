@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/docker-compose-media-containers-arrs/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/media-software/docker-compose-media-containers-arrs/","noteIcon":"","created":"2026-09-08T13:07:15.000-05:00","updated":"2026-09-08T13:07:15.000-05:00","dg-note-properties":{}}
 ---
 
 - [[developer/Media Software/Prowlarr\|Prowlarr]]

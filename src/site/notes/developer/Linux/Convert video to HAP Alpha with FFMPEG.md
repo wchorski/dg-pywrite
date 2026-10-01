@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["media","convert","video"],"permalink":"/developer/linux/convert-video-to-hap-alpha-with-ffmpeg/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["media","convert","video"]}}
+{"dg-publish":true,"permalink":"/developer/linux/convert-video-to-hap-alpha-with-ffmpeg/","tags":["media","convert","video"],"noteIcon":"","created":"2025-09-24T19:54:33.000-05:00","updated":"2025-09-24T19:54:33.000-05:00","dg-note-properties":{"tags":["media","convert","video"]}}
 ---
 
 https://gist.github.com/dlublin/e4585b872dd136ae88b2aa51a6a89aac

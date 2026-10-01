@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/debian-linux-unable-to-locate-package/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/linux/debian-linux-unable-to-locate-package/","noteIcon":"","created":"2025-04-09T11:29:42.000-05:00","updated":"2025-04-09T11:29:42.000-05:00","dg-note-properties":{}}
 ---
 
 ## fix sources.list

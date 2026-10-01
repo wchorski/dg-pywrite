@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","network","DNS"],"permalink":"/developer/linux/raspberry-hostname-mismatch/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","network","DNS"]}}
+{"dg-publish":true,"permalink":"/developer/linux/raspberry-hostname-mismatch/","tags":["linux","network","DNS"],"noteIcon":"","created":"2025-04-09T11:32:53.000-05:00","updated":"2025-04-09T11:32:53.000-05:00","dg-note-properties":{"tags":["linux","network","DNS"]}}
 ---
 
 

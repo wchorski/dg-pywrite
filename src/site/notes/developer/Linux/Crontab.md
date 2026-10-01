@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/crontab/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/linux/crontab/","noteIcon":"","created":"2025-04-09T11:41:25.000-05:00","updated":"2025-04-09T11:41:25.000-05:00","dg-note-properties":{}}
 ---
 
 run scripts on a regular schedule

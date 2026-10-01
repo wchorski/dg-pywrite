@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["JSDoc","javascript","typescript","no_build"],"permalink":"/developer/javascript/js-doc-typing-a-broadcast-channel-listener-with-enum/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["JSDoc","javascript","typescript","no_build"]}}
+{"dg-publish":true,"permalink":"/developer/javascript/js-doc-typing-a-broadcast-channel-listener-with-enum/","tags":["JSDoc","javascript","typescript","no_build"],"noteIcon":"","created":"2025-12-05T14:01:05.000-06:00","updated":"2025-12-05T14:01:05.000-06:00","dg-note-properties":{"tags":["JSDoc","javascript","typescript","no_build"]}}
 ---
 
 This technique came about when working with reactivity in my vanilla js project https://github.com/wchorski/festi-feud. I am leveraging [[developer/Typescript/Typescript\|Typescript]]  in development even though all files are vanilla JS. No need for a build step, the source code runs in a browser.

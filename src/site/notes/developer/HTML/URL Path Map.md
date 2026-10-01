@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/html/url-path-map/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/html/url-path-map/","noteIcon":"","created":"2025-04-09T11:40:09.000-05:00","updated":"2025-04-09T11:40:09.000-05:00","dg-note-properties":{}}
 ---
 
 ```txt

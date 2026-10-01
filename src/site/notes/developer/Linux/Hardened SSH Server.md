@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/hardened-ssh-server/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/linux/hardened-ssh-server/","noteIcon":"","created":"2026-08-27T14:41:59.000-05:00","updated":"2026-08-27T14:41:59.000-05:00","dg-note-properties":{}}
 ---
 
 describe_the_problem

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/media-software/dispatcharr/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/media-software/dispatcharr/","noteIcon":"","created":"2026-09-08T15:47:15.000-05:00","updated":"2026-09-08T15:47:15.000-05:00","dg-note-properties":{}}
 ---
 
 IPTV

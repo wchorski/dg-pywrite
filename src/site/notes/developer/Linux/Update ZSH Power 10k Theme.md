@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/update-zsh-power-10k-theme/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/linux/update-zsh-power-10k-theme/","noteIcon":"","created":"2025-08-05T11:24:40.000-05:00","updated":"2025-08-05T11:24:40.000-05:00","dg-note-properties":{}}
 ---
 
 ## Error (shortened)

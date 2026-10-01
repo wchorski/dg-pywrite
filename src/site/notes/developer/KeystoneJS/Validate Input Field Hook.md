@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/keystone-js/validate-input-field-hook/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/keystone-js/validate-input-field-hook/","noteIcon":"","created":"2025-04-09T11:31:56.000-05:00","updated":"2025-04-09T11:31:56.000-05:00","dg-note-properties":{}}
 ---
 
 comparison of how you could sanitize data, or just throw a `validation` error upon POST

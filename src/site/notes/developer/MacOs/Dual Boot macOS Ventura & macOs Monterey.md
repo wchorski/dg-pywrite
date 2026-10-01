@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/mac-os/dual-boot-mac-os-ventura-and-mac-os-monterey/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/mac-os/dual-boot-mac-os-ventura-and-mac-os-monterey/","noteIcon":"","created":"2025-04-09T11:29:17.000-05:00","updated":"2025-04-09T11:29:17.000-05:00","dg-note-properties":{}}
 ---
 
 

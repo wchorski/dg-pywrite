@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","bash","automation","webdev"],"permalink":"/developer/linux/monitor-website-s-html-status-code-with-bash-script/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","bash","automation","webdev"]}}
+{"dg-publish":true,"permalink":"/developer/linux/monitor-website-s-html-status-code-with-bash-script/","tags":["linux","bash","automation","webdev"],"noteIcon":"","created":"2026-03-21T18:20:32.000-05:00","updated":"2026-03-21T18:20:32.000-05:00","dg-note-properties":{"tags":["linux","bash","automation","webdev"]}}
 ---
 
 > [!note] DIY

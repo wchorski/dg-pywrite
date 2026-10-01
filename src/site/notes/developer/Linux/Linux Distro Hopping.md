@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","desktop"],"permalink":"/developer/linux/linux-distro-hopping/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","desktop"]}}
+{"dg-publish":true,"permalink":"/developer/linux/linux-distro-hopping/","tags":["linux","desktop"],"noteIcon":"","created":"2025-04-09T11:35:54.000-05:00","updated":"2025-04-09T11:35:54.000-05:00","dg-note-properties":{"tags":["linux","desktop"]}}
 ---
 
 Every time I've used a Linux distro, I would always start from scratch or manually move the few `~/` files that would be in my home folder.

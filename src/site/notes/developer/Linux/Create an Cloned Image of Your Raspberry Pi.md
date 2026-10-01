@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","hardware"],"permalink":"/developer/linux/create-an-cloned-image-of-your-raspberry-pi/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","hardware"]}}
+{"dg-publish":true,"permalink":"/developer/linux/create-an-cloned-image-of-your-raspberry-pi/","tags":["linux","hardware"],"noteIcon":"","created":"2025-04-09T11:28:41.000-05:00","updated":"2025-04-09T11:28:41.000-05:00","dg-note-properties":{"tags":["linux","hardware"]}}
 ---
 
 ## External Drive

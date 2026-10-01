@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux","debian","terminal"],"permalink":"/developer/linux/rotate-terminal-orientation-on-headless-no-gui-desktop-server/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux","debian","terminal"]}}
+{"dg-publish":true,"permalink":"/developer/linux/rotate-terminal-orientation-on-headless-no-gui-desktop-server/","tags":["linux","debian","terminal"],"noteIcon":"","created":"2026-05-05T17:37:42.000-05:00","updated":"2026-05-05T17:37:42.000-05:00","dg-note-properties":{"tags":["linux","debian","terminal"]}}
 ---
 
 I have a headless Debian server that I recently ran a monitor. I prefer to have the monitor rotate 90 degrees so it is in a portrait view. This makes for easier reading of many short lines with more vertical space. Here's how to do it.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/linux/usb-camera-over-rtsp-raspberry-pi/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/linux/usb-camera-over-rtsp-raspberry-pi/","noteIcon":"","created":"2026-03-16T23:36:21.000-05:00","updated":"2026-03-16T23:36:21.000-05:00","dg-note-properties":{}}
 ---
 
 https://github.com/bluenviron/mediamtx?tab=readme-ov-file#standalone-binary

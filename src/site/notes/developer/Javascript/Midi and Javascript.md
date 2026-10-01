@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/midi-and-javascript/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/javascript/midi-and-javascript/","noteIcon":"","created":"2025-04-09T11:34:51.000-05:00","updated":"2025-04-09T11:34:51.000-05:00","dg-note-properties":{}}
 ---
 
 This is the beginning how I learn to input midi into a web browser via #javascript 

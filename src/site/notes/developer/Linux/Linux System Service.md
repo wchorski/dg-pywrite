@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["linux"],"permalink":"/developer/linux/linux-system-service/","dgPassFrontmatter":true,"dg-note-properties":{"tags":["linux"]}}
+{"dg-publish":true,"permalink":"/developer/linux/linux-system-service/","tags":["linux"],"noteIcon":"","created":"2025-04-09T11:35:58.000-05:00","updated":"2025-04-09T11:35:58.000-05:00","dg-note-properties":{"tags":["linux"]}}
 ---
 
 

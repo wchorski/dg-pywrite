@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/javascript/js-filter-and-map-array-to-avoid-undefined/","dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/javascript/js-filter-and-map-array-to-avoid-undefined/","noteIcon":"","created":"2025-04-09T11:28:00.000-05:00","updated":"2025-04-09T11:28:00.000-05:00","dg-note-properties":{}}
 ---
 
 when you map over an array with an `if` statement, you'll notice it fills your array with `undefined` values.

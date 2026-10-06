@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/home-lab/","noteIcon":"","created":"2025-04-09T11:38:20.000-05:00","updated":"2025-04-09T11:38:20.000-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/home-lab/","noteIcon":"","created":"2026-10-02T11:03:15.000-05:00","updated":"2026-10-02T11:03:15.000-05:00","dg-note-properties":{}}
 ---
 
 ## Network Routing
@@ -72,7 +72,7 @@ router <-- fiber 400mbps --> internet
 ## Icicle - Intel NUC (Debian 11 Bullseye 64bit)
 - [[developer/Home Lab/Glances\|Glances]]
 - [[developer/Home Lab/Duplicati\|Duplicati]]
-- [[developer/Home Lab/SFTP\|SFTP]]
+- [[developer/Home Lab/SFTP Server\|SFTP Server]]
 - [[developer/Home Lab/Docker\|Docker]]
 	- [[developer/Home Lab/Nextcloud\|Nextcloud]]
 	- [[developer/Home Lab/Nginx Proxy Manager\|Nginx Proxy Manager]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/nginx-proxy-manager/","noteIcon":"","created":"2025-04-09T11:35:20.000-05:00","updated":"2025-04-09T11:35:20.000-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/nginx-proxy-manager/","noteIcon":"","created":"2026-10-03T00:44:51.000-05:00","updated":"2026-10-03T00:44:51.000-05:00","dg-note-properties":{}}
 ---
 
 
@@ -109,7 +109,14 @@ Password: changeme
 ## Leveraging Docker's Internal DNS routing
 for example [[developer/Home Lab/vaultwarden\|vaultwarden]] I do *not* specify a `port` number. instead I use the `container_name: vaultwarden` as a DNS entry I can use in **Nginx Proxy Manager** 
 
+## Making Certs The Easy way
+Using your DNS provider's API you can automatically pull a wildcard domain for sub and apex to use for multiple domains
+
+[[developer/DNS/Let's Encrypt via DNS and Porkbun API\|Let's Encrypt via DNS and Porkbun API]]
 ## Dark Mode
+> [!note] Dark mode is now native
+> This is for the people that may want to customize their CSS
+
 There isn't an official dark mode, but with a bit of file digging, you too can override the `main.css` 
 
 1. Spin up the container first and let the app pull down.

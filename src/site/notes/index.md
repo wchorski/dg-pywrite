@@ -6,12 +6,12 @@
 Here is where I dump notes on web development, automation, game emulation, music, and shower thoughts. These notes will be continuously 'watered' over time, fixing, updating, and growing this database of notes. 
 
 ## Recent Notes
-| File                                                                                           | Last modified      |
-| ---------------------------------------------------------------------------------------------- | ------------------ |
-| [[developer/Zoom/Zoom Room Basics\|Zoom Room Basics]]                                       | 01.10.2026 - 16:47 |
-| [[developer/Zoom/Making Phone Calls with a Zoom Room\|Making Phone Calls with a Zoom Room]] | 01.10.2026 - 16:34 |
-| [[shower thoughts/idioms/Idioms Index\|Idioms Index]]                                       | 30.09.2026 - 13:11 |
-| [[shower thoughts/idioms/Fortune Favors The Bold\|Fortune Favors The Bold]]                 | 18.09.2026 - 12:57 |
+| File                                                                                                                                                 | Last modified      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [[shower thoughts/idioms/Do As I Say Not As I Do\|Do As I Say Not As I Do]]                                                                       | 06.10.2026 - 11:14 |
+| [[shower thoughts/idioms/Curiosity Killed the Cat\|Curiosity Killed the Cat]]                                                                     | 05.10.2026 - 12:07 |
+| [[developer/GameDev/BooNo\|BooNo]]                                                                                                                | 05.10.2026 - 10:59 |
+| [[developer/Media Software/Managing a DJ Library, Listening Playlists, and DJ Crates\|Managing a DJ Library, Listening Playlists, and DJ Crates]] | 03.10.2026 - 14:10 |
 
 { .block-language-dataview}
 
@@ -19,9 +19,9 @@ Here is where I dump notes on web development, automation, game emulation, music
 | File                                                               | Last modified      |
 | ------------------------------------------------------------------ | ------------------ |
 | [[developer/Home Lab/CouchDB\|CouchDB]]                         | 09.04.2025 - 11:40 |
-| [[developer/Home Lab/Desktop Apps\|Desktop Apps]]               | 09.04.2025 - 11:37 |
 | [[developer/Home Lab/Docker\|Docker]]                           | 09.04.2025 - 11:40 |
 | [[developer/Home Lab/DuckDNS\|DuckDNS]]                         | 09.04.2025 - 11:40 |
+| [[developer/Home Lab/Desktop Apps\|Desktop Apps]]               | 09.04.2025 - 11:37 |
 | [[developer/Home Lab/Duplicati\|Duplicati]]                     | 09.04.2025 - 11:39 |
 | [[developer/Home Lab/Dynamic DNS Choices\|Dynamic DNS Choices]] | 09.04.2025 - 11:35 |
 
@@ -38,11 +38,11 @@ Here is where I dump notes on web development, automation, game emulation, music
 | [[developer/Hardware/My GPU Journey\|My GPU Journey]]                             | \-               | \-   |
 | [[developer/Hardware/Network Switch TL-SG108PE\|Network Switch TL-SG108PE]]       | \-               | \-   |
 | [[developer/Hardware/Nintendo Switch Gen 1\|Nintendo Switch Gen 1]]               | \-               | \-   |
-| [[developer/Hardware/Phenom II X6 1045T Custom PC\|Phenom II X6 1045T Custom PC]] | Kevin the Ripper | \-   |
 | [[developer/Hardware/Pi4\|Pi4]]                                                   | rpi4             | \-   |
-| [[developer/Hardware/Playstation Vita\|Playstation Vita]]                         | \-               | \-   |
+| [[developer/Hardware/Phenom II X6 1045T Custom PC\|Phenom II X6 1045T Custom PC]] | Kevin the Ripper | \-   |
 | [[developer/Hardware/Ryzen 5 5600x Custom PC\|Ryzen 5 5600x Custom PC]]           | FrostByte        | \-   |
 | [[developer/Hardware/Ryzen 9 3900x Custom PC\|Ryzen 9 3900x Custom PC]]           | spearmint        | \-   |
+| [[developer/Hardware/Playstation Vita\|Playstation Vita]]                         | \-               | \-   |
 
 { .block-language-dataview}
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/music/lsdj/lsdj-tips/","tags":["music","hardware","nintendo","gameboy","videogames"],"noteIcon":"","created":"2026-08-22T13:28:44.000-05:00","updated":"2026-08-22T13:28:44.000-05:00","dg-note-properties":{"tags":["music","hardware","nintendo","gameboy","videogames"]}}
+{"dg-publish":true,"permalink":"/music/lsdj/lsdj-tips/","tags":["music","hardware","nintendo","gameboy","videogames"],"noteIcon":"","created":"2026-10-02T12:03:16.000-05:00","updated":"2026-10-02T12:03:16.000-05:00","dg-note-properties":{"tags":["music","hardware","nintendo","gameboy","videogames"]}}
 ---
 
 - [Tutorial - How to prepare drum breaks for LSDJ on the Game Boy](https://www.youtube.com/watch?v=KsCHfYFGD_A)
@@ -7,3 +7,6 @@
 - https://chrismaltby.itch.io/gb-studio
 	- https://reakain.itch.io/gb-studio-7-11-tileset
 	- https://junderproduction.itch.io/gb-studio-music-covers
+- Note values are not tied to instrument. You can continue an instruments envelope by deleting the instrument column retrigger https://www.youtube.com/watch?v=NbzhRnRAeYU
+## Tables
+- Using `A` command set to `FF` in a table stops the table short (with no retrigger). This allows for short 'one-shot' tables while stopping it from looping back on itself

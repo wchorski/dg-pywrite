@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/zoom/zoom-disable-waiting-room/","tags":["Zoom","settings","phone","meetings"],"noteIcon":"","created":"2025-09-23T11:08:31.000-05:00","updated":"2025-09-23T11:08:31.000-05:00","dg-note-properties":{"tags":["Zoom","settings","phone","meetings"]}}
+{"dg-publish":true,"permalink":"/developer/zoom/zoom-disable-waiting-room/","tags":["Zoom","settings","phone","meetings"],"noteIcon":"","created":"2026-10-01T16:47:22.000-05:00","updated":"2026-10-01T16:47:22.000-05:00","dg-note-properties":{"tags":["Zoom","settings","phone","meetings"]}}
 ---
 
 ## Question

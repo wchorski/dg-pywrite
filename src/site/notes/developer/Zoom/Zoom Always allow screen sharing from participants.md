@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/zoom/zoom-always-allow-screen-sharing-from-participants/","tags":["Zoom","share","display"],"noteIcon":"","created":"2026-02-03T19:56:38.000-06:00","updated":"2026-02-03T19:56:38.000-06:00","dg-note-properties":{"tags":["Zoom","share","display"]}}
+{"dg-publish":true,"permalink":"/developer/zoom/zoom-always-allow-screen-sharing-from-participants/","tags":["Zoom","share","display"],"noteIcon":"","created":"2026-10-01T16:47:22.000-05:00","updated":"2026-10-01T16:47:22.000-05:00","dg-note-properties":{"tags":["Zoom","share","display"]}}
 ---
 
 ## Defaults

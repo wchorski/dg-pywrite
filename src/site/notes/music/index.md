@@ -6,8 +6,8 @@ A collection of notes that related to music, music business, music theory... you
 ### Recently Modified or Added
 | File                                                                                                             | Last modified      |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [[music/LSDJ/LSDJ Tips\|LSDJ Tips]]                                                                           | 02.10.2026 - 12:03 |
 | [[music/FL Studio/Novation Launchkey Mk2 Mkii with FL Studio\|Novation Launchkey Mk2 Mkii with FL Studio]]    | 23.08.2026 - 22:17 |
-| [[music/LSDJ/LSDJ Tips\|LSDJ Tips]]                                                                           | 22.08.2026 - 13:28 |
 | [[music/advice/Ai Generated Music Thoughts\|Ai Generated Music Thoughts]]                                     | 29.07.2026 - 23:55 |
 | [[music/Reaper/Reaper Batch Export Regions as Separate Clips\|Reaper Batch Export Regions as Separate Clips]] | 23.07.2026 - 21:15 |
 | [[music/Reaper/Reaper Batch Renaming Markers and Regions\|Reaper Batch Renaming Markers and Regions]]         | 23.07.2026 - 21:15 |

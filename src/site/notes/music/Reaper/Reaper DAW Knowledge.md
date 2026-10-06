@@ -6,8 +6,8 @@
 - [[music/Reaper/Reaper Batch Export Regions as Separate Clips\|Reaper Batch Export Regions as Separate Clips]]
 - [[music/Reaper/Reaper Batch Renaming Markers and Regions\|Reaper Batch Renaming Markers and Regions]]
 - [[music/Reaper/Reaper DAW Knowledge\|Reaper DAW Knowledge]]
-- [[music/Reaper/Reaper Import AAF files from Film Editor\|Reaper Import AAF files from Film Editor]]
 - [[music/Reaper/Reaper Keybindings\|Reaper Keybindings]]
+- [[music/Reaper/Reaper Import AAF files from Film Editor\|Reaper Import AAF files from Film Editor]]
 
 { .block-language-dataview}
 

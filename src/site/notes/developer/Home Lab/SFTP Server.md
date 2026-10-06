@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/developer/home-lab/sftp-server/","noteIcon":"","created":"2025-11-04T22:27:06.000-06:00","updated":"2025-11-04T22:27:06.000-06:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/home-lab/sftp-server/","noteIcon":"","created":"2026-10-02T11:53:16.000-05:00","updated":"2026-10-02T11:53:16.000-05:00","dg-note-properties":{}}
 ---
 
-## Exiting groups or users
+## Check for Exiting groups or users
 ```shell
-❯ getent group sftp-users  
-sftp-users:x:1001:william_sftp,gary_sftp
+getent group sftp_group  
+sftp_group:x:1001:william_sftp,gary_sftp
 ```
 
 1. `sftp` is the group
@@ -33,27 +33,28 @@ sudo nano /etc/ssh/sshd_config
 Subsystem sftp internal-sftp
 ...
 # SFTP configuration
-Match Group sftp-users
+Match Group sftp_group
     ChrootDirectory /mnt/STORAGE/sftp/%u
-    ForceCommand internal-sftp
+    ForceCommand internal-sftp -d /upload
     AllowTcpForwarding no
     X11Forwarding no
 ```
 
-```
-sudo systemctl restart sshd
+```sh
 sudo systemctl restart ssh
+# or 
+sudo systemctl restart sshd
 ```
 
 This configuration:
 
-- Applies to users in the "sftp-users" group
+- Applies to users in the `sftp_group` group
 - Restricts them to their own directory under `/mnt/STORAGE/sftp/[username]`
 - Forces them to use SFTP only (no SSH shell access)
 - Disables TCP forwarding and X11 forwarding for security
 ### Step 4: Create the SFTP user group
 ```shell
-sudo groupadd sftp-users
+sudo groupadd sftp_group
 ```
 ### Step 5: Create the SFTP base directory
 ```shell
@@ -65,25 +66,38 @@ sudo chmod 701 /mnt/STORAGE/sftp
 
 ```shell
 # Create the user (or use an existing one)
-sudo useradd -m sftpuser1
-sudo passwd sftpuser1
+sudo useradd -m USER_SFTP_NAME
+sudo passwd USER_SFTP_NAME
 
-# Add the user to the sftp-users group
-sudo usermod -aG sftp-users sftpuser1
+# Add the user to the sftp_group group
+sudo usermod -aG sftp_group USER_SFTP_NAME
 
 # Create and configure their SFTP directory
-sudo mkdir -p /sftp/sftpuser1
-sudo mkdir -p /sftp/sftpuser1/upload
+sudo mkdir -p /mnt/STORAGE/sftp/USER_SFTP_NAME
+sudo mkdir -p /mnt/STORAGE/sftp/USER_SFTP_NAME/upload
 
 # Set ownership
-sudo chown root:root /sftp/sftpuser1
-sudo chown sftpuser1:sftpuser1 /sftp/sftpuser1/upload
-
-# I don't see the need to nest another `uploads` folder and just give permission to the user's username folder
-sudo chown root:root /sftp
-sudo chown sftpuser1:sftpuser1 /sftp/sftpuser1
+sudo chown root:root /mnt/STORAGE/sftp/USER_SFTP_NAME
+sudo chown USER_SFTP_NAME:USER_SFTP_NAME /mnt/STORAGE/sftp/USER_SFTP_NAME/upload
 
 # Set permissions
-sudo chmod 755 /sftp/sftpuser1
-sudo chmod 700 /sftp/sftpuser1/upload
+sudo chmod 755 /mnt/STORAGE/sftp/USER_SFTP_NAME
+sudo chmod 700 /mnt/STORAGE/sftp/USER_SFTP_NAME/upload
+```
+
+## Test
+```sh
+getent group sftp_group
+# output
+sftp_group:x:1001:USER_SFTP_NAME
+
+sudo sshd -t
+# no output is good
+sudo systemctl restart ssh
+```
+
+on remote client
+
+```sh
+sftp USER_SFTP_NAME@SERVER.IP
 ```

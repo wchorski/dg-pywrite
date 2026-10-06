@@ -4,7 +4,7 @@
         
         <url>
             <loc>http://pywriter.tawtaw.site/404/</loc>
-            <lastmod>2026-10-01T23:44:23.808Z</lastmod>
+            <lastmod>2026-10-06T19:36:49.685Z</lastmod>
         </url>
         
     
@@ -388,6 +388,13 @@
     
         
         <url>
+            <loc>http://pywriter.tawtaw.site/developer/dns/let-s-encrypt-via-dns-and-porkbun-api/</loc>
+            <lastmod>2026-10-03T05:44:51.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>http://pywriter.tawtaw.site/developer/dns/resolve-public-domain-with-local-dns/</loc>
             <lastmod>2026-07-28T01:37:56.000Z</lastmod>
         </url>
@@ -579,6 +586,13 @@
         <url>
             <loc>http://pywriter.tawtaw.site/developer/git/</loc>
             <lastmod>2025-04-09T16:42:35.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://pywriter.tawtaw.site/developer/game-dev/boo-no/</loc>
+            <lastmod>2026-10-05T15:59:57.464Z</lastmod>
         </url>
         
     
@@ -977,7 +991,7 @@
         
         <url>
             <loc>http://pywriter.tawtaw.site/developer/home-lab/home-lab/</loc>
-            <lastmod>2025-04-09T16:38:20.000Z</lastmod>
+            <lastmod>2026-10-02T16:03:15.000Z</lastmod>
         </url>
         
     
@@ -1054,7 +1068,7 @@
         
         <url>
             <loc>http://pywriter.tawtaw.site/developer/home-lab/nginx-proxy-manager/</loc>
-            <lastmod>2025-04-09T16:35:20.000Z</lastmod>
+            <lastmod>2026-10-03T05:44:51.000Z</lastmod>
         </url>
         
     
@@ -1138,14 +1152,7 @@
         
         <url>
             <loc>http://pywriter.tawtaw.site/developer/home-lab/sftp-server/</loc>
-            <lastmod>2025-11-05T04:27:06.000Z</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://pywriter.tawtaw.site/developer/home-lab/sftp/</loc>
-            <lastmod>2025-04-09T16:41:21.000Z</lastmod>
+            <lastmod>2026-10-02T16:53:16.000Z</lastmod>
         </url>
         
     
@@ -1755,6 +1762,20 @@
         <url>
             <loc>http://pywriter.tawtaw.site/developer/media-software/ladarr/</loc>
             <lastmod>2025-04-09T16:37:46.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://pywriter.tawtaw.site/developer/media-software/managing-a-dj-library-listening-playlists-and-dj-crates/</loc>
+            <lastmod>2026-10-03T19:10:29.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://pywriter.tawtaw.site/developer/media-software/navidrome/</loc>
+            <lastmod>2026-10-03T17:35:30.000Z</lastmod>
         </url>
         
     
@@ -2489,28 +2510,42 @@
         
         <url>
             <loc>http://pywriter.tawtaw.site/developer/zoom/making-phone-calls-with-a-zoom-room/</loc>
-            <lastmod>2026-10-01T21:34:03.418Z</lastmod>
+            <lastmod>2026-10-01T21:47:22.000Z</lastmod>
         </url>
         
     
         
         <url>
             <loc>http://pywriter.tawtaw.site/developer/zoom/zoom-always-allow-screen-sharing-from-participants/</loc>
-            <lastmod>2026-02-04T01:56:38.000Z</lastmod>
+            <lastmod>2026-10-01T21:47:22.000Z</lastmod>
         </url>
         
     
         
         <url>
             <loc>http://pywriter.tawtaw.site/developer/zoom/zoom-disable-waiting-room/</loc>
-            <lastmod>2025-09-23T16:08:31.000Z</lastmod>
+            <lastmod>2026-10-01T21:47:22.000Z</lastmod>
         </url>
         
     
         
         <url>
             <loc>http://pywriter.tawtaw.site/developer/zoom/zoom-room-basics/</loc>
-            <lastmod>2026-10-01T21:47:44.171Z</lastmod>
+            <lastmod>2026-10-01T22:42:54.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://pywriter.tawtaw.site/developer/zoom/zoom-room-booking-and-host-with-outlook-integration/</loc>
+            <lastmod>2026-10-01T22:42:54.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://pywriter.tawtaw.site/developer/zoom/zoom-room-share-screen/</loc>
+            <lastmod>2026-10-01T22:42:54.000Z</lastmod>
         </url>
         
     
@@ -2762,7 +2797,7 @@
         
         <url>
             <loc>http://pywriter.tawtaw.site/music/lsdj/lsdj-tips/</loc>
-            <lastmod>2026-08-22T18:28:44.000Z</lastmod>
+            <lastmod>2026-10-02T17:03:16.000Z</lastmod>
         </url>
         
     
@@ -3167,6 +3202,13 @@
     
         
         <url>
+            <loc>http://pywriter.tawtaw.site/shower-thoughts/idioms/better-late-than-never/</loc>
+            <lastmod>2026-10-03T16:15:29.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>http://pywriter.tawtaw.site/shower-thoughts/idioms/between-rock-and-a-hard-place/</loc>
             <lastmod>2026-08-26T00:48:06.000Z</lastmod>
         </url>
@@ -3190,6 +3232,20 @@
         <url>
             <loc>http://pywriter.tawtaw.site/shower-thoughts/idioms/cart-before-the-horse/</loc>
             <lastmod>2026-08-26T00:48:18.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://pywriter.tawtaw.site/shower-thoughts/idioms/curiosity-killed-the-cat/</loc>
+            <lastmod>2026-10-05T17:07:08.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://pywriter.tawtaw.site/shower-thoughts/idioms/do-as-i-say-not-as-i-do/</loc>
+            <lastmod>2026-10-06T16:14:29.049Z</lastmod>
         </url>
         
     
@@ -3302,6 +3358,13 @@
         <url>
             <loc>http://pywriter.tawtaw.site/shower-thoughts/idioms/motivation-is-what-gets-you-started-but-discipline-is-what-keeps-you-going/</loc>
             <lastmod>2026-08-26T00:47:49.000Z</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://pywriter.tawtaw.site/shower-thoughts/idioms/no-skin-off-my-back/</loc>
+            <lastmod>2026-10-03T16:10:29.000Z</lastmod>
         </url>
         
     

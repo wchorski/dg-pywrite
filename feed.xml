@@ -3,7 +3,7 @@
   <title>Pywrite Garden</title>
   <link href="http://pywriter.tawtaw.site/feed.xml" rel="self"/>
   <link href="http://pywriter.tawtaw.site"/>
-  <updated>2026-10-19T23:26:13Z</updated>
+  <updated>2026-10-19T23:31:44Z</updated>
   <id>http://pywriter.tawtaw.site</id><entry>
     <title>simpatico</title>
     <updated>2026-08-26T00:48:47.000Z</updated>
@@ -3753,7 +3753,7 @@ I won&#39;t say I did any extensive testing, but I believe the battery life is m
     <updated>2026-10-01T22:42:54.000Z</updated>
     <id>http://pywriter.tawtaw.site/developer/zoom/zoom-room-share-screen/</id>
     <content type="html">&lt;p&gt;Taking a look at any Zoom Room wallpaper shows this info graphic.&lt;br /&gt;
-!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoom-screen-share-card (1).png&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoom-screen-share-card%20(1).png&quot; alt=&quot;attachments/zoom-screen-share-card (1).png&quot; /&gt;&lt;br /&gt;
 This lets you know you can &lt;em&gt;wirelessly&lt;/em&gt; share your screen using the Zoom app on your laptop. On the app&#39;s home screen you will find the same 3 buttons&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;New Meeting&lt;/li&gt;
@@ -3774,10 +3774,10 @@ This lets you know you can &lt;em&gt;wirelessly&lt;/em&gt; share your screen usi
 &lt;li&gt;Meeting start and end times: &lt;em&gt;4:30 PM to 5:00 PM&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Setting an end time is important as it makes sure there is no overlap with double bookings of the room&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoomroom-event-1.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoomroom-event-1.png&quot; alt=&quot;attachments/zoomroom-event-1.png&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;add-on-a-zoom-link&quot; tabindex=&quot;-1&quot;&gt;Add On a Zoom Link&lt;/h3&gt;
 &lt;p&gt;After you have added the &lt;a href=&quot;https://appsource.microsoft.com/en-us/product/office/WA104381712?src=office&amp;amp;corrid=cd258da5-f6dd-35f4-3cd9-383fd4e1fdc9&amp;amp;omexanonuid=&amp;amp;referralurl=&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Zoom for Outlook Add-in&lt;/a&gt;, you should see a &lt;strong&gt;Zoom&lt;/strong&gt; button in your toolbar&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoomroom-event-2.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoomroom-event-2.png&quot; alt=&quot;attachments/zoomroom-event-2.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Clicking &amp;quot;Add a Zoom Meeting&amp;quot; will do 2 things&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a zoom link &lt;code&gt;https://moeits.zoom.us/...&lt;/code&gt; to the &lt;strong&gt;Location&lt;/strong&gt; field (this becomes a one click Join button for all invitees)&lt;/li&gt;
@@ -3789,20 +3789,20 @@ This lets you know you can &lt;em&gt;wirelessly&lt;/em&gt; share your screen usi
 &lt;p&gt;[!tip] If you don&#39;t know your meeting room&#39;s name&lt;br /&gt;
 If you don&#39;t know the exact name of the meeting room you may type &lt;code&gt;room&lt;/code&gt; and let the drop down suggest all available rooms to book. From their you can click on your choice&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoomroom-event-3.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoomroom-event-3.png&quot; alt=&quot;attachments/zoomroom-event-3.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;In this example we are booking the &lt;strong&gt;MOEITS Conference Room&lt;/strong&gt;. This also automatically adds the room as a &lt;em&gt;Required participant&lt;/em&gt; in the persons field.&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoomroom-event-4.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoomroom-event-4.png&quot; alt=&quot;attachments/zoomroom-event-4.png&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;double-bookings&quot; tabindex=&quot;-1&quot;&gt;Double Bookings&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!error] What Just Happened?&lt;br /&gt;
 If there is a conflicting event that overlaps your event, the room will reply with an email stating the conflict.&lt;/p&gt;
 &lt;p&gt;This &lt;em&gt;does not&lt;/em&gt; remove/block your calendar event, but does serve as a warning you may have a room mate for this meeting. You will need to resolve the conflict peer-to-peer.&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoomroom-event-5.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoomroom-event-5.png&quot; alt=&quot;attachments/zoomroom-event-5.png&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!success] All Good&lt;br /&gt;
 Once you resolve the booking overlap and submit the updated start/end times you will receive an email from the Room resource that everything checks out&lt;br /&gt;
-!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoomroom-event-6.png&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoomroom-event-6.png&quot; alt=&quot;attachments/zoomroom-event-6.png&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;add-online-meeting-to-all-events&quot; tabindex=&quot;-1&quot;&gt;Add Online Meeting to All Events&lt;/h2&gt;
@@ -3811,7 +3811,7 @@ Once you resolve the booking overlap and submit the updated start/end times you 
 &lt;p&gt;[!note] Still Need to Book the Room&lt;br /&gt;
 You will still need to add the room to your &lt;strong&gt;Location&lt;/strong&gt; field upon event creation&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoomroom-event-7.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoomroom-event-7.png&quot; alt=&quot;attachments/zoomroom-event-7.png&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;think-of-a-zoom-room-as-its-own-person&quot; tabindex=&quot;-1&quot;&gt;Think of a Zoom Room as Its Own Person&lt;/h2&gt;
 &lt;p&gt;It&#39;s best to imagine a Zoom Room as if they are another employee or peer when creating calendar events and deciding permissions. Here are some things to consider and the benefits and drawbacks they come with.&lt;/p&gt;
 &lt;p&gt;Moving over to the iPad (referred to as &amp;quot;the kiosk&amp;quot;) You will see the scheduled meetings and controls Zoom.&lt;/p&gt;
@@ -3825,7 +3825,7 @@ You will still need to add the room to your &lt;strong&gt;Location&lt;/strong&gt
 &lt;/ul&gt;
 &lt;h3 id=&quot;zoom-room-as-a-co-host&quot; tabindex=&quot;-1&quot;&gt;Zoom Room as a Co-Host&lt;/h3&gt;
 &lt;p&gt;You can give the Zoom Room host permissions under &lt;strong&gt;Advanced Options&lt;/strong&gt;. This comes with many benefits and ease of use. Mainly skipping the &lt;strong&gt;Host Baton Pass&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoomroom-event-host.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoomroom-event-host.png&quot; alt=&quot;attachments/zoomroom-event-host.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Pro:&lt;/strong&gt; The Zoom Room now has permission to mediate other participants from the kiosk (admit, mute, kick, etc).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Con:&lt;/strong&gt; Anyone with access to the room may start or cancel the meeting from the kiosk.&lt;/li&gt;
@@ -3922,12 +3922,12 @@ If you’d like more details on managing Zoom Rooms or alternative hosts, let me
 &lt;h2 id=&quot;answer&quot; tabindex=&quot;-1&quot;&gt;Answer&lt;/h2&gt;
 &lt;p&gt;When scheduling a Zoom meeting from the desktop app, you will click Meetings&amp;gt; Schedule&amp;gt;Settings. &lt;/p&gt;
 &lt;p&gt;Here uncheck  the waiting room option &amp;gt; scroll down to advance and check &amp;gt;allow participants to join anytime.&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoom-disable-waitingroom-allow-join-1.png&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoom-disable-waitingroom-allow-join-2.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoom-disable-waitingroom-allow-join-1.png&quot; alt=&quot;attachments/zoom-disable-waitingroom-allow-join-1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoom-disable-waitingroom-allow-join-2.png&quot; alt=&quot;attachments/zoom-disable-waitingroom-allow-join-2.png&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;multi-host&quot; tabindex=&quot;-1&quot;&gt;Multi Host&lt;/h2&gt;
 &lt;p&gt;A host must start the meeting to allow others to connect. Prior to the meeting, you can set others as &lt;code&gt;Alternative Hosts&lt;/code&gt;. As long as there is a host (or co-host) in the meeting, the meeting will persist even after you leave.&lt;/p&gt;
 &lt;p&gt;You can also promote participants to host during the meeting by going through the participants list.&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;http://pywriter.tawtaw.site/404&quot; target=&quot;&quot;&gt;attachments/zoom-disable-waitingroom-allow-join-3.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://pywriter.tawtaw.site/img/user/attachments/zoom-disable-waitingroom-allow-join-3.png&quot; alt=&quot;attachments/zoom-disable-waitingroom-allow-join-3.png&quot; /&gt;&lt;/p&gt;
 </content>
     <link href="http://pywriter.tawtaw.site/developer/zoom/zoom-disable-waiting-room/"/>
   </entry><entry>

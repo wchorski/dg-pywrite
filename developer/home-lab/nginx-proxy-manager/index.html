@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="color-scheme: only dark">
   <head>
     <title>Nginx Proxy Manager</title>
     <meta charset="utf-8">
@@ -74,7 +74,7 @@
 
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 
-<link href="/styles/custom-style.css" rel="stylesheet"><link href="/plugins/breadcrumbs/styles/trail.css?v=2026-10-19T23:17:44.180Z" rel="stylesheet"><link href="/plugins/image-lightbox/styles/lightbox.css?v=2026-10-19T23:17:44.180Z" rel="stylesheet"><link href="/styles/user/components.css?v=2026-10-19T23:17:44.180Z" rel="stylesheet"><link href="/styles/user/pywrite.css?v=2026-10-19T23:17:44.180Z" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/plugins/breadcrumbs/styles/trail.css?v=2026-10-19T23:26:27.261Z" rel="stylesheet"><link href="/plugins/image-lightbox/styles/lightbox.css?v=2026-10-19T23:26:27.261Z" rel="stylesheet"><link href="/styles/user/components.css?v=2026-10-19T23:26:27.261Z" rel="stylesheet"><link href="/styles/user/pywrite.css?v=2026-10-19T23:26:27.261Z" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -9481,7 +9481,7 @@ pagePanelMedia.addEventListener('change', evt => {
 
     async function init() {
         // Fetch search index (browser caches based on query param)
-        const docs = await fetch('/searchIndex.json?v=2026-10-19T23:17:44.180Z').then(r => r.json());
+        const docs = await fetch('/searchIndex.json?v=2026-10-19T23:26:27.261Z').then(r => r.json());
         const index = createIndex(docs);
         window.docs = docs;
         window.index = index;
@@ -9857,6 +9857,30 @@ document.addEventListener("DOMContentLoaded", function() {
         toggle.setAttribute("aria-expanded", "false");
       });
     });
+  });
+
+  // Format date cells. The timestamps plugin formats .human-date spans with
+  // the garden's configured format when it's enabled; any left empty here
+  // get a locale format so date columns never render blank.
+  document.querySelectorAll(".obsidian-bases-views .human-date").forEach(function(el) {
+    if (el.textContent.trim() !== "") return;
+    var value = (el.getAttribute("data-date") || "").trim();
+    var dateOnly = value.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    // Date-only values are calendar days, not instants: build them in
+    // local time so the viewer's timezone can't shift the day
+    var date = dateOnly
+      ? new Date(Number(dateOnly[1]), Number(dateOnly[2]) - 1, Number(dateOnly[3]))
+      : new Date(value);
+    if (isNaN(date.getTime())) {
+      el.textContent = value;
+      return;
+    }
+    var options = { year: "numeric", month: "short", day: "numeric" };
+    if (!dateOnly) {
+      options.hour = "numeric";
+      options.minute = "2-digit";
+    }
+    el.textContent = date.toLocaleString(undefined, options);
   });
 
   // Fill in dynamic date placeholders (today/now)

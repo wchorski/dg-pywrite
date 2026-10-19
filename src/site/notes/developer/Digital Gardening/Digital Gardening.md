@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/digital-gardening/digital-gardening/","noteIcon":"","created":"2025-04-09T11:32:15.000-05:00","updated":"2025-04-09T11:32:15.000-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/digital-gardening/digital-gardening/","noteIcon":"","created":"2025-04-09T11:32:15.000-05:00","updated":"2026-10-19T00:03:51.562-05:00","dg-note-properties":{}}
 ---
 
 
@@ -93,6 +93,13 @@ Now to share this garden with the world. I've tried my hand at a few publishing 
 - Hermitage
 	- Live garden: [The Threshold (utsob.me)](https://hermitage.utsob.me/)
 	- garden repo: [uroybd/topobon (github.com)](https://github.com/uroybd/topobon)
+
+## copy over attachments to local deploy
+when publishing notes to github, attachments will ususally get left off because of their size. I sync my notes using [[developer/Home Lab/Nextcloud\|Nextcloud]] so I should be able to just sync the attachments folder directly to the `src` directory of the digital garden build.
+```sh
+rsync /mnt/snowbank/nextcloud-aio/data/williamusic/files/vaults/pywrite/attachments \ 
+/home/icicle/docker/nginx/pywriter.williamusic.com/src/site/img/user/attachments
+```
 
 ---
 ## Credits

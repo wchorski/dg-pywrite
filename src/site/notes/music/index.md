@@ -6,6 +6,9 @@ A collection of notes that related to music, music business, music theory... you
 ### Recently Modified or Added
 | File                                                                                                             | Last modified      |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [[music/genres/Contemporary Music Genre\|Contemporary Music Genre]]                                           | 15.10.2026 - 10:05 |
+| [[music/genres/Experimental Music\|Experimental Music]]                                                       | 15.10.2026 - 10:05 |
+| [[music/discoveries/Stumbling Upon an R&B EP\|Stumbling Upon an R&B EP]]                                      | 15.10.2026 - 09:30 |
 | [[music/LSDJ/LSDJ Tips\|LSDJ Tips]]                                                                           | 02.10.2026 - 12:03 |
 | [[music/FL Studio/Novation Launchkey Mk2 Mkii with FL Studio\|Novation Launchkey Mk2 Mkii with FL Studio]]    | 23.08.2026 - 22:17 |
 | [[music/advice/Ai Generated Music Thoughts\|Ai Generated Music Thoughts]]                                     | 29.07.2026 - 23:55 |
@@ -13,8 +16,5 @@ A collection of notes that related to music, music business, music theory... you
 | [[music/Reaper/Reaper Batch Renaming Markers and Regions\|Reaper Batch Renaming Markers and Regions]]         | 23.07.2026 - 21:15 |
 | [[music/Reaper/Install Reaper Package manager Repack\|Install Reaper Package manager Repack]]                 | 22.07.2026 - 22:55 |
 | [[music/Reaper/Reaper DAW Knowledge\|Reaper DAW Knowledge]]                                                   | 22.07.2026 - 22:50 |
-| [[music/Reaper/Reaper Keybindings\|Reaper Keybindings]]                                                       | 22.07.2026 - 22:35 |
-| [[music/Reaper/Reaper Import AAF files from Film Editor\|Reaper Import AAF files from Film Editor]]           | 22.07.2026 - 22:35 |
-| [[music/WWise/Wwise Souncaster\|Wwise Souncaster]]                                                            | 07.07.2026 - 21:30 |
 
 { .block-language-dataview}

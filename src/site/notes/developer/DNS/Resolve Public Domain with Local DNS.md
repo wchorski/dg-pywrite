@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/dns/resolve-public-domain-with-local-dns/","tags":["DNS","domain","local"],"noteIcon":"","created":"2026-07-27T20:37:56.000-05:00","updated":"2026-07-27T20:37:56.000-05:00","dg-note-properties":{"tags":["DNS","domain","local"]}}
+{"dg-publish":true,"permalink":"/developer/dns/resolve-public-domain-with-local-dns/","tags":["DNS","domain","local"],"noteIcon":"","created":"2026-07-27T20:37:56.000-05:00","updated":"2026-10-18T23:42:44.559-05:00","dg-note-properties":{"tags":["DNS","domain","local"]}}
 ---
 
 If you've ever done self hosting and have bought a public domain, soon enough you'll come across resolving issues when you're on said home network.
@@ -44,3 +44,33 @@ proxy.lan.              0       IN      A       192.168.0.100
 ```
 
 `192.168.0.100` is the PC that runs [[developer/Home Lab/Nginx Proxy Manager\|Nginx Proxy Manager]]
+
+## DNSMASQ
+There is another way besides Local DNS and CNAME
+
+https://pi.hole/admin/settings/all
+
+under **misc.dnsmasq_lines**
+
+```sh
+sudo pihole-FTL --config misc.dnsmasq_lines
+```
+
+```output
+[ address=/williamusic.com/192.168.1.100, address=/tawtaw.site/192.168.1.100, address=/vpn.williamusic.com/192.168.1.2  ]
+```
+
+verify
+
+```sh
+nslookup west.williamusic.com 127.0.0.1
+nslookup anything.williamusic.com 127.0.0.1
+```
+
+**Why dnsmasq lines instead of Local DNS / CNAME records**
+
+The short answer: Pi-hole’s Local DNS page can’t do wildcards, and you wanted `*.williamusic.com` to resolve internally.
+
+- **Local DNS → DNS Records** maps one exact hostname to one IP. There’s no way to say “every subdomain of williamusic.com.” You’d have to add a record for each subdomain you ever use, and any new one you forgot would fall through to public DNS.
+- **CNAME Records** are also exact-match. A CNAME for `west.williamusic.com` would alias it to another name, and that name still needs to resolve to something, so it doesn’t solve the wildcard problem either.
+- **`address=/williamusic.com/IP`** (a dnsmasq directive) matches the domain _and every subdomain beneath it_. One line covers everything, including names you haven’t created yet.

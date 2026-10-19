@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/developer/game-dev/boo-no/","noteIcon":"","created":"2026-10-05T10:56:55.104-05:00","updated":"2026-10-05T10:59:57.464-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/developer/game-dev/boo-no/","noteIcon":"","created":"2026-10-05T15:07:32.000-05:00","updated":"2026-10-05T15:07:32.000-05:00","dg-note-properties":{}}
 ---
 
 ```txt

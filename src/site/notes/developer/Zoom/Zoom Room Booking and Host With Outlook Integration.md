@@ -10,12 +10,12 @@ To start, we making a good old Outlook Calendar Event. We will need 2 things
 
 Setting an end time is important as it makes sure there is no overlap with double bookings of the room
 
-![[attachments/zoomroom-event-1.png\|attachments/zoomroom-event-1.png]]
+![attachments/zoomroom-event-1.png](/img/user/attachments/zoomroom-event-1.png)
 
 ### Add On a Zoom Link
 After you have added the [Zoom for Outlook Add-in](https://appsource.microsoft.com/en-us/product/office/WA104381712?src=office&corrid=cd258da5-f6dd-35f4-3cd9-383fd4e1fdc9&omexanonuid=&referralurl=), you should see a **Zoom** button in your toolbar
 
-![[attachments/zoomroom-event-2.png\|attachments/zoomroom-event-2.png]]
+![attachments/zoomroom-event-2.png](/img/user/attachments/zoomroom-event-2.png)
 
 Clicking "Add a Zoom Meeting" will do 2 things
 
@@ -27,11 +27,11 @@ Now it's time to book the room you will be using for your event. In the **Locati
 > [!tip] If you don't know your meeting room's name
 > If you don't know the exact name of the meeting room you may type `room` and let the drop down suggest all available rooms to book. From their you can click on your choice
 
-![[attachments/zoomroom-event-3.png\|attachments/zoomroom-event-3.png]]
+![attachments/zoomroom-event-3.png](/img/user/attachments/zoomroom-event-3.png)
 
 In this example we are booking the **MOEITS Conference Room**. This also automatically adds the room as a *Required participant* in the persons field. 
 
-![[attachments/zoomroom-event-4.png\|attachments/zoomroom-event-4.png]]
+![attachments/zoomroom-event-4.png](/img/user/attachments/zoomroom-event-4.png)
 
 ### Double Bookings
 > [!error] What Just Happened?
@@ -39,11 +39,11 @@ In this example we are booking the **MOEITS Conference Room**. This also automat
 > 
 > This *does not* remove/block your calendar event, but does serve as a warning you may have a room mate for this meeting. You will need to resolve the conflict peer-to-peer.
 > 
-> ![[attachments/zoomroom-event-5.png\|attachments/zoomroom-event-5.png]]
+> ![attachments/zoomroom-event-5.png](/img/user/attachments/zoomroom-event-5.png)
 
 > [!success] All Good
 > Once you resolve the booking overlap and submit the updated start/end times you will receive an email from the Room resource that everything checks out
-![[attachments/zoomroom-event-6.png\|attachments/zoomroom-event-6.png]]
+![attachments/zoomroom-event-6.png](/img/user/attachments/zoomroom-event-6.png)
 
 ---
 ## Add Online Meeting to All Events
@@ -52,7 +52,7 @@ For those who always want a virtual option added onto their meetings, you have a
 > [!note] Still Need to Book the Room
 > You will still need to add the room to your **Location** field upon event creation
 
-![[attachments/zoomroom-event-7.png\|attachments/zoomroom-event-7.png]]
+![attachments/zoomroom-event-7.png](/img/user/attachments/zoomroom-event-7.png)
 
 ## Think of a Zoom Room as Its Own Person
 It's best to imagine a Zoom Room as if they are another employee or peer when creating calendar events and deciding permissions. Here are some things to consider and the benefits and drawbacks they come with. 
@@ -70,7 +70,7 @@ Setting the Location to the Zoom Room invites them as any other participant. The
 ### Zoom Room as a Co-Host
 You can give the Zoom Room host permissions under **Advanced Options**. This comes with many benefits and ease of use. Mainly skipping the **Host Baton Pass**
 
-![[attachments/zoomroom-event-host.png\|attachments/zoomroom-event-host.png]]
+![attachments/zoomroom-event-host.png](/img/user/attachments/zoomroom-event-host.png)
  
 - **Pro:** The Zoom Room now has permission to mediate other participants from the kiosk (admit, mute, kick, etc).
 - **Con:** Anyone with access to the room may start or cancel the meeting from the kiosk. 

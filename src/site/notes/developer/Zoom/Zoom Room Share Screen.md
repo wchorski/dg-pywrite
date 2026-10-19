@@ -3,7 +3,7 @@
 ---
 
 Taking a look at any Zoom Room wallpaper shows this info graphic. 
-![[attachments/zoom-screen-share-card (1).png\|attachments/zoom-screen-share-card (1).png]]
+![attachments/zoom-screen-share-card (1).png](/img/user/attachments/zoom-screen-share-card%20(1).png)
 This lets you know you can *wirelessly* share your screen using the Zoom app on your laptop. On the app's home screen you will find the same 3 buttons
 
 - New Meeting
